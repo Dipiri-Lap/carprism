@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CarPrism — 자동차 뉴스를 감각적으로 읽다</title>
+<meta name="description" content="부산모빌리티쇼, 국산차 판매 순위 등 자동차 업계 소식을 감각적인 포맷으로 재구성해 전하는 카프리즘.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.carprism.example/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CarPrism — 자동차 뉴스를 감각적으로 읽다">
+<meta property="og:description" content="부산모빌리티쇼, 국산차 판매 순위 등 자동차 업계 소식을 감각적인 포맷으로 재구성해 전하는 자동차 정보 사이트.">
+<meta property="og:image" content="https://www.carprism.example/images/grandeur_official.png">
+<meta property="og:url" content="https://www.carprism.example/">
+<meta property="og:site_name" content="CarPrism">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CarPrism — 자동차 뉴스를 감각적으로 읽다">
+<meta name="twitter:description" content="자동차 업계 소식을 감각적인 포맷으로 재구성해 전한다.">
+<meta name="twitter:image" content="https://www.carprism.example/images/grandeur_official.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/home.css">
+
+<!-- JSON-LD: 사이트 및 게시글 목록 구조화 데이터 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CarPrism",
+  "url": "https://www.carprism.example/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "카프리즘 최신 기사",
+  "url": "https://www.carprism.example/",
+  "hasPart": [
+    {
+      "@type": "NewsArticle",
+      "headline": "캐딜락 에스컬레이드 IQ·IQL — 750마력 710km 전동화 플래그십, 국내외 정보 총정리",
+      "url": "https://www.carprism.example/articles/cadillac-escalade-iq-review.html",
+      "datePublished": "2026-07-20T10:30:00+09:00",
+      "image": "https://www.carprism.example/images/escalade_iq_front.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "전장을 달리는 슈퍼카 — 콜 오브 듀티 MW4의 애스턴마틴 드레드노트 완전 분석",
+      "url": "https://www.carprism.example/articles/aston-martin-dreadnought-mw4.html",
+      "datePublished": "2026-07-19T22:40:00+09:00",
+      "image": "https://www.carprism.example/images/am_dreadnought_main.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "벤틀리 더 뉴 컨티넨탈 GT S·GTC S 국내 출시 — 680마력 하이브리드, 3억 6,850만 원부터",
+      "url": "https://www.carprism.example/articles/bentley-continental-gt-s-gtc-s-korea.html",
+      "datePublished": "2026-07-20T09:00:00+09:00",
+      "image": "https://www.carprism.example/images/bentley_gt_s_official.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "제네시스 '2027 GV60'·'2027 GV70 전동화 모델' 판매 개시 — 가격은 동결, 사양은 강화",
+      "url": "https://www.carprism.example/articles/genesis-gv60-gv70-electrified-2027.html",
+      "datePublished": "2026-07-19T08:40:00+09:00",
+      "image": "https://www.carprism.example/images/genesis_gv60_2027_official.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "기아 K5 상품성 강화 연식변경, 2,763만 원부터 — 국내외 리뷰 종합",
+      "url": "https://www.carprism.example/articles/k5-2026-facelift-review.html",
+      "datePublished": "2026-07-18T09:10:00+09:00",
+      "image": "https://www.carprism.example/images/k5_side_exterior.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "드디어 하이브리드 탑재! 3세대 '기아 셀토스 풀체인지' 시승기 및 가성비 추천 트림",
+      "url": "https://www.carprism.example/articles/seltos-hybrid-review-2026.html",
+      "datePublished": "2026-07-17T05:20:00+09:00",
+      "image": "https://www.carprism.example/images/seltos_official.png"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "7월 여름 한정 최대 400만 원 할인! 지금 당장 계약해야 이득인 가성비 국산·수입 세단",
+      "url": "https://www.carprism.example/articles/july-promotions-2026.html",
+      "datePublished": "2026-07-17T04:06:00+09:00",
+      "image": "https://www.carprism.example/images/sonata_official.png"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "테슬라 모델 Y 독주에 브레이크? 가성비 끝판왕 'BYD 돌핀' 한국 상륙 분석",
+      "url": "https://www.carprism.example/articles/tesla-vs-byd-2026.html",
+      "datePublished": "2026-07-17T03:51:00+09:00",
+      "image": "https://www.carprism.example/images/sealion6.jpg"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "지금 사면 후회할까? 2026 하반기 출시 예정 하이브리드 & SUV 주목 신차 5종",
+      "url": "https://www.carprism.example/articles/hybrids-and-suvs-2026.html",
+      "datePublished": "2026-07-17T02:55:00+09:00",
+      "image": "https://www.carprism.example/images/gv80_hybrid.png"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "2026년 6월 국산차 판매량 TOP 10, 그랜저가 정상 탈환",
+      "url": "https://www.carprism.example/articles/sales-ranking-2026-06.html",
+      "datePublished": "2026-07-14T10:53:00+09:00",
+      "image": "https://www.carprism.example/images/grandeur_official.png"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "아반떼 vs BYD, 부산모빌리티쇼가 보여준 하이브리드 전쟁",
+      "url": "https://www.carprism.example/articles/avante-vs-byd-busan-2026.html",
+      "datePublished": "2026-07-12T06:24:10+09:00",
+      "image": "https://www.carprism.example/images/avante.png"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="index.html" class="nav-link active" id="nav-home">홈</a>
+      <a href="#" class="nav-link" id="nav-electric">전기차</a>
+      <a href="#" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="#" class="nav-link" id="nav-review">리뷰</a>
+      <a href="#" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="#" class="nav-link" id="nav-import">수입차</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== MOBILE NAV ===== -->
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="index.html" class="nav-link active">홈</a>
+  <a href="#" class="nav-link">전기차</a>
+  <a href="#" class="nav-link">자동차 뉴스</a>
+  <a href="#" class="nav-link">리뷰</a>
+  <a href="#" class="nav-link">국산차</a>
+  <a href="#" class="nav-link">수입차</a>
+</nav>
+
+<main>
+
+  <!-- ===== HERO SLIDER ===== -->
+  <section class="hero-slider" id="hero" aria-label="주요 기사 슬라이더">
+    <div class="slider-track" id="sliderTrack">
+
+      <!-- Slide 1 — 드레드노트 -->
+      <div class="slide" role="group" aria-label="슬라이드 1">
+        <div class="slide-image">
+          <img src="images/am_dreadnought_main.jpg" alt="애스턴마틴 드레드노트 공식 이미지" loading="eager">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--gold">GAME × AUTO</span>
+          <h2 class="slide-title">전장을 달리는 슈퍼카 — 콜 오브 듀티 MW4의 '애스턴마틴 드레드노트' 완전 분석</h2>
+          <p class="slide-desc">인피니티 워드 × 애스턴마틴의 역사적 콜라보. V12 전술 SUV의 이름 유래부터 칠턴 그린 외장, 옥스퍼드 탄 럭셔리 인테리어까지 모든 스펙을 완전 해부합니다.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.19 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/aston-martin-dreadnought-mw4.html" class="slide-btn" id="slide-btn-dreadnought">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide" role="group" aria-label="슬라이드 2">
+        <div class="slide-image">
+          <img src="images/sonata_official.png" alt="현대 쏘나타 디 엣지 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--gold">FINANCE INSIGHT</span>
+          <h2 class="slide-title">7월 여름 한정 최대 400만 원 할인! 지금 당장 계약해야 이득인 가성비 세단</h2>
+          <p class="slide-desc">"지금 당장 차가 필요한데, 싸게 살 수 있을까?" 여름 비수기를 돌파하려는 국산 및 수입차 딜러사들의 7월 한정 파격 혜택 가이드.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.17 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/july-promotions-2026.html" class="slide-btn" id="slide-btn-1">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide" role="group" aria-label="슬라이드 3">
+        <div class="slide-image">
+          <img src="images/sealion6.jpg" alt="BYD 씨라이언 7 및 전기차 라인업 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--blue">IMPORT EV</span>
+          <h2 class="slide-title">테슬라 모델 Y 독주에 브레이크? 가성비 끝판왕 'BYD 돌핀' 한국 상륙 분석</h2>
+          <p class="slide-desc">독보적인 수입 판매량 1위의 테슬라와 가성비로 한국 공습을 개시한 글로벌 판매 1위 BYD. 보조금 대격변 속에서 스마트 컨슈머의 똑똑한 선택은 무엇일까요?</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.17 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/tesla-vs-byd-2026.html" class="slide-btn" id="slide-btn-2">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide" role="group" aria-label="슬라이드 3">
+        <div class="slide-image">
+          <img src="images/gv80_hybrid.png" alt="제네시스 GV80 하이브리드 컨셉 그래픽 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat">TREND INSIGHT</span>
+          <h2 class="slide-title">지금 사면 후회할까? 2026 하반기 출시 예정 하이브리드 & SUV 주목 신차 5종</h2>
+          <p class="slide-desc">"지금 살까, 좀 더 기다려볼까?" 하반기 신차 소식을 기다리는 예비 구매자들을 위해 최신 국내외 정보와 똑똑한 구매 가이드를 제안합니다.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.17 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/hybrids-and-suvs-2026.html" class="slide-btn" id="slide-btn-3">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide" role="group" aria-label="슬라이드 4">
+        <div class="slide-image">
+          <img src="images/grandeur_official.png" alt="6월 판매 1위로 복귀한 현대 그랜저 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--blue">SALES RANKING</span>
+          <h2 class="slide-title">2026년 6월 국산차 판매량 TOP 10, 그랜저가 정상 탈환</h2>
+          <p class="slide-desc">6월 국산차 내수 판매 12만 826대, 전월 대비 25.5% 반등. 그랜저 1위 복귀, 셀토스 최대 상승폭, 아반떼 유일 하락까지 TOP 10 순위를 정리했다.</p>
+          <p class="slide-meta">김기자 &nbsp;·&nbsp; 2026.07.14 &nbsp;·&nbsp; <span class="slide-source">원문: 카이즈유 / 한국자동차연구원</span></p>
+          <a href="articles/sales-ranking-2026-06.html" class="slide-btn" id="slide-btn-4">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide" role="group" aria-label="슬라이드 5">
+        <div class="slide-image">
+          <img src="images/avante.png" alt="현대차가 부산모빌리티쇼 2026에서 공개한 신형 아반떼" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--green">HYUNDAI · BYD</span>
+          <h2 class="slide-title">아반떼 vs BYD, 부산모빌리티쇼가 보여준 하이브리드 전쟁</h2>
+          <p class="slide-desc">부산모빌리티쇼 2026에서 격돌한 현대 신형 아반떼 하이브리드와 BYD의 전략형 모델. 두 차의 스펙과 가격, 시장 전략을 비교 분석한다.</p>
+          <p class="slide-meta">박기자 &nbsp;·&nbsp; 2026.07.12 &nbsp;·&nbsp; <span class="slide-source">원문: 오토트리뷴 / 매일경제</span></p>
+          <a href="articles/avante-vs-byd-busan-2026.html" class="slide-btn" id="slide-btn-5">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="slide" role="group" aria-label="슬라이드 6">
+        <div class="slide-image">
+          <img src="images/grandeur_official.png" alt="현대 아이오닉 9 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--green">전기차</span>
+          <h2 class="slide-title">현대 아이오닉 9, 7인승 플래그십 전기 SUV 국내 공식 출시</h2>
+          <p class="slide-desc">현대자동차가 대형 7인승 전기 SUV 아이오닉 9를 국내 공식 출시. 1회 충전 항속거리 620km, 울트라 패스트 충전 지원으로 시장 주도권 확보에 나섰다.</p>
+          <p class="slide-meta">이기자 &nbsp;·&nbsp; 2026.07.10 &nbsp;·&nbsp; <span class="slide-source">원문: 현대자동차 / 전자신문</span></p>
+          <a href="#" class="slide-btn" id="slide-btn-6">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 7 -->
+      <div class="slide" role="group" aria-label="슬라이드 7">
+        <div class="slide-image">
+          <img src="images/seltos_official.png" alt="기아 셀토스 3세대 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--gold">TEST DRIVE</span>
+          <h2 class="slide-title">드디어 하이브리드 탑재! 3세대 '기아 셀토스 풀체인지' 시승기 및 가성비 추천 트림</h2>
+          <p class="slide-desc">가솔린 위주였던 셀토스가 하이브리드 파워트레인을 얹고 3세대로 탈바꿈했다. 실주행 연비·정숙성부터 코나·스포티지 대비 커진 체격, 가성비 트림 조합까지 시승기로 총정리.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.17 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/seltos-hybrid-review-2026.html" class="slide-btn" id="slide-btn-7">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 8 -->
+      <div class="slide" role="group" aria-label="슬라이드 8">
+        <div class="slide-image">
+          <img src="images/k5_side_exterior.jpg" alt="기아 K5 연식변경 모델 실물 사진" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--gold">FACELIFT REVIEW</span>
+          <h2 class="slide-title">기아 K5 상품성 강화 연식변경, 2,763만 원부터 — 국내외 리뷰 종합</h2>
+          <p class="slide-desc">7월 2일 판매를 시작한 K5 연식변경 모델. 신설 '베스트 셀렉션' 트림과 강화된 편의·안전 사양, 국내외 리뷰·시승 영상까지 총정리.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.18 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/k5-2026-facelift-review.html" class="slide-btn" id="slide-btn-8">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 9 -->
+      <div class="slide" role="group" aria-label="슬라이드 9">
+        <div class="slide-image">
+          <img src="images/genesis_gv60_2027_official.jpg" alt="제네시스 2027 GV60 실물 사진" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat" style="background:var(--accent-gen);">GENESIS EV</span>
+          <h2 class="slide-title">제네시스 '2027 GV60'·'2027 GV70 전동화 모델' 판매 개시 — 가격은 동결, 사양은 강화</h2>
+          <p class="slide-desc">고객 편의 사양을 강화하고 선택권을 확대한 연식변경 모델. 판매 가격은 동결하고 페달 오조작 안전 보조, 에르고 모션 시트 등 상품성을 끌어올렸다.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.19 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/genesis-gv60-gv70-electrified-2027.html" class="slide-btn" id="slide-btn-9">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 10 -->
+      <div class="slide" role="group" aria-label="슬라이드 10">
+        <div class="slide-image">
+          <img src="images/bentley_gt_s_official.jpg" alt="벤틀리 더 뉴 컨티넨탈 GT S 공식 이미지" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--gold">LUXURY IMPORT</span>
+          <h2 class="slide-title">벤틀리 더 뉴 컨티넨탈 GT S·GTC S 국내 출시 — 680마력 하이브리드, 3억 6,850만 원부터</h2>
+          <p class="slide-desc">한정판 '슈퍼스포츠'에서 영감받은 역대 가장 강력한 S 모델. 680마력 하이 퍼포먼스 하이브리드와 블랙라인 스펙 디자인을 갖췄다.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.20 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/bentley-continental-gt-s-gtc-s-korea.html" class="slide-btn" id="slide-btn-10">기사 읽기 →</a>
+        </div>
+      </div>
+
+      <!-- Slide 12 -->
+      <div class="slide" role="group" aria-label="슬라이드 12">
+        <div class="slide-image">
+          <img src="images/escalade_iq_front.jpg" alt="캐딜락 에스컬레이드 IQ 실물 사진" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--blue">IMPORT EV</span>
+          <h2 class="slide-title">캐딜락 에스컬레이드 IQ·IQL — 750마력 710km 전동화 플래그십, 국내외 정보 총정리</h2>
+          <p class="slide-desc">완전 전동화 플래그십 SUV 에스컬레이드 IQ에 롱바디 IQL이 합류했다. 750마력 듀얼모터, 710km 주행거리, 55인치 커브드 디스플레이까지 국내외 정보를 총정리.</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; 2026.07.20 &nbsp;·&nbsp; <span class="slide-source">원문: 카프리즘 기획 기사</span></p>
+          <a href="articles/cadillac-escalade-iq-review.html" class="slide-btn" id="slide-btn-12">기사 읽기 →</a>
+        </div>
+      </div>
+
+    </div><!-- /.slider-track -->
+
+    <!-- 좌우 화살표 -->
+    <button class="slider-arrow slider-arrow--prev" id="sliderPrev" aria-label="이전 슬라이드">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="slider-arrow slider-arrow--next" id="sliderNext" aria-label="다음 슬라이드">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+
+    <!-- 하단 도트 -->
+    <div class="slider-dots" id="sliderDots" role="tablist" aria-label="슬라이드 선택">
+      <button class="dot dot--active" id="dot-0" role="tab" aria-selected="true" aria-label="슬라이드 1"></button>
+      <button class="dot" id="dot-1" role="tab" aria-selected="false" aria-label="슬라이드 2"></button>
+      <button class="dot" id="dot-2" role="tab" aria-selected="false" aria-label="슬라이드 3"></button>
+      <button class="dot" id="dot-3" role="tab" aria-selected="false" aria-label="슬라이드 4"></button>
+      <button class="dot" id="dot-4" role="tab" aria-selected="false" aria-label="슬라이드 5"></button>
+      <button class="dot" id="dot-5" role="tab" aria-selected="false" aria-label="슬라이드 6"></button>
+      <button class="dot" id="dot-6" role="tab" aria-selected="false" aria-label="슬라이드 7"></button>
+      <button class="dot" id="dot-7" role="tab" aria-selected="false" aria-label="슬라이드 8"></button>
+      <button class="dot" id="dot-8" role="tab" aria-selected="false" aria-label="슬라이드 9"></button>
+      <button class="dot" id="dot-9" role="tab" aria-selected="false" aria-label="슬라이드 10"></button>
+      <button class="dot" id="dot-10" role="tab" aria-selected="false" aria-label="슬라이드 11"></button>
+      <button class="dot" id="dot-11" role="tab" aria-selected="false" aria-label="슬라이드 12"></button>
+    </div>
+
+    <!-- 하단 진행 바 -->
+    <div class="slider-progress-bar" id="sliderProgressBar"></div>
+
+  </section><!-- /.hero-slider -->
+
+  <!-- ===== CONTENT WRAPPER: Main(70%) + Sidebar(30%) ===== -->
+  <div class="content-wrap wrap">
+
+    <!-- ===== LEFT / MAIN COLUMN ===== -->
+    <div class="main-col">
+
+
+
+      <!-- 최신 기사 섹션 -->
+      <section class="section-block" id="articles" aria-labelledby="articles-title">
+        <div class="section-head reveal">
+          <h2 id="articles-title" class="section-title">
+            <span class="section-title-bar"></span>최신 기사
+          </h2>
+          <a href="#" class="section-more">전체 보기 →</a>
+        </div>
+        <ul class="article-list" role="list">
+          <li>
+            <a href="articles/cadillac-escalade-iq-review.html" class="article-row reveal" id="card-latest-escalade">
+              <div class="row-thumb">
+                <img src="images/escalade_iq_front.jpg" alt="캐딜락 에스컬레이드 IQ 실물 사진" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">IMPORT EV</span>
+                <h3 class="row-title">캐딜락 에스컬레이드 IQ·IQL — 750마력 710km 전동화 플래그십, 국내외 정보 총정리</h3>
+                <p class="row-meta">2026.07.20 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/aston-martin-dreadnought-mw4.html" class="article-row reveal" id="card-latest-dreadnought">
+              <div class="row-thumb">
+                <img src="images/am_dreadnought_main.jpg" alt="애스턴마틴 드레드노트 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">GAME × AUTO</span>
+                <h3 class="row-title">전장을 달리는 슈퍼카 — 콜 오브 듀티 MW4의 '애스턴마틴 드레드노트' 완전 분석</h3>
+                <p class="row-meta">2026.07.19 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/bentley-continental-gt-s-gtc-s-korea.html" class="article-row reveal" id="card-latest-bentley">
+              <div class="row-thumb">
+                <img src="images/bentley_gt_s_official.jpg" alt="벤틀리 더 뉴 컨티넨탈 GT S 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">LUXURY IMPORT</span>
+                <h3 class="row-title">벤틀리 더 뉴 컨티넨탈 GT S·GTC S 국내 출시 — 680마력 하이브리드, 3억 6,850만 원부터</h3>
+                <p class="row-meta">2026.07.20 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/genesis-gv60-gv70-electrified-2027.html" class="article-row reveal" id="card-latest-genesis">
+              <div class="row-thumb">
+                <img src="images/genesis_gv60_2027_official.jpg" alt="제네시스 2027 GV60 실물 사진" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-genesis">GENESIS EV</span>
+                <h3 class="row-title">제네시스 '2027 GV60'·'2027 GV70 전동화 모델' 판매 개시 — 가격은 동결, 사양은 강화</h3>
+                <p class="row-meta">2026.07.19 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/k5-2026-facelift-review.html" class="article-row reveal" id="card-latest-k5">
+              <div class="row-thumb">
+                <img src="images/k5_side_exterior.jpg" alt="기아 K5 연식변경 모델 실물 사진" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">FACELIFT REVIEW</span>
+                <h3 class="row-title">기아 K5 상품성 강화 연식변경, 2,763만 원부터 — 국내외 리뷰 종합</h3>
+                <p class="row-meta">2026.07.18 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/seltos-hybrid-review-2026.html" class="article-row reveal" id="card-latest-seltos">
+              <div class="row-thumb">
+                <img src="images/seltos_official.png" alt="기아 셀토스 3세대 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">TEST DRIVE</span>
+                <h3 class="row-title">드디어 하이브리드 탑재! 3세대 '기아 셀토스 풀체인지' 시승기 및 가성비 추천 트림</h3>
+                <p class="row-meta">2026.07.17 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/july-promotions-2026.html" class="article-row reveal" id="card-latest-1">
+              <div class="row-thumb">
+                <img src="images/sonata_official.png" alt="현대 쏘나타 디 엣지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">FINANCE INSIGHT</span>
+                <h3 class="row-title">7월 여름 한정 최대 400만 원 할인! 지금 당장 계약해야 이득인 가성비 국산·수입 세단</h3>
+                <p class="row-meta">2026.07.17 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/tesla-vs-byd-2026.html" class="article-row reveal" id="card-latest-2">
+              <div class="row-thumb">
+                <img src="images/sealion6.jpg" alt="BYD 씨라이언 7 및 전기차 라인업 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">IMPORT EV</span>
+                <h3 class="row-title">테슬라 모델 Y 독주에 브레이크? 가성비 끝판왕 'BYD 돌핀' 한국 상륙 분석</h3>
+                <p class="row-meta">2026.07.17 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/hybrids-and-suvs-2026.html" class="article-row reveal" id="card-latest-3">
+              <div class="row-thumb">
+                <img src="images/gv80_hybrid.png" alt="제네시스 GV80 하이브리드" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">TREND INSIGHT</span>
+                <h3 class="row-title">지금 사면 후회할까? 2026 하반기 출시 예정 하이브리드 & SUV 주목 신차 5종</h3>
+                <p class="row-meta">2026.07.17 · 원문: 카프리즘 기획 기사</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/sales-ranking-2026-06.html" class="article-row reveal" id="card-latest-4">
+              <div class="row-thumb">
+                <img src="images/grandeur_official.png" alt="현대 그랜저 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">SALES RANKING</span>
+                <h3 class="row-title">2026년 6월 국산차 판매량 TOP 10, 그랜저가 정상 탈환</h3>
+                <p class="row-meta">2026.07.14 · 원문: 카이즈유 / 한국자동차연구원 외</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/avante-vs-byd-busan-2026.html" class="article-row reveal" id="card-latest-5">
+              <div class="row-thumb">
+                <img src="images/avante.png" alt="신형 아반떼" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">HYUNDAI · BYD</span>
+                <h3 class="row-title">아반떼 vs BYD, 부산모빌리티쇼가 보여준 하이브리드 전쟁</h3>
+                <p class="row-meta">2026.07.12 · 원문: 오토트리뷴 / 매일경제</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-latest-6">
+              <div class="row-thumb row-thumb--placeholder">
+                <img src="images/grandeur_official.png" alt="현대 아이오닉 9 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-ev">전기차</span>
+                <h3 class="row-title">현대 아이오닉 9, 7인승 플래그십 전기 SUV 국내 공식 출시</h3>
+                <p class="row-meta">2026.07.10 · 원문: 현대자동차 / 전자신문</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-latest-7">
+              <div class="row-thumb row-thumb--placeholder">
+                <img src="images/avante.png" alt="제네시스 GV90" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-genesis">제네시스</span>
+                <h3 class="row-title">제네시스 GV90, 럭셔리 대형 전기 SUV 글로벌 첫 공개</h3>
+                <p class="row-meta">2026.07.08 · 원문: 제네시스 공식 / 연합뉴스</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-latest-8">
+              <div class="row-thumb">
+                <img src="images/ray_official.png" alt="기아 EV3 공식 이미지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-ev">전기차</span>
+                <h3 class="row-title">기아 EV3, 대중화 이끌 컴팩트 전기 SUV 국내 인도 본격 개시</h3>
+                <p class="row-meta">2026.07.05 · 원문: 기아 공식 / 아시아경제</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-latest-9">
+              <div class="row-thumb">
+                <img src="images/sorento_official.png" alt="KGM 액티언" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">국산차</span>
+                <h3 class="row-title">KGM 신형 액티언, 사전 계약 돌풍에 이어 고객 인도 시작</h3>
+                <p class="row-meta">2026.07.03 · 원문: KGM / 머니투데이</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-latest-10">
+              <div class="row-thumb">
+                <img src="images/sonata_official.png" alt="포르쉐 911" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">수입차</span>
+                <h3 class="row-title">포르쉐 신형 911 카레라 GTS, 첫 고성능 하이브리드 탑재 완료</h3>
+                <p class="row-meta">2026.07.01 · 원문: 포르쉐 코리아 / 헤럴드경제</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- 페이지네이션 -->
+        <div class="pagination reveal" role="navigation" aria-label="페이지 이동">
+          <a href="#" class="page-prev" id="pagePrev" style="display:none; margin-right: 12px;">← 이전</a>
+          <span class="page-info" id="pageInfo">1 / 2페이지</span>
+          <a href="#" class="page-next" id="pageNext" style="margin-left: 12px;">다음 →</a>
+        </div>
+      </section>
+
+      <!-- ===== 자동차 뉴스 섹션 ===== -->
+      <section class="section-block" id="car-news" aria-labelledby="car-news-title">
+        <div class="section-head reveal">
+          <h2 id="car-news-title" class="section-title">
+            <span class="section-title-bar"></span>자동차 뉴스
+          </h2>
+          <a href="#" class="section-more">전체 보기 →</a>
+        </div>
+        <ul class="article-list" role="list">
+          <li>
+            <a href="#" class="article-row reveal" id="card-news-1">
+              <div class="row-thumb">
+                <img src="images/santafe_official.png" alt="현대차 팰리세이드" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">NEWS</span>
+                <h3 class="row-title">현대차, 대형 SUV 팰리세이드 연식 변경 모델 공식 출시</h3>
+                <p class="row-meta">2026.07.16 · 원문: 현대자동차 보도자료</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-news-2">
+              <div class="row-thumb">
+                <img src="images/sportage_official.png" alt="기아 스포티지" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">NEWS</span>
+                <h3 class="row-title">기아 스포티지 부분변경, 테스트카 포착으로 기대감 고조</h3>
+                <p class="row-meta">2026.07.13 · 원문: 오토헤럴드</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-news-3">
+              <div class="row-thumb">
+                <img src="images/grandeur_official.png" alt="제네시스 G80" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-genesis">NEWS</span>
+                <h3 class="row-title">제네시스 G80 페이스리프트 하이브리드 모델 출시설 가속화</h3>
+                <p class="row-meta">2026.07.09 · 원문: 카포스트</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===== 운전 상식 팁 섹션 ===== -->
+      <section class="section-block" id="driving-tips" aria-labelledby="driving-tips-title">
+        <div class="section-head reveal">
+          <h2 id="driving-tips-title" class="section-title">
+            <span class="section-title-bar"></span>운전 상식 팁
+          </h2>
+          <a href="#" class="section-more">전체 보기 →</a>
+        </div>
+        <ul class="article-list" role="list">
+          <li>
+            <a href="#" class="article-row reveal" id="card-tips-1">
+              <div class="row-thumb">
+                <img src="images/avante_official.png" alt="빗길 안전운전" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-sales">DRIVING TIPS</span>
+                <h3 class="row-title">장마철 빗길 안전운전 수칙 5가지, 수막현상(Hydroplaning) 예방 가이드</h3>
+                <p class="row-meta">2026.07.15 · 원문: 도로교통공단 안전 가이드</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-tips-2">
+              <div class="row-thumb">
+                <img src="images/santafe_official.png" alt="타이어 공기압" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-hyundai">DRIVING TIPS</span>
+                <h3 class="row-title">여름철 타이어 공기압, 빼야 할까 더 채워야 할까? 올바른 공기압 관리법</h3>
+                <p class="row-meta">2026.07.11 · 원문: 한국타이어 기술 정보</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="article-row reveal" id="card-tips-3">
+              <div class="row-thumb">
+                <img src="images/grandeur_official.png" alt="스마트키" loading="lazy" width="120" height="80">
+              </div>
+              <div class="row-info">
+                <span class="cat-label cat-genesis">DRIVING TIPS</span>
+                <h3 class="row-title">자동차 스마트키 배터리가 방전되었을 때 문 여는 방법 및 시동 팁</h3>
+                <p class="row-meta">2026.07.07 · 원문: 현대자동차 블루링크 매뉴얼</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    </div><!-- /.main-col -->
+
+    <!-- ===== RIGHT / SIDEBAR ===== -->
+    <aside class="sidebar" aria-label="사이드바">
+
+      <!-- 🔥 인기 기사 -->
+      <div class="sidebar-block reveal" id="sidebar-hot">
+        <h2 class="sidebar-title">🔥 인기 기사</h2>
+        <ul class="hot-list" role="list">
+          <li>
+            <a href="articles/sales-ranking-2026-06.html" class="hot-item" id="hot-1">
+              <div class="hot-thumb">
+                <img src="images/grandeur_official.png" alt="그랜저" loading="lazy" width="60" height="60">
+              </div>
+              <div class="hot-info">
+                <span class="hot-title">2026년 6월 국산차 판매량 TOP 10, 그랜저가 정상 탈환</span>
+                <span class="hot-date">2026.07.14</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="articles/avante-vs-byd-busan-2026.html" class="hot-item" id="hot-2">
+              <div class="hot-thumb">
+                <img src="images/avante.png" alt="아반떼" loading="lazy" width="60" height="60">
+              </div>
+              <div class="hot-info">
+                <span class="hot-title">아반떼 vs BYD, 부산모빌리티쇼가 보여준 하이브리드 전쟁</span>
+                <span class="hot-date">2026.07.12</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hot-item" id="hot-3">
+              <div class="hot-thumb">
+                <img src="images/grandeur_official.png" alt="아이오닉 9" loading="lazy" width="60" height="60">
+              </div>
+              <div class="hot-info">
+                <span class="hot-title">현대 아이오닉 9, 국내 공식 출시</span>
+                <span class="hot-date">2026.07.10</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hot-item" id="hot-4">
+              <div class="hot-thumb">
+                <img src="images/avante.png" alt="GV90" loading="lazy" width="60" height="60">
+              </div>
+              <div class="hot-info">
+                <span class="hot-title">제네시스 GV90, 글로벌 첫 공개</span>
+                <span class="hot-date">2026.07.08</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 카테고리 -->
+      <div class="sidebar-block reveal" id="sidebar-categories">
+        <h2 class="sidebar-title">카테고리</h2>
+        <div class="cat-tags">
+          <a href="#" class="cat-tag" id="cat-electric">전기차</a>
+          <a href="#" class="cat-tag" id="cat-news">자동차 뉴스</a>
+          <a href="#" class="cat-tag" id="cat-review">리뷰</a>
+          <a href="#" class="cat-tag" id="cat-domestic">국산차</a>
+          <a href="#" class="cat-tag" id="cat-import">수입차</a>
+        </div>
+      </div>
+
+      <!-- 소개 -->
+      <div class="sidebar-block reveal" id="sidebar-about">
+        <h2 class="sidebar-title">소개</h2>
+        <p class="about-text">카프리즘은 카이즈유, 오토트리뷴, 매일경제 등 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+      </div>
+
+    </aside><!-- /.sidebar -->
+
+  </div><!-- /.content-wrap -->
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-col footer-brand">
+      <a href="index.html" class="footer-logo" aria-label="CarPrism 홈">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 카이즈유, 오토트리뷴, 매일경제 등 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div class="footer-col">
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="#">전기차</a></li>
+        <li><a href="#">자동차 뉴스</a></li>
+        <li><a href="#">리뷰</a></li>
+        <li><a href="#">국산차</a></li>
+        <li><a href="#">수입차</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="#">소개</a></li>
+        <li><a href="#">광고 문의</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

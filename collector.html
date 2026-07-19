@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CarPrism — 기사 수집 툴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ── 기본 ── */
+:root {
+  --navy:       #0f1923;
+  --navy-light: #1a2840;
+  --navy-mid:   #243450;
+  --bg:         #f4f5f7;
+  --surface:    #ffffff;
+  --text:       #1e2430;
+  --muted:      #8892a0;
+  --border:     #e4e8ee;
+  --accent:     #e53935;
+  --blue:       #2979ff;
+  --green:      #00c29f;
+  --gold:       #e6a817;
+  --radius:     10px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;border:none;font-family:inherit}
+ul{list-style:none}
+
+/* ── 헤더 ── */
+.site-header{background:var(--navy);height:52px;display:flex;align-items:center;padding:0 24px;gap:16px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.4)}
+.logo{font-size:.95rem;font-weight:800;color:#fff;display:flex;align-items:center;gap:8px}
+.logo-icon{width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,var(--accent),#ff6f00);display:flex;align-items:center;justify-content:center;color:#fff;font-size:.85rem;font-weight:800}
+.logo em{font-style:normal;color:var(--accent);margin-left:2px}
+.header-sub{font-size:.78rem;color:rgba(255,255,255,.4);margin-left:4px}
+.header-nav-link{color:rgba(255,255,255,.6);font-size:.82rem;margin-left:auto;transition:color .2s}
+.header-nav-link:hover{color:#fff}
+
+/* ── 레이아웃 ── */
+.page-wrap{max-width:1320px;margin:0 auto;padding:24px 20px 60px;display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+
+/* ── 사이드패널 ── */
+.side-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;position:sticky;top:72px}
+.side-title{font-size:.9rem;font-weight:800;color:var(--text);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px}
+
+/* 소스 체크리스트 */
+.source-group{margin-bottom:18px}
+.source-group-label{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;padding:0 2px}
+.source-item{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:6px;cursor:pointer;transition:background .15s}
+.source-item:hover{background:var(--bg)}
+.source-item input[type=checkbox]{width:15px;height:15px;accent-color:var(--accent);cursor:pointer;flex-shrink:0}
+.source-name{font-size:.82rem;font-weight:500;color:var(--text);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.source-flag{font-size:.78rem;flex-shrink:0}
+.source-status{width:7px;height:7px;border-radius:50%;flex-shrink:0;background:var(--border)}
+.source-status.ok{background:var(--green)}
+.source-status.err{background:var(--accent)}
+.source-status.loading{background:var(--gold);animation:pulse .8s infinite alternate}
+@keyframes pulse{to{opacity:.3}}
+
+/* 컨트롤 버튼 */
+.ctrl-row{display:flex;gap:8px;margin-bottom:12px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:7px;font-size:.82rem;font-weight:700;transition:opacity .2s,transform .15s;white-space:nowrap}
+.btn:hover{opacity:.85;transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn-primary{background:var(--accent);color:#fff;width:100%;justify-content:center;padding:11px 16px;font-size:.88rem}
+.btn-sm{background:var(--bg);color:var(--text);border:1px solid var(--border);font-size:.76rem;padding:6px 10px}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-navy{background:var(--navy-light);color:#fff}
+.btn-danger{background:#c62828;color:#fff}
+
+/* 통계 */
+.stat-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.stat-box{background:var(--bg);border:1px solid var(--border);border-radius:7px;padding:10px 12px;text-align:center}
+.stat-num{font-size:1.3rem;font-weight:800;color:var(--text);display:block;line-height:1}
+.stat-label{font-size:.7rem;color:var(--muted);margin-top:4px}
+
+/* ── 메인 컬럼 ── */
+.main-col{}
+
+/* 상태 바 */
+.status-bar{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-bottom:16px;display:flex;align-items:center;gap:12px;min-height:52px}
+.status-icon{font-size:1.1rem;flex-shrink:0}
+.status-text{font-size:.85rem;color:var(--text);flex:1}
+.status-text strong{color:var(--accent)}
+.progress-wrap{flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));border-radius:3px;transition:width .3s ease;width:0%}
+
+/* 필터/정렬 바 */
+.filter-bar{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.filter-input{flex:1;min-width:180px;height:36px;border:1px solid var(--border);border-radius:7px;padding:0 12px;font-size:.82rem;font-family:inherit;color:var(--text);background:var(--surface);outline:none;transition:border-color .2s}
+.filter-input:focus{border-color:var(--accent)}
+.filter-select{height:36px;border:1px solid var(--border);border-radius:7px;padding:0 10px;font-size:.8rem;font-family:inherit;color:var(--text);background:var(--surface);cursor:pointer;outline:none}
+.count-badge{font-size:.78rem;color:var(--muted);white-space:nowrap}
+
+/* 기사 그리드 */
+.article-grid{display:flex;flex-direction:column;gap:10px}
+
+/* 기사 카드 */
+.article-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;align-items:flex-start;gap:14px;transition:box-shadow .2s,border-color .2s;position:relative}
+.article-card:hover{box-shadow:0 4px 18px rgba(0,0,0,.07);border-color:#d0d5de}
+.article-card.selected{border-color:var(--accent);background:rgba(229,57,53,.02)}
+.article-card.is-new{border-left:3px solid var(--green)}
+.article-card.is-read{opacity:.55}
+
+/* 체크박스 */
+.card-check{flex-shrink:0;margin-top:2px}
+.card-check input{width:16px;height:16px;accent-color:var(--accent);cursor:pointer}
+
+/* 카드 바디 */
+.card-body{flex:1;min-width:0}
+.card-top{display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.card-source{font-size:.7rem;font-weight:700;color:var(--muted);background:var(--bg);padding:2px 8px;border-radius:999px;border:1px solid var(--border);white-space:nowrap}
+.card-source.ko{color:#1565c0;background:rgba(21,101,192,.08);border-color:rgba(21,101,192,.15)}
+.card-source.en{color:#2e7d32;background:rgba(46,125,50,.08);border-color:rgba(46,125,50,.15)}
+.card-new-badge{font-size:.66rem;font-weight:700;background:var(--green);color:#fff;padding:1px 7px;border-radius:999px}
+.card-dup-badge{font-size:.66rem;font-weight:700;background:var(--gold);color:#fff;padding:1px 7px;border-radius:999px}
+.card-title{font-size:.9rem;font-weight:600;color:var(--text);line-height:1.5;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-title a{color:inherit;transition:color .2s}
+.card-title a:hover{color:var(--accent)}
+.card-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card-date{font-size:.73rem;color:var(--muted)}
+.card-desc{font-size:.78rem;color:var(--muted);margin-top:4px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 카드 액션 */
+.card-actions{display:flex;flex-direction:column;gap:6px;flex-shrink:0}
+.card-btn{width:32px;height:32px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.85rem;background:var(--bg);border:1px solid var(--border);transition:background .2s,color .2s;color:var(--muted)}
+.card-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.card-btn.saved{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* 빈 상태 */
+.empty-state{text-align:center;padding:60px 20px;color:var(--muted)}
+.empty-icon{font-size:2.5rem;margin-bottom:12px}
+.empty-text{font-size:.9rem;line-height:1.7}
+
+/* 선택 액션 바 */
+.select-bar{background:var(--navy-light);border-radius:var(--radius);padding:12px 16px;margin-bottom:14px;display:none;align-items:center;gap:12px}
+.select-bar.visible{display:flex}
+.select-bar-text{color:rgba(255,255,255,.8);font-size:.82rem;flex:1}
+.select-bar-text strong{color:#fff}
+
+/* 토스트 */
+#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:10px 22px;border-radius:999px;font-size:.82rem;font-weight:600;opacity:0;transition:all .3s;z-index:999;pointer-events:none;white-space:nowrap}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* 스크롤 상단 */
+#backTop{position:fixed;bottom:28px;right:24px;width:40px;height:40px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:0 4px 12px rgba(0,0,0,.25);opacity:0;transition:opacity .3s;pointer-events:none;z-index:99}
+#backTop.show{opacity:1;pointer-events:all}
+
+/* 반응형 */
+@media(max-width:860px){.page-wrap{grid-template-columns:1fr}.side-panel{position:static}}
+</style>
+</head>
+<body>
+
+<!-- ── 헤더 ── -->
+<header class="site-header">
+  <div class="logo">
+    <span class="logo-icon">C</span>
+    <span>CAR<em>PRISM</em></span>
+    <span class="header-sub">기사 수집 툴</span>
+  </div>
+  <a href="../index.html" class="header-nav-link">← 메인 사이트</a>
+</header>
+
+<div class="page-wrap">
+
+  <!-- ═══════════════════════════
+       사이드 패널 (소스 선택)
+  ═══════════════════════════ -->
+  <aside class="side-panel">
+    <div class="side-title">📡 뉴스 소스</div>
+
+    <!-- 국내 -->
+    <div class="source-group">
+      <div class="source-group-label">🇰🇷 국내 (자동차 전문 매체)</div>
+      <ul id="koSourceList"></ul>
+    </div>
+
+    <!-- 해외 -->
+    <div class="source-group">
+      <div class="source-group-label">🌐 해외 (직접 RSS)</div>
+      <ul id="enSourceList"></ul>
+    </div>
+
+    <div class="ctrl-row" style="margin-top:4px">
+      <button class="btn btn-sm" id="checkAllBtn">전체 선택</button>
+      <button class="btn btn-sm" id="uncheckAllBtn">전체 해제</button>
+    </div>
+
+    <!-- 수집 버튼 -->
+    <button class="btn btn-primary" id="fetchBtn">
+      <span id="fetchBtnIcon">🔍</span> 기사 수집 시작
+    </button>
+
+    <!-- 통계 -->
+    <div class="stat-row">
+      <div class="stat-box">
+        <span class="stat-num" id="statTotal">0</span>
+        <div class="stat-label">수집된 기사</div>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="statNew">0</span>
+        <div class="stat-label">신규 기사</div>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="statSaved">0</span>
+        <div class="stat-label">저장됨</div>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="statDup">0</span>
+        <div class="stat-label">중복 제외</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn btn-sm btn-navy" id="exportBtn" style="flex:1;justify-content:center">📥 내보내기</button>
+      <button class="btn btn-sm" id="importBtn" style="flex:1;justify-content:center;background:var(--navy-mid);color:#fff">📂 가져오기</button>
+    </div>
+    <div style="margin-top:8px">
+      <button class="btn btn-sm btn-danger" id="clearSeenBtn" style="width:100%;justify-content:center">🗑 기록 초기화</button>
+    </div>
+    <input type="file" id="importFileInput" accept=".json" style="display:none">
+  </aside>
+
+  <!-- ═══════════════════════════
+       메인 컬럼 (기사 목록)
+  ═══════════════════════════ -->
+  <div class="main-col">
+
+    <!-- 상태 바 -->
+    <div class="status-bar" id="statusBar">
+      <span class="status-icon">💡</span>
+      <span class="status-text">소스를 선택하고 <strong>기사 수집 시작</strong>을 눌러 주세요.</span>
+    </div>
+
+    <!-- 선택 액션 바 -->
+    <div class="select-bar" id="selectBar">
+      <span class="select-bar-text"><strong id="selectCount">0</strong>개 선택됨</span>
+      <button class="btn btn-sm btn-blue" id="saveSelectedBtn">💾 선택 저장</button>
+      <button class="btn btn-sm" id="markReadBtn">✓ 읽음 처리</button>
+      <button class="btn btn-sm btn-danger" id="deleteSelectedBtn">삭제</button>
+    </div>
+
+    <!-- 필터 바 -->
+    <div class="filter-bar">
+      <input type="search" class="filter-input" id="searchInput" placeholder="🔍 제목 검색...">
+      <select class="filter-select" id="sortSelect">
+        <option value="newest">최신순</option>
+        <option value="oldest">오래된순</option>
+        <option value="source">소스순</option>
+      </select>
+      <select class="filter-select" id="langSelect">
+        <option value="all">전체</option>
+        <option value="ko">국내만</option>
+        <option value="en">해외만</option>
+      </select>
+      <select class="filter-select" id="statusSelect">
+        <option value="all">전체</option>
+        <option value="new">신규만</option>
+        <option value="saved">저장됨</option>
+        <option value="unread">안읽음</option>
+      </select>
+      <span class="count-badge" id="countBadge">0개</span>
+    </div>
+
+    <!-- 기사 목록 -->
+    <div class="article-grid" id="articleGrid">
+      <div class="empty-state">
+        <div class="empty-icon">🚗</div>
+        <div class="empty-text">아직 수집된 기사가 없습니다.<br>사이드바에서 소스를 선택 후 수집을 시작하세요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 토스트 -->
+<div id="toast"></div>
+
+<!-- 상단 이동 -->
+<button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// ═══════════════════════════════════════════════════
+//  소스 정의
+// ═══════════════════════════════════════════════════
+
+// 여러 프록시를 순서대로 시도 (폴백)
+const PROXIES = [
+  url => `http://localhost:8080/${url}`, // 로컬 전용 CORS 프록시 (가장 빠르고 100% 확실함)
+  url => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&api_key=&count=30`,
+  url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+  url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+  url => `https://thingproxy.freeboard.io/fetch/${url}`,
+];
+
+// 국내 자동차 전문 미디어 피드 구성 (100% 자동차 기사만 제공)
+const KO_SOURCES = [
+  { id:'ko_oauto',  name:'오토트리뷴',    url:`http://www.autotribune.co.kr/rss/all.xml`, lang:'ko' },
+  { id:'ko_danawa', name:'다나와 자동차',   url:`https://rss.danawa.com/danawa_car_news.xml`, lang:'ko' },
+  { id:'ko_autodi', name:'오토데일리',      url:`http://www.autodaily.co.kr/rss/all.xml`, lang:'ko' },
+  { id:'ko_motorpd',name:'모터피디',        url:`http://www.motorpd.com/rss/all.xml`, lang:'ko' },
+  { id:'ko_carbuzz',name:'카버즈 코리아',    url:`http://www.carbuzz.co.kr/rss/all.xml`, lang:'ko' },
+  { id:'ko_motorg', name:'모터그래프',      url:`http://www.motorgraph.com/rss/all.xml`, lang:'ko' },
+  { id:'ko_autopost',name:'오토포스트',     url:`http://www.autopostkorea.com/rss/all.xml`, lang:'ko' },
+  { id:'ko_toprider',name:'탑라이더',       url:`http://www.top-rider.com/rss/all.xml`, lang:'ko' },
+  { id:'ko_ridemag',name:'라이드매거진',    url:`http://www.ridemag.co.kr/rss/all.xml`, lang:'ko' },
+  { id:'ko_carisyou',name:'카이즈유',       url:`http://www.carisyou.com/rss/all.xml`, lang:'ko' },
+];
+
+const EN_SOURCES = [
+  { id:'en_caranddriver', name:'Car and Driver',  url:'https://www.caranddriver.com/rss/all.xml',          lang:'en' },
+  { id:'en_motortrend',   name:'Motor Trend',     url:'https://www.motortrend.com/feed/',                  lang:'en' },
+  { id:'en_autoblog',     name:'Autoblog',        url:'https://www.autoblog.com/rss.xml',                  lang:'en' },
+  { id:'en_jalopnik',     name:'Jalopnik',        url:'https://jalopnik.com/rss',                          lang:'en' },
+  { id:'en_topgear',      name:'Top Gear',        url:'https://www.topgear.com/rss.xml',                   lang:'en' },
+  { id:'en_roadshow',     name:'CNET Roadshow',   url:'https://www.cnet.com/rss/news/',                    lang:'en' },
+  { id:'en_carbuzz',      name:'CarBuzz',         url:'https://carbuzz.com/rss',                           lang:'en' },
+  { id:'en_thecarconn',   name:'The Car Connection',url:'https://www.thecarconnection.com/rss/all',        lang:'en' },
+  { id:'en_edmunds',      name:'Edmunds',         url:'https://www.edmunds.com/rss/news',                  lang:'en' },
+  { id:'en_insideev',     name:'InsideEVs',       url:'https://insideevs.com/feed/',                       lang:'en' },
+];
+
+const ALL_SOURCES = [...KO_SOURCES, ...EN_SOURCES];
+
+// ═══════════════════════════════════════════════════
+//  상태
+// ═══════════════════════════════════════════════════
+let articles    = [];         // 현재 화면 기사 목록
+let seenUrls    = new Set();  // 중복 방지용 (localStorage 동기화)
+let savedUrls   = new Set();  // 저장된 URL
+let readUrls    = new Set();  // 읽은 URL
+let statDup     = 0;
+
+const MAX_ARTICLES = 1000; // localStorage 용량 한도 대비 최대 보관 기사 수
+
+function loadPersist() {
+  try {
+    const seen  = JSON.parse(localStorage.getItem('mi_seen')  || '[]');
+    const saved = JSON.parse(localStorage.getItem('mi_saved') || '[]');
+    const read  = JSON.parse(localStorage.getItem('mi_read')  || '[]');
+    seenUrls  = new Set(seen);
+    savedUrls = new Set(saved);
+    readUrls  = new Set(read);
+
+    // 기사 목록 복원 — pubDate를 Date 객체로 재변환
+    const stored = JSON.parse(localStorage.getItem('mi_articles') || '[]');
+    articles = stored.map(a => ({
+      ...a,
+      pubDate: a.pubDate ? new Date(a.pubDate) : new Date(0),
+      isSaved: savedUrls.has(a.linkKey),
+      isRead:  readUrls.has(a.linkKey),
+    }));
+  } catch(e) {
+    console.warn('loadPersist 오류:', e);
+  }
+}
+
+function savePersist() {
+  localStorage.setItem('mi_seen',  JSON.stringify([...seenUrls]));
+  localStorage.setItem('mi_saved', JSON.stringify([...savedUrls]));
+  localStorage.setItem('mi_read',  JSON.stringify([...readUrls]));
+
+  // 기사 목록 저장 — 최신 MAX_ARTICLES개만 유지, Date는 ISO 문자열로
+  const toSave = articles.slice(0, MAX_ARTICLES).map(a => ({
+    ...a,
+    pubDate: a.pubDate instanceof Date ? a.pubDate.toISOString() : null,
+  }));
+  try {
+    localStorage.setItem('mi_articles', JSON.stringify(toSave));
+  } catch(e) {
+    // 용량 초과 시 절반으로 줄여서 재시도
+    console.warn('localStorage 용량 초과, 절반 trim');
+    try {
+      localStorage.setItem('mi_articles', JSON.stringify(toSave.slice(0, Math.floor(MAX_ARTICLES / 2))));
+    } catch(e2) { console.error('저장 실패', e2); }
+  }
+}
+
+// ═══════════════════════════════════════════════════
+//  소스 목록 렌더
+// ═══════════════════════════════════════════════════
+function renderSourceList() {
+  ['ko','en'].forEach(lang => {
+    const list = document.getElementById(lang === 'ko' ? 'koSourceList' : 'enSourceList');
+    const sources = lang === 'ko' ? KO_SOURCES : EN_SOURCES;
+    list.innerHTML = sources.map(s => `
+      <li class="source-item" data-id="${s.id}">
+        <input type="checkbox" id="src_${s.id}" value="${s.id}" checked>
+        <label for="src_${s.id}" class="source-name" style="cursor:pointer">${s.name}</label>
+        <span class="source-status" id="st_${s.id}"></span>
+      </li>
+    `).join('');
+  });
+}
+
+function getCheckedSources() {
+  return ALL_SOURCES.filter(s => {
+    const el = document.getElementById(`src_${s.id}`);
+    return el && el.checked;
+  });
+}
+
+// ═══════════════════════════════════════════════════
+//  RSS 파싱 (allorigins 프록시)
+// ═══════════════════════════════════════════════════
+async function fetchRSS(source) {
+  const st = document.getElementById(`st_${source.id}`);
+  if (st) st.className = 'source-status loading';
+
+  // 프록시들 순서대로 시도
+  for (let i = 0; i < PROXIES.length; i++) {
+    const proxyUrl = PROXIES[i](source.url);
+    try {
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      // RSS2JSON은 JSON 반환, 나머지는 XML 반환
+      if (i === 0) {
+        const json = await res.json();
+        if (json.status !== 'ok') throw new Error('RSS2JSON error: ' + json.message);
+        const parsed = parseRSS2JSON(json, source);
+        if (st) st.className = 'source-status ok';
+        return parsed;
+      } else {
+        const text = await res.text();
+        if (!text || text.length < 50) throw new Error('빈 응답');
+        const parsed = parseRSSXML(text, source);
+        if (st) st.className = 'source-status ok';
+        return parsed;
+      }
+    } catch(e) {
+      console.warn(`[${source.name}] 프록시${i+1} 실패:`, e.message);
+      // 마지막 프록시도 실패한 경우
+      if (i === PROXIES.length - 1) {
+        if (st) st.className = 'source-status err';
+        return [];
+      }
+    }
+  }
+  return [];
+}
+
+// RSS2JSON API 응답 파싱
+function parseRSS2JSON(json, source) {
+  if (!json.items || !json.items.length) return [];
+  return json.items.map(item => {
+    const link     = (item.link || item.guid || '').trim();
+    const cleanLink = link.split('?')[0].replace(/\/$/, '');
+    const desc = stripHTML(item.description || item.content || item.summary || '');
+    return {
+      id:       btoa(encodeURIComponent(cleanLink)).slice(0, 24),
+      title:    (item.title || '').trim(),
+      link,
+      linkKey:  cleanLink,
+      desc:     desc.slice(0, 120),
+      pubDate:  parseDate(item.pubDate),
+      source:   source.name,
+      sourceId: source.id,
+      lang:     source.lang,
+      isNew:    false,
+      isSaved:  false,
+      isRead:   false,
+    };
+  }).filter(a => a.title && a.link);
+}
+
+function parseRSSXML(xmlText, source) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'text/xml');
+  const items = doc.querySelectorAll('item, entry');
+  const results = [];
+
+  items.forEach(item => {
+    const title = getText(item, 'title');
+    const link  = getText(item, 'link') || item.querySelector('link')?.getAttribute('href') || '';
+    const desc  = stripHTML(getText(item, 'description') || getText(item, 'summary') || '');
+    const pubDate = getText(item, 'pubDate') || getText(item, 'published') || getText(item, 'updated') || '';
+    const cleanLink = link.split('?')[0].replace(/\/$/, '');
+
+    if (!title || !link) return;
+
+    results.push({
+      id:       btoa(encodeURIComponent(cleanLink)).slice(0, 24),
+      title:    title.trim(),
+      link:     link.trim(),
+      linkKey:  cleanLink,
+      desc:     desc.slice(0, 120),
+      pubDate:  parseDate(pubDate),
+      source:   source.name,
+      sourceId: source.id,
+      lang:     source.lang,
+      isNew:    false,
+      isSaved:  false,
+      isRead:   false,
+    });
+  });
+  return results;
+}
+
+function getText(el, tag) {
+  const node = el.querySelector(tag);
+  if (!node) return '';
+  return (node.textContent || '').trim();
+}
+function stripHTML(str) {
+  return str.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+}
+function parseDate(str) {
+  if (!str) return new Date(0);
+  try { return new Date(str); } catch { return new Date(0); }
+}
+
+// ═══════════════════════════════════════════════════
+//  수집 메인
+// ═══════════════════════════════════════════════════
+async function fetchAll() {
+  const sources = getCheckedSources();
+  if (!sources.length) { showToast('소스를 하나 이상 선택하세요.'); return; }
+
+  setFetching(true);
+  statDup = 0;
+  let newCount = 0;
+
+  setStatus('⏳', `0 / ${sources.length} 소스 수집 중...`, sources.length, 0);
+
+  const results = [];
+  for (let i = 0; i < sources.length; i++) {
+    const src = sources[i];
+    setStatus('⏳', `[${i+1}/${sources.length}] <strong>${src.name}</strong> 수집 중...`, sources.length, i);
+    const items = await fetchRSS(src);
+
+    items.forEach(item => {
+      const isDup = seenUrls.has(item.linkKey);
+      if (isDup) {
+        statDup++;
+      } else {
+        item.isNew = true;
+        seenUrls.add(item.linkKey);
+        newCount++;
+      }
+      item.isSaved = savedUrls.has(item.linkKey);
+      item.isRead  = readUrls.has(item.linkKey);
+      results.push(item);
+    });
+  }
+
+  // 기존 articles에 merge (같은 linkKey면 스킵)
+  const existingKeys = new Set(articles.map(a => a.linkKey));
+  const brandNew = results.filter(r => !existingKeys.has(r.linkKey));
+  articles = [...brandNew, ...articles];
+
+  savePersist();
+  updateStats();
+  renderArticles();
+  setStatus('✅', `수집 완료 — 신규 <strong>${newCount}개</strong> / 중복 제외 ${statDup}개`, sources.length, sources.length);
+  setFetching(false);
+  showToast(`✅ ${newCount}개 신규 기사 수집 완료`);
+}
+
+function setFetching(active) {
+  const btn = document.getElementById('fetchBtn');
+  const icon = document.getElementById('fetchBtnIcon');
+  btn.disabled = active;
+  btn.style.opacity = active ? '.6' : '1';
+  icon.textContent = active ? '⏳' : '🔍';
+}
+
+function setStatus(icon, text, total, done) {
+  document.getElementById('statusBar').innerHTML = `
+    <span class="status-icon">${icon}</span>
+    <span class="status-text">${text}</span>
+    <div class="progress-wrap"><div class="progress-fill" style="width:${total ? (done/total*100) : 0}%"></div></div>
+  `;
+}
+
+// ═══════════════════════════════════════════════════
+//  기사 렌더
+// ═══════════════════════════════════════════════════
+function getFiltered() {
+  const q    = document.getElementById('searchInput').value.toLowerCase();
+  const sort = document.getElementById('sortSelect').value;
+  const lang = document.getElementById('langSelect').value;
+  const st   = document.getElementById('statusSelect').value;
+
+  let list = articles.filter(a => {
+    if (q   && !a.title.toLowerCase().includes(q)) return false;
+    if (lang !== 'all' && a.lang !== lang) return false;
+    if (st === 'new'   && !a.isNew)   return false;
+    if (st === 'saved' && !a.isSaved) return false;
+    if (st === 'unread' && a.isRead)  return false;
+    return true;
+  });
+
+  list.sort((a, b) => {
+    if (sort === 'newest') return b.pubDate - a.pubDate;
+    if (sort === 'oldest') return a.pubDate - b.pubDate;
+    if (sort === 'source') return a.source.localeCompare(b.source);
+    return 0;
+  });
+  return list;
+}
+
+function renderArticles() {
+  const grid = document.getElementById('articleGrid');
+  const list = getFiltered();
+  document.getElementById('countBadge').textContent = `${list.length}개`;
+
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">표시할 기사가 없습니다.</div></div>`;
+    return;
+  }
+
+  grid.innerHTML = list.map(a => {
+    const dateStr = a.pubDate > new Date(0)
+      ? a.pubDate.toLocaleDateString('ko-KR', {month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'})
+      : '날짜 없음';
+    return `
+    <div class="article-card${a.isNew?' is-new':''}${a.isRead?' is-read':''}" data-id="${a.id}" data-key="${a.linkKey}">
+      <div class="card-check"><input type="checkbox" class="card-checkbox" data-key="${a.linkKey}" onchange="onCardCheck()"></div>
+      <div class="card-body">
+        <div class="card-top">
+          <span class="card-source ${a.lang}">${a.source}</span>
+          ${a.isNew  ? '<span class="card-new-badge">NEW</span>' : ''}
+          ${a.isSaved ? '<span class="card-dup-badge">저장됨</span>' : ''}
+        </div>
+        <div class="card-title"><a href="${a.link}" target="_blank" rel="noopener" onclick="markRead('${a.linkKey}')">${escHTML(a.title)}</a></div>
+        ${a.desc ? `<div class="card-desc">${escHTML(a.desc)}</div>` : ''}
+        <div class="card-meta">
+          <span class="card-date">🕐 ${dateStr}</span>
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="card-btn ${a.isSaved?'saved':''}" title="${a.isSaved?'저장됨':'저장'}" onclick="toggleSave('${a.linkKey}')">${a.isSaved?'💾':'🔖'}</button>
+        <button class="card-btn" title="새 탭에서 열기" onclick="window.open('${a.link}','_blank')">🔗</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  updateStats();
+}
+
+function escHTML(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ═══════════════════════════════════════════════════
+//  인터랙션
+// ═══════════════════════════════════════════════════
+function toggleSave(key) {
+  const a = articles.find(x => x.linkKey === key);
+  if (!a) return;
+  if (savedUrls.has(key)) {
+    savedUrls.delete(key);
+    a.isSaved = false;
+    showToast('저장 해제됨');
+  } else {
+    savedUrls.add(key);
+    a.isSaved = true;
+    showToast('💾 저장되었습니다');
+  }
+  savePersist();
+  renderArticles();
+}
+
+function markRead(key) {
+  readUrls.add(key);
+  const a = articles.find(x => x.linkKey === key);
+  if (a) a.isRead = true;
+  savePersist();
+  // 카드 클래스만 업데이트
+  const card = document.querySelector(`.article-card[data-key="${key}"]`);
+  if (card) card.classList.add('is-read');
+}
+
+function onCardCheck() {
+  const checked = document.querySelectorAll('.card-checkbox:checked');
+  const bar = document.getElementById('selectBar');
+  document.getElementById('selectCount').textContent = checked.length;
+  bar.className = checked.length > 0 ? 'select-bar visible' : 'select-bar';
+}
+
+function updateStats() {
+  document.getElementById('statTotal').textContent = articles.length;
+  document.getElementById('statNew').textContent   = articles.filter(a => a.isNew).length;
+  document.getElementById('statSaved').textContent = articles.filter(a => a.isSaved).length;
+  document.getElementById('statDup').textContent   = statDup;
+}
+
+// 선택 저장
+document.getElementById('saveSelectedBtn').addEventListener('click', () => {
+  const checked = [...document.querySelectorAll('.card-checkbox:checked')];
+  checked.forEach(cb => {
+    const key = cb.dataset.key;
+    savedUrls.add(key);
+    const a = articles.find(x => x.linkKey === key);
+    if (a) a.isSaved = true;
+  });
+  savePersist();
+  renderArticles();
+  showToast(`💾 ${checked.length}개 저장 완료`);
+});
+
+// 읽음 처리
+document.getElementById('markReadBtn').addEventListener('click', () => {
+  const checked = [...document.querySelectorAll('.card-checkbox:checked')];
+  checked.forEach(cb => {
+    const key = cb.dataset.key;
+    readUrls.add(key);
+    const a = articles.find(x => x.linkKey === key);
+    if (a) a.isRead = true;
+  });
+  savePersist();
+  renderArticles();
+  showToast(`✓ ${checked.length}개 읽음 처리`);
+});
+
+// 삭제
+document.getElementById('deleteSelectedBtn').addEventListener('click', () => {
+  const checked = [...document.querySelectorAll('.card-checkbox:checked')];
+  const keys = new Set(checked.map(cb => cb.dataset.key));
+  articles = articles.filter(a => !keys.has(a.linkKey));
+  renderArticles();
+  document.getElementById('selectBar').className = 'select-bar';
+  showToast(`🗑 ${checked.length}개 삭제됨`);
+});
+
+// 전체 선택/해제
+document.getElementById('checkAllBtn').addEventListener('click', () => {
+  document.querySelectorAll('[id^="src_"]').forEach(cb => cb.checked = true);
+});
+document.getElementById('uncheckAllBtn').addEventListener('click', () => {
+  document.querySelectorAll('[id^="src_"]').forEach(cb => cb.checked = false);
+});
+
+// 수집 버튼
+document.getElementById('fetchBtn').addEventListener('click', fetchAll);
+
+// 필터 변경
+['searchInput','sortSelect','langSelect','statusSelect'].forEach(id => {
+  document.getElementById(id).addEventListener('input', renderArticles);
+});
+
+// JSON 내보내기 (전체 기사)
+document.getElementById('exportBtn').addEventListener('click', () => {
+  const target = articles;
+  const data = {
+    exportedAt: new Date().toISOString(),
+    count: target.length,
+    articles: target.map(a => ({
+      title:   a.title,
+      link:    a.link,
+      source:  a.source,
+      lang:    a.lang,
+      date:    a.pubDate instanceof Date ? a.pubDate.toISOString() : '',
+      desc:    a.desc,
+      isSaved: a.isSaved,
+      isRead:  a.isRead,
+    }))
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.style.display = 'none';
+  a.href     = url;
+  a.download = `motor_articles_${new Date().toISOString().slice(0,10)}.json`;
+  document.body.appendChild(a);
+  a.click();
+  
+  // 브라우저가 다운로드 프로세스를 시작할 수 있도록 지연 후 제거
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 150);
+  
+  showToast(`📥 전체 ${target.length}개 기사 내보내기 완료`);
+});
+
+// JSON 가져오기
+document.getElementById('importBtn').addEventListener('click', () => {
+  document.getElementById('importFileInput').click();
+});
+document.getElementById('importFileInput').addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (ev) => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      const imported = Array.isArray(data.articles) ? data.articles : data;
+      if (!Array.isArray(imported)) throw new Error('올바른 형식이 아닙니다.');
+
+      let addCount = 0;
+      const existingKeys = new Set(articles.map(a => a.linkKey));
+      imported.forEach(item => {
+        const linkKey = (item.link || '').split('?')[0].replace(/\/$/, '');
+        if (!item.title || !item.link) return;
+        if (existingKeys.has(linkKey)) return; // 중복 스킵
+        const article = {
+          id:       btoa(encodeURIComponent(linkKey)).slice(0, 24),
+          title:    item.title,
+          link:     item.link,
+          linkKey,
+          desc:     item.desc || '',
+          pubDate:  item.date ? new Date(item.date) : new Date(0),
+          source:   item.source || '가져오기',
+          sourceId: 'imported',
+          lang:     item.lang || 'ko',
+          isNew:    false,
+          isSaved:  item.isSaved || false,
+          isRead:   item.isRead  || false,
+        };
+        articles.push(article);
+        seenUrls.add(linkKey);
+        if (article.isSaved) savedUrls.add(linkKey);
+        if (article.isRead)  readUrls.add(linkKey);
+        existingKeys.add(linkKey);
+        addCount++;
+      });
+
+      savePersist();
+      updateStats();
+      renderArticles();
+      showToast(`📂 ${addCount}개 기사 가져오기 완료`);
+    } catch(err) {
+      showToast('❌ 파일 형식 오류: ' + err.message);
+    }
+    e.target.value = ''; // 같은 파일 재선택 허용
+  };
+  reader.readAsText(file);
+});
+
+// 기록 초기화
+document.getElementById('clearSeenBtn').addEventListener('click', () => {
+  if (!confirm('수집 기록 및 기사 목록을 모두 초기화합니다. 계속할까요?')) return;
+  seenUrls.clear();
+  savedUrls.clear();
+  readUrls.clear();
+  articles = [];
+  statDup = 0;
+  localStorage.removeItem('mi_articles');
+  savePersist();
+  renderArticles();
+  updateStats();
+  showToast('🗑 기록 초기화 완료');
+});
+
+// 스크롤 상단 버튼
+window.addEventListener('scroll', () => {
+  const btn = document.getElementById('backTop');
+  btn.className = window.scrollY > 400 ? 'show' : '';
+});
+
+// ── 토스트 ──
+let toastTimer;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.innerHTML = msg;
+  el.className = 'show';
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = ''; }, 2800);
+}
+
+// ── 초기화 ──
+loadPersist();
+renderSourceList();
+updateStats();
+// localStorage에서 복원된 기사가 있으면 바로 렌더링
+if (articles.length > 0) {
+  renderArticles();
+  setStatus('📂', `이전 수집 기록 <strong>${articles.length}개</strong> 불러왔습니다. 새로 수집하거나 필터를 이용하세요.`, 1, 1);
+}
+</script>
+</body>
+</html>
