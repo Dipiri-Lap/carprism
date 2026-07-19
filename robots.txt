@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://carprism.tmhub.co.kr/sitemap.xml
+
+#DaumWebMasterTool:bbfc22748c2d2230c01b219d0457bed167f7621480831abeb6ea0b591d084dd4:WICeueAGJ+HPKL6eUjSFlg==
