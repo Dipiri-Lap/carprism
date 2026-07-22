@@ -37,6 +37,24 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/about.html</loc>
+    <lastmod>2026-07-22T22:30:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/privacy.html</loc>
+    <lastmod>2026-07-22T22:30:00+09:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/terms.html</loc>
+    <lastmod>2026-07-22T22:30:00+09:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/highway-toll-discount-multichild-disabled-2026.html</loc>
     <lastmod>2026-07-22T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
