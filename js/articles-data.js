@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "volvo-es90-korea-launch-2026",
+    title: "볼보 ES90 국내 출시 — 706km 전기 플래그십, 글로벌보다 5000만 원 싼 이유",
+    date: "2026-07-23",
+    image: "volvo_es90_main.webp",
+    categories: ["electric", "import"],
+    tags: ["볼보ES90", "전기플래그십세단", "볼보국내출시", "800V급속충전", "수입전기차"],
+    badge: "FLAGSHIP EV",
+    badgeClass: "cat-sales",
+    source: "한국경제 / 파이낸셜뉴스",
+    desc: "볼보의 순수 전기 플래그십 세단 ES90이 국내 정식 출시했다. 706km 주행거리, 3가지 파워트레인, 800V 급속충전까지 스펙과 가격, 국내가 글로벌보다 저렴한 이유를 정리했다."
+  },
+  {
     slug: "jeep-wrangler-laredo-2027",
     title: "지프 랭글러 라레도 부활 — 40년 만에 돌아온 탄색 소프트탑, 오프로드 스페셜 에디션 총정리",
     date: "2026-07-23",
@@ -10,7 +22,7 @@ window.ARTICLES_DATA = [
     tags: ["지프랭글러라레도", "오프로드SUV", "트웰브포트웰브", "지프윌리스", "스페셜에디션"],
     badge: "OFFROAD SPECIAL",
     badgeClass: "cat-sales",
-    source: "Carscoops / 뉴스와",
+    source: "Carscoops / TFLcar",
     desc: "지프가 매달 새 한정판을 선보이는 '트웰브 포 트웰브' 프로젝트 아홉 번째 주인공으로 1980년대의 아이콘 '랭글러 라레도'를 소환했다. 탄색 소프트탑과 버건디·골드 그래픽, Xtreme 35 오프로드 패키지까지 총정리했다."
   },
   {
