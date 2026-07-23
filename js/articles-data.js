@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jeep-wrangler-laredo-2027",
+    title: "지프 랭글러 라레도 부활 — 40년 만에 돌아온 탄색 소프트탑, 오프로드 스페셜 에디션 총정리",
+    date: "2026-07-23",
+    image: "jeep_wrangler_laredo_main.webp",
+    categories: ["import"],
+    tags: ["지프랭글러라레도", "오프로드SUV", "트웰브포트웰브", "지프윌리스", "스페셜에디션"],
+    badge: "OFFROAD SPECIAL",
+    badgeClass: "cat-sales",
+    source: "Carscoops / 뉴스와",
+    desc: "지프가 매달 새 한정판을 선보이는 '트웰브 포 트웰브' 프로젝트 아홉 번째 주인공으로 1980년대의 아이콘 '랭글러 라레도'를 소환했다. 탄색 소프트탑과 버건디·골드 그래픽, Xtreme 35 오프로드 패키지까지 총정리했다."
+  },
+  {
     slug: "highway-toll-discount-multichild-disabled-2026",
     title: "다자녀·장애인·유공자 고속도로 통행료 할인 확대 — 대상·할인율·신청 방법",
     date: "2026-07-22",
