@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "gac-e8-phev-2026",
+    title: "GAC E8 PHEV 공개 — 순수전기 281km·복합연비 3.98L 세계기록 MPV 총정리",
+    date: "2026-07-23",
+    image: "gac_e8_phev_main.webp",
+    categories: ["import"],
+    tags: ["GACE8PHEV", "중국PHEVMPV", "플러그인하이브리드", "GAC트럼프치", "MPV세계기록"],
+    badge: "PHEV MPV",
+    badgeClass: "cat-sales",
+    source: "신랑차(新浪汽车) / IT之家",
+    desc: "GAC(광저우자동차)가 신형 E8 PHEV를 공개했다. 순수전기 281km, WLTC 기준 연비 3.98L/100km로 MPV 세계기록을 세운 신형 플러그인 하이브리드의 파워트레인, 실내 공간, 가격을 총정리했다."
+  },
+  {
     slug: "volvo-es90-korea-launch-2026",
     title: "볼보 ES90 국내 출시 — 706km 전기 플래그십, 글로벌보다 5000만 원 싼 이유",
     date: "2026-07-23",
