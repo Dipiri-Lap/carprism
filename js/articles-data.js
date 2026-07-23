@@ -1,4 +1,4 @@
-// 검색 / 관련기사 자동 렌더링이 공유하는 기사 메타데이터
+// 검색 / 관련기사 / 홈페이지 히어로 슬라이더·최신기사 리스트 자동 렌더링이 공유하는 기사 메타데이터
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
@@ -7,7 +7,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-22",
     image: "seoul_tollgate_hipass.jpg",
     categories: ["news"],
-    tags: ["고속도로통행료할인", "다자녀가구", "장애인통행료감면", "국가유공자", "하이패스"]
+    tags: ["고속도로통행료할인", "다자녀가구", "장애인통행료감면", "국가유공자", "하이패스"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "농민신문",
+    desc: "국토교통부가 유료도로법 시행령 개정안을 의결하며 다자녀가구와 장애인·국가유공자의 고속도로 통행료 감면을 확대했다. 할인율, 대상 차량 기준, 시행일, 신청 방법을 정리했다."
   },
   {
     slug: "car-subscription-long-term-rent-trend",
@@ -15,7 +19,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-22",
     image: "kona_electric_charging.jpg",
     categories: ["news", "domestic"],
-    tags: ["차량구독서비스", "장기렌트", "현대셀렉션", "기아플렉스", "카리스구독"]
+    tags: ["차량구독서비스", "장기렌트", "현대셀렉션", "기아플렉스", "카리스구독"],
+    badge: "TREND INSIGHT",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "현대 셀렉션 360일 플랜, 기아 플렉스까지 완성차 업체들이 구독 서비스를 확대하고 있다. 장기렌트·리스와의 차이, 인기 차종과 요금을 정리했다."
   },
   {
     slug: "ev-conversion-subsidy-1million-won",
@@ -23,7 +31,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-22",
     image: "kia_ev6_official.jpg",
     categories: ["news", "electric"],
-    tags: ["전환지원금", "전기차보조금", "내연차전기차전환", "조기폐차", "기후에너지환경부"]
+    tags: ["전환지원금", "전기차보조금", "내연차전기차전환", "조기폐차", "기후에너지환경부"],
+    badge: "EV POLICY",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "3년 이상 된 내연기관차를 폐차하거나 팔고 전기차를 사면 국고보조금에 최대 100만 원이 추가된다. 대상 조건과 실제 수령액을 정리했다."
   },
   {
     slug: "ev-subsidy-evaluation-system-july-2026",
@@ -31,7 +43,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-22",
     image: "tesla_model_y.jpg",
     categories: ["news", "electric"],
-    tags: ["전기차보조금", "평가제", "테슬라", "BYD", "공급망기여도", "기후에너지환경부"]
+    tags: ["전기차보조금", "평가제", "테슬라", "BYD", "공급망기여도", "기후에너지환경부"],
+    badge: "EV POLICY",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "기후에너지환경부가 전기차 보급사업 수행자 평가기준을 확정, 7월 1일부터 평가 통과 기업의 차량만 보조금 지원 대상이 됐다. 테슬라는 통과, BYD·지커는 탈락했다."
   },
   {
     slug: "kia-stonic-diesel-used-buy-guide",
@@ -39,7 +55,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-21",
     image: "stonic_diesel_front.jpg",
     categories: ["news", "domestic"],
-    tags: ["기아스토닉", "디젤SUV", "중고차추천", "연비", "스토닉디젤"]
+    tags: ["기아스토닉", "디젤SUV", "중고차추천", "연비", "스토닉디젤"],
+    badge: "USED CAR PICK",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "카니발·투싼·스타리아까지 디젤이 속속 단종되는 지금, 기아 스토닉 디젤은 여전히 실속 있는 대안이다. 엔진 스펙, 연비, 신차 대비 중고 시세까지 총정리했다."
   },
   {
     slug: "driving-license-subsidy-2026-h2",
@@ -47,7 +67,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-21",
     image: "driving_license_exam_office.jpg",
     categories: ["news"],
-    tags: ["운전면허지원금", "청년지원금", "자립준비청년", "디딤돌운전면허지원센터", "운전상식"]
+    tags: ["운전면허지원금", "청년지원금", "자립준비청년", "디딤돌운전면허지원센터", "운전상식"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "최소 5만 원부터 최대 70만 원까지, 지자체별로 제각각인 청년 운전면허 취득 지원금. 대상·신청 방법·필요 서류부터 자립준비청년·국가유공자 지원까지 총정리했다."
   },
   {
     slug: "kgm-project-s10-flagship-suv",
@@ -55,7 +79,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-21",
     image: "rexton_current_uk.jpg",
     categories: ["news", "domestic"],
-    tags: ["KGM", "프로젝트S10", "SE10", "렉스턴", "아리랑", "팰리세이드", "REEV"]
+    tags: ["KGM", "프로젝트S10", "SE10", "렉스턴", "아리랑", "팰리세이드", "REEV"],
+    badge: "PROJECT S10",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "가격 경쟁력, 디젤을 배제한 파워트레인 전환, 렉스턴을 잇는 차세대 플래그십. KGM이 대형 SUV 시장에 던지는 세 가지 승부수를 정리했다."
   },
   {
     slug: "rainy-season-hydroplaning-tire-check",
@@ -63,7 +91,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-20",
     image: "rain_driving_pov.jpg",
     categories: ["news"],
-    tags: ["수막현상", "하이드로플레이닝", "빗길운전", "타이어마모", "장마철", "운전상식"]
+    tags: ["수막현상", "하이드로플레이닝", "빗길운전", "타이어마모", "장마철", "운전상식"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "장마철 빗길 사고의 주범, 수막현상(하이드로플레이닝)이 발생하는 원리와 예방법을 정리했다. 동전으로 확인하는 타이어 마모도 체크법부터 대처요령까지 총정리."
   },
   {
     slug: "cadillac-escalade-iq-review",
@@ -71,7 +103,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-20",
     image: "escalade_iq_front.jpg",
     categories: ["import", "electric"],
-    tags: ["캐딜락", "에스컬레이드IQ", "에스컬레이드IQL", "전기차", "수입차", "슈퍼크루즈"]
+    tags: ["캐딜락", "에스컬레이드IQ", "에스컬레이드IQL", "전기차", "수입차", "슈퍼크루즈"],
+    badge: "IMPORT EV",
+    badgeClass: "cat-hyundai",
+    source: "카프리즘 기획 기사",
+    desc: "완전 전동화 플래그십 SUV 에스컬레이드 IQ에 롱바디 IQL이 합류했다. 750마력 듀얼모터, 710km 주행거리, 55인치 커브드 디스플레이까지 국내외 정보를 총정리."
   },
   {
     slug: "bentley-continental-gt-s-gtc-s-korea",
@@ -79,15 +115,23 @@ window.ARTICLES_DATA = [
     date: "2026-07-20",
     image: "bentley_gt_s_official.jpg",
     categories: ["import"],
-    tags: ["벤틀리", "컨티넨탈GT", "컨티넨탈GTC", "수입차", "고성능", "하이브리드"]
+    tags: ["벤틀리", "컨티넨탈GT", "컨티넨탈GTC", "수입차", "고성능", "하이브리드"],
+    badge: "LUXURY IMPORT",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "벤틀리모터스코리아가 더 뉴 컨티넨탈 GT S와 GTC S를 국내 출시했다. 680마력 하이 퍼포먼스 하이브리드와 국내 가격까지 총정리했다."
   },
   {
     slug: "aston-martin-dreadnought-mw4",
     title: "전장을 달리는 슈퍼카 — 콜 오브 듀티 MW4의 애스턴마틴 드레드노트 완전 분석",
     date: "2026-07-19",
-    image: "am_dreadnought.jpg",
+    image: "am_dreadnought_main.jpg",
     categories: ["import"],
-    tags: ["애스턴마틴", "드레드노트", "COD", "MW4", "게임차량", "전술SUV"]
+    tags: ["애스턴마틴", "드레드노트", "COD", "MW4", "게임차량", "전술SUV"],
+    badge: "GAME × AUTO",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "인피니티 워드와 애스턴마틴이 협업해 탄생시킨 게임 전용 전술 SUV '드레드노트'의 디자인, 퍼포먼스, 전술 장비 등 모든 스펙을 완전 해부합니다."
   },
   {
     slug: "genesis-gv60-gv70-electrified-2027",
@@ -95,7 +139,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-19",
     image: "genesis_gv60_2027_official.jpg",
     categories: ["domestic", "electric"],
-    tags: ["제네시스", "GV60", "GV70", "전동화", "전기차", "연식변경"]
+    tags: ["제네시스", "GV60", "GV70", "전동화", "전기차", "연식변경"],
+    badge: "GENESIS EV",
+    badgeClass: "cat-genesis",
+    source: "카프리즘 기획 기사",
+    desc: "제네시스가 고객 편의 사양을 강화하고 선택권을 확대한 연식변경 모델 '2027 GV60'과 '2027 GV70 전동화 모델' 판매를 시작했다. 가격은 동결하고 사양은 강화했다."
   },
   {
     slug: "k5-2026-facelift-review",
@@ -103,7 +151,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-18",
     image: "k5_side_exterior.jpg",
     categories: ["domestic", "reviews"],
-    tags: ["기아", "K5", "연식변경", "상품성강화", "시승기", "리뷰"]
+    tags: ["기아", "K5", "연식변경", "상품성강화", "시승기", "리뷰"],
+    badge: "FACELIFT REVIEW",
+    badgeClass: "cat-hyundai",
+    source: "카프리즘 기획 기사",
+    desc: "기아가 상품성을 강화한 K5 연식변경 모델을 출시했다. 시작가 2,763만 원, 신설 '베스트 셀렉션' 트림, 강화된 편의·안전 사양까지 국내외 리뷰를 취합해 정리했다."
   },
   {
     slug: "seltos-hybrid-review-2026",
@@ -111,7 +163,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-17",
     image: "seltos_official.png",
     categories: ["domestic", "reviews"],
-    tags: ["기아", "셀토스", "하이브리드", "풀체인지", "시승기", "트림추천"]
+    tags: ["기아", "셀토스", "하이브리드", "풀체인지", "시승기", "트림추천"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "카프리즘 기획 기사",
+    desc: "가솔린 위주였던 셀토스가 하이브리드 파워트레인을 얹고 3세대로 완전히 탈바꿈했다. 실주행 연비와 정숙성, 커진 체격, 가성비 트림 가이드까지 총정리했다."
   },
   {
     slug: "july-promotions-2026",
@@ -119,7 +175,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-17",
     image: "sonata_official.png",
     categories: ["news", "domestic"],
-    tags: ["할인", "프로모션", "쏘나타", "수입차", "BMW", "아우디", "대기기간"]
+    tags: ["할인", "프로모션", "쏘나타", "수입차", "BMW", "아우디", "대기기간"],
+    badge: "FINANCE INSIGHT",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "7월 자동차 제조사들의 여름 한정 파격 할인 혜택 정리! 쏘나타 디 엣지부터 BMW 5시리즈, 아우디 A8 등 수입 세단 할인율과 신차 대기 기간 가이드를 드립니다."
   },
   {
     slug: "tesla-vs-byd-2026",
@@ -127,7 +187,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-17",
     image: "byd_dolphin.jpg",
     categories: ["news", "import", "electric"],
-    tags: ["전기차", "테슬라", "BYD", "모델Y", "돌핀", "보조금"]
+    tags: ["전기차", "테슬라", "BYD", "모델Y", "돌핀", "보조금"],
+    badge: "IMPORT EV",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "국내 수입 전기차 1위 테슬라 모델 Y에 맞서 초가성비로 무장한 BYD 돌핀과 씨라이언 7의 국내 상륙을 분석했다. 7월 보조금 개정 탈락 소식까지 총정리했습니다."
   },
   {
     slug: "hybrids-and-suvs-2026",
@@ -135,7 +199,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-17",
     image: "gv80_hybrid.png",
     categories: ["news", "domestic"],
-    tags: ["하이브리드", "SUV", "신차", "기아", "현대차", "제네시스"]
+    tags: ["하이브리드", "SUV", "신차", "기아", "현대차", "제네시스"],
+    badge: "TREND INSIGHT",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "2026년 하반기 시장을 뒤흔들 하이브리드 및 SUV 신차 5종 분석. 셀토스 하이브리드, GV80 하이브리드, 그랜저 페이스리프트 등 구매 타이밍 가이드를 드립니다."
   },
   {
     slug: "sales-ranking-2026-06",
@@ -143,7 +211,11 @@ window.ARTICLES_DATA = [
     date: "2026-07-14",
     image: "grandeur_official.png",
     categories: ["news", "domestic"],
-    tags: ["그랜저", "셀토스", "쏘렌토", "카니발", "스포티지", "판매량"]
+    tags: ["그랜저", "셀토스", "쏘렌토", "카니발", "스포티지", "판매량"],
+    badge: "SALES RANKING",
+    badgeClass: "cat-sales",
+    source: "카이즈유 / 한국자동차연구원 외",
+    desc: "2026년 6월 국산차 내수 판매 12만 826대, 전월 대비 25.5% 반등. 그랜저 1위 복귀, 셀토스 최대 상승폭까지 TOP 10 판매 순위를 정리했다."
   },
   {
     slug: "avante-vs-byd-busan-2026",
@@ -151,6 +223,10 @@ window.ARTICLES_DATA = [
     date: "2026-07-12",
     image: "avante.png",
     categories: ["news", "domestic", "import"],
-    tags: ["아반떼", "BYD", "제네시스", "하이브리드", "전기차"]
+    tags: ["아반떼", "BYD", "제네시스", "하이브리드", "전기차"],
+    badge: "HYUNDAI · BYD",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴 / 매일경제",
+    desc: "2026 부산모빌리티쇼 결산. 현대차 신형 아반떼와 BYD 씨라이언6 DM-i가 맞붙은 하이브리드 격전, 제네시스 GMR-001 하이퍼카까지 한눈에 정리했다."
   }
 ];

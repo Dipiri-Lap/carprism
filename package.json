@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "cors-anywhere": "^0.4.4"
-  },
   "devDependencies": {
     "sharp": "^0.35.3"
   }

@@ -1,3 +1,65 @@
+// ─────────────────────────────────────────────
+//  홈페이지 히어로 슬라이더 / 최신 기사 리스트 자동 렌더링
+//  (js/articles-data.js 기준 — 반드시 이 reveal 애니메이션 스캔보다 먼저 실행되어야 함)
+// ─────────────────────────────────────────────
+(function() {
+  const data = window.ARTICLES_DATA;
+  if (!data) return;
+
+  const sortedByDate = [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // 히어로 슬라이더
+  const track = document.getElementById('sliderTrack');
+  const dotsWrap = document.getElementById('sliderDots');
+  if (track) {
+    const HERO_COUNT = 8;
+    const heroItems = sortedByDate.slice(0, HERO_COUNT);
+
+    track.innerHTML = heroItems.map((item, i) => `
+      <div class="slide" role="group" aria-label="슬라이드 ${i + 1}">
+        <div class="slide-image">
+          <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+        </div>
+        <div class="slide-content">
+          <span class="slide-cat slide-cat--${item.badgeClass === 'cat-sales' ? 'gold' : 'blue'}">${item.badge}</span>
+          <h2 class="slide-title">${item.title}</h2>
+          <p class="slide-desc">${item.desc}</p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; ${item.date.replace(/-/g, '.')} &nbsp;·&nbsp; <span class="slide-source">원문: ${item.source}</span></p>
+          <a href="articles/${item.slug}.html" class="slide-btn">기사 읽기 →</a>
+        </div>
+      </div>
+    `).join('');
+
+    if (dotsWrap) {
+      dotsWrap.innerHTML = heroItems.map((_, i) => `
+        <button class="dot${i === 0 ? ' dot--active' : ''}" id="dot-${i}" role="tab" aria-selected="${i === 0}" aria-label="슬라이드 ${i + 1}"></button>
+      `).join('');
+    }
+  }
+
+  // 최신 기사 리스트
+  const latestList = document.querySelector('#articles .article-list');
+  if (latestList) {
+    const LATEST_COUNT = 15;
+    const latestItems = sortedByDate.slice(0, LATEST_COUNT);
+
+    latestList.innerHTML = latestItems.map((item) => `
+      <li>
+        <a href="articles/${item.slug}.html" class="article-row reveal">
+          <div class="row-thumb">
+            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+          </div>
+          <div class="row-info">
+            <span class="cat-label ${item.badgeClass}">${item.badge}</span>
+            <h3 class="row-title">${item.title}</h3>
+            <p class="row-meta">${item.date.replace(/-/g, '.')} · 원문: ${item.source}</p>
+          </div>
+        </a>
+      </li>
+    `).join('');
+  }
+})();
+
 // 스크롤 진행률 바
 const progressBar = document.getElementById('progressBar');
 window.addEventListener('scroll', () => {
