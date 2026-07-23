@@ -117,66 +117,63 @@ if (mobileMenuBtn && mobileNav) {
 })();
 
 // ─────────────────────────────────────────────
-//  최신 기사 페이지네이션
+//  기사 리스트 페이지네이션 (페이지 내 모든 .article-list 공통 적용)
 // ─────────────────────────────────────────────
 (function() {
-  const list = document.querySelector('#articles .article-list');
-  if (!list) return;
+  const ITEMS_PER_PAGE = 5;
 
-  const items = list.querySelectorAll('li');
-  const itemsPerPage = 5;
-  const totalPages = Math.ceil(items.length / itemsPerPage);
-  let currentPage = 1;
+  document.querySelectorAll('.article-list').forEach((list) => {
+    const items = Array.from(list.children).filter((el) => el.tagName === 'LI');
+    const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
+    if (totalPages <= 1) return;
 
-  const prevBtn = document.getElementById('pagePrev');
-  const nextBtn = document.getElementById('pageNext');
-  const infoText = document.getElementById('pageInfo');
+    let currentPage = 1;
 
-  function showPage(page) {
-    currentPage = page;
-    const start = (page - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
+    const pagination = document.createElement('div');
+    pagination.className = 'pagination';
+    pagination.setAttribute('role', 'navigation');
+    pagination.setAttribute('aria-label', '페이지 이동');
+    pagination.innerHTML =
+      '<a href="#" class="page-prev" style="display:none; margin-right: 12px;">← 이전</a>' +
+      '<span class="page-info"></span>' +
+      '<a href="#" class="page-next" style="margin-left: 12px;">다음 →</a>';
+    list.insertAdjacentElement('afterend', pagination);
 
-    items.forEach((item, idx) => {
-      if (idx >= start && idx < end) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
+    const prevBtn = pagination.querySelector('.page-prev');
+    const nextBtn = pagination.querySelector('.page-next');
+    const infoText = pagination.querySelector('.page-info');
 
-    if (infoText) {
+    function showPage(page) {
+      currentPage = page;
+      const start = (page - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+
+      items.forEach((item, idx) => {
+        item.style.display = (idx >= start && idx < end) ? 'block' : 'none';
+      });
+
       infoText.textContent = `${currentPage} / ${totalPages}페이지`;
-    }
-
-    if (prevBtn) {
       prevBtn.style.display = currentPage === 1 ? 'none' : 'inline-block';
-    }
-    if (nextBtn) {
       nextBtn.style.display = currentPage === totalPages ? 'none' : 'inline-block';
     }
-  }
 
-  if (prevBtn) {
     prevBtn.addEventListener('click', (e) => {
       e.preventDefault();
       if (currentPage > 1) {
         showPage(currentPage - 1);
-        document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
+        list.scrollIntoView({ behavior: 'smooth' });
       }
     });
-  }
-  if (nextBtn) {
     nextBtn.addEventListener('click', (e) => {
       e.preventDefault();
       if (currentPage < totalPages) {
         showPage(currentPage + 1);
-        document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
+        list.scrollIntoView({ behavior: 'smooth' });
       }
     });
-  }
 
-  showPage(1);
+    showPage(1);
+  });
 })();
 
 // ─────────────────────────────────────────────
@@ -196,5 +193,135 @@ if (mobileMenuBtn && mobileNav) {
 
   // Re-append to DOM in random order
   items.forEach(item => hotList.appendChild(item));
+})();
+
+// ─────────────────────────────────────────────
+//  검색 오버레이 (헤더 검색 버튼)
+// ─────────────────────────────────────────────
+(function() {
+  const searchBtn = document.getElementById('searchBtn');
+  const data = window.ARTICLES_DATA;
+  if (!searchBtn || !data) return;
+
+  const inArticles = location.pathname.includes('/articles/');
+  const prefix = inArticles ? '../' : '';
+
+  const style = document.createElement('style');
+  style.textContent = `
+    .search-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 9999; display: none; align-items: flex-start; justify-content: center; padding: 8vh 20px; }
+    .search-overlay.is-open { display: flex; }
+    .search-panel { background: #fff; width: 100%; max-width: 560px; border-radius: 12px; padding: 20px; max-height: 74vh; display: flex; flex-direction: column; }
+    .search-panel-head { display: flex; align-items: center; gap: 10px; }
+    .search-panel-head input { flex: 1; border: 1px solid #ddd; border-radius: 8px; padding: 10px 14px; font-size: 15px; font-family: inherit; }
+    .search-panel-close { border: none; background: none; font-size: 20px; cursor: pointer; line-height: 1; padding: 4px 8px; }
+    .search-results { margin-top: 14px; overflow-y: auto; }
+    .search-result-item { display: flex; gap: 12px; padding: 10px 4px; text-decoration: none; color: inherit; border-radius: 8px; }
+    .search-result-item:hover { background: #f5f5f5; }
+    .search-result-item img { width: 72px; height: 48px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
+    .search-result-title { display: block; font-size: 14px; font-weight: 600; line-height: 1.4; }
+    .search-result-date { display: block; font-size: 12px; color: #888; margin-top: 4px; }
+    .search-empty { padding: 20px 4px; color: #888; font-size: 14px; text-align: center; }
+  `;
+  document.head.appendChild(style);
+
+  const overlay = document.createElement('div');
+  overlay.className = 'search-overlay';
+  overlay.id = 'searchOverlay';
+  overlay.innerHTML = `
+    <div class="search-panel">
+      <div class="search-panel-head">
+        <input type="text" id="searchInput" placeholder="기사 제목, 태그로 검색" aria-label="기사 검색">
+        <button type="button" class="search-panel-close" id="searchClose" aria-label="검색 닫기">✕</button>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const input = overlay.querySelector('#searchInput');
+  const results = overlay.querySelector('#searchResults');
+  const closeBtn = overlay.querySelector('#searchClose');
+
+  function render(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) { results.innerHTML = ''; return; }
+
+    const matches = data.filter((item) => {
+      if (item.title.toLowerCase().includes(q)) return true;
+      return item.tags.some((tag) => tag.toLowerCase().includes(q));
+    }).slice(0, 8);
+
+    if (matches.length === 0) {
+      results.innerHTML = '<p class="search-empty">검색 결과가 없습니다.</p>';
+      return;
+    }
+
+    results.innerHTML = matches.map((item) => `
+      <a class="search-result-item" href="${prefix}articles/${item.slug}.html">
+        <img src="${prefix}images/${item.image}" alt="${item.title}" loading="lazy">
+        <span>
+          <span class="search-result-title">${item.title}</span>
+          <span class="search-result-date">${item.date.replace(/-/g, '.')}</span>
+        </span>
+      </a>
+    `).join('');
+  }
+
+  function openOverlay() {
+    overlay.classList.add('is-open');
+    input.value = '';
+    results.innerHTML = '';
+    setTimeout(() => input.focus(), 0);
+  }
+  function closeOverlay() {
+    overlay.classList.remove('is-open');
+  }
+
+  searchBtn.addEventListener('click', openOverlay);
+  closeBtn.addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closeOverlay(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeOverlay(); });
+  input.addEventListener('input', () => render(input.value));
+})();
+
+// ─────────────────────────────────────────────
+//  관련 기사 자동 렌더링 (기사 상세 페이지 사이드바)
+// ─────────────────────────────────────────────
+(function() {
+  const relatedList = document.getElementById('related-list');
+  const articleEl = document.querySelector('.article-main[data-slug]');
+  const data = window.ARTICLES_DATA;
+  if (!relatedList || !articleEl || !data) return;
+
+  const currentSlug = articleEl.getAttribute('data-slug');
+  const current = data.find((item) => item.slug === currentSlug);
+  if (!current) return;
+
+  function sharedCategoryCount(item) {
+    return item.categories.filter((cat) => current.categories.includes(cat)).length;
+  }
+
+  const related = data
+    .filter((item) => item.slug !== currentSlug)
+    .sort((a, b) => {
+      const scoreDiff = sharedCategoryCount(b) - sharedCategoryCount(a);
+      if (scoreDiff !== 0) return scoreDiff;
+      return new Date(b.date) - new Date(a.date);
+    })
+    .slice(0, 3);
+
+  relatedList.innerHTML = related.map((item) => `
+    <li>
+      <a href="${item.slug}.html" class="related-item">
+        <div class="related-thumb">
+          <img src="../images/${item.image}" alt="${item.title}" loading="lazy">
+        </div>
+        <div class="related-info">
+          <span class="related-title">${item.title}</span>
+          <span class="related-date">${item.date.replace(/-/g, '.')}</span>
+        </div>
+      </a>
+    </li>
+  `).join('');
 })();
 

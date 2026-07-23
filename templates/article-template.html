@@ -99,7 +99,7 @@
   <div class="article-wrap">
 
     <!-- ── 메인 컬럼 ── -->
-    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle">
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="{{SLUG}}">
       <meta itemprop="datePublished" content="{{ISO_DATETIME}}">
 
       <!-- 브레드크럼: nav-* 중 활성 카테고리에 맞춰 두 번째 링크와 active 클래스 조정 -->
@@ -246,44 +246,10 @@
     <!-- ── 사이드바 ── -->
     <aside class="article-sidebar" aria-label="관련 정보">
 
-      <!-- 관련 기사: 최근/연관 기사 3개로 교체 -->
+      <!-- 관련 기사: js/main.js가 js/articles-data.js 기준으로 자동 렌더링 -->
       <div class="sidebar-block reveal" id="sidebar-related">
         <h2 class="sidebar-title">관련 기사</h2>
-        <ul class="related-list">
-          <li>
-            <a href="{{RELATED1_SLUG}}.html" class="related-item" id="related-1">
-              <div class="related-thumb">
-                <img src="../images/{{RELATED1_IMAGE}}" alt="{{RELATED1_TITLE}}" loading="lazy">
-              </div>
-              <div class="related-info">
-                <span class="related-title">{{RELATED1_TITLE}}</span>
-                <span class="related-date">{{RELATED1_DATE}}</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="{{RELATED2_SLUG}}.html" class="related-item" id="related-2">
-              <div class="related-thumb">
-                <img src="../images/{{RELATED2_IMAGE}}" alt="{{RELATED2_TITLE}}" loading="lazy">
-              </div>
-              <div class="related-info">
-                <span class="related-title">{{RELATED2_TITLE}}</span>
-                <span class="related-date">{{RELATED2_DATE}}</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="{{RELATED3_SLUG}}.html" class="related-item" id="related-3">
-              <div class="related-thumb">
-                <img src="../images/{{RELATED3_IMAGE}}" alt="{{RELATED3_TITLE}}" loading="lazy">
-              </div>
-              <div class="related-info">
-                <span class="related-title">{{RELATED3_TITLE}}</span>
-                <span class="related-date">{{RELATED3_DATE}}</span>
-              </div>
-            </a>
-          </li>
-        </ul>
+        <ul class="related-list" id="related-list"></ul>
       </div>
 
       <!-- 인기 태그 -->
@@ -336,6 +302,8 @@
   </div>
 </footer>
 
+<!-- 새 기사 발행 시 js/articles-data.js에 이 기사 항목을 반드시 추가할 것 (검색·관련기사가 이 파일을 참조함) -->
+<script src="../js/articles-data.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
