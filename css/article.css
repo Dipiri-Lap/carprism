@@ -471,6 +471,71 @@ body {
   border-left-color: var(--accent-blue);
 }
 
+/* 비교 표 (가격·스펙 등 수치 비교용) */
+.spec-table-wrap {
+  margin: 24px 0;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+.spec-table caption {
+  caption-side: bottom;
+  text-align: left;
+  padding: 10px 16px;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  background: var(--bg);
+}
+.spec-table th,
+.spec-table td {
+  padding: 12px 16px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+}
+.spec-table th:first-child,
+.spec-table td:first-child {
+  text-align: left;
+  font-weight: 700;
+}
+.spec-table thead th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  border-bottom: none;
+}
+.spec-table tbody tr:last-child td { border-bottom: none; }
+.spec-table tbody tr:hover { background: var(--bg); }
+.spec-table td.spec-highlight {
+  font-weight: 800;
+  color: var(--accent);
+}
+.spec-table.align-left th,
+.spec-table.align-left td { text-align: left; white-space: normal; }
+.spec-table.align-left th:first-child,
+.spec-table.align-left td:first-child { width: 34%; }
+
+/* 체크포인트 콜아웃 */
+.checkpoint-box {
+  display: flex;
+  gap: 10px;
+  background: #fff8ec;
+  border: 1px solid #f3ddb0;
+  border-left: 4px solid #e8a83c;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 16px 20px;
+  margin: 24px 0;
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+.checkpoint-box strong { color: #b9791a; }
+
 /* 태그 (본문 내) */
 .tag {
   display: inline-block;
