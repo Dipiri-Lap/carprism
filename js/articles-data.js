@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "no-signal-intersection-priority-guide",
+    title: "신호 없는 교차로 우선순위 완전정리 — 초보운전자가 가장 헷갈리는 상황 5가지",
+    date: "2026-07-25",
+    image: "korea_roundabout.webp",
+    categories: ["news"],
+    tags: ["신호없는교차로우선순위", "교차로통행우선권", "우측차량우선", "회전교차로통행방법", "점멸신호서행"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "헤드라인제주 / 브런치",
+    desc: "신호등 없는 교차로에서 뭐가 우선인지 헷갈린다면 도로교통법 제26조부터 확인해야 한다. 동시 도착, 도로 폭, 좌회전, 회전교차로, 점멸신호까지 초보운전자가 가장 헷갈리는 5가지 상황을 정리했다."
+  },
+  {
     slug: "first-car-recommendation-top5-2026",
     title: "첫차 추천 TOP 5 — 1,395만원 모닝부터 니로 하이브리드까지 예산별 총정리",
     date: "2026-07-24",
