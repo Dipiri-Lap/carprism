@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "summer-car-discount-2026-07",
+    title: "그랜저 300만원·팰리세이드 300만원 할인 — 국산차 5개사 여름휴가철 프로모션 총정리",
+    date: "2026-07-24",
+    image: "grandeur_official.png",
+    categories: ["news", "domestic"],
+    tags: ["그랜저할인", "팰리세이드할인", "여름휴가철신차할인", "현대차썸머페스타", "국산차할인"],
+    badge: "SUMMER DISCOUNT",
+    badgeClass: "cat-sales",
+    source: "다나와 자동차 / 인더뉴스",
+    desc: "현대차 썸머 페스타로 그랜저·팰리세이드가 최대 300만원 할인된다. 기아·제네시스·KGM·르노코리아까지 국산차 5개사가 동시에 진행 중인 7월 여름휴가철 신차 할인 조건을 총정리했다."
+  },
+  {
     slug: "gac-e8-phev-2026",
     title: "GAC E8 PHEV 공개 — 순수전기 281km·복합연비 3.98L 세계기록 MPV 총정리",
     date: "2026-07-23",
