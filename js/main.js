@@ -58,6 +58,27 @@
       </li>
     `).join('');
   }
+
+  // 드라이빙 팁 리스트 (badge가 "DRIVING TIPS"인 기사만 최신순)
+  const tipsList = document.querySelector('#driving-tips .article-list');
+  if (tipsList) {
+    const tipsItems = sortedByDate.filter((item) => item.badge === 'DRIVING TIPS');
+
+    tipsList.innerHTML = tipsItems.map((item) => `
+      <li>
+        <a href="articles/${item.slug}.html" class="article-row reveal">
+          <div class="row-thumb">
+            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+          </div>
+          <div class="row-info">
+            <span class="cat-label ${item.badgeClass}">${item.badge}</span>
+            <h3 class="row-title">${item.title}</h3>
+            <p class="row-meta">${item.date.replace(/-/g, '.')} · 원문: ${item.source}</p>
+          </div>
+        </a>
+      </li>
+    `).join('');
+  }
 })();
 
 // 스크롤 진행률 바
