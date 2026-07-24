@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-k8-2027-review",
+    title: "기아 K8 가격 3,731만원부터 — 하이브리드 연비 18km/L, 국내외 시승기 총정리",
+    date: "2026-07-24",
+    image: "kia_k8_2027_front.webp",
+    categories: ["domestic", "reviews"],
+    tags: ["기아K8가격", "K8시승기", "K8하이브리드연비", "더뉴K8", "준대형세단추천"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "차가치 / 애틀랜타K뉴스",
+    desc: "기아 준대형 세단 더 뉴 K8의 27년형 트림별 가격과 파워트레인, 국내외 시승기를 총정리했다. 스타맵 시그니처 라이팅 디자인부터 하이브리드 실연비, 그랜저와의 비교까지 정리했다."
+  },
+  {
     slug: "parking-brake-vs-foot-brake-hill-stop",
     title: "언덕 정차 시 브레이크, 주차브레이크가 맞을까 풋브레이크가 맞을까 — 초보운전자 필수 상식",
     date: "2026-07-24",
