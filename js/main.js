@@ -59,10 +59,11 @@
     `).join('');
   }
 
-  // 드라이빙 팁 리스트 (badge가 "DRIVING TIPS"인 기사만 최신순)
+  // 운전 상식과 팁 리스트 (DRIVING TIPS·POLICY UPDATE·EV POLICY 기사 최신순)
   const tipsList = document.querySelector('#driving-tips .article-list');
   if (tipsList) {
-    const tipsItems = sortedByDate.filter((item) => item.badge === 'DRIVING TIPS');
+    const TIPS_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
+    const tipsItems = sortedByDate.filter((item) => TIPS_BADGES.includes(item.badge));
 
     tipsList.innerHTML = tipsItems.map((item) => `
       <li>
