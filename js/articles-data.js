@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "first-car-recommendation-top5-2026",
+    title: "첫차 추천 TOP 5 — 1,395만원 모닝부터 니로 하이브리드까지 예산별 총정리",
+    date: "2026-07-24",
+    image: "kia_morning.webp",
+    categories: ["news", "domestic"],
+    tags: ["첫차추천", "사회초년생첫차", "초보운전첫차추천", "첫차순위", "예산별신차추천"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "CAR INFO",
+    desc: "사회초년생·초보운전자를 위한 첫차 추천 TOP 5를 예산순으로 정리했다. 기아 모닝, 현대 캐스퍼, 기아 레이, 현대 아반떼, 기아 니로 하이브리드까지 가격·연비·유지비를 비교했다."
+  },
+  {
     slug: "kia-k8-2027-review",
     title: "기아 K8 가격 3,731만원부터 — 하이브리드 연비 18km/L, 국내외 시승기 총정리",
     date: "2026-07-24",
