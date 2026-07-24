@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "dui-interlock-conditional-license-2026",
+    title: "음주운전 방지장치 조건부 면허, 10월 24일 첫 적용 — 대상·비용·처벌 총정리",
+    date: "2026-07-24",
+    image: "dui_interlock_device_test.webp",
+    categories: ["news"],
+    tags: ["음주운전방지장치조건부면허", "시동잠금장치", "조건부운전면허", "상습음주운전", "도로교통법개정"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "세계일보 / 경향신문",
+    desc: "상습 음주운전자가 면허를 재취득할 때 음주운전 방지장치 부착이 의무화되는 조건부 면허 제도의 실제 적용이 10월 24일부터 시작된다. 대상 기준, 장치 작동 방식과 비용, 위반 시 처벌까지 총정리했다."
+  },
+  {
     slug: "summer-car-discount-2026-07",
     title: "그랜저 300만원·팰리세이드 300만원 할인 — 국산차 5개사 여름휴가철 프로모션 총정리",
     date: "2026-07-24",
