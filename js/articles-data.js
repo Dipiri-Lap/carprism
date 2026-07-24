@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-summer-heat-range-tips-2026",
+    title: "전기차 폭염철 주행거리 17% 뚝 — 항속거리 지키는 습관 5가지",
+    date: "2026-07-24",
+    image: "ev_charging.jpg",
+    categories: ["electric", "news"],
+    tags: ["전기차폭염주행거리", "전기차배터리관리", "전기차항속거리", "에어컨프리컨디셔닝", "배터리온도관리"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "스타뉴스 / 블랑루시",
+    desc: "섭씨 35도 이상 폭염에 에어컨을 켜고 달리면 전기차 주행거리가 17% 줄어든다. 충전 중 프리컨디셔닝부터 배터리 온도 관리까지, 폭염철 전기차 항속거리를 지키는 습관 5가지를 정리했다."
+  },
+  {
     slug: "dui-interlock-conditional-license-2026",
     title: "음주운전 방지장치 조건부 면허, 10월 24일 첫 적용 — 대상·비용·처벌 총정리",
     date: "2026-07-24",
