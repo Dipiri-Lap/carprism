@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "parking-brake-vs-foot-brake-hill-stop",
+    title: "언덕 정차 시 브레이크, 주차브레이크가 맞을까 풋브레이크가 맞을까 — 초보운전자 필수 상식",
+    date: "2026-07-24",
+    image: "parking_brake_lever.webp",
+    categories: ["news"],
+    tags: ["언덕정차브레이크", "주차브레이크풋브레이크차이", "오르막길정차방법", "오토홀드사용법", "브레이크페이드"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "슬기로운 자동차생활 / 금호타이어 블로그",
+    desc: "오르막길에서 정차할 때 풋브레이크만 밟고 있으면 위험하다. 오토홀드, 수동변속기 반클러치 요령부터 내리막길 브레이크 페이드 예방까지, 초보운전자가 알아야 할 언덕 정차·출발 브레이크 사용법을 정리했다."
+  },
+  {
     slug: "ev-summer-heat-range-tips-2026",
     title: "전기차 폭염철 주행거리 17% 뚝 — 항속거리 지키는 습관 5가지",
     date: "2026-07-24",
