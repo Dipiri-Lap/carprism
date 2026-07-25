@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hipass-unpaid-toll-check-autopay-guide",
+    title: "하이패스 미납요금 조회 방법과 자동납부 신청 — 방치하면 최대 10배 가산금",
+    date: "2026-07-25",
+    image: "seoul_tollgate_hipass.jpg",
+    categories: ["news"],
+    tags: ["하이패스미납요금조회", "하이패스자동납부신청", "고속도로통행료미납조회", "하이패스미납가산금", "하이패스미납요금납부방법"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "하이패스 홈페이지 / 소비자가만드는신문",
+    desc: "하이패스 미납요금은 홈페이지·앱·콜센터에서 셀프로 조회할 수 있다. 후불 하이패스카드 자동납부 신청 방법과, 방치했을 때 최대 10배까지 붙는 가산금·강제징수 절차까지 정리했다."
+  },
+  {
     slug: "drowsy-driving-coffee-nap-checklist",
     title: "졸음운전 대처법, 커피보다 효과적인 '커피 낮잠' — 장거리 운전 전 체크리스트",
     date: "2026-07-25",
