@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "budget-cars-20-million-won-2026",
+    title: "2000만원대 추천 차량 5선 — 경차부터 소형 SUV·전기차까지 예산별 총정리",
+    date: "2026-07-25",
+    image: "hyundai_casper.webp",
+    categories: ["news", "domestic"],
+    tags: ["2000만원대추천차량", "2000만원대신차추천", "2000만원대SUV추천", "2000만원대세단", "가성비신차추천2026"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대자동차 공식 홈페이지 / 차프라이스",
+    desc: "2000만원대 예산으로 살 수 있는 신차 5종을 총정리했다. 캐스퍼, 아반떼, 베뉴, 코나, 캐스퍼 일렉트릭까지 경차·준중형·소형 SUV·전기차를 트림별 가격과 함께 비교했다."
+  },
+  {
     slug: "hipass-unpaid-toll-check-autopay-guide",
     title: "하이패스 미납요금 조회 방법과 자동납부 신청 — 방치하면 최대 10배 가산금",
     date: "2026-07-25",
