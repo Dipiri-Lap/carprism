@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "drowsy-driving-coffee-nap-checklist",
+    title: "졸음운전 대처법, 커피보다 효과적인 '커피 낮잠' — 장거리 운전 전 체크리스트",
+    date: "2026-07-25",
+    image: "highway_rest_area.webp",
+    categories: ["news"],
+    tags: ["졸음운전대처법", "커피낮잠", "졸음운전예방법", "장거리운전체크리스트", "파워냅운전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "더드라이브 / 뉴스와",
+    desc: "졸음운전에 커피만 마시고 버티면 오히려 위험하다. 카페인이 작동하기까지 20~30분 걸리는 원리를 이용한 '커피 낮잠' 요령부터 장거리 운전 전 꼭 확인할 체크리스트까지 정리했다."
+  },
+  {
     slug: "no-signal-intersection-priority-guide",
     title: "신호 없는 교차로 우선순위 완전정리 — 초보운전자가 가장 헷갈리는 상황 5가지",
     date: "2026-07-25",
