@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "popular-car-recommendation-top5-2026",
+    title: "최근 인기 차량 추천 TOP 5 — 판매량으로 검증된 그랜저·쏘렌토·팰리세이드 총정리",
+    date: "2026-07-25",
+    image: "grandeur_official.png",
+    categories: ["news", "domestic"],
+    tags: ["최근인기차량추천", "요즘잘나가는차", "인기차량순위2026", "판매량1위차량", "국산차추천2026"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "뉴스와 / 시사저널e",
+    desc: "2026년 6월 국산차 판매량 데이터를 기준으로 실제로 잘 팔리는 인기 차량 5종을 골랐다. 그랜저, 쏘렌토, 셀토스, 카니발, 팰리세이드까지 왜 인기 있는지와 누구에게 맞는지 정리했다."
+  },
+  {
     slug: "budget-cars-20-million-won-2026",
     title: "2000만원대 추천 차량 5선 — 경차부터 소형 SUV·전기차까지 예산별 총정리",
     date: "2026-07-25",
