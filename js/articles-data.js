@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "zeekr-7x-korea-price-spec-2026",
+    title: "지커 7X 가격·제원 총정리 — 라이다 빠진 국내 사양과 보조금 미지급 이유",
+    date: "2026-07-26",
+    image: "zeekr_7x_main.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["지커7X", "지커7X가격", "지커7X제원", "지커7X보조금", "지커7X사전계약"],
+    badge: "EV SUV",
+    badgeClass: "cat-sales",
+    source: "뉴스와 / 이데일리",
+    desc: "지리(Geely) 산하 지커의 첫 한국 출시 모델 7X를 총정리했다. 트림별 가격과 주행거리, 글로벌 사양에서 빠진 라이다·엔비디아 토르, 보조금 없이도 사전계약 1000대를 넘긴 이유까지 정리했다."
+  },
+  {
     slug: "budget-cars-20-million-won-2026",
     title: "2000만원대 추천 차량 5선 — 경차부터 소형 SUV·전기차까지 예산별 총정리",
     date: "2026-07-25",
