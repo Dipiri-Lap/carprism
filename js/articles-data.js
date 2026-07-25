@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "budget-cars-20-million-won-2026",
     title: "2000만원대 추천 차량 5선 — 경차부터 소형 SUV·전기차까지 예산별 총정리",
     date: "2026-07-25",
-    image: "hyundai_casper.webp",
+    image: "hyundai_casper_2026.webp",
     categories: ["news", "domestic"],
     tags: ["2000만원대추천차량", "2000만원대신차추천", "2000만원대SUV추천", "2000만원대세단", "가성비신차추천2026"],
     badge: "BUYING GUIDE",
