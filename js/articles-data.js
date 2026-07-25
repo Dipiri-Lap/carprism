@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "drowsy-driving-coffee-nap-checklist",
     title: "졸음운전 대처법, 커피보다 효과적인 '커피 낮잠' — 장거리 운전 전 체크리스트",
     date: "2026-07-25",
-    image: "highway_rest_area.webp",
+    image: "drowsy_driving_nod_off.webp",
     categories: ["news"],
     tags: ["졸음운전대처법", "커피낮잠", "졸음운전예방법", "장거리운전체크리스트", "파워냅운전"],
     badge: "DRIVING TIPS",
