@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-ev4-price-spec-review-2026",
+    title: "\"이 가격에 533km가 가능하다고?\"… 기아 EV4 가격·제원·해외 평가 총정리",
+    date: "2026-07-27",
+    image: "kia_ev4_main.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["기아EV4", "EV4가격", "EV4주행거리", "EV4GT", "EV4시승평가"],
+    badge: "EV SEDAN",
+    badgeClass: "cat-sales",
+    source: "Electrifying / 기아 공식 홈페이지",
+    desc: "기아의 준중형 전기 세단 EV4를 총정리했다. 스탠다드·롱레인지 트림별 국내 가격과 주행거리, 292마력 EV4 GT 고성능 모델, 해외 시승 평가까지 정리했다."
+  },
+  {
     slug: "hyundai-kona-full-change-sx3-2027",
     title: "\"이번엔 진심이다\"… 코나 풀체인지 총정리, 178마력 사륜 하이브리드까지",
     date: "2026-07-26",
