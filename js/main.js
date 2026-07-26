@@ -24,7 +24,7 @@
           <span class="slide-cat slide-cat--${item.badgeClass === 'cat-sales' ? 'gold' : 'blue'}">${item.badge}</span>
           <h2 class="slide-title">${item.title}</h2>
           <p class="slide-desc">${item.desc}</p>
-          <p class="slide-meta">편집팀 &nbsp;·&nbsp; ${item.date.replace(/-/g, '.')} &nbsp;·&nbsp; <span class="slide-source">원문: ${item.source}</span></p>
+          <p class="slide-meta">편집팀 &nbsp;·&nbsp; ${item.date.replace(/-/g, '.')} &nbsp;·&nbsp; <span class="slide-source">${item.badge === 'TEST DRIVE' ? '원문' : '참고'}: ${item.source}</span></p>
           <a href="articles/${item.slug}.html" class="slide-btn">기사 읽기 →</a>
         </div>
       </div>
@@ -52,7 +52,7 @@
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
             <h3 class="row-title">${item.title}</h3>
-            <p class="row-meta">${item.date.replace(/-/g, '.')} · 원문: ${item.source}</p>
+            <p class="row-meta">${item.date.replace(/-/g, '.')} · ${item.badge === 'TEST DRIVE' ? '원문' : '참고'}: ${item.source}</p>
           </div>
         </a>
       </li>
@@ -74,7 +74,7 @@
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
             <h3 class="row-title">${item.title}</h3>
-            <p class="row-meta">${item.date.replace(/-/g, '.')} · 원문: ${item.source}</p>
+            <p class="row-meta">${item.date.replace(/-/g, '.')} · ${item.badge === 'TEST DRIVE' ? '원문' : '참고'}: ${item.source}</p>
           </div>
         </a>
       </li>

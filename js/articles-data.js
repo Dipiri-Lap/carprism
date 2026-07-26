@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "hyundai-kona-full-change-sx3-2027",
-    title: "코나 풀체인지 총정리 — 부분변경 대신 3세대 직행, 178마력 사륜 하이브리드까지",
+    title: "\"이번엔 진심이다\"… 코나 풀체인지 총정리, 178마력 사륜 하이브리드까지",
     date: "2026-07-26",
     image: "hyundai_kona.webp",
     categories: ["news", "domestic"],
@@ -27,7 +27,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-ioniq3-price-spec-korea-launch-2026",
-    title: "\"나오면 바로 산다\"… 현대 올 뉴 아이오닉 3 가격·제원 총정리, 국내 출시는 언제",
+    title: "\"롱레인지가 힘은 더 약하다\"… 현대 올 뉴 아이오닉 3 가격·제원 총정리, 국내 출시는 언제",
     date: "2026-07-26",
     image: "ioniq3_main.webp",
     categories: ["news", "domestic", "electric"],
