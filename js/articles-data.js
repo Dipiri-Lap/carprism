@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kgm-musso-ev-pickup-price-review-2026",
+    title: "KGM 무쏘 EV 가격·제원·시승 총정리 — 화물차 등록으로 실구매가 3천만원대",
+    date: "2026-07-26",
+    image: "kgm_musso_ev_main.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["KGM무쏘EV", "무쏘EV가격", "전기픽업트럭", "무쏘EV보조금", "무쏘EV시승기"],
+    badge: "EV PICKUP",
+    badgeClass: "cat-sales",
+    source: "뉴스와 / 카가이",
+    desc: "국내 최초 전기 픽업트럭 KGM 무쏘 EV를 총정리했다. 트림별 가격과 화물차 등록으로 받는 보조금, 2WD·AWD 제원과 적재량·견인력, 국내외 시승기 평가까지 정리했다."
+  },
+  {
     slug: "zeekr-7x-korea-price-spec-2026",
     title: "지커 7X 가격·제원 총정리 — 라이다 빠진 국내 사양과 보조금 미지급 이유",
     date: "2026-07-26",
