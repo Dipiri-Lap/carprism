@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "kgm-torres-facelift-price-spec-2026",
     title: "\"터치 대신 다이얼로 바꿨다\"… KGM 뉴 토레스 페이스리프트 가격·제원 총정리",
     date: "2026-07-27",
-    image: "kgm_torres_front_current.webp",
+    image: "kgm_new_torres_showroom.webp",
     categories: ["news", "domestic"],
     tags: ["KGM토레스페이스리프트", "뉴토레스가격", "토레스하이브리드가격", "토레스터레인모드", "토레스다이얼"],
     badge: "FACELIFT",
