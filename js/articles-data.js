@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "kia-pv5-passenger-autocar-award-price-2026",
-    title: "기아 PV5 패신저, 英 오토카 '최고의 대형차' 수상 — 국내 가격·주행거리 총정리",
+    title: "\"영국에서 난리 났다\"… 기아 PV5 패신저, 오토카 '최고의 대형차' 수상 — 가격 4,709만원부터",
     date: "2026-07-26",
     image: "kia_pv5_passenger_main.webp",
     categories: ["news", "domestic", "electric"],
