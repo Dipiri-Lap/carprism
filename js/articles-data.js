@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kgm-torres-facelift-price-spec-2026",
+    title: "\"터치 대신 다이얼로 바꿨다\"… KGM 뉴 토레스 페이스리프트 가격·제원 총정리",
+    date: "2026-07-27",
+    image: "kgm_torres_front_current.webp",
+    categories: ["news", "domestic"],
+    tags: ["KGM토레스페이스리프트", "뉴토레스가격", "토레스하이브리드가격", "토레스터레인모드", "토레스다이얼"],
+    badge: "FACELIFT",
+    badgeClass: "cat-sales",
+    source: "뉴스1 / 오토스파이넷",
+    desc: "KGM이 뉴 토레스 페이스리프트를 출시했다. 가솔린 2,905만원·하이브리드 3,205만원부터 시작하는 가격표와 8단 변속기로 개선된 파워트레인, 터레인 모드, 터치 조작을 다이얼로 바꾼 실내 변화까지 정리했다."
+  },
+  {
     slug: "kia-ev4-price-spec-review-2026",
     title: "\"이 가격에 533km가 가능하다고?\"… 기아 EV4 가격·제원·해외 평가 총정리",
     date: "2026-07-27",
