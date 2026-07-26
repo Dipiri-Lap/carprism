@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-kona-full-change-sx3-2027",
+    title: "코나 풀체인지 총정리 — 부분변경 대신 3세대 직행, 178마력 사륜 하이브리드까지",
+    date: "2026-07-26",
+    image: "hyundai_kona.webp",
+    categories: ["news", "domestic"],
+    tags: ["코나풀체인지", "코나3세대", "코나SX3", "코나신형출시일", "코나사륜하이브리드"],
+    badge: "PROJECT SX3",
+    badgeClass: "cat-sales",
+    source: "뉴스와 / 오토뷰",
+    desc: "현대차가 코나 부분변경을 건너뛰고 3세대 완전변경(SX3)으로 직행한다. 셀토스를 겨냥한 배경과 크레이터 콘셉트카에서 영감받은 디자인, 178마력 e-AWD 하이브리드, 예상 출시일까지 정리했다."
+  },
+  {
     slug: "kia-pv5-passenger-autocar-award-price-2026",
     title: "\"영국에서 난리 났다\"… 기아 PV5 패신저, 오토카 '최고의 대형차' 수상 — 가격 4,709만원부터",
     date: "2026-07-26",
