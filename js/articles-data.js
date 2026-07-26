@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-pv5-passenger-autocar-award-price-2026",
+    title: "기아 PV5 패신저, 英 오토카 '최고의 대형차' 수상 — 국내 가격·주행거리 총정리",
+    date: "2026-07-26",
+    image: "kia_pv5_passenger_main.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["기아PV5패신저", "PV5패신저가격", "PV5오토카어워즈", "PV5제원", "PV5패신저주행거리"],
+    badge: "EV MPV",
+    badgeClass: "cat-sales",
+    source: "The Korea Times / 디지털데일리",
+    desc: "기아 PV5 패신저가 영국 오토카 어워즈에서 '최고의 대형차'로 선정됐다. 세계 올해의 밴 등 글로벌 수상 이력과 함께, E-GMP.S 플랫폼 제원, 국내 트림별 가격, 5인승 시트 구성까지 총정리했다."
+  },
+  {
     slug: "hyundai-ioniq3-price-spec-korea-launch-2026",
     title: "\"나오면 바로 산다\"… 현대 올 뉴 아이오닉 3 가격·제원 총정리, 국내 출시는 언제",
     date: "2026-07-26",
