@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-palisade-full-change-price-review-2026",
+    title: "현대 팰리세이드 풀체인지 가격·제원·시승기 총정리 — 가솔린 vs 하이브리드",
+    date: "2026-07-26",
+    image: "palisade_full_change_main.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["팰리세이드풀체인지", "디올뉴팰리세이드", "팰리세이드가격표", "팰리세이드하이브리드시승기", "팰리세이드가솔린하이브리드비교"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "Edmunds / MotorWeek",
+    desc: "2세대 완전변경된 디 올 뉴 팰리세이드를 총정리했다. 가솔린·하이브리드 트림별 가격표, 커진 차체와 실내 공간, 국내외 시승기 평가와 하이브리드 판매 비중 80%가 넘는 이유까지 정리했다."
+  },
+  {
     slug: "kgm-musso-ev-pickup-price-review-2026",
     title: "KGM 무쏘 EV 가격·제원·시승 총정리 — 화물차 등록으로 실구매가 3천만원대",
     date: "2026-07-26",
