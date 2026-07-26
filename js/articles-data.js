@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-ioniq3-price-spec-korea-launch-2026",
+    title: "\"나오면 바로 산다\"… 현대 올 뉴 아이오닉 3 가격·제원 총정리, 국내 출시는 언제",
+    date: "2026-07-26",
+    image: "ioniq3_main.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["아이오닉3", "아이오닉3가격", "아이오닉3제원", "아이오닉3국내출시", "올뉴아이오닉3"],
+    badge: "EV HATCHBACK",
+    badgeClass: "cat-hyundai",
+    source: "뉴스와 / 토픽트리",
+    desc: "아이오닉 브랜드 첫 소형 전기 해치백 올 뉴 아이오닉 3를 총정리했다. 유럽 출시 가격과 배터리별 주행거리, 플레오스 커넥트 실내, 국내 출시 시점 전망까지 정리했다."
+  },
+  {
     slug: "hyundai-palisade-full-change-price-review-2026",
     title: "현대 팰리세이드 풀체인지 가격·제원·시승기 총정리 — 가솔린 vs 하이브리드",
     date: "2026-07-26",
