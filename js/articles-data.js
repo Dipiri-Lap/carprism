@@ -29,7 +29,7 @@ window.ARTICLES_DATA = [
     slug: "genesis-luxury-pickup-truck-review-2026",
     title: "\"벤츠도 실패한 시장\"… 제네시스, 럭셔리 픽업트럭 출시 검토 중",
     date: "2026-07-27",
-    image: "kia_tasman_genesis_ref1.webp",
+    image: "genesis_pickup_render_carscoops1.webp",
     categories: ["news", "domestic"],
     tags: ["제네시스픽업트럭", "제네시스픽업검토", "제네시스프레임바디", "제네시스EREV픽업", "럭셔리픽업트럭"],
     badge: "UNDER REVIEW",
