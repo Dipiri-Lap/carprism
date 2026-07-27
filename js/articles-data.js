@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "maserati-grecale-trofeo-review-2026",
-    title: "마세라티 그레칼레 트로페오 시승기 총정리 — 네튜노 V6 523마력, 국내외 리뷰 모아보기",
+    title: "\"생각보다 얌전하다, 한계까지는\"… 마세라티 그레칼레 트로페오, 네튜노 V6 523마력 시승기 총정리",
     date: "2026-07-27",
     image: "maserati_grecale_trofeo_main.webp",
     categories: ["reviews", "import"],
