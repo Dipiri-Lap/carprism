@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "recall-byd-benz-hyundai-volvo-jlr-july-2026",
+    title: "\"내 차도 포함됐나?\"… BYD·벤츠·현대차 등 6개사 14만 6,505대 리콜",
+    date: "2026-07-27",
+    image: "hyundai_tucson_recall.webp",
+    categories: ["news", "domestic", "import"],
+    tags: ["자동차리콜2026", "국토부리콜", "BYD리콜", "벤츠리콜", "현대차투싼리콜"],
+    badge: "RECALL",
+    badgeClass: "cat-sales",
+    source: "헤럴드경제 / MBC뉴스",
+    desc: "국토교통부가 BYD·벤츠·스텔란티스·재규어랜드로버·현대차·볼보 등 6개사 38개 차종 14만 6,505대의 제작 결함을 확인해 리콜을 진행한다. 차종별 결함 내용과 조회 방법을 정리했다."
+  },
+  {
+    slug: "genesis-gv60-magma-nurburgring-track-taxi-2026",
+    title: "\"택시인데 시속 200km\"… 제네시스 GV60 마그마, 뉘르부르크링 트랙택시 합류",
+    date: "2026-07-27",
+    image: "genesis_gv60_magma_interior1.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["GV60마그마", "뉘르부르크링트랙택시", "제네시스트랙택시", "GV60마그마제원", "노르트슐라이페"],
+    badge: "TRACK TAXI",
+    badgeClass: "cat-genesis",
+    source: "뉴스와이어 / Motoring Research",
+    desc: "제네시스 GV60 마그마가 독일 뉘르부르크링 노르트슐라이페의 유료 트랙택시 프로그램에 투입됐다. 듀얼모터 650마력 제원과 체험 방법, 요금까지 정리했다."
+  },
+  {
+    slug: "genesis-luxury-pickup-truck-review-2026",
+    title: "\"벤츠도 실패한 시장\"… 제네시스, 럭셔리 픽업트럭 출시 검토 중",
+    date: "2026-07-27",
+    image: "kia_tasman_genesis_ref1.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스픽업트럭", "제네시스픽업검토", "제네시스프레임바디", "제네시스EREV픽업", "럭셔리픽업트럭"],
+    badge: "UNDER REVIEW",
+    badgeClass: "cat-genesis",
+    source: "뉴스와 / Carscoops",
+    desc: "제네시스가 브랜드 최초의 럭셔리 픽업트럭 출시를 검토하고 있다. 현대차 신형 프레임바디 플랫폼, 하이브리드·EREV 파워트레인 전망, 벤츠 X클래스 실패 사례와 시장 전략까지 정리했다."
+  },
+  {
     slug: "kgm-torres-facelift-price-spec-2026",
     title: "\"터치 대신 다이얼로 바꿨다\"… KGM 뉴 토레스 페이스리프트 가격·제원 총정리",
     date: "2026-07-27",
