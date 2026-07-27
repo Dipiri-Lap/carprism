@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "toyota-sequoia-2027-review",
+    title: "\"승차감은 그대로\"… 2027 토요타 세쿼이아, 14인치 화면과 트레일헌터로 승부수",
+    date: "2026-07-28",
+    image: "toyota_sequoia_2027_front.webp",
+    categories: ["import", "news"],
+    tags: ["토요타세쿼이아", "세쿼이아트레일헌터", "세쿼이아페이스리프트", "대형SUV", "i포스맥스"],
+    badge: "MODEL UPDATE",
+    badgeClass: "cat-sales",
+    source: "Toyota USA Newsroom / AutoGuide.com",
+    desc: "토요타가 대형 SUV 세쿼이아의 2027년형을 공개했다. 새로워진 외관과 14인치 인포테인먼트, 오프로드 특화 트레일헌터 트림까지 국내외 정보를 취합해 정리했다."
+  },
+  {
     slug: "maserati-grecale-trofeo-review-2026",
     title: "\"생각보다 얌전하다, 한계까지는\"… 마세라티 그레칼레 트로페오, 네튜노 V6 523마력 시승기 총정리",
     date: "2026-07-27",
