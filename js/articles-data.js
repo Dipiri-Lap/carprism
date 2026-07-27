@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-tucson-5th-gen-rumor-2027",
+    title: "\"이러면 스포티지 누가 사나\"… 5세대 투싼 완전변경 예상도 화제, 아직은 루머",
+    date: "2026-07-28",
+    image: "tucson_2027_render_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["투싼풀체인지", "5세대투싼", "투싼NX5", "투싼2027", "투싼루머"],
+    badge: "RUMOR",
+    badgeClass: "cat-hyundai",
+    source: "더드라이브 / AutoData Hub / 오토야 인테리어(유튜브)",
+    desc: "2027년 출시가 예상되는 5세대 투싼 완전변경 예상도가 화제다. 현대차 공식 발표가 아닌 스파이샷·렌더링 기반 업계 루머라는 점을 전제로, 예상 디자인과 파워트레인, 가격 전망을 정리했다."
+  },
+  {
+    slug: "polestar-4-2026my-korea",
+    title: "\"미국에서는 마지막 모델\"… 2026년형 폴스타4, 국내는 가격 동결하고 상품성 강화",
+    date: "2026-07-28",
+    image: "polestar4_front.webp",
+    categories: ["electric", "import"],
+    tags: ["폴스타4", "폴스타2026년형", "폴스타전기SUV쿠페", "폴스타국내출시", "수입전기차"],
+    badge: "EV UPDATE",
+    badgeClass: "cat-sales",
+    source: "다나와 자동차 / 오토뷰 / Autoblog",
+    desc: "폴스타코리아가 2026년형 폴스타4를 국내 출시했다. 가격은 동결하고 옵션은 강화한 국내 소식과 544마력 성능, 해외 시승 평가, 미국 시장 철수 이슈까지 취합해 정리했다."
+  },
+  {
+    slug: "polestar-3-korea-launch-2026",
+    title: "\"드라이브 모드도 화면 세 번 눌러야\"… 폴스타3 한국 상륙, 7790만원의 이유",
+    date: "2026-07-28",
+    image: "polestar3_front.webp",
+    categories: ["electric", "import"],
+    tags: ["폴스타3", "폴스타전기SUV", "폴스타국내출시", "전기플래그십SUV", "수입전기차"],
+    badge: "FLAGSHIP EV",
+    badgeClass: "cat-sales",
+    source: "탑라이더 / Motoring Research",
+    desc: "폴스타의 플래그십 전기 SUV 폴스타3가 한국에 상륙했다. 전 세계 최저가로 책정된 7790만원부터의 가격, 680마력 성능, 국내외 시승 평가까지 취합해 정리했다."
+  },
+  {
     slug: "toyota-sequoia-2027-review",
     title: "\"화면은 커졌지만 승차감은 그대로\"… 2027 토요타 세쿼이아, 트레일헌터로 던진 승부수",
     date: "2026-07-28",

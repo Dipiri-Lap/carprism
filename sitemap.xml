@@ -55,6 +55,24 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-tucson-5th-gen-rumor-2027.html</loc>
+    <lastmod>2026-07-28T18:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/polestar-4-2026my-korea.html</loc>
+    <lastmod>2026-07-28T16:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/polestar-3-korea-launch-2026.html</loc>
+    <lastmod>2026-07-28T14:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/toyota-sequoia-2027-review.html</loc>
     <lastmod>2026-07-28T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
