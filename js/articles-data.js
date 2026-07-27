@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "toyota-sequoia-2027-review",
-    title: "\"승차감은 그대로\"… 2027 토요타 세쿼이아, 14인치 화면과 트레일헌터로 승부수",
+    title: "\"화면은 커졌지만 승차감은 그대로\"… 2027 토요타 세쿼이아, 트레일헌터로 던진 승부수",
     date: "2026-07-28",
     image: "toyota_sequoia_2027_front.webp",
     categories: ["import", "news"],
