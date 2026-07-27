@@ -6,7 +6,8 @@
       "Bash(node scripts/validate-articles-data.js)",
       "Bash(npx serve *)",
       "Bash(npx eslint *)",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "Bash(mkdir -p *)"
     ]
   }
 }

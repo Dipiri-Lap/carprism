@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "maserati-grecale-trofeo-review-2026",
+    title: "마세라티 그레칼레 트로페오 시승기 총정리 — 네튜노 V6 523마력, 국내외 리뷰 모아보기",
+    date: "2026-07-27",
+    image: "maserati_grecale_trofeo_main.webp",
+    categories: ["reviews", "import"],
+    tags: ["마세라티그레칼레", "그레칼레트로페오", "네튜노V6", "마세라티SUV", "수입차리뷰"],
+    badge: "PERFORMANCE SUV",
+    badgeClass: "cat-sales",
+    source: "에너지경제(EKN) / duPont REGISTRY / Forbes",
+    desc: "마세라티 그레칼레 트로페오의 국내외 시승기를 취합했다. MC20에서 가져온 네튜노 V6 523마력 파워트레인, 주행 인상, 실내 마감, 국내외 가격까지 정리했다."
+  },
+  {
     slug: "recall-byd-benz-hyundai-volvo-jlr-july-2026",
     title: "\"내 차도 포함됐나?\"… BYD·벤츠·현대차 등 6개사 14만 6,505대 리콜",
     date: "2026-07-27",
