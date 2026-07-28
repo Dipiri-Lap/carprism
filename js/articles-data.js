@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-ev5-review-2026",
+    title: "\"가족 모두를 매료시키는 5할 타자\"… 기아 EV5 시승기, 4천만원대 전기 SUV",
+    date: "2026-07-29",
+    image: "kia_ev5_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["기아EV5", "EV5가격", "EV5시승기", "EV5제원", "준중형전기SUV"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "현대자동차그룹",
+    desc: "기아 EV5의 국내 가격과 제원, 시승 평가를 정리했다. 에어·어스·GT-Line 3개 트림, 스탠다드·롱레인지 배터리, 서울시 보조금 적용 시 3,400만원대 실구매가까지 다뤘다."
+  },
+  {
     slug: "byd-sealion6-dmi-review-2026",
     title: "\"3,750만원이면 쏘렌토 대신\"… BYD 씨라이언6 DM-i 시승기",
     date: "2026-07-29",
