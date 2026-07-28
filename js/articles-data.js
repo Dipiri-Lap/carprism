@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "zero-to-hundred-3sec-sportscars-top5-2026",
+    title: "\"제로백 3초대, 심장이 쫄깃하다\" — 국내 구매 가능 고성능 스포츠카 5선",
+    date: "2026-07-29",
+    image: "mclaren_artura.webp",
+    categories: ["news", "import"],
+    tags: ["제로백3초대", "고성능스포츠카", "수입스포츠카", "스포츠카5선", "슈퍼카가격"],
+    badge: "TOP 5",
+    badgeClass: "cat-sales",
+    source: "탑라이더 / 이코노믹데일리 / 에이빙 / 국제뉴스",
+    desc: "국내에서 실제 구매 가능한 제로백 3초대 고성능 스포츠카 5종을 정리했다. 맥라렌 아투라, 람보르기니 우라칸 테크니카, AMG GT 63 S, 포르쉐 911 카레라 GTS, 벤틀리 컨티넨탈 GT S까지 가격과 성능을 비교했다."
+  },
+  {
     slug: "bmw-x7-full-change-preview-2027",
     title: "\"지금 살까, 2027까지 기다릴까\"… BMW X7 완전변경, 노이에 클라세로 승부수",
     date: "2026-07-29",
