@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "byd-sealion6-dmi-review-2026",
+    title: "\"3,750만원이면 쏘렌토 대신\"… BYD 씨라이언6 DM-i 시승기",
+    date: "2026-07-29",
+    image: "byd_sealion6_dmi_front.webp",
+    categories: ["reviews", "import"],
+    tags: ["BYD씨라이언6", "씨라이언6DMi", "BYD코리아", "BYD PHEV", "수입PHEVSUV"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "다나와 자동차",
+    desc: "BYD코리아의 첫 PHEV 씨라이언6 DM-i 시승기를 정리했다. 3,750만원 가격, EV 주행거리 70km, 복합연비 15.2km/L, 세이브 모드 등 실제 주행 인상까지 다뤘다."
+  },
+  {
     slug: "zero-to-hundred-3sec-sportscars-top5-2026",
     title: "\"제로백 3초대, 심장이 쫄깃하다\" — 국내 구매 가능 고성능 스포츠카 5선",
     date: "2026-07-29",
