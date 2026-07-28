@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-x7-full-change-preview-2027",
+    title: "\"지금 살까, 2027까지 기다릴까\"… BMW X7 완전변경, 노이에 클라세로 승부수",
+    date: "2026-07-29",
+    image: "bmw_x7_front.webp",
+    categories: ["import", "news"],
+    tags: ["BMWX7풀체인지", "BMWX7완전변경", "노이에클라세", "iX7", "BMW대형SUV"],
+    badge: "FULL CHANGE",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴 / 뉴스와",
+    desc: "BMW X7 완전변경 소식을 정리했다. 2027년 공개 예정인 신형은 노이에 클라세 디자인 언어와 확대된 키드니 그릴, 순수 전기 iX7까지 아우르는 파격적인 변화를 예고했다."
+  },
+  {
+    slug: "hyundai-ioniq9-review-2026",
+    title: "\"핫해치급 가속에 세단 승차감\"… 아이오닉9, 532km 주행거리의 3열 전기 SUV",
+    date: "2026-07-29",
+    image: "ioniq9_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["아이오닉9", "아이오닉9가격", "아이오닉9제원", "3열전기SUV", "아이오닉9캘리그래피"],
+    badge: "FLAGSHIP EV",
+    badgeClass: "cat-hyundai",
+    source: "오토인리 / 다나와 자동차",
+    desc: "현대 아이오닉9의 국내 가격과 제원, 시승 평가를 취합했다. 최대 532km 주행거리, 3130mm 휠베이스의 동급 최대 실내공간, 하이드로 부싱 서스펜션까지 정리했다."
+  },
+  {
+    slug: "lexus-es300h-2026-review",
+    title: "\"한국에서 10만대 팔린 이유\"… 렉서스 ES300h 2026년형 시승기",
+    date: "2026-07-28",
+    image: "lexus_es300h_front.webp",
+    categories: ["reviews", "import"],
+    tags: ["렉서스ES300h", "ES300h시승기", "ES300h가격", "렉서스하이브리드", "준대형세단"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "탑라이더",
+    desc: "렉서스 ES300h 2026년형 시승기를 정리했다. 익스클루시브·럭셔리+ 2개 트림 가격, D-4S 하이브리드 시스템 218마력, 복합연비 17.2km/L, 국내 10만대 판매 비결까지 다뤘다."
+  },
+  {
+    slug: "tesla-model3-highland-review-2026",
+    title: "\"공기저항계수 역대 최저\"… 테슬라 모델3 하이랜드, RWD로 타봐도 만족스러운 이유",
+    date: "2026-07-28",
+    image: "tesla_model3_highland_front.webp",
+    categories: ["electric", "import"],
+    tags: ["테슬라모델3", "모델3하이랜드", "테슬라RWD", "모델3롱레인지", "전기세단"],
+    badge: "EV SEDAN",
+    badgeClass: "cat-sales",
+    source: "겟차 / 클리앙",
+    desc: "테슬라 모델3 하이랜드의 국내외 정보를 취합했다. 공력계수 0.219Cd, 후석 8인치 스크린, 개선된 승차감과 480km 이상 주행거리, RWD 시승 반응까지 정리했다."
+  },
+  {
+    slug: "genesis-gv90-neolun-preview-2026",
+    title: "\"마이바흐는 이제 제네시스 아래\"… GV90, 9월 9일 공개 확정",
+    date: "2026-07-28",
+    image: "genesis_gv90_neolun_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["제네시스GV90", "GV90출시", "네오룬콘셉트", "제네시스플래그십SUV", "GV90가격"],
+    badge: "FLAGSHIP EV",
+    badgeClass: "cat-genesis",
+    source: "나무위키 / 아시아타임 / The Korean Car Blog",
+    desc: "제네시스의 대형 플래그십 전기 SUV 'GV90'이 9월 9일 글로벌 공개를 확정했다. 네오룬 콘셉트로 먼저 공개된 디자인 방향과 예상 제원, 국내 출시 일정과 가격 전망까지 정리했다."
+  },
+  {
+    slug: "kimbujang-drama-polestar-2026",
+    title: "\"김부장이 타는 그 차\"… 넷플릭스 세계 1위 드라마 속 폴스타, 실제로 얼마?",
+    date: "2026-07-28",
+    image: "polestar3_front.webp",
+    categories: ["news"],
+    tags: ["김부장차종", "김부장폴스타", "폴스타3협찬", "폴스타4협찬", "넷플릭스김부장"],
+    badge: "DRAMA × AUTO",
+    badgeClass: "cat-sales",
+    source: "네이트뉴스 / 스포츠월드",
+    desc: "SBS 드라마 '김부장'이 넷플릭스 비영어권 3주 연속 세계 1위를 기록하며 극 중 협찬 차량 폴스타3·폴스타4도 함께 화제를 모았다. 드라마 속 차량과 실제 국내 가격·제원을 정리했다."
+  },
+  {
     slug: "hyundai-tucson-5th-gen-rumor-2027",
     title: "\"이러면 스포티지 누가 사나\"… 5세대 투싼 완전변경 예상도 화제, 아직은 루머",
     date: "2026-07-28",
