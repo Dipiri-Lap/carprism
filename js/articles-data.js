@@ -8,7 +8,7 @@ window.ARTICLES_DATA = [
     image: "kia_ev5_front.webp",
     categories: ["electric", "domestic"],
     tags: ["기아EV5", "EV5가격", "EV5시승기", "EV5제원", "준중형전기SUV"],
-    badge: "TEST DRIVE",
+    badge: "EV SUV",
     badgeClass: "cat-hyundai",
     source: "현대자동차그룹",
     desc: "기아 EV5의 국내 가격과 제원, 시승 평가를 정리했다. 에어·어스·GT-Line 3개 트림, 스탠다드·롱레인지 배터리, 서울시 보조금 적용 시 3,400만원대 실구매가까지 다뤘다."
