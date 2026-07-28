@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "genesis-gv80-hybrid-2026",
+    title: "\"전기차만 만들겠다더니\"… 제네시스 GV80 하이브리드, 9월 출시로 선언 뒤집었다",
+    date: "2026-07-29",
+    image: "genesis_gv80_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스GV80하이브리드", "GV80출시일", "제네시스하이브리드전략", "GV80연비", "제네시스전기차전략수정"],
+    badge: "STRATEGY SHIFT",
+    badgeClass: "cat-genesis",
+    source: "토픽트리 / 유카포스트 / 오토포커스",
+    desc: "제네시스가 2026년 9월 GV80 하이브리드를 출시한다. 2025년 선언한 전 차종 전기차 전환 계획을 뒤집은 배경과 2.5T 하이브리드 파워트레인, 향후 전동화 전략까지 정리했다."
+  },
+  {
     slug: "kia-ev5-review-2026",
     title: "\"가족 모두를 매료시키는 5할 타자\"… 기아 EV5 시승기, 4천만원대 전기 SUV",
     date: "2026-07-29",
