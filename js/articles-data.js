@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "vehicle-inspection-fine-2026",
     title: "\"깜빡했다간 과태료 폭탄\"… 자동차 정기검사 안 받으면 벌어지는 일",
     date: "2026-08-01",
-    image: "vehicle_inspection_lane.webp",
+    image: "korea_license_plate_current.webp",
     categories: ["news"],
     tags: ["자동차정기검사", "정기검사과태료", "자동차검사미이행", "운행정지명령", "자동차365"],
     badge: "POLICY UPDATE",
