@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "high-beam-etiquette-guide-2026",
+    title: "\"상대 운전자 눈이 부셨다면\"… 상향등, 이럴 때만 쓰세요",
+    date: "2026-08-01",
+    image: "highbeam_night_expressway_lighttrails.webp",
+    categories: ["news"],
+    tags: ["상향등에티켓", "하이빔사용법", "상향등범칙금", "도로교통법상향등", "야간눈부심사고"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "오토데일리 / 불스원 블로그",
+    desc: "상향등 눈부심으로 인한 야간 사고 위험과 도로교통법상 상향등 사용 규정을 정리했다. 상향등을 켜야 할 때와 반드시 하향등으로 전환해야 할 때, 위반 시 범칙금까지 실제 자료를 바탕으로 다뤘다."
+  },
+  {
+    slug: "vehicle-inspection-fine-2026",
+    title: "\"깜빡했다간 과태료 폭탄\"… 자동차 정기검사 안 받으면 벌어지는 일",
+    date: "2026-08-01",
+    image: "vehicle_inspection_lane.webp",
+    categories: ["news"],
+    tags: ["자동차정기검사", "정기검사과태료", "자동차검사미이행", "운행정지명령", "자동차365"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "찾기쉬운 생활법령정보 / KB국민카드 생각",
+    desc: "자동차 정기검사 유효기간을 넘기면 지연 기간별로 과태료가 계단식으로 불어난다. 30일 이내 4만원, 30~114일은 3일마다 2만원씩 추가, 115일 이상은 상한액 60만원까지 부과되며, 1년 이상 방치하면 운행정지명령·번호판 영치·직권말소까지 이어질 수 있다는 점을 정리했다."
+  },
+  {
+    slug: "car-battery-jump-start-guide-2026",
+    title: "\"보험 부르기 전에 5분만\"… 방전된 배터리, 점프 스타트로 직접 살리는 법",
+    date: "2026-08-01",
+    image: "car_battery_jumper_cable_clips.webp",
+    categories: ["news"],
+    tags: ["배터리방전", "점프스타트", "점프케이블연결순서", "자동차배터리교체", "긴급출동서비스"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "파이낸셜뉴스 / 겟차",
+    desc: "긴급출동 서비스 호출의 41%가 배터리 방전일 만큼 흔한 고장이다. 점프 케이블 연결 순서와 극성을 반대로 연결했을 때의 위험, AGM·스탑앤고 배터리 주의사항까지 직접 점프 스타트하는 법을 정리했다."
+  },
+  {
+    slug: "window-tint-regulation-guide-2026",
+    title: "\"이 정도만 넘어도 불법\"… 자동차 썬팅, 어디까지 가능할까",
+    date: "2026-08-01",
+    image: "window_tint_car_side.webp",
+    categories: ["news"],
+    tags: ["자동차썬팅규제", "썬팅투과율기준", "창유리가시광선투과율", "선팅과태료", "도로교통법시행령제28조"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "서울신문 / 찾기쉬운 생활법령정보",
+    desc: "자동차 앞유리·앞좌석 창유리 썬팅의 실제 법적 투과율 기준과 위반 시 과태료, 짙은 선팅이 사고 책임으로 이어진 실제 판례까지 정리했다."
+  },
+  {
+    slug: "school-zone-speed-fine-2026",
+    title: "\"몰랐다고 봐주지 않는다\"… 스쿨존 과태료, 얼마나 나올까",
+    date: "2026-08-01",
+    image: "schoolzone_sign_30kmh.webp",
+    categories: ["news"],
+    tags: ["스쿨존과태료", "어린이보호구역범칙금", "민식이법", "스쿨존속도위반", "어린이보호구역신호위반"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "후굿닷컴 / 헬프유 자동차 이야기",
+    desc: "어린이보호구역(스쿨존) 속도위반·신호위반 과태료와 범칙금을 구간별로 정리했다. 민식이법 형사처벌 기준과 가중처벌 시간대까지, 실제 수치로 확인한다."
+  },
+  {
+    slug: "dashcam-battery-drain-management-2026",
+    title: "\"주차만 했는데 배터리가 방전됐다\"… 블랙박스 상시녹화, 이렇게 관리하세요",
+    date: "2026-08-01",
+    image: "dashcam_windshield_mount_recording.webp",
+    categories: ["news"],
+    tags: ["블랙박스배터리방전", "상시녹화", "저전압차단", "보조배터리", "배터리방전예방"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "SBS 뉴스 / 경향신문",
+    desc: "블랙박스 상시녹화가 배터리를 소모하는 원리와 실제 긴급출동 통계, 저전압 차단·보조배터리 등 실질적인 방전 예방법을 정리했다."
+  },
+  {
+    slug: "brake-pad-wear-warning-signs-2026",
+    title: "\"끼익 소리 나면 이미 늦었다\"… 브레이크 패드 마모, 이 신호부터 확인하세요",
+    date: "2026-08-01",
+    image: "brake_pad_wear_indicator_closeup.webp",
+    categories: ["news"],
+    tags: ["브레이크패드마모", "브레이크패드교체시기", "웨어인디케이터", "브레이크소음", "디스크손상"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "겟차 / 킥스사이다",
+    desc: "브레이크 웨어 인디케이터가 내는 끼익 소리는 패드 두께가 이미 약 2~3mm까지 닳았을 때 나는 경고음으로, 들리는 순간 이미 안전 마진이 소진된 상태다. 패드 마모 한계, 평균 교체 주기, 방치 시 디스크 손상으로 이어지는 이유까지 정리했다."
+  },
+  {
+    slug: "tpms-warning-light-guide-2026",
+    title: "\"타이어에 바람 빠진 걸 몰랐다\"… TPMS 경고등 켜졌을 때 진짜 해야 할 일",
+    date: "2026-08-01",
+    image: "tpms_warning_light_dashboard.webp",
+    categories: ["news"],
+    tags: ["TPMS경고등", "타이어공기압경고등", "타이어공기압점검", "타이어공기압부족", "TPMS대처법"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "Fox News / 삼성화재 다이렉트",
+    desc: "TPMS 경고등이 켜졌는데도 그냥 운전을 계속하는 사람이 열에 한 명꼴이라는 조사 결과가 있다. TPMS가 공기압 부족을 감지하는 원리, 국내 장착 의무화 시점, 경고등이 켜졌을 때 순서대로 해야 할 대처법을 실제 통계와 함께 정리했다."
+  },
+  {
     slug: "tire-tread-wear-limit-summer-heat-2026",
     title: "\"기온 1도 오를 때마다 사고 2.84건\"… 폭염 속 타이어 마모 한계선, 지금 확인해야 하는 이유",
     date: "2026-07-31",
