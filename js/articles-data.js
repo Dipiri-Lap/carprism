@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "high-beam-etiquette-guide-2026",
     title: "\"상대 운전자 눈이 부셨다면\"… 상향등, 이럴 때만 쓰세요",
     date: "2026-08-01",
-    image: "highbeam_night_expressway_lighttrails.webp",
+    image: "highbeam_glare_oncoming_fog.webp",
     categories: ["news"],
     tags: ["상향등에티켓", "하이빔사용법", "상향등범칙금", "도로교통법상향등", "야간눈부심사고"],
     badge: "DRIVING TIPS",
