@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "audi-q9-flagship-suv-2026",
+    title: "\"아우디 역사상 가장 큰 SUV\"… Q9, 전장 5,310mm 초대형 플래그십 공개",
+    date: "2026-07-29",
+    image: "audi_q9_front.webp",
+    categories: ["import", "news"],
+    tags: ["아우디Q9", "Q9출시", "Q9가격", "Q9제원", "아우디대형SUV"],
+    badge: "FLAGSHIP SUV",
+    badgeClass: "cat-sales",
+    source: "더드라이브 / 오토헤럴드 / 카랩 블로그",
+    desc: "아우디의 역대급 플래그십 SUV 'Q9'이 공개됐다. 전장 5,310mm의 초대형 차체, 시장별 파워트레인 구성, 미국 가격과 국내 출시 전망까지 정리했다."
+  },
+  {
     slug: "byd-racco-japan-kei-car-2026",
     title: "\"1900만원대, 레이보다 낫다\"… BYD 라코, 일본 경차 텃밭에 던진 도전장",
     date: "2026-07-29",
