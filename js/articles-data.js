@@ -20,7 +20,7 @@ window.ARTICLES_DATA = [
     image: "engine_oil_pouring.webp",
     categories: ["news"],
     tags: ["엔진오일교환주기", "가솔린엔진오일", "디젤엔진오일", "하이브리드엔진오일", "엔진오일교체시기"],
-    badge: "MAINTENANCE TIPS",
+    badge: "DRIVING TIPS",
     badgeClass: "cat-sales",
     source: "겟차 / SEEMS INFO",
     desc: "가솔린·디젤·하이브리드 차량의 엔진오일 교환주기를 비교했다. 차종별 권장 주기와 이유, 놓치기 쉬운 하이브리드 오일 관리 포인트까지 정리했다."
