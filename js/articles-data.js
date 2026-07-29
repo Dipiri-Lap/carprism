@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "tire-tread-wear-limit-summer-heat-2026",
+    title: "\"기온 1도 오를 때마다 사고 2.84건\"… 폭염 속 타이어 마모 한계선, 지금 확인해야 하는 이유",
+    date: "2026-07-31",
+    image: "tire_tread_wear_indicator.webp",
+    categories: ["news"],
+    tags: ["타이어마모한계선", "타이어교체시기", "타이어파열", "폭염타이어", "트레드웨어인디케이터"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "아시아경제 / 겟차",
+    desc: "폭염철 타이어 파열 사고가 급증하는 이유와 타이어 마모 한계선 확인법을 정리했다. 기온 상승과 사고율의 상관관계, 트레드웨어 인디케이터·동전 테스트로 직접 점검하는 방법까지 다뤘다."
+  },
+  {
     slug: "tesla-model-y-2026-review",
     title: "\"국내 월간 판매 1위\"… 테슬라 모델Y 2026년형, 가격과 제원 총정리",
     date: "2026-07-30",
