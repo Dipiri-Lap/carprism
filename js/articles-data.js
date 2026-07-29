@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "tesla-model-y-2026-review",
+    title: "\"국내 월간 판매 1위\"… 테슬라 모델Y 2026년형, 가격과 제원 총정리",
+    date: "2026-07-30",
+    image: "tesla_modely_juniper_front.webp",
+    categories: ["electric", "import"],
+    tags: ["테슬라모델Y", "모델Y가격", "모델Y주니퍼", "모델Y제원", "모델Y판매량"],
+    badge: "EV SUV",
+    badgeClass: "cat-sales",
+    source: "바닐라하이 / CAR INFO",
+    desc: "테슬라 모델Y 2026년형의 국내 가격과 제원을 정리했다. 프리미엄 RWD부터 L AWD까지 트림별 가격, 주행거리, 배터리 용량과 국내 월간 판매 1위 배경까지 다뤘다."
+  },
+  {
+    slug: "engine-oil-change-interval-guide-2026",
+    title: "\"하이브리드라고 다 똑같지 않다\"… 엔진오일 교환주기, 차종별로 이렇게 다르다",
+    date: "2026-07-30",
+    image: "engine_oil_pouring.webp",
+    categories: ["news"],
+    tags: ["엔진오일교환주기", "가솔린엔진오일", "디젤엔진오일", "하이브리드엔진오일", "엔진오일교체시기"],
+    badge: "MAINTENANCE TIPS",
+    badgeClass: "cat-sales",
+    source: "겟차 / SEEMS INFO",
+    desc: "가솔린·디젤·하이브리드 차량의 엔진오일 교환주기를 비교했다. 차종별 권장 주기와 이유, 놓치기 쉬운 하이브리드 오일 관리 포인트까지 정리했다."
+  },
+  {
+    slug: "kia-sportage-6th-gen-rumor-2027",
+    title: "\"가솔린 완전히 버린다\"… 기아 스포티지 6세대, 2027년 하이브리드 올인",
+    date: "2026-07-30",
+    image: "sportage_nq5_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["스포티지풀체인지", "스포티지6세대", "스포티지NQ6", "스포티지하이브리드", "스포티지출시일"],
+    badge: "RUMOR",
+    badgeClass: "cat-hyundai",
+    source: "뉴스와 / 클리앙",
+    desc: "기아 스포티지 완전변경(NQ6)이 2027년 3분기 출시를 목표로 개발 중이다. 가솔린·디젤·LPG를 없애고 HEV·PHEV로 단순화하는 파워트레인 전략과 예상 정보를 정리했다."
+  },
+  {
+    slug: "santa-fe-facelift-2026",
+    title: "\"이러면 쏘렌토 안 타죠\"… 싼타페 페이스리프트, 사실상 풀체인지급 변신",
+    date: "2026-07-30",
+    image: "santa_fe_mx5_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["싼타페페이스리프트", "싼타페5세대", "싼타페디자인변경", "싼타페출시일", "싼타페EREV"],
+    badge: "RUMOR",
+    badgeClass: "cat-hyundai",
+    source: "글로벌모터스 / 오토스파이넷",
+    desc: "현대차 싼타페 페이스리프트가 스파이샷으로 포착됐다. 호불호 컸던 H 램프 전면 수정, 플레오스 커넥트, EREV 파워트레인 추가설까지 예상 정보를 정리했다."
+  },
+  {
+    slug: "driving-license-renewal-guide-2026",
+    title: "\"생일 기준으로 바뀌었다\"… 2026 운전면허증 갱신, 놓치면 과태료",
+    date: "2026-07-30",
+    image: "driving_license_exam_office.jpg",
+    categories: ["news"],
+    tags: ["운전면허증갱신", "운전면허갱신기간", "운전면허적성검사", "운전면허갱신준비물", "운전면허과태료"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "도로교통공단 안전운전 통합민원 / FAST1",
+    desc: "2026년 운전면허증 갱신 방법과 기간을 정리했다. 생일 전후 6개월로 바뀐 갱신 기준, 1종·2종 차이, 준비물, 기한을 넘기면 생기는 불이익까지 다뤘다."
+  },
+  {
+    slug: "hyundai-casper-2026my-price-2026",
+    title: "\"옵션 값 안 내도 다 있다\"… 2026년형 캐스퍼, 최대 91만원 올랐지만 그럴 만한 이유",
+    date: "2026-07-30",
+    image: "hyundai_casper_2026.webp",
+    categories: ["domestic"],
+    tags: ["2026년형캐스퍼", "캐스퍼가격", "캐스퍼일렉트릭가격", "캐스퍼옵션", "현대경형SUV"],
+    badge: "PRICE UPDATE",
+    badgeClass: "cat-hyundai",
+    source: "다나와 자동차 / 현대자동차그룹",
+    desc: "현대차가 2026년형 캐스퍼·캐스퍼 일렉트릭을 출시했다. 최대 91만원 오른 가격과 트림별 기본 사양 강화 내용, 풀옵션 가격까지 정리했다."
+  },
+  {
+    slug: "tesla-fsd-korea-launch-safety-2026",
+    title: "\"한국 도로가 테스트베드\"… 테슬라 FSD 라이트 상륙, 안전성 논란 확산",
+    date: "2026-07-30",
+    image: "tesla_modely_juniper_interior.webp",
+    categories: ["electric", "news"],
+    tags: ["테슬라FSD", "FSD라이트한국", "테슬라자율주행안전성", "FSD한국출시", "테슬라FSD논란"],
+    badge: "SAFETY ISSUE",
+    badgeClass: "cat-sales",
+    source: "지피코리아 / 오토트리뷴 / MS투데이",
+    desc: "테슬라의 감독형 자율주행 'FSD 라이트'가 한국에 상륙했다. 미국 외 세계 최초 도입 배경과 사고 책임 소재, 안전성 논란까지 정리했다."
+  },
+  {
     slug: "audi-q9-flagship-suv-2026",
     title: "\"아우디 역사상 가장 큰 SUV\"… Q9, 전장 5,310mm 초대형 플래그십 공개",
     date: "2026-07-29",
