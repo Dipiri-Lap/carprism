@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "byd-racco-japan-kei-car-2026",
+    title: "\"1900만원대, 레이보다 낫다\"… BYD 라코, 일본 경차 텃밭에 던진 도전장",
+    date: "2026-07-29",
+    image: "byd_racco_front.webp",
+    categories: ["electric", "import"],
+    tags: ["BYD라코", "BYD RACCO", "일본경차전기차", "BYD경형EV", "라코가격"],
+    badge: "JAPAN EXCLUSIVE",
+    badgeClass: "cat-sales",
+    source: "뉴스와 / BYD코리아 / 스타뉴스",
+    desc: "BYD가 일본 전용 첫 경형 전기차 '라코'를 정식 출시했다. 외국 브랜드 최초의 일본 케이카 도전, 자동 슬라이딩 도어, 배터리·가격 정보까지 정리했다."
+  },
+  {
     slug: "genesis-gv80-hybrid-2026",
     title: "\"전기차만 만들겠다더니\"… 제네시스 GV80 하이브리드, 9월 출시로 선언 뒤집었다",
     date: "2026-07-29",
