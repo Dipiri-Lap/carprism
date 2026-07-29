@@ -77,7 +77,7 @@ window.ARTICLES_DATA = [
     slug: "brake-pad-wear-warning-signs-2026",
     title: "\"끼익 소리 나면 이미 늦었다\"… 브레이크 패드 마모, 이 신호부터 확인하세요",
     date: "2026-08-01",
-    image: "brake_pad_thickness_pair.webp",
+    image: "brake_pad_wear_card_thumb.webp",
     categories: ["news"],
     tags: ["브레이크패드마모", "브레이크패드교체시기", "웨어인디케이터", "브레이크소음", "디스크손상"],
     badge: "DRIVING TIPS",
