@@ -65,7 +65,7 @@ window.ARTICLES_DATA = [
     slug: "dashcam-battery-drain-management-2026",
     title: "\"주차만 했는데 배터리가 방전됐다\"… 블랙박스 상시녹화, 이렇게 관리하세요",
     date: "2026-08-01",
-    image: "dashcam_footage_highway_view.webp",
+    image: "dashcam_windshield_voltage_display.webp",
     categories: ["news"],
     tags: ["블랙박스배터리방전", "상시녹화", "저전압차단", "보조배터리", "배터리방전예방"],
     badge: "DRIVING TIPS",
