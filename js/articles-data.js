@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "domestic-import-car-price-decline-july-2026",
+    title: "\"내 차 시세, 한 달 새 또 떨어졌다\"… 7월 국산·수입차 평균 시세 동반 하락",
+    date: "2026-08-03",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["news"],
+    tags: ["중고차시세", "7월중고차시세", "국산차수입차시세", "엔카중고차시세", "중고차가격하락"],
+    badge: "PRICE UPDATE",
+    badgeClass: "cat-hyundai",
+    source: "오토뷰 / 더겟뉴스",
+    desc: "7월 국산·수입차 대표 모델의 중고차 평균 시세가 전월 대비 1.09% 하락했다. 국산차 1.05%, 수입차 1.14%가 각각 내려간 가운데, 여름 휴가철 SUV·RV 수요와 준대형·프리미엄 세단 비수기 조정이 엇갈린 흐름을 만들어낸 배경을 정리했다."
+  },
+  {
+    slug: "hyundai-kia-kgm-toyota-recall-followup-2026",
+    title: "\"주행 중 시동 꺼질 수도\"… 현대·기아·KGM·토요타 53만대 리콜, 내 차는?",
+    date: "2026-08-03",
+    image: "kia_ray_recall_engine_shutoff.webp",
+    categories: ["news"],
+    tags: ["기아레이리콜", "현대싼타페리콜", "KGM토레스리콜", "자동차리콜센터", "국토부리콜2026"],
+    badge: "RECALL",
+    badgeClass: "cat-sales",
+    source: "MBC뉴스 / 토픽트리",
+    desc: "국토교통부가 4월 22일 발표한 현대·기아·KGM·한국토요타 17개 차종 53만 2,144대 리콜, 넉 달이 지난 지금도 시정을 받지 않은 차량이 적지 않다는 점을 정리했다."
+  },
+  {
+    slug: "hyundai-kia-hybrid-sales-ira-tariff-2026",
+    title: "\"보조금은 끊겼는데 판매는 늘었다\"… 현대·기아, 하이브리드로 미국 뚫는다",
+    date: "2026-08-03",
+    image: "hyundai_tucson_hybrid_us_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대기아하이브리드", "IRA보조금폐지", "미국관세15%", "투싼하이브리드", "스포티지하이브리드"],
+    badge: "STRATEGY SHIFT",
+    badgeClass: "cat-hyundai",
+    source: "리포테라 / 테크타임즈",
+    desc: "미국 IRA 전기차 보조금이 사라지고 15% 관세까지 부과되는 이중고 속에서 현대차·기아가 하이브리드 차량으로 돌파구를 찾고 있다. 2026년 4월 미국 하이브리드 판매 4만1239대 역대 최다 기록, 투싼·싼타페·스포티지 하이브리드가 이끄는 실적과 그 배경을 정리했다."
+  },
+  {
+    slug: "hyundai-union-strike-right-grandeur-avante-2026",
+    title: "\"신형 그랜저 못 받을 수도\"… 현대차 노조, 파업권 확보",
+    date: "2026-08-03",
+    image: "hyundai_ulsan_plant_assembly_line.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차노조파업", "현대차쟁의권", "신형그랜저생산차질", "디올뉴아반떼생산차질", "현대차임금협상"],
+    badge: "LABOR ISSUE",
+    badgeClass: "cat-hyundai",
+    source: "데일리머니 / 헤럴드경제",
+    desc: "현대차 노조가 쟁의행위 찬반투표 가결과 중앙노동위원회 조정 중지 결정으로 합법적 파업권을 확보했다. 신형 그랜저(GN7 PE)와 디 올 뉴 아반떼(CN8) 생산 차질 우려와 계약자들이 확인해야 할 체크포인트를 정리했다."
+  },
+  {
+    slug: "mercedes-benz-vle300-lineup-expansion-2026",
+    title: "\"미니밴도 전기차 시대\"… 벤츠 VLE 300, 8인승까지 늘렸다",
+    date: "2026-08-03",
+    image: "benz_vle300_front_studio.webp",
+    categories: ["import", "electric"],
+    tags: ["벤츠VLE300", "VLE전기미니밴", "벤츠전기MPV", "VLE8인승", "벤츠V클래스후속"],
+    badge: "EV MPV",
+    badgeClass: "cat-sales",
+    source: "네이트뉴스 / WardsAuto",
+    desc: "메르세데스-벤츠가 전기 MPV 'VLE' 라인업을 5인승에서 8인승까지 확대하고 AMG 라인 등 신규 트림을 추가했다. 115kWh 배터리, 800V 아키텍처, WLTP 기준 700km 이상 주행거리와 최대 300kW급 급속충전 스펙을 정리했다."
+  },
+  {
+    slug: "mercedes-amg-a45s-final-edition-2026",
+    title: "\"고성능 4기통의 마지막 페이지\"… AMG A45 S, 파이널 에디션으로 작별을 고하다",
+    date: "2026-08-03",
+    image: "amg_a45s_final_edition_front.webp",
+    categories: ["import"],
+    tags: ["AMGA45S", "A45S파이널에디션", "메르세데스AMG", "A클래스단종", "핫해치"],
+    badge: "FINAL EDITION",
+    badgeClass: "cat-sales",
+    source: "Carscoops / Paul Tan's Automotive News",
+    desc: "메르세데스-AMG가 A45 S 4MATIC+ 파이널 에디션을 공개했다. A클래스 단종을 앞두고 나온 마지막 고성능 에디션으로, 421마력 M139 엔진과 전용 컬러·에어로 패키지·인테리어 사양을 정리했다."
+  },
+  {
+    slug: "bmw-ix5-60-xdrive-europe-reveal-2026",
+    title: "\"충전 22분에 80%, 완충 845km\"… BMW 첫 순수전기 X5 'iX5', 배터리부터 다르다",
+    date: "2026-08-03",
+    image: "bmw_ix5_60_xdrive_front_reveal.webp",
+    categories: ["import", "electric"],
+    tags: ["BMWiX5", "iX560xDrive", "BMW전기SUV", "뉴클래스", "800V충전"],
+    badge: "IMPORT EV",
+    badgeClass: "cat-sales",
+    source: "electrive.com / BMW 프레스룸",
+    desc: "BMW가 5세대 X5와 함께 공개한 첫 순수전기 모델 'iX5 60 xDrive'를 정리했다. 141kWh 대용량 배터리, 800V·460kW 초급속 충전, WLTP 645~845km 주행거리, 미국 현지 배터리 생산 계획까지 다뤘다."
+  },
+  {
+    slug: "hyundai-all-new-avante-cn8-reveal-2026",
+    title: "\"준중형인데 중형차급 실내\"… 디 올 뉴 아반떼 8세대, 이렇게 커졌다",
+    date: "2026-08-02",
+    image: "avante_cn8_front_reveal.webp",
+    categories: ["news", "domestic"],
+    tags: ["디올뉴아반떼", "아반떼8세대", "아반떼CN8", "아반떼풀체인지", "아반떼출시일"],
+    badge: "PROJECT CN8",
+    badgeClass: "cat-hyundai",
+    source: "카랩 블로그 / 토픽트리",
+    desc: "부산모빌리티쇼에서 세계 최초 공개된 디 올 뉴 아반떼(8세대, CN8)를 정리했다. 전장 55mm·휠베이스 30mm 확대된 차체, H-엣지 라이팅 디자인, 2.0 가솔린과 하이브리드 파워트레인, 플레오스 커넥트·글레오 AI까지 다뤘다."
+  },
+  {
     slug: "high-beam-etiquette-guide-2026",
     title: "\"상대 운전자 눈이 부셨다면\"… 상향등, 이럴 때만 쓰세요",
     date: "2026-08-01",
