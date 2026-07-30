@@ -65,7 +65,7 @@ window.ARTICLES_DATA = [
     slug: "mercedes-amg-a45s-final-edition-2026",
     title: "\"고성능 4기통의 마지막 페이지\"… AMG A45 S, 파이널 에디션으로 작별을 고하다",
     date: "2026-08-03",
-    image: "amg_a45s_final_edition_front.webp",
+    image: "amg_a45s_final_edition_front_official.webp",
     categories: ["import"],
     tags: ["AMGA45S", "A45S파이널에디션", "메르세데스AMG", "A클래스단종", "핫해치"],
     badge: "FINAL EDITION",
