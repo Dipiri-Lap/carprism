@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-syros-ev-india-launch-2026",
+    title: "\"동급 최초 500km 넘었다\"… 기아 시로스 EV, 인도에서 2천만원대로 떴다",
+    date: "2026-07-31",
+    image: "kia_syros_ev_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["기아시로스EV", "시로스EV가격", "시로스EV주행거리", "인도전기차", "기아인도전기SUV"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-hyundai",
+    source: "CarDekho / 더구루 / 파이낸셜뉴스",
+    desc: "기아가 인도에서 출시한 소형 전기 SUV 시로스 EV를 정리했다. 42kWh·51.4kWh 두 가지 배터리, 최대 526km 주행거리, 100kW 급속충전 39분, 5개 트림 가격, 기존 가솔린 시로스의 흥행, 국내 출시 가능성까지 다뤘다."
+  },
+  {
     slug: "domestic-import-car-price-decline-july-2026",
     title: "\"내 차 시세, 한 달 새 또 떨어졌다\"… 7월 국산·수입차 평균 시세 동반 하락",
     date: "2026-08-03",
