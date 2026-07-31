@@ -100,7 +100,7 @@ window.ARTICLES_DATA = [
   {
     slug: "domestic-import-car-price-decline-july-2026",
     title: "\"내 차 시세, 한 달 새 또 떨어졌다\"… 7월 국산·수입차 평균 시세 동반 하락",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "usedcar_price_dealership_lot.webp",
     categories: ["news"],
     tags: ["중고차시세", "7월중고차시세", "국산차수입차시세", "엔카중고차시세", "중고차가격하락"],
@@ -112,7 +112,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-kia-kgm-toyota-recall-followup-2026",
     title: "\"주행 중 시동 꺼질 수도\"… 현대·기아·KGM·토요타 53만대 리콜, 내 차는?",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "kia_ray_recall_engine_shutoff.webp",
     categories: ["news"],
     tags: ["기아레이리콜", "현대싼타페리콜", "KGM토레스리콜", "자동차리콜센터", "국토부리콜2026"],
@@ -124,7 +124,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-kia-hybrid-sales-ira-tariff-2026",
     title: "\"보조금은 끊겼는데 판매는 늘었다\"… 현대·기아, 하이브리드로 미국 뚫는다",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "hyundai_tucson_hybrid_us_front.webp",
     categories: ["news", "domestic"],
     tags: ["현대기아하이브리드", "IRA보조금폐지", "미국관세15%", "투싼하이브리드", "스포티지하이브리드"],
@@ -136,7 +136,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-union-strike-right-grandeur-avante-2026",
     title: "\"신형 그랜저 못 받을 수도\"… 현대차 노조, 파업권 확보",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "hyundai_ulsan_plant_assembly_line.webp",
     categories: ["news", "domestic"],
     tags: ["현대차노조파업", "현대차쟁의권", "신형그랜저생산차질", "디올뉴아반떼생산차질", "현대차임금협상"],
@@ -148,7 +148,7 @@ window.ARTICLES_DATA = [
   {
     slug: "mercedes-benz-vle300-lineup-expansion-2026",
     title: "\"미니밴도 전기차 시대\"… 벤츠 VLE 300, 8인승까지 늘렸다",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "benz_vle300_front_studio.webp",
     categories: ["import", "electric"],
     tags: ["벤츠VLE300", "VLE전기미니밴", "벤츠전기MPV", "VLE8인승", "벤츠V클래스후속"],
@@ -160,7 +160,7 @@ window.ARTICLES_DATA = [
   {
     slug: "mercedes-amg-a45s-final-edition-2026",
     title: "\"고성능 4기통의 마지막 페이지\"… AMG A45 S, 파이널 에디션으로 작별을 고하다",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "amg_a45s_final_edition_front_official.webp",
     categories: ["import"],
     tags: ["AMGA45S", "A45S파이널에디션", "메르세데스AMG", "A클래스단종", "핫해치"],
@@ -172,7 +172,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bmw-ix5-60-xdrive-europe-reveal-2026",
     title: "\"충전 22분에 80%, 완충 845km\"… BMW 첫 순수전기 X5 'iX5', 배터리부터 다르다",
-    date: "2026-08-03",
+    date: "2026-07-31",
     image: "bmw_ix5_60_xdrive_front_reveal.webp",
     categories: ["import", "electric"],
     tags: ["BMWiX5", "iX560xDrive", "BMW전기SUV", "뉴클래스", "800V충전"],
@@ -184,7 +184,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-all-new-avante-cn8-reveal-2026",
     title: "\"준중형인데 중형차급 실내\"… 디 올 뉴 아반떼 8세대, 이렇게 커졌다",
-    date: "2026-08-02",
+    date: "2026-07-31",
     image: "avante_cn8_front_reveal.webp",
     categories: ["news", "domestic"],
     tags: ["디올뉴아반떼", "아반떼8세대", "아반떼CN8", "아반떼풀체인지", "아반떼출시일"],
@@ -196,7 +196,7 @@ window.ARTICLES_DATA = [
   {
     slug: "high-beam-etiquette-guide-2026",
     title: "\"상대 운전자 눈이 부셨다면\"… 상향등, 이럴 때만 쓰세요",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "highbeam_card_thumb.webp",
     categories: ["news"],
     tags: ["상향등에티켓", "하이빔사용법", "상향등범칙금", "도로교통법상향등", "야간눈부심사고"],
@@ -208,7 +208,7 @@ window.ARTICLES_DATA = [
   {
     slug: "vehicle-inspection-fine-2026",
     title: "\"깜빡했다간 과태료 폭탄\"… 자동차 정기검사 안 받으면 벌어지는 일",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "goyang_vehicle_inspection_station.webp",
     categories: ["news"],
     tags: ["자동차정기검사", "정기검사과태료", "자동차검사미이행", "운행정지명령", "자동차365"],
@@ -220,7 +220,7 @@ window.ARTICLES_DATA = [
   {
     slug: "car-battery-jump-start-guide-2026",
     title: "\"보험 부르기 전에 5분만\"… 방전된 배터리, 점프 스타트로 직접 살리는 법",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "car_battery_jumper_cable_clips.webp",
     categories: ["news"],
     tags: ["배터리방전", "점프스타트", "점프케이블연결순서", "자동차배터리교체", "긴급출동서비스"],
@@ -232,7 +232,7 @@ window.ARTICLES_DATA = [
   {
     slug: "window-tint-regulation-guide-2026",
     title: "\"이 정도만 넘어도 불법\"… 자동차 썬팅, 어디까지 가능할까",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "window_tint_car_side.webp",
     categories: ["news"],
     tags: ["자동차썬팅규제", "썬팅투과율기준", "창유리가시광선투과율", "선팅과태료", "도로교통법시행령제28조"],
@@ -244,7 +244,7 @@ window.ARTICLES_DATA = [
   {
     slug: "school-zone-speed-fine-2026",
     title: "\"몰랐다고 봐주지 않는다\"… 스쿨존 과태료, 얼마나 나올까",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "school_zone_street_marking.webp",
     categories: ["news"],
     tags: ["스쿨존과태료", "어린이보호구역범칙금", "민식이법", "스쿨존속도위반", "어린이보호구역신호위반"],
@@ -256,7 +256,7 @@ window.ARTICLES_DATA = [
   {
     slug: "dashcam-battery-drain-management-2026",
     title: "\"주차만 했는데 배터리가 방전됐다\"… 블랙박스 상시녹화, 이렇게 관리하세요",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "dashcam_windshield_voltage_display.webp",
     categories: ["news"],
     tags: ["블랙박스배터리방전", "상시녹화", "저전압차단", "보조배터리", "배터리방전예방"],
@@ -268,7 +268,7 @@ window.ARTICLES_DATA = [
   {
     slug: "brake-pad-wear-warning-signs-2026",
     title: "\"끼익 소리 나면 이미 늦었다\"… 브레이크 패드 마모, 이 신호부터 확인하세요",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "brake_pad_wear_card_thumb.webp",
     categories: ["news"],
     tags: ["브레이크패드마모", "브레이크패드교체시기", "웨어인디케이터", "브레이크소음", "디스크손상"],
@@ -280,7 +280,7 @@ window.ARTICLES_DATA = [
   {
     slug: "tpms-warning-light-guide-2026",
     title: "\"타이어에 바람 빠진 걸 몰랐다\"… TPMS 경고등 켜졌을 때 진짜 해야 할 일",
-    date: "2026-08-01",
+    date: "2026-07-31",
     image: "tpms_warning_light_dashboard.webp",
     categories: ["news"],
     tags: ["TPMS경고등", "타이어공기압경고등", "타이어공기압점검", "타이어공기압부족", "TPMS대처법"],
