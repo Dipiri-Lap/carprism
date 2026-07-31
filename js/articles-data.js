@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "toyota-june-2026-global-sales-production",
+    title: "\"판매는 줄고 생산은 늘었다\"… 토요타 6월 실적, 엇갈린 숫자의 속사정",
+    date: "2026-07-31",
+    image: "toyota_hq_nagoya.webp",
+    categories: ["news", "import"],
+    tags: ["토요타6월실적", "토요타글로벌판매", "토요타생산실적", "토요타중국판매", "토요타상반기실적"],
+    badge: "GLOBAL SALES",
+    badgeClass: "cat-sales",
+    source: "Toyota 공식 발표 / The Japan Times / Transport Topics",
+    desc: "토요타가 2026년 6월 글로벌 판매·생산 실적을 발표했다. 다이하츠 포함 판매 92만 6,688대(-1.1%)로 5개월 연속 감소했지만 생산은 98만 4,408대(+2.2%)로 늘었다. 중국·중동 판매 급감과 일본·북미 호조가 엇갈린 배경, 상반기 결산까지 정리했다."
+  },
+  {
+    slug: "mercedes-benz-gla-electric-first-2026",
+    title: "\"1회 충전 657km\"… 벤츠 신형 GLA, 전기차로 먼저 나왔다",
+    date: "2026-07-31",
+    image: "benz_new_gla_ev_front.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["벤츠신형GLA", "GLA일렉트릭", "벤츠GLAEV", "GLA657km", "MMA플랫폼"],
+    badge: "EV SUV",
+    badgeClass: "cat-sales",
+    source: "Mercedes-Benz Media / Electrive / WhichEV",
+    desc: "메르세데스-벤츠가 완전변경 신형 GLA를 전기차 버전부터 먼저 공개했다. MMA 플랫폼과 800V 전장 구조, 최대 657km 주행거리, 320kW 급속충전 등 3종 라인업 스펙과 2027년 초 합류할 마일드하이브리드 계획까지 정리했다."
+  },
+  {
+    slug: "volkswagen-id-unyx-09-xpeng-2026",
+    title: "\"그랜저보다 크다\"… 폭스바겐, 샤오펑과 만든 전기 플래그십 'ID.유닉스 09' 공개",
+    date: "2026-07-31",
+    image: "vw_id_unyx08_front.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["폭스바겐ID유닉스09", "ID유닉스09", "샤오펑폭스바겐협업", "중국전기차", "폭스바겐샤오펑"],
+    badge: "CHINA EV",
+    badgeClass: "cat-sales",
+    source: "CnEVPost / Carscoops / Motor1",
+    desc: "폭스바겐이 샤오펑과 손잡고 개발한 중국 전용 전기 플래그십 세단 'ID.유닉스(Unyx) 09'를 정리했다. 전장 5,081mm, 최고출력 496마력, CLTC 기준 730km 주행거리, 샤오펑 VLA 2.0 기반 지능형 주행보조, 2026년 하반기 중국 출시 계획까지 다뤘다."
+  },
+  {
+    slug: "zoox-robotaxi-us-approval-2026",
+    title: "\"운전대도 페달도 없다\"… 아마존 죽스, 美서 로보택시 5,000대 상업 운행 승인",
+    date: "2026-07-31",
+    image: "zoox_robotaxi_sf_front.webp",
+    categories: ["news"],
+    tags: ["아마존죽스", "죽스로보택시", "로보택시승인", "NHTSA자율주행", "무인로보택시"],
+    badge: "ROBOTAXI",
+    badgeClass: "cat-sales",
+    source: "Bloomberg / CNBC / 전자신문",
+    desc: "미국 NHTSA가 아마존 죽스에 운전자 제어장치 없는 로보택시의 유료 상업 운행을 승인했다. 승인 규모, 조건, 차량 특징, 운행 지역, 웨이모·테슬라와의 경쟁 구도까지 정리했다."
+  },
+  {
+    slug: "bmw-group-h1-2026-earnings",
+    title: "\"중국에서만 20% 증발했다\"… BMW그룹, 상반기 매출 8% 급감·세전이익 반토막",
+    date: "2026-07-31",
+    image: "bmw_x7_front.webp",
+    categories: ["news", "import"],
+    tags: ["BMW그룹실적", "BMW중국판매", "BMW상반기실적", "BMW구조조정", "BMW뉴클래스"],
+    badge: "EARNINGS",
+    badgeClass: "cat-sales",
+    source: "BMW Group Press / BMWBLOG / 헤럴드경제",
+    desc: "BMW그룹의 2026년 상반기 실적을 정리했다. 매출 622억 6,600만 유로(-8%), 세전이익 40억 4,500만 유로(-29.4%), 전 세계 인도량 115만 6,727대. 유럽·미국은 성장했지만 중국 판매가 20.4% 급감하며 실적을 끌어내렸고, BMW는 8천 명 감원과 2026년 가이던스 하향까지 발표했다."
+  },
+  {
+    slug: "polestar-2-2026my-range-update",
+    title: "\"한국은 못 산다\"… 폴스타2 2026년형, 1회 충전 554km로 늘었다",
+    date: "2026-07-31",
+    image: "polestar2_2026my_front.webp",
+    categories: ["electric", "import"],
+    tags: ["폴스타22026년형", "폴스타2주행거리", "폴스타2554km", "폴스타2국내출시", "폴스타코리아"],
+    badge: "EV UPDATE",
+    badgeClass: "cat-sales",
+    source: "Paul Tan's Automotive News / InsideEVs",
+    desc: "폴스타2 2026년형이 스탠다드 단일모터 배터리를 CATL 70kWh로 바꾸며 WLTP 기준 1회 충전 주행거리를 554km로 늘렸다. 배터리·급속충전·인포테인먼트 업그레이드 내용과, 국내에서는 차세대 모델이 나오기 전까지 재출시 계획이 없다고 밝힌 폴스타코리아의 입장까지 정리했다."
+  },
+  {
+    slug: "byd-korea-2026-lineup-expansion",
+    title: "\"목표를 반년 만에 채웠다\"… BYD코리아, 씰 RWD·돌핀·DM-i 3종으로 완성한 2026 로드맵",
+    date: "2026-07-31",
+    image: "byd_seal_rwd_front.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["BYD코리아2026", "BYD씰RWD", "BYD돌핀", "BYDDMi", "BYD1만대클럽"],
+    badge: "IMPORT EV",
+    badgeClass: "cat-sales",
+    source: "모터매거진 / ZDNet코리아 / 전자신문 / 코리아타임즈",
+    desc: "BYD코리아가 2026년 '1만 대 클럽' 도전을 내걸고 씰 RWD, 돌핀, 씨라이언6 DM-i까지 신차 3종을 순차 투입했다. 상반기 실적 1만 1,675대와 7월 전기차 보조금 제외 변수까지, 2026년 라인업 확장 전략을 정리했다."
+  },
+  {
     slug: "kia-syros-ev-india-launch-2026",
     title: "\"동급 최초 500km 넘었다\"… 기아 시로스 EV, 인도에서 2천만원대로 떴다",
     date: "2026-07-31",
