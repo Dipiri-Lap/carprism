@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "audi-q9-vs-gls-x7-2026",
+    title: "\"5.3m 공룡이 나타났다\"… 아우디 Q9 vs 벤츠 GLS vs BMW X7, 초대형 SUV 3파전",
+    date: "2026-07-31",
+    image: "audi_q9_front.webp",
+    categories: ["import"],
+    tags: ["아우디Q9벤츠GLS비교", "Q9BMWX7비교", "아우디Q9", "BMWX7", "벤츠GLS"],
+    badge: "SUV COMPARE",
+    badgeClass: "cat-sales",
+    source: "오토뷰 / 더드라이브 / 뉴스와",
+    desc: "아우디 Q9이 BMW X7, 벤츠 GLS가 지켜온 초대형 SUV 시장에 도전장을 던졌다. Q9 벤츠 GLS 비교, Q9 BMW X7 비교 포인트를 크기·좌석구성, 파워트레인·성능, 국내 판매가까지 한 번에 정리했다."
+  },
+  {
+    slug: "genesis-gv90-battery-em-platform-2026",
+    title: "\"배터리만 115kWh?\"… GV90, 9월 9일 앞두고 터진 스펙 루머 총정리",
+    date: "2026-07-31",
+    image: "genesis_gv90_neolun_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["GV90배터리용량", "GV90eM플랫폼", "GV90주행거리", "GV90코치도어", "제네시스GV90출시일"],
+    badge: "EV FLAGSHIP",
+    badgeClass: "cat-genesis",
+    source: "더드라이브 / 오토뷰 / 뉴스와",
+    desc: "제네시스 GV90의 배터리 용량 115kWh설, eM 플랫폼, 주행거리 600km 목표치까지 9월 9일 공개를 앞두고 나온 스펙 루머를 총정리했다. 코치도어와 차체 크기, 예상 가격과 사전계약 전망도 함께 다뤘다."
+  },
+  {
     slug: "tesla-model-y-vs-ioniq5-2026",
     title: "\"충전은 아이오닉5, 짐칸은 모델Y\"… 2026년 보조금까지 넣고 끝까지 파본 실구매가",
     date: "2026-07-31",
