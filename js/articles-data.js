@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "tesla-model-y-vs-ioniq5-2026",
+    title: "\"충전은 아이오닉5, 짐칸은 모델Y\"… 2026년 보조금까지 넣고 끝까지 파본 실구매가",
+    date: "2026-07-31",
+    image: "ioniq5_2026_front.webp",
+    categories: ["electric"],
+    tags: ["모델Y아이오닉5비교", "테슬라모델Y가격", "아이오닉5가격", "전기차보조금비교", "모델Y아이오닉5실구매가"],
+    badge: "EV COMPARE",
+    badgeClass: "cat-sales",
+    source: "현대자동차 공식 / 테슬라 공식 / 무공해차 통합누리집",
+    desc: "테슬라 모델Y와 현대 아이오닉5, 2026년 트림별 가격과 국고·지방 보조금을 반영한 실구매가를 정면으로 비교했다. 배터리·주행거리·충전속도, 적재공간·편의사양 차이와 어떤 사람에게 어느 차가 맞는지까지 정리했다."
+  },
+  {
+    slug: "tucson-nx5-vs-sportage-2026",
+    title: "\"1만대 차이 뒤집을까\"… 투싼 신형 vs 스포티지, 지금 사도 될까",
+    date: "2026-07-31",
+    image: "hyundai_tucson_hybrid_us_front.webp",
+    categories: ["domestic"],
+    tags: ["투싼스포티지비교", "투싼NX5", "신형투싼출시일", "스포티지가격", "스포티지하이브리드연비"],
+    badge: "MODEL COMPARE",
+    badgeClass: "cat-hyundai",
+    source: "헤럴드경제 / 오토데일리 / 뉴스웨이 / 겟차",
+    desc: "2026년 상반기 국내 판매에서 스포티지가 투싼을 1만 818대 앞선 가운데, 8월 공개가 예정된 5세대 투싼(NX5)의 예상 스펙과 현재 판매 중인 스포티지의 실제 트림별 가격·연비·사양을 비교했다. 지금 스포티지를 살지, 신형 투싼을 기다릴지 판단에 필요한 정보를 정리했다."
+  },
+  {
     slug: "toyota-june-2026-global-sales-production",
     title: "\"판매는 줄고 생산은 늘었다\"… 토요타 6월 실적, 엇갈린 숫자의 속사정",
     date: "2026-07-31",

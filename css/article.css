@@ -217,6 +217,9 @@ body {
 .article-cat.cat-ev    { background: var(--accent-ev); }
 .article-cat.cat-gen   { background: var(--accent-gen); }
 .article-cat.cat-gold  { background: #e6a817; }
+.article-cat.cat-sales    { background: var(--accent); }
+.article-cat.cat-hyundai  { background: var(--accent-blue); }
+.article-cat.cat-genesis  { background: var(--accent-gen); }
 
 /* H1 제목 */
 .article-title {
