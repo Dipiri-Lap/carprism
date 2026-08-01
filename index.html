@@ -232,6 +232,29 @@
     <!-- ===== LEFT / MAIN COLUMN ===== -->
     <div class="main-col">
 
+      <!-- 최신 기사 섹션 -->
+      <section class="section-block" id="articles" aria-labelledby="articles-title">
+        <div class="section-head reveal">
+          <h2 id="articles-title" class="section-title">
+            <span class="section-title-bar"></span>최신 기사
+          </h2>
+          <a href="#" class="section-more">전체 보기 →</a>
+        </div>
+        <!-- 목록은 js/main.js가 js/articles-data.js 기준 최신 15개를 자동 렌더링 -->
+        <ul class="article-list" role="list"></ul>
+      </section>
+
+      <!-- ===== 운전 상식과 팁 섹션 ===== -->
+      <section class="section-block" id="driving-tips" aria-labelledby="driving-tips-title">
+        <div class="section-head reveal">
+          <h2 id="driving-tips-title" class="section-title">
+            <span class="section-title-bar"></span>운전 상식과 팁
+          </h2>
+        </div>
+        <!-- 목록은 js/main.js가 js/articles-data.js 기준 DRIVING TIPS·POLICY UPDATE·EV POLICY 기사를 자동 렌더링 -->
+        <ul class="article-list" role="list"></ul>
+      </section>
+
       <!-- 카테고리 미리보기 섹션들: js/main.js가 js/articles-data.js 기준으로 카드 2개 + 리스트 4개씩 자동 렌더링 -->
       <section class="section-block" id="cat-preview-electric" aria-labelledby="cat-preview-electric-title">
         <div class="section-head reveal">
@@ -286,29 +309,6 @@
           <div class="featured-grid cat-preview-cards" id="cat-preview-reviews-cards"></div>
           <ul class="article-list cat-preview-list" id="cat-preview-reviews-list"></ul>
         </div>
-      </section>
-
-      <!-- 최신 기사 섹션 -->
-      <section class="section-block" id="articles" aria-labelledby="articles-title">
-        <div class="section-head reveal">
-          <h2 id="articles-title" class="section-title">
-            <span class="section-title-bar"></span>최신 기사
-          </h2>
-          <a href="#" class="section-more">전체 보기 →</a>
-        </div>
-        <!-- 목록은 js/main.js가 js/articles-data.js 기준 최신 15개를 자동 렌더링 -->
-        <ul class="article-list" role="list"></ul>
-      </section>
-
-      <!-- ===== 운전 상식과 팁 섹션 ===== -->
-      <section class="section-block" id="driving-tips" aria-labelledby="driving-tips-title">
-        <div class="section-head reveal">
-          <h2 id="driving-tips-title" class="section-title">
-            <span class="section-title-bar"></span>운전 상식과 팁
-          </h2>
-        </div>
-        <!-- 목록은 js/main.js가 js/articles-data.js 기준 DRIVING TIPS·POLICY UPDATE·EV POLICY 기사를 자동 렌더링 -->
-        <ul class="article-list" role="list"></ul>
       </section>
 
     </div><!-- /.main-col -->
