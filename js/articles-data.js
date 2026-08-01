@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ram-1500-tungsten-depreciation-2026",
+    title: "\"1년 만에 2천만 원 뚝\"… 램 1500 텅스텐, 감가상각이 만든 꿀딜",
+    date: "2026-08-01",
+    image: "ram_1500_tungsten_front.webp",
+    categories: ["import"],
+    tags: ["램1500텅스텐", "램1500감가상각", "램1500중고", "램1500국내가격", "럭셔리픽업트럭"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "CarBuzz / 카랩 블로그",
+    desc: "램 1500 최상위 트림 '텅스텐'이 미국에서 신차 대비 1년 만에 2~2.5만 달러 하락한다. 540마력 럭셔리 픽업을 저렴하게 사는 감가상각 공략법과 국내 램 1500 출시 가격까지 정리했다."
+  },
+  {
+    slug: "ford-off-road-lineup-bronco-jeep-2026",
+    title: "\"브롱코가 랭글러를 이겼다\"… 포드 오프로드 라인업, 지프 텃밭 잠식",
+    date: "2026-08-01",
+    image: "ford_bronco_raptor_front.webp",
+    categories: ["news", "import"],
+    tags: ["포드브롱코랭글러", "브롱코판매량", "포드오프로드라인업", "포드랩터", "브롱코국내가격"],
+    badge: "SALES",
+    badgeClass: "cat-sales",
+    source: "CarBuzz / 다나와 자동차",
+    desc: "2026년 2분기 포드 브롱코가 사상 처음 지프 랭글러를 판매량에서 앞질렀다. 브롱코·랩터 등 오프로드 특화 모델이 포드 전체 판매의 25%를 차지하는 배경과 국내 브롱코 판매 현황까지 정리했다."
+  },
+  {
+    slug: "byd-ti7-uk-launch-2026",
+    title: "\"디펜더보다 1.6만 파운드 싸다\"… BYD Ti-7, 랜드로버 텃밭 영국 상륙",
+    date: "2026-08-01",
+    image: "byd_ti7_fangchengbao_front.webp",
+    categories: ["news", "import"],
+    tags: ["BYDTi7", "BYD디펜더대항마", "팡청바오Ti7", "BYD영국출시", "BYD오프로드SUV"],
+    badge: "OFF-ROAD SUV",
+    badgeClass: "cat-sales",
+    source: "Carscoops / Autocar UK / Auto Express",
+    desc: "BYD의 오프로드 SUV 'Ti-7'이 내년 1월 4만 7,995파운드부터 영국에 출시된다. 랜드로버 디펜더 110보다 1만 6,320파운드 저렴하면서 하이브리드 402마력으로 가속 성능도 앞선다. 국내 BYD 라인업과의 관계까지 정리했다."
+  },
+  {
+    slug: "kia-k4-vs-corolla-us-2026",
+    title: "\"코롤라보다 낫다\"… 美서 붙은 기아 K4 vs 토요타 코롤라, 승자는",
+    date: "2026-08-01",
+    image: "kia_k4_gt_line_front.webp",
+    categories: ["import"],
+    tags: ["기아K4코롤라비교", "K4미국판매", "코롤라K4", "준중형세단비교", "기아K3"],
+    badge: "MODEL COMPARE",
+    badgeClass: "cat-sales",
+    source: "CarBuzz / 엔카미디어",
+    desc: "미국 시장에서 기아 K4와 토요타 코롤라를 가격·공간·보증·성능으로 정면 비교했다. 코롤라는 판매량과 출력에서, K4는 가격·실내공간·보증에서 앞선다. 국내 자매차종 K3 정보까지 정리했다."
+  },
+  {
+    slug: "ford-mustang-mach-e-recall-2026",
+    title: "\"창문 트림이 떨어져 나간다\"… 포드 마하-E 8만 6,543대 리콜",
+    date: "2026-08-01",
+    image: "ford_mach_e_gt_front.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["머스탱마하이리콜", "마하E리콜", "포드전기차리콜", "마하E국내판매", "포드리콜2026"],
+    badge: "RECALL",
+    badgeClass: "cat-sales",
+    source: "Carscoops / 디지털투데이",
+    desc: "포드가 2023~2025년식 머스탱 마하-E 8만 6,543대를 리콜한다. 조립 지그 교체로 후면 쿼터윈도우 트림 접착제가 덜 굳어 주행 중 이탈할 수 있다는 것이 원인이다. 국내 판매 현황과 조치 방법을 정리했다."
+  },
+  {
+    slug: "porsche-cayenne-turbo-electric-2026",
+    title: "\"콜벳 ZR1보다 빠르다\"… 2.7톤 포르쉐 카이엔 터보 일렉트릭, 0→96km/h 2.1초",
+    date: "2026-08-01",
+    image: "porsche_cayenne_s_electric_front.webp",
+    categories: ["electric", "import"],
+    tags: ["카이엔터보일렉트릭", "포르쉐카이엔EV", "카이엔가속성능", "콜벳ZR1비교", "포르쉐SUV전기차"],
+    badge: "EV PERFORMANCE",
+    badgeClass: "cat-sales",
+    source: "Carscoops / 헤럴드경제 / 오토뷰",
+    desc: "포르쉐 카이엔 터보 일렉트릭이 공차중량 약 2.7톤에도 0→96km/h 2.1초를 기록하며 1,064마력 콜벳 ZR1(2.2초)을 앞질렀다. 듀얼모터 1,139마력 제원과 국내 출시 가격까지 정리했다."
+  },
+  {
     slug: "audi-q9-vs-gls-x7-2026",
     title: "\"5.3m 공룡이 나타났다\"… 아우디 Q9 vs 벤츠 GLS vs BMW X7, 초대형 SUV 3파전",
     date: "2026-07-31",
