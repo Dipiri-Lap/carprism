@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ferrari-12cilindri-hardcore-2026",
+    title: "\"수동변속기 페달까지 부활\"… 페라리 12칠린드리 하드코어, 850마력 넘본다",
+    date: "2026-08-02",
+    image: "ferrari_12cilindri_front.webp",
+    categories: ["import"],
+    tags: ["페라리12칠린드리하드코어", "12칠린드리마력", "페라리V12", "페라리수동변속기", "페라리스파이더"],
+    badge: "SUPERCAR",
+    badgeClass: "cat-sales",
+    source: "Carscoops / Haute Living",
+    desc: "페라리가 830마력 V12 그랜드투어러 12칠린드리의 고성능 '하드코어' 버전을 개발 중이다. 출력 850마력 이상, 회전한계 1만rpm 근접, 게이트식 변속기로 수동 감성을 재현하는 옵션까지 거론된다. 국내 페라리 동향과 함께 정리했다."
+  },
+  {
+    slug: "porsche-macan-electric-2027-review",
+    title: "\"1억 미만으로 포르쉐를\"… 마칸 일렉트릭, 가격·주행거리·트림 총정리",
+    date: "2026-08-02",
+    image: "porsche_macan_electric_front.webp",
+    categories: ["electric", "import"],
+    tags: ["포르쉐마칸일렉트릭", "마칸일렉트릭가격", "마칸터보일렉트릭", "마칸일렉트릭주행거리", "포르쉐전기SUV"],
+    badge: "EV SUV",
+    badgeClass: "cat-sales",
+    source: "Porsche USA 공식 / 모터그래프코리아 / InsideEVs",
+    desc: "포르쉐 마칸 일렉트릭의 미국 2027년형 가격과 국내 판매 정보를 함께 정리했다. 4개 트림 355~402마력, 800V 전장에 100kWh 배터리로 국내 인증 주행거리 429~474km, 국내 가격 9,910만~1억 3,850만 원까지 다뤘다."
+  },
+  {
+    slug: "honda-ridgeline-vs-toyota-tacoma-2026",
+    title: "\"지금이 마지막 기회\"… 혼다 리지라인 vs 토요타 타코마, 데일리카 승자는",
+    date: "2026-08-02",
+    image: "honda_ridgeline_hpd_front.webp",
+    categories: ["import"],
+    tags: ["혼다리지라인", "토요타타코마", "리지라인단종", "픽업트럭비교", "리지라인타코마비교"],
+    badge: "TRUCK COMPARE",
+    badgeClass: "cat-sales",
+    source: "CarBuzz / Automotive News",
+    desc: "혼다 리지라인과 토요타 타코마를 가격·성능·실내공간·유지비로 비교했다. 유니바디 리지라인의 승차감 우위와 18개월 단종을 앞둔 배경, 타코마의 최근 리콜 이슈까지 정리했다."
+  },
+  {
     slug: "bmw-ix3-na5-korea-launch-2026",
     title: "\"늦게 계약하면 1~2년 대기\"… BMW 신형 iX3, 국내 출고 지연 이유",
     date: "2026-08-01",
