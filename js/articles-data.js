@@ -79,11 +79,11 @@ window.ARTICLES_DATA = [
     date: "2026-08-01",
     image: "kia_k4_gt_line_front.webp",
     categories: ["import"],
-    tags: ["기아K4코롤라비교", "K4미국판매", "코롤라K4", "준중형세단비교", "기아K3"],
+    tags: ["기아K4코롤라비교", "K4미국판매", "코롤라K4", "준중형세단비교", "기아K3단종"],
     badge: "MODEL COMPARE",
     badgeClass: "cat-sales",
     source: "CarBuzz / 엔카미디어",
-    desc: "미국 시장에서 기아 K4와 토요타 코롤라를 가격·공간·보증·성능으로 정면 비교했다. 코롤라는 판매량과 출력에서, K4는 가격·실내공간·보증에서 앞선다. 국내 자매차종 K3 정보까지 정리했다."
+    desc: "미국 시장에서 기아 K4와 토요타 코롤라를 가격·공간·보증·성능으로 정면 비교했다. 코롤라는 판매량과 출력에서, K4는 가격·실내공간·보증에서 앞선다. 국내에서는 K3가 이미 단종돼 아반떼 독주 체제가 된 배경까지 정리했다."
   },
   {
     slug: "ford-mustang-mach-e-recall-2026",
