@@ -156,12 +156,14 @@
   <div class="content-wrap wrap" style="padding-top: 32px;">
     <div class="main-col">
 
-      <section class="section-block" id="category-articles" aria-labelledby="category-title">
+      <section class="section-block" id="category-articles" aria-labelledby="category-title" data-category="import">
         <div class="section-head reveal">
           <h2 id="category-title" class="section-title">
             <span class="section-title-bar"></span>수입차
           </h2>
         </div>
+        <!-- 상단 3개는 js/main.js가 js/articles-data.js 기준으로 카드로 자동 렌더링 -->
+        <div class="featured-grid cat-top3" id="category-top3"></div>
         <ul class="article-list" role="list">
           <li>
             <a href="articles/ram-1500-tungsten-depreciation-2026.html" class="article-row reveal" id="card-latest-ramtungsten">

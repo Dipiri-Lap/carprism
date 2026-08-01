@@ -421,6 +421,18 @@ body {
   gap: var(--gap);
 }
 
+/* 카테고리 페이지 상단 3개 카드 (전체보기 진입 시) */
+.featured-grid.cat-top3 {
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: var(--gap);
+}
+@media (max-width: 860px) {
+  .featured-grid.cat-top3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .featured-grid.cat-top3 { grid-template-columns: 1fr; }
+}
+
 .featured-card {
   display: flex;
   flex-direction: column;
@@ -503,6 +515,32 @@ body {
 .cat-label.cat-hyundai { color: var(--accent-blue); }
 .cat-label.cat-ev      { color: var(--accent-ev); }
 .cat-label.cat-genesis { color: var(--accent-gen); }
+
+/* ============================================================
+   카테고리 미리보기 (홈 — 좌: 카드 2개, 우: 리스트 4개)
+   ============================================================ */
+.cat-preview-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--gap);
+  align-items: stretch;
+}
+.cat-preview-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+}
+.cat-preview-list.article-list { display: flex; flex-direction: column; }
+.cat-preview-list .article-row { padding: 12px 14px; gap: 12px; flex: 1; }
+.cat-preview-list .row-thumb { width: 76px; height: 54px; }
+.cat-preview-list .row-title { font-size: 0.86rem; -webkit-line-clamp: 2; line-clamp: 2; }
+
+@media (max-width: 860px) {
+  .cat-preview-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cat-preview-cards { grid-template-columns: 1fr; }
+}
 
 /* ============================================================
    ARTICLE LIST (최신 기사 — 1열 리스트)

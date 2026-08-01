@@ -59,6 +59,46 @@
     `).join('');
   }
 
+  // 홈 카테고리 미리보기 (전기차/뉴스/국산차/수입차/리뷰 — 카드 2개 + 리스트 4개)
+  const CAT_PREVIEW_KEYS = ['electric', 'news', 'domestic', 'import', 'reviews'];
+  CAT_PREVIEW_KEYS.forEach((cat) => {
+    const cardsWrap = document.getElementById(`cat-preview-${cat}-cards`);
+    const listWrap = document.getElementById(`cat-preview-${cat}-list`);
+    if (!cardsWrap || !listWrap) return;
+
+    const items = sortedByDate.filter((item) => item.categories.includes(cat)).slice(0, 6);
+    const cardItems = items.slice(0, 2);
+    const listItems = items.slice(2, 6);
+
+    cardsWrap.innerHTML = cardItems.map((item) => `
+      <a href="articles/${item.slug}.html" class="featured-card reveal">
+        <div class="card-thumb">
+          <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+          <span class="card-cat ${item.badgeClass}">${item.badge}</span>
+        </div>
+        <div class="card-info">
+          <h3 class="card-title">${item.title}</h3>
+          <p class="card-date">${item.date.replace(/-/g, '.')}</p>
+        </div>
+      </a>
+    `).join('');
+
+    listWrap.innerHTML = listItems.map((item) => `
+      <li>
+        <a href="articles/${item.slug}.html" class="article-row reveal">
+          <div class="row-thumb">
+            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+          </div>
+          <div class="row-info">
+            <span class="cat-label ${item.badgeClass}">${item.badge}</span>
+            <h3 class="row-title">${item.title}</h3>
+            <p class="row-meta">${item.date.replace(/-/g, '.')}</p>
+          </div>
+        </a>
+      </li>
+    `).join('');
+  });
+
   // 운전 상식과 팁 리스트 (DRIVING TIPS·POLICY UPDATE·EV POLICY 기사 최신순)
   const tipsList = document.querySelector('#driving-tips .article-list');
   if (tipsList) {
@@ -80,6 +120,54 @@
       </li>
     `).join('');
   }
+})();
+
+// ─────────────────────────────────────────────
+//  카테고리 페이지: 상단 3개 카드 + 나머지 리스트 자동 렌더링
+//  (js/articles-data.js 기준 — electric.html/news.html/domestic.html/import.html/reviews.html)
+// ─────────────────────────────────────────────
+(function() {
+  const data = window.ARTICLES_DATA;
+  const section = document.querySelector('#category-articles[data-category]');
+  const cardsWrap = document.getElementById('category-top3');
+  const list = section ? section.querySelector('ul.article-list') : null;
+  if (!data || !section || !cardsWrap || !list) return;
+
+  const category = section.getAttribute('data-category');
+  const items = [...data]
+    .filter((item) => item.categories.includes(category))
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  const topItems = items.slice(0, 3);
+  const restItems = items.slice(3);
+
+  cardsWrap.innerHTML = topItems.map((item) => `
+    <a href="articles/${item.slug}.html" class="featured-card reveal">
+      <div class="card-thumb">
+        <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+        <span class="card-cat ${item.badgeClass}">${item.badge}</span>
+      </div>
+      <div class="card-info">
+        <h3 class="card-title">${item.title}</h3>
+        <p class="card-date">${item.date.replace(/-/g, '.')}</p>
+      </div>
+    </a>
+  `).join('');
+
+  list.innerHTML = restItems.map((item) => `
+    <li>
+      <a href="articles/${item.slug}.html" class="article-row reveal">
+        <div class="row-thumb">
+          <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+        </div>
+        <div class="row-info">
+          <span class="cat-label ${item.badgeClass}">${item.badge}</span>
+          <h3 class="row-title">${item.title}</h3>
+          <p class="row-meta">${item.date.replace(/-/g, '.')}</p>
+        </div>
+      </a>
+    </li>
+  `).join('');
 })();
 
 // 스크롤 진행률 바
