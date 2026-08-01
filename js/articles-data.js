@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-ix3-na5-korea-launch-2026",
+    title: "\"늦게 계약하면 1~2년 대기\"… BMW 신형 iX3, 국내 출고 지연 이유",
+    date: "2026-08-01",
+    image: "bmw_ix3_na5_front.webp",
+    categories: ["electric", "import"],
+    tags: ["BMWiX3풀체인지", "iX3출고대기", "iX3가격", "iX3제원", "신형iX3"],
+    badge: "FULL CHANGE",
+    badgeClass: "cat-sales",
+    source: "BMW그룹 코리아 프레스룸 / 오토스파이넷 / 카랩 블로그",
+    desc: "2세대 BMW iX3(NA5)가 국내 7,990만 원부터 판매를 시작했다. 611km 주행거리, 400kW 초급속 충전 스펙과 유럽 9개월 만에 주문 10만 대에 육박하는 글로벌 흥행이 국내 출고 대기로 이어지는 배경을 정리했다."
+  },
+  {
+    slug: "kia-ev3-gt-subsidy-2026",
+    title: "\"왜 GT만 보조금이 반토막?\"… 기아 EV3·EV3 GT 가격·제원 총정리",
+    date: "2026-08-01",
+    image: "kia_ev3_gtline_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["기아EV3", "EV3GT", "EV3보조금", "EV3가격", "EV3GT제원"],
+    badge: "EV PRICE GUIDE",
+    badgeClass: "cat-hyundai",
+    source: "카랩 블로그 / 토픽트리",
+    desc: "기아 EV3와 고성능 EV3 GT의 가격·보조금·제원을 비교 정리했다. EV3는 5,500만 원 미만 구간으로 국고보조금 100%, EV3 GT는 5,375만 원으로 50% 구간에 걸쳐 보조금이 반토막 나는 이유까지 다뤘다."
+  },
+  {
+    slug: "kia-carnival-5th-gen-ka5-rumor-2027",
+    title: "\"디젤이 사라진다\"… 카니발 5세대 풀체인지, 달라지는 것들 총정리",
+    date: "2026-08-01",
+    image: "kia_carnival_ka4_side.webp",
+    categories: ["domestic"],
+    tags: ["카니발풀체인지", "카니발5세대", "KA5", "2027카니발", "카니발하이브리드"],
+    badge: "FULL CHANGE",
+    badgeClass: "cat-hyundai",
+    source: "오토놀로지 / 카익",
+    desc: "기아 카니발 5세대(KA5) 풀체인지 예상 정보를 정리했다. eS 아키텍처 평평한 바닥, 2.5터보 하이브리드 250~300마력, EV9 디지털 타이거 페이스 디자인, 디젤 라인업 단종까지 다뤘다."
+  },
+  {
     slug: "ram-1500-tungsten-depreciation-2026",
     title: "\"1년 만에 2천만 원 뚝\"… 램 1500 텅스텐, 감가상각이 만든 꿀딜",
     date: "2026-08-01",
