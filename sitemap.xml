@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
     <lastmod>2026-08-03T11:00:00+09:00</lastmod>
@@ -62,726 +62,1089 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tesla-model-y-2026-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T16:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/domestic-import-car-price-decline-july-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/usedcar_price_dealership_lot.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-kgm-toyota-recall-followup-2026.html</loc>
-    <lastmod>2026-07-31T14:00:00+09:00</lastmod>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ray_recall_engine_shutoff.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-03T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-hybrid-sales-ira-tariff-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_tucson_hybrid_us_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-union-strike-right-grandeur-avante-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_ulsan_plant_assembly_line.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/mercedes-benz-vle300-lineup-expansion-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/benz_vle300_front_studio.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-carnival-5th-gen-ka5-rumor-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_carnival_ka4_side.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-ev3-gt-subsidy-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ev3_gtline_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T19:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/bmw-ix3-na5-korea-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bmw_ix3_na5_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T19:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/chevrolet-traverse-used-bargain-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/chevrolet_traverse_used_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/chevrolet-camaro-sedan-revival-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/cadillac_ct5v_blackwing.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/revoy-electric-dolly-semi-truck-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/semi_truck_highway.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-charging-fee-cut-2026-08.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ev_charging_station_jeju.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-us-july-2026-sales-record.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tucson_nx4_current_gen.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/renault-twingo-etech-uk-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/renault_twingo_etech_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T09:50:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/vw-amarok-w600-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/vw_amarok_highline_side.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/toyota-next-gen-corolla-leak-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/toyota_corolla_le_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ioniq5n-vs-ioniq6n-software-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_ioniq6_n_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/porsche-macan-ice-last-chance-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/porsche_macan_gts_ice_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/mitsubishi-outlander-phev-bargain-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/mitsubishi_outlander_phev_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/audi-rs3-five-cylinder-bargain-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/audi_rs3_saloon.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T10:50:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/volvo-xc90-t8-cheaper-than-crv-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/volvo_xc90_t8_recharge.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-03T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ferrari-12cilindri-hardcore-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ferrari_12cilindri_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-02T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/porsche-macan-electric-2027-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/porsche_macan_electric_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-02T10:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/honda-ridgeline-vs-toyota-tacoma-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/honda_ridgeline_hpd_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-02T10:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/porsche-cayenne-turbo-electric-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/porsche_cayenne_s_electric_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ford-mustang-mach-e-recall-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ford_mach_e_gt_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-k4-vs-corolla-us-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_k4_gt_line_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/byd-ti7-uk-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_ti7_fangchengbao_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ford-off-road-lineup-bronco-jeep-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ford_bronco_raptor_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ram-1500-tungsten-depreciation-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ram_1500_tungsten_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-08-01T18:50:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/audi-q9-vs-gls-x7-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/audi_q9_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-gv90-battery-em-platform-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_gv90_neolun_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tesla-model-y-vs-ioniq5-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq5_2026_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tucson-nx5-vs-sportage-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_tucson_hybrid_us_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T20:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/toyota-june-2026-global-sales-production.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/toyota_hq_nagoya.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/mercedes-benz-gla-electric-first-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/benz_new_gla_ev_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T16:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/volkswagen-id-unyx-09-xpeng-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/vw_id_unyx08_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T17:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/zoox-robotaxi-us-approval-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/zoox_robotaxi_sf_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/bmw-group-h1-2026-earnings.html</loc>
-    <lastmod>2026-07-31T14:00:00+09:00</lastmod>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bmw_x7_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-03T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/polestar-2-2026my-range-update.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/polestar2_2026my_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/byd-korea-2026-lineup-expansion.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_seal_rwd_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-syros-ev-india-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_syros_ev_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/mercedes-amg-a45s-final-edition-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/amg_a45s_final_edition_front_official.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/bmw-ix5-60-xdrive-europe-reveal-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bmw_ix5_60_xdrive_front_reveal.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-all-new-avante-cn8-reveal-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/avante_cn8_front_reveal.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/high-beam-etiquette-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/highbeam_card_thumb.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T16:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/vehicle-inspection-fine-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/goyang_vehicle_inspection_station.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T15:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/car-battery-jump-start-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/car_battery_jumper_cable_clips.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T14:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/window-tint-regulation-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/window_tint_car_side.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T13:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/school-zone-speed-fine-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/school_zone_street_marking.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T12:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/dashcam-battery-drain-management-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/dashcam_windshield_voltage_display.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T11:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/brake-pad-wear-warning-signs-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/brake_pad_wear_card_thumb.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T10:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tpms-warning-light-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tpms_warning_light_dashboard.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T09:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tire-tread-wear-limit-summer-heat-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tire_tread_wear_indicator.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-31T15:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/engine-oil-change-interval-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/engine_oil_pouring.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T15:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-sportage-6th-gen-rumor-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/sportage_nq5_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T14:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/santa-fe-facelift-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/santa_fe_mx5_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/driving-license-renewal-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/driving_license_exam_office.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-30T11:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-casper-2026my-price-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_casper_2026.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tesla-fsd-korea-launch-safety-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_modely_juniper_interior.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-30T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/audi-q9-flagship-suv-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/audi_q9_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/byd-racco-japan-kei-car-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_racco_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-gv80-hybrid-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_gv80_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T19:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-ev5-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ev5_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T17:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/byd-sealion6-dmi-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_sealion6_dmi_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/zero-to-hundred-3sec-sportscars-top5-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/mclaren_artura.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/bmw-x7-full-change-preview-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bmw_x7_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-ioniq9-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq9_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-29T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/lexus-es300h-2026-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/lexus_es300h_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T23:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tesla-model3-highland-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_model3_highland_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T22:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-gv90-neolun-preview-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_gv90_neolun_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kimbujang-drama-polestar-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/polestar3_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T20:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-tucson-5th-gen-rumor-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tucson_2027_render_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/polestar-4-2026my-korea.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/polestar4_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T16:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/polestar-3-korea-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/polestar3_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T14:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/toyota-sequoia-2027-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/toyota_sequoia_2027_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-28T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/maserati-grecale-trofeo-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/maserati_grecale_trofeo_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/recall-byd-benz-hyundai-volvo-jlr-july-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_tucson_recall.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-gv60-magma-nurburgring-track-taxi-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_gv60_magma_interior1.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T16:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-luxury-pickup-truck-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_pickup_render_carscoops1.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T14:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kgm-torres-facelift-price-spec-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kgm_new_torres_showroom.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-ev4-price-spec-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ev4_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-27T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-kona-full-change-sx3-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_kona.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T20:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-pv5-passenger-autocar-award-price-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_pv5_passenger_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-ioniq3-price-spec-korea-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq3_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T16:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-palisade-full-change-price-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/palisade_full_change_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T14:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kgm-musso-ev-pickup-price-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kgm_musso_ev_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/zeekr-7x-korea-price-spec-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/zeekr_7x_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-26T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/budget-cars-20-million-won-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_casper_2026.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-25T15:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hipass-unpaid-toll-check-autopay-guide.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/seoul_tollgate_hipass.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-25T13:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/drowsy-driving-coffee-nap-checklist.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/drowsy_driving_nod_off.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-25T11:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/no-signal-intersection-priority-guide.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/korea_roundabout.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-25T09:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/first-car-recommendation-top5-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_morning.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24T22:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-k8-2027-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_k8_2027_front.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/parking-brake-vs-foot-brake-hill-stop.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/parking_brake_lever.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24T19:00:00+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-summer-heat-range-tips-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ev_charging.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-24T17:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/dui-interlock-conditional-license-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/dui_interlock_device_test.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-24T15:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/summer-car-discount-2026-07.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/grandeur_official.png</image:loc>
+    </image:image>
     <lastmod>2026-07-24T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/gac-e8-phev-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/gac_e8_phev_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-23T21:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/volvo-es90-korea-launch-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/volvo_es90_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-23T20:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/jeep-wrangler-laredo-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/jeep_wrangler_laredo_main.webp</image:loc>
+    </image:image>
     <lastmod>2026-07-23T18:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/highway-toll-discount-multichild-disabled-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/seoul_tollgate_hipass.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-22T21:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/car-subscription-long-term-rent-trend.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kona_electric_charging.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-22T15:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-conversion-subsidy-1million-won.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ev6_official.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-22T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-subsidy-evaluation-system-july-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_model_y.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-22T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-stonic-diesel-used-buy-guide.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/stonic_diesel_front.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-21T13:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/driving-license-subsidy-2026-h2.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/driving_license_exam_office.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kgm-project-s10-flagship-suv.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/rexton_current_uk.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-21T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/rainy-season-hydroplaning-tire-check.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/rain_driving_pov.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-20T14:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/cadillac-escalade-iq-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/escalade_iq_front.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-20T10:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/bentley-continental-gt-s-gtc-s-korea.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bentley_gt_s_official.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-20T09:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/aston-martin-dreadnought-mw4.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/am_dreadnought_main.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-19T22:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/genesis-gv60-gv70-electrified-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/genesis_gv60_2027_official.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-19T08:40:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/k5-2026-facelift-review.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/k5_side_exterior.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-18T09:10:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/seltos-hybrid-review-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/seltos_official.png</image:loc>
+    </image:image>
     <lastmod>2026-07-17T05:20:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/july-promotions-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/sonata_official.png</image:loc>
+    </image:image>
     <lastmod>2026-07-17T04:06:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/tesla-vs-byd-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_dolphin.jpg</image:loc>
+    </image:image>
     <lastmod>2026-07-17T03:51:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hybrids-and-suvs-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/gv80_hybrid.png</image:loc>
+    </image:image>
     <lastmod>2026-07-17T02:55:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/sales-ranking-2026-06.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/grandeur_official.png</image:loc>
+    </image:image>
     <lastmod>2026-07-14T10:53:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/avante-vs-byd-busan-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/avante.png</image:loc>
+    </image:image>
     <lastmod>2026-07-12T06:24:10+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
