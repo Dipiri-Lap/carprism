@@ -160,3 +160,45 @@ Object.entries(CATEGORY_FILES).forEach(([cat, filename]) => {
   fs.writeFileSync(file, html);
   console.log(`${filename}: 정적 스냅샷 갱신 완료 (${items.length}개 기사)`);
 });
+
+// ── RSS 피드 (feed.xml) ──
+{
+  function escapeXml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+  const RSS_COUNT = 30;
+  const feedItems = sortedByDate.slice(0, RSS_COUNT).map((item) => {
+    const link = `https://carprism.tmhub.co.kr/articles/${item.slug}.html`;
+    const pubDate = new Date(`${item.date}T09:00:00+09:00`).toUTCString();
+    return `
+    <item>
+      <title>${escapeXml(item.title)}</title>
+      <link>${link}</link>
+      <guid isPermaLink="true">${link}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <description>${escapeXml(item.desc)}</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/${item.image}" type="image/webp"/>
+    </item>`;
+  }).join('');
+
+  const feedXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CarPrism — 자동차 뉴스를 감각적으로 읽다</title>
+    <link>https://carprism.tmhub.co.kr/</link>
+    <description>카프리즘의 최신 기사 ${RSS_COUNT}건을 최신순으로 제공하는 RSS 피드입니다.</description>
+    <language>ko</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>${feedItems}
+  </channel>
+</rss>
+`;
+
+  fs.writeFileSync(path.join(root, 'feed.xml'), feedXml);
+  console.log(`feed.xml: RSS 피드 갱신 완료 (최신 ${RSS_COUNT}건)`);
+}

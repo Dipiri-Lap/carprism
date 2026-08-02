@@ -6,6 +6,16 @@
 /* ── Google Font fallback + 기본 설정 ── */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
 
+/* 시각적으로는 숨기되 스크린리더·검색엔진에는 노출 (홈페이지 h1 용) */
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 :root {
   /* 색상 */
   --navy:        #0f1923;
