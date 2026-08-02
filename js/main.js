@@ -1,3 +1,7 @@
+function escapeAttr(str) {
+  return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 // ─────────────────────────────────────────────
 //  홈페이지 히어로 슬라이더 / 최신 기사 리스트 자동 렌더링
 //  (js/articles-data.js 기준 — 반드시 이 reveal 애니메이션 스캔보다 먼저 실행되어야 함)
@@ -18,7 +22,7 @@
     track.innerHTML = heroItems.map((item, i) => `
       <div class="slide" role="group" aria-label="슬라이드 ${i + 1}">
         <div class="slide-image">
-          <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>
         <div class="slide-content">
           <span class="slide-cat slide-cat--${item.badgeClass === 'cat-sales' ? 'gold' : 'blue'}">${item.badge}</span>
@@ -47,7 +51,7 @@
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -73,7 +77,7 @@
     cardsWrap.innerHTML = cardItems.map((item) => `
       <a href="articles/${item.slug}.html" class="featured-card reveal">
         <div class="card-thumb">
-          <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           <span class="card-cat ${item.badgeClass}">${item.badge}</span>
         </div>
         <div class="card-info">
@@ -87,7 +91,7 @@
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -109,7 +113,7 @@
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -144,7 +148,7 @@
   cardsWrap.innerHTML = topItems.map((item) => `
     <a href="articles/${item.slug}.html" class="featured-card reveal">
       <div class="card-thumb">
-        <img src="images/${item.image}" alt="${item.title}" loading="lazy">
+        <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         <span class="card-cat ${item.badgeClass}">${item.badge}</span>
       </div>
       <div class="card-info">
@@ -158,7 +162,7 @@
     <li>
       <a href="articles/${item.slug}.html" class="article-row reveal">
         <div class="row-thumb">
-          <img src="images/${item.image}" alt="${item.title}" loading="lazy" width="120" height="80">
+          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
         </div>
         <div class="row-info">
           <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -430,7 +434,7 @@ if (mobileMenuBtn && mobileNav) {
 
     results.innerHTML = matches.map((item) => `
       <a class="search-result-item" href="${prefix}articles/${item.slug}.html">
-        <img src="${prefix}images/${item.image}" alt="${item.title}" loading="lazy">
+        <img src="${prefix}images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         <span>
           <span class="search-result-title">${item.title}</span>
           <span class="search-result-date">${item.date.replace(/-/g, '.')}</span>
@@ -486,7 +490,7 @@ if (mobileMenuBtn && mobileNav) {
     <li>
       <a href="${item.slug}.html" class="related-item">
         <div class="related-thumb">
-          <img src="../images/${item.image}" alt="${item.title}" loading="lazy">
+          <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>
         <div class="related-info">
           <span class="related-title">${item.title}</span>
