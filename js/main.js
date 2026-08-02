@@ -139,7 +139,7 @@ function escapeAttr(str) {
 
   const category = section.getAttribute('data-category');
   const items = [...data]
-    .filter((item) => item.categories.includes(category))
+    .filter((item) => category === 'all' || item.categories.includes(category))
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   const topItems = items.slice(0, 3);

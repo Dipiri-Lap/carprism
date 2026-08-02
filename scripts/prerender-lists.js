@@ -132,13 +132,14 @@ const CAT_KEYS = ['electric', 'news', 'domestic', 'import', 'reviews'];
   console.log('index.html: 정적 스냅샷 갱신 완료');
 }
 
-// ── 카테고리 페이지 5개 ──
+// ── 카테고리 페이지 5개 + 전체 기사 아카이브 ──
 const CATEGORY_FILES = {
   electric: 'electric.html',
   news: 'news.html',
   domestic: 'domestic.html',
   import: 'import.html',
   reviews: 'reviews.html',
+  all: 'archive.html',
 };
 
 Object.entries(CATEGORY_FILES).forEach(([cat, filename]) => {
@@ -146,7 +147,7 @@ Object.entries(CATEGORY_FILES).forEach(([cat, filename]) => {
   let html = fs.readFileSync(file, 'utf8');
 
   const items = [...data]
-    .filter((i) => i.categories.includes(cat))
+    .filter((i) => cat === 'all' || i.categories.includes(cat))
     .sort((a, b) => new Date(b.date) - new Date(a.date));
   const topItems = items.slice(0, 3);
   const restItems = items.slice(3);
