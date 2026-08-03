@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-3-series-g50-i3-neue-klasse-2027",
+    title: "\"'i3'가 돌아왔다… 근데 완전히 다른 차\"… BMW 3시리즈, 50년 만의 대전환",
+    date: "2026-08-03",
+    image: "bmw_neue_klasse_concept.webp",
+    categories: ["import"],
+    tags: ["BMW3시리즈신형", "BMWG50", "BMWi3NA0", "뉴클라쎄", "BMWM350"],
+    badge: "FULL CHANGE",
+    badgeClass: "cat-sales",
+    source: "유카포스트 / BMWBLOG",
+    desc: "BMW 3시리즈가 역사상 처음으로 내연기관(G50)과 전기차(i3)로 완전히 분리된다. 단종됐던 'i3' 이름의 부활, 뉴클라쎄 플랫폼, M350 스펙, 국내 예상 가격까지 50년 만의 대전환을 정리했다."
+  },
+  {
     slug: "zeekr-9x-korea-launch-2027",
     title: "\"중국판 컬리넌\"이 온다… 지커 9X, 897마력으로 BMW X7·벤츠 GLS에 도전장",
     date: "2026-08-03",
