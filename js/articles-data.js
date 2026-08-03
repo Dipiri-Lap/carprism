@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "casper-electric-delivery-wait-28months-2026",
+    title: "\"군대 간 아들이 먼저 오겠네\"… 캐스퍼 일렉트릭, 출고 대기만 28개월",
+    date: "2026-08-03",
+    image: "hyundai_casper_electric_official.webp",
+    categories: ["domestic", "electric"],
+    tags: ["캐스퍼일렉트릭출고대기", "캐스퍼출고기간", "캐스퍼전기차", "광주글로벌모터스", "캐스퍼대안"],
+    badge: "PRODUCTION ISSUE",
+    badgeClass: "cat-hyundai",
+    source: "토픽트리 / 아주경제",
+    desc: "캐스퍼 일렉트릭 프리미엄 트림의 출고 대기가 28개월에 달한다. 유럽 수출 우선 배정과 광주글로벌모터스 생산능력 한계, 신차보다 비싸진 중고 매물까지 — 출고 대란의 배경을 정리했다."
+  },
+  {
     slug: "bmw-3-series-g50-i3-neue-klasse-2027",
     title: "\"'i3'가 돌아왔다… 근데 완전히 다른 차\"… BMW 3시리즈, 50년 만의 대전환",
     date: "2026-08-03",

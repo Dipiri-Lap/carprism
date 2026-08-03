@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2026 08:47:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 11:32:03 GMT</lastBuildDate>
+    <item>
+      <title>&quot;군대 간 아들이 먼저 오겠네&quot;… 캐스퍼 일렉트릭, 출고 대기만 28개월</title>
+      <link>https://carprism.tmhub.co.kr/articles/casper-electric-delivery-wait-28months-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/casper-electric-delivery-wait-28months-2026.html</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>캐스퍼 일렉트릭 프리미엄 트림의 출고 대기가 28개월에 달한다. 유럽 수출 우선 배정과 광주글로벌모터스 생산능력 한계, 신차보다 비싸진 중고 매물까지 — 출고 대란의 배경을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_casper_electric_official.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;&apos;i3&apos;가 돌아왔다… 근데 완전히 다른 차&quot;… BMW 3시리즈, 50년 만의 대전환</title>
       <link>https://carprism.tmhub.co.kr/articles/bmw-3-series-g50-i3-neue-klasse-2027.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description>램 1500 최상위 트림 &apos;텅스텐&apos;이 미국에서 신차 대비 1년 만에 2~2.5만 달러 하락한다. 540마력 럭셔리 픽업을 저렴하게 사는 감가상각 공략법과 국내 램 1500 출시 가격까지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/ram_1500_tungsten_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;브롱코가 랭글러를 이겼다&quot;… 포드 오프로드 라인업, 지프 텃밭 잠식</title>
-      <link>https://carprism.tmhub.co.kr/articles/ford-off-road-lineup-bronco-jeep-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ford-off-road-lineup-bronco-jeep-2026.html</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026년 2분기 포드 브롱코가 사상 처음 지프 랭글러를 판매량에서 앞질렀다. 브롱코·랩터 등 오프로드 특화 모델이 포드 전체 판매의 25%를 차지하는 배경과 국내 브롱코 판매 현황까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ford_bronco_raptor_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
