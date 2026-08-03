@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "zeekr-9x-korea-launch-2027",
+    title: "\"중국판 컬리넌\"이 온다… 지커 9X, 897마력으로 BMW X7·벤츠 GLS에 도전장",
+    date: "2026-08-03",
+    image: "zeekr_9x_front.webp",
+    categories: ["import", "news"],
+    tags: ["지커9X", "Zeekr9X", "지커9X한국출시", "지커9X가격", "지커9X제원"],
+    badge: "FLAGSHIP SUV",
+    badgeClass: "cat-sales",
+    source: "카가이 / 오토헤럴드 / CarExpert",
+    desc: "지커의 플래그십 대형 SUV 9X가 내년 한국 출시를 앞두고 있다. 롤스로이스 컬리넌을 닮은 디자인, 897마력 슈퍼 하이브리드, 900V 급속충전까지 — BMW X7·벤츠 GLS와 맞붙을 지커 9X를 정리했다."
+  },
+  {
     slug: "hyundai-grandeur-facelift-hybrid-2027",
     title: "\"고가 수입차를 잊게 만든 승차감\"… 2027 더 뉴 그랜저 하이브리드, 뭐가 달라졌나",
     date: "2026-08-03",
