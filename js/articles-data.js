@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "turn-signal-violation-penalty-crackdown-2026",
+    title: "\"운전자 98.1%가 이렇게 안 했다\"… 깜빡이 안 켜면 벌점 10점, 10월부터 진짜 단속",
+    date: "2026-08-03",
+    image: "korea_roundabout.webp",
+    categories: ["news"],
+    tags: ["방향지시등벌점", "깜빡이단속", "회전교차로방향지시등", "10월교통단속", "차선변경신호위반"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴 / 지피코리아",
+    desc: "회전교차로에서 방향지시등을 제대로 쓰는 운전자는 1.9%뿐이었다. 경찰청이 벌점 10점 신설을 추진 중인 방향지시등 미점등 단속, 8월 계도기간부터 10월 집중단속까지 일정을 정리했다."
+  },
+  {
+    slug: "mercedes-buttons-return-touchscreen-trend-2026",
+    title: "\"기술을 위한 기술이었다\"… 벤츠도 인정한 터치스크린의 배신, 버튼이 돌아온다",
+    date: "2026-08-03",
+    image: "mercedes_eqs_hyperscreen_interior.webp",
+    categories: ["import", "news"],
+    tags: ["벤츠물리버튼복귀", "터치스크린트렌드", "MBUX하이퍼스크린", "자동차실내디자인", "KGM토레스다이얼"],
+    badge: "INDUSTRY TREND",
+    badgeClass: "cat-sales",
+    source: "Carscoops",
+    desc: "메르세데스-벤츠 CEO가 물리 버튼을 너무 많이 없앴다고 인정했다. 화면은 그대로 두면서 버튼만 복원하는 이유, 국내 KGM 토레스의 다이얼 회귀 사례까지 업계 전반의 흐름을 정리했다."
+  },
+  {
+    slug: "old-cars-retain-value-trend-2026",
+    title: "\"터치스크린 피로가 값을 깎아먹는다\"… 신차 대신 헌 차에 몰리는 사람들",
+    date: "2026-08-03",
+    image: "porsche_911_997_gt3.webp",
+    categories: ["import"],
+    tags: ["중고차가치상승", "신차감가상각", "포르쉐911중고가", "BMWX5중고가", "터치스크린피로"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "CarBuzz",
+    desc: "2026년 미국 중고차 시장에서 프리미엄 스포츠카만 유일하게 가치가 오르고 있다. 4년 된 BMW X5가 신형 RAV4 하이브리드와 같은 가격, 오래된 포르쉐가 신차보다 비싸지는 이유를 정리했다."
+  },
+  {
     slug: "volvo-xc90-t8-cheaper-than-crv-2026",
     title: "\"400마력인데 CR-V보다 싸다\"… 볼보 XC90 T8의 함정",
     date: "2026-08-03",
