@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "suv-trunk-cargo-capacity-ranking-2026",
+    title: "\"차박 갈 때 이 차는 접어야 산다\"… 트렁크 넉넉한 국산 SUV·미니밴 TOP4",
+    date: "2026-08-03",
+    image: "kia_carnival_ka4_side.webp",
+    categories: ["domestic"],
+    tags: ["SUV트렁크용량", "차박SUV추천", "팰리세이드트렁크", "카니발적재공간", "쏘렌토트렁크"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "나무위키 / 기아 공식 제원표",
+    desc: "싼타페는 3열을 세운 채로도 725L(VDA 기준)로 동급 최대다. 팰리세이드·쏘렌토·카니발까지, 국산 SUV·미니밴의 트렁크를 '평소용'과 '차박용' 두 기준으로 나눠 비교했다."
+  },
+  {
+    slug: "fastest-charging-electric-cars-2026",
+    title: "\"10~80%를 21분 만에\"… 2026년 가장 빠르게 충전되는 전기차 TOP5, 국산은 몇 위?",
+    date: "2026-08-03",
+    image: "bmw_ix3_na5_front.webp",
+    categories: ["electric"],
+    tags: ["전기차초급속충전", "800V전기차", "아이오닉5충전속도", "BMWiX3충전", "전기차충전순위"],
+    badge: "EV TREND",
+    badgeClass: "cat-hyundai",
+    source: "InsideEVs",
+    desc: "메르세데스-AMG GT 4도어 EV가 600kW로 세계 최고 충전속도를 기록했다. BMW iX3, 루시드 그래비티까지 2026년 가장 빠른 충전 전기차 TOP5와, 현대·기아 800V 모델의 실제 위치(11~14위)를 정리했다."
+  },
+  {
+    slug: "car-insurance-model-grade-ranking-2026",
+    title: "\"쏘렌토보다 작은 차가 보험료는 더 비싸다\"… 내 차 자차보험료, 이렇게 정해진다",
+    date: "2026-08-03",
+    image: "chevrolet_equinox_2025_front.webp",
+    categories: ["news"],
+    tags: ["차량모델등급", "자차보험료", "보험개발원차량등급", "수입차보험료", "테슬라보험료"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "보험개발원 / 매일일보",
+    desc: "GM 이쿼녹스와 현대 싼타페는 차량모델등급이 15등급이나 차이 나 자차보험료가 약 75% 차이 난다. 보험개발원 차량모델등급 제도가 뭔지, 왜 수입차·테슬라가 불리한지 정리했다."
+  },
+  {
     slug: "turn-signal-violation-penalty-crackdown-2026",
     title: "\"운전자 98.1%가 이렇게 안 했다\"… 깜빡이 안 켜면 벌점 10점, 10월부터 진짜 단속",
     date: "2026-08-03",
