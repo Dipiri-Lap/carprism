@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-grandeur-facelift-hybrid-2027",
+    title: "\"고가 수입차를 잊게 만든 승차감\"… 2027 더 뉴 그랜저 하이브리드, 뭐가 달라졌나",
+    date: "2026-08-03",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["더뉴그랜저", "그랜저GN7PE", "그랜저페이스리프트", "그랜저하이브리드가격", "그랜저TMED2"],
+    badge: "FACELIFT",
+    badgeClass: "cat-hyundai",
+    source: "오토헤럴드 / 나무위키",
+    desc: "더 뉴 그랜저가 5월 14일부터 판매를 시작했다. 샤크노즈 디자인, TMED2 하이브리드 시스템, 4,185만원부터 시작하는 트림별 가격까지, 페이스리프트로 달라진 점을 실제 시승 인상까지 포함해 정리했다."
+  },
+  {
     slug: "suv-trunk-cargo-capacity-ranking-2026",
     title: "\"차박 갈 때 이 차는 접어야 산다\"… 트렁크 넉넉한 국산 SUV·미니밴 TOP4",
     date: "2026-08-03",
