@@ -599,6 +599,25 @@ body {
 }
 .article-tag-item:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
 
+/* 본문 내 외부 링크 바로가기 버튼 (체크리스트·안내 문단용) */
+.inline-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 12px;
+  margin-left: 6px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: #fff !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: opacity 0.2s;
+}
+.inline-link-btn:hover { opacity: 0.82; }
+.inline-link-btn::after { content: '→'; }
+
 /* 공유 버튼 */
 .share-block {
   display: flex;
