@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-08-04T11:00:00+09:00</lastmod>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -65,6 +65,114 @@
     <lastmod>2026-07-22T22:30:00+09:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kia-pv5-cargo-plastic-partition-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_pv5_passenger_main.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-05T10:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-denza-z9s-longest-range-ev-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/denza_z9_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-05T09:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/mercedes-benz-birth-certificate-classic-service-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/mercedes_w124_e220_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T23:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/land-rover-freelander-china-ev-revival-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/landrover_freelander_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T22:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hennessey-blackbird-na-hypercar-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hennessey_venomf5_rear.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T21:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/dodge-copperhead-srt-viper-successor-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/dodge_viper_2016_side.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T20:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/tesla-supercharger-emergency-disconnect-flaw-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_supercharger_connector.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/volvo-ex50-2027-launch-preview.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/volvo_ex30_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T18:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/chinese-ev-parts-sharing-strategy-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_seal_rwd_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T17:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/tesla-self-funded-subsidy-september-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T16:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-ev-summer-festa-discount-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq9_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T15:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ioniq9-vs-volvo-ex90-german-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq9_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-04T14:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/suzuki-xl7-facelift-2026.html</loc>
