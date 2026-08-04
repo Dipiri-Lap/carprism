@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "suzuki-xl7-facelift-2026",
+    title: "\"미국에서 죽은 이름이 완전히 다른 차로 부활\"… 스즈키 XL7, 2000만원대 7인승의 정체",
+    date: "2026-08-04",
+    image: "suzuki_xl7_2020_front.webp",
+    categories: ["import"],
+    tags: ["스즈키XL7", "XL7페이스리프트", "스즈키XL7가격", "스즈키에르티가", "XL7하이브리드"],
+    badge: "FACELIFT",
+    badgeClass: "cat-sales",
+    source: "Carscoops",
+    desc: "2012년 미국 시장에서 단종된 스즈키 XL7이라는 이름이 에르티가 기반의 동남아 7인승 크로스오버로 부활했다. 2026년 페이스리프트 디자인, 마일드하이브리드, 2,070만~2,490만원대 가격까지 정리했다."
+  },
+  {
     slug: "casper-electric-delivery-wait-28months-2026",
     title: "\"군대 간 아들이 먼저 오겠네\"… 캐스퍼 일렉트릭, 출고 대기만 28개월",
     date: "2026-08-03",
