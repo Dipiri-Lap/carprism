@@ -5,7 +5,39 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:13:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 17:17:16 GMT</lastBuildDate>
+    <item>
+      <title>&quot;같은 급속인데 왜 요금이 2배 차이 날까&quot;… 전기차 충전 요금제 완전정리</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-charging-rate-plans-complete-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-charging-rate-plans-complete-guide-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>환경부·한전부터 파워큐브·GS차지비·테슬라까지, 충전사업자마다 제각각인 kWh당 단가와 카드사 할인 혜택을 한 번에 정리했다. 완속·급속 요금 차이부터 카드별 월 할인 한도까지 실제 숫자로 비교했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ev_charging_station_jeju.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;충전비는 반값인데 왜 더 손해일까&quot;… 니로 EV·니로 하이브리드 5년 유지비 직접 계산해보니</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-vs-hybrid-5year-maintenance-cost-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-vs-hybrid-5year-maintenance-cost-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>같은 차체에 파워트레인만 다른 니로 EV와 니로 하이브리드를 놓고 5년 총소유비용(TCO)을 직접 계산했다. 연료비는 전기차가 압도적으로 싸지만, 초기가격과 감가상각까지 더하면 결과가 뒤집힌다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_niro_ev_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;3년 타도 신차값의 70%는 남는다&quot;… 감가율 낮은 국산차, 실거래 데이터로 추려봤다</title>
+      <link>https://carprism.tmhub.co.kr/articles/korean-car-low-depreciation-3year-top10-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korean-car-low-depreciation-3year-top10-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>KB캐피탈 인증중고차 실거래 데이터와 업계 감가율 조사를 종합해, 3년 보유 후에도 값이 잘 안 떨어지는 국산차를 추렸다. 카니발·그랜저·쏘렌토부터 경차 레이까지, 왜 이 차들만 유독 방어력이 강한지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_carnival_ka4_side.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;안전 3관왕&quot;이라는 SUV, 실제로 세어보니 몇 대? KNCAP·유로NCAP·IIHS 다 받은 국산차</title>
+      <link>https://carprism.tmhub.co.kr/articles/korean-suv-triple-crown-safety-rating-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korean-suv-triple-crown-safety-rating-2026.html</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>국내 KNCAP 1등급, 유럽 유로NCAP 5스타, 미국 IIHS 톱세이프티픽+까지 세 가지 안전 평가를 모두 최고 등급으로 받은 국산 SUV는 몇 대나 될까. 아이오닉9·EV9·GV70·GV60·투싼을 직접 대조해 확인했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ioniq9_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;캠핑족이 이 격벽 하나에 술렁였다&quot;… 기아 PV5 카고, 플라스틱 격벽의 정체</title>
       <link>https://carprism.tmhub.co.kr/articles/kia-pv5-cargo-plastic-partition-2026.html</link>
@@ -213,38 +245,6 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>미쓰비시가 현재 판매 중인 유일한 하이브리드 아웃랜더 PHEV는 297마력, 전기 주행거리 45마일의 준수한 스펙을 갖췄다. 하지만 약해진 브랜드 신뢰도와 서비스망 부족이라는 딜레마까지, 구매 전 따져야 할 점을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/mitsubishi_outlander_phev_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;신형 RAV4보다 싸다&quot;… 마지막 내연기관 포르쉐, 지금이 마지막 기회</title>
-      <link>https://carprism.tmhub.co.kr/articles/porsche-macan-ice-last-chance-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/porsche-macan-ice-last-chance-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>포르쉐 마지막 내연기관 마칸의 중고 시세가 신형 토요타 RAV4 평균 가격보다 낮아졌다. 왜 이렇게 저렴해졌는지, 신형 전기 마칸과의 가격 차이, 유지비 함정까지 구매 전 알아야 할 점을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/porsche_macan_gts_ice_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;같은 부품인데 완전히 다른 차&quot;… 아이오닉5 N과 6 N, 무엇이 성격을 가르나</title>
-      <link>https://carprism.tmhub.co.kr/articles/ioniq5n-vs-ioniq6n-software-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ioniq5n-vs-ioniq6n-software-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>아이오닉5 N과 아이오닉6 N은 641마력 듀얼모터 파워트레인을 그대로 공유한다. 그런데도 완전히 다른 운전 느낌을 내는 비결은 소프트웨어의 토크 분배와 안정성 제어에 있다. 두 차의 성격 차이를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq6_n_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;다큐멘터리에 실수로 나왔다&quot;… 차세대 코롤라, 예상보다 훨씬 파격적이다</title>
-      <link>https://carprism.tmhub.co.kr/articles/toyota-next-gen-corolla-leak-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/toyota-next-gen-corolla-leak-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>일본 NHK 다큐멘터리 촬영분에 차세대 토요타 코롤라 양산형 모델이 그대로 노출됐다. 짧은 오버행과 긴 프로필의 파격적인 디자인, PHEV·완전 전기·GR 성능 버전까지 예상되는 2027년형 코롤라 정보를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/toyota_corolla_le_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;마력은 절반인데 가격은 더 비싸다&quot;… 폭스바겐 아마록 W600의 이상한 셈법</title>
-      <link>https://carprism.tmhub.co.kr/articles/vw-amarok-w600-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vw-amarok-w600-2026.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>월킨쇼가 튜닝한 폭스바겐 아마록 W600이 레인저 랩터보다 비싼 가격으로 호주에 출시됐다. 엔진 출력은 그대로인데 왜 가격은 더 비싼지, 서스펜션·인테리어 고급화 전략을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vw_amarok_highline_side.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

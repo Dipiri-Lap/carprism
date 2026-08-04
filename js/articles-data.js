@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-charging-rate-plans-complete-guide-2026",
+    title: "\"같은 급속인데 왜 요금이 2배 차이 날까\"… 전기차 충전 요금제 완전정리",
+    date: "2026-08-05",
+    image: "ev_charging_station_jeju.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차충전요금", "충전요금비교", "완속급속요금차이", "전기차충전카드", "신한EV카드"],
+    badge: "GUIDE",
+    badgeClass: "cat-hyundai",
+    source: "뱅크샐러드 외 종합",
+    desc: "환경부·한전부터 파워큐브·GS차지비·테슬라까지, 충전사업자마다 제각각인 kWh당 단가와 카드사 할인 혜택을 한 번에 정리했다. 완속·급속 요금 차이부터 카드별 월 할인 한도까지 실제 숫자로 비교했다."
+  },
+  {
+    slug: "ev-vs-hybrid-5year-maintenance-cost-2026",
+    title: "\"충전비는 반값인데 왜 더 손해일까\"… 니로 EV·니로 하이브리드 5년 유지비 직접 계산해보니",
+    date: "2026-08-05",
+    image: "kia_niro_ev_front.webp",
+    categories: ["electric", "domestic"],
+    tags: ["전기차하이브리드유지비비교", "니로EV니로하이브리드", "EV총소유비용", "전기차감가상각", "전기차하이브리드손익분기"],
+    badge: "DATA",
+    badgeClass: "cat-hyundai",
+    source: "기아 공식 홈페이지 외 종합",
+    desc: "같은 차체에 파워트레인만 다른 니로 EV와 니로 하이브리드를 놓고 5년 총소유비용(TCO)을 직접 계산했다. 연료비는 전기차가 압도적으로 싸지만, 초기가격과 감가상각까지 더하면 결과가 뒤집힌다."
+  },
+  {
+    slug: "korean-car-low-depreciation-3year-top10-2026",
+    title: "\"3년 타도 신차값의 70%는 남는다\"… 감가율 낮은 국산차, 실거래 데이터로 추려봤다",
+    date: "2026-08-05",
+    image: "kia_carnival_ka4_side.webp",
+    categories: ["domestic"],
+    tags: ["국산차감가율", "감가율낮은차", "카니발감가율", "그랜저감가율", "중고차잔존가치"],
+    badge: "DATA",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴 외 종합",
+    desc: "KB캐피탈 인증중고차 실거래 데이터와 업계 감가율 조사를 종합해, 3년 보유 후에도 값이 잘 안 떨어지는 국산차를 추렸다. 카니발·그랜저·쏘렌토부터 경차 레이까지, 왜 이 차들만 유독 방어력이 강한지 정리했다."
+  },
+  {
+    slug: "korean-suv-triple-crown-safety-rating-2026",
+    title: "\"안전 3관왕\"이라는 SUV, 실제로 세어보니 몇 대? KNCAP·유로NCAP·IIHS 다 받은 국산차",
+    date: "2026-08-05",
+    image: "ioniq9_front.webp",
+    categories: ["domestic", "electric"],
+    tags: ["국산SUV안전등급", "KNCAP유로NCAP IIHS", "안전등급3관왕", "아이오닉9안전등급", "GV70안전등급"],
+    badge: "DATA",
+    badgeClass: "cat-hyundai",
+    source: "현대차그룹 뉴스룸 외 종합",
+    desc: "국내 KNCAP 1등급, 유럽 유로NCAP 5스타, 미국 IIHS 톱세이프티픽+까지 세 가지 안전 평가를 모두 최고 등급으로 받은 국산 SUV는 몇 대나 될까. 아이오닉9·EV9·GV70·GV60·투싼을 직접 대조해 확인했다."
+  },
+  {
     slug: "kia-pv5-cargo-plastic-partition-2026",
     title: "\"캠핑족이 이 격벽 하나에 술렁였다\"… 기아 PV5 카고, 플라스틱 격벽의 정체",
     date: "2026-08-05",
