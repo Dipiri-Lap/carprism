@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-sorento-diesel-discontinued-2026",
+    title: "\"아빠들 인생 차였는데\"… 쏘렌토 디젤, 24년 만에 조용히 역사 속으로",
+    date: "2026-08-06",
+    image: "sorento_official.png",
+    categories: ["domestic"],
+    tags: ["쏘렌토디젤단종", "기아쏘렌토2.2디젤", "쏘렌토마지막구매", "쏘렌토하이브리드", "쏘렌토단종"],
+    badge: "DISCONTINUED",
+    badgeClass: "cat-hyundai",
+    source: "뉴스와이드",
+    desc: "기아 쏘렌토 2.2 디젤이 2002년 출시 이후 24년 만에 신규 생산을 멈췄다. 재고 소진분만 남은 지금이 사실상 마지막 구매 기회다. 하이브리드 79.6% vs 디젤 5.5%, 판매 비중이 갈라놓은 단종의 진짜 이유를 정리했다."
+  },
+  {
+    slug: "volvo-bmw-benz-korea-price-cut-2026",
+    title: "\"해외보다 5천만 원 싸다고?\"… 볼보·BMW·벤츠가 한국에서만 가격을 낮추는 이유",
+    date: "2026-08-06",
+    image: "volvo_es90_main.webp",
+    categories: ["import"],
+    tags: ["볼보ES90가격", "BMWiX3가격", "벤츠GLC일렉트릭가격", "수입차가격인하", "고가수입차시장"],
+    badge: "PRICING",
+    badgeClass: "cat-sales",
+    source: "뉴스와이드",
+    desc: "볼보 ES90 7,294만원, BMW iX3 7,990만원, 벤츠 GLC 일렉트릭 9,000만원. 제네시스 G80을 사려다 발길을 돌리게 만드는 수입차 가격표의 비밀은 7천만원 이상 고가 수입차 시장의 22.4% 성장에 있었다."
+  },
+  {
     slug: "toyota-gr-gt-convertible-rumor-2026",
     title: "\"전설의 두 차도 못 해본 것\"… 토요타 GR GT, 지붕 없는 버전 나온다",
     date: "2026-08-06",

@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 05 Aug 2026 08:50:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 19:04:53 GMT</lastBuildDate>
+    <item>
+      <title>&quot;아빠들 인생 차였는데&quot;… 쏘렌토 디젤, 24년 만에 조용히 역사 속으로</title>
+      <link>https://carprism.tmhub.co.kr/articles/kia-sorento-diesel-discontinued-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-sorento-diesel-discontinued-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>기아 쏘렌토 2.2 디젤이 2002년 출시 이후 24년 만에 신규 생산을 멈췄다. 재고 소진분만 남은 지금이 사실상 마지막 구매 기회다. 하이브리드 79.6% vs 디젤 5.5%, 판매 비중이 갈라놓은 단종의 진짜 이유를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/sorento_official.png" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;해외보다 5천만 원 싸다고?&quot;… 볼보·BMW·벤츠가 한국에서만 가격을 낮추는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/volvo-bmw-benz-korea-price-cut-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/volvo-bmw-benz-korea-price-cut-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>볼보 ES90 7,294만원, BMW iX3 7,990만원, 벤츠 GLC 일렉트릭 9,000만원. 제네시스 G80을 사려다 발길을 돌리게 만드는 수입차 가격표의 비밀은 7천만원 이상 고가 수입차 시장의 22.4% 성장에 있었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/volvo_es90_main.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;전설의 두 차도 못 해본 것&quot;… 토요타 GR GT, 지붕 없는 버전 나온다</title>
       <link>https://carprism.tmhub.co.kr/articles/toyota-gr-gt-convertible-rumor-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description>테슬라코리아가 지자체 보조금 소진 문제를 자체 예산으로 해결한다. 모델3·모델Y 트림별 최대 215만원 자체 지원금, 9월 30일 인도 기한, 정부 보조금과 무관하게 지급되는 이유를 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;6,759만원이 5,735만원으로&quot;… 현대차, 전기차 4종 최대 750만원 할인 &apos;테슬라 반격&apos;</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-ev-summer-festa-discount-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ev-summer-festa-discount-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>현대차가 아이오닉 9·6·5, 코나 일렉트릭 등 전기차 4종에 최대 750만원 할인을 적용했다. 모델Y에 밀리는 국내 전기차 판매 순위를 뒤집기 위한 승부수, 트림별 할인 구성과 실제 구매가를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ioniq9_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;볼보 EX90 눌렀다&quot;… 아이오닉 9, 獨 전문지 비교평가서 572대 555점 완승</title>
-      <link>https://carprism.tmhub.co.kr/articles/ioniq9-vs-volvo-ex90-german-comparison-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ioniq9-vs-volvo-ex90-german-comparison-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>독일 자동차 전문지 아우토 모토 운트 슈포트가 진행한 럭셔리 전동 SUV 비교평가에서 현대차 아이오닉 9가 볼보 EX90을 17점 차로 눌렀다. 7개 부문별 평가 결과와 두 차의 강점을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ioniq9_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
