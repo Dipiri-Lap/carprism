@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:25:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:57:51 GMT</lastBuildDate>
+    <item>
+      <title>&quot;2,400만원 차이인데 연비는 그랜저가 낫다&quot;… 렉서스 ES300h vs 그랜저 하이브리드</title>
+      <link>https://carprism.tmhub.co.kr/articles/lexus-es300h-vs-grandeur-hybrid-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/lexus-es300h-vs-grandeur-hybrid-2026.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description>ES300h 럭셔리+ 6,725만원 vs 그랜저 하이브리드 프리미엄 4,354만원, 가격차 2,371만원. 그런데 공인연비는 그랜저(18.0km/L)가 ES300h(17.2km/L)보다 오히려 높다. 두 준대형 하이브리드 세단의 진짜 차이를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/lexus_es300h_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;같은 심장인데 왜 다를까&quot;… 쏘렌토 하이브리드 vs 싼타페 하이브리드, 진짜 차이는 여기</title>
+      <link>https://carprism.tmhub.co.kr/articles/sorento-vs-santafe-hybrid-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/sorento-vs-santafe-hybrid-comparison-2026.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description>같은 1.6 터보 하이브리드, 같은 235마력인데 연비는 쏘렌토가 더 좋고 가격은 싼타페가 더 세다. 기아·현대 대형 SUV 하이브리드 형제차의 가격·연비·트림 구성 차이를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_sorento_diesel_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;범퍼 하나로 500만원&quot;… 국산차 vs 수입차, 부딪히면 얼마나 차이 날까</title>
       <link>https://carprism.tmhub.co.kr/articles/bumper-repair-cost-domestic-vs-import-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>같은 차체에 파워트레인만 다른 니로 EV와 니로 하이브리드를 놓고 5년 총소유비용(TCO)을 직접 계산했다. 연료비는 전기차가 압도적으로 싸지만, 초기가격과 감가상각까지 더하면 결과가 뒤집힌다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kia_niro_ev_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;3년 타도 신차값의 70%는 남는다&quot;… 감가율 낮은 국산차, 실거래 데이터로 추려봤다</title>
-      <link>https://carprism.tmhub.co.kr/articles/korean-car-low-depreciation-3year-top10-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korean-car-low-depreciation-3year-top10-2026.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>KB캐피탈 인증중고차 실거래 데이터와 업계 감가율 조사를 종합해, 3년 보유 후에도 값이 잘 안 떨어지는 국산차를 추렸다. 카니발·그랜저·쏘렌토부터 경차 레이까지, 왜 이 차들만 유독 방어력이 강한지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kia_carnival_ka4_side.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;안전 3관왕&quot;이라는 SUV, 실제로 세어보니 몇 대? KNCAP·유로NCAP·IIHS 다 받은 국산차</title>
-      <link>https://carprism.tmhub.co.kr/articles/korean-suv-triple-crown-safety-rating-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korean-suv-triple-crown-safety-rating-2026.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>국내 KNCAP 1등급, 유럽 유로NCAP 5스타, 미국 IIHS 톱세이프티픽+까지 세 가지 안전 평가를 모두 최고 등급으로 받은 국산 SUV는 몇 대나 될까. 아이오닉9·EV9·GV70·GV60·투싼을 직접 대조해 확인했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ioniq9_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

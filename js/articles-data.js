@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "lexus-es300h-vs-grandeur-hybrid-2026",
+    title: "\"2,400만원 차이인데 연비는 그랜저가 낫다\"… 렉서스 ES300h vs 그랜저 하이브리드",
+    date: "2026-08-08",
+    image: "lexus_es300h_front.webp",
+    categories: ["import"],
+    tags: ["ES300h그랜저하이브리드비교", "렉서스ES300h가격", "그랜저하이브리드가격", "준대형하이브리드세단비교", "수입vs국산하이브리드"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "렉서스코리아",
+    desc: "ES300h 럭셔리+ 6,725만원 vs 그랜저 하이브리드 프리미엄 4,354만원, 가격차 2,371만원. 그런데 공인연비는 그랜저(18.0km/L)가 ES300h(17.2km/L)보다 오히려 높다. 두 준대형 하이브리드 세단의 진짜 차이를 정리했다."
+  },
+  {
+    slug: "sorento-vs-santafe-hybrid-comparison-2026",
+    title: "\"같은 심장인데 왜 다를까\"… 쏘렌토 하이브리드 vs 싼타페 하이브리드, 진짜 차이는 여기",
+    date: "2026-08-08",
+    image: "kia_sorento_diesel_front.webp",
+    categories: ["domestic"],
+    tags: ["쏘렌토하이브리드싼타페하이브리드비교", "쏘렌토하이브리드가격", "싼타페하이브리드가격", "대형SUV하이브리드비교", "형제차비교"],
+    badge: "COMPARISON",
+    badgeClass: "cat-hyundai",
+    source: "현대자동차",
+    desc: "같은 1.6 터보 하이브리드, 같은 235마력인데 연비는 쏘렌토가 더 좋고 가격은 싼타페가 더 세다. 기아·현대 대형 SUV 하이브리드 형제차의 가격·연비·트림 구성 차이를 정리했다."
+  },
+  {
     slug: "bumper-repair-cost-domestic-vs-import-2026",
     title: "\"범퍼 하나로 500만원\"… 국산차 vs 수입차, 부딪히면 얼마나 차이 날까",
     date: "2026-08-08",
