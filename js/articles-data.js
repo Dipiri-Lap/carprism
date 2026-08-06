@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bumper-repair-cost-domestic-vs-import-2026",
+    title: "\"범퍼 하나로 500만원\"… 국산차 vs 수입차, 부딪히면 얼마나 차이 날까",
+    date: "2026-08-08",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["news"],
+    tags: ["범퍼수리비", "범퍼교환비용", "국산차수입차수리비비교", "자동차보험수리비", "경미손상수리기준"],
+    badge: "DATA",
+    badgeClass: "cat-red",
+    source: "보험연구원(KIRI)",
+    desc: "그랜저 앞범퍼 교환비용 93.6만원, BMW는 335.7만원. 보험연구원 데이터로 본 국산차·수입차 범퍼 수리비 격차와 그 이유, 전체 자동차보험 수리비의 17%를 차지하는 범퍼 시장의 민낯을 정리했다."
+  },
+  {
     slug: "ev-winter-range-loss-comparison-2026",
     title: "\"영하 되니 33% 뚝\"… 겨울철 전기차 주행거리, 숫자로 보니 이 정도였다",
     date: "2026-08-08",

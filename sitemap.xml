@@ -112,6 +112,15 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/bumper-repair-cost-domestic-vs-import-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_grandeur_gn7_pe_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-08T10:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-winter-range-loss-comparison-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/kia_ev6_official.jpg</image:loc>
