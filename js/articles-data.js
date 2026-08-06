@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-insurance-loss-ratio-premium-increase-2026",
+    title: "\"손해율 78%→89%\"… 내 자동차보험료가 매년 오르는 진짜 이유",
+    date: "2026-08-07",
+    image: "mercedes_eclass_w213_front.webp",
+    categories: ["news"],
+    tags: ["자동차보험료인상", "손해율", "경상환자합의금", "경미손상수리기준", "대물배상보험금"],
+    badge: "DATA",
+    badgeClass: "cat-red",
+    source: "보험연구원(KIRI)",
+    desc: "자동차보험 손해율이 2년 만에 78.0%에서 89.3%로 뛰었다. 경상환자 합의금이 치료비의 123%에 달하고, 지역별 경미손상 수리기준 적용률이 10배 차이 나는 등 보험연구원 데이터로 본 보험료 인상의 구조적 원인을 정리했다."
+  },
+  {
     slug: "hyundai-august-2026-delivery-wait-comparison",
     title: "\"친구 차는 1개월, 내 차는 6개월\"… 현대차 8월 계약 대기기간 총정리",
     date: "2026-08-07",

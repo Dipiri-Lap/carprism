@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:07:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:13:21 GMT</lastBuildDate>
+    <item>
+      <title>&quot;손해율 78%→89%&quot;… 내 자동차보험료가 매년 오르는 진짜 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-insurance-loss-ratio-premium-increase-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-insurance-loss-ratio-premium-increase-2026.html</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description>자동차보험 손해율이 2년 만에 78.0%에서 89.3%로 뛰었다. 경상환자 합의금이 치료비의 123%에 달하고, 지역별 경미손상 수리기준 적용률이 10배 차이 나는 등 보험연구원 데이터로 본 보험료 인상의 구조적 원인을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/mercedes_eclass_w213_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;친구 차는 1개월, 내 차는 6개월&quot;… 현대차 8월 계약 대기기간 총정리</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-august-2026-delivery-wait-comparison.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>BYD의 프리미엄 브랜드 덴자가 CLTC 기준 1,100km(683마일) 주행거리를 내세운 Z9s를 공개했다. 102.3kWh 블레이드 배터리, 5분 급속충전, 그리고 EPA 환산 시 실제로는 어느 정도일지까지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/denza_z9_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;내 벤츠가 태어난 날을 증명해준다&quot;… 21만 4천원짜리 &apos;출생증명서&apos; 서비스</title>
-      <link>https://carprism.tmhub.co.kr/articles/mercedes-benz-birth-certificate-classic-service-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mercedes-benz-birth-certificate-classic-service-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>메르세데스-벤츠가 1986~2010년산 승용차를 위한 &apos;출생증명서&apos; 발급 서비스를 시작했다. 온라인 신청, 130유로(약 21만 4천원), VIN·출고일·옵션 정보까지 담기는 이 클래식카 인증 서비스를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/mercedes_w124_e220_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
