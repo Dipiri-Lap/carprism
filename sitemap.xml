@@ -112,6 +112,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/car-acquisition-tax-consumption-tax-guide-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/avante_cn8_front_reveal.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-06T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/import-luxury-depreciation-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/mercedes_eclass_w213_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-06T18:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-sorento-diesel-discontinued-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/sorento_official.png</image:loc>

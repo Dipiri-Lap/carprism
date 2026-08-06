@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 05 Aug 2026 19:04:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 08:27:05 GMT</lastBuildDate>
+    <item>
+      <title>&quot;이번 달부터 다시 5%&quot;… 자동차 취득세·개별소비세, 헷갈리는 계산법 총정리</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-acquisition-tax-consumption-tax-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-acquisition-tax-consumption-tax-guide-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>개별소비세 30% 인하가 2026년 6월 30일로 끝나고 7월 1일부터 정상세율 5%로 돌아갔다. 취득세 7%부터 전기차·경차·다자녀 감면까지, 신차·중고차 살 때 실제로 얼마를 더 내는지 계산 예시로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/avante_cn8_front_reveal.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;신차값의 반토막&quot;… 벤츠 E클래스 vs BMW 5시리즈 vs 아우디 A6, 인증중고차로 본 감가율 민낯</title>
+      <link>https://carprism.tmhub.co.kr/articles/import-luxury-depreciation-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/import-luxury-depreciation-comparison-2026.html</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>같은 준대형 세단인데 잔존율이 최대 30%포인트 갈린다. 인증중고차 실거래가로 본 벤츠 E클래스·BMW 5시리즈·아우디 A6의 감가율 비교, 그리고 연말마다 반복되는 최대 15% 시세 하락의 이유를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/mercedes_eclass_w213_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;아빠들 인생 차였는데&quot;… 쏘렌토 디젤, 24년 만에 조용히 역사 속으로</title>
       <link>https://carprism.tmhub.co.kr/articles/kia-sorento-diesel-discontinued-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description>볼보가 소형 전기 SUV EX40의 후속으로 EX50을 준비 중이다. 전기차 전용 플랫폼 SPA3와 800V 시스템을 앞세워 차체는 커지고 가격은 오히려 낮아질 전망이다. EX30~EX60 라인업 재편 배경까지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/volvo_ex30_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;너무 싼 중국차, 알고 보니…&quot;… 도어 손잡이까지 공유하는 부품 공용화의 비밀</title>
-      <link>https://carprism.tmhub.co.kr/articles/chinese-ev-parts-sharing-strategy-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/chinese-ev-parts-sharing-strategy-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>중국차가 이토록 저렴할 수 있는 배경에는 도어 핸들부터 엔진까지 여러 차종·브랜드가 함께 쓰는 부품 공용화 전략이 있다. BYD의 수직계열화 사례와 유럽·일본의 대응까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/byd_seal_rwd_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;정부 보조금 없이도요?&quot;… 테슬라, 9월까지 자체 예산으로 최대 215만원 할인</title>
-      <link>https://carprism.tmhub.co.kr/articles/tesla-self-funded-subsidy-september-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/tesla-self-funded-subsidy-september-2026.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>테슬라코리아가 지자체 보조금 소진 문제를 자체 예산으로 해결한다. 모델3·모델Y 트림별 최대 215만원 자체 지원금, 9월 30일 인도 기한, 정부 보조금과 무관하게 지급되는 이유를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

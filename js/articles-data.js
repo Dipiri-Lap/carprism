@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-acquisition-tax-consumption-tax-guide-2026",
+    title: "\"이번 달부터 다시 5%\"… 자동차 취득세·개별소비세, 헷갈리는 계산법 총정리",
+    date: "2026-08-06",
+    image: "avante_cn8_front_reveal.webp",
+    categories: ["news"],
+    tags: ["자동차취득세계산", "개별소비세계산", "자동차세금총정리", "전기차취득세감면", "경차취득세면제"],
+    badge: "GUIDE",
+    badgeClass: "cat-blue",
+    source: "대한민국 정책브리핑",
+    desc: "개별소비세 30% 인하가 2026년 6월 30일로 끝나고 7월 1일부터 정상세율 5%로 돌아갔다. 취득세 7%부터 전기차·경차·다자녀 감면까지, 신차·중고차 살 때 실제로 얼마를 더 내는지 계산 예시로 정리했다."
+  },
+  {
+    slug: "import-luxury-depreciation-comparison-2026",
+    title: "\"신차값의 반토막\"… 벤츠 E클래스 vs BMW 5시리즈 vs 아우디 A6, 인증중고차로 본 감가율 민낯",
+    date: "2026-08-06",
+    image: "mercedes_eclass_w213_front.webp",
+    categories: ["import"],
+    tags: ["수입차감가율", "벤츠E클래스감가율", "BMW5시리즈감가율", "아우디A6감가율", "인증중고차잔존율"],
+    badge: "DATA",
+    badgeClass: "cat-sales",
+    source: "오토데일리",
+    desc: "같은 준대형 세단인데 잔존율이 최대 30%포인트 갈린다. 인증중고차 실거래가로 본 벤츠 E클래스·BMW 5시리즈·아우디 A6의 감가율 비교, 그리고 연말마다 반복되는 최대 15% 시세 하락의 이유를 정리했다."
+  },
+  {
     slug: "kia-sorento-diesel-discontinued-2026",
     title: "\"아빠들 인생 차였는데\"… 쏘렌토 디젤, 24년 만에 조용히 역사 속으로",
     date: "2026-08-06",
