@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-august-2026-delivery-wait-comparison",
+    title: "\"친구 차는 1개월, 내 차는 6개월\"… 현대차 8월 계약 대기기간 총정리",
+    date: "2026-08-07",
+    image: "palisade_full_change_main.webp",
+    categories: ["domestic"],
+    tags: ["현대차대기기간", "현대차8월계약", "팰리세이드출고", "그랜저하이브리드대기", "베뉴출고대기"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴",
+    desc: "싼타페·팰리세이드·아이오닉5는 1개월이면 받는데, 베뉴는 6개월을 기다려야 한다. 같은 현대차인데 왜 이렇게 갈릴까. 세단·SUV·전기차 전 라인업 출고 대기기간을 한눈에 정리했다."
+  },
+  {
+    slug: "luxury-pickup-truck-status-symbol-trend-2026",
+    title: "\"S클래스 대신 이거\"… 1억원대 픽업트럭이 미국 부의 상징이 된 사연",
+    date: "2026-08-07",
+    image: "mercedes_sclass_w223_front.webp",
+    categories: ["import"],
+    tags: ["럭셔리픽업트럭", "램1500텅스텐가격", "리비안R1T가격", "미국픽업트럭트렌드", "GMC시에라디날리"],
+    badge: "TREND",
+    badgeClass: "cat-gold",
+    source: "CarBuzz",
+    desc: "램 1500 텅스텐 1억2,400만원, 리비안 R1T 1억6,000만원. 한때 실패로 끝난 링컨 블랙우드·캐딜락 이스컬레이드 EXT가 왜 지금은 벤츠 S클래스 자리를 넘보는 성공작이 됐는지, 럭셔리 픽업트럭의 반전 스토리를 정리했다."
+  },
+  {
+    slug: "audi-q9-electric-door-handle-ceo-decision-2026",
+    title: "\"혁신적이지만 소비자 입장에선 더 나쁘다\"… 아우디 Q9, CEO가 시승 한 번에 없앤 도어핸들",
+    date: "2026-08-07",
+    image: "audi_q9_front.webp",
+    categories: ["import"],
+    tags: ["아우디Q9도어핸들", "아우디Q9전자식핸들", "아우디CEO뵈르너", "Q9개발비화", "전자식도어핸들문제"],
+    badge: "STORY",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "아우디 Q9에는 원래 터치 센서로 작동하는 전자식 도어핸들이 들어갈 예정이었다. 그런데 CEO 게르노트 뵈르너가 최종 시승 후 이를 직접 없앴다. 통상 2년 걸리는 부품 변경을 막판에 밀어붙인 이유를 정리했다."
+  },
+  {
+    slug: "hyundai-kia-genesis-recall-august-2026",
+    title: "\"내 차도 포함됐나\"… 그랜저·투싼·카니발 등 13개 차종 51만대 리콜",
+    date: "2026-08-07",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["domestic"],
+    tags: ["현대기아리콜", "그랜저리콜", "투싼리콜", "카니발리콜", "8월자동차리콜"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "지피코리아",
+    desc: "그랜저 하이브리드 14만대는 과열로 인한 화재 우려, 투싼은 전방충돌방지 오작동, 카니발 9만9,889대까지 — 현대차·기아·제네시스 13개 차종 51만2,393대 리콜 사유와 신청 방법을 정리했다."
+  },
+  {
+    slug: "hyundai-avante-cn8-first-day-contract-record-2026",
+    title: "\"첫날에만 1.1만 대\"… 8세대 아반떼, 역대 최고 기록 터졌다",
+    date: "2026-08-07",
+    image: "avante_cn8_front_reveal.webp",
+    categories: ["domestic"],
+    tags: ["아반떼계약첫날", "8세대아반떼", "아반떼CN8후속", "아반떼하이브리드비중", "아반떼신기록"],
+    badge: "SALES",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴",
+    desc: "디 올 뉴 아반떼가 계약 첫날 1만1,094대를 기록하며 7세대(1만58대)를 넘어 역대 최고 기록을 세웠다. 최상위 트림 52%, 하이브리드 27.5%로 선택 비중까지 뒤바꾼 이번 흥행의 배경을 정리했다."
+  },
+  {
     slug: "car-acquisition-tax-consumption-tax-guide-2026",
     title: "\"이번 달부터 다시 5%\"… 자동차 취득세·개별소비세, 헷갈리는 계산법 총정리",
     date: "2026-08-06",
