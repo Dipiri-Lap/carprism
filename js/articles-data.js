@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-winter-range-loss-comparison-2026",
+    title: "\"영하 되니 33% 뚝\"… 겨울철 전기차 주행거리, 숫자로 보니 이 정도였다",
+    date: "2026-08-08",
+    image: "kia_ev6_official.jpg",
+    categories: ["electric"],
+    tags: ["전기차겨울철주행거리", "EV항속거리감소", "테슬라겨울철주행거리", "아이오닉5겨울철", "전기차저온성능"],
+    badge: "DATA",
+    badgeClass: "cat-ev",
+    source: "다나와 자동차",
+    desc: "테슬라 모델3는 저온에서 계기판보다 21% 덜 달렸고, 아이오닉5·EV6는 6~10% 줄었다. 한국소비자원 실주행 시험과 현대해상 실사용자 조사로 본 겨울철 전기차 항속거리 감소, 실제 숫자로 정리했다."
+  },
+  {
     slug: "car-insurance-loss-ratio-premium-increase-2026",
     title: "\"손해율 78%→89%\"… 내 자동차보험료가 매년 오르는 진짜 이유",
     date: "2026-08-07",

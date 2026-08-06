@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:13:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:19:39 GMT</lastBuildDate>
+    <item>
+      <title>&quot;영하 되니 33% 뚝&quot;… 겨울철 전기차 주행거리, 숫자로 보니 이 정도였다</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-winter-range-loss-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-winter-range-loss-comparison-2026.html</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description>테슬라 모델3는 저온에서 계기판보다 21% 덜 달렸고, 아이오닉5·EV6는 6~10% 줄었다. 한국소비자원 실주행 시험과 현대해상 실사용자 조사로 본 겨울철 전기차 항속거리 감소, 실제 숫자로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_ev6_official.jpg" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;손해율 78%→89%&quot;… 내 자동차보험료가 매년 오르는 진짜 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/car-insurance-loss-ratio-premium-increase-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>기아 PV5 카고가 철제 대신 플라스틱 복합재 격벽을 적용했다. 가볍고 저렴한 애프터마켓 &apos;오픈 격벽&apos;을 기대하게 만든 이 변화부터, 10종으로 늘어난 PV5 라인업 가격까지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kia_pv5_passenger_main.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;1회 충전 1,100km, 5분에 수백km 더&quot;… BYD 덴자 Z9s의 숫자, 곧이곧대로 믿어도 될까</title>
-      <link>https://carprism.tmhub.co.kr/articles/byd-denza-z9s-longest-range-ev-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/byd-denza-z9s-longest-range-ev-2026.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>BYD의 프리미엄 브랜드 덴자가 CLTC 기준 1,100km(683마일) 주행거리를 내세운 Z9s를 공개했다. 102.3kWh 블레이드 배터리, 5분 급속충전, 그리고 EPA 환산 시 실제로는 어느 정도일지까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/denza_z9_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
