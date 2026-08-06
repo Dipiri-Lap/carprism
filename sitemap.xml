@@ -112,6 +112,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/trailblazer-vs-seltos-vs-kona-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/chevrolet_trailblazer_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T10:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/carnival-vs-staria-hybrid-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_carnival_ka4_dc.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T09:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/lexus-es300h-vs-grandeur-hybrid-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/lexus_es300h_front.webp</image:loc>

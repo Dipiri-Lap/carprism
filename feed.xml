@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:57:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 12:13:23 GMT</lastBuildDate>
+    <item>
+      <title>&quot;2천만원대 첫차, 셋 중 뭐&quot;… 트레일블레이저 vs 셀토스 vs 코나, 소형 SUV 3파전</title>
+      <link>https://carprism.tmhub.co.kr/articles/trailblazer-vs-seltos-vs-kona-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/trailblazer-vs-seltos-vs-kona-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>트레일블레이저 2,430만원, 셀토스 2,670만원, 코나 2,360만원부터. 가격은 비슷한데 AWD·하이브리드·연비에서 셋의 강점이 완전히 갈린다. 2026년 소형 SUV 3파전, 트림별 숫자로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/chevrolet_trailblazer_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;245마력은 같은데 연비는 다르다&quot;… 카니발 하이브리드 vs 스타리아 하이브리드</title>
+      <link>https://carprism.tmhub.co.kr/articles/carnival-vs-staria-hybrid-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/carnival-vs-staria-hybrid-comparison-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>카니발 하이브리드는 14.0km/L, 스타리아 하이브리드는 12.4~13.0km/L. 같은 1.6 터보 하이브리드를 쓰는 두 미니밴이 인승 구성과 연비에서 갈리는 지점을 가격표로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_carnival_ka4_dc.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;2,400만원 차이인데 연비는 그랜저가 낫다&quot;… 렉서스 ES300h vs 그랜저 하이브리드</title>
       <link>https://carprism.tmhub.co.kr/articles/lexus-es300h-vs-grandeur-hybrid-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>BMW가 중국 시장 전용으로 준비 중인 신형 X5가 휠베이스를 130mm 늘리고 8K 뒷좌석 시네마 스크린까지 얹으며 상위 모델 X7의 영역을 넘본다. 왜 하필 중국에서, 왜 하필 X5가 이런 파격을 감행했는지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/bmw_x5_45e_phev.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;같은 급속인데 왜 요금이 2배 차이 날까&quot;… 전기차 충전 요금제 완전정리</title>
-      <link>https://carprism.tmhub.co.kr/articles/ev-charging-rate-plans-complete-guide-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-charging-rate-plans-complete-guide-2026.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>환경부·한전부터 파워큐브·GS차지비·테슬라까지, 충전사업자마다 제각각인 kWh당 단가와 카드사 할인 혜택을 한 번에 정리했다. 완속·급속 요금 차이부터 카드별 월 할인 한도까지 실제 숫자로 비교했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ev_charging_station_jeju.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;충전비는 반값인데 왜 더 손해일까&quot;… 니로 EV·니로 하이브리드 5년 유지비 직접 계산해보니</title>
-      <link>https://carprism.tmhub.co.kr/articles/ev-vs-hybrid-5year-maintenance-cost-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-vs-hybrid-5year-maintenance-cost-2026.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>같은 차체에 파워트레인만 다른 니로 EV와 니로 하이브리드를 놓고 5년 총소유비용(TCO)을 직접 계산했다. 연료비는 전기차가 압도적으로 싸지만, 초기가격과 감가상각까지 더하면 결과가 뒤집힌다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kia_niro_ev_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

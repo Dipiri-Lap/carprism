@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "trailblazer-vs-seltos-vs-kona-2026",
+    title: "\"2천만원대 첫차, 셋 중 뭐\"… 트레일블레이저 vs 셀토스 vs 코나, 소형 SUV 3파전",
+    date: "2026-08-09",
+    image: "chevrolet_trailblazer_front.webp",
+    categories: ["domestic"],
+    tags: ["트레일블레이저셀토스코나비교", "소형SUV비교", "트레일블레이저가격", "셀토스가격", "코나가격"],
+    badge: "COMPARISON",
+    badgeClass: "cat-hyundai",
+    source: "다나와 자동차",
+    desc: "트레일블레이저 2,430만원, 셀토스 2,670만원, 코나 2,360만원부터. 가격은 비슷한데 AWD·하이브리드·연비에서 셋의 강점이 완전히 갈린다. 2026년 소형 SUV 3파전, 트림별 숫자로 정리했다."
+  },
+  {
+    slug: "carnival-vs-staria-hybrid-comparison-2026",
+    title: "\"245마력은 같은데 연비는 다르다\"… 카니발 하이브리드 vs 스타리아 하이브리드",
+    date: "2026-08-09",
+    image: "kia_carnival_ka4_dc.webp",
+    categories: ["domestic"],
+    tags: ["카니발하이브리드스타리아하이브리드비교", "카니발하이브리드가격", "스타리아하이브리드가격", "미니밴비교", "대형MPV비교"],
+    badge: "COMPARISON",
+    badgeClass: "cat-hyundai",
+    source: "기아",
+    desc: "카니발 하이브리드는 14.0km/L, 스타리아 하이브리드는 12.4~13.0km/L. 같은 1.6 터보 하이브리드를 쓰는 두 미니밴이 인승 구성과 연비에서 갈리는 지점을 가격표로 정리했다."
+  },
+  {
     slug: "lexus-es300h-vs-grandeur-hybrid-2026",
     title: "\"2,400만원 차이인데 연비는 그랜저가 낫다\"… 렉서스 ES300h vs 그랜저 하이브리드",
     date: "2026-08-08",
