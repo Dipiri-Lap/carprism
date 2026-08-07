@@ -4,7 +4,7 @@ window.ARTICLES_DATA = [
   {
     slug: "volvo-ex90-review-2026",
     title: "1억2,320만원짜리 3열 전기 SUV, 승차감의 비결은 '2챔버 에어서스펜션'이었다",
-    date: "2026-08-10",
+    date: "2026-08-07",
     image: "volvo_ex90_front.webp",
     categories: ["reviews", "import"],
     tags: ["볼보EX90시승기", "볼보EX90가격", "EX90에어서스펜션", "볼보3열전기SUV", "EX90주행거리"],
@@ -16,7 +16,7 @@ window.ARTICLES_DATA = [
   {
     slug: "waymo-korea-launch-2026",
     title: "서초구에 법인 하나 세웠을 뿐인데... 웨이모 한국 상륙에 다들 술렁이는 이유",
-    date: "2026-08-10",
+    date: "2026-08-07",
     image: "waymo_ipace_front.webp",
     categories: ["news"],
     tags: ["웨이모한국진출", "웨이모코리아", "자율주행택시", "로보택시한국", "완전자율주행"],
@@ -28,7 +28,7 @@ window.ARTICLES_DATA = [
   {
     slug: "telo-mt1-electric-pickup-2026",
     title: "미니 쿠퍼 크기에 견인력은 사이버트럭급... 정체는 스타트업의 소형 전기 픽업",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "telo_mt1_front.webp",
     categories: ["news"],
     tags: ["텔로MT1", "소형전기픽업", "텔로트럭스", "전기픽업트럭", "미니픽업"],
@@ -40,7 +40,7 @@ window.ARTICLES_DATA = [
   {
     slug: "tesla-megapack3-production-start-2026",
     title: "같은 창고에 28% 더 담는다... 테슬라 신형 배터리, 20일 만에 공장을 짓는 비밀",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "megapack_canopy.webp",
     categories: ["news"],
     tags: ["테슬라메가팩3", "메가팩생산", "테슬라에너지저장", "메가블록", "텍사스브룩셔공장"],
@@ -52,7 +52,7 @@ window.ARTICLES_DATA = [
   {
     slug: "byd-yangwang-u8l-luxury-suv-2026",
     title: "완충 5분, 좌석엔 18단 마사지... 그런데 이 전기 SUV엔 왜 엔진이 달렸나",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "yangwang_u8l_front.webp",
     categories: ["import"],
     tags: ["BYD양왕U8L", "양왕전기SUV", "양왕가격", "레인지익스텐더SUV", "중국초호화전기차"],
@@ -64,7 +64,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bentley-torc-curation-engine-2026",
     title: "벤틀리가 첫 전기차에 넣은 건 배터리가 아니라 \"심리 상담사\"였다",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "bentley_gt_s_official.jpg",
     categories: ["import"],
     tags: ["벤틀리토르칼", "벤틀리전기차", "큐레이션엔진", "벤틀리EXP15", "벤틀리첫EV"],
@@ -76,7 +76,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bmw-online-exclusive-editions-august-2026",
     title: "전 세계 135대 중 29대는 한국행... BMW가 온라인에서만 파는 이유",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "bmw_x7_front.webp",
     categories: ["import"],
     tags: ["BMW온라인한정판", "BMW7시리즈네로루쏘", "BMWX7스카이스크래퍼그레이", "M340i투어링에디션", "BMW한정판매"],
@@ -88,7 +88,7 @@ window.ARTICLES_DATA = [
   {
     slug: "polestar-sales-growth-profit-2026",
     title: "판매 74%, 순이익 13배... 그런데 폴스타코리아가 마냥 웃지 못하는 이유",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "polestar4_front.webp",
     categories: ["import"],
     tags: ["폴스타코리아실적", "폴스타판매량", "폴스타4의존도", "폴스타3인도", "수입전기차실적"],
@@ -100,7 +100,7 @@ window.ARTICLES_DATA = [
   {
     slug: "vw-golf8-tdi-certified-used-bargain-2026",
     title: "\"4,140만원이 2,890만원 됐다\"… 고속도로 연비 21km/L 넘는 독일차, 정체는 골프 TDI",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "vw_golf8_front.webp",
     categories: ["import"],
     tags: ["골프8세대TDI", "골프TDI중고가격", "폭스바겐골프인증중고", "골프디젤연비", "수입해치백중고"],
@@ -112,7 +112,7 @@ window.ARTICLES_DATA = [
   {
     slug: "korando-turismo-used-4wd-bargain-2026",
     title: "\"렉스턴과 카니발을 합쳤다\"… 700만원대 국산 9인승 4WD, 다시 주목받는 이유",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "ssangyong_korando_turismo_front.webp",
     categories: ["domestic"],
     tags: ["코란도투리스모중고", "코란도투리스모가격", "국산4WD패밀리카", "쌍용코란도투리스모", "9인승SUV중고"],
@@ -124,7 +124,7 @@ window.ARTICLES_DATA = [
   {
     slug: "genesis-delivery-wait-august-2026",
     title: "\"기다리다 지쳐 결국 계약했습니다\"… 제네시스, 사실상 전 모델 재고로 즉시 출고 중",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "genesis_gv80_front.webp",
     categories: ["domestic"],
     tags: ["제네시스출고일정", "제네시스대기기간", "G80재고", "GV80재고", "제네시스즉시출고"],
@@ -136,7 +136,7 @@ window.ARTICLES_DATA = [
   {
     slug: "kia-ev-contract-timing-yearend-2026",
     title: "\"4개월이 경계선이다\"… 기아 전기차, 해 넘기기 전에 계약해야 하는 이유",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "kia_ev6_official.jpg",
     categories: ["electric"],
     tags: ["기아전기차보조금", "기아EV대기기간", "전기차보조금계약타이밍", "EV6대기기간", "EV9대기기간"],
@@ -148,7 +148,7 @@ window.ARTICLES_DATA = [
   {
     slug: "used-car-7day-refund-policy-2026",
     title: "\"수리비 300만원 넘으면 환불\"… 중고차 7일 환불제, 조건을 알아야 써먹는다",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "usedcar_price_dealership_lot.webp",
     categories: ["news"],
     tags: ["중고차7일환불제", "중고차허위매물", "중고차소비자보호", "성능점검기록부", "중고차플랫폼규제"],
@@ -160,7 +160,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-kia-genesis-reddot-award-2026",
     title: "\"차보다 매장이 더 상 받는다\"… 현대차·기아·제네시스, 레드닷 17관왕의 속사정",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "genesis_gv80_front.webp",
     categories: ["domestic"],
     tags: ["현대차기아레드닷", "레드닷디자인상", "UX스튜디오서울", "제네시스청주", "현대차디자인전략"],
@@ -172,7 +172,7 @@ window.ARTICLES_DATA = [
   {
     slug: "avante-grandeur-hybrid-recall-august-2026",
     title: "\"출시 첫 주부터 리콜 명단에\"… 8세대 아반떼 하이브리드, 축포 터지자마자 악재",
-    date: "2026-08-09",
+    date: "2026-08-07",
     image: "avante_cn8_front_reveal.webp",
     categories: ["domestic"],
     tags: ["아반떼하이브리드리콜", "그랜저하이브리드리콜", "하이브리드통합제어기결함", "8월자동차리콜", "아반떼CN8리콜"],
