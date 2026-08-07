@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "vw-golf8-tdi-certified-used-bargain-2026",
+    title: "\"4,140만원이 2,890만원 됐다\"… 고속도로 연비 21km/L 넘는 독일차, 정체는 골프 TDI",
+    date: "2026-08-09",
+    image: "vw_golf8_front.webp",
+    categories: ["import"],
+    tags: ["골프8세대TDI", "골프TDI중고가격", "폭스바겐골프인증중고", "골프디젤연비", "수입해치백중고"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "폭스바겐 골프 8세대 2.0 TDI 프레스티지, 신차가 4,140만원에서 인증중고 2,890만원까지 내려왔다. 150마력 디젤에 고속도로연비 21.3km/L, 감가액 최대 1,250만원 — 지금 인증중고 시장에서 이 차가 주목받는 이유를 정리했다."
+  },
+  {
+    slug: "korando-turismo-used-4wd-bargain-2026",
+    title: "\"렉스턴과 카니발을 합쳤다\"… 700만원대 국산 9인승 4WD, 다시 주목받는 이유",
+    date: "2026-08-09",
+    image: "ssangyong_korando_turismo_front.webp",
+    categories: ["domestic"],
+    tags: ["코란도투리스모중고", "코란도투리스모가격", "국산4WD패밀리카", "쌍용코란도투리스모", "9인승SUV중고"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "쌍용 코란도 투리스모 9인승 4WD가 중고차 시장에서 700만원대에 거래되며 재조명받고 있다. 178마력 디젤, 최대토크 40.8kgf·m, 복합연비 10.1km/L — 단종된 이 차가 지금도 팔리는 이유를 정리했다."
+  },
+  {
+    slug: "genesis-delivery-wait-august-2026",
+    title: "\"기다리다 지쳐 결국 계약했습니다\"… 제네시스, 사실상 전 모델 재고로 즉시 출고 중",
+    date: "2026-08-09",
+    image: "genesis_gv80_front.webp",
+    categories: ["domestic"],
+    tags: ["제네시스출고일정", "제네시스대기기간", "G80재고", "GV80재고", "제네시스즉시출고"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-genesis",
+    source: "오토트리뷴",
+    desc: "G80 재고 3,000대, GV80 재고 2,000대. 국산 프리미엄 브랜드를 기다리다 지친 소비자들이 갈아탄다는 이야기와 달리, 제네시스는 세단·SUV 대부분이 1개월 안에, 재고 활용 시 즉시 출고까지 가능하다. 실제 출고 일정을 정리했다."
+  },
+  {
+    slug: "kia-ev-contract-timing-yearend-2026",
+    title: "\"4개월이 경계선이다\"… 기아 전기차, 해 넘기기 전에 계약해야 하는 이유",
+    date: "2026-08-09",
+    image: "kia_ev6_official.jpg",
+    categories: ["electric"],
+    tags: ["기아전기차보조금", "기아EV대기기간", "전기차보조금계약타이밍", "EV6대기기간", "EV9대기기간"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴",
+    desc: "EV6·EV9은 4~5주면 받지만 셀토스·EV5는 4개월, 레이는 10개월 걸린다. 연내 출고의 경계선은 4개월 — 그 이상이면 보조금 체계가 통째로 바뀌는 해를 넘긴다. 기아 전기차 모델별 대기기간과 계약 타이밍을 정리했다."
+  },
+  {
+    slug: "used-car-7day-refund-policy-2026",
+    title: "\"수리비 300만원 넘으면 환불\"… 중고차 7일 환불제, 조건을 알아야 써먹는다",
+    date: "2026-08-09",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["news"],
+    tags: ["중고차7일환불제", "중고차허위매물", "중고차소비자보호", "성능점검기록부", "중고차플랫폼규제"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "지피코리아",
+    desc: "중고차 인도 후 7일 이내, 수리비 300만원 이상이면서 차량가의 30% 이상이거나 수리 기간 30일 이상이어야 환불 대상이 된다. 8월 발표된 중고차 소비자보호 대책의 실제 적용 조건을 정리했다."
+  },
+  {
+    slug: "hyundai-kia-genesis-reddot-award-2026",
+    title: "\"차보다 매장이 더 상 받는다\"… 현대차·기아·제네시스, 레드닷 17관왕의 속사정",
+    date: "2026-08-09",
+    image: "genesis_gv80_front.webp",
+    categories: ["domestic"],
+    tags: ["현대차기아레드닷", "레드닷디자인상", "UX스튜디오서울", "제네시스청주", "현대차디자인전략"],
+    badge: "DESIGN",
+    badgeClass: "cat-hyundai",
+    source: "오토헤럴드",
+    desc: "레드닷 디자인상 17개 부문 수상, 그런데 정작 상을 받은 건 신차가 아니라 UX 스튜디오 서울과 제네시스 청주 같은 '공간'이었다. 현대차그룹이 디자인 전략을 차량에서 공간·경험으로 넓히는 이유를 정리했다."
+  },
+  {
+    slug: "avante-grandeur-hybrid-recall-august-2026",
+    title: "\"출시 첫 주부터 리콜 명단에\"… 8세대 아반떼 하이브리드, 축포 터지자마자 악재",
+    date: "2026-08-09",
+    image: "avante_cn8_front_reveal.webp",
+    categories: ["domestic"],
+    tags: ["아반떼하이브리드리콜", "그랜저하이브리드리콜", "하이브리드통합제어기결함", "8월자동차리콜", "아반떼CN8리콜"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "오토트리뷴",
+    desc: "계약 첫날 1만1,094대 신기록을 세운 지 며칠 만에, 아반떼 하이브리드가 2만6,356대 리콜 대상에 올랐다. 그랜저 하이브리드 14만1,825대와 같은 결함으로, 8월 13일부터 시정조치가 시작된다."
+  },
+  {
     slug: "trailblazer-vs-seltos-vs-kona-2026",
     title: "\"2천만원대 첫차, 셋 중 뭐\"… 트레일블레이저 vs 셀토스 vs 코나, 소형 SUV 3파전",
     date: "2026-08-09",
