@@ -34,7 +34,7 @@ function heroSlide(item, i) {
     ? ` &nbsp;·&nbsp; <span class="slide-source">원문: ${item.source}</span>`
     : '';
   return `
-      <div class="slide" role="group" aria-label="슬라이드 ${i + 1}">
+      <div class="slide" role="group" aria-label="슬라이드 ${i + 1}" data-href="articles/${item.slug}.html" tabindex="0">
         <div class="slide-image">
           <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>

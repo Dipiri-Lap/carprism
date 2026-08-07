@@ -233,6 +233,7 @@ body {
   flex-shrink: 0;
   width: 100%;
   height: 450px;
+  cursor: pointer;
 }
 
 .slide-image {

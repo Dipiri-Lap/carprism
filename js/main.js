@@ -20,7 +20,7 @@ function escapeAttr(str) {
     const heroItems = sortedByDate.slice(0, HERO_COUNT);
 
     track.innerHTML = heroItems.map((item, i) => `
-      <div class="slide" role="group" aria-label="슬라이드 ${i + 1}">
+      <div class="slide" role="group" aria-label="슬라이드 ${i + 1}" data-href="articles/${item.slug}.html" tabindex="0">
         <div class="slide-image">
           <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>
@@ -33,6 +33,20 @@ function escapeAttr(str) {
         </div>
       </div>
     `).join('');
+
+    // 슬라이드 영역 어디를 눌러도 해당 기사로 이동 (버튼/링크 자체 클릭은 기본 동작에 맡김)
+    track.querySelectorAll('.slide').forEach(slide => {
+      slide.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        window.location.href = slide.dataset.href;
+      });
+      slide.addEventListener('keydown', (e) => {
+        if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('a')) {
+          e.preventDefault();
+          window.location.href = slide.dataset.href;
+        }
+      });
+    });
 
     if (dotsWrap) {
       dotsWrap.innerHTML = heroItems.map((_, i) => `
