@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "volvo-ex90-review-2026",
+    title: "1억2,320만원짜리 3열 전기 SUV, 승차감의 비결은 '2챔버 에어서스펜션'이었다",
+    date: "2026-08-10",
+    image: "volvo_ex90_front.webp",
+    categories: ["reviews", "import"],
+    tags: ["볼보EX90시승기", "볼보EX90가격", "EX90에어서스펜션", "볼보3열전기SUV", "EX90주행거리"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-blue",
+    source: "카가이",
+    desc: "볼보 EX90 시승기. 6인승 풀옵션 기준 1억2,320만원, 106kWh 배터리로 국내 인증 448km를 달린다. 4바퀴 2챔버 전자제어 댐퍼와 에어서스펜션이 만드는 승차감을 직접 확인했다."
+  },
+  {
+    slug: "waymo-korea-launch-2026",
+    title: "서초구에 법인 하나 세웠을 뿐인데... 웨이모 한국 상륙에 다들 술렁이는 이유",
+    date: "2026-08-10",
+    image: "waymo_ipace_front.webp",
+    categories: ["news"],
+    tags: ["웨이모한국진출", "웨이모코리아", "자율주행택시", "로보택시한국", "완전자율주행"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴",
+    desc: "웨이모가 7월 24일 서울 서초구에 '웨이모코리아 유한회사'를 설립했다. 자본금 1억5,000만원, 서비스 시기·지역은 미정이지만 미국에서는 매주 40만 건 넘는 무인 운행을 기록 중이다."
+  },
+  {
+    slug: "telo-mt1-electric-pickup-2026",
+    title: "미니 쿠퍼 크기에 견인력은 사이버트럭급... 정체는 스타트업의 소형 전기 픽업",
+    date: "2026-08-09",
+    image: "telo_mt1_front.webp",
+    categories: ["news"],
+    tags: ["텔로MT1", "소형전기픽업", "텔로트럭스", "전기픽업트럭", "미니픽업"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드",
+    desc: "미국 스타트업 텔로가 소형 전기 픽업 'MT1' 사전 생산 프로토타입을 공개했다. 전장 3.86m로 미니 쿠퍼급 크기지만 최대 견인력 3,628kg, 듀얼모터 사양은 500마력을 낸다."
+  },
+  {
+    slug: "tesla-megapack3-production-start-2026",
+    title: "같은 창고에 28% 더 담는다... 테슬라 신형 배터리, 20일 만에 공장을 짓는 비밀",
+    date: "2026-08-09",
+    image: "megapack_canopy.webp",
+    categories: ["news"],
+    tags: ["테슬라메가팩3", "메가팩생산", "테슬라에너지저장", "메가블록", "텍사스브룩셔공장"],
+    badge: "EV 트렌드",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드",
+    desc: "테슬라가 텍사스 브룩셔 신공장에서 메가팩3 생산을 시작했다. 동일 면적에 저장용량 28% 확대, 4개를 묶은 '메가블록'은 20MWh, 냉각 연결점은 78% 감소했다."
+  },
+  {
+    slug: "byd-yangwang-u8l-luxury-suv-2026",
+    title: "완충 5분, 좌석엔 18단 마사지... 그런데 이 전기 SUV엔 왜 엔진이 달렸나",
+    date: "2026-08-09",
+    image: "yangwang_u8l_front.webp",
+    categories: ["import"],
+    tags: ["BYD양왕U8L", "양왕전기SUV", "양왕가격", "레인지익스텐더SUV", "중국초호화전기차"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-red",
+    source: "Electrek",
+    desc: "BYD 프리미엄 브랜드 양왕이 4인승 초호화 SUV 'U8L'을 1,458만위안(약 21만5,000달러)에 공개했다. 순수전기 230km·복합 1,205km, 10%→97% 충전 9분, 18단 마사지 캡틴시트까지 갖췄다."
+  },
+  {
+    slug: "bentley-torc-curation-engine-2026",
+    title: "벤틀리가 첫 전기차에 넣은 건 배터리가 아니라 \"심리 상담사\"였다",
+    date: "2026-08-09",
+    image: "bentley_gt_s_official.jpg",
+    categories: ["import"],
+    tags: ["벤틀리토르칼", "벤틀리전기차", "큐레이션엔진", "벤틀리EXP15", "벤틀리첫EV"],
+    badge: "EV BRAND",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드",
+    desc: "벤틀리가 첫 순수 전기차 '토르칼'에 감각 신경과학 기반의 '큐레이션 엔진'을 공개했다. 벤틀리·컴포트·스포츠·리프레시 4가지 모드로 파워트레인부터 조명·사운드·공조까지 통합 제어한다."
+  },
+  {
+    slug: "bmw-online-exclusive-editions-august-2026",
+    title: "전 세계 135대 중 29대는 한국행... BMW가 온라인에서만 파는 이유",
+    date: "2026-08-09",
+    image: "bmw_x7_front.webp",
+    categories: ["import"],
+    tags: ["BMW온라인한정판", "BMW7시리즈네로루쏘", "BMWX7스카이스크래퍼그레이", "M340i투어링에디션", "BMW한정판매"],
+    badge: "LIMITED EDITION",
+    badgeClass: "cat-blue",
+    source: "오토헤럴드",
+    desc: "BMW코리아가 8월 11일 오후 3시부터 온라인샵에서만 판매하는 한정판 3종을 공개했다. 7시리즈 네로 루쏘 에디션(29대), X7 스카이스크래퍼 그레이 에디션(40대), M340i 투어링 에디션(20대) — 총 89대."
+  },
+  {
+    slug: "polestar-sales-growth-profit-2026",
+    title: "판매 74%, 순이익 13배... 그런데 폴스타코리아가 마냥 웃지 못하는 이유",
+    date: "2026-08-09",
+    image: "polestar4_front.webp",
+    categories: ["import"],
+    tags: ["폴스타코리아실적", "폴스타판매량", "폴스타4의존도", "폴스타3인도", "수입전기차실적"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-ev",
+    source: "지피코리아",
+    desc: "폴스타코리아 상반기 판매 2,412대로 전년 대비 74% 증가, 2025년 순이익은 13.6배로 뛰었다. 하지만 영업이익률은 오히려 하락했고, 판매의 88.3%가 폴스타4 한 대에 쏠려 있다."
+  },
+  {
     slug: "vw-golf8-tdi-certified-used-bargain-2026",
     title: "\"4,140만원이 2,890만원 됐다\"… 고속도로 연비 21km/L 넘는 독일차, 정체는 골프 TDI",
     date: "2026-08-09",
