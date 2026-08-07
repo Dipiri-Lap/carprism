@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "acura-monterey-concept-rdx-2026",
+    title: "테일램프를 반으로 갈랐다... 어큐라가 콘셉트카에 숨긴 차기 RDX의 얼굴",
+    date: "2026-08-08",
+    image: "acura_rdx_front.webp",
+    categories: ["import"],
+    tags: ["어큐라몬터레이콘셉트", "신형RDX", "어큐라RDX하이브리드", "어큐라디자인", "MY28RDX"],
+    badge: "CONCEPT",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "어큐라가 몬터레이 카 위크에서 '몬터레이 콘셉트'를 공개했다. X자를 세로로 반씩 나눠 좌우 차체에 담은 테일램프 디자인이 2028년형 4세대 RDX 하이브리드에 처음 양산 적용된다."
+  },
+  {
+    slug: "renault-korea-philante-export-2026",
+    title: "부산공장에서 만든 847대, 마산항에서 중남미로 떠났다",
+    date: "2026-08-08",
+    image: "renault_grand_koleos.webp",
+    categories: ["domestic"],
+    tags: ["르노코리아필랑트", "필랑트수출", "르노코리아부산공장", "르노아르카나", "르노그랑콜레오스"],
+    badge: "EXPORT",
+    badgeClass: "cat-gold",
+    source: "카가이",
+    desc: "르노코리아 필랑트가 중남미향 첫 수출 선적을 시작했다. 필랑트 220대·아르카나 418대·그랑 콜레오스 209대, 총 847대가 부산공장에서 마산항 제4부두를 통해 떠났다."
+  },
+  {
+    slug: "mahindra-scorpio-n-7seat-suv-2026",
+    title: "\"이런 차를 KGM이 냈다면\"... 2천만원대 7인승 프레임 SUV의 정체",
+    date: "2026-08-08",
+    image: "scorpio_n_front.webp",
+    categories: ["import"],
+    tags: ["마힌드라스코르피오N", "프레임바디SUV", "7인승SUV", "인도자동차", "저가SUV"],
+    badge: "GLOBAL",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴",
+    desc: "인도에서 팔리는 마힌드라 스코르피오-N, 원화로 환산하면 2천만원대부터다. 렉스턴과 같은 프레임바디 7인승에 200마력 가솔린 터보, 540도 카메라까지 갖췄다."
+  },
+  {
+    slug: "volvo-xc60-used-20million-2026",
+    title: "2천만원대 140대... 볼보 XC60, 정말 사도 될까",
+    date: "2026-08-08",
+    image: "volvo_xc60_recall.webp",
+    categories: ["import"],
+    tags: ["볼보XC60중고", "XC60시세", "XC60중고가격", "볼보중고SUV", "XC60트림별가격"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "볼보 XC60 중고 시장에 2천만원대 매물만 140대가 풀렸다. 신차 6,090만원부터 시작하는 차가 왜 이렇게까지 떨어졌을까. 트림별 실제 매물 가격과 저가 매물의 함정까지 정리했다."
+  },
+  {
+    slug: "ioniq6-us-sales-collapse-2026",
+    title: "한 달에 76대... 아이오닉 6, 미국에서 사실상 퇴장 수순",
+    date: "2026-08-08",
+    image: "hyundai_ioniq6_official.jpg",
+    categories: ["electric"],
+    tags: ["아이오닉6미국판매", "아이오닉6단종", "아이오닉6부진", "현대차미국전기차", "아이오닉6N"],
+    badge: "DATA",
+    badgeClass: "cat-red",
+    source: "오토트리뷴",
+    desc: "아이오닉 6가 2026년 7월 미국에서 76대 팔렸다. 전년 동월 대비 92% 감소, 테슬라 모델3와는 54배 격차. 현대차는 결국 일반형 아이오닉6를 2026년형 라인업에서 뺐다."
+  },
+  {
     slug: "volvo-ex90-review-2026",
     title: "1억2,320만원짜리 3열 전기 SUV, 승차감의 비결은 '2챔버 에어서스펜션'이었다",
     date: "2026-08-07",
