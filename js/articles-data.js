@@ -184,7 +184,7 @@ window.ARTICLES_DATA = [
   {
     slug: "trailblazer-vs-seltos-vs-kona-2026",
     title: "\"2천만원대 첫차, 셋 중 뭐\"… 트레일블레이저 vs 셀토스 vs 코나, 소형 SUV 3파전",
-    date: "2026-08-09",
+    date: "2026-08-06",
     image: "chevrolet_trailblazer_front.webp",
     categories: ["domestic"],
     tags: ["트레일블레이저셀토스코나비교", "소형SUV비교", "트레일블레이저가격", "셀토스가격", "코나가격"],
@@ -196,7 +196,7 @@ window.ARTICLES_DATA = [
   {
     slug: "carnival-vs-staria-hybrid-comparison-2026",
     title: "\"245마력은 같은데 연비는 다르다\"… 카니발 하이브리드 vs 스타리아 하이브리드",
-    date: "2026-08-09",
+    date: "2026-08-06",
     image: "kia_carnival_ka4_dc.webp",
     categories: ["domestic"],
     tags: ["카니발하이브리드스타리아하이브리드비교", "카니발하이브리드가격", "스타리아하이브리드가격", "미니밴비교", "대형MPV비교"],
@@ -208,7 +208,7 @@ window.ARTICLES_DATA = [
   {
     slug: "lexus-es300h-vs-grandeur-hybrid-2026",
     title: "\"2,400만원 차이인데 연비는 그랜저가 낫다\"… 렉서스 ES300h vs 그랜저 하이브리드",
-    date: "2026-08-08",
+    date: "2026-08-06",
     image: "lexus_es300h_front.webp",
     categories: ["import"],
     tags: ["ES300h그랜저하이브리드비교", "렉서스ES300h가격", "그랜저하이브리드가격", "준대형하이브리드세단비교", "수입vs국산하이브리드"],
@@ -220,7 +220,7 @@ window.ARTICLES_DATA = [
   {
     slug: "sorento-vs-santafe-hybrid-comparison-2026",
     title: "\"같은 심장인데 왜 다를까\"… 쏘렌토 하이브리드 vs 싼타페 하이브리드, 진짜 차이는 여기",
-    date: "2026-08-08",
+    date: "2026-08-06",
     image: "kia_sorento_diesel_front.webp",
     categories: ["domestic"],
     tags: ["쏘렌토하이브리드싼타페하이브리드비교", "쏘렌토하이브리드가격", "싼타페하이브리드가격", "대형SUV하이브리드비교", "형제차비교"],
@@ -232,7 +232,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bumper-repair-cost-domestic-vs-import-2026",
     title: "\"범퍼 하나로 500만원\"… 국산차 vs 수입차, 부딪히면 얼마나 차이 날까",
-    date: "2026-08-08",
+    date: "2026-08-06",
     image: "hyundai_grandeur_gn7_pe_front.webp",
     categories: ["news"],
     tags: ["범퍼수리비", "범퍼교환비용", "국산차수입차수리비비교", "자동차보험수리비", "경미손상수리기준"],
@@ -244,7 +244,7 @@ window.ARTICLES_DATA = [
   {
     slug: "ev-winter-range-loss-comparison-2026",
     title: "\"영하 되니 33% 뚝\"… 겨울철 전기차 주행거리, 숫자로 보니 이 정도였다",
-    date: "2026-08-08",
+    date: "2026-08-06",
     image: "kia_ev6_official.jpg",
     categories: ["electric"],
     tags: ["전기차겨울철주행거리", "EV항속거리감소", "테슬라겨울철주행거리", "아이오닉5겨울철", "전기차저온성능"],
