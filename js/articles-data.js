@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ioniq6-korea-vs-us-sales-comparison-2026",
+    title: "미국에서는 76대, 한국에서는 591대... 같은 아이오닉6, 다른 운명",
+    date: "2026-08-09",
+    image: "hyundai_ioniq6_official.jpg",
+    categories: ["electric"],
+    tags: ["아이오닉6국내판매", "아이오닉6미국판매비교", "아이오닉6판매추이", "현대차전기차판매", "아이오닉6사전계약"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴 외 종합",
+    desc: "아이오닉6가 2026년 7월 미국에서 76대 팔리며 사실상 퇴장 수순을 밟는 사이, 한국에서는 같은 달 591대가 팔렸다. 두 시장에서 완전히 다른 길을 걷게 된 이유를 비교했다."
+  },
+  {
+    slug: "limited-edition-strategy-comparison-2026",
+    title: "한정판을 파는 두 가지 방법: BMW의 '깜짝 완판' vs 지프의 '매달 정기 발매'",
+    date: "2026-08-08",
+    image: "jeep_wrangler_laredo_main.webp",
+    categories: ["import"],
+    tags: ["한정판마케팅전략", "BMW온라인한정판", "지프트웰브포트웰브", "자동차한정판비교", "리미티드에디션전략"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "카프리즘 자체 비교",
+    desc: "89대 한정 BMW는 특정 시각 온라인 판매로 승부한다. 지프는 아예 열두 달 내내 매달 새 한정판을 낸다. 순간 집중형과 정기 캘린더형, 정반대의 두 한정판 전략을 비교했다."
+  },
+  {
+    slug: "depreciation-ranking-best-worst-2026",
+    title: "12.5% 빠진 차, 72% 빠진 차... 카프리즘이 모은 감가율 랭킹",
+    date: "2026-08-08",
+    image: "mercedes_eclass_w213_front.webp",
+    categories: ["news"],
+    tags: ["자동차감가율랭킹", "중고차잔존율순위", "감가방어차", "벤츠E클래스감가율", "XC60감가율"],
+    badge: "RANKING",
+    badgeClass: "cat-sales",
+    source: "카프리즘 자체 집계",
+    desc: "카프리즘이 그동안 다룬 중고차 가격 기사들을 감가율순으로 재구성했다. 벤츠 E클래스(최소 12.5%↓)부터 볼보 XC60(최대 72%↓)까지, 가장 안 빠지는 차와 가장 많이 빠지는 차를 한 표로 정리했다."
+  },
+  {
+    slug: "recall-scale-ranking-2026",
+    title: "넉 달 새 다섯 번... 2026년 최다 리콜 규모로 줄 세워봤다",
+    date: "2026-08-08",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["news"],
+    tags: ["2026자동차리콜랭킹", "리콜대수순위", "현대기아리콜", "국토부리콜조회", "자동차리콜확인"],
+    badge: "RANKING",
+    badgeClass: "cat-red",
+    source: "카프리즘 자체 집계",
+    desc: "카프리즘이 다룬 2026년 리콜 소식만 모아도 다섯 건이다. 최대 53만2,144대부터 최소 8만6,543대까지, 규모순으로 재구성했다."
+  },
+  {
+    slug: "delivery-wait-time-ranking-2026",
+    title: "1개월과 28개월 사이... 지금 계약하면 가장 오래 기다려야 하는 차 TOP 10",
+    date: "2026-08-08",
+    image: "hyundai_casper_electric_official.webp",
+    categories: ["news"],
+    tags: ["신차대기기간랭킹", "출고대기순위", "캐스퍼일렉트릭대기", "레이출고대기", "카니발하이리무진대기"],
+    badge: "RANKING",
+    badgeClass: "cat-red",
+    source: "카프리즘 자체 집계",
+    desc: "카프리즘이 다룬 현대차·기아·제네시스·수입차 대기기간 기사를 전부 모아 하나의 순위표로 재구성했다. 최장 캐스퍼 일렉트릭 28개월부터 최단 타스만·싼타페 1개월까지 정리했다."
+  },
+  {
     slug: "gwm-wey-v9x-luxury-flagship-2026",
     title: "복합 주행거리 1,700km... 위 브랜드가 던진 '플래그십'이라는 승부수",
     date: "2026-08-08",

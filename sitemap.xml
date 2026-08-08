@@ -238,6 +238,51 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ioniq6-korea-vs-us-sales-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_ioniq6_official.jpg</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T09:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/limited-edition-strategy-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/jeep_wrangler_laredo_main.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-08T23:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/depreciation-ranking-best-worst-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/mercedes_eclass_w213_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-08T22:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/recall-scale-ranking-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_grandeur_gn7_pe_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-08T21:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/delivery-wait-time-ranking-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_casper_electric_official.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-08T20:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/gwm-wey-v9x-luxury-flagship-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/wey_v9x_front.webp</image:loc>
