@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "gwm-wey-v9x-luxury-flagship-2026",
+    title: "복합 주행거리 1,700km... 위 브랜드가 던진 '플래그십'이라는 승부수",
+    date: "2026-08-08",
+    image: "wey_v9x_front.webp",
+    categories: ["import"],
+    tags: ["위V9X", "WeyV9X", "GWM플래그십SUV", "V9X제원", "중국프리미엄SUV"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-gold",
+    source: "CnEVPost",
+    desc: "GWM의 프리미엄 브랜드 위(Wey)가 6인승 플래그십 SUV 'V9X'를 공개했다. 순수전기 470km·복합 1,700km 주행거리, 800V 고전압 아키텍처, 듀얼모터 320kW까지 갖췄다."
+  },
+  {
+    slug: "gwm-haval-h10-flagship-suv-2026",
+    title: "4,600만원짜리에 라이다까지... 하발이 내놓은 '초대형 3열 SUV'의 정체",
+    date: "2026-08-08",
+    image: "haval_h10_front.webp",
+    categories: ["import"],
+    tags: ["하발H10", "GWM하발", "초대형3열SUV", "하발H10가격", "하발H10제원"],
+    badge: "GLOBAL",
+    badgeClass: "cat-gold",
+    source: "카가이",
+    desc: "GWM 하발이 초대형 3열 SUV 'H10'을 4,230만~4,600만원에 출시했다. 총 440kW(590마력) 하이브리드 시스템, 0-100km/h 4.9초, 루프 장착 라이다까지 갖췄다."
+  },
+  {
+    slug: "most-wanted-car-features-survey-2026",
+    title: "1만9천명에게 물었더니, 1위는 자율주행이 아니라 '이것'이었다",
+    date: "2026-08-08",
+    image: "genesis_gv80_interior.webp",
+    categories: ["news"],
+    tags: ["차량기능선호도조사", "열선시트선호도", "자율주행신뢰도", "소비자설문조사", "인기옵션순위"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "3년 내 신차 구매를 계획 중인 미국 운전자 1만9,000명을 조사한 결과, 가장 원하는 차량 기능 1위는 열선 시트(47%)였다. 첨단 자율주행보다 실용적 편의사양을 우선하는 소비자 심리를 정리했다."
+  },
+  {
+    slug: "infiniti-qx80-used-vs-crosstrek-2026",
+    title: "신형 소형 SUV 살 돈으로, 상태 좋은 대형 럭셔리 SUV를 산다면",
+    date: "2026-08-08",
+    image: "infiniti_qx80_new.webp",
+    categories: ["import"],
+    tags: ["인피니티QX80중고", "QX80가격", "스바루크로스트렉가격", "미국중고차시세", "대형SUV중고"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "CarBuzz",
+    desc: "2026 스바루 크로스트렉 신차 가격은 2만6,995달러. 미국 중고 시장에서는 같은 돈으로 2020~2022년식 인피니티 QX80을 살 수 있다. 최저 6,000달러부터 시작하는 QX80 가격대를 정리했다."
+  },
+  {
+    slug: "tesla-spacex-terafab-texas-2026",
+    title: "축구장 130개 크기 반도체 공장, 그런데 자동차 회사가 짓는다",
+    date: "2026-08-08",
+    image: "tesla_giga_texas.webp",
+    categories: ["news"],
+    tags: ["테슬라테라팹", "스페이스X반도체공장", "테슬라AI칩", "옵티머스반도체", "텍사스그라임스카운티"],
+    badge: "EV 트렌드",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드",
+    desc: "테슬라와 스페이스X가 23조원을 들여 텍사스에 '테라팹' 반도체 공장을 짓는다. TSMC 대형 시설의 10배가 넘는 929만㎡ 부지, 연간 1테라와트급 컴퓨팅 생산이 목표다."
+  },
+  {
+    slug: "carnival-hi-limousine-4seat-wait-2026",
+    title: "9,461만원짜리를 6개월 기다린다... 카니발 4인승의 정체",
+    date: "2026-08-08",
+    image: "carnival_official.png",
+    categories: ["domestic"],
+    tags: ["카니발하이리무진", "카니발4인승", "카니발대기기간", "카니발시그니처", "카니발프리미엄시트"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴",
+    desc: "카니발 하이리무진 4인승 시그니처 트림, 가격은 9,461만원인데 대기기간은 6개월. 7인승·9인승은 2개월이면 받는데 왜 이 트림만 3배 넘게 기다려야 할까."
+  },
+  {
     slug: "acura-monterey-concept-rdx-2026",
     title: "테일램프를 반으로 갈랐다... 어큐라가 콘셉트카에 숨긴 차기 RDX의 얼굴",
     date: "2026-08-08",
