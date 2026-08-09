@@ -238,6 +238,15 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-staria-ev-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/staria_ev_exterior_official.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T18:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/car-cancellation-penalty-brand-comparison-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/bmw_5series_g30_front.webp</image:loc>

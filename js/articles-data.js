@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-staria-ev-2026",
+    title: "\"전기로 다시 태어난 우주선\"… 스타리아 EV, 가격과 제원 총정리",
+    date: "2026-08-09",
+    image: "staria_ev_exterior_official.webp",
+    categories: ["electric"],
+    tags: ["스타리아EV가격", "스타리아일렉트릭제원", "스타리아EV주행거리", "현대전기밴", "스타리아리무진EV"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "현대자동차 외 종합",
+    desc: "현대 스타리아 일렉트릭이 2026년 4월 국내 출시됐다. 84kWh 배터리, 800V 시스템, 3인승 카고부터 11인승 라운지·6인승 리무진까지 트림별 가격과 주행거리, 급속충전 성능을 총정리했다."
+  },
+  {
     slug: "car-cancellation-penalty-brand-comparison-2026",
     title: "\"계약금 날릴 각오하세요\"… 계약 취소, 유럽차와 국산차가 다른 이유",
     date: "2026-08-09",

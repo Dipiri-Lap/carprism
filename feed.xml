@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 06:42:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 13:20:45 GMT</lastBuildDate>
+    <item>
+      <title>&quot;전기로 다시 태어난 우주선&quot;… 스타리아 EV, 가격과 제원 총정리</title>
+      <link>https://carprism.tmhub.co.kr/articles/hyundai-staria-ev-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-staria-ev-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>현대 스타리아 일렉트릭이 2026년 4월 국내 출시됐다. 84kWh 배터리, 800V 시스템, 3인승 카고부터 11인승 라운지·6인승 리무진까지 트림별 가격과 주행거리, 급속충전 성능을 총정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/staria_ev_exterior_official.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;계약금 날릴 각오하세요&quot;… 계약 취소, 유럽차와 국산차가 다른 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/car-cancellation-penalty-brand-comparison-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>BYD 프리미엄 브랜드 양왕이 4인승 초호화 SUV &apos;U8L&apos;을 1,458만위안(약 21만5,000달러)에 공개했다. 순수전기 230km·복합 1,205km, 10%→97% 충전 9분, 18단 마사지 캡틴시트까지 갖췄다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/yangwang_u8l_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>벤틀리가 첫 전기차에 넣은 건 배터리가 아니라 &quot;심리 상담사&quot;였다</title>
-      <link>https://carprism.tmhub.co.kr/articles/bentley-torc-curation-engine-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bentley-torc-curation-engine-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>벤틀리가 첫 순수 전기차 &apos;토르칼&apos;에 감각 신경과학 기반의 &apos;큐레이션 엔진&apos;을 공개했다. 벤틀리·컴포트·스포츠·리프레시 4가지 모드로 파워트레인부터 조명·사운드·공조까지 통합 제어한다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/bentley_gt_s_official.jpg" type="image/webp"/>
     </item>
   </channel>
 </rss>
