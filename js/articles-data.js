@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "geofencing-speed-limiter-technology-2026",
+    title: "기술은 이미 준비됐다... 당신 차가 과속을 \"못 하게\" 막지 않는 진짜 이유",
+    date: "2026-08-09",
+    image: "schoolzone_realtime_speed_display.webp",
+    categories: ["news"],
+    tags: ["지오펜싱기술", "속도제한기술", "ISA지능형속도보조", "볼보속도제한", "자동차GPS속도제어"],
+    badge: "GENERAL",
+    badgeClass: "cat-gen",
+    source: "Carscoops",
+    desc: "GPS, 카메라, 전자식 스로틀, OTA 업데이트 — 지오펜싱으로 차량이 제한속도를 넘지 못하게 만드는 기술은 이미 다 갖춰져 있다. 벤츠·BMW·토요타·포드는 PHEV 저공해구역 자동전환에, 볼보는 상용차 속도제한에 이미 이 기술을 쓰고 있다."
+  },
+  {
+    slug: "toyota-hybrid-battery-replacement-cost-2026",
+    title: "54만 마일 뛴 프리우스가 증명한 것... \"하이브리드 배터리 무섭다\"는 옛말",
+    date: "2026-08-09",
+    image: "toyota_prius_front.webp",
+    categories: ["news"],
+    tags: ["토요타하이브리드배터리교체비용", "프리우스배터리수명", "코롤라하이브리드배터리", "하이브리드중고차구매", "하이브리드배터리보증"],
+    badge: "GENERAL",
+    badgeClass: "cat-gen",
+    source: "CarBuzz",
+    desc: "토요타 하이브리드 배터리 교체비용은 리퍼비시 기준 1,500~3,500달러로, 같은 값이면 사고 이력 있는 20년 된 세단을 살 돈이다. 54만6,000마일을 달린 프리우스와 48만1,000마일의 코롤라 하이브리드 기록이 '배터리 공포'가 과장됐음을 보여준다."
+  },
+  {
+    slug: "mercedes-amg-s63-used-value-2026",
+    title: "포르쉐 911과 같은 가속력, 가격은 신형 C클래스... 벤츠 AMG S63의 함정",
+    date: "2026-08-09",
+    image: "amg_s63_front.webp",
+    categories: ["import"],
+    tags: ["벤츠AMGS63중고가", "AMGS63가성비", "AMGS63유지비", "W222S63중고", "포르쉐911vsAMGS63"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "CarBuzz",
+    desc: "577마력 벤츠 AMG S63 중고가가 신형 AMG C클래스와 비슷한 4만 달러대까지 내려왔다. 0-60마일 3.9초로 포르쉐 911 카레라와 동급 가속력을 내는 이 차, 저렴해 보이는 가격 뒤에는 연간 유지비 1,581달러라는 함정이 숨어 있다."
+  },
+  {
+    slug: "ford-bronco-ev-china-not-sold-us-2026",
+    title: "포드가 만든 전기 브롱코, 정작 미국에서는 못 산다",
+    date: "2026-08-09",
+    image: "ford_bronco_sport_front.webp",
+    categories: ["electric", "import"],
+    tags: ["포드브롱코EV", "브롱코뉴에너지", "포드중국전기차", "장링모터스", "브롱코스포츠전기차"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "InsideEVs",
+    desc: "포드가 만든 순수전기·하이브리드 브롱코 '뉴 에너지'는 중국에서만 팔린다. 최대 650km 주행거리, 루프 라이다, 듀얼 스크린을 갖춘 이 차가 정작 미국 시장에는 나오지 않는 이유를 짚었다."
+  },
+  {
+    slug: "mazda-cx90-cx70-sales-struggle-2026",
+    title: "플래그십 SUV는 무너지는데, 8년 된 세단은 88% 뛰었다... 마쓰다의 딜레마",
+    date: "2026-08-09",
+    image: "mazda_cx90_front.webp",
+    categories: ["import"],
+    tags: ["마쓰다CX90판매부진", "마쓰다CX70판매부진", "마쓰다3판매급증", "일본수입관세자동차", "마쓰다PHEV보조금"],
+    badge: "SALES",
+    badgeClass: "cat-sales",
+    source: "Carscoops",
+    desc: "마쓰다의 플래그십 SUV CX-90과 CX-70이 상반기 판매 24~29% 급감하는 사이, 2018년형 마쓰다3 세단은 오히려 88% 급증했다. 일본 수입관세와 PHEV 보조금 축소가 만든 역설적 판매 흐름을 짚었다."
+  },
+  {
+    slug: "kgm-rexton-sales-collapse-2026",
+    title: "한 달에 29대... 싼타페의 132분의 1로 무너진 렉스턴, 진짜 이유는",
+    date: "2026-08-09",
+    image: "rexton_current_seoul.jpg",
+    categories: ["domestic"],
+    tags: ["렉스턴판매부진", "KGM렉스턴", "렉스턴싼타페비교", "렉스턴판매절벽", "KGM내수판매"],
+    badge: "SALES",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "KGM 렉스턴이 7월 단 29대 판매에 그치며 싼타페(3,822대)의 132분의 1 수준으로 무너졌다. KGM 내부에서도 무쏘EV·무쏘·티볼리보다 적게 팔린 렉스턴의 판매 절벽, 진짜 이유를 짚었다."
+  },
+  {
     slug: "ioniq6-korea-vs-us-sales-comparison-2026",
     title: "미국에서는 76대, 한국에서는 591대... 같은 아이오닉6, 다른 운명",
     date: "2026-08-09",
