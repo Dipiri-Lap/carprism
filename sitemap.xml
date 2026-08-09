@@ -238,6 +238,15 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/xpeng-g6-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/xpeng_g6_facelift_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-staria-ev-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/staria_ev_exterior_official.webp</image:loc>

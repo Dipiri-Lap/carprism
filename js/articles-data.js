@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "xpeng-g6-2026",
+    title: "\"12분 충전에 725km\"… 아이오닉5 잡겠다는 샤오펑 G6, 하반기 한국 상륙",
+    date: "2026-08-09",
+    image: "xpeng_g6_facelift_front.webp",
+    categories: ["electric"],
+    tags: ["샤오펑G6가격", "샤오펑G6제원", "샤오펑G6한국출시", "XPengG6", "중국전기차한국진출"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "오토센티널 외 종합",
+    desc: "샤오펑 G6가 2026년 하반기 한국 출시를 앞두고 있다. 5C 초고속 충전으로 10~80% 충전 12분, CLTC 기준 최대 725km 주행거리, 보조금 적용 시 3천만원대 후반이 예상되는 이 중국 전기 SUV의 제원과 가격을 정리했다."
+  },
+  {
     slug: "hyundai-staria-ev-2026",
     title: "\"전기로 다시 태어난 우주선\"… 스타리아 EV, 가격과 제원 총정리",
     date: "2026-08-09",

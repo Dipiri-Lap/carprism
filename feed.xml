@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 13:20:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 14:34:06 GMT</lastBuildDate>
+    <item>
+      <title>&quot;12분 충전에 725km&quot;… 아이오닉5 잡겠다는 샤오펑 G6, 하반기 한국 상륙</title>
+      <link>https://carprism.tmhub.co.kr/articles/xpeng-g6-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/xpeng-g6-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>샤오펑 G6가 2026년 하반기 한국 출시를 앞두고 있다. 5C 초고속 충전으로 10~80% 충전 12분, CLTC 기준 최대 725km 주행거리, 보조금 적용 시 3천만원대 후반이 예상되는 이 중국 전기 SUV의 제원과 가격을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/xpeng_g6_facelift_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;전기로 다시 태어난 우주선&quot;… 스타리아 EV, 가격과 제원 총정리</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-staria-ev-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>테슬라가 텍사스 브룩셔 신공장에서 메가팩3 생산을 시작했다. 동일 면적에 저장용량 28% 확대, 4개를 묶은 &apos;메가블록&apos;은 20MWh, 냉각 연결점은 78% 감소했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/megapack_canopy.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>완충 5분, 좌석엔 18단 마사지... 그런데 이 전기 SUV엔 왜 엔진이 달렸나</title>
-      <link>https://carprism.tmhub.co.kr/articles/byd-yangwang-u8l-luxury-suv-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/byd-yangwang-u8l-luxury-suv-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>BYD 프리미엄 브랜드 양왕이 4인승 초호화 SUV &apos;U8L&apos;을 1,458만위안(약 21만5,000달러)에 공개했다. 순수전기 230km·복합 1,205km, 10%→97% 충전 9분, 18단 마사지 캡틴시트까지 갖췄다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/yangwang_u8l_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
