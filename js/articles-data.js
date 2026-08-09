@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-cancellation-penalty-brand-comparison-2026",
+    title: "\"계약금 날릴 각오하세요\"… 계약 취소, 유럽차와 국산차가 다른 이유",
+    date: "2026-08-09",
+    image: "bmw_5series_g30_front.webp",
+    categories: ["news"],
+    tags: ["신차계약취소위약금", "유럽차계약취소", "벤츠계약취소", "국산차계약취소", "청약철회7일"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "카프리즘 자체 조사",
+    desc: "벤츠·BMW·아우디는 본사 발주 시스템 때문에 계약 취소가 사실상 불가능하거나 차값의 20~30% 위약금이 붙는다. 반면 국산차는 생산 착수 전이면 대부분 전액 환불된다. 신차 계약 취소, 브랜드마다 왜 이렇게 다른지 정리했다."
+  },
+  {
+    slug: "same-name-different-car-comparison-2026",
+    title: "\"이름만 보고 샀다간 큰일\"… 같은 이름, 완전히 다른 차 3쌍",
+    date: "2026-08-09",
+    image: "ford_bronco_raptor_front.webp",
+    categories: ["import"],
+    tags: ["브롱코브롱코스포츠차이", "왜고니어왜고니어S차이", "머스탱마하E차이", "같은이름다른차", "자동차네이밍전략"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "카프리즘 자체 비교",
+    desc: "브롱코와 브롱코 스포츠, 왜고니어와 왜고니어 S, 머스탱과 머스탱 마하-E. 이름은 같지만 플랫폼도 파워트레인도 완전히 다른 3쌍의 차를 비교했다. 딜러에서 이름만 듣고 계약서에 사인하면 안 되는 이유."
+  },
+  {
     slug: "geofencing-speed-limiter-technology-2026",
     title: "기술은 이미 준비됐다... 당신 차가 과속을 \"못 하게\" 막지 않는 진짜 이유",
     date: "2026-08-09",

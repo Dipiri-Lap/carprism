@@ -238,6 +238,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/car-cancellation-penalty-brand-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/bmw_5series_g30_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T17:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/same-name-different-car-comparison-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ford_bronco_raptor_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-09T16:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/geofencing-speed-limiter-technology-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/schoolzone_realtime_speed_display.webp</image:loc>

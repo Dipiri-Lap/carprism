@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 05:31:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 06:42:12 GMT</lastBuildDate>
+    <item>
+      <title>&quot;계약금 날릴 각오하세요&quot;… 계약 취소, 유럽차와 국산차가 다른 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-cancellation-penalty-brand-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-cancellation-penalty-brand-comparison-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>벤츠·BMW·아우디는 본사 발주 시스템 때문에 계약 취소가 사실상 불가능하거나 차값의 20~30% 위약금이 붙는다. 반면 국산차는 생산 착수 전이면 대부분 전액 환불된다. 신차 계약 취소, 브랜드마다 왜 이렇게 다른지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_5series_g30_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;이름만 보고 샀다간 큰일&quot;… 같은 이름, 완전히 다른 차 3쌍</title>
+      <link>https://carprism.tmhub.co.kr/articles/same-name-different-car-comparison-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/same-name-different-car-comparison-2026.html</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>브롱코와 브롱코 스포츠, 왜고니어와 왜고니어 S, 머스탱과 머스탱 마하-E. 이름은 같지만 플랫폼도 파워트레인도 완전히 다른 3쌍의 차를 비교했다. 딜러에서 이름만 듣고 계약서에 사인하면 안 되는 이유.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ford_bronco_raptor_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>기술은 이미 준비됐다... 당신 차가 과속을 &quot;못 하게&quot; 막지 않는 진짜 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/geofencing-speed-limiter-technology-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>벤틀리가 첫 순수 전기차 &apos;토르칼&apos;에 감각 신경과학 기반의 &apos;큐레이션 엔진&apos;을 공개했다. 벤틀리·컴포트·스포츠·리프레시 4가지 모드로 파워트레인부터 조명·사운드·공조까지 통합 제어한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/bentley_gt_s_official.jpg" type="image/webp"/>
-    </item>
-    <item>
-      <title>전 세계 135대 중 29대는 한국행... BMW가 온라인에서만 파는 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/bmw-online-exclusive-editions-august-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-online-exclusive-editions-august-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>BMW코리아가 8월 11일 오후 3시부터 온라인샵에서만 판매하는 한정판 3종을 공개했다. 7시리즈 네로 루쏘 에디션(29대), X7 스카이스크래퍼 그레이 에디션(40대), M340i 투어링 에디션(20대) — 총 89대.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_x7_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>판매 74%, 순이익 13배... 그런데 폴스타코리아가 마냥 웃지 못하는 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/polestar-sales-growth-profit-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/polestar-sales-growth-profit-2026.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>폴스타코리아 상반기 판매 2,412대로 전년 대비 74% 증가, 2025년 순이익은 13.6배로 뛰었다. 하지만 영업이익률은 오히려 하락했고, 판매의 88.3%가 폴스타4 한 대에 쏠려 있다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/polestar4_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
