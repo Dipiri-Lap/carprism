@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "vw-id4-rename-idtiguan-2026",
+    title: "\"ID.4라는 이름, 이제 못 본다\"… 폭스바겐이 부분변경에 담은 뼈아픈 반성",
+    date: "2026-08-12",
+    image: "vw_id4_black_front.webp",
+    categories: ["import", "electric"],
+    tags: ["폭스바겐ID4", "ID4가격", "ID티구안", "ID4제원", "폭스바겐전기차2026"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "Electrek",
+    desc: "폭스바겐 ID.4의 국내 가격(프로 라이트 5,299만 원~)과 미국형 5개 트림·주행거리를 정리하고, 터치 컨트롤을 버리고 물리버튼을 되살리며 'ID.티구안'으로 이름까지 바꾸는 2026년 하반기 부분변경 소식까지 한 번에 담았다."
+  },
+  {
     slug: "hyundai-ioniq9-blackink-europe-2026",
     title: "\"캘리그래피 위에 또 있었다\"… 아이오닉9, 1억 5천만 원짜리 '블랙 잉크' 유럽 출시",
     date: "2026-08-12",

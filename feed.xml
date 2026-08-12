@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:19:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:35:05 GMT</lastBuildDate>
+    <item>
+      <title>&quot;ID.4라는 이름, 이제 못 본다&quot;… 폭스바겐이 부분변경에 담은 뼈아픈 반성</title>
+      <link>https://carprism.tmhub.co.kr/articles/vw-id4-rename-idtiguan-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vw-id4-rename-idtiguan-2026.html</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>폭스바겐 ID.4의 국내 가격(프로 라이트 5,299만 원~)과 미국형 5개 트림·주행거리를 정리하고, 터치 컨트롤을 버리고 물리버튼을 되살리며 &apos;ID.티구안&apos;으로 이름까지 바꾸는 2026년 하반기 부분변경 소식까지 한 번에 담았다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/vw_id4_black_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;캘리그래피 위에 또 있었다&quot;… 아이오닉9, 1억 5천만 원짜리 &apos;블랙 잉크&apos; 유럽 출시</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-ioniq9-blackink-europe-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
       <description>미국 전략석유비축량이 2억9,870만 배럴로 1983년 이후 최저치를 기록했다. 호르무즈 해협 봉쇄에 따른 방출이 원인으로, 전국 평균 휘발유 가격은 갤런당 4.01달러까지 올랐다. 배경과 전망을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/us_strategic_petroleum_reserve.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;5일 만에 바닥났다&quot;… 캘리포니아 첫 전기차 보조금, 테슬라가 싹쓸이</title>
-      <link>https://carprism.tmhub.co.kr/articles/tesla-california-myfirstev-rebate-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/tesla-california-myfirstev-rebate-2026.html</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <description>캘리포니아 &apos;MyFirstEV&apos; 보조금이 시행 5일 만에 소진됐다. 약 2억7,100만 달러 예산 중 1,300만 달러가 테슬라에만 집중됐다. 소득 제한 없는 즉시 할인 구조와 리비안·루시드에 유리한 가격 상한 예외 규정을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

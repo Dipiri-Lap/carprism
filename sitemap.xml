@@ -67,6 +67,15 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/vw-id4-rename-idtiguan-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/vw_id4_black_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-12T15:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-ioniq9-blackink-europe-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/hyundai_ioniq9_blackink_front.webp</image:loc>
