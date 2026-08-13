@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "child-safety-car-options-2026",
+    title: "\"뒷좌석에 아이를 두고 내렸다\"… 그때 차가 알려주는 기능, 내 차엔 있습니까?",
+    date: "2026-08-13",
+    image: "child_seat_isofix_installed.webp",
+    categories: ["news"],
+    tags: ["후석승객알림", "ROA기능", "아이카시트", "ISOFIX", "커튼에어백"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "모터그래프 / 카가이",
+    desc: "후석 승객 알림(ROA)은 방식에 따라 잠든 아이를 못 잡을 수도 있다. FCA·BCA·RCCA·PMSA가 실제로 개입하는 조건, 커튼에어백이 2열까지 오는지 확인하는 법, ISOFIX 장착 기준까지 아이와 타는 차의 안전 옵션을 정리했다."
+  },
+  {
+    slug: "volvo-korea-drama-ppl-2026",
+    title: "\"김혜수는 XC90, 조여정은 S90\"… 볼보가 배역에 차를 배분한 방식",
+    date: "2026-08-13",
+    image: "volvo_xc90_t8_recharge.webp",
+    categories: ["news", "import"],
+    tags: ["볼보XC90", "볼보S90", "자동차PPL", "볼보코리아", "드라마협찬"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴 / 지피코리아",
+    desc: "볼보코리아가 쿠팡플레이 시리즈에 XC90과 S90을 지원한다. 7인승 SUV는 인플루언서 역, E세그먼트 세단은 피부과 원장 역. 배역과 차종을 짝지은 이 배분이 우연이 아닌 이유와 자동차 PPL이 작동하는 방식을 정리했다."
+  },
+  {
+    slug: "alpine-gucci-f1-2027",
+    title: "\"F1 머신에 구찌 로고가 박힌다\"… 알핀이 2027년 팀 이름까지 바꾸는 이유",
+    date: "2026-08-13",
+    image: "alpine_f1_gasly_2025.webp",
+    categories: ["news", "import"],
+    tags: ["알핀F1", "구찌F1", "F1타이틀스폰서", "알핀2027", "F1스폰서십"],
+    badge: "MOTORSPORT",
+    badgeClass: "cat-red",
+    source: "지피코리아",
+    desc: "구찌가 알핀 F1팀의 타이틀 파트너로 합류한다. 2027년부터 팀 명칭은 '구찌 레이싱 알핀 포뮬러1 팀'이 된다. 머신 디자인과 레이싱 슈트, 구찌 매장 판매까지 이어지는 이 계약이 F1 스폰서십 역사에서 갖는 의미를 정리했다."
+  },
+  {
+    slug: "korea-auto-export-july-2026",
+    title: "\"역대 최대인데 누적은 마이너스\"… 7월 자동차 수출 62억 달러가 감춘 숫자",
+    date: "2026-08-13",
+    image: "hyundai_ulsan_plant_assembly_line.webp",
+    categories: ["news", "domestic"],
+    tags: ["자동차수출", "7월수출액", "친환경차수출", "자동차수출단가", "북미수출"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-blue",
+    source: "오토헤럴드",
+    desc: "7월 자동차 수출액이 62억 3,800만 달러로 역대 7월 최고를 기록했다. 그런데 1~7월 누적은 0.04% 감소다. 대수는 3.8% 늘었는데 금액이 제자리라는 것은 대당 단가가 떨어졌다는 뜻이다. 그 격차를 계산해봤다."
+  },
+  {
+    slug: "korean-car-price-competitiveness-2026",
+    title: "\"아반떼 풀옵션이 4,521만 원\"… '국산차는 싸다'는 공식이 무너진 7개월",
+    date: "2026-08-13",
+    image: "avante_cn8_front_reveal.webp",
+    categories: ["news", "domestic"],
+    tags: ["국산차가격", "아반떼하이브리드가격", "BYD돌핀가격", "수입전기차점유율", "테슬라모델Y판매"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "지피코리아",
+    desc: "BYD 돌핀 2,450만 원, 볼보 EX30 3,991만 원. 반대편에서 아반떼 하이브리드 풀옵션은 4,521만 원, 그랜저 하이브리드 최고 트림은 6,700만 원대다. 가격대별 매트릭스로 재구성한 2026년 국산차 가격 경쟁력 현황."
+  },
+  {
+    slug: "lamborghini-revuelto-sv-hockenheim-2026",
+    title: "\"1분 41초 6\"… 람보르기니가 호켄하임에서 지운 이름들",
+    date: "2026-08-13",
+    image: "lamborghini_revuelto_matte_front.webp",
+    categories: ["news", "import"],
+    tags: ["레부엘토SV", "람보르기니랩타임", "호켄하임링", "람보르기니SV", "레부엘토제원"],
+    badge: "SUPERCAR",
+    badgeClass: "cat-gold",
+    source: "모터그래프",
+    desc: "람보르기니 레부엘토 SV가 호켄하임링에서 양산차 최고 기록 1분 41초 6을 세웠다. 왜 뉘르부르크링이 아닌 호켄하임이었는지, 이 발표에서 빠진 정보는 무엇인지, 그리고 SV라는 세 글자가 람보르기니에서 갖는 의미까지 정리했다."
+  },
+  {
+    slug: "mini-countryman-electric-range-2026",
+    title: "\"배터리는 그대로인데 32km 더 간다\"… 미니가 손댄 건 셀이 아니었다",
+    date: "2026-08-13",
+    image: "mini_countryman_e_front.webp",
+    categories: ["import", "electric"],
+    tags: ["미니컨트리맨전기", "컨트리맨SEALL4", "미니전기차가격", "실리콘카바이드인버터", "전기차주행거리"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴 / 모터그래프",
+    desc: "미니 코리아가 신형 전기 컨트리맨을 출시했다. 배터리 총용량은 66.5kWh 그대로인데 주행거리는 349km에서 381km로 늘었다. 실리콘 카바이드 인버터, 가용 용량 확대, 공기저항계수 0.26이 만들어낸 32km의 정체를 뜯어봤다."
+  },
+  {
+    slug: "genesis-25t-hybrid-powertrain-2026",
+    title: "\"352마력인데 연비는 25% 좋아졌다\"… 제네시스가 GV80에 넣은 하이브리드의 정체",
+    date: "2026-08-13",
+    image: "genesis_gv80_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스하이브리드", "GV80하이브리드제원", "2.5터보하이브리드", "수냉식배터리", "제네시스352마력"],
+    badge: "HYBRID",
+    badgeClass: "cat-genesis",
+    source: "모터그래프",
+    desc: "제네시스가 차세대 2.5 터보 하이브리드 시스템을 공개했다. 합산 352마력·54.0kgf·m, 0-100km/h 7.1초, 복합연비 25% 개선. 현대차그룹 최초로 적용된 수냉식 하이브리드 배터리와 P1+P2 병렬 구조가 무엇을 바꾸는지 뜯어봤다."
+  },
+  {
     slug: "vw-id4-rename-idtiguan-2026",
     title: "\"ID.4라는 이름, 이제 못 본다\"… 폭스바겐이 부분변경에 담은 뼈아픈 반성",
     date: "2026-08-12",
