@@ -67,6 +67,42 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ev-trend-korea-2026-lineup.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/kia_ev3_gtline_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T17:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/polestar3-vs-ex90-2027.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/polestar3_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T16:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/tesla-sweden-if-metall-strike-end-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_model3_highland_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T15:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/lotus-eletre-emeya-2027-price-cut.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/lotus_eletre_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T14:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/child-safety-car-options-2026.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/child_seat_isofix_installed.webp</image:loc>

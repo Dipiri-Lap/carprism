@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-trend-korea-2026-lineup",
+    title: "\"12종 중 순수전기가 아닌 게 셋\"… EV트렌드코리아 라인업이 말해주는 것",
+    date: "2026-08-14",
+    image: "kia_ev3_gtline_front.webp",
+    categories: ["electric", "news"],
+    tags: ["EV트렌드코리아2026", "전기차전시회", "코엑스전기차", "기아PV5", "BYD씨라이언6"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "모토야",
+    desc: "8월 25~27일 코엑스에서 열리는 EV트렌드코리아 2026의 전시 차량 12종이 공개됐다. 기아·KGM·볼보·BMW·BYD 5개 브랜드 라인업을 뜯어보면, 전기차 전시회가 더 이상 전기차만의 행사가 아니라는 사실이 보인다."
+  },
+  {
+    slug: "polestar3-vs-ex90-2027",
+    title: "\"3열을 버리고 얻은 것\"… 폴스타 3는 왜 EX90과 다른 차가 됐나",
+    date: "2026-08-14",
+    image: "polestar3_front.webp",
+    categories: ["import", "electric"],
+    tags: ["폴스타3", "폴스타3가격", "볼보EX90비교", "폴스타3제원", "전기SUV"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "카가이",
+    desc: "폴스타 3와 볼보 EX90은 같은 플랫폼, 같은 배터리, 거의 같은 실내를 쓴다. 그런데 성격이 정반대다. 3열을 들어낸 선택이 무엇을 바꿨는지, 544마력·486km·8,590만 원이라는 숫자와 함께 정리했다."
+  },
+  {
+    slug: "tesla-sweden-if-metall-strike-end-2026",
+    title: "\"피켓 들 사람이 안 남았다\"… 1,021일 테슬라 파업, 노조가 먼저 접었다",
+    date: "2026-08-14",
+    image: "tesla_model3_highland_front.webp",
+    categories: ["news", "import"],
+    tags: ["테슬라파업", "IF메탈", "스웨덴노조", "테슬라단체협약", "테슬라노사분쟁"],
+    badge: "GLOBAL",
+    badgeClass: "cat-red",
+    source: "오토헤럴드",
+    desc: "스웨덴 최대 산업노조 IF메탈이 테슬라를 상대로 1,021일간 이어온 파업을 끝낸다. 정비공 120명으로 시작한 스웨덴 역사상 최장 노동분쟁이 왜 무너졌는지, 그리고 이 결과가 유럽 노사 모델에 무엇을 뜻하는지 정리했다."
+  },
+  {
+    slug: "lotus-eletre-emeya-2027-price-cut",
+    title: "\"연식만 바꿨는데 2,170만 원이 빠졌다\"… 로터스가 2027년형에 손댄 것",
+    date: "2026-08-14",
+    image: "lotus_eletre_front.webp",
+    categories: ["import", "electric"],
+    tags: ["로터스엘레트라", "로터스에메야", "엘레트라가격", "에메야가격", "로터스전기차"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴 / 오토헤럴드 / 카가이",
+    desc: "로터스 2027년형 엘레트라·에메야가 인증을 마치고 사전계약에 들어갔다. 600은 1,480만 원, 600 SE는 2,170만 원, 900은 1,170만 원 인하됐다. 옵션은 오히려 늘었다. 연식 변경에서 값이 내려간 이 이례적인 가격표를 뜯어봤다."
+  },
+  {
     slug: "child-safety-car-options-2026",
     title: "\"뒷좌석에 아이를 두고 내렸다\"… 그때 차가 알려주는 기능, 내 차엔 있습니까?",
     date: "2026-08-13",
