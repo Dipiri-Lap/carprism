@@ -67,6 +67,42 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/us-ev-market-after-tax-credit-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_supercharger_station.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-15T09:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/china-made-ev-korea-share-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T23:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ev-subsidy-2027-price-threshold.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/ioniq5_2026_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T22:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-korea-actual-price-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/byd_seal_rwd_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T21:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/gmc-sierra-denali-2026-korea.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/gmc_sierra_denali_front.webp</image:loc>

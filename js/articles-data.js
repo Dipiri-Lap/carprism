@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "us-ev-market-after-tax-credit-2026",
+    title: "\"보조금 끊고 1년, 미국은 이렇게 됐다\"… 12%에서 6%로 반토막 난 전기차 점유율",
+    date: "2026-08-15",
+    image: "tesla_supercharger_station.webp",
+    categories: ["electric", "news"],
+    tags: ["미국전기차세액공제종료", "미국전기차판매량", "하이브리드점유율", "전기차보조금효과", "전기차캐즘"],
+    badge: "GLOBAL",
+    badgeClass: "cat-blue",
+    source: "EIA / InsideEVs / Electrek",
+    desc: "미국은 2025년 9월 30일 전기차 세액공제 7,500달러를 없앴다. 그 뒤 1년 동안 BEV 점유율은 12%에서 6%로 반토막 났고, 그 자리를 하이브리드가 16%로 채웠다. 2027년 보조금 축소를 앞둔 한국이 참고할 실험 결과를 정리했다."
+  },
+  {
+    slug: "china-made-ev-korea-share-2026",
+    title: "\"중국차를 산 게 아니라 중국에서 만든 차를 샀다\"… 3대 중 1대의 진짜 정체",
+    date: "2026-08-14",
+    image: "tesla_modely_juniper_front.webp",
+    categories: ["news", "electric"],
+    tags: ["중국산전기차", "수입차생산국", "테슬라상하이생산", "모델Y판매량", "전기차점유율"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "더퍼블릭 / 파이낸셜뉴스",
+    desc: "올 상반기 국내 판매 전기차 3대 중 1대가 중국 생산분이다. 중국이 독일을 제치고 수입차 생산국 1위(41.2%)에 올랐다. 그런데 이 숫자의 상당 부분은 중국 브랜드가 아니라 테슬라다. 브랜드 국적과 생산지를 갈라 정리했다."
+  },
+  {
+    slug: "ev-subsidy-2027-price-threshold",
+    title: "\"300만 원 차이로 갈린다\"… 2027년 보조금 기준선이 내려간다, 지금 사야 할 차는",
+    date: "2026-08-14",
+    image: "ioniq5_2026_front.webp",
+    categories: ["electric", "news"],
+    tags: ["2027전기차보조금", "보조금기준선", "전기차보조금5000만원", "전기차구매타이밍", "보조금개편"],
+    badge: "EV POLICY",
+    badgeClass: "cat-sales",
+    source: "정책브리핑",
+    desc: "2027년부터 전기차 보조금 100% 지급선이 5,300만 원에서 5,000만 원으로, 50% 지급선이 8,500만 원에서 8,000만 원으로 내려간다. 이 300만~500만 원 구간에 걸친 모델이 어떤 것들인지, 올해 안에 사야 할 차와 기다려도 되는 차를 갈랐다."
+  },
+  {
+    slug: "byd-korea-actual-price-2026",
+    title: "\"보조금 끊겼는데 값은 그대로?\"… 지금 BYD 사면 실제로 얼마인가",
+    date: "2026-08-14",
+    image: "byd_seal_rwd_front.webp",
+    categories: ["electric", "import"],
+    tags: ["BYD실구매가", "BYD자체지원금", "돌핀가격", "BYD지자체보조금", "BYD계약주의사항"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "서울경제 / 헤럴드경제 / 인사이트",
+    desc: "BYD는 7월부터 국고 보조금을 못 받는다. 그런데 회사가 같은 금액을 자체 지원해 실구매가는 거의 그대로다. 다만 계산해보면 지자체 보조금만큼의 공백이 남는다. 돌핀·씰·아토3의 지금 실구매가와 계약 전 확인할 것들을 정리했다."
+  },
+  {
     slug: "gmc-sierra-denali-2026-korea",
     title: "\"1억 안 넘는 자연흡기 V8\"… 지금 이 조합, 시에라 말고 남아 있나",
     date: "2026-08-14",
