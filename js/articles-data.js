@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "gmc-sierra-denali-2026-korea",
+    title: "\"1억 안 넘는 자연흡기 V8\"… 지금 이 조합, 시에라 말고 남아 있나",
+    date: "2026-08-14",
+    image: "gmc_sierra_denali_front.webp",
+    categories: ["import"],
+    tags: ["GMC시에라", "시에라드날리가격", "자연흡기V8", "풀사이즈픽업트럭", "스칼렛나이트에디션"],
+    badge: "PICKUP",
+    badgeClass: "cat-gold",
+    source: "다음 자동차",
+    desc: "2026년형 GMC 시에라가 6.2L 자연흡기 V8에 426마력을 얹고 9,420만 원부터 시작한다. 다운사이징과 전동화로 대배기량 자연흡기가 사라지는 지금, 이 조합이 왜 희소해졌는지와 전장 5,890mm 픽업의 국내 운용 현실을 함께 정리했다."
+  },
+  {
     slug: "korea-import-market-polarization-2026",
     title: "\"세 브랜드가 7개월 판 게 테슬라 나흘치\"… 30% 성장 뒤에서 접히는 이름들",
     date: "2026-08-14",

@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 14 Aug 2026 07:18:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 07:28:52 GMT</lastBuildDate>
+    <item>
+      <title>&quot;1억 안 넘는 자연흡기 V8&quot;… 지금 이 조합, 시에라 말고 남아 있나</title>
+      <link>https://carprism.tmhub.co.kr/articles/gmc-sierra-denali-2026-korea.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/gmc-sierra-denali-2026-korea.html</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026년형 GMC 시에라가 6.2L 자연흡기 V8에 426마력을 얹고 9,420만 원부터 시작한다. 다운사이징과 전동화로 대배기량 자연흡기가 사라지는 지금, 이 조합이 왜 희소해졌는지와 전장 5,890mm 픽업의 국내 운용 현실을 함께 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/gmc_sierra_denali_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;세 브랜드가 7개월 판 게 테슬라 나흘치&quot;… 30% 성장 뒤에서 접히는 이름들</title>
       <link>https://carprism.tmhub.co.kr/articles/korea-import-market-polarization-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
       <description>2억 5천만 원짜리 BMW XM 레이블 레드가 3년도 안 돼 M3 컴페티션 xDrive 중고가와 같아졌다. 예상 5년 감가율 58.1%, 업계 평균의 1.4배에 달하는 이 SUV의 몰락 원인을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/bmw_xm_labelred_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;엔진 넣은 차가 더 비싸졌다&quot;… 전기차 평균가, 하이브리드 추월한 이유는 중국</title>
-      <link>https://carprism.tmhub.co.kr/articles/ev-cheaper-than-hybrid-china-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-cheaper-than-hybrid-china-2026.html</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>전기차 평균 판매가가 3만7천 달러로 하이브리드(3만9천 달러)보다 낮아졌다. 2020년 대비 배터리 원가가 37% 떨어진 결과로, 전 세계 배터리 시장의 80%를 차지한 중국의 공급 과잉이 핵심 배경이다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ev_lithium_battery_pack.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
