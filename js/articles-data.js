@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "korea-import-market-polarization-2026",
+    title: "\"세 브랜드가 7개월 판 게 테슬라 나흘치\"… 30% 성장 뒤에서 접히는 이름들",
+    date: "2026-08-14",
+    image: "honda_crv_hybrid_front.webp",
+    categories: ["news", "import"],
+    tags: ["혼다코리아철수", "수입차양극화", "수입차판매량", "포드링컨재편", "디스커버리스포츠단종"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "지피코리아 / 오토헤럴드",
+    desc: "수입차 시장은 1~7월 30.1% 성장했다. 그런데 혼다는 23년 만에 판매를 접고, 포드·링컨은 체제를 바꿨다. 상위 4개 브랜드가 74.6%를 가져가는 시장에서 무엇이 사라지고 있는지 숫자로 정리했다."
+  },
+  {
+    slug: "hyundai-delivery-backlog-2026",
+    title: "\"캐스퍼 받는 데 28개월\"… 기다리는 사이 그 자리를 누가 가져갔나",
+    date: "2026-08-14",
+    image: "hyundai_casper_electric_official.webp",
+    categories: ["news", "domestic"],
+    tags: ["캐스퍼출고대기", "현대차출고일정", "캐스퍼일렉트릭", "코나출고적체", "BYD돌핀"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "지피코리아 / 오토트리뷴",
+    desc: "캐스퍼 일렉트릭 프리미엄 대기 28개월. 그런데 생산량은 오히려 늘고 있다. 광주글로벌모터스 생산분의 73%가 수출로 나가는 구조와, 중고차가 신차보다 비싸지는 역전 현상까지 현대차 출고 대기의 실체를 정리했다."
+  },
+  {
     slug: "ev-trend-korea-2026-lineup",
     title: "\"12종 중 순수전기가 아닌 게 셋\"… EV트렌드코리아 라인업이 말해주는 것",
     date: "2026-08-14",

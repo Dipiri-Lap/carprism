@@ -67,6 +67,24 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-import-market-polarization-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/honda_crv_hybrid_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T19:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-delivery-backlog-2026.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/hyundai_casper_electric_official.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-14T18:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-trend-korea-2026-lineup.html</loc>
     <image:image>
       <image:loc>https://carprism.tmhub.co.kr/images/kia_ev3_gtline_front.webp</image:loc>
