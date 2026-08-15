@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-m2-final-edition-2026",
+    title: "\"2029년 7월에 끝난다\"… 수동변속기가 남은 마지막 M, M2의 시한",
+    date: "2026-08-16",
+    image: "bmw_m2_cs_g87_front.webp",
+    categories: ["news", "import"],
+    tags: ["BMWM2단종", "M2CS", "S58엔진", "수동변속기M", "M2제원"],
+    badge: "MODEL",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "BMW M2가 2029년 7월 단종된다. 그전에 마지막 고성능 버전이 나올 것이라는 이야기가 나오지만 모델명도 제원도 확정된 것은 없다. 확실한 건 473마력 직렬 6기통에 6단 수동을 고를 수 있는 M이 이 차가 마지막일 수 있다는 점이다."
+  },
+  {
+    slug: "defender-dakar-2026",
+    title: "\"랠리 우승차보다 226마력 세다\"… 디펜더 다카르가 이상한 이유",
+    date: "2026-08-16",
+    image: "landrover_defender_130_l663.webp",
+    categories: ["news", "import"],
+    tags: ["디펜더다카르", "랜드로버디펜더옥타", "브롱코랩터비교", "다카르랠리", "오프로드SUV"],
+    badge: "OFF-ROAD",
+    badgeClass: "cat-gold",
+    source: "CarBuzz",
+    desc: "랜드로버가 다카르 랠리 우승차 D7X-R 기반의 디펜더 다카르를 공개했다. 4.4L 트윈터보 V8에 626마력, 브롱코 랩터보다 208마력 높다. 그런데 정작 우승한 레이스카는 400마력이다. 이 역전이 말해주는 것을 짚었다."
+  },
+  {
+    slug: "cadillac-v-one-concept-2026",
+    title: "\"팔 생각이 없는 830마력\"… 캐딜락이 한 대만 만든 싱글시트 V-ONE",
+    date: "2026-08-16",
+    image: "cadillac_v_lmdh_daytona.webp",
+    categories: ["news", "import"],
+    tags: ["캐딜락VONE", "V시리즈R", "LMDh", "싱글시트콘셉트", "캐딜락르망"],
+    badge: "CONCEPT",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드",
+    desc: "캐딜락이 르망 레이스카 V-시리즈.R의 파워트레인을 그대로 옮긴 원오프 콘셉트 'V-ONE'을 공개했다. V8 하이브리드 830마력, 좌석은 하나, 생산 계획은 없다. 팔지 않을 차를 만든 이유를 짚었다."
+  },
+  {
+    slug: "jeep-hurricane-4-tji-engine-2026",
+    title: "\"지우개만 한 방이 하나 더 있다\"… F1 기술이 지프 4기통에 들어간 방법",
+    date: "2026-08-16",
+    image: "jeep_grand_cherokee_wl_4xe.webp",
+    categories: ["news", "import"],
+    tags: ["지프허리케인4", "사전챔버점화", "TJI엔진", "터뷸런트제트점화", "그랜드체로키엔진"],
+    badge: "TECH",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "지프 그랜드 체로키의 새 2.0L 4기통이 F1에서 검증된 사전 챔버 점화(TJI)를 쓴다. 3.6L V6보다 배기량은 절반인데 출력은 324마력으로 31마력 높고 토크는 크게 앞선다. 열효율 40%를 넘긴 이 구조를 뜯어봤다."
+  },
+  {
+    slug: "hyundai-ioniq-v-china-2026",
+    title: "\"배터리도 자율주행도 중국 것\"… 현대차가 중국에 내놓는 아이오닉 V",
+    date: "2026-08-16",
+    image: "hyundai_ioniq6_official.jpg",
+    categories: ["electric", "news"],
+    tags: ["현대아이오닉V", "베이징현대", "중국전용전기차", "청두오토쇼", "모멘타자율주행"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-hyundai",
+    source: "카가이",
+    desc: "현대차가 중국 전용 전기 패스트백 아이오닉 V를 8월 21일 청두 오토쇼에서 사전판매한다. CATL 배터리, 모멘타 자율주행 보조, 800V 시스템에 4,000만~5,000만 원대. 판매가 46.8% 급감한 중국 시장에서 꺼낸 카드를 뜯어봤다."
+  },
+  {
+    slug: "genesis-gv80-hybrid-us-market-2026",
+    title: "\"전기차는 16% 줄고 하이브리드는 63% 늘었다\"… GV80이 미국에서 노리는 자리",
+    date: "2026-08-16",
+    image: "genesis_gv80_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["GV80하이브리드미국", "제네시스미국판매", "현대차하이브리드", "미국하이브리드시장", "제품믹스"],
+    badge: "STRATEGY",
+    badgeClass: "cat-genesis",
+    source: "지피코리아",
+    desc: "현대·기아의 미국 하이브리드 판매가 1~7월 63.1% 늘었다. 같은 기간 전기차는 16.3% 줄었다. 친환경차 중 하이브리드 비중이 85%까지 올라간 시장에, 제네시스가 GV80 하이브리드를 투입한다. 판매량과 수익성을 동시에 노리는 계산을 짚었다."
+  },
+  {
+    slug: "nissan-frontier-v6-strategy-2026",
+    title: "\"토크는 202Nm 지고도 판매는 41% 늘었다\"… 닛산이 V6를 안 버린 결과",
+    date: "2026-08-16",
+    image: "nissan_frontier_pro4x_red_front.webp",
+    categories: ["news", "import"],
+    tags: ["닛산프론티어", "자연흡기V6", "콜로라도터보", "픽업트럭비교", "다운사이징"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "닛산 프론티어는 3.8L 자연흡기 V6를 고수했다. 같은 310마력인 GM 콜로라도 터보 4기통보다 토크가 202Nm 적다. 그런데 2026년 상반기 판매는 40.9% 늘었고 콜로라도는 9.7% 줄었다. 다운사이징을 거부한 선택의 결과를 짚었다."
+  },
+  {
+    slug: "bmw-m-neue-klasse-concept-2026",
+    title: "\"마력을 안 밝혔다\"… BMW가 전기 M 콘셉트에서 강조한 건 따로 있었다",
+    date: "2026-08-16",
+    image: "bmw_neue_klasse_concept.webp",
+    categories: ["news", "import"],
+    tags: ["BMW전기M", "노이어클라쎄", "하트오브조이", "BMWM콘셉트", "4모터전기차"],
+    badge: "CONCEPT",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴",
+    desc: "BMW가 르망 24시에서 차세대 전기 M 콘셉트를 공개했다. 모터 4개, 100kWh 이상 배터리, 800V 시스템인데 정작 출력은 공개하지 않았다. 대신 바퀴마다 구동력과 회생제동을 따로 제어하는 '하트 오브 조이'를 앞세웠다. 그 선택의 의미를 짚었다."
+  },
+  {
     slug: "ev-buy-now-or-wait-2027",
     title: "\"지금 재고차냐, 내년 신차냐\"… 전기차 구매 타이밍, 네 가지만 따지면 된다",
     date: "2026-08-15",
