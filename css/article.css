@@ -276,6 +276,11 @@ body {
   font-size: 0.82rem;
   color: var(--text-muted);
 }
+/* 에버그린 기사 수정일 표기 (scripts/update-modified-date.js가 삽입) */
+.meta-updated {
+  font-weight: 600;
+  color: var(--text);
+}
 .meta-source a { color: var(--accent-blue); transition: opacity 0.2s; }
 .meta-source a:hover { opacity: 0.75; }
 

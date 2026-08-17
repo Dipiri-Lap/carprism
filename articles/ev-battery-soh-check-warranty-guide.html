@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"주행거리보다 이 숫자를 보세요"… 중고 전기차의 진짜 나이, SOH | CarPrism</title>
+<meta name="description" content="SOH는 배터리가 신차 대비 유지하고 있는 용량 비율이다. 제조사 서비스센터 진단이나 OBD 스캐너로 확인할 수 있고, 대부분의 보증은 8년 또는 16만km 내 SOH 70% 이하로 떨어지면 무상 교체·수리를 제공한다. 체감 저하는 80% 미만부터 시작된다.">
+<meta name="keywords" content="전기차배터리SOH,배터리보증,중고전기차,배터리성능점검,OBD진단">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/ev-battery-soh-check-warranty-guide.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="전기차 배터리 SOH — 확인 방법과 보증 기준">
+<meta property="og:description" content="보증은 통상 SOH 70% 기준. 체감 저하는 80% 미만부터.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/ev_lithium_battery_pack.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/ev-battery-soh-check-warranty-guide.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-08-17T10:15:00+09:00">
+<meta property="article:section" content="전기차">
+<meta property="article:tag" content="전기차배터리SOH,배터리보증,중고전기차,배터리성능점검,OBD진단">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="주행거리보다 이 숫자를 보세요">
+<meta name="twitter:description" content="중고 전기차의 진짜 나이, SOH">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/ev_lithium_battery_pack.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/ev-battery-soh-check-warranty-guide.html" },
+  "headline": "\"주행거리보다 이 숫자를 보세요\"… 중고 전기차의 진짜 나이, SOH",
+  "description": "SOH는 배터리가 신차 대비 유지하고 있는 용량 비율이다. 제조사 서비스센터 진단이나 OBD 스캐너로 확인할 수 있고, 대부분의 보증은 8년 또는 16만km 내 SOH 70% 이하로 떨어지면 무상 교체·수리를 제공한다. 체감 저하는 80% 미만부터 시작된다.",
+  "image": ["https://carprism.tmhub.co.kr/images/ev_lithium_battery_pack.webp"],
+  "datePublished": "2026-08-17T10:15:00+09:00",
+  "dateModified": "2026-08-17T10:15:00+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "전기차", "item": "https://carprism.tmhub.co.kr/electric.html" },
+    { "@type": "ListItem", "position": 3, "name": "전기차 배터리 SOH", "item": "https://carprism.tmhub.co.kr/articles/ev-battery-soh-check-warranty-guide.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../electric.html" class="nav-link active" id="nav-electric">전기차</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../electric.html" class="nav-link active">전기차</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="ev-battery-soh-check-warranty-guide">
+      <meta itemprop="datePublished" content="2026-08-17T10:15:00+09:00">
+
+      <!-- 브레드크럼 -->
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../electric.html">전기차</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">전기차 배터리 SOH</span>
+      </nav>
+
+      <!-- 기사 헤더 -->
+      <header class="article-header reveal">
+        <span class="article-cat cat-ev">EV POLICY</span>
+        <h1 class="article-title" itemprop="headline">
+          "주행거리보다 이 숫자를 보세요"… 중고 전기차의 진짜 나이, SOH
+        </h1>
+        <p class="article-subtitle">
+          연식과 주행거리로는 배터리 상태를 알 수 없습니다. 숫자 하나를 확인하면 됩니다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-08-17">2026년 8월 17일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 8분</span>
+        </div>
+      </header>
+
+      <!-- 기사 본문 -->
+      <div class="article-body reveal">
+
+        <!-- 대표 이미지 -->
+        <div class="article-img-wrap">
+          <img src="../images/ev_lithium_battery_pack.webp" alt="전기차 리튬 배터리 팩" itemprop="image">
+          <p class="article-img-caption">▲ 전기차의 가치는 배터리 상태에 크게 좌우된다. 그 지표가 SOH다</p>
+        </div>
+
+        <p>
+          중고 전기차를 볼 때 <strong>연식과 주행거리</strong>를 먼저 봅니다. 내연기관차에서는 그게 맞는 방법이었습니다.
+        </p>
+        <p>
+          <strong>전기차에서는 부족합니다.</strong> 같은 연식, 같은 주행거리라도 <strong>충전 습관과 온도 관리에 따라 배터리 상태가 크게 갈립니다.</strong>
+        </p>
+        <p>
+          그 차이를 하나의 숫자로 보여주는 것이 <strong>SOH(State of Health)</strong>입니다.
+        </p>
+
+        <aside class="key-points">
+          <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+          <ul>
+            <li><strong>SOH</strong>: 배터리가 신차 대비 유지하고 있는 용량 비율(%) — <strong>배터리의 실제 나이</strong></li>
+            <li><strong>확인 방법</strong>: ①제조사 서비스센터 진단 리포트 ②OBD 스캐너 ③차량 내 일부 메뉴</li>
+            <li><strong>현대·기아</strong>: 블루핸즈·오토큐에서 <strong>"배터리 성능 점검"</strong> 요청 가능</li>
+            <li><strong>일반적 보증</strong>: <strong>8년 또는 16만km</strong> (둘 중 먼저 도래하는 시점까지)</li>
+            <li><strong>보증 기준</strong>: 보증 기간 내 SOH가 <strong>통상 70% 이하</strong>로 떨어지면 무상 교체·수리</li>
+            <li><strong>체감 시작점</strong>: SOH <strong>80% 미만</strong>부터 주행거리 감소와 충전 속도 저하가 느껴짐</li>
+            <li><strong>보증 승계</strong>: 배터리 보증은 대체로 차량과 함께 다음 소유자에게 이어짐 (제조사별 조건 확인 필요)</li>
+            <li><strong>주의</strong>: 보증 기준·기간은 <strong>제조사·모델·연식별로 다름</strong></li>
+          </ul>
+        </aside>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <h2 id="what">1. SOH가 무엇인가</h2>
+
+        <p>
+          <strong>SOH(State of Health)</strong>는 배터리가 <strong>신차 상태의 용량 대비 지금 얼마를 유지하고 있는지</strong>를 백분율로 나타낸 값입니다.
+        </p>
+
+        <p>
+          예를 들어 신차 때 <strong>77.4kWh</strong>였던 배터리가 지금 <strong>SOH 92%</strong>라면, 실질 용량은 약 <strong>71.2kWh</strong>입니다. 주행거리도 그만큼 줄어듭니다.
+        </p>
+
+        <p>
+          중요한 것은 <strong>SOH가 주행거리와 비례하지 않는다</strong>는 점입니다.
+        </p>
+
+        <div class="info-box">
+          <p class="info-box-title">⚡ SOH를 갈라놓는 사용 습관</p>
+          <ul>
+            <li><strong>급속충전 위주</strong>로 쓴 차는 같은 주행거리라도 SOH가 낮은 경향</li>
+            <li><strong>100% 충전·완전 방전을 반복</strong>한 차도 저하가 빠름</li>
+            <li><strong>여름철 고온 방치</strong>가 잦았던 차는 열 스트레스가 누적</li>
+            <li>반대로 <strong>완속 위주, 20~80% 구간 사용</strong>은 저하가 느림</li>
+          </ul>
+        </div>
+
+        <p>
+          즉 <strong>주행거리 3만km인데 SOH 88%인 차와, 주행거리 8만km인데 SOH 94%인 차가 함께 존재할 수 있습니다.</strong> 이 차이를 모르고 주행거리만 보면 판단이 틀립니다.
+        </p>
+
+        <hr>
+
+        <h2 id="how">2. 어떻게 확인하나 — 세 가지 방법</h2>
+
+        <p>
+          가장 확실한 것부터 정리하겠습니다.
+        </p>
+
+        <p>
+          <strong>①제조사 서비스센터 진단 리포트.</strong> 신뢰도가 가장 높습니다. <strong>현대·기아는 블루핸즈나 오토큐에 방문해 "배터리 성능 점검"을 요청</strong>하면 됩니다. 제조사 전용 진단 장비로 측정하므로 편차가 작습니다.
+        </p>
+
+        <p>
+          <strong>②OBD 스캐너.</strong> 시중에서 구할 수 있는 진단기를 OBD 포트에 연결해 확인하는 방식입니다. 차종별 전용 앱이 필요한 경우가 많고, <strong>모델에 따라 값이 정확하지 않을 수 있습니다.</strong>
+        </p>
+
+        <p>
+          <strong>③차량 내 메뉴.</strong> 일부 모델은 인포테인먼트에서 배터리 상태를 볼 수 있습니다. 다만 <strong>SOH를 직접 표시하지 않고 간접 지표만 주는 경우</strong>가 많습니다.
+        </p>
+
+        <p>
+          <strong>중고 전기차를 살 때는 ①을 요청하는 것이 가장 좋습니다.</strong> 판매자가 진단 리포트 발급을 꺼린다면 그 자체가 신호일 수 있습니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/kona_electric_charging.jpg" alt="전기차 충전" loading="lazy">
+          <p class="article-img-caption">▲ 급속충전 위주로 쓴 차는 같은 주행거리라도 SOH가 낮은 경향을 보인다</p>
+        </div>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        <hr>
+
+        <h2 id="warranty">3. 보증 기준 — 8년 16만km, 그리고 70%</h2>
+
+        <p>
+          배터리 보증은 대체로 <strong>"8년 또는 16만km"</strong> 형태로 표기됩니다.
+        </p>
+
+        <p>
+          여기서 <strong>"또는"의 의미</strong>를 정확히 알아야 합니다. <strong>두 조건 중 먼저 도래하는 시점까지</strong>입니다. 5년밖에 안 됐어도 <strong>16만km를 넘기면 보증이 끝납니다.</strong>
+        </p>
+
+        <p>
+          보증 내용은 <strong>기간 내에 SOH가 일정 수준 이하로 떨어지면 무상 교체 또는 수리</strong>입니다. 그 기준선이 <strong>통상 70%</strong>입니다.
+        </p>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>SOH 구간별 의미</caption>
+            <thead>
+              <tr><th>SOH</th><th>상태</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>95% 이상</td><td>사실상 신차급</td></tr>
+              <tr><td>90~95%</td><td>양호. 일반적인 저하 범위</td></tr>
+              <tr><td>85~90%</td><td>주행거리 감소가 조금씩 체감</td></tr>
+              <tr><td>80~85%</td><td class="spec-highlight">체감 저하 시작. 충전 속도도 느려짐</td></tr>
+              <tr><td>70~80%</td><td class="spec-highlight">불편이 뚜렷. 다만 보증 기준에는 미달</td></tr>
+              <tr><td>70% 이하</td><td class="spec-highlight">보증 기간 내라면 무상 교체·수리 대상</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          <strong>주의할 대목이 여기 있습니다.</strong> <strong>체감 저하는 80% 미만부터 시작</strong>하는데, <strong>보증은 70% 이하에서만 작동</strong>합니다.
+        </p>
+
+        <p>
+          즉 <strong>SOH 75%로 불편을 느끼는 상태여도 보증 대상이 아닐 수 있습니다.</strong> 70%와 80% 사이의 이 구간이 실제로 가장 곤란한 지점입니다.
+        </p>
+
+        <hr>
+
+        <h2 id="used">4. 중고 전기차를 볼 때 함께 확인할 것</h2>
+
+        <p>
+          SOH 외에도 함께 봐야 하는 항목이 있습니다.
+        </p>
+
+        <p>
+          <strong>①보증 잔여 기간.</strong> 연식과 주행거리를 8년·16만km 기준에 대입해 <strong>남은 보증이 얼마인지</strong> 계산합니다. 보증이 1년 남은 차와 5년 남은 차는 위험이 다릅니다.
+        </p>
+
+        <p>
+          <strong>②보증 승계 조건.</strong> 배터리 보증은 대체로 차량과 함께 넘어가지만, <strong>제조사와 연식에 따라 조건이 다릅니다.</strong> 정기 점검 이력이 요구되는 경우도 있습니다.
+        </p>
+
+        <p>
+          <strong>③급속충전 비율.</strong> 일부 차종은 진단으로 급속·완속 충전 횟수를 확인할 수 있습니다. 급속 비율이 높으면 향후 저하 속도도 빠를 가능성이 있습니다.
+        </p>
+
+        <p>
+          <strong>④셀 밸런스.</strong> 전체 SOH가 괜찮아도 <strong>특정 셀만 유독 열화됐다면</strong> 문제가 될 수 있습니다. 제조사 진단에서 확인 가능한 항목입니다.
+        </p>
+
+        <p>
+          <strong>⑤열관리 이력.</strong> 배터리 냉각 시스템 관련 수리 이력이 있는지 봅니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/kr_ev_charging_seogwipo.webp" alt="전기차 충전소" loading="lazy">
+          <p class="article-img-caption">▲ 보증 잔여 기간을 연식·주행거리로 계산해두면 위험을 가늠할 수 있다</p>
+        </div>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+        <hr>
+
+        <h2 id="preserve">5. SOH를 지키는 방법</h2>
+
+        <p>
+          이미 차를 갖고 있다면, 저하 속도를 늦추는 방법이 있습니다.
+        </p>
+
+        <div class="info-box">
+          <p class="info-box-title">🔋 SOH 저하를 늦추는 습관</p>
+          <ul>
+            <li><strong>20~80% 구간 위주로 사용</strong> — 매일 100%까지 채우지 않기</li>
+            <li><strong>완속 충전 비중 늘리기</strong> — 급속은 필요할 때만</li>
+            <li><strong>장기 주차 시 50~60%</strong> — 만충이나 완방 상태로 오래 두지 않기</li>
+            <li><strong>여름철 직사광선 아래 장시간 방치 피하기</strong> — 지하주차장 활용</li>
+            <li><strong>겨울철 예약 충전 활용</strong> — 배터리 온도 관리 기능을 쓸 수 있음</li>
+          </ul>
+        </div>
+
+        <p>
+          <strong>다만 과하게 신경 쓸 필요는 없습니다.</strong> 최근 전기차는 배터리 관리 시스템(BMS)이 상한·하한을 이미 여유 있게 잡아둡니다. 화면에 100%로 표시되더라도 실제로는 물리적 만충이 아닙니다.
+        </p>
+
+        <p>
+          <strong>매일 100% 충전이 필요한 사용 패턴이라면 그렇게 쓰는 것이 맞습니다.</strong> 배터리를 아끼려고 주행 여유를 포기하는 것은 본말이 바뀐 선택입니다.
+        </p>
+
+        <hr>
+
+        <h2 id="conclusion">6. 정리</h2>
+
+        <p>
+          <strong>SOH는 배터리가 신차 대비 유지하고 있는 용량 비율</strong>이고, <strong>연식·주행거리보다 정확한 지표</strong>입니다.
+        </p>
+
+        <p>
+          확인은 <strong>제조사 서비스센터 진단이 가장 정확</strong>합니다. 현대·기아는 블루핸즈·오토큐에서 배터리 성능 점검을 요청할 수 있습니다.
+        </p>
+
+        <p>
+          보증은 통상 <strong>8년 또는 16만km 중 먼저 도래하는 시점까지</strong>이고, 그 기간 내 <strong>SOH 70% 이하</strong>면 무상 교체·수리 대상입니다.
+        </p>
+
+        <p>
+          <strong>다만 체감 저하는 80% 미만부터 시작</strong>합니다. <strong>70~80% 구간은 불편하지만 보증은 안 되는 지점</strong>이라, 중고 전기차를 볼 때 가장 주의해야 하는 영역입니다.
+        </p>
+
+        <p>
+          <strong>보증 기준과 기간은 제조사·모델·연식별로 다릅니다.</strong> 구매 전에 해당 차량의 보증서를 직접 확인하는 것이 가장 확실합니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/ev_charging.jpg" alt="전기차 충전" loading="lazy">
+          <p class="article-img-caption">▲ SOH 70~80% 구간은 불편하지만 보증은 받기 어려운 지점이다</p>
+        </div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+      </div>
+
+      <!-- 기사 푸터: 출처 + 태그 + 공유 -->
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="https://www.hyundai.com/kr/ko" target="_blank" rel="noopener">현대자동차</a>
+              <a href="https://www.kia.com/kr/" target="_blank" rel="noopener">기아</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> Wikimedia Commons
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="#" class="article-tag-item">배터리SOH</a>
+          <a href="#" class="article-tag-item">중고전기차</a>
+          <a href="#" class="article-tag-item">배터리보증</a>
+        </div>
+
+        <!-- 공유 -->
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <!-- ── 사이드바 ── -->
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="#" class="pop-tag">전기차</a>
+          <a href="#" class="pop-tag">배터리</a>
+          <a href="#" class="pop-tag">중고차</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
