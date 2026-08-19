@@ -3801,4 +3801,31 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/car-promotion-max-benefit-breakdown.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/jeep_goldilocks_keyvisual.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-19T21:20:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ev-range-certification-standards-compared.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-19T20:40:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/overseas-car-price-currency-conversion-trap.html</loc>
+    <image:image>
+      <image:loc>https://carprism.tmhub.co.kr/images/toyota_bz4x_2026_front.webp</image:loc>
+    </image:image>
+    <lastmod>2026-08-19T20:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

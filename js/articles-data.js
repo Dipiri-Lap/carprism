@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-promotion-max-benefit-breakdown",
+    title: "\"최대 혜택 965만 원\"… 이 문장에서 현금으로 빠지는 건 얼마일까",
+    date: "2026-08-19",
+    image: "jeep_goldilocks_keyvisual.webp",
+    categories: ["news"],
+    tags: ["최대혜택", "신차프로모션", "실구매가", "견적서", "공채매입"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "자동차민원 대국민포털(자동차365)",
+    desc: "자동차 프로모션의 \"최대 혜택 OOO만 원\"은 통상 현금 할인과 액세서리, 금융 혜택을 모두 합산한 값이다. 실제 차값에서 빠지는 금액은 그중 일부다. 견적서에서 항목별로 구분하는 법과 탁송료·등록비·공채 매입 같은 표시가 밖의 비용, 2026년 7월 개별소비세 환원까지 반영한 실구매가 계산 순서를 정리했다."
+  },
+  {
+    slug: "ev-range-certification-standards-compared",
+    title: "\"688km 간다더니 468km\"… 같은 차인데 숫자가 네 번 바뀝니다",
+    date: "2026-08-19",
+    image: "tesla_modely_juniper_front.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차주행거리", "CLTC", "WLTP", "EPA", "환경부인증"],
+    badge: "EV DATA",
+    badgeClass: "cat-ev",
+    source: "무공해차 통합누리집",
+    desc: "전기차 주행거리는 어느 나라 기준으로 쟀느냐에 따라 크게 달라진다. 테슬라 모델 Y를 예로 들면 중국 CLTC 약 688km, 유럽 WLTP 약 533km, 미국 EPA 약 496km, 한국 환경부 약 468km다. 관대한 순서는 CLTC > WLTP > EPA > 국내이며, 국내 인증은 5-사이클 보정과 저온 조건까지 반영해 세계에서 가장 짜게 나온다."
+  },
+  {
+    slug: "overseas-car-price-currency-conversion-trap",
+    title: "\"3만4,980달러니까 3,498만 원\"… 이 계산에서 1,400만 원이 사라집니다",
+    date: "2026-08-19",
+    image: "toyota_bz4x_2026_front.webp",
+    categories: ["news"],
+    tags: ["환율환산", "수입차가격", "개별소비세", "해외신차가격", "실구매가"],
+    badge: "GUIDE",
+    badgeClass: "cat-sales",
+    source: "유럽중앙은행 환율(Frankfurter)",
+    desc: "해외 신차 가격 기사에서 달러를 원화로 옮길 때 1:1,000으로 읽는 오독이 반복된다. 2026년 8월 18일 기준 환율은 1달러 1,410.07원이어서 3만4,980달러는 약 4,932만 원이다. 여기에 관세·개별소비세·교육세·부가세가 얹히므로 단순 환산액조차 국내 가격의 하한선이 되지 못한다. 통화별 환산 계수와 세금이 붙는 순서를 정리했다."
+  },
+  {
     slug: "vw-smart-ebike-radar-safety-2026",
     title: "\"뒤에서 오는 차를 70m 앞서 알려준다\"… 폭스바겐이 만든 건 자전거였습니다",
     date: "2026-08-19",

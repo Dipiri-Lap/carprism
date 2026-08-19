@@ -5,7 +5,31 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Aug 2026 09:25:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 09:52:20 GMT</lastBuildDate>
+    <item>
+      <title>&quot;최대 혜택 965만 원&quot;… 이 문장에서 현금으로 빠지는 건 얼마일까</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-promotion-max-benefit-breakdown.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-promotion-max-benefit-breakdown.html</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description>자동차 프로모션의 &quot;최대 혜택 OOO만 원&quot;은 통상 현금 할인과 액세서리, 금융 혜택을 모두 합산한 값이다. 실제 차값에서 빠지는 금액은 그중 일부다. 견적서에서 항목별로 구분하는 법과 탁송료·등록비·공채 매입 같은 표시가 밖의 비용, 2026년 7월 개별소비세 환원까지 반영한 실구매가 계산 순서를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/jeep_goldilocks_keyvisual.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;688km 간다더니 468km&quot;… 같은 차인데 숫자가 네 번 바뀝니다</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-range-certification-standards-compared.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-range-certification-standards-compared.html</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description>전기차 주행거리는 어느 나라 기준으로 쟀느냐에 따라 크게 달라진다. 테슬라 모델 Y를 예로 들면 중국 CLTC 약 688km, 유럽 WLTP 약 533km, 미국 EPA 약 496km, 한국 환경부 약 468km다. 관대한 순서는 CLTC &gt; WLTP &gt; EPA &gt; 국내이며, 국내 인증은 5-사이클 보정과 저온 조건까지 반영해 세계에서 가장 짜게 나온다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_modely_juniper_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;3만4,980달러니까 3,498만 원&quot;… 이 계산에서 1,400만 원이 사라집니다</title>
+      <link>https://carprism.tmhub.co.kr/articles/overseas-car-price-currency-conversion-trap.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/overseas-car-price-currency-conversion-trap.html</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description>해외 신차 가격 기사에서 달러를 원화로 옮길 때 1:1,000으로 읽는 오독이 반복된다. 2026년 8월 18일 기준 환율은 1달러 1,410.07원이어서 3만4,980달러는 약 4,932만 원이다. 여기에 관세·개별소비세·교육세·부가세가 얹히므로 단순 환산액조차 국내 가격의 하한선이 되지 못한다. 통화별 환산 계수와 세금이 붙는 순서를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/toyota_bz4x_2026_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;뒤에서 오는 차를 70m 앞서 알려준다&quot;… 폭스바겐이 만든 건 자전거였습니다</title>
       <link>https://carprism.tmhub.co.kr/articles/vw-smart-ebike-radar-safety-2026.html</link>
@@ -221,30 +245,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
       <description>타이어 옆면의 225/45R17 91W는 단면폭 225mm, 편평비 45%, 래디얼 구조, 휠 17인치, 하중지수 91(615kg), 속도기호 W(270km/h)를 뜻한다. DOT 뒤 네 자리는 제조 주차와 연도이며, 트레드 마모 한계는 1.6mm다. 규격 표기를 항목별로 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/tire_tread_wear_indicator.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;빨간불인데 그냥 달렸다&quot;… 색깔이 정하는 즉시 정차와 나중 정비</title>
-      <link>https://carprism.tmhub.co.kr/articles/dashboard-warning-lights-color-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/dashboard-warning-lights-color-guide.html</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <description>계기판 경고등은 색으로 긴급도가 나뉜다. 적색은 즉시 정차와 점검이 필요한 항목, 황색은 주행은 가능하지만 빠른 점검이 필요한 항목, 녹색과 청색은 단순 작동 표시다. 유압·냉각수온·브레이크 경고등처럼 즉시 세워야 하는 항목과 체크엔진등처럼 미루기 쉬운 항목을 구분해 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/instrument_cluster_warning.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;1분이면 신고된다&quot;… 6대 절대 금지구역과 과태료 12만 원의 자리</title>
-      <link>https://carprism.tmhub.co.kr/articles/illegal-parking-6-zones-report-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/illegal-parking-6-zones-report-guide.html</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <description>불법주정차 주민신고제 대상은 소화전 5m 이내, 교차로 모퉁이 5m 이내, 버스정류소 10m 이내, 횡단보도, 어린이보호구역, 인도 등 6대 구역이다. 승용차 기준 과태료는 대부분 4만 원이지만 소화전은 8만 원, 어린이보호구역은 12만 원이다. 안전신문고 앱으로 1분 이상 간격의 사진 2장을 올리면 신고가 접수된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/crosswalk_anyang.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;사고 한 번에 3년 간다&quot;… 내 보험료가 오르는 두 개의 저울</title>
-      <link>https://carprism.tmhub.co.kr/articles/car-insurance-premium-surcharge-system-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-insurance-premium-surcharge-system-guide.html</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <description>자동차보험료는 우량할인·불량할증 등급과 사고건수요율이라는 두 축으로 조정된다. 등급은 1Z~29P로 신규 가입 시 11Z에서 시작해 무사고 1년마다 1등급씩 올라가고, 사고점수 1점당 1등급씩 내려간다. 물적사고 할증기준금액을 넘으면 건당 1점, 이하면 0.5점이 부과된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/accident_damaged_car1.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
