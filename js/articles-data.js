@@ -11,7 +11,7 @@ window.ARTICLES_DATA = [
     badge: "MOBILITY",
     badgeClass: "cat-blue",
     source: "오토헤럴드",
-    desc: "폭스바겐이 스마트 e바이크를 공개했다. 후방 레이더와 카메라로 최대 70m 뒤에서 접근하는 차량을 감지해 핸들바 디스플레이에 표시하고, 위험 시 주황색 경고 바를 띄운다. 가격은 3,999유로(약 572만 원)이며 스마트 헬멧과 스마트 글라스가 각 499유로다. 2026년 9월 4~8일 IFA 2026에서 공개된다."
+    desc: "폭스바겐이 스마트 e바이크를 공개했다. 후방 레이더와 카메라로 최대 70m 뒤에서 접근하는 차량을 감지해 핸들바 디스플레이에 표시하고, 위험 시 주황색 경고 바를 띄운다. 가격은 3,999유로(환율 기준 약 650만 원)이며 스마트 헬멧과 스마트 글라스가 각 499유로다. 2026년 9월 4~8일 IFA 2026에서 공개된다."
   },
   {
     slug: "honda-passport-vs-toyota-4runner-2026",
@@ -75,7 +75,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "epicland-x9-huawei-dongfeng-presale-2026",
-    title: "\"주행거리 1,500km에 라이다 896채널\"… 6,200만 원짜리 6인승이 나왔습니다",
+    title: "\"주행거리 1,500km에 라이다 896채널\"… 6,200만 원대 6인승이 중국에서 나왔습니다",
     date: "2026-08-19",
     image: "epicland_x9_side_burgundy.webp",
     categories: ["electric", "news"],
@@ -111,7 +111,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "toyota-bz-2027-us-pricing-nacs",
-    title: "\"어댑터 없이 슈퍼차저에 꽂힌다\"… 3,498만 원부터 시작하는 토요타 전기 SUV",
+    title: "\"어댑터 없이 슈퍼차저에 꽂힌다\"… 314마일 가는 토요타 전기 SUV의 미국 가격표",
     date: "2026-08-19",
     image: "toyota_bz4x_2026_front.webp",
     categories: ["electric", "news"],
@@ -191,7 +191,7 @@ window.ARTICLES_DATA = [
     badge: "EV POLICY",
     badgeClass: "cat-ev",
     source: "무공해차 통합누리집",
-    desc: "2026년 전기승용차 보조금은 중·대형 최고 580만 원, 소형 이하 최고 530만 원이며 예산은 9,360억 원으로 늘었다. 다만 국비와 지방비는 별도 주머니여서 지자체 예산이 먼저 소진되면 국비만 받게 된다. 무공해차 통합누리집에서 지역별 잔여 물량을 확인하는 방법과 표시 수치의 한계를 정리했다."
+    desc: "기후에너지환경부 브리핑 기준 2026년 전기차 구매보조금 예산은 총 1조 6,000억 원 규모이고, 중형 승용차 보조금은 기존 최대 580만 원에서 680만 원으로 늘었다. 다만 국비와 지방비는 별도 주머니여서 지자체 예산이 먼저 소진되면 총액이 줄어든다. 무공해차 통합누리집에서 잔여 물량을 확인하는 방법과 표시 수치의 한계를 정리했다."
   },
   {
     slug: "ev-vehicle-inspection-separate-battery-soh-2026",
