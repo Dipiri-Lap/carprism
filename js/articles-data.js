@@ -123,9 +123,9 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "buick-electra-l7-china-launch-price",
-    title: "\"2,500만 원에 702km\"… 뷰익이 중국에서 내놓은 5m 세단의 가격표",
+    title: "\"보조금 넣어 약 2,500만 원\"… 702km 가는 5m 전기 세단이 중국에 나왔습니다",
     date: "2026-08-20",
-    image: "buick_electra_e4_a.webp",
+    image: "buick_electra_l7_a.webp",
     categories: ["electric", "import"],
     tags: ["뷰익일렉트라L7", "중국전기차", "GM", "전기세단", "800V"],
     badge: "CHINA EV",
