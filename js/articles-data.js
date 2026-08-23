@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "florida-left-lane-law-enforcement",
+    title: "\"과속은 안 했는데요\"… 좌측차로를 비우지 않아 걸리는 곳",
+    date: "2026-08-23",
+    image: "dashcam_footage_highway_view.webp",
+    categories: ["news"],
+    tags: ["플로리다", "좌측차로", "지정차로제", "추월차로", "해외교통법규"],
+    badge: "GLOBAL",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "플로리다가 2025년 7월 1일 시행된 주법 316.081에 따라 좌측차로 점유 단속에 나섰다. 뒤차가 추월하려는 것을 알거나 알 수 있는 상황에서 좌측차로에 머무르면 위반이며, 추월 중이거나 좌회전을 준비할 때는 예외다. 같은 법안 패키지의 초과속 조항은 시속 50마일 초과 시 최대 30일 구금과 500달러 벌금을 규정한다."
+  },
+  {
+    slug: "aaa-speed-limit-study-85th-percentile",
+    title: "\"65%가 제한속도를 넘겨도 된다고 답했다\"… 그럼 기준이 틀린 걸까",
+    date: "2026-08-23",
+    image: "kr_speed_camera_seohaean.webp",
+    categories: ["news"],
+    tags: ["제한속도", "85퍼센타일", "AAA", "교통안전", "과속"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "AAA 교통안전재단이 2026년 8월 196페이지 보고서를 냈다. 운전자 1만6,000명 조사와 8개 포커스그룹 결과, 65%가 제한속도 초과를 어느 정도 수용한다고 답했고 규칙을 지킨다는 응답은 35%였다. 미국의 제한속도는 통상 85퍼센타일 원칙으로 설정되는데, 보고서는 이 방식의 재검토를 제기했다."
+  },
+  {
+    slug: "korea-domestic-production-tax-credit-ev-excluded",
+    title: "\"6개 분야에 전기차는 없었다\"… 국내생산세액공제가 남긴 빈칸",
+    date: "2026-08-23",
+    image: "kr_ev_charging_gonggeun.webp",
+    categories: ["news", "electric"],
+    tags: ["국내생산세액공제", "세제개편안", "전기차", "이차전지", "자동차산업"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-sales",
+    source: "파이낸셜뉴스",
+    desc: "2026년 8월 3일 발표된 2026년 세제개편안에 국내생산세액공제가 신설됐다. 대상은 태양광·풍력, 이차전지, 반도체, 핵심소재, AI 로봇부품 등 6개 분야이며 전기차 완성차는 최종 제외됐다. 정부는 전기차의 핵심 경쟁력이 이차전지와 양극재 등 부품에 있다고 판단했다. 생산지역별 우대계수도 함께 적용된다."
+  },
+  {
+    slug: "drivers-turning-off-adas-safety-features-survey",
+    title: "\"너무 자주 끼어든다\"… 돈 주고 산 안전장치를 꺼버리는 사람들",
+    date: "2026-08-23",
+    image: "instrument_cluster_warning.webp",
+    categories: ["news"],
+    tags: ["ADAS", "주행보조", "안전장치", "적응형크루즈", "조사"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "영국 딜러 그룹 딕 러벳이 센서스와이드에 의뢰해 영국 운전자 1,350명을 조사한 결과, 적응형 크루즈 컨트롤을 쓰지 않는다는 응답이 25.9%로 가장 많았다. 자동 긴급제동 21.3%, 차선 유지 보조 17.8%가 뒤를 이었다. 편의 기능에서는 마사지 시트 78%, 원격 시동 75.5%가 사용되지 않았다."
+  },
+  {
+    slug: "us-new-car-atp-incentives-shrinking-july-2026",
+    title: "\"값은 오르는데 깎아주는 돈은 줄었다\"… 7월 미국 신차 가격표",
+    date: "2026-08-23",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["news"],
+    tags: ["평균거래가", "인센티브", "미국시장", "신차가격", "재고"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "7월 미국 신차 평균 거래가가 4만9,855달러로 2026년 상반기 최고치를 기록했다. 전년 동월 4만8,916달러 대비 1.9% 올랐다. 반면 대당 인센티브는 3,192달러로 평균 거래가의 6.4%까지 내려가 1월 이후 최저다. 재고가 273만 대로 3.5% 줄고 재고일수가 82일에서 75일로 짧아진 것이 배경이다."
+  },
+  {
+    slug: "cadillac-escalade-iq-one-year-depreciation",
+    title: "\"1년 만에 시빅 한 대 값이 사라졌다\"… 에스컬레이드 IQ의 첫해",
+    date: "2026-08-23",
+    image: "escalade_iq_front.jpg",
+    categories: ["import", "electric"],
+    tags: ["에스컬레이드IQ", "감가상각", "전기SUV", "캐딜락", "잔존가치"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "2025년형 캐딜락 에스컬레이드 IQ의 신차 가격은 12만7,700달러다. 1년이 지난 지금 2만 마일 이하 매물이 9만 달러대 초반에 나온다. 약 3만7,000~4만 달러가 빠진 셈으로 감가율은 29~31% 수준이다. 사라진 금액은 혼다 시빅 Si 신차 가격 3만1,495달러를 웃돈다."
+  },
+  {
+    slug: "lexus-lc500-discontinued-v8-era-ends",
+    title: "\"미국 토요타에 V8이 사라진다\"… LC500이 마지막이었습니다",
+    date: "2026-08-23",
+    image: "lexus_lc500_front.webp",
+    categories: ["import"],
+    tags: ["렉서스LC500", "V8", "단종", "자연흡기", "렉서스"],
+    badge: "DISCONTINUED",
+    badgeClass: "cat-red",
+    source: "CarBuzz",
+    desc: "렉서스가 2026년 8월 LC의 단종을 공식 발표했다. 2026년형이 마지막이며 생산은 8월에 종료됐다. 2018년 등장 이후 약 9년 만이다. RC F와 IS 500 F 스포츠 퍼포먼스가 2025년형을 끝으로 빠진 데 이어 LC마저 사라지면서, 미국 시장에서 토요타 그룹은 GR GT가 나올 때까지 V8 모델이 없게 된다."
+  },
+  {
+    slug: "subaru-wrx-vs-elantra-n-manual-comparison",
+    title: "\"타입R보다 1,200만 원 싸다\"… 남은 저가 수동 세단은 둘뿐",
+    date: "2026-08-23",
+    image: "hyundai_elantra_n_front.webp",
+    categories: ["import", "news"],
+    tags: ["스바루WRX", "아반떼N", "수동변속기", "고성능세단", "시빅타입R"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "미국 시장에서 수동변속기를 고를 수 있는 저가 고성능 세단이 스바루 WRX와 현대 아반떼 N 둘로 좁혀졌다. WRX는 3만2,495달러에 2.4L 터보 박서 271마력과 상시 사륜구동, 아반떼 N은 3만5,300달러에 2.0L 터보 276마력과 전륜구동이다. 시빅 타입R 4만7,395달러와 비교하면 각각 1만4,900달러, 1만1,995달러가 싸다."
+  },
+  {
     slug: "toyota-bz-lexus-rz-solterra-recall-power-loss",
     title: "\"주행 중에 힘이 끊긴다\"… 렉서스 RZ가 리콜 대상에 오른 이유",
     date: "2026-08-23",
