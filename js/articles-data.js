@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "genesis-gv90-price-launch-lineup-roundup",
+    title: "\"가격이 아직 안 나왔습니다\"… GV90, 9월 9일까지 확정된 것과 아닌 것",
+    date: "2026-08-23",
+    image: "genesis_gv90_neolun_front.webp",
+    categories: ["domestic", "electric"],
+    tags: ["제네시스GV90", "출시일", "예상가격", "코치도어", "전기SUV"],
+    badge: "UPCOMING",
+    badgeClass: "cat-gold",
+    source: "글로벌모터스",
+    desc: "제네시스 GV90이 9월 9일 글로벌 공개된다. 8월 11일 환경부 인증을 마쳐 1회 충전 481km가 확정됐고 국내 출시는 4분기 예정이다. 다만 가격은 아직 발표되지 않았다. 업계에서는 스탠다드 1억 원 초중반, 코치도어가 들어가는 상위 트림은 2억 원 안팎을 전망하지만 모두 추정치다."
+  },
+  {
+    slug: "bmw-220i-gran-coupe-f74-korea-price",
+    title: "\"BMW인데 3기통\"… 4,900만 원 220i가 놓인 자리",
+    date: "2026-08-23",
+    image: "bmw_2series_grancoupe_f74_a.webp",
+    categories: ["import"],
+    tags: ["BMW220i", "2시리즈그란쿠페", "3기통", "엔트리BMW", "마일드하이브리드"],
+    badge: "IMPORT",
+    badgeClass: "cat-sales",
+    source: "BMW 코리아",
+    desc: "BMW 2시리즈 그란쿠페 2세대(F74)의 국내 가격은 220i 스포츠 4,900만 원, M 스포츠 패키지 5,150만 원이다. 엔진은 1.5리터 3기통 터보에 48V 마일드 하이브리드를 조합해 170마력을 낸다. 전장 4,551mm, 휠베이스 2,670mm이며 220i 액티브 투어러는 5,080만~5,240만 원이다."
+  },
+  {
+    slug: "kia-sorento-mq5-full-change-delayed-2027",
+    title: "\"안 팔려서가 아니라 잘 팔려서 미뤘다\"… 쏘렌토 풀체인지의 사정",
+    date: "2026-08-23",
+    image: "kr_sorento_mq4_hybrid.webp",
+    categories: ["domestic"],
+    tags: ["쏘렌토MQ5", "풀체인지", "출시연기", "기아", "중형SUV"],
+    badge: "UPCOMING",
+    badgeClass: "cat-blue",
+    source: "엠투데이",
+    desc: "기아가 차세대 쏘렌토 MQ5의 국내 출시를 2026년에서 2027년으로 미뤘다. 북미와 유럽은 2028년 초로 전망된다. 완성도 확보가 명분이지만, 2020년 나온 현행 MQ4가 여전히 판매 상위권을 지키고 있다는 점이 배경으로 꼽힌다. 예상 제원은 전장 4,850mm에 휠베이스 2,820mm이며 파워트레인은 하이브리드 중심이다."
+  },
+  {
+    slug: "hyundai-tucson-5th-gen-overseas-reaction",
+    title: "\"충격적으로 각졌다\"… 5세대 투싼을 본 해외 매체들의 첫마디",
+    date: "2026-08-23",
+    image: "tucson_ng_front.webp",
+    categories: ["domestic"],
+    tags: ["투싼", "5세대투싼", "해외반응", "아트오브스틸", "디자인"],
+    badge: "DESIGN",
+    badgeClass: "cat-blue",
+    source: "AutoGuide",
+    desc: "8월 19일 공개된 5세대 투싼을 두고 해외 매체들이 일제히 boxy라는 단어를 썼다. 오토가이드는 충격적으로 각진 외관, 톱스피드는 RAV4와 CR-V를 겨냥한 대담한 재설계로 표현했다. 현대차는 이 디자인 언어를 아트 오브 스틸로 부르며, 싼타페와 팰리세이드에서 이어온 방향이라고 설명한다."
+  },
+  {
+    slug: "tucson-5th-gen-vs-sportage-nq5-recompare",
+    title: "\"이제 예상도가 아니라 실물이다\"… 투싼 vs 스포티지, 다시 계산해봤습니다",
+    date: "2026-08-23",
+    image: "tucson_ng_pair_road.webp",
+    categories: ["domestic"],
+    tags: ["투싼", "스포티지", "비교", "세대교체", "중형SUV"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "다나와 자동차",
+    desc: "5세대 투싼의 확정 제원이 나오면서 스포티지와의 비교가 달라졌다. 투싼은 전장 4,700mm·휠베이스 2,785mm로 커졌고, 스포티지는 2024년 11월 페이스리프트한 NQ5로 2,863만~4,214만 원에 팔린다. 스포티지 6세대는 2027년 하이브리드 중심으로 예고돼, 지금 스포티지를 사면 1년 뒤 구형이 되는 구도다."
+  },
+  {
+    slug: "ioniq9-vs-kia-ev9-comparison-korea",
+    title: "\"같은 플랫폼인데 31km 차이\"… 아이오닉 9과 EV9, 뭘 보고 갈릴까",
+    date: "2026-08-23",
+    image: "ioniq9_front.webp",
+    categories: ["domestic", "electric"],
+    tags: ["아이오닉9", "기아EV9", "3열전기SUV", "E-GMP", "비교"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "카프리즘",
+    desc: "현대 아이오닉 9과 기아 EV9은 같은 E-GMP를 쓰는 3열 대형 전기 SUV다. 아이오닉 9은 110.3kWh 배터리에 1회 충전 532km, 350kW 급속에서 80%까지 18분이다. EV9은 76.1kWh와 99.8kWh 두 가지로 최장 501km, 21분이 걸린다. EV9 스탠다드가 6,412만 원으로 약 300만 원 저렴하지만 아이오닉 9은 8월 말까지 최대 750만 원 할인이 붙는다."
+  },
+  {
     slug: "florida-left-lane-law-enforcement",
     title: "\"과속은 안 했는데요\"… 좌측차로를 비우지 않아 걸리는 곳",
     date: "2026-08-23",
