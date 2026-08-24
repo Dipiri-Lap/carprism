@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "zeekr-7x-200k-orders-global-2026",
+    title: "\"20만 번째 주문은 멕시코에서 나왔다\"… 지커 7X가 2년 만에 넘은 선",
+    date: "2026-08-24",
+    image: "zeekr_7x_main.webp",
+    categories: ["electric", "import"],
+    tags: ["지커7X", "지커", "전기SUV", "글로벌판매", "기린배터리"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-ev",
+    source: "CnEVPost",
+    desc: "지커 7X의 글로벌 누적 주문이 20만 대를 넘어섰다. 50개국 이상에서 판매되며 20만 번째 주문은 멕시코 고객에게서 나왔다. 1~7월 멕시코 럭셔리 순수전기 C-SUV 부문 1위다. 개선 모델은 900V 아키텍처에 라이다와 엔비디아 드라이브 토르-U를 기본 적용했고, 최고 사양은 785마력에 0-100km/h 2.98초, 103kWh 기린 배터리로 CLTC 802km를 낸다."
+  },
+  {
+    slug: "factory-humanoid-robot-efficiency-debate-2026",
+    title: "\"백만 달러짜리 해법, 백 달러짜리 문제\"… 공장 휴머노이드는 정말 필요한가",
+    date: "2026-08-24",
+    image: "hyundai_bostondynamics_atlas_exhibit.webp",
+    categories: ["news"],
+    tags: ["휴머노이드", "공장자동화", "보스턴다이내믹스", "피규어AI", "협동로봇"],
+    badge: "ROBOTICS",
+    badgeClass: "cat-blue",
+    source: "Carscoops / 오토헤럴드",
+    desc: "BMW는 스파르탄버그 공장에서 피규어 AI 휴머노이드를, 메르세데스는 앱트로닉 로봇을 시험 중이다. 현대차는 보스턴다이내믹스 로봇으로 부품 정리를 맡길 계획이다. 그러나 BMW 물류 담당 울리히 빌란트 부사장은 \"여전히 사람보다 느리다\"고 말했고, MIT 벤 암스트롱은 휴머노이드를 \"100달러짜리 문제에 대한 100만 달러짜리 해법\"으로 표현했다. GM은 다리 없는 협동로봇을 택했고 르노는 머리 없는 로봇을 공개했다."
+  },
+  {
+    slug: "byd-ocean-first-mpv-2026",
+    title: "\"버튼이 없고 시트가 침대가 된다\"… BYD 오션의 첫 MPV, 연내 나올까",
+    date: "2026-08-24",
+    image: "byd_sealion07_ev.webp",
+    categories: ["electric", "import"],
+    tags: ["BYD", "오션", "MPV", "오션-V", "덴자D9"],
+    badge: "UPCOMING",
+    badgeClass: "cat-ev",
+    source: "CnEVPost",
+    desc: "BYD 오션 판매 총괄 장저(Zhang Zhuo)가 오션 라인업 첫 MPV를 연내 출시할 수 있다고 밝혔다. 그는 이 차를 \"시장에서 유일한 종류의 제품\"으로 표현했다. 4월 베이징 오토쇼에서 공개된 오션-V 콘셉트가 방향을 보여주는데, 버튼 없는 실내와 슬라이딩 중앙 화면, 격납식 스티어링 휠, 침대로 바뀌는 시트가 특징이다. 다만 양산차 이름과 제원, 가격은 확정되지 않았다."
+  },
+  {
+    slug: "vw-amarok-next-gen-split-platform-2026",
+    title: "\"같은 이름, 전혀 다른 두 대\"… 아마록이 미국 뼈대와 중국 뼈대로 갈라집니다",
+    date: "2026-08-24",
+    image: "vw_amarok_highline_side.webp",
+    categories: ["import", "news"],
+    tags: ["폭스바겐", "아마록", "픽업트럭", "SAIC", "플러그인하이브리드"],
+    badge: "UPCOMING",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "폭스바겐 아마록이 시장별로 완전히 다른 두 대로 갈라진다. 글로벌형은 2022년부터 포드 레인저 기반이고, 2027년 나올 남미형은 중국 SAIC 하드웨어를 쓴다. 맥서스 인터스텔라 X와 플랫폼을 공유할 가능성이 있으며 아르헨티나 헤네랄 파체코 공장에서 생산된다. 최상위 800 TSI 플러그인 하이브리드는 470마력 이상, 최대토크 590lb-ft로 0-96km/h 5초 미만이 거론된다."
+  },
+  {
+    slug: "jeep-compass-e-hybrid-2027-review",
+    title: "\"험한 얼굴이 못 지키는 약속\"… 2027 지프 컴패스 e-하이브리드를 본 해외의 평가",
+    date: "2026-08-24",
+    image: "jeep_compass_j4u_ehybrid_front.webp",
+    categories: ["import", "review"],
+    tags: ["지프", "컴패스", "e하이브리드", "STLA미디엄", "해외리뷰"],
+    badge: "REVIEW",
+    badgeClass: "cat-blue",
+    source: "Carscoops",
+    desc: "신형 지프 컴패스 e-하이브리드에 대해 카스쿱스가 시승 평가를 내놨다. 결론은 외관이 약속하는 오프로드 성향을 실제 주행이 뒷받침하지 못한다는 것이다. 신형 컴패스(J4U)는 스텔란티스 STLA 미디엄 플랫폼 기반으로, 1.2L e-하이브리드가 엔트리 파워트레인이며 전기 사양도 병행된다."
+  },
+  {
     slug: "near-new-used-car-demand-surge-2026",
     title: "\"신차값 감당이 안 된다\"… 4만km 이하 중고차 검색이 한 달 만에 24% 뛰었습니다",
     date: "2026-08-24",
