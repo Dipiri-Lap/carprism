@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "vw-engine-mount-crash-safety-patent-2026",
+    title: "\"부품 하나 바꿔서 정면충돌을 덜 무섭게\"… 폭스바겐이 낸 엔진 마운트 특허",
+    date: "2026-08-24",
+    image: "vw_golf8_front.webp",
+    categories: ["import", "news"],
+    tags: ["폭스바겐", "특허", "충돌안전", "엔진마운트", "정면충돌"],
+    badge: "PATENT",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "폭스바겐이 독일 특허청(DPMA)에 정면충돌 안전성을 높이는 엔진 마운트 특허를 출원했다. 기존 도그본 마운트의 양쪽 부싱 구조를 바꿔, 차체 쪽은 부싱을 유지하고 엔진 쪽은 더 단단한 볼트 결합으로 만든 것이 핵심이다. 충돌 시 엔진이 예측 가능한 방향으로 뒤·아래로 밀려나 승객실 침범을 줄이고 에너지를 더 흡수한다. 다만 특허 출원이 양산 적용을 보장하지는 않는다."
+  },
+  {
+    slug: "bmw-modular-headliner-patent-2026",
+    title: "\"찍찍이로 붙였다 뗐다\"… BMW가 컨버터블 천장에 내놓은 특허",
+    date: "2026-08-24",
+    image: "bmw_m4_g83_convertible_front.webp",
+    categories: ["import", "news"],
+    tags: ["BMW", "특허", "헤드라이너", "컨버터블", "M4"],
+    badge: "PATENT",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "BMW가 벨크로·지퍼·클립으로 탈착하는 컨버터블 헤드라이너 특허를 출원했다. 신축성 있는 별도 원단이 지붕이 닫힐 때 함께 늘어나 주름이 생기지 않도록 하는 구조다. 공장 장착뿐 아니라 딜러나 소유자가 직접 교체할 수 있어 계절·취향에 따라 바꿀 수 있고, 스타라이트 헤드라이너 같은 사양도 가능해진다. WO2026171304로 8월 23일 공개됐으며 4시리즈·M4 컨버터블·미니 쿠퍼 컨버터블이 언급됐다."
+  },
+  {
+    slug: "rivian-r2-vs-subaru-trailseeker-2026",
+    title: "\"650만 원을 더 낼 만한 단 한 가지 경우\"… 리비안 R2 vs 스바루 트레일시커",
+    date: "2026-08-24",
+    image: "rivian_r2_front.webp",
+    categories: ["electric", "import"],
+    tags: ["리비안R2", "스바루트레일시커", "전기SUV", "비교", "오프로드"],
+    badge: "COMPARISON",
+    badgeClass: "cat-ev",
+    source: "CarBuzz",
+    desc: "스바루 트레일시커는 3만 9,995~4만 6,855달러, 리비안 R2는 4만 6,485~5만 7,990달러다. 기본형 기준 R2가 약 6,500달러 비싸다. 트레일시커는 듀얼모터 375마력에 0-96km/h 4.4초, 주행거리 274~281마일이다. R2는 350~656마력에 3.6~5.9초, 330~345마일이다. 지상고는 트레일시커 8.5인치, R2는 세미액티브 서스펜션 적용 시 최대 9.6인치다."
+  },
+  {
+    slug: "bugatti-veyron-tire-cost-solution-2026",
+    title: "\"타이어 한 세트에 6천만 원\"… 부가티가 내놓은 해법에 붙은 조건",
+    date: "2026-08-24",
+    image: "bugatti_veyron_164_front.webp",
+    categories: ["import", "news"],
+    tags: ["부가티", "베이론", "타이어", "PAX", "라메종퓌르상"],
+    badge: "SUPERCAR",
+    badgeClass: "cat-gold",
+    source: "Carscoops",
+    desc: "부가티 베이론의 PAX 타이어는 한 세트에 약 4만 2,000달러였고, 휠까지 포함한 유지 비용은 15만 달러를 넘겼다. 부가티 라 메종 퓌르 상은 20인치 앞·21인치 뒤 신형 휠을 개발해 미쉐린 파일럿 스포츠 컵2를 쓸 수 있게 했다. 타이어값은 약 3,596달러로 내려간다. 다만 신형 휠을 먼저 사야 하며 휠 가격은 공개되지 않았다."
+  },
+  {
+    slug: "cheapest-us-car-to-own-2026",
+    title: "\"연 475만 원, 미국에서 가장 싸게 타는 차\"… 그런데 아무도 안 삽니다",
+    date: "2026-08-24",
+    image: "fiat_500e_current_blue.webp",
+    categories: ["news", "electric"],
+    tags: ["유지비", "피아트500e", "전기차", "미국시장", "보험료"],
+    badge: "COST",
+    badgeClass: "cat-sales",
+    source: "Carscoops / Self.Inc",
+    desc: "Self.Inc가 미국에서 팔리는 인기 신차 50종의 연간 유지비를 분석한 결과 피아트 500e가 3,557달러로 1위였다. 충전비 779달러, 보험 779달러, 정비 1,275달러, 세금·수수료 724달러다. 그런데 올해 상반기 판매는 150대로 전년 동기 788대 대비 81% 줄었다. 혼다 시빅 하이브리드 4,833달러, 현대 아반떼 4,904달러가 뒤를 이었고 포르쉐 911이 1만 832달러로 가장 비쌌다."
+  },
+  {
+    slug: "bmw-ix-value-collapse-2026",
+    title: "\"BMW가 스스로 필요 없게 만든 차\"… iX, 3년 만에 값이 절반으로",
+    date: "2026-08-24",
+    image: "bmw_ix3_na5_front.webp",
+    categories: ["import", "electric"],
+    tags: ["BMW", "iX", "감가상각", "전기SUV", "중고차"],
+    badge: "DEPRECIATION",
+    badgeClass: "cat-sales",
+    source: "CarBuzz",
+    desc: "BMW iX가 출시 3년 만에 가치의 절반 가까이를 잃었다는 분석이 나왔다. CarBuzz는 BMW가 후속 전기 SUV 라인업을 넓히면서 iX의 자리를 스스로 없앴다고 지적한다. 플래그십 전기 SUV로 출발했지만 iX3와 iX5 등이 자리를 채우며 포지션이 애매해졌다는 것이다. 다만 이는 신차 구매자에게는 손실이고 중고차 구매자에게는 기회다."
+  },
+  {
     slug: "zeekr-7x-200k-orders-global-2026",
     title: "\"20만 번째 주문은 멕시코에서 나왔다\"… 지커 7X가 2년 만에 넘은 선",
     date: "2026-08-24",
