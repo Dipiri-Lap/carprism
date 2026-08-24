@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "gangnam-robotaxi-expansion-2026",
+    title: "\"기사님이 타고 있는데 자율주행\"… 강남 심야 로보택시, 19대로 늘었습니다",
+    date: "2026-08-24",
+    image: "kgm_new_torres_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["자율주행택시", "강남", "카카오T", "토레스EVX", "레벨4"],
+    badge: "AUTONOMOUS",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴",
+    desc: "서울 강남 자율주행택시가 7대에서 19대로 늘었다. SWM 13대, 카카오모빌리티 6대이며 차량은 코란도 이모션 5대, 토레스 EVX 8대, 기아 EV6 6대다. 평일 밤 10시부터 새벽 5시까지 20.4㎢ 시범운행지구에서 카카오T '서울자율차'로 부를 수 있다. 다만 시험운전자가 상시 동승하는 단계이며, 완전 무인 레벨4는 11월 상암에서 시작된다."
+  },
+  {
+    slug: "ev-charging-spot-parking-fine-2026",
+    title: "\"충전 안 할 거면 빼주세요\"… 충전구역 얌체 주차, 10만 원 과태료 추진",
+    date: "2026-08-24",
+    image: "kr_ev_charging_gonggeun.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차충전", "충전방해", "과태료", "친환경자동차법", "겸용주차"],
+    badge: "EV POLICY",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴",
+    desc: "환경부가 친환경자동차법 개정을 통해 전기차 충전구역 주차 방해에 과태료 10만 원을 물리는 방안을 추진한다. 충전하지 않고 주차하는 경우, 급속 1시간·완속 14시간 허용 시간을 넘기는 경우, 충전이 끝난 뒤 케이블을 꽂아둔 채 방치하는 경우가 대상이다. 입법예고는 2026년 9월 30일까지이며 아직 시행 전이다."
+  },
+  {
+    slug: "hyundai-tailgate-patent-pickup-2026",
+    title: "\"포드도 램도 안 한 방식\"… 현대차가 미국에 낸 테일게이트 특허의 정체",
+    date: "2026-08-24",
+    image: "hyundai_santacruz_rear_bed.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차", "테일게이트", "특허", "싼타크루즈", "픽업트럭"],
+    badge: "PATENT",
+    badgeClass: "cat-hyundai",
+    source: "지피코리아",
+    desc: "현대차가 8월 22일(현지시간) 미국 특허청에 픽업 테일게이트 특허를 출원했다. 중앙 힌지로 부분 개방이 가능하고 접이식 플랫폼이 통합돼 긴 화물을 실을 수 있다. 케이블과 힌지 대신 서포트 암 구조를 써서 하중을 견디며, 테일게이트를 연 채 주행할 때도 플랫폼을 고정할 수 있다. 특허 이미지에는 싼타크루즈가 등장하지만 양산 적용은 확정되지 않았다."
+  },
+  {
+    slug: "hyundai-full-strike-robot-conflict-2026",
+    title: "\"로봇이 먼저 오느냐, 정년이 먼저 오느냐\"… 현대차 10년 만의 전면 파업",
+    date: "2026-08-24",
+    image: "hyundai_ulsan_plant_assembly_line.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차", "파업", "보스턴다이내믹스", "아틀라스", "자동화"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴",
+    desc: "현대차 노조가 2026년 8월 21일 10년 만에 8시간 전면 파업을 단행했다. 조합원 약 3만 9,000명이 참여해 울산·전주·아산 공장 라인이 멈췄다. 누적 파업 시간은 60시간, 업계 추산 생산 차질은 약 5만 5,200대, 매출 손실은 2조 3,000억 원 이상이다. 임금과 정년 연장 외에 2028년 도입 예정인 보스턴다이내믹스 아틀라스 등 자동화에 따른 고용 안정이 핵심 쟁점으로 떠올랐다."
+  },
+  {
+    slug: "maybach-s-class-korea-first-delivery-2026",
+    title: "\"그릴이 20% 커졌다\"… 마이바흐 S클래스 1호차, 청담에서 나갔습니다",
+    date: "2026-08-24",
+    image: "benz_maybach_w223_china4.webp",
+    categories: ["import", "news"],
+    tags: ["마이바흐", "S클래스", "한성자동차", "메르세데스벤츠", "플래그십세단"],
+    badge: "LUXURY",
+    badgeClass: "cat-gold",
+    source: "지피코리아",
+    desc: "한성자동차가 8월 21일 청담 전시장에서 더 뉴 메르세데스-마이바흐 S클래스 1호차를 인도했다. 인도 차량은 마이바흐 S 580으로, 헤드램프가 새로 설계되고 라디에이터 그릴이 이전 대비 약 20% 커졌다. 신형 S클래스와 마이바흐 S클래스를 합한 사전계약은 약 1,060대다. 파워트레인은 V8 마일드 하이브리드에 E-액티브 바디 컨트롤이 조합된다."
+  },
+  {
     slug: "genesis-gv90-price-launch-lineup-roundup",
     title: "\"가격이 아직 안 나왔습니다\"… GV90, 9월 9일까지 확정된 것과 아닌 것",
     date: "2026-08-23",
