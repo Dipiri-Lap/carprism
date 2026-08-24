@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-staria-us-minivan-absence-2026",
+    title: "\"미니밴이 다시 팔리는데\"… 스타리아는 왜 미국에 없을까",
+    date: "2026-08-24",
+    image: "hyundai_staria_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["스타리아", "미니밴", "미국시장", "카니발", "MPV"],
+    badge: "MARKET",
+    badgeClass: "cat-hyundai",
+    source: "CarBuzz",
+    desc: "미국 미니밴 시장이 살아나고 있지만 현대 스타리아는 이 시장에 없다. CarBuzz는 이유로 차량 분류 문제를 지목했다. 스타리아는 전고 78인치로 램 1500과 비슷해 미니밴으로 분류하기 어렵고, 2~11인승까지 나오는 MPV라 상업용 밴으로 묶인다. 여기에 대형 승합차에 대한 미국 소비자의 인식과 이미 굳어진 상용 밴 시장 구도가 겹친다. 전기 사양은 84kWh로 248마일이며 영국 기준 5만 파운드 이하가 예상된다."
+  },
+  {
+    slug: "bmw-z4-8series-collectible-2026",
+    title: "\"5년 만들고 1만 대\"… 곧 사라지는 BMW 두 대, 지금 값이 움직입니다",
+    date: "2026-08-24",
+    image: "bmw_z4_g29_m40i_front.webp",
+    categories: ["import", "news"],
+    tags: ["BMW", "Z4", "8시리즈", "단종", "잔존가치"],
+    badge: "DISCONTINUED",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "BMW Z4와 8시리즈가 2026년형을 끝으로 생산을 마친다. Z4는 약 5년간 1만 대 남짓 생산됐고 2025년 판매는 2,113대였다. 8시리즈는 2018년 등장해 2023~2024년 연 5,500대 수준이었다. 다만 두 차의 전망은 다르다. Z4는 7년 뒤에도 MSRP의 약 60%를 유지해 왔고, 8시리즈는 5년에 약 50%를 잃는 BMW 전형의 곡선을 그린다."
+  },
+  {
+    slug: "porsche-sonderwunsch-expansion-2026",
+    title: "\"고객이 프로젝트 매니저가 된다\"… 포르쉐 존더분쉬가 카이엔·파나메라로 넓어집니다",
+    date: "2026-08-24",
+    image: "porsche_911_carrera_gts.webp",
+    categories: ["import", "news"],
+    tags: ["포르쉐", "존더분쉬", "주문제작", "카이엔", "파나메라"],
+    badge: "BESPOKE",
+    badgeClass: "cat-gold",
+    source: "Porsche Newsroom / Autoblog",
+    desc: "포르쉐가 주문제작 프로그램 존더분쉬를 911 중심에서 카이엔과 파나메라로 넓힌다. 신차뿐 아니라 클래식 모델도 대상이다. 1978년 존더분쉬압타일룽으로 시작한 이 프로그램은 팩토리 커미션, 팩토리 리커미션, 팩토리 원오프 세 갈래로 운영된다. 원오프는 통상 2~3년이 걸리며 첫 1년은 고객과 콘셉트를 정하는 데 쓴다. 포르쉐는 이를 '가치 우선(value over volume)' 전략의 일부로 본다."
+  },
+  {
+    slug: "aston-martin-thor-valkyrie-silverstone-2026",
+    title: "\"1,000마력을 680마력으로 묶는다\"… 발키리가 실버스톤에서 확인한 것",
+    date: "2026-08-24",
+    image: "aston_martin_valkyrie_front.webp",
+    categories: ["import", "news"],
+    tags: ["애스턴마틴", "발키리", "WEC", "IMSA", "실버스톤"],
+    badge: "MOTORSPORT",
+    badgeClass: "cat-gold",
+    source: "모토야",
+    desc: "애스턴마틴 THOR 팀이 4월 19일 실버스톤 그랑프리 서킷(3.66마일)에서 발키리 하이퍼카 종합 테스트를 마쳤다. 드라이버는 로스 건과 해리 틴크넬이었다. 발키리는 6.5리터 V12를 11,000rpm까지 돌려 기본 사양에서 1,000마력 이상을 내지만, 경기 규정에 따라 실제 레이스에서는 680마력으로 제한된다. 2026년 WEC와 IMSA에서 성적이 오르고 있으며 상파울루 6시간에서 두 대 모두 포인트를 얻었다."
+  },
+  {
+    slug: "mazda3-turbo-vs-gti-2026",
+    title: "\"GTI보다 235만 원 비싼데 사륜구동\"… 마쓰다3 터보라는 선택지",
+    date: "2026-08-24",
+    image: "mazda3_hatchback_front.webp",
+    categories: ["import", "review"],
+    tags: ["마쓰다3", "골프GTI", "핫해치", "사륜구동", "비교"],
+    badge: "COMPARISON",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "CarBuzz가 마쓰다3 터보를 폭스바겐 골프 GTI의 대안으로 제시했다. 마쓰다3 터보는 3만 6,940달러에 2.5L 터보 250마력, GTI는 3만 4,590달러에 2.0L 터보 241마력이다. 0-96km/h는 둘 다 5.6초지만 마쓰다3는 사륜구동, GTI는 전륜구동이다. 4만 달러 미만에서 사륜구동에 가장 싸게 도달하는 길이라는 것이 요지다. 다만 후방 시야와 로터리 컨트롤러가 단점으로 지적됐다."
+  },
+  {
     slug: "vw-engine-mount-crash-safety-patent-2026",
     title: "\"부품 하나 바꿔서 정면충돌을 덜 무섭게\"… 폭스바겐이 낸 엔진 마운트 특허",
     date: "2026-08-24",
