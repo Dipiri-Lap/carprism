@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "near-new-used-car-demand-surge-2026",
+    title: "\"신차값 감당이 안 된다\"… 4만km 이하 중고차 검색이 한 달 만에 24% 뛰었습니다",
+    date: "2026-08-24",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["news"],
+    tags: ["중고차", "케이카", "저주행", "개별소비세", "신차가격"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴 / 케이카",
+    desc: "케이카 조사 결과 2026년 7월 주행거리 4만km 이하 중고차 검색량이 전월 대비 24.2% 증가했다. 3만km 이하는 16.3%, 2만km 이하는 14.9% 늘었고 2023년식 이상은 13.8%, 2024년식 이상은 12.7% 증가했다. 7월 개별소비세 한시 인하 종료로 신차 구매 부담이 커진 것이 배경으로 지목된다."
+  },
+  {
+    slug: "aston-martin-s-trio-korea-debut-2026",
+    title: "\"출력만 올린 게 아니다\"… 애스턴마틴 S 3종, 국내에 한꺼번에 왔습니다",
+    date: "2026-08-24",
+    image: "astonmartin_db12s_vmf_main.webp",
+    categories: ["import", "news"],
+    tags: ["애스턴마틴", "DBX S", "밴티지S", "DB12S", "고성능"],
+    badge: "PERFORMANCE",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드",
+    desc: "애스턴마틴이 2026년 8월 24일 DBX S, 밴티지 S, DB12 S 세 모델을 국내에 처음 공개했다. DBX S는 4.0L V8 트윈터보로 727마력·900Nm에 카본 루프와 23인치 마그네슘 휠로 최대 47kg을 덜어냈다. 밴티지 S는 680마력·800Nm에 0-100km/h 3.4초, 최고속도 325km/h다. DB12 S는 700마력·800Nm이며 카본 세라믹 브레이크를 기본 적용해 스프렁 하중을 27kg 줄였다."
+  },
+  {
+    slug: "genesis-gv70-black-trim-2026",
+    title: "\"그래파이트 옆에 블랙을 하나 더\"… GV70에 붙을지 모를 두 번째 어두운 트림",
+    date: "2026-08-24",
+    image: "genesis_gv70_2027_official.jpg",
+    categories: ["domestic", "news"],
+    tags: ["제네시스", "GV70", "프레스티지블랙", "그래파이트", "북미시장"],
+    badge: "RUMOR",
+    badgeClass: "cat-genesis",
+    source: "지피코리아",
+    desc: "제네시스가 북미 시장을 겨냥해 GV70 블랙 에디션을 준비 중이라는 관측이 나왔다. 다만 공식 발표는 없다. 현재 제네시스는 2026년형 G80·G90·GV80·GV80 쿠페에 프레스티지 블랙을 운영하고 있으며, 2027 GV70에는 21인치 다크 메탈릭 휠과 레드 브레이크 캘리퍼가 들어가는 프레스티지 그래파이트가 확정됐다. 가격과 물량, 출시 시기는 모두 미확인이다."
+  },
+  {
+    slug: "hyundai-september-hiring-sdv-ai-2026",
+    title: "\"92개 공고를 한꺼번에 연다\"… 현대차 9월 채용이 가리키는 방향",
+    date: "2026-08-24",
+    image: "hyundai_ulsan_plant_assembly_line.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차", "채용", "SDV", "AI", "로보틱스"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-hyundai",
+    source: "모토야",
+    desc: "현대차가 2026년 9월 1일부터 14일까지 신입 채용을 진행한다. 연구개발·디자인·생산·경영전략·경영지원·IT 등 6개 부문에서 92개 공고가 열리며 SDV, AI, 로보틱스 등 미래 신사업 직무가 중심이다. 9월 2일 유튜브 라이브 설명회가 열리고, 9월 10일 서울에서 열리는 '팀 현대 커리어 라운지' 참가자 중 'H-슈퍼패스' 선발자는 서류전형이 면제된다."
+  },
+  {
+    slug: "hyundai-largest-us-plant-tariff-2026",
+    title: "\"연 80만 대, 미국 최대 조립공장\"… 관세가 밀어붙인 현대차의 선택",
+    date: "2026-08-24",
+    image: "kia_sportage_hybrid_us_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차", "메타플랜트", "관세", "미국생산", "조지아"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴",
+    desc: "현대차그룹이 조지아 메타플랜트(HMGMA)의 연간 생산능력을 2028년까지 70만~80만 대로 늘리는 방안을 검토 중이다. 당초 계획은 50만 대였다. 실현되면 테슬라와 토요타를 넘어 미국 최대 자동차 조립공장이 된다. 그룹은 2028년까지 미국에 260억 달러를 투자하며, 미국 판매 차량의 현지 생산 비중을 2024년 약 40%에서 2030년 80% 이상으로 끌어올린다는 목표다."
+  },
+  {
     slug: "gangnam-robotaxi-expansion-2026",
     title: "\"기사님이 타고 있는데 자율주행\"… 강남 심야 로보택시, 19대로 늘었습니다",
     date: "2026-08-24",
