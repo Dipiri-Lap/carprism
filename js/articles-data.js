@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "chuseok-long-drive-checklist-2026",
-    title: "\"10월 4일 0시부터 공짜\"… 추석 귀성길, 출발 전 30분이 다르게 만듭니다",
+    title: "\"올해 추석은 9월 25일\"… 귀성길, 출발 전 30분이 다르게 만듭니다",
     date: "2026-08-24",
     image: "highway_rest_area.webp",
     categories: ["news"],
@@ -11,7 +11,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "한국도로공사 / 정책브리핑",
-    desc: "2026년 추석 연휴 고속도로 통행료는 10월 4일 0시부터 7일 24시까지 나흘간 면제된다. 한국도로공사 관리 고속도로를 이용하는 모든 차량이 대상이며 별도 신청은 필요 없다. 진입과 진출 중 한쪽만 면제 기간에 걸려도 전액 면제된다. 장거리 주행 전 확인할 항목은 타이어 공기압과 마모, 냉각수, 엔진오일, 와이퍼, 배터리다."
+    desc: "2026년 추석은 9월 25일(금)이며 법정 연휴는 9월 24일(목)부터 26일(토)까지 사흘이다. 연휴 안에 일요일이 없어 대체공휴일은 지정되지 않는다. 고속도로 통행료 면제는 매 명절 시행돼 왔으나 올해 적용 기간은 국토교통부 특별교통대책 발표로 확정된다. 장거리 주행 전 확인할 항목은 타이어 공기압과 마모, 냉각수, 엔진오일, 와이퍼, 배터리다."
   },
   {
     slug: "gangnam-robotaxi-how-to-use-2026",
@@ -99,7 +99,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "mazda3-turbo-vs-gti-2026",
-    title: "\"GTI보다 235만 원 비싼데 사륜구동\"… 마쓰다3 터보라는 선택지",
+    title: "\"GTI보다 326만 원 비싼데 사륜구동\"… 마쓰다3 터보라는 선택지",
     date: "2026-08-24",
     image: "mazda3_hatchback_front.webp",
     categories: ["import", "review"],
@@ -135,7 +135,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "rivian-r2-vs-subaru-trailseeker-2026",
-    title: "\"650만 원을 더 낼 만한 단 한 가지 경우\"… 리비안 R2 vs 스바루 트레일시커",
+    title: "\"900만 원을 더 낼 만한 단 한 가지 경우\"… 리비안 R2 vs 스바루 트레일시커",
     date: "2026-08-24",
     image: "rivian_r2_front.webp",
     categories: ["electric", "import"],
@@ -147,7 +147,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bugatti-veyron-tire-cost-solution-2026",
-    title: "\"타이어 한 세트에 6천만 원\"… 부가티가 내놓은 해법에 붙은 조건",
+    title: "\"타이어 한 세트에 5,800만 원\"… 부가티가 내놓은 해법에 붙은 조건",
     date: "2026-08-24",
     image: "bugatti_veyron_164_front.webp",
     categories: ["import", "news"],
@@ -159,7 +159,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "cheapest-us-car-to-own-2026",
-    title: "\"연 475만 원, 미국에서 가장 싸게 타는 차\"… 그런데 아무도 안 삽니다",
+    title: "\"연 493만 원, 미국에서 가장 싸게 타는 차\"… 그런데 아무도 안 삽니다",
     date: "2026-08-24",
     image: "fiat_500e_current_blue.webp",
     categories: ["news", "electric"],
