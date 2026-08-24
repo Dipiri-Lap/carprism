@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "chuseok-long-drive-checklist-2026",
+    title: "\"10월 4일 0시부터 공짜\"… 추석 귀성길, 출발 전 30분이 다르게 만듭니다",
+    date: "2026-08-24",
+    image: "highway_rest_area.webp",
+    categories: ["news"],
+    tags: ["추석", "통행료면제", "장거리운전", "차량점검", "고속도로"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "한국도로공사 / 정책브리핑",
+    desc: "2026년 추석 연휴 고속도로 통행료는 10월 4일 0시부터 7일 24시까지 나흘간 면제된다. 한국도로공사 관리 고속도로를 이용하는 모든 차량이 대상이며 별도 신청은 필요 없다. 진입과 진출 중 한쪽만 면제 기간에 걸려도 전액 면제된다. 장거리 주행 전 확인할 항목은 타이어 공기압과 마모, 냉각수, 엔진오일, 와이퍼, 배터리다."
+  },
+  {
+    slug: "gangnam-robotaxi-how-to-use-2026",
+    title: "\"카카오T에서 '서울자율차'를 찾으세요\"… 강남 자율주행택시 이용법 총정리",
+    date: "2026-08-24",
+    image: "kgm_new_torres_showroom.webp",
+    categories: ["news"],
+    tags: ["자율주행택시", "카카오T", "서울자율차", "강남", "심야택시"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴",
+    desc: "강남 자율주행택시는 카카오T 앱에서 '서울자율차'를 선택해 호출한다. 운행은 평일 밤 10시부터 익일 새벽 5시까지, 강남 자율주행자동차 시범운행지구 약 20.4㎢ 안에서만 가능하다. 요금은 새벽 4~5시 4,800원, 밤 10~11시와 새벽 2~4시 5,800원, 밤 11시~새벽 2시 6,700원이다. 시험운전자가 상시 동승하며 일부 구간은 수동 운전으로 통과한다."
+  },
+  {
+    slug: "post-heatwave-car-checkup-2026",
+    title: "\"여름은 끝났는데 차는 아직 앓고 있다\"… 폭염 뒤 꼭 봐야 할 5가지",
+    date: "2026-08-24",
+    image: "car_battery_inspection_engine_bay.webp",
+    categories: ["news"],
+    tags: ["차량점검", "폭염", "배터리", "냉각수", "환절기"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "폭염을 지난 차량은 배터리, 냉각수, 타이어, 와이퍼, 에어컨 필터에서 후유증이 남는다. 배터리는 고온에서 내부 반응이 빨라져 수명이 줄지만 증상은 기온이 떨어질 때 나타난다. 냉각수는 여름 내내 최대 부하를 받았고, 타이어는 뜨거운 노면에서 마모가 빨라진다. 와이퍼 고무는 자외선에 경화되고 에어컨 증발기에는 곰팡이가 남는다. 환절기가 점검 적기다."
+  },
+  {
+    slug: "august-2026-year-end-stock-discount",
+    title: "\"4,350만 원이 3,550만 원\"… 8월 말 재고 소진 할인, 어디까지 내려갔나",
+    date: "2026-08-24",
+    image: "kia_tasman_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["할인", "타스만", "포터", "GMC시에라", "재고소진"],
+    badge: "PROMOTION",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "8월 말 재고 소진을 겨냥한 할인이 이어지고 있다. 기아 타스만은 최다 판매 트림 4,350만 원이 조건을 모두 채우면 3,550만 원대까지 내려간다. 5월 생산분 대상 600만 원 판매장려금과 100만 원 휴가 보너스가 핵심이다. 현대 포터 II는 LPDi 기본가 2,141만 원에서 최대 390만 원을 빼 1,751만 원대가 된다. GMC는 시에라 시승 고객 선착순 30명에게 100만 원 주유권을 준다."
+  },
+  {
     slug: "hyundai-staria-us-minivan-absence-2026",
     title: "\"미니밴이 다시 팔리는데\"… 스타리아는 왜 미국에 없을까",
     date: "2026-08-24",
