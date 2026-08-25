@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "highway-shoulder-secondary-crash-guide",
     title: "\"치사율 48%\"… 고속도로에서 차가 멈췄을 때, 삼각대보다 먼저 할 일",
     date: "2026-08-25",
-    image: "warning_triangle_road.webp",
+    image: "dashcam_footage_highway_view.webp",
     categories: ["news"],
     tags: ["2차사고", "고속도로", "안전삼각대", "갓길", "무료견인"],
     badge: "DRIVING TIPS",
