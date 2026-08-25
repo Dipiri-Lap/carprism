@@ -29,7 +29,7 @@ window.ARTICLES_DATA = [
     slug: "tourist-spot-parking-guide",
     title: "\"도착해서 40분을 돌았다\"… 주차가 편한 관광지, 최악인 관광지",
     date: "2026-08-25",
-    image: "usedcar_price_dealership_lot.webp",
+    image: "kto_jeonju_hanok_roofs.webp",
     categories: ["travel"],
     tags: ["주차", "관광지", "여행팁", "국립공원", "드라이브"],
     badge: "TRAVEL TIPS",
