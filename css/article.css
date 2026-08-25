@@ -348,6 +348,9 @@ body {
 }
 .article-img-wrap img {
   width: 100%;
+  /* img 에 width/height 속성(레이아웃 밀림 방지용)이 붙으면
+     height:auto 가 없을 때 그 픽셀 높이가 그대로 적용돼 비율이 깨진다. */
+  height: auto;
   border-radius: var(--radius-sm);
   background: var(--navy-mid);
 }
