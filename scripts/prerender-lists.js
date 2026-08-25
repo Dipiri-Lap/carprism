@@ -99,7 +99,7 @@ function fillMarkers(html, filename, blocks) {
 
 const data = loadArticlesData();
 const sortedByDate = [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
-const CAT_KEYS = ['electric', 'news', 'domestic', 'import', 'reviews'];
+const CAT_KEYS = ['electric', 'news', 'domestic', 'import', 'reviews', 'travel'];
 
 // ── index.html ──
 {
@@ -139,6 +139,7 @@ const CATEGORY_FILES = {
   domestic: 'domestic.html',
   import: 'import.html',
   reviews: 'reviews.html',
+  travel: 'travel.html',
   all: 'archive.html',
 };
 

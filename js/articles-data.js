@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "donghae-route7-drive-course",
+    title: "\"바다가 계속 오른쪽에 있다\"… 7번 국도, 북에서 남으로 달려야 하는 이유",
+    date: "2026-08-25",
+    image: "kr_jeongdongjin_beach.webp",
+    categories: ["travel"],
+    tags: ["7번국도", "동해안", "드라이브코스", "강릉", "삼척"],
+    badge: "DRIVE COURSE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "7번 국도는 강원 고성에서 부산까지 동해안을 따라 내려가는 국도다. 목적지보다 길 자체가 목적인 드라이브 코스로, 북에서 남으로 달리면 바다가 계속 운전석 반대편인 조수석 쪽에 놓인다. 강릉 경포에서 정동진, 동해, 삼척으로 이어지는 구간이 바다와 가장 가깝게 붙는다. 고속도로가 아니라 국도이므로 평균 속도와 소요 시간을 넉넉히 잡아야 한다."
+  },
+  {
+    slug: "autumn-foliage-drive-course",
+    title: "\"단풍은 하루 25km씩 내려온다\"… 가을 드라이브, 어디를 언제 가야 하나",
+    date: "2026-08-25",
+    image: "kr_naejangsan_pavilion_autumn.webp",
+    categories: ["travel"],
+    tags: ["단풍", "가을드라이브", "설악산", "내장산", "단풍시기"],
+    badge: "SEASON",
+    badgeClass: "cat-gold",
+    source: "카프리즘 기획 기사",
+    desc: "단풍은 북쪽 높은 산에서 시작해 남쪽으로 내려온다. 설악산은 10월 초 정상부터 물들어 중순에 중턱, 하순에 기슭까지 내려오고, 내장산은 10월 중순부터 시작해 10월 말에서 11월 초에 절정을 맞는다. 같은 산이라도 정상과 기슭의 시차가 2~3주에 이르므로 고도를 함께 봐야 한다. 2026년 절정 시기 예보는 9월 이후 발표된다."
+  },
+  {
+    slug: "tourist-spot-parking-guide",
+    title: "\"도착해서 40분을 돌았다\"… 주차가 편한 관광지, 최악인 관광지",
+    date: "2026-08-25",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["travel"],
+    tags: ["주차", "관광지", "여행팁", "국립공원", "드라이브"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "여행 만족도를 가장 크게 떨어뜨리는 것은 목적지가 아니라 주차다. 국립공원과 구도심 명소, 축제 기간의 소도시는 주차 난도가 높고, 대형 주차장을 갖춘 해변과 휴게소형 관광지는 상대적으로 수월하다. 주차 난도를 미리 가늠하는 방법은 지도 위성사진으로 주차장 면적을 보고, 진입로가 편도 몇 차로인지 확인하는 것이다. 도착 시간을 한두 시간 앞당기는 것이 가장 확실한 해법이다."
+  },
+  {
+    slug: "travel-category-launch-note",
+    title: "카프리즘이 국내여행을 다루기 시작합니다",
+    date: "2026-08-25",
+    image: "kr_jeongdongjin_beach.webp",
+    categories: ["travel"],
+    tags: ["국내여행", "드라이브", "카테고리신설", "여행", "공지"],
+    badge: "NOTICE",
+    badgeClass: "cat-gold",
+    source: "카프리즘",
+    desc: "카프리즘이 국내여행 카테고리를 신설했다. 목적지 소개가 아니라 차로 가는 여행에 초점을 맞춘다. 길 자체가 콘텐츠가 되는 드라이브 코스, 차종에 따라 달라지는 선택지, 여행 정보에서 자주 빠지는 주차와 접근성을 다룬다. 첫 기사는 동해안 7번 국도, 가을 단풍 드라이브, 관광지 주차 공략 세 편이다."
+  },
+  {
     slug: "car-insurance-renewal-discount-riders",
     title: "\"같은 차, 같은 사람인데 30만 원 차이\"… 보험 갱신 때 챙기는 특약들",
     date: "2026-08-25",
