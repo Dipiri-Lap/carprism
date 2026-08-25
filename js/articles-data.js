@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-insurance-renewal-discount-riders",
+    title: "\"같은 차, 같은 사람인데 30만 원 차이\"… 보험 갱신 때 챙기는 특약들",
+    date: "2026-08-25",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["news"],
+    tags: ["자동차보험", "갱신", "할인특약", "마일리지특약", "보험료"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "자동차보험은 1년마다 갱신되지만 대부분 통지서 금액을 그대로 낸다. 실제로는 마일리지, 블랙박스, 안전운전 습관, 자녀할인, 대중교통 이용 실적 등 여러 할인 특약이 있고 중복 적용되는 경우도 많다. 특히 주행거리 특약은 후환급 방식이라 가입만 해두면 연말에 돌려받는 구조다. 갱신 전 비교와 특약 점검만으로 보험료가 크게 달라진다."
+  },
+  {
+    slug: "fuel-efficiency-driving-myths",
+    title: "\"예열은 3분\"이라는 말, 요즘 차엔 오히려 손해입니다",
+    date: "2026-08-25",
+    image: "tire_water_spray.jpg",
+    categories: ["news"],
+    tags: ["연비", "경제운전", "공회전", "타이어공기압", "에어컨"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "연비를 높이는 방법으로 알려진 것 중에는 근거가 약하거나 요즘 차에는 맞지 않는 것이 섞여 있다. 장시간 공회전 예열은 현대 엔진에는 불필요하고 연료만 태운다. 반면 타이어 공기압 관리, 불필요한 짐 빼기, 급가속·급제동 줄이기는 실제 효과가 확인된 항목이다. 에어컨은 무조건 끄는 것보다 저속에서는 창문, 고속에서는 에어컨이 유리하다."
+  },
+  {
+    slug: "emergency-kit-trunk-checklist",
+    title: "\"트렁크에 뭘 넣어둬야 하냐\"… 법으로 정해진 것과, 있어야 살아남는 것",
+    date: "2026-08-25",
+    image: "warning_triangle_road.webp",
+    categories: ["news"],
+    tags: ["비상용품", "안전삼각대", "차량용소화기", "트렁크", "점프케이블"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "차에 실어야 할 물건에는 법으로 정해진 것과 실제로 필요한 것이 있다. 고장자동차 표지(안전삼각대)는 도로교통법상 비치·설치 대상이며, 5인승 이상 승용차에는 차량용 소화기 설치가 의무화됐다. 여기에 점프 케이블, 타이어 수리 키트, 손전등, 장갑, 생수와 담요를 더하면 대부분의 상황에 대응할 수 있다. 반대로 트렁크에 오래 두면 안 되는 물건도 있다."
+  },
+  {
+    slug: "new-car-pdi-checklist",
+    title: "\"인수증에 서명하기 전 20분\"… 신차 받을 때 꼭 봐야 할 것들",
+    date: "2026-08-25",
+    image: "kgm_new_torres_showroom.webp",
+    categories: ["news"],
+    tags: ["신차인수", "PDI", "출고점검", "차대번호", "신차구매"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "신차는 공장에서 나온 뒤 운송과 보관을 거쳐 인도된다. 그 사이에 생긴 흠집이나 이상은 인수증에 서명한 뒤에는 다투기 어려워진다. 인수 현장에서 확인할 것은 차대번호와 계약 사양 일치, 주행거리, 외판 도장과 단차, 유리·타이어 제조주차, 전장품 작동, 실내 오염 여부다. 밝은 곳에서 낮에 받고, 문제가 있으면 인수증에 기재하고 사진을 남겨야 한다."
+  },
+  {
+    slug: "child-car-seat-legal-guide",
+    title: "\"만 6세 지나면 안 해도 된다\"는 말, 법은 맞고 안전은 틀립니다",
+    date: "2026-08-25",
+    image: "crosswalk_anyang.webp",
+    categories: ["news"],
+    tags: ["카시트", "어린이안전", "도로교통법", "범칙금", "안전띠"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "도로교통법상 6세 미만 영유아는 카시트를 사용해야 안전띠를 착용한 것으로 인정된다. 위반하면 6만 원의 범칙금이 부과된다. 13세 미만 어린이의 안전띠 미착용도 같은 금액이다. 다만 만 6세는 법적 최소선일 뿐이며, 안전 측면에서는 키 145cm 또는 12세까지 카시트 사용이 권장된다. 안전띠는 성인 체격을 기준으로 설계돼 있기 때문이다."
+  },
+  {
+    slug: "illegal-parking-fine-appeal-guide",
+    title: "\"4만 원이 3만 2천 원으로\"… 주정차 과태료, 깎는 법과 다투는 법",
+    date: "2026-08-25",
+    image: "kr_police_car_wonju.webp",
+    categories: ["news"],
+    tags: ["주정차위반", "과태료", "자진납부", "이의신청", "가산금"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "주정차 위반 과태료는 승용차 4만 원, 승합차 5만 원이며 동일 장소 2시간 이상이면 각각 5만 원과 6만 원으로 오른다. 사전통지서를 받고 의견 제출 기한 안에 자진 납부하면 20% 감경돼 승용차는 3만 2천 원이 된다. 이의가 있으면 최초 고지서를 받은 날부터 60일 이내에 이의신청을 할 수 있다. 미납하면 가산금 3%에 매월 1.2%가 중가산금으로 붙는다."
+  },
+  {
+    slug: "vehicle-inspection-deadline-fine-guide",
+    title: "\"하루 늦었을 뿐인데 4만 원\"… 자동차 정기검사, 기한이 62일인 이유",
+    date: "2026-08-25",
+    image: "license_exam_test_car.webp",
+    categories: ["news"],
+    tags: ["자동차검사", "정기검사", "과태료", "사이버검사소", "유효기간"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "한국교통안전공단",
+    desc: "자동차 정기검사는 유효기간 만료일 전후 각 31일, 총 62일 안에 받으면 된다. 이 기간을 넘기면 지연 30일 이내는 4만 원, 30일 초과 114일 이내는 4만 원에 31일째부터 3일 초과마다 2만 원이 붙고, 115일 이상은 60만 원이 부과된다. 유효기간과 예약은 한국교통안전공단 사이버검사소(cyberts.kr)나 1577-0990에서 확인할 수 있다."
+  },
+  {
+    slug: "roadside-assistance-holiday-guide",
+    title: "\"연휴엔 정비소가 다 닫는다\"… 긴급출동, 어디까지 공짜인지 아십니까",
+    date: "2026-08-25",
+    image: "highway_rest_area.webp",
+    categories: ["news"],
+    tags: ["긴급출동", "자동차보험특약", "견인", "연휴", "배터리방전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "자동차보험 긴급출동 서비스는 대부분 특약이라 가입해야 쓸 수 있다. 배터리 충전, 타이어 교체, 잠금 해제, 비상 급유, 긴급 견인이 기본 구성이며 회사와 상품에 따라 연간 횟수와 견인 거리 한도가 다르다. 고속도로에서는 한국도로공사가 1588-2504로 안전지대까지 무료 견인을 제공한다. 연휴에는 출동 수요가 몰려 대기가 길어지므로 사전 확인이 필요하다."
+  },
+  {
     slug: "winter-tire-change-timing-7c",
     title: "\"영상 7도에서 이미 늦는다\"… 겨울용 타이어, 눈 오기 전에 갈아야 하는 이유",
     date: "2026-08-25",
