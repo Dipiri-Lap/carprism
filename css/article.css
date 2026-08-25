@@ -783,3 +783,10 @@ body {
   .meta-divider { display: none; }
   .share-btn span { display: none; }
 }
+
+/* JS가 실행되지 않으면 .reveal 이 opacity:0 인 채로 남아 콘텐츠가 통째로 사라진다.
+   스크립트가 없는 환경에서는 애니메이션을 포기하고 즉시 표시한다. */
+.no-js .reveal { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}

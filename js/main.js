@@ -198,16 +198,32 @@ window.addEventListener('scroll', () => {
 });
 
 // 섹션 등장 애니메이션
+// .reveal 은 CSS에서 opacity:0 이므로, is-visible 이 붙지 않으면 콘텐츠가 보이지 않는다.
+// 따라서 어떤 경우에도 반드시 표시되도록 세 겹으로 보호한다.
 const revealEls = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('is-visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.1 });
-revealEls.forEach((el) => observer.observe(el));
+const showAllReveal = () => revealEls.forEach((el) => el.classList.add('is-visible'));
+
+if (!('IntersectionObserver' in window)) {
+  // (1) 미지원 브라우저: 애니메이션 없이 즉시 표시
+  showAllReveal();
+} else {
+  // (2) threshold 는 반드시 0 이어야 한다.
+  //     기사 본문(.article-body)처럼 뷰포트보다 몇 배 긴 요소는
+  //     화면을 가득 채워도 자기 높이의 10%를 넘기지 못해,
+  //     threshold 0.1 에서는 영영 is-visible 이 붙지 않고 통째로 숨는다.
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0 });
+  revealEls.forEach((el) => observer.observe(el));
+
+  // (3) 최후 안전장치: 관찰이 어떤 이유로든 발동하지 않아도 콘텐츠는 노출되어야 한다.
+  window.setTimeout(showAllReveal, 2500);
+}
 
 // 모바일 메뉴 토글
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
