@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "autumn-foliage-drive-course",
     title: "\"고도 100m마다 이틀씩 늦어진다\"… 가을 드라이브, 어디를 언제 가야 하나",
     date: "2026-08-25",
-    image: "kr_naejangsan_pavilion_autumn.webp",
+    image: "kto_donghae_mureung_pavilion.webp",
     categories: ["travel"],
     tags: ["단풍", "가을드라이브", "설악산", "내장산", "단풍시기"],
     badge: "SEASON",
