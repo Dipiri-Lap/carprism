@@ -2,9 +2,117 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "senior-driver-cognitive-test-2026",
+    title: "\"사고 낸 고령 운전자 38.3%는 위반 기록이 없었다\"… 침묵의 위험군",
+    date: "2026-08-25",
+    image: "driving_license_exam_office.jpg",
+    categories: ["news"],
+    tags: ["고령운전자", "인지기능검사", "교통안전", "적성검사", "면허"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴 / 분당서울대병원",
+    desc: "분당서울대병원 연구팀이 60세 이상 남성 운전자 1,673명을 2년간 추적한 결과, 인명 피해 사고를 낸 290명 중 111명(38.3%)이 그 이전에 교통법규 위반이나 사고 기록이 전혀 없었다. 교육 연수 9년 이하이면서 선로잇기검사 B형이 180초를 넘긴 집단의 사고율은 20.9%로, 나머지 9.1%의 2.04배였다. 연구팀은 이것이 면허 취소 기준이 아니라 정밀 평가 대상을 걸러내는 1차 선별 도구라고 강조했다."
+  },
+  {
+    slug: "ev-charging-real-problem-survey-2026",
+    title: "\"충전기를 더 깔라는 게 아니었다\"… 전기차 운전자 44.4%가 꼽은 진짜 문제",
+    date: "2026-08-25",
+    image: "kr_ev_charging_gonggeun.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차충전", "충전인프라", "설문조사", "충전요금", "EV트렌드코리아"],
+    badge: "EV POLICY",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴 / EV트렌드코리아",
+    desc: "EV트렌드코리아 2026이 전기차 이용자 1,522명을 조사한 결과, 제조사에 바라는 개선점 1위는 고장 예방과 정기점검 강화(44.4%)였다. 충전 시작·종료 오류 감소 40.3%, 케이블·커넥터 사용성 개선 36.7%, 화면과 상태 정보 표준화 31.4%가 뒤를 이었다. 정부 정책 우선순위는 집·생활권 충전 확대 58.7%, 충전요금 인하 55.1%, 구매보조금·세제혜택 49.6% 순이었다."
+  },
+  {
+    slug: "tesla-robotaxi-66min-ride-failure-2026",
+    title: "\"3.7km 가는 데 66분\"… 테슬라 로보택시, 팬이 우버를 불렀습니다",
+    date: "2026-08-25",
+    image: "tesla_cybercab_front.webp",
+    categories: ["news", "electric"],
+    tags: ["테슬라", "로보택시", "자율주행", "웨이모", "무감독주행"],
+    badge: "AUTONOMOUS",
+    badgeClass: "cat-blue",
+    source: "Electrek",
+    desc: "스스로를 '테슬라 앰배서더'라 소개한 이용자가 2.3마일(약 3.7km) 구간에 1시간 6분이 걸린다는 안내를 받았다. 고객지원은 경로를 수정할 방법이 없다고 답했고, 그는 차에서 내려 우버를 불렀다. 환불은 게시물이 63만 회 이상 조회된 뒤에야 이뤄졌다. 다른 이용자는 교대 시간을 이유로 목적지에서 3마일 떨어진 곳에 내려졌다. 테슬라의 1~7월 무감독 주행은 38만 마일로 주당 약 1만 5,000마일 수준이다."
+  },
+  {
+    slug: "us-canada-truck-tariff-collapse-2026",
+    title: "\"1월 1일부터 50%\"… 미–캐나다 협상 결렬, 픽업트럭이 걸림돌이었습니다",
+    date: "2026-08-25",
+    image: "chevrolet_silverado_ev.webp",
+    categories: ["news", "import"],
+    tags: ["관세", "미국", "캐나다", "픽업트럭", "무역협상"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-red",
+    source: "CarBuzz",
+    desc: "미국과 캐나다의 무역 협상이 대형 픽업트럭과 부품 문제로 결렬되면서 관세가 25%에서 50%로 오른다. 시행은 1월 1일이다. 온타리오에서 만드는 쉐보레 실버라도, 윈저의 크라이슬러 퍼시피카, 오크빌에서 생산 예정인 포드 슈퍼듀티가 영향권이다. 부품이 국경을 여러 번 넘으면서 관세가 중첩된다. 캐나다 마크 카니 총리는 미국산 차량에 '달러 대 달러' 맞대응을 예고했다."
+  },
+  {
+    slug: "hyundai-wage-deal-2026",
+    title: "\"성과금 400%에 주식 15주\"… 현대차 파업, 111일 만에 끝났습니다",
+    date: "2026-08-25",
+    image: "hyundai_ulsan_plant_assembly_line.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차", "임단협", "잠정합의", "성과금", "고용안정"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-hyundai",
+    source: "카가이 / 오토헤럴드",
+    desc: "현대차 노사가 111일간의 교섭 끝에 2026년 임금협상 잠정합의안을 도출했다. 기본급 10만 원 인상(호봉승급분 포함), 경영성과금 400%+1,270만 원, 주식 15주, 복지포인트 50만 원이 담겼다. 2027년 하반기 기술직 200명, 2028년 300명 신규 채용도 포함됐다. 쟁점이던 AI·로보틱스 도입은 노사가 공동 대응하기로 정리됐다."
+  },
+  {
+    slug: "hyundai-palisade-lineup-expansion-2026",
+    title: "\"지붕을 240mm 올렸는데 지하주차장은 들어간다\"… 팰리세이드 하이루프",
+    date: "2026-08-25",
+    image: "palisade_full_change_main.webp",
+    categories: ["domestic", "news"],
+    tags: ["팰리세이드", "하이루프", "XRT", "블랙잉크", "현대차"],
+    badge: "NEW TRIM",
+    badgeClass: "cat-hyundai",
+    source: "지피코리아 / 카가이",
+    desc: "현대차가 8월 25일 2027 팰리세이드에 하이루프, 블랙 잉크, XRT를 추가했다. 하이루프는 지붕을 표준 대비 240mm 높이면서 전고를 2,005mm로 맞춰 지하주차장 진입이 가능하다. 가격은 7,244만 원부터, 하이브리드는 7,844만 원부터다. 별이 뜬 듯한 천장 연출과 뒷좌석 엔터테인먼트, 듀얼 무선충전과 UV-C 살균이 들어가는 VIP 패키지가 적용된다."
+  },
+  {
+    slug: "hyundai-tucson-hybrid-powertrain-cert-2026",
+    title: "\"그랜저에 넣었던 기술을 투싼에\"… 신형 투싼 하이브리드, 인증 끝났습니다",
+    date: "2026-08-25",
+    image: "tucson_ng_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["투싼", "하이브리드", "파워트레인", "그랜저", "8단자동"],
+    badge: "UPCOMING",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴",
+    desc: "신형 투싼의 파워트레인 인증이 완료됐다. 가솔린은 1.6 터보 193마력에 기존 7단 DCT 대신 8단 토크컨버터 자동변속기가 물린다. 하이브리드는 1.6 터보 기반 180마력이며 신형 그랜저에 처음 들어간 P1·P2 모터 구조를 적용했다. 구동모터를 역위상으로 정밀 제어해 엔진 공회전 진동과 부밍음을 줄인 것이 핵심이다. 전장 4,700mm, 휠베이스 2,785mm이며 3분기 출시 예정이다."
+  },
+  {
+    slug: "genesis-gv90-30-technologies-2026",
+    title: "\"세계 최초 지붕 에어백\"… GV90에 들어간 신기술 30개, 뜯어봤습니다",
+    date: "2026-08-25",
+    image: "genesis_gv90_neolun_front.webp",
+    categories: ["domestic", "electric"],
+    tags: ["제네시스GV90", "루프에어백", "eMP", "아치게이트", "전기SUV"],
+    badge: "TECHNOLOGY",
+    badgeClass: "cat-genesis",
+    source: "지피코리아",
+    desc: "제네시스가 8월 20일 샌프란시스코 테크 브리프에서 GV90에 적용된 신기술 30개를 공개했다. 신규 eMP 플랫폼에 앞 240kW·뒤 250kW 듀얼모터로 합산 490kW, 800Nm를 낸다. 123.5kWh 배터리에 350kW 급속충전으로 10~80%를 22분에 채운다. B필러를 없앤 아치 게이트, 1.8GPa 초고장력 히든 B필러, 사고 3,800만 건 분석으로 개발한 세계 최초 루프 에어백이 핵심이다."
+  },
+  {
+    slug: "genesis-gv90-erev-review-2026",
+    title: "\"왜 안 되겠나\"… 제네시스가 GV90에 엔진을 넣을지 고민하는 이유",
+    date: "2026-08-25",
+    image: "genesis_gv90_neolun_front2.webp",
+    categories: ["domestic", "electric"],
+    tags: ["제네시스GV90", "EREV", "주행거리연장", "전동화전략", "동커볼케"],
+    badge: "STRATEGY",
+    badgeClass: "cat-genesis",
+    source: "오토헤럴드 / Carscoops",
+    desc: "제네시스가 GV90에 EREV(주행거리 연장형 전기차) 사양 추가를 검토 중이다. 다만 출시는 순수전기로 먼저 한다. 루크 동커볼케 최고창조책임자는 EREV 가능성에 \"왜 안 되겠나, 기술적으로 호환된다\"고 답하면서도 플래그십 럭셔리 SUV에는 순수전기가 가장 어울린다고 밝혔다. GV90은 123.5kWh 배터리에 657마력, 7인승 기준 500km를 목표로 한다. 실제 도입 여부는 시장 수요가 결정한다."
+  },
+  {
     slug: "chuseok-long-drive-checklist-2026",
     title: "\"올해 추석은 9월 25일\"… 귀성길, 출발 전 30분이 다르게 만듭니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "highway_rest_area.webp",
     categories: ["news"],
     tags: ["추석", "통행료면제", "장거리운전", "차량점검", "고속도로"],
@@ -16,7 +124,7 @@ window.ARTICLES_DATA = [
   {
     slug: "gangnam-robotaxi-how-to-use-2026",
     title: "\"카카오T에서 '서울자율차'를 찾으세요\"… 강남 자율주행택시 이용법 총정리",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "kgm_new_torres_showroom.webp",
     categories: ["news"],
     tags: ["자율주행택시", "카카오T", "서울자율차", "강남", "심야택시"],
@@ -28,7 +136,7 @@ window.ARTICLES_DATA = [
   {
     slug: "post-heatwave-car-checkup-2026",
     title: "\"여름은 끝났는데 차는 아직 앓고 있다\"… 폭염 뒤 꼭 봐야 할 5가지",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "car_battery_inspection_engine_bay.webp",
     categories: ["news"],
     tags: ["차량점검", "폭염", "배터리", "냉각수", "환절기"],
@@ -40,7 +148,7 @@ window.ARTICLES_DATA = [
   {
     slug: "august-2026-year-end-stock-discount",
     title: "\"4,350만 원이 3,550만 원\"… 8월 말 재고 소진 할인, 어디까지 내려갔나",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "kia_tasman_front.webp",
     categories: ["domestic", "news"],
     tags: ["할인", "타스만", "포터", "GMC시에라", "재고소진"],
@@ -52,7 +160,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-staria-us-minivan-absence-2026",
     title: "\"미니밴이 다시 팔리는데\"… 스타리아는 왜 미국에 없을까",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "hyundai_staria_front.webp",
     categories: ["domestic", "news"],
     tags: ["스타리아", "미니밴", "미국시장", "카니발", "MPV"],
@@ -64,7 +172,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bmw-z4-8series-collectible-2026",
     title: "\"5년 만들고 1만 대\"… 곧 사라지는 BMW 두 대, 지금 값이 움직입니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "bmw_z4_g29_m40i_front.webp",
     categories: ["import", "news"],
     tags: ["BMW", "Z4", "8시리즈", "단종", "잔존가치"],
@@ -76,7 +184,7 @@ window.ARTICLES_DATA = [
   {
     slug: "porsche-sonderwunsch-expansion-2026",
     title: "\"고객이 프로젝트 매니저가 된다\"… 포르쉐 존더분쉬가 카이엔·파나메라로 넓어집니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "porsche_911_carrera_gts.webp",
     categories: ["import", "news"],
     tags: ["포르쉐", "존더분쉬", "주문제작", "카이엔", "파나메라"],
@@ -88,7 +196,7 @@ window.ARTICLES_DATA = [
   {
     slug: "aston-martin-thor-valkyrie-silverstone-2026",
     title: "\"1,000마력을 680마력으로 묶는다\"… 발키리가 실버스톤에서 확인한 것",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "aston_martin_valkyrie_front.webp",
     categories: ["import", "news"],
     tags: ["애스턴마틴", "발키리", "WEC", "IMSA", "실버스톤"],
@@ -100,7 +208,7 @@ window.ARTICLES_DATA = [
   {
     slug: "mazda3-turbo-vs-gti-2026",
     title: "\"GTI보다 326만 원 비싼데 사륜구동\"… 마쓰다3 터보라는 선택지",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "mazda3_hatchback_front.webp",
     categories: ["import", "review"],
     tags: ["마쓰다3", "골프GTI", "핫해치", "사륜구동", "비교"],
@@ -112,7 +220,7 @@ window.ARTICLES_DATA = [
   {
     slug: "vw-engine-mount-crash-safety-patent-2026",
     title: "\"부품 하나 바꿔서 정면충돌을 덜 무섭게\"… 폭스바겐이 낸 엔진 마운트 특허",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "vw_golf8_front.webp",
     categories: ["import", "news"],
     tags: ["폭스바겐", "특허", "충돌안전", "엔진마운트", "정면충돌"],
@@ -124,7 +232,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bmw-modular-headliner-patent-2026",
     title: "\"찍찍이로 붙였다 뗐다\"… BMW가 컨버터블 천장에 내놓은 특허",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "bmw_m4_g83_convertible_front.webp",
     categories: ["import", "news"],
     tags: ["BMW", "특허", "헤드라이너", "컨버터블", "M4"],
@@ -136,7 +244,7 @@ window.ARTICLES_DATA = [
   {
     slug: "rivian-r2-vs-subaru-trailseeker-2026",
     title: "\"900만 원을 더 낼 만한 단 한 가지 경우\"… 리비안 R2 vs 스바루 트레일시커",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "rivian_r2_front.webp",
     categories: ["electric", "import"],
     tags: ["리비안R2", "스바루트레일시커", "전기SUV", "비교", "오프로드"],
@@ -148,7 +256,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bugatti-veyron-tire-cost-solution-2026",
     title: "\"타이어 한 세트에 5,800만 원\"… 부가티가 내놓은 해법에 붙은 조건",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "bugatti_veyron_164_front.webp",
     categories: ["import", "news"],
     tags: ["부가티", "베이론", "타이어", "PAX", "라메종퓌르상"],
@@ -160,7 +268,7 @@ window.ARTICLES_DATA = [
   {
     slug: "cheapest-us-car-to-own-2026",
     title: "\"연 493만 원, 미국에서 가장 싸게 타는 차\"… 그런데 아무도 안 삽니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "fiat_500e_current_blue.webp",
     categories: ["news", "electric"],
     tags: ["유지비", "피아트500e", "전기차", "미국시장", "보험료"],
@@ -172,7 +280,7 @@ window.ARTICLES_DATA = [
   {
     slug: "bmw-ix-value-collapse-2026",
     title: "\"BMW가 스스로 필요 없게 만든 차\"… iX, 3년 만에 값이 절반으로",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "bmw_ix3_na5_front.webp",
     categories: ["import", "electric"],
     tags: ["BMW", "iX", "감가상각", "전기SUV", "중고차"],
@@ -184,7 +292,7 @@ window.ARTICLES_DATA = [
   {
     slug: "zeekr-7x-200k-orders-global-2026",
     title: "\"20만 번째 주문은 멕시코에서 나왔다\"… 지커 7X가 2년 만에 넘은 선",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "zeekr_7x_main.webp",
     categories: ["electric", "import"],
     tags: ["지커7X", "지커", "전기SUV", "글로벌판매", "기린배터리"],
@@ -196,7 +304,7 @@ window.ARTICLES_DATA = [
   {
     slug: "factory-humanoid-robot-efficiency-debate-2026",
     title: "\"백만 달러짜리 해법, 백 달러짜리 문제\"… 공장 휴머노이드는 정말 필요한가",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "hyundai_bostondynamics_atlas_exhibit.webp",
     categories: ["news"],
     tags: ["휴머노이드", "공장자동화", "보스턴다이내믹스", "피규어AI", "협동로봇"],
@@ -208,7 +316,7 @@ window.ARTICLES_DATA = [
   {
     slug: "byd-ocean-first-mpv-2026",
     title: "\"버튼이 없고 시트가 침대가 된다\"… BYD 오션의 첫 MPV, 연내 나올까",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "byd_sealion07_ev.webp",
     categories: ["electric", "import"],
     tags: ["BYD", "오션", "MPV", "오션-V", "덴자D9"],
@@ -220,7 +328,7 @@ window.ARTICLES_DATA = [
   {
     slug: "vw-amarok-next-gen-split-platform-2026",
     title: "\"같은 이름, 전혀 다른 두 대\"… 아마록이 미국 뼈대와 중국 뼈대로 갈라집니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "vw_amarok_highline_side.webp",
     categories: ["import", "news"],
     tags: ["폭스바겐", "아마록", "픽업트럭", "SAIC", "플러그인하이브리드"],
@@ -232,7 +340,7 @@ window.ARTICLES_DATA = [
   {
     slug: "jeep-compass-e-hybrid-2027-review",
     title: "\"험한 얼굴이 못 지키는 약속\"… 2027 지프 컴패스 e-하이브리드를 본 해외의 평가",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "jeep_compass_j4u_ehybrid_front.webp",
     categories: ["import", "review"],
     tags: ["지프", "컴패스", "e하이브리드", "STLA미디엄", "해외리뷰"],
@@ -244,7 +352,7 @@ window.ARTICLES_DATA = [
   {
     slug: "near-new-used-car-demand-surge-2026",
     title: "\"신차값 감당이 안 된다\"… 4만km 이하 중고차 검색이 한 달 만에 24% 뛰었습니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "usedcar_price_dealership_lot.webp",
     categories: ["news"],
     tags: ["중고차", "케이카", "저주행", "개별소비세", "신차가격"],
@@ -256,7 +364,7 @@ window.ARTICLES_DATA = [
   {
     slug: "aston-martin-s-trio-korea-debut-2026",
     title: "\"출력만 올린 게 아니다\"… 애스턴마틴 S 3종, 국내에 한꺼번에 왔습니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "astonmartin_db12s_vmf_main.webp",
     categories: ["import", "news"],
     tags: ["애스턴마틴", "DBX S", "밴티지S", "DB12S", "고성능"],
@@ -268,7 +376,7 @@ window.ARTICLES_DATA = [
   {
     slug: "genesis-gv70-black-trim-2026",
     title: "\"그래파이트 옆에 블랙을 하나 더\"… GV70에 붙을지 모를 두 번째 어두운 트림",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "genesis_gv70_2027_official.jpg",
     categories: ["domestic", "news"],
     tags: ["제네시스", "GV70", "프레스티지블랙", "그래파이트", "북미시장"],
@@ -280,7 +388,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-september-hiring-sdv-ai-2026",
     title: "\"92개 공고를 한꺼번에 연다\"… 현대차 9월 채용이 가리키는 방향",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "hyundai_ulsan_plant_assembly_line.webp",
     categories: ["news", "domestic"],
     tags: ["현대차", "채용", "SDV", "AI", "로보틱스"],
@@ -292,7 +400,7 @@ window.ARTICLES_DATA = [
   {
     slug: "hyundai-largest-us-plant-tariff-2026",
     title: "\"연 80만 대, 미국 최대 조립공장\"… 관세가 밀어붙인 현대차의 선택",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "kia_sportage_hybrid_us_front.webp",
     categories: ["news", "domestic"],
     tags: ["현대차", "메타플랜트", "관세", "미국생산", "조지아"],
@@ -304,7 +412,7 @@ window.ARTICLES_DATA = [
   {
     slug: "gangnam-robotaxi-expansion-2026",
     title: "\"기사님이 타고 있는데 자율주행\"… 강남 심야 로보택시, 19대로 늘었습니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "kgm_new_torres_front.webp",
     categories: ["news", "domestic"],
     tags: ["자율주행택시", "강남", "카카오T", "토레스EVX", "레벨4"],
@@ -316,7 +424,7 @@ window.ARTICLES_DATA = [
   {
     slug: "ev-charging-spot-parking-fine-2026",
     title: "\"충전 안 할 거면 빼주세요\"… 충전구역 얌체 주차, 10만 원 과태료 추진",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "kr_ev_charging_gonggeun.webp",
     categories: ["electric", "news"],
     tags: ["전기차충전", "충전방해", "과태료", "친환경자동차법", "겸용주차"],
@@ -327,20 +435,20 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-tailgate-patent-pickup-2026",
-    title: "\"포드도 램도 안 한 방식\"… 현대차가 미국에 낸 테일게이트 특허의 정체",
-    date: "2026-08-24",
+    title: "\"포드도 램도 안 한 방식\"… 현대차 테일게이트 특허, 좌우로 갈라집니다",
+    date: "2026-08-25",
     image: "hyundai_santacruz_rear_bed.webp",
     categories: ["news", "domestic"],
     tags: ["현대차", "테일게이트", "특허", "싼타크루즈", "픽업트럭"],
     badge: "PATENT",
     badgeClass: "cat-hyundai",
     source: "지피코리아",
-    desc: "현대차가 8월 22일(현지시간) 미국 특허청에 픽업 테일게이트 특허를 출원했다. 중앙 힌지로 부분 개방이 가능하고 접이식 플랫폼이 통합돼 긴 화물을 실을 수 있다. 케이블과 힌지 대신 서포트 암 구조를 써서 하중을 견디며, 테일게이트를 연 채 주행할 때도 플랫폼을 고정할 수 있다. 특허 이미지에는 싼타크루즈가 등장하지만 양산 적용은 확정되지 않았다."
+    desc: "현대차가 미국 특허청에 픽업 테일게이트 특허를 출원했다. 기존 일체형과 달리 좌우 독립 패널로 나뉘어 필요한 쪽만 열 수 있는 구조다. 패널을 수평으로 펼치면 적재함 바닥이 연장돼 간이 작업대나 캠핑 테이블, 벤치로도 쓸 수 있다. 내부에는 슬라이딩 지지 암과 확장 트레이, 고강도 스트라이커 잠금장치, 다중 페일세이프가 들어간다. 적용 후보로는 개발 중인 프레임 기반 중형 픽업이 거론되지만 양산은 확정되지 않았다."
   },
   {
     slug: "hyundai-full-strike-robot-conflict-2026",
     title: "\"로봇이 먼저 오느냐, 정년이 먼저 오느냐\"… 현대차 10년 만의 전면 파업",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "hyundai_ulsan_plant_assembly_line.webp",
     categories: ["news", "domestic"],
     tags: ["현대차", "파업", "보스턴다이내믹스", "아틀라스", "자동화"],
@@ -352,7 +460,7 @@ window.ARTICLES_DATA = [
   {
     slug: "maybach-s-class-korea-first-delivery-2026",
     title: "\"그릴이 20% 커졌다\"… 마이바흐 S클래스 1호차, 청담에서 나갔습니다",
-    date: "2026-08-24",
+    date: "2026-08-25",
     image: "benz_maybach_w223_china4.webp",
     categories: ["import", "news"],
     tags: ["마이바흐", "S클래스", "한성자동차", "메르세데스벤츠", "플래그십세단"],
