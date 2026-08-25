@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "korean-suv-four-way-comparison-2026",
+    title: "\"준중형이 중형보다 넓어졌다\"… 투싼·스포티지·쏘렌토·싼타페, 이제 뭘 사야 하나",
+    date: "2026-08-25",
+    image: "tucson_ng_pair_road.webp",
+    categories: ["domestic", "news"],
+    tags: ["투싼", "스포티지", "쏘렌토", "싼타페", "SUV비교"],
+    badge: "COMPARISON",
+    badgeClass: "cat-hyundai",
+    source: "카프리즘 기획 기사",
+    desc: "신형 투싼의 전폭이 1,905mm로 확정되면서 한 체급 위인 쏘렌토·싼타페(1,900mm)보다 넓어졌다. 준중형에서 중형으로 올라갈 이유가 흔들리는 지점이다. 다만 전장은 투싼 4,700mm, 쏘렌토 4,815mm, 싼타페 4,830mm로 여전히 100mm 이상 차이가 나고 3열 유무가 갈린다. 가격은 스포티지 2,903만 원부터, 쏘렌토 하이브리드 3,896만 원부터, 싼타페 하이브리드 3,964만 원부터다."
+  },
+  {
     slug: "bmw-spiderman-in-car-ad-controversy-2026",
     title: "\"차 안은 사적 공간이라더니\"… BMW 스파이더맨 화면이 남긴 질문",
     date: "2026-08-25",
