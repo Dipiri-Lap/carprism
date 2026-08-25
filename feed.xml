@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 25 Aug 2026 09:42:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 11:19:57 GMT</lastBuildDate>
+    <item>
+      <title>&quot;차 안은 사적 공간이라더니&quot;… BMW 스파이더맨 화면이 남긴 질문</title>
+      <link>https://carprism.tmhub.co.kr/articles/bmw-spiderman-in-car-ad-controversy-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-spiderman-in-car-ad-controversy-2026.html</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <description>BMW가 영화 &apos;스파이더맨: 브랜드 뉴 데이&apos; 개봉에 맞춰 7월 27일부터 8월 10일까지 약 70개국 차량 디스플레이에 스파이더맨 콘텐츠를 띄웠다. 2020년 7월 이후 생산되고 OS 7·8·8.5·9 또는 OS X를 탑재한 차량이 대상이다. 시동을 켜면 배너가 뜨고 누르면 애니메이션이 재생되며 무드등 색까지 바뀐다. 2023년 &quot;차량 실내는 사적 공간&quot;이라며 디스플레이 광고 계획이 없다고 밝혔던 입장과 배치돼 논란이 됐다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_x7_interior.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;사고 낸 고령 운전자 38.3%는 위반 기록이 없었다&quot;… 침묵의 위험군</title>
       <link>https://carprism.tmhub.co.kr/articles/senior-driver-cognitive-test-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
       <description>신형 지프 컴패스 e-하이브리드에 대해 카스쿱스가 시승 평가를 내놨다. 결론은 외관이 약속하는 오프로드 성향을 실제 주행이 뒷받침하지 못한다는 것이다. 신형 컴패스(J4U)는 스텔란티스 STLA 미디엄 플랫폼 기반으로, 1.2L e-하이브리드가 엔트리 파워트레인이며 전기 사양도 병행된다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/jeep_compass_j4u_ehybrid_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;신차값 감당이 안 된다&quot;… 4만km 이하 중고차 검색이 한 달 만에 24% 뛰었습니다</title>
-      <link>https://carprism.tmhub.co.kr/articles/near-new-used-car-demand-surge-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/near-new-used-car-demand-surge-2026.html</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description>케이카 조사 결과 2026년 7월 주행거리 4만km 이하 중고차 검색량이 전월 대비 24.2% 증가했다. 3만km 이하는 16.3%, 2만km 이하는 14.9% 늘었고 2023년식 이상은 13.8%, 2024년식 이상은 12.7% 증가했다. 7월 개별소비세 한시 인하 종료로 신차 구매 부담이 커진 것이 배경으로 지목된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/usedcar_price_dealership_lot.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

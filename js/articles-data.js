@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-spiderman-in-car-ad-controversy-2026",
+    title: "\"차 안은 사적 공간이라더니\"… BMW 스파이더맨 화면이 남긴 질문",
+    date: "2026-08-25",
+    image: "bmw_x7_interior.webp",
+    categories: ["import", "news"],
+    tags: ["BMW", "차량내광고", "인포테인먼트", "스파이더맨", "OTA"],
+    badge: "ISSUE",
+    badgeClass: "cat-red",
+    source: "생생비즈플러스 / 뉴시스",
+    desc: "BMW가 영화 '스파이더맨: 브랜드 뉴 데이' 개봉에 맞춰 7월 27일부터 8월 10일까지 약 70개국 차량 디스플레이에 스파이더맨 콘텐츠를 띄웠다. 2020년 7월 이후 생산되고 OS 7·8·8.5·9 또는 OS X를 탑재한 차량이 대상이다. 시동을 켜면 배너가 뜨고 누르면 애니메이션이 재생되며 무드등 색까지 바뀐다. 2023년 \"차량 실내는 사적 공간\"이라며 디스플레이 광고 계획이 없다고 밝혔던 입장과 배치돼 논란이 됐다."
+  },
+  {
     slug: "senior-driver-cognitive-test-2026",
     title: "\"사고 낸 고령 운전자 38.3%는 위반 기록이 없었다\"… 침묵의 위험군",
     date: "2026-08-25",
