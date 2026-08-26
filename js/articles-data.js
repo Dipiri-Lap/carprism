@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "autumn-silver-grass-drive-course-2026",
     title: "\"단풍보다 3주 늦게 옵니다\"… 억새는 10월 중순부터입니다",
     date: "2026-08-26",
-    image: "kto_reed_ridge.webp",
+    image: "gg_myeongseongsan_reed_ridge.webp",
     categories: ["travel"],
     tags: ["억새", "민둥산", "명성산", "가을드라이브", "하늘공원"],
     badge: "DRIVE COURSE",
