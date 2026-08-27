@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -5238,6 +5238,96 @@
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/night-sky-stargazing-drive-korea.html</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/gm-korea-service-network-380-ev-capability.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-mobis-ai-manufacturing-suppliers-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/jeep-china-production-restart-dongfeng-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/bentley-exterior-design-head-john-mayer.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-body-on-frame-pickup-north-america.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-sealion7-plus-korea-review-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/reboncar-rqi-used-car-transparency-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/waymo-vision-only-criticism-tesla-fsd.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/nhtsa-gm-l87-v8-engine-analysis-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/benz-electric-glc-korea-preorder-700.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/lamborghini-miura-60th-pebble-beach-43.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kia-rv-black-edition-2027.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ram-1500-seatbelt-anchor-recall-127m.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kia-ev9-us-recall-passenger-airbag-2026.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kia-sportage-2027-navigation-standard.html</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
