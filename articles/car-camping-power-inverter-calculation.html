@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"냉장고 하나 돌리려다 아침에 시동이 안 걸립니다"… 차박 전력, 숫자로 계산해봤습니다 | CarPrism</title>
+<meta name="description" content="차박에서 전력을 쓰려면 인버터 용량을 실제 소비전력에 맞춰 골라야 한다. 냉장고와 노트북, 조명 중심이라면 2000W급으로 충분하고 전자레인지나 커피머신처럼 순간 전력이 큰 기기를 함께 쓴다면 3000W 이상을 검토해야 한다. 일반 승용차는 12V 시스템이며 대형 트럭은 24V를 쓰는 경우가 많다. 시동을 끈 상태에서 차량 배터리로 전자기기를 돌리면 방전 위험이 있어, 별도 파워뱅크를 쓰는 방식이 일반적이다. 500Wh급 파워뱅크는 냉장고 사용 조건에 따라 실제 지속 시간이 크게 달라진다.">
+<meta name="keywords" content="차박, 인버터, 파워뱅크, 배터리방전, 캠핑">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/car-camping-power-inverter-calculation.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="차박 전력과 인버터 계산">
+<meta property="og:description" content="차박에서 전력을 쓰려면 인버터 용량을 실제 소비전력에 맞춰 골라야 한다. 냉장고와 노트북, 조명 중심이라면 2000W급으로 충분하고 전자레인지나 커피머신처럼 순간 전력이 큰 기기를 함께 쓴다면 3000W 이상을 검토해야 한다. 일반 승용차는 12V 시스템이며 대형 트럭은 24V를 쓰는 경우가 많다. 시동을 끈 상태에서 차량 배터리로 전자기기를 돌리면 방전 위험이 있어, 별도 파워뱅크를 쓰는 방식이 일반적이다. 500Wh급 파워뱅크는 냉장고 사용 조건에 따라 실제 지속 시간이 크게 달라진다.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/staria_ev_rear_seats_official.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/car-camping-power-inverter-calculation.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-08-27T22:40:00+09:00">
+<meta property="article:section" content="국내여행">
+<meta property="article:tag" content="차박,인버터,파워뱅크,배터리방전,캠핑">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="차박 전력과 인버터 계산">
+<meta name="twitter:description" content="차박에서 전력을 쓰려면 인버터 용량을 실제 소비전력에 맞춰 골라야 한다. 냉장고와 노트북, 조명 중심이라면 2000W급으로 충분하고 전자레인지나 커피머신처럼 순간 전력이 큰 기기를 함께 쓴다면 3000W 이상을 검토해야 한다. 일반 승용차는 12V 시스템이며 대형 트럭은 24V를 쓰는 경우가 많다. 시동을 끈 상태에서 차량 배터리로 전자기기를 돌리면 방전 위험이 있어, 별도 파워뱅크를 쓰는 방식이 일반적이다. 500Wh급 파워뱅크는 냉장고 사용 조건에 따라 실제 지속 시간이 크게 달라진다.">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/staria_ev_rear_seats_official.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/car-camping-power-inverter-calculation.html" },
+  "headline": "\"냉장고 하나 돌리려다 아침에 시동이 안 걸립니다\"… 차박 전력, 숫자로 계산해봤습니다",
+  "description": "차박에서 전력을 쓰려면 인버터 용량을 실제 소비전력에 맞춰 골라야 한다. 냉장고와 노트북, 조명 중심이라면 2000W급으로 충분하고 전자레인지나 커피머신처럼 순간 전력이 큰 기기를 함께 쓴다면 3000W 이상을 검토해야 한다. 일반 승용차는 12V 시스템이며 대형 트럭은 24V를 쓰는 경우가 많다. 시동을 끈 상태에서 차량 배터리로 전자기기를 돌리면 방전 위험이 있어, 별도 파워뱅크를 쓰는 방식이 일반적이다. 500Wh급 파워뱅크는 냉장고 사용 조건에 따라 실제 지속 시간이 크게 달라진다.",
+  "image": ["https://carprism.tmhub.co.kr/images/staria_ev_rear_seats_official.webp"],
+  "datePublished": "2026-08-27T22:40:00+09:00",
+  "dateModified": "2026-08-27T22:40:00+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "차박 전력과 인버터 계산", "item": "https://carprism.tmhub.co.kr/articles/car-camping-power-inverter-calculation.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../electric.html" class="nav-link" id="nav-electric">전기차</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../electric.html" class="nav-link">전기차</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="car-camping-power-inverter-calculation">
+      <meta itemprop="datePublished" content="2026-08-27T22:40:00+09:00">
+
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../travel.html">국내여행</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">차박 전력과 인버터 계산</span>
+      </nav>
+
+      <header class="article-header reveal">
+        <span class="article-cat cat-blue">TRAVEL TIPS</span>
+        <h1 class="article-title" itemprop="headline">
+          "냉장고 하나 돌리려다 아침에 시동이 안 걸립니다"… 차박 전력, 숫자로 계산해봤습니다
+        </h1>
+        <p class="article-subtitle">
+          인버터 숫자는 크게 적혀 있지만, 실제 한계는 배터리 쪽에서 먼저 옵니다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-08-27">2026년 8월 27일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 9분</span>
+        </div>
+      </header>
+
+      <div class="article-body reveal">
+
+        <div class="article-img-wrap">
+          <img src="../images/staria_ev_rear_seats_official.webp" alt="차량 실내 좌석" itemprop="image">
+          <p class="article-img-caption">▲ 차박은 차 안을 생활 공간으로 쓰는 방식이다. 전력 계획이 편의성을 결정한다 <span class="cap-credit">ⓒ 현대자동차 제공</span></p>
+        </div>
+
+        <p>
+          <strong>차박 장비 목록은 대개 매트와 커튼에서 시작합니다.</strong> 그다음이 냉장고, 조명, 선풍기입니다.
+        </p>
+        <p>
+          <strong>여기서부터 계산이 필요해집니다.</strong> 전기를 쓰는 물건이 하나 늘 때마다, 아침에 시동이 걸리지 않을 확률이 함께 올라갑니다.
+        </p>
+
+        <aside class="key-points">
+          <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+          <ul>
+            <li><strong>인버터 2000W급</strong>: 냉장고·노트북·조명 중심이면 충분</li>
+            <li><strong>인버터 3000W 이상</strong>: 전자레인지·커피머신 등 <strong>순간 전력</strong>이 큰 기기 병행 시</li>
+            <li><strong>전압</strong>: 일반 승용차 <strong>12V</strong> · 대형 트럭은 <strong>24V</strong>가 많음</li>
+            <li><strong>핵심</strong>: 인버터 용량보다 <strong>배터리 용량</strong>이 먼저 한계</li>
+            <li><strong>파워뱅크</strong>: 500Wh급은 냉장고 조건에 따라 <strong>지속 시간 편차가 큼</strong></li>
+          </ul>
+        </aside>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <h2 id="inverter">1. 인버터는 무엇을 하나</h2>
+
+        <p>
+          <strong>차량 전기는 직류(DC)</strong>입니다. 반면 가정용 전자기기는 <strong>교류(AC) 220V</strong>를 씁니다. 이 둘을 이어주는 장치가 <strong>인버터</strong>입니다.
+        </p>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>인버터 용량 선택 기준</caption>
+            <thead>
+              <tr><th>용량</th><th>적합한 구성</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>2000W급</strong></td><td>차량용 <strong>냉장고 · 노트북 · 조명</strong> 중심</td></tr>
+              <tr><td><strong>3000W 이상</strong></td><td><strong>전자레인지 · 커피머신 · 전동공구</strong> 등 순간 전력이 큰 기기 병행</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="info-box">
+          <p class="info-box-title">📍 '순간 전력'이 용량을 정합니다</p>
+          <p>모터나 압축기가 들어간 기기는 <strong>켜지는 순간</strong> 정격의 몇 배를 끌어씁니다. 이를 <strong>기동 전력</strong>이라고 합니다.<br><br>냉장고의 정격이 60W라도 압축기가 돌기 시작할 때는 훨씬 큰 값이 순간적으로 필요합니다. 인버터를 <strong>정격 소비전력에 딱 맞춰 고르면</strong> 이 순간에 보호회로가 내려갑니다. 여유를 두는 이유입니다.</p>
+        </div>
+
+        <p>
+          <strong>순수 정현파(사인파) 인버터</strong>인지도 확인할 부분입니다. 유사 정현파 제품은 값이 싸지만, 정밀 전자기기나 일부 모터 제품에서 문제가 생길 수 있습니다.
+        </p>
+
+        <h2 id="battery">2. 진짜 한계는 배터리 쪽입니다</h2>
+
+        <p>
+          <strong>인버터 용량은 '동시에 얼마나 쓸 수 있나'를 정합니다.</strong> '얼마나 오래 쓸 수 있나'는 <strong>배터리</strong>가 정합니다.
+        </p>
+
+        <p>
+          이 둘을 혼동하면 계산이 어긋납니다. 3000W 인버터를 달아도, 배터리가 작으면 <strong>몇십 분 만에 끝납니다.</strong>
+        </p>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>두 숫자의 역할</caption>
+            <thead>
+              <tr><th>구분</th><th>단위</th><th>의미</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>인버터</strong></td><td><strong>W</strong> (와트)</td><td>동시에 감당 가능한 <strong>순간 출력</strong></td></tr>
+              <tr><td><strong>배터리·파워뱅크</strong></td><td><strong>Wh</strong> (와트시)</td><td>총 저장 <strong>에너지 = 지속 시간</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          예를 들어 <strong>500Wh</strong> 파워뱅크에 <strong>50W</strong>를 계속 쓰면 이론적으로 10시간입니다. 다만 실제로는 변환 손실과 온도 조건 때문에 이보다 짧아집니다.
+        </p>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <h2 id="fridge">3. 냉장고는 계산이 까다롭습니다</h2>
+
+        <p>
+          <strong>차량용 냉장고는 계속 돌지 않습니다.</strong> 압축기가 <strong>켜졌다 꺼졌다</strong>를 반복합니다.
+        </p>
+
+        <p>
+          그래서 지속 시간이 조건에 따라 크게 달라집니다. 같은 파워뱅크로도 <strong>외기 온도·설정 온도·문 여는 횟수</strong>에 따라 결과가 갈립니다.
+        </p>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>냉장고 사용 시간을 좌우하는 변수</caption>
+            <thead>
+              <tr><th>변수</th><th>영향</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>외기 온도</strong></td><td>더울수록 압축기 가동 시간 <strong>증가</strong></td></tr>
+              <tr><td><strong>설정 온도</strong></td><td>냉동(−18℃)은 냉장(4℃)보다 <strong>훨씬 많이 소모</strong></td></tr>
+              <tr><td><strong>문 개폐</strong></td><td>열 때마다 냉기 손실 → 재가동</td></tr>
+              <tr><td><strong>초기 냉각</strong></td><td>출발 전 <strong>미리 식혀두면</strong> 부담이 줄어듦</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="info-box">
+          <p class="info-box-title">📍 출발 전에 미리 식혀두세요</p>
+          <p>냉장고를 목적지에서 처음 켜면, 내부를 <strong>목표 온도까지 끌어내리는 데</strong> 가장 많은 전력을 씁니다.<br><br>집에서 콘센트로 미리 냉각해두고, 내용물도 <strong>차갑게 넣어</strong> 출발하면 현장에서의 소모가 크게 줄어듭니다. 아이스팩을 함께 넣으면 압축기 가동 간격이 더 벌어집니다.</p>
+        </div>
+
+        <h2 id="drain">4. 차량 배터리를 직접 쓰면 안 되는 이유</h2>
+
+        <p>
+          <strong>가장 흔한 실수가 시동을 끈 채 차량 배터리로 밤새 전기를 쓰는 것</strong>입니다.
+        </p>
+
+        <p>
+          일반 승용차의 <strong>12V 납산 배터리</strong>는 <strong>시동을 거는 용도</strong>로 설계돼 있습니다. 짧은 시간에 큰 전류를 내는 데는 강하지만, <strong>깊게 방전시키는 사용</strong>에는 약합니다.
+        </p>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>전원 방식별 비교</caption>
+            <thead>
+              <tr><th>방식</th><th>장점</th><th>단점</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>차량 배터리 직결</strong></td><td>추가 장비 불필요</td><td><strong>방전 위험</strong> · 배터리 수명 손상</td></tr>
+              <tr><td><strong>별도 파워뱅크</strong></td><td>차량과 <strong>분리</strong>돼 안전</td><td>구매 비용 · 무게</td></tr>
+              <tr><td><strong>보조 배터리 시공</strong></td><td>주행 중 <strong>자동 충전</strong></td><td>설치 비용 · 공간</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          <strong>깊은 방전을 한 번 겪은 납산 배터리는 용량이 영구적으로 줄어듭니다.</strong> 아침에 시동이 걸렸다고 해서 문제가 없었던 것은 아닙니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/car_battery_inspection_engine_bay.webp" alt="차량 배터리" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 승용차의 12V 배터리는 시동용이다. 깊게 방전시키는 사용에는 적합하지 않다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+        </div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <h2 id="ev">5. 전기차라면 계산이 완전히 다릅니다</h2>
+
+        <p>
+          <strong>전기차와 하이브리드는 사정이 다릅니다.</strong> 구동 배터리 용량이 수십 kWh 단위라, 차박 가전 정도는 부담이 되지 않습니다.
+        </p>
+
+        <p>
+          최근 모델 상당수가 <strong>V2L(Vehicle to Load)</strong>을 지원합니다. 차량에서 <strong>220V 콘센트</strong>를 직접 뽑아 쓰는 기능입니다. 별도 인버터와 파워뱅크가 필요 없어집니다.
+        </p>
+
+        <div class="info-box">
+          <p class="info-box-title">📍 V2L은 차박의 판을 바꿉니다</p>
+          <p>일반 차량이 <strong>500Wh 파워뱅크</strong>로 하룻밤을 계산한다면, 전기차는 <strong>수십 kWh</strong>를 갖고 시작합니다. 단위가 다릅니다.<br><br>다만 <strong>주행용 전력을 나눠 쓰는 것</strong>이므로, 다음 날 이동 거리와 도착지 충전 계획을 함께 계산해야 합니다. 여유가 있다고 무제한은 아닙니다.</p>
+        </div>
+
+        <div class="article-img-wrap">
+          <img src="../images/staria_ev_charging_port_official.webp" alt="전기차 충전 포트" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ V2L을 지원하는 전기차는 차량에서 220V를 직접 뽑아 쓸 수 있다 <span class="cap-credit">ⓒ 현대자동차 제공</span></p>
+        </div>
+
+        <div class="article-img-wrap">
+          <img src="../images/palisade_full_change_interior.webp" alt="대형 SUV 실내" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 차박은 실내 공간을 생활 공간으로 바꾸는 방식이다. 쓸 기기를 먼저 정해야 전력 계산이 선다 <span class="cap-credit">ⓒ Damian B Oh, Wikimedia Commons (CC BY-SA 4.0)</span></p>
+        </div>
+
+        <h2 id="list">6. 실제 구성 예시</h2>
+
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>사용 성향별 구성</caption>
+            <thead>
+              <tr><th>성향</th><th>구성</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>가볍게</strong></td><td>조명·휴대폰 충전만 — <strong>보조배터리</strong>로 충분</td></tr>
+              <tr><td><strong>표준</strong></td><td>냉장고·노트북·선풍기 — <strong>파워뱅크 + 2000W급 인버터</strong></td></tr>
+              <tr><td><strong>장박</strong></td><td>전열기기 포함 — <strong>보조 배터리 시공</strong> 또는 대용량 파워뱅크</td></tr>
+              <tr><td><strong>전기차</strong></td><td><strong>V2L</strong>로 대부분 해결</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          <strong>장비를 먼저 사고 계산을 나중에 하면 대개 어긋납니다.</strong> 쓰려는 기기의 소비전력을 먼저 더해보고, 거기에 맞춰 인버터와 배터리를 고르는 순서가 맞습니다.
+        </p>
+
+        <div class="summary-box" id="summary">
+          <h2>7. 정리</h2>
+          <p>인버터는 <strong>냉장고·노트북·조명</strong> 중심이면 <strong>2000W급</strong>, <strong>전자레인지·커피머신</strong> 등을 함께 쓴다면 <strong>3000W 이상</strong>을 검토합니다. 압축기와 모터 기기의 <strong>기동 전력</strong> 때문에 정격에 딱 맞추면 안 됩니다.</p>
+          <p>혼동하기 쉬운 지점은 <strong>W와 Wh</strong>입니다. 인버터 용량(W)은 동시에 쓸 수 있는 양이고, 지속 시간은 <strong>배터리 용량(Wh)</strong>이 정합니다. 500Wh급 파워뱅크는 냉장고 조건에 따라 편차가 큽니다.</p>
+          <p>시동을 끈 채 <strong>차량 배터리를 직접 쓰는 것</strong>은 피해야 합니다. 승용차의 12V 납산 배터리는 시동용이라 깊은 방전에 약하고, 한 번 방전되면 용량이 영구적으로 줄어듭니다. 전기차라면 <strong>V2L</strong>로 대부분 해결됩니다.</p>
+        </div>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+      </div>
+
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="http://plan.danawa.com/info/index.php?nPlanSeq=5160" target="_blank" rel="noopener">다나와</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> 현대자동차 / Wikimedia Commons
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="#" class="article-tag-item">차박</a>
+          <a href="#" class="article-tag-item">인버터</a>
+          <a href="#" class="article-tag-item">파워뱅크</a>
+          <a href="#" class="article-tag-item">배터리방전</a>
+          <a href="#" class="article-tag-item">캠핑</a>
+        </div>
+
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="#" class="pop-tag">차박</a>
+          <a href="#" class="pop-tag">인버터</a>
+          <a href="#" class="pop-tag">파워뱅크</a>
+          <a href="#" class="pop-tag">배터리방전</a>
+          <a href="#" class="pop-tag">캠핑</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
