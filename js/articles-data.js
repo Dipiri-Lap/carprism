@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "inje-speedium-track-day-own-car",
     title: "\"내 차로 서킷을 달릴 수 있습니다\"… 인제스피디움, 문턱이 생각보다 낮았습니다",
     date: "2026-08-27",
-    image: "inje_speedium_night.webp",
+    image: "inje_speedium_aerial.webp",
     categories: ["travel"],
     tags: ["인제스피디움", "서킷체험", "트랙데이", "강원도", "드라이브코스"],
     badge: "DRIVE COURSE",
