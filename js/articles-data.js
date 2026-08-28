@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "bmw-r1300rs-800km-touring-review",
+    title: "\"1박 2일에 800km, 그런데 왼손이 편했다\"… 변속기를 자동으로 바꾼 박서",
+    date: "2026-08-28",
+    image: "bmw_r1300rs_1.webp",
+    categories: ["import", "news"],
+    tags: ["BMW", "R1300RS", "모터사이클", "시승기", "ASA"],
+    badge: "BMW MOTORRAD",
+    badgeClass: "cat-blue",
+    source: "지피코리아 / BMW Motorrad",
+    desc: "BMW R 1300 RS를 1박 2일간 서울에서 전남 화순을 왕복하며 약 800km 주행했다. 1,300cc 박서 엔진은 7,750rpm에서 145마력, 6,500rpm에서 149Nm를 낸다. 보어 스트로크는 106.5 × 73mm다. 클러치 조작을 자동화한 자동 변속 어시스턴트 ASA가 옵션으로 제공되며, 도심 정체와 긴 국도에서 피로를 줄여준다는 평가를 받았다. 고속도로와 국도, 산길 와인딩과 빗길을 모두 거쳤고 다이나믹 프로 모드에서 경쾌한 차체 움직임을 보였다."
+  },
+  {
+    slug: "lamborghini-silver-cross-stroller-500",
+    title: "\"600만 원짜리 람보르기니, 바퀴가 네 개인데 엔진이 없습니다\"… 500대 한정",
+    date: "2026-08-28",
+    image: "lamborghini_revuelto_orange_rear.webp",
+    categories: ["import", "news"],
+    tags: ["람보르기니", "실버크로스", "한정판", "브랜드", "굿즈"],
+    badge: "LAMBORGHINI",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드",
+    desc: "람보르기니가 영국 프리미엄 유아용품 브랜드 실버크로스와 두 번째 협업 모델 리프 AL 지알로를 내놨다. 자동차가 아니라 유모차이며 전 세계 500대 한정으로 판매된다. 가격은 600만 원대로 예상된다. 1세대는 2025년 3월 나온 리프 알 아란치오로, 같은 500대 한정에 영국 기준 약 753만 원이었고 국내에는 신세계백화점 강남점에서 처음 선보였다. 고성능 스웨이드와 프리미엄 가죽, 하이글로시 폴리카보네이트 등 고성능차에 쓰이는 마감재를 적용했다. 람보르기니 시그니처 옐로우인 지알로 컬러에 각진 형태와 다면체 표면, Y패턴 디테일로 슈퍼카의 기하학적 특성을 옮겼다."
+  },
+  {
+    slug: "tesla-fsd-misuse-videos-spreading-2026",
+    title: "\"운전석에서 자는 영상이 돌고 있습니다\"… FSD 우회법까지 공유되는 중",
+    date: "2026-08-28",
+    image: "tesla_model3_highland_interior.webp",
+    categories: ["news"],
+    tags: ["테슬라", "FSD", "자율주행", "운전자보조", "안전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-red",
+    source: "오토헤럴드",
+    desc: "테슬라 FSD를 켜둔 채 운전석에서 잠을 자거나 게임 컨트롤러를 잡고, 중앙 디스플레이로 영상을 보거나 노트북으로 업무를 처리하는 영상이 인스타그램과 틱톡, X에서 확산되고 있다. 더 심각한 것은 안전장치 우회 방법이 함께 공유된다는 점이다. 스티어링 휠에 무게를 매다는 기존 방식을 넘어 실내 카메라를 가리거나 영상 재생 제한 기능을 우회하는 사례까지 나온다. FSD는 이름과 달리 운전자 보조 기능이며 운전자가 항상 개입할 수 있어야 한다."
+  },
+  {
     slug: "mitsubishi-outlander-phev-recall-navigation",
     title: "\"후진 기어를 넣었는데 화면이 안 뜬다\"… 아웃랜더 PHEV 1만 3,226대 리콜",
     date: "2026-08-28",
