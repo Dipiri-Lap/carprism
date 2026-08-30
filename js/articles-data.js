@@ -135,7 +135,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "faw-vw-id-aura-t6-presale-china-2026",
-    title: "\"중국 기술로 중국을 잡겠다\"… 폭스바겐이 꺼낸 2,000만 원 전기 SUV",
+    title: "\"중국 기술로 중국을 잡겠다\"… 폭스바겐이 꺼낸 2,800만 원대 전기 SUV",
     date: "2026-08-30",
     image: "vw_id_aura_t6_green_studio.webp",
     categories: ["electric", "import"],
