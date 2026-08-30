@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 30 Aug 2026 09:43:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 13:11:45 GMT</lastBuildDate>
+    <item>
+      <title>&quot;20만원 쓰고 14만원 돌려받았습니다&quot;… 조건 하나만 맞으면 됩니다</title>
+      <link>https://carprism.tmhub.co.kr/articles/half-price-travel-autumn-2026-nine-regions.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/half-price-travel-autumn-2026-nine-regions.html</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <description>문화체육관광부와 한국관광공사가 운영하는 지역사랑 휴가지원사업, 이른바 대한민국 반값여행에 하반기 9개 지역이 추가됐다. 강원 화천, 경남 고성·산청·함양, 경북 안동·영천, 충남 서천·태안, 전남 장흥이다. 여행경비의 50%를 모바일 지역사랑상품권으로 돌려받는 구조이고, 19~34세 청년은 환급률이 20%p 올라가 70%가 적용된다. 20만원을 쓰고 14만원을 돌려받는다는 계산은 여기서 나온다. 다만 여행을 다녀온 뒤 신청하는 방식이 아니라 출발 전에 계획을 제출하고 승인을 받아야 하며, 거주지와 인접 지역은 대상에서 빠진다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/vk_sancheong_namsa_village.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;30분 만에 계절이 두 번 바뀝니다&quot;… 제주 1100도로가 다른 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/jeju-1100-road-drive-course.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
       <description>제네시스가 순수전기차에 하이브리드와 EREV, 고성능 모델까지 더하는 라인업 확대에 나선다. 올 하반기 브랜드 최초 하이브리드인 GV80 하이브리드가 국내와 미국에 투입되며 복합연비 기준 효율이 기존 내연기관 대비 약 25% 개선됐다. 내년 초에는 목표 주행거리 1000km 이상의 제네시스 최초 EREV SUV가 등장한다. 순수전기차는 플래그십 GV90이 중심을 맡고, 배터리 열전이 방지(TRP) 기술이 처음 적용된다. GV60 마그마는 북미와 유럽으로 판매 지역을 넓힌다. 2030년 40여 개국에서 연 35만 대가 목표다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/genesis_gv90_neolun_side.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;5와 9 사이가 너무 멀었다&quot;… 아이오닉이 채우려는 두 자리</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-ioniq-4-7-two-new-electric-suv.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ioniq-4-7-two-new-electric-suv.html</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <description>현대차가 아이오닉 라인업에 전기 SUV 2종을 추가할 계획인 것으로 알려졌다. 상위 모델은 아이오닉 5와 아이오닉 9 사이를 채우는 패밀리 SUV로, 2열 중심에 필요 시 3열까지 활용하는 구성과 아이오닉 5보다 박스형에 가까운 디자인이 거론된다. 외신은 가칭 아이오닉 7로 지칭한다. 다른 하나는 유럽 B세그먼트를 겨냥한 소형 전기 SUV로 아이오닉 3와 유사한 차급이지만 해치백이 아닌 러기드한 SUV 형태이며 가칭 아이오닉 4로 불린다. 42kWh와 61kWh급 배터리, 전륜 싱글모터 구성을 공유할 가능성이 제기된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ioniq5_2026_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
