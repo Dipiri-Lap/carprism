@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "robotaxi-test-driver-injuries-osha-2026",
+    title: "\"부딪히지도 않았는데 목을 다쳤습니다\"… 로보택시가 남긴 20건",
+    date: "2026-08-31",
+    image: "waymo_ipace_sf_street_2026.webp",
+    categories: ["news"],
+    tags: ["로보택시", "웨이모", "죽스", "자율주행안전", "OSHA"],
+    badge: "SAFETY ISSUE",
+    badgeClass: "cat-red",
+    source: "미국 산업안전보건청(OSHA) 신고 자료 / 오토헤럴드 / 카프리즘 기획 기사",
+    desc: "자율주행차의 안전 논의는 대체로 충돌 여부로 수렴한다. 그런데 미국 산업안전보건청(OSHA)에 접수된 자료를 보면 2024~2025년 웨이모와 죽스의 시험 운전자에게서 20건이 넘는 업무상 부상이 확인됐다. 원인은 충돌이 아니라 자율주행 시스템의 급제동과 급회피였다. 차는 사고를 피했지만 안에 탄 사람은 다쳤고, 일부는 편타성 손상으로 수개월간 일을 쉬었다. OSHA 신고 의무가 모든 기업에 균일하게 적용되지 않아 실제 규모는 이보다 클 가능성이 있다."
+  },
+  {
+    slug: "sae-avsc-remote-assistance-training-best-practice",
+    title: "\"운전면허가 없어도 됩니다\"… 로보택시 뒤의 사람을 가르치는 법",
+    date: "2026-08-31",
+    image: "waymo_zeekr_ojai_depot_front.webp",
+    categories: ["news"],
+    tags: ["SAE", "자율주행", "원격관제", "로보택시", "인적요인"],
+    badge: "TECH",
+    badgeClass: "cat-blue",
+    source: "SAE International AVSC / Car and Driver / 카프리즘 기획 기사",
+    desc: "SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다."
+  },
+  {
+    slug: "jd-power-2026-tech-experience-passenger-screen",
+    title: "\"조수석 화면, 3분의 1은 한 번도 안 켰습니다\"… 6만8천 명이 답했다",
+    date: "2026-08-31",
+    image: "jdp_passenger_screen_video.webp",
+    categories: ["news"],
+    tags: ["JD파워", "조수석디스플레이", "인포테인먼트", "기술경험지수", "현대차"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "J.D. Power 2026 US Tech Experience Index / Carscoops / 카프리즘 기획 기사",
+    desc: "J.D. Power가 2026년형 신차 소유자 6만8,084명을 대상으로 구매 90일 뒤 40개 기술의 사용 경험을 조사했다. 결과에서 가장 눈에 띄는 항목은 조수석 디스플레이다. 이 기능을 갖춘 차의 소유자 가운데 35%가 한 번도 사용하지 않았고, 주행할 때마다 쓴다고 답한 비율은 6%에 그쳤다. 반대로 만족도가 가장 높은 기술은 스마트 시동처럼 존재를 의식하지 않는 기능이었다. 운전자 보조에서는 핸즈프리 시스템이 문제는 적었지만 만족도는 오히려 낮았다."
+  },
+  {
+    slug: "volkswagen-50000-more-job-cuts-german-plants-2026",
+    title: "\"비용이 경쟁사보다 30% 높습니다\"… 폭스바겐이 꺼낸 5만 명",
+    date: "2026-08-31",
+    image: "vw_oliver_blume_ceo_2026.webp",
+    categories: ["news"],
+    tags: ["폭스바겐", "구조조정", "올리버블루메", "독일공장", "자동차산업"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-blue",
+    source: "로이터 · 독일 현지 언론 / 지피코리아 / 카프리즘 기획 기사",
+    desc: "폭스바겐그룹이 전 세계에서 최대 5만 명의 인력을 추가로 줄이는 방안을 검토하고 있다. 이미 독일에서 약 3만5,000명, 그룹 전체로 약 5만 명 규모의 감축을 추진해 온 상태여서, 추가분이 현실화하면 구조조정 규모는 최대 10만 명에 이를 수 있다. 올리버 블루메 CEO는 5만 명이 확정된 목표가 아니라 경쟁사와의 비용 격차를 메우기 위해 산출한 기준이라고 설명하면서, 그룹의 간접비용이 경쟁업체보다 30% 이상 높다고 밝혔다. 독일 공장 폐쇄 가능성도 완전히 배제하지 않았다."
+  },
+  {
+    slug: "drunk-driving-rain-crackdown-misconception-survey-2026",
+    title: "\"비 오는 날은 단속 안 하겠지\"… 열에 셋이 이렇게 생각했다",
+    date: "2026-08-31",
+    image: "kr_dui_breathalyzer_stop.webp",
+    categories: ["news"],
+    tags: ["음주운전", "음주단속", "한국도로교통공단", "혈중알코올농도", "운전상식"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "한국도로교통공단 조사 / 오토트리뷴 / 카프리즘 기획 기사",
+    desc: "한국도로교통공단이 2026년 6월 24일부터 7월 24일까지 음주운전자 교육 수강생 924명을 조사한 결과, 29.3%가 \"비나 눈이 오는 날은 단속이 적다\"고 생각한 것으로 나타났다. 더 주목할 대목은 자기 상태에 대한 판단이다. 적발 당시 자신이 면허취소 수준이라고 인식한 비율은 25.2%였고, 단속 기준 이하라고 본 비율도 22.8%였다. 아예 생각해 보지 않았다는 응답이 19.6%, 취해서 판단할 수 없었다는 응답이 11.6%였다. 결국 절반 이상이 자기 상태를 잘못 알았거나 판단 자체를 하지 않은 셈이다."
+  },
+  {
+    slug: "hyundai-25t-gdi-affordable-performance-benchmark",
+    title: "\"290마력이 3천만원대\"… 현대 2.5T가 기준을 바꿔놓은 방식",
+    date: "2026-08-31",
+    image: "kia_k5_gt_driving_2026.webp",
+    categories: ["news"],
+    tags: ["현대2.5T", "스마트스트림", "K5GT", "소나타N라인", "GV70"],
+    badge: "TECH",
+    badgeClass: "cat-blue",
+    source: "CarBuzz / 카프리즘 기획 기사",
+    desc: "현대차그룹의 스마트스트림 2.5T-GDI가 저렴한 퍼포먼스의 새 기준으로 평가받고 있다. 기아 K5 GT와 현대 소나타 N 라인에서 290마력, 제네시스 GV70에서 300마력을 내며 토크는 311lb-ft로 공통이다. 이 토크가 1,650rpm부터 4,000rpm까지 평탄하게 유지된다는 점이 실사용 체감을 결정한다. 미국 기준 K5 GT는 3만3,590달러로 스바루 WRX보다 19마력 높고 골프 GTI보다 49마력 높다. 다중포트와 직분사를 함께 쓰는 구조로 저속에서는 포트분사, 고부하에서는 직분사가 작동한다."
+  },
+  {
+    slug: "ecu-tuning-turbo-50hp-reality-korea-rules",
+    title: "\"소프트웨어만 바꿔 50마력\"… 그 전에 알아야 할 국내 규정",
+    date: "2026-08-31",
+    image: "ecu_circuit_board_closeup.webp",
+    categories: ["news"],
+    tags: ["ECU튜닝", "터보", "자동차관리법", "튜닝승인", "배출가스"],
+    badge: "TECH",
+    badgeClass: "cat-blue",
+    source: "CarBuzz / 자동차관리법 / 한국교통안전공단 / 카프리즘 기획 기사",
+    desc: "터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다."
+  },
+  {
     slug: "jebudo-tidal-road-hwaseong-golden-coast",
     title: "\"바닷길이 닫히면 차가 잠깁니다\"… 제부도 갈 때 시계부터 보는 이유",
     date: "2026-08-31",

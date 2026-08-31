@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"운전면허가 없어도 됩니다"… 로보택시 뒤의 사람을 가르치는 법 | CarPrism</title>
+<meta name="description" content="SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다.">
+<meta name="keywords" content="SAE, 자율주행, 원격관제, 로보택시, 인적요인">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="SAE AVSC 원격 지원 인력 교육 모범사례">
+<meta property="og:description" content="SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/waymo_zeekr_ojai_depot_front.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-08-31T17:10+09:00">
+<meta property="article:section" content="뉴스">
+<meta property="article:tag" content="SAE,자율주행,원격관제,로보택시,인적요인">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SAE AVSC 원격 지원 인력 교육 모범사례">
+<meta name="twitter:description" content="SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다.">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/waymo_zeekr_ojai_depot_front.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html" },
+  "headline": "\"운전면허가 없어도 됩니다\"… 로보택시 뒤의 사람을 가르치는 법",
+  "description": "SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다.",
+  "image": ["https://carprism.tmhub.co.kr/images/waymo_zeekr_ojai_depot_front.webp"],
+  "datePublished": "2026-08-31T17:10+09:00",
+  "dateModified": "2026-08-31T17:10+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "SAE AVSC 원격 지원 인력 교육 모범사례", "item": "https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../electric.html" class="nav-link" id="nav-electric">전기차</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../electric.html" class="nav-link">전기차</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="sae-avsc-remote-assistance-training-best-practice">
+      <meta itemprop="datePublished" content="2026-08-31T17:10+09:00">
+
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../news.html">뉴스</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">SAE AVSC 원격 지원 인력 교육 모범사례</span>
+      </nav>
+
+      <header class="article-header reveal">
+        <span class="article-cat cat-blue">TECH</span>
+        <h1 class="article-title" itemprop="headline">
+          "운전면허가 없어도 됩니다"… 로보택시 뒤의 사람을 가르치는 법
+        </h1>
+        <p class="article-subtitle">
+          운전대를 잡지 않는 사람에게 무엇을 가르쳐야 할까요. 그 답이 처음으로 문서가 됐습니다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-08-31">2026년 8월 31일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 7분</span>
+        </div>
+      </header>
+
+      <div class="article-body reveal">
+
+        <div class="article-img-wrap">
+          <img src="../images/waymo_zeekr_ojai_depot_front.webp" alt="자율주행차 운영 거점에 정차한 차량" width="1280" height="815" itemprop="image">
+          <p class="article-img-caption">▲ 자율주행 차량 운영 거점. 도로 위 차량 뒤에는 원격으로 판단을 돕는 사람이 있다</p>
+        </div>
+
+        <p>
+          <strong>완전 무인이라는 말에는 과장이 섞여 있습니다.</strong> 운전석에 사람이 없을 뿐, 도로 위 로보택시가 판단을 멈추는 순간에는 <strong>어딘가의 모니터 앞에 앉은 사람</strong>이 개입합니다.
+        </p>
+        <p>
+          <strong>그 사람을 어떻게 교육해야 하는지에 대한 기준은 지금까지 없었습니다.</strong> SAE 인터내셔널 산하 <strong>자율주행차 안전 컨소시엄(AVSC)</strong>이 이번 주 <strong>「ADS 원격 지원 교육 및 인적 요인 모범사례」</strong>를 발간하면서 그 공백을 메웠습니다.
+        </p>
+        <aside class="key-points">
+          <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+          <ul>
+            <li><strong>발간 주체</strong>: SAE International 산하 <strong>AVSC</strong>(자율주행차 안전 컨소시엄)</li>
+            <li><strong>대상</strong>: <strong>레벨 4·5</strong> 자율주행차를 운영하는 기업의 원격 지원 인력</li>
+            <li><strong>역할</strong>: 원격 <strong>조종</strong>이 아니라 <strong>지원</strong> — 차로 선택, 제안 경로 승인</li>
+            <li><strong>운전면허</strong>: <strong>반드시 필요하지는 않다</strong>는 것이 문서의 입장</li>
+            <li><strong>필수 지식</strong>: 운행 지역 교통법규 + 자율주행 시스템 <strong>작동 원리</strong></li>
+            <li><strong>핵심 위험</strong>: 과부하가 아니라 <strong>인지 저부하</strong>(할 일이 없어서 생기는 문제)</li>
+          </ul>
+        </aside>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="role">1. 이들은 원격으로 운전하지 않는다</h2>
+        <p>
+          <strong>가장 흔한 오해부터 정리해야 합니다.</strong> 원격 지원 인력은 게임 시뮬레이터 같은 장비로 인터넷 너머에서 핸들을 돌리는 사람이 아닙니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/robotaxi_hailing_app_screen.webp" alt="로보택시 호출 앱 화면" width="960" height="540" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 승객이 보는 것은 앱 화면이지만, 그 뒤에는 판단을 돕는 인력이 있다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>실제 역할은 "막힌 상황을 풀어주는 것"입니다.</strong> 차량이 다음 동작을 정하지 못할 때 <strong>올바른 차로를 골라주거나, 시스템이 제안한 경로를 승인</strong>하는 방식입니다. 조향과 가감속은 여전히 차량이 합니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/zoox_robotaxi_sf_side.webp" alt="죽스 로보택시 측면" width="1280" height="850" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 운전대가 없는 차량일수록 원격 지원의 역할이 커진다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>그래서 교육 항목에 차량 조작 훈련이 들어가지 않습니다.</strong> 대신 <strong>운행 지역의 교통법규를 완전히 이해</strong>할 것을 요구합니다. 가변 표지판과 차선 표시까지 포함됩니다. 운영자가 차량과 <strong>다른 대륙에 있을 수도</strong> 있기 때문입니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="curriculum">2. 무엇을 가르쳐야 하나</h2>
+        <p>
+          <strong>두 번째 축은 시스템 이해입니다.</strong> 센서 구성부터 의사결정 과정까지, 자사 자율주행 시스템이 어떻게 작동하는지를 알아야 한다고 권고합니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/waymo_ipace_quarter.webp" alt="웨이모 자율주행 차량" width="1280" height="854" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 차량의 센서 구성과 판단 방식을 이해해야 원격 지원이 가능하다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>이유는 단순합니다.</strong> 근무 시간 내내 본사로 전송되는 시각화 화면과 카메라 영상을 들여다보게 되는데, <strong>그 데이터가 어떻게 만들어졌고 어떻게 쓰이는지</strong> 모르면 화면을 해석할 수 없습니다.
+        </p>
+        <p>
+          <strong>훈련과 평가에는 시뮬레이터를 쓰라고 권고합니다.</strong> 다만 휠과 페달이 달린 종류가 아닙니다. 가상 시나리오를 돌리거나 <strong>실제 발생했던 사례를 재생</strong>해, 현장에서 마주칠 상황을 미리 겪게 하는 용도입니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/waymo_ojai_highway101.webp" alt="고속도로를 주행하는 자율주행 차량" width="1280" height="964" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 실제 주행 사례를 재생해 훈련에 쓰는 방식이 권고된다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>재교육도 명시했습니다.</strong> 기술이 계속 바뀌기 때문에 새 기능과 동작, 바뀐 인터페이스를 반복해 익혀야 한다는 것입니다. 사람 운전자의 세계에서는 거의 없는 절차입니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="license">3. 운전면허가 없어도 되는 이유</h2>
+        <p>
+          <strong>문서에서 가장 눈에 띄는 대목입니다.</strong> AVSC는 원격 지원 인력이 <strong>반드시 유효한 운전면허를 보유할 필요는 없다</strong>고 봅니다.
+        </p>
+        <p>
+          <strong>논리는 일관됩니다.</strong> 이들이 하는 일이 고전적 의미의 운전이 아니기 때문입니다. 운전면허와 겹치는 영역은 사실상 <strong>교통법규 지식</strong> 하나뿐이고, 그 지식은 별도 교육으로 채울 수 있습니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/waymo_zeekr_ojai_depot_oblique.webp" alt="자율주행 차량 운영 거점" width="1280" height="853" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 차량 운영은 거점 중심으로 이뤄지고, 원격 지원은 별도 공간에서 수행된다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>다만 기업이 요구하는 것은 자유입니다.</strong> 문서는 회사가 운영자에게 면허 보유와 무사고 경력을 요구할 수 있다고 명시하고 있습니다. 권고이지 금지가 아닙니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="underload">4. 문제는 과로가 아니라 심심함이다</h2>
+        <p>
+          <strong>이 문서에서 가장 실무적인 부분은 피로 관리입니다.</strong> 그리고 그 방향이 통념과 반대입니다.
+        </p>
+        <p>
+          <strong>요즘 신차는 운전자의 부주의를 감지합니다.</strong> 조작이 거칠어지거나 눈꺼풀이 처지는 것을 잡아냅니다. 그런데 원격 지원 인력은 <strong>정반대 이유로 위험해집니다.</strong> 개입할 일이 없어서 생기는 지루함입니다.
+        </p>
+        <div class="info-box">
+          <p class="info-box-title">📍 인지 과부하와 인지 저부하</p>
+          <p>문서는 운영자의 <strong>인지 부하(cognitive workload)</strong> 관리와 함께 <strong>인지 저부하(cognitive underload)</strong>에도 주의하라고 권고합니다. 아무 일도 일어나지 않는 시간이 길어지면 주의력이 떨어지고, 정작 개입이 필요한 순간에 반응이 늦어집니다. 대응책으로 <strong>운영자가 스스로 성능 저하를 인식하도록 교육</strong>하고, <strong>불이익 없이 휴식을 요청할 수 있는 경로</strong>를 만들어 두라고 제안합니다.</p>
+        </div>
+        <p>
+          <strong>업무 범위도 회사마다 다릅니다.</strong> 일부 기업은 원격 운영자에게 차량 안팎의 사람과 소통하는 일, 나아가 <strong>응급구조대와의 연락</strong>까지 맡깁니다. 고객 응대와 판단 업무를 어떻게 나눌지는 회사가 정하도록 열어 뒀습니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="why">5. 왜 지금 이 문서가 나왔나</h2>
+        <p>
+          <strong>규제는 아직 정리되지 않았습니다.</strong> 자율주행 관련 제도는 나라마다 속도가 다르고, 원격 지원 인력에 대한 자격 요건을 법으로 규정한 곳은 드뭅니다.
+        </p>
+        <p>
+          <strong>그 공백을 업계 표준이 먼저 메우는 구조입니다.</strong> 이 문서는 강제력이 없는 모범사례이지만, 로보택시 기업들이 커리큘럼을 짤 때 참조할 공통 기준이 처음 생겼다는 점에서 의미가 있습니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/waymo_ojai_sanfrancisco_street.webp" alt="도심을 주행하는 자율주행 차량" width="1280" height="640" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 무인 차량이 늘수록 뒤에서 판단을 돕는 인력의 비중도 커진다 <span class="cap-credit">ⓒ 오토헤럴드</span></p>
+        </div>
+        <p>
+          <strong>남는 질문은 투명성입니다.</strong> 웨이모나 죽스 같은 기업이 원격 운영자를 어떻게 훈련하고 실제로 어떤 일을 시키는지는 지금도 거의 공개되지 않습니다. 문서 하나로 그 관행이 바로 바뀌지는 않습니다.
+        </p>
+        <p>
+          <strong>정리하면 이렇습니다.</strong> 무인차는 사람을 없앤 것이 아니라 <strong>사람의 위치를 옮긴 것</strong>에 가깝습니다. 운전석에서 모니터 앞으로 옮겨간 그 사람에게 무엇을 가르쳐야 하는지, 이제 겨우 첫 문서가 나왔습니다.
+        </p>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+      </div>
+
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="https://www.caranddriver.com/news/a73556507/sae-robotaxi-remote-assistance-human-factors-best-practice/" target="_blank" rel="noopener">Car and Driver — SAE 원격 지원 교육 모범사례</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> 웨이모 · 죽스 / 오토헤럴드
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="#" class="article-tag-item">SAE</a>
+          <a href="#" class="article-tag-item">자율주행</a>
+          <a href="#" class="article-tag-item">원격관제</a>
+          <a href="#" class="article-tag-item">로보택시</a>
+          <a href="#" class="article-tag-item">인적요인</a>
+        </div>
+
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="#" class="pop-tag">SAE</a>
+          <a href="#" class="pop-tag">자율주행</a>
+          <a href="#" class="pop-tag">원격관제</a>
+          <a href="#" class="pop-tag">로보택시</a>
+          <a href="#" class="pop-tag">인적요인</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

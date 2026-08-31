@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"소프트웨어만 바꿔 50마력"… 그 전에 알아야 할 국내 규정 | CarPrism</title>
+<meta name="description" content="터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다.">
+<meta name="keywords" content="ECU튜닝, 터보, 자동차관리법, 튜닝승인, 배출가스">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="터보차 ECU 튜닝의 원리와 국내 승인 문제">
+<meta property="og:description" content="터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/ecu_circuit_board_closeup.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-08-31T21:20+09:00">
+<meta property="article:section" content="뉴스">
+<meta property="article:tag" content="ECU튜닝,터보,자동차관리법,튜닝승인,배출가스">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="터보차 ECU 튜닝의 원리와 국내 승인 문제">
+<meta name="twitter:description" content="터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다.">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/ecu_circuit_board_closeup.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html" },
+  "headline": "\"소프트웨어만 바꿔 50마력\"… 그 전에 알아야 할 국내 규정",
+  "description": "터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다.",
+  "image": ["https://carprism.tmhub.co.kr/images/ecu_circuit_board_closeup.webp"],
+  "datePublished": "2026-08-31T21:20+09:00",
+  "dateModified": "2026-08-31T21:20+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "터보차 ECU 튜닝의 원리와 국내 승인 문제", "item": "https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../electric.html" class="nav-link" id="nav-electric">전기차</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../electric.html" class="nav-link">전기차</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="ecu-tuning-turbo-50hp-reality-korea-rules">
+      <meta itemprop="datePublished" content="2026-08-31T21:20+09:00">
+
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../news.html">뉴스</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">터보차 ECU 튜닝의 원리와 국내 승인 문제</span>
+      </nav>
+
+      <header class="article-header reveal">
+        <span class="article-cat cat-blue">TECH</span>
+        <h1 class="article-title" itemprop="headline">
+          "소프트웨어만 바꿔 50마력"… 그 전에 알아야 할 국내 규정
+        </h1>
+        <p class="article-subtitle">
+          출력이 오르는 원리는 분명합니다. 문제는 그 뒤에 따라오는 승인과 배출가스, 그리고 내구성입니다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-08-31">2026년 8월 31일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 8분</span>
+        </div>
+      </header>
+
+      <div class="article-body reveal">
+
+        <div class="article-img-wrap">
+          <img src="../images/ecu_circuit_board_closeup.webp" alt="ECU 기판 근접 사진" width="1280" height="720" itemprop="image">
+          <p class="article-img-caption">▲ ECU 기판. 하드웨어를 바꾸지 않고 제어 맵만 조정해 출력을 올리는 방식이다</p>
+        </div>
+
+        <p>
+          <strong>부품을 하나도 바꾸지 않고 50마력을 올린다는 이야기가 있습니다.</strong> 과장처럼 들리지만 터보 엔진에서는 원리가 성립합니다.
+        </p>
+        <p>
+          <strong>핵심은 하드웨어가 이미 여유를 갖고 설계돼 있다는 점입니다.</strong> 제조사는 다양한 기후와 연료 품질, 정비 수준을 가정해 보수적으로 세팅합니다. ECU 맵을 조정하면 그 여유분을 끌어 쓰게 됩니다.
+        </p>
+        <aside class="key-points">
+          <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+          <ul>
+            <li><strong>원리</strong>: ECU가 <strong>웨이스트게이트·가변 지오메트리</strong>를 조정해 부스트압 상승 + 점화시기·연료 분사 변경</li>
+            <li><strong>보고된 증가폭</strong>: 시빅 타입 R FK8 <strong>40~50마력</strong>(약 16%) / 아우디 S3 최대 60마력</li>
+            <li><strong>골프 R(MK8)</strong> 최대 70마력 / <strong>아우디 RS3·TT RS</strong> 80마력 이상</li>
+            <li><strong>브롱코 스포츠</strong> 최대 50마력 / <strong>어코드 2.0T</strong> 최대 40마력</li>
+            <li><strong>자연흡기</strong>는 같은 폭의 증가가 <strong>나오지 않음</strong></li>
+            <li><strong>국내</strong>: <strong>자동차관리법 제34조</strong> — 구조·장치 변경은 <strong>사전 승인</strong> 대상</li>
+          </ul>
+        </aside>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="how">1. 어디서 힘이 나오나</h2>
+        <p>
+          <strong>터보 엔진의 출력은 결국 태울 수 있는 공기의 양이 결정합니다.</strong> ECU가 <strong>웨이스트게이트나 가변 지오메트리 시스템을 조정해 부스트압을 올리면</strong>, 같은 터보차저에서 더 많은 공기가 들어갑니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/porsche_911_turbo_exposed.webp" alt="터보차저가 노출된 포르쉐 911" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 터보차저. 부스트압을 얼마나 올릴지는 하드웨어가 아니라 제어 맵이 정한다 <span class="cap-credit">ⓒ CarBuzz</span></p>
+        </div>
+        <p>
+          <strong>공기가 늘면 연료도 늘려야 합니다.</strong> 여기에 점화시기까지 함께 조정하면 연소 효율이 올라갑니다. 이 세 가지를 동시에 손보는 것이 이른바 맵 튜닝입니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/rb26_turbo_engine_bay.webp" alt="터보 엔진이 얹힌 엔진룸" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 터보 엔진은 제어 여유가 크기 때문에 소프트웨어 변경만으로도 출력 변화가 크다 <span class="cap-credit">ⓒ CarBuzz</span></p>
+        </div>
+        <p>
+          <strong>자연흡기 엔진은 사정이 다릅니다.</strong> 부스트압이라는 변수 자체가 없어 공연비와 점화시기만 만질 수 있고, <strong>50마력 수준의 증가는 나오지 않습니다.</strong> "소프트웨어로 큰 폭 상승"이라는 이야기는 사실상 터보 전용입니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="numbers">2. 차종별로 보고된 증가폭</h2>
+        <p>
+          <strong>실제 수치는 차종에 따라 크게 갈립니다.</strong> 하드웨어 여유가 얼마나 남아 있느냐에 달렸기 때문입니다.
+        </p>
+        <div class="spec-table-wrap">
+          <table class="spec-table align-left">
+            <caption>차종별 ECU 맵 조정 시 보고된 출력 증가</caption>
+            <thead>
+              <tr><th>차종</th><th>증가폭</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>아우디 RS3 / TT RS</td><td><strong>80마력 이상</strong></td></tr>
+              <tr><td>폭스바겐 골프 R(MK8)</td><td>최대 70마력</td></tr>
+              <tr><td>아우디 S3(8Y)</td><td>최대 60마력</td></tr>
+              <tr><td>혼다 시빅 타입 R(FK8)</td><td>40~50마력 (<strong>약 16%</strong>)</td></tr>
+              <tr><td>포드 브롱코 스포츠</td><td>최대 50마력</td></tr>
+              <tr><td>혼다 어코드 2.0T</td><td>최대 40마력</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="article-img-wrap">
+          <img src="../images/vw_fsi_engine_bay.webp" alt="폭스바겐 터보 엔진룸" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 폭스바겐그룹 터보 엔진은 맵 조정 여유가 큰 축으로 알려져 있다 <span class="cap-credit">ⓒ CarBuzz</span></p>
+        </div>
+        <p>
+          <strong>여기서 더 나가면 하드웨어가 필요합니다.</strong> 흡기와 배기, 인터쿨러 같은 볼트온 부품을 함께 바꾸면 100마력 이상의 증가도 가능하다고 보고됩니다. 다만 그 지점부터는 "소프트웨어만"이라는 전제가 깨집니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/aftermarket_intake_filter.webp" alt="애프터마켓 흡기 필터" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 볼트온 부품을 더하면 증가폭은 커지지만 승인과 검사 문제도 함께 커진다 <span class="cap-credit">ⓒ CarBuzz</span></p>
+        </div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="korea">3. 국내에서는 승인이 먼저다</h2>
+        <p>
+          <strong>여기부터가 국내 운전자에게 중요한 대목입니다.</strong> 해외 기사에서 다루는 수치는 규제 환경이 다른 시장의 이야기입니다.
+        </p>
+        <p>
+          <strong>자동차관리법 제34조</strong>에 따라, 등록된 자동차의 <strong>구조·장치를 변경하려면 한국교통안전공단의 사전 승인</strong>을 받아야 합니다. 변경 내용이 안전기준에 적합해야 승인이 납니다.
+        </p>
+
+        <div class="article-img-wrap">
+          <img src="../images/civic_type_r_fk8_track.webp" alt="트랙을 주행하는 혼다 시빅 타입 R" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+          <p class="article-img-caption">▲ 시빅 타입 R FK8은 40~50마력 증가가 보고된 대표 사례다 <span class="cap-credit">ⓒ CarBuzz</span></p>
+        </div>
+        <p>
+          <strong>배출가스는 또 다른 축입니다.</strong> 출력을 제작사 기준 이상으로 인위적으로 올리면 연소 조건이 바뀌고, 그 결과 배출가스 수치가 달라질 수 있습니다. <strong>배출가스 기준을 초과하면 환경 관련 법령 위반 소지</strong>가 생깁니다.
+        </p>
+        <div class="info-box">
+          <p class="info-box-title">📍 확인해야 할 순서</p>
+          <p>① 해당 변경이 <strong>승인 대상</strong>인지 — 구조·장치 변경에 해당하는지 확인<br>② 대상이라면 <strong>한국교통안전공단 사전 승인</strong> 절차<br>③ <strong>배출가스</strong> 기준 충족 여부와 인증된 제품인지<br>④ <strong>정기검사</strong>에서 문제가 되지 않는지<br>⑤ <strong>제조사 보증</strong>에 미치는 영향<br>이 다섯 가지를 확인하지 않은 채 출력만 보고 진행하면, 검사 불합격이나 보증 거절로 되돌아옵니다.</p>
+        </div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="risk">4. 내구성과 보증이라는 비용</h2>
+        <p>
+          <strong>출력이 오르면 부하도 함께 오릅니다.</strong> 부스트압을 높이면 터보차저, 피스톤, 커넥팅로드, 변속기까지 전달되는 힘이 커집니다. 제조사가 설정한 여유분은 <strong>내구성을 위한 마진</strong>이기도 하기 때문입니다.
+        </p>
+        <p>
+          <strong>실제로 지적되는 부작용은 두 가지입니다.</strong> <strong>연비 악화</strong>와 <strong>엔진 부품 내구성 저하</strong>입니다. 출력을 끌어올린 만큼 열과 압력이 늘어나는 구조라 피할 수 없는 대가입니다.
+        </p>
+        <p>
+          <strong>완화 방법은 제한적입니다.</strong> 가능한 한 <strong>옥탄가가 높은 연료</strong>와 <strong>품질이 좋은 엔진오일</strong>을 쓰라는 것이 일반적인 권고입니다. 다만 이는 부담을 줄이는 것이지 없애는 것이 아닙니다.
+        </p>
+        <p>
+          <strong>보증도 함께 고려해야 합니다.</strong> 제조사가 ECU 변경 이력을 확인하면 관련 부위의 보증이 제한될 수 있습니다. 신차 보증 기간이 남아 있다면 이 손실이 출력 증가분보다 클 수 있습니다.
+        </p>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <h2 id="conclusion">5. 결론은 목적에 달렸다</h2>
+        <p>
+          <strong>기술적으로는 명확합니다.</strong> 터보 엔진에서 ECU 맵 조정으로 40~80마력을 얻는 것은 실재하는 이야기이고, 하드웨어 교체 없이 가능한 것도 맞습니다.
+        </p>
+        <p>
+          <strong>다만 그 이야기는 제도와 내구성을 뺀 조건에서 성립합니다.</strong> 국내에서 등록 차량을 운행하려면 승인·배출가스·정기검사라는 절차가 그대로 남아 있고, 이걸 통과하지 못하면 출력이 얼마든 의미가 없습니다.
+        </p>
+        <p>
+          <strong>서킷 전용 차량이라면 계산이 달라집니다.</strong> 반대로 일상 주행용 차량이라면, 남은 보증과 검사 주기를 감안했을 때 얻는 것보다 잃는 것이 클 수 있습니다.
+        </p>
+        <p>
+          <strong>정리하면 이렇습니다.</strong> "소프트웨어만 바꾸면 된다"는 문장에서 빠진 것은 하드웨어가 아니라 <strong>제도와 시간</strong>입니다. 출력은 즉시 오르지만, 승인·배출가스·내구성은 그 뒤에 순서대로 청구서를 보냅니다.
+        </p>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+      </div>
+
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="https://carbuzz.com/ecu-tuning-turbo-cars-50-horsepower-cheat-code/" target="_blank" rel="noopener">CarBuzz — 터보차 ECU 튜닝</a>
+              <a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01020101" target="_blank" rel="noopener">한국교통안전공단 튜닝제도</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> CarBuzz
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="#" class="article-tag-item">ECU튜닝</a>
+          <a href="#" class="article-tag-item">터보</a>
+          <a href="#" class="article-tag-item">자동차관리법</a>
+          <a href="#" class="article-tag-item">튜닝승인</a>
+          <a href="#" class="article-tag-item">배출가스</a>
+        </div>
+
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="#" class="pop-tag">ECU튜닝</a>
+          <a href="#" class="pop-tag">터보</a>
+          <a href="#" class="pop-tag">자동차관리법</a>
+          <a href="#" class="pop-tag">튜닝승인</a>
+          <a href="#" class="pop-tag">배출가스</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

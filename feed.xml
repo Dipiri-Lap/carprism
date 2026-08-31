@@ -5,7 +5,63 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 30 Aug 2026 16:07:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 07:14:17 GMT</lastBuildDate>
+    <item>
+      <title>&quot;부딪히지도 않았는데 목을 다쳤습니다&quot;… 로보택시가 남긴 20건</title>
+      <link>https://carprism.tmhub.co.kr/articles/robotaxi-test-driver-injuries-osha-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/robotaxi-test-driver-injuries-osha-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>자율주행차의 안전 논의는 대체로 충돌 여부로 수렴한다. 그런데 미국 산업안전보건청(OSHA)에 접수된 자료를 보면 2024~2025년 웨이모와 죽스의 시험 운전자에게서 20건이 넘는 업무상 부상이 확인됐다. 원인은 충돌이 아니라 자율주행 시스템의 급제동과 급회피였다. 차는 사고를 피했지만 안에 탄 사람은 다쳤고, 일부는 편타성 손상으로 수개월간 일을 쉬었다. OSHA 신고 의무가 모든 기업에 균일하게 적용되지 않아 실제 규모는 이보다 클 가능성이 있다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/waymo_ipace_sf_street_2026.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;운전면허가 없어도 됩니다&quot;… 로보택시 뒤의 사람을 가르치는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/sae-avsc-remote-assistance-training-best-practice.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>SAE 인터내셔널 산하 자율주행차 안전 컨소시엄(AVSC)이 로보택시 원격 지원 인력의 교육과 인적 요인에 관한 모범사례 문서를 발간했다. 이들은 인터넷으로 조향을 넘겨받는 원격 조종자가 아니라, 차량이 다음 동작을 정하지 못할 때 차로를 골라주거나 제안된 경로를 승인해 주는 역할이다. 문서는 운전면허가 반드시 필요하지는 않다고 보면서도, 운행 지역의 교통법규와 자율주행 시스템의 작동 원리를 완전히 이해해야 한다고 권고한다. 흥미로운 대목은 피로 관리다. 이들이 겪는 위험은 과부하가 아니라 할 일이 없어서 생기는 저부하다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/waymo_zeekr_ojai_depot_front.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;조수석 화면, 3분의 1은 한 번도 안 켰습니다&quot;… 6만8천 명이 답했다</title>
+      <link>https://carprism.tmhub.co.kr/articles/jd-power-2026-tech-experience-passenger-screen.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/jd-power-2026-tech-experience-passenger-screen.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>J.D. Power가 2026년형 신차 소유자 6만8,084명을 대상으로 구매 90일 뒤 40개 기술의 사용 경험을 조사했다. 결과에서 가장 눈에 띄는 항목은 조수석 디스플레이다. 이 기능을 갖춘 차의 소유자 가운데 35%가 한 번도 사용하지 않았고, 주행할 때마다 쓴다고 답한 비율은 6%에 그쳤다. 반대로 만족도가 가장 높은 기술은 스마트 시동처럼 존재를 의식하지 않는 기능이었다. 운전자 보조에서는 핸즈프리 시스템이 문제는 적었지만 만족도는 오히려 낮았다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/jdp_passenger_screen_video.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;비용이 경쟁사보다 30% 높습니다&quot;… 폭스바겐이 꺼낸 5만 명</title>
+      <link>https://carprism.tmhub.co.kr/articles/volkswagen-50000-more-job-cuts-german-plants-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/volkswagen-50000-more-job-cuts-german-plants-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>폭스바겐그룹이 전 세계에서 최대 5만 명의 인력을 추가로 줄이는 방안을 검토하고 있다. 이미 독일에서 약 3만5,000명, 그룹 전체로 약 5만 명 규모의 감축을 추진해 온 상태여서, 추가분이 현실화하면 구조조정 규모는 최대 10만 명에 이를 수 있다. 올리버 블루메 CEO는 5만 명이 확정된 목표가 아니라 경쟁사와의 비용 격차를 메우기 위해 산출한 기준이라고 설명하면서, 그룹의 간접비용이 경쟁업체보다 30% 이상 높다고 밝혔다. 독일 공장 폐쇄 가능성도 완전히 배제하지 않았다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/vw_oliver_blume_ceo_2026.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;비 오는 날은 단속 안 하겠지&quot;… 열에 셋이 이렇게 생각했다</title>
+      <link>https://carprism.tmhub.co.kr/articles/drunk-driving-rain-crackdown-misconception-survey-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/drunk-driving-rain-crackdown-misconception-survey-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>한국도로교통공단이 2026년 6월 24일부터 7월 24일까지 음주운전자 교육 수강생 924명을 조사한 결과, 29.3%가 &quot;비나 눈이 오는 날은 단속이 적다&quot;고 생각한 것으로 나타났다. 더 주목할 대목은 자기 상태에 대한 판단이다. 적발 당시 자신이 면허취소 수준이라고 인식한 비율은 25.2%였고, 단속 기준 이하라고 본 비율도 22.8%였다. 아예 생각해 보지 않았다는 응답이 19.6%, 취해서 판단할 수 없었다는 응답이 11.6%였다. 결국 절반 이상이 자기 상태를 잘못 알았거나 판단 자체를 하지 않은 셈이다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_dui_breathalyzer_stop.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;290마력이 3천만원대&quot;… 현대 2.5T가 기준을 바꿔놓은 방식</title>
+      <link>https://carprism.tmhub.co.kr/articles/hyundai-25t-gdi-affordable-performance-benchmark.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-25t-gdi-affordable-performance-benchmark.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>현대차그룹의 스마트스트림 2.5T-GDI가 저렴한 퍼포먼스의 새 기준으로 평가받고 있다. 기아 K5 GT와 현대 소나타 N 라인에서 290마력, 제네시스 GV70에서 300마력을 내며 토크는 311lb-ft로 공통이다. 이 토크가 1,650rpm부터 4,000rpm까지 평탄하게 유지된다는 점이 실사용 체감을 결정한다. 미국 기준 K5 GT는 3만3,590달러로 스바루 WRX보다 19마력 높고 골프 GTI보다 49마력 높다. 다중포트와 직분사를 함께 쓰는 구조로 저속에서는 포트분사, 고부하에서는 직분사가 작동한다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_k5_gt_driving_2026.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;소프트웨어만 바꿔 50마력&quot;… 그 전에 알아야 할 국내 규정</title>
+      <link>https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ecu-tuning-turbo-50hp-reality-korea-rules.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>터보 엔진에서 ECU 맵을 바꾸면 부품 교체 없이 40~50마력이 늘어난다는 이야기가 흔하다. 실제로 원리가 있다. ECU가 웨이스트게이트나 가변 지오메트리를 조정해 부스트압을 올리고 점화시기와 연료 분사를 함께 바꾸면, 같은 하드웨어에서 더 많은 공기와 연료를 태울 수 있다. 혼다 시빅 타입 R FK8이 40~50마력, 아우디 S3가 최대 60마력, 골프 R이 최대 70마력, 아우디 RS3는 80마력 이상으로 보고된다. 다만 국내에서는 자동차관리법 제34조에 따른 튜닝 승인과 배출가스 기준이라는 별도의 문턱이 있다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ecu_circuit_board_closeup.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;바닷길이 닫히면 차가 잠깁니다&quot;… 제부도 갈 때 시계부터 보는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/jebudo-tidal-road-hwaseong-golden-coast.html</link>
@@ -189,62 +245,6 @@
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
       <description>컴팩트 크로스오버를 알아보는 사람이라면 토요타 RAV4를 진지하게 고려했을 가능성이 높다. 신뢰성과 낮은 유지비에서 확고한 평판을 갖고 있고 가격 대비 장비도 좋으며 되팔 때 가치도 잘 유지된다. 토요타는 2025년 미국에서 RAV4를 47만 9288대 팔아 2위 혼다 CR-V를 7만 5000대 이상 앞섰다. 반면 마쓰다 CX-5는 같은 해 13만 6333대가 팔려 RAV4의 4분의 1 수준에 머물렀다. 다만 마쓰다는 더 스포티한 외관과 주행 감각을 원하는 좁은 수요를 겨냥한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/mazda_cx5_red_front_detail.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;중국 기술로 중국을 잡겠다&quot;… 폭스바겐이 꺼낸 2,800만 원대 전기 SUV</title>
-      <link>https://carprism.tmhub.co.kr/articles/faw-vw-id-aura-t6-presale-china-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/faw-vw-id-aura-t6-presale-china-2026.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>FAW-폭스바겐이 8월 28일 ID. AURA T6의 사전판매를 시작했다. 5인승 중형 전기 SUV로 사전판매 가격은 13만 5900위안부터 16만 9900위안까지 네 가지다. 540 Pro와 660 Pro가 각각 13만 5900위안과 14만 9900위안이며 라이다를 얹은 660 Max와 660 Ultra는 15만 9900위안과 16만 9900위안이다. 차체는 전장 4811mm, 전폭 1879mm, 전고 1648mm, 휠베이스 2836mm다. 59.9kWh와 77.5kWh 두 가지 배터리로 CLTC 기준 540km와 660km를 낸다. 단일 모터로 최고출력 170kW를 낸다. 상위 두 트림은 192채널 라이다와 카리존이 개발한 운전자보조 시스템을 쓴다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vw_id_aura_t6_green_studio.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;아무도 아우디 얘기는 안 합니다&quot;… 비교되지 않는 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/audi-reliability-vs-bmw-mercedes-jd-power.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/audi-reliability-vs-bmw-mercedes-jd-power.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>독일 럭셔리카를 비교할 때 신뢰성은 가장 먼저 떠오르는 항목이 아니지만 그래야 한다는 지적이 나왔다. 최신 J.D. 파워 내구품질조사는 세 갈래 별과 프로펠러 배지, 네 개의 링이 장기 보유 관점에서 결코 동등하지 않다는 점을 분명히 보여준다. 아우디와 BMW, 메르세데스-벤츠 사이의 격차는 대부분의 구매자가 생각하는 것보다 크다. 조사에 따르면 플러그가 달린 차량은 그렇지 않은 차량보다 문제를 더 많이 겪으며, 지난 10년간 자동차 설계를 지배해 온 바퀴 달린 스마트폰 접근법이 현재 신뢰성 문제의 가장 큰 원인으로 지목됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/audi_rs_front_detail_green.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;MIT가 계산을 끝냈습니다&quot;… 전기차 반대 논리의 핵심이 무너졌다</title>
-      <link>https://carprism.tmhub.co.kr/articles/mit-study-ev-lifecycle-emissions-vs-gas.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mit-study-ev-lifecycle-emissions-vs-gas.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>MIT가 주도한 새 연구가 전기차가 오염을 배기구에서 굴뚝으로 옮길 뿐이라는 주장을 정면으로 반박했다. 환경 연구 회보에 실린 이 연구는 운전자가 사는 지역과 전력망 구성, 차종, 주행거리, 날씨까지 변수로 넣고 분석했다. 결론은 배터리 전기차가 미국 전역에서 비슷한 급의 가솔린차보다 전 주기 배출에서 앞선다는 것이다. 전기가 여전히 화석연료에서 많이 나오는 지역도 포함된다. 대부분의 지역에서 전기차는 배출을 40에서 60퍼센트 줄였다. 내연기관은 태우는 연료의 상당 부분을 열로 낭비하는 반면 전기모터는 발전과 송전 손실을 계산해도 효율 우위를 유지한다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ev_skateboard_platform_battery.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;마지막 수동 V12였습니다&quot;… 그리고 그 색은 갈색이었다</title>
-      <link>https://carprism.tmhub.co.kr/articles/lamborghini-murcielago-last-manual-v12.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/lamborghini-murcielago-last-manual-v12.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>수동변속기가 제조사들에게 버림받았다는 사실은 비밀이 아니다. 매끄럽고 쓰기 쉬운 자동변속기가 대세가 되면서 람보르기니 같은 이그조틱 제조사도 자동에 맞춘 설계에 집중하기 시작했다. 다만 그 전에 플래그십 라인업에서 수동을 제대로 배웅한 적이 있다. 2000년대에 고성능차에 빠른 자동변속기를 넣는 것은 단순한 유행 이상이었다. 변속 시간을 줄여 성능을 높였을 뿐 아니라 전문 드라이버가 아닌 사람도 이런 초고속 차량을 훨씬 쉽게 다룰 수 있게 했다. 페라리가 1990년대 후반 F1 기어박스로 먼저 자리를 잡았고 포르쉐도 팁트로닉을 개선해 왔다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/lamborghini_murcielago_sv_brown_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;올해는 대체공휴일이 없습니다&quot;… 추석 연휴, 연차 하루의 값어치</title>
-      <link>https://carprism.tmhub.co.kr/articles/chuseok-2026-no-substitute-holiday-leave-design.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/chuseok-2026-no-substitute-holiday-leave-design.html</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026년 추석은 9월 25일 금요일이다. 연휴는 9월 24일 목요일부터 26일 토요일까지 사흘이며 대체공휴일이 없다. 대체공휴일은 추석 연휴가 일요일과 겹칠 때 발생하는데 올해 연휴는 목·금·토여서 조건에 해당하지 않기 때문이다. 다만 27일 일요일까지 이어 붙으면 실질 나흘이 된다. 여기에 연차를 앞이나 뒤 어디에 붙이느냐에 따라 닷새에서 아흐레까지 연휴 길이가 달라진다. 왕복 이동시간을 빼고 실제로 쓸 수 있는 시간을 기준으로 목적지 반경을 계산했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/namdang_coast_aerial.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;하나만 걸리면 됩니다&quot;… 통행료 면제가 앞뒤로 하루씩 넓어지는 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/chuseok-toll-exemption-how-it-works-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/chuseok-toll-exemption-how-it-works-2026.html</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <description>명절 연휴 고속도로 통행료 면제는 최근 몇 해 동안 반복 시행돼 왔다. 적용 기준에서 자주 오해되는 지점은 진입 시각과 진출 시각 가운데 하나라도 면제 기간에 포함되면 면제된다는 점이다. 2026년 설 연휴에는 2월 15일 0시부터 2월 18일 24시까지 나흘간 면제가 적용됐고, 2월 14일 진입해 2월 15일 진출한 경우와 2월 18일 진입해 2월 19일 진출한 경우 모두 면제 사례로 안내됐다. 면제 대상은 한국도로공사 관리 고속도로뿐 아니라 민자 고속도로 전 구간을 포함하며 별도 신청 절차가 없다. 2026년 추석 적용 기간은 아직 발표되지 않았다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/naejangsan_entrance_road.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;10월에 연휴가 한 번 더 있습니다&quot;… 개천절이 토요일인 결과</title>
-      <link>https://carprism.tmhub.co.kr/articles/october-2026-two-long-weekends-foliage-timing.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/october-2026-two-long-weekends-foliage-timing.html</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026년 10월에는 사흘 연휴가 두 번 있다. 개천절 10월 3일이 토요일과 겹치면서 10월 5일 월요일이 대체공휴일로 지정돼 10월 3일부터 5일까지 사흘이 이어진다. 한글날 10월 9일은 금요일이어서 10월 9일부터 11일까지 다시 사흘 연휴가 만들어진다. 두 연휴는 엿새 간격으로 배치돼 있다. 귀성 수요가 없다는 점에서 추석 연휴보다 이동 여건이 낫고, 단풍 시기와의 관계에서도 성격이 갈린다. 남부 산지의 단풍 절정은 두 연휴보다 대체로 늦게 온다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/gyeryongsan_sea_of_clouds.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
