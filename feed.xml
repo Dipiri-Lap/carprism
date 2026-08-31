@@ -5,7 +5,7 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 31 Aug 2026 07:25:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 07:43:39 GMT</lastBuildDate>
     <item>
       <title>&quot;아이를 피해 급정거했고, 175일을 쉬었습니다&quot;… 로보택시의 숨은 청구서</title>
       <link>https://carprism.tmhub.co.kr/articles/robotaxi-test-driver-injuries-osha-2026.html</link>
@@ -29,6 +29,30 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <description>J.D. Power가 2026년형 신차 소유자 6만8,084명을 대상으로 구매 90일 뒤 40개 기술의 사용 경험을 조사했다. 결과에서 가장 눈에 띄는 항목은 조수석 디스플레이다. 이 기능을 갖춘 차의 소유자 가운데 35%가 한 번도 사용하지 않았고, 주행할 때마다 쓴다고 답한 비율은 6%에 그쳤다. 반대로 만족도가 가장 높은 기술은 스마트 시동처럼 존재를 의식하지 않는 기능이었다. 운전자 보조에서는 핸즈프리 시스템이 문제는 적었지만 만족도는 오히려 낮았다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/jdp_passenger_screen_video.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;고객이 무엇을 타야 하는지는 우리가 정하지 않습니다&quot;… BMW M의 답</title>
+      <link>https://carprism.tmhub.co.kr/articles/bmw-m3-electric-and-ice-dual-powertrain-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-m3-electric-and-ice-dual-powertrain-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>BMW 고성능 브랜드 M이 차세대 M3에서 순수전기 버전과 내연기관 모델을 함께 판매한다. 프랑크 판 밀 BMW M CEO는 전기 M을 개발하는 이유에 대해 &quot;해야 하기 때문이 아니라 이런 방식으로 더 빠르고 더 나은 차를 만들 수 있다고 확신하기 때문&quot;이라고 밝혔다. 전기 M3에는 네 개의 전기모터를 각각 독립 제어하는 쿼드 모터 시스템이 적용되며, 여기에 토크 벡터링과 중앙 통합 제어장치, M 전용 소프트웨어가 결합된다. 기반은 전기차 전용 플랫폼 노이어 클라쎄다. 동시에 6기통과 8기통 엔진도 계속 유지한다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_m_concept_neue_klasse_badge.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;톱20에 단 한 대&quot;… 100년 완성차가 전기차 순위에서 사라졌다</title>
+      <link>https://carprism.tmhub.co.kr/articles/global-ev-top20-july-2026-legacy-oem-decline.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/global-ev-top20-july-2026-legacy-oem-decline.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026년 7월 전 세계 전동화 차량 판매는 약 180만 대로 전년 대비 7% 늘었다. 문제는 구성이다. 전기차 판매 톱20 모델 가운데 전통 완성차의 모델은 토요타 bZ4X(1만 2,632대) 하나뿐이었다. 1위는 테슬라 모델 Y(7만 7,405대)였고 2위부터 10위까지는 BYD, 지리, 립모터, 샤오미 등 중국계가 사실상 독식했다. 브랜드별로도 BYD가 35만 663대로 1위이고 현대차는 2만 8,634대에 그쳤다. 1~7월 누적 점유율에서 창립 11년의 립모터가 4.1%로 현대차·기아와 동률을 이뤘다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_model_y.jpg" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;5분 30초면 80%&quot;… 지리가 800V를 건너뛰고 1000V로 간 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/geely-1000v-architecture-5min30sec-charging-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/geely-1000v-architecture-5min30sec-charging-2026.html</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>중국 지리자동차그룹이 8월 29일 1000V 고전압 전기차 아키텍처 개발을 공식 발표했다. 배터리 잔량 10%에서 80%까지 충전하는 데 5분 30초 이하가 걸린다는 목표다. 핵심은 배터리와 전기모터, 전력 제어장치, 배선은 물론 차체 설계까지 고전압 부품과 시스템을 통합 표준화하는 것이다. 이미 링크앤코 10 세단이 자체 테스트에서 10~80% 5분 32초를 기록했고, 지커 브랜드는 2026년 3월 기준 최대 1500kW급 충전기를 2,100기 이상 설치했다. 이 충전기에서 링크앤코 10은 최대 1100kW를 받아들였다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/china_flash_charging_station_2026.webp" type="image/webp"/>
     </item>
     <item>
       <title>&quot;비용이 경쟁사보다 30% 높습니다&quot;… 폭스바겐이 꺼낸 5만 명</title>
@@ -221,30 +245,6 @@
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
       <description>자동차운전전문학원 대신 시험장에 직접 응시하면 비용이 절반이라는 말이 있지만 여기에는 한 번에 합격한다는 전제가 빠져 있다. 한국도로교통공단 안전운전 통합민원 기준으로 1·2종 보통 신규 응시자는 신체검사 7000원, 학과시험 1만원, 장내기능시험 2만5000원이 든다. 여기에 연습면허 발급과 도로주행시험, 최종 면허증 발급 비용이 더해진다. 다만 이 금액을 취득 총액으로 부르면 계산이 틀어진다. 사진비와 교통비, 연습면허 보험, 차량 대여와 동승자 섭외 비용이 빠져 있기 때문이다. 기능시험은 불합격일로부터 3일이 지나야 재응시할 수 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_license_course_yongin.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;3천만 원대에 독일제 V8&quot;… 감가가 만든 스위트 스팟</title>
-      <link>https://carprism.tmhub.co.kr/articles/german-v8-under-25000-depreciation-sweet-spot.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/german-v8-under-25000-depreciation-sweet-spot.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>V8의 본고장은 미국이지만 독일도 만만치 않게 만들어 왔다. 스포츠카인 메르세데스-벤츠 SL이든 아우디 RSQ8 같은 SUV든 독일 엔지니어가 차에 성격을 넣으려 할 때 첫 선택은 대체로 8기통이었다. 문제는 이 차들이 직선에서만 빠른 게 아니라 가치가 떨어지는 속도도 빠르다는 점이다. 그 결과 2만 5000달러 이하 중고 시장에서 유럽식 완성도와 V8 성능을 함께 살 수 있는 구간이 만들어졌다. CarBuzz가 꼽은 첫 번째 후보는 6.2리터 자연흡기 V8을 쓰는 2010년식 메르세데스-AMG E63이다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/audi_rs4_b7_red_rear.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;몇 년 타고 되팔면 본전입니다&quot;… 감가가 멈춘 픽업들</title>
-      <link>https://carprism.tmhub.co.kr/articles/zero-depreciation-pickup-trucks-tacoma.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/zero-depreciation-pickup-trucks-tacoma.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>새 차를 사는 것은 거의 언제나 돈을 잃는 일이다. 럭셔리 SUV든 스포츠카든 감가는 모두에게 찾아온다. 신차는 통상 첫 해에 원래 가치의 20퍼센트를 잃고 5년이면 총 40~50퍼센트가 빠진다. 픽업트럭도 대체로 같은 패턴을 따라 처음에 빠르게 값이 떨어진 뒤 완만한 구간에 들어간다. 그런데 V6 토요타 타코마는 초반에 어느 정도 값이 빠진 뒤로는 원하는 만큼 타고도 산 값과 비슷하게 되팔 수 있는 몇 안 되는 트럭으로 꼽힌다. 다만 중고차 가격은 지역과 주행거리, 소유자 수, 상태에 따라 크게 달라진다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/toyota_tacoma_desert_used.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;터보에 사륜인데 더 쌉니다&quot;… CX-5가 RAV4 앞에 던진 가격표</title>
-      <link>https://carprism.tmhub.co.kr/articles/mazda-cx5-turbo-awd-vs-toyota-rav4-price.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mazda-cx5-turbo-awd-vs-toyota-rav4-price.html</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>컴팩트 크로스오버를 알아보는 사람이라면 토요타 RAV4를 진지하게 고려했을 가능성이 높다. 신뢰성과 낮은 유지비에서 확고한 평판을 갖고 있고 가격 대비 장비도 좋으며 되팔 때 가치도 잘 유지된다. 토요타는 2025년 미국에서 RAV4를 47만 9288대 팔아 2위 혼다 CR-V를 7만 5000대 이상 앞섰다. 반면 마쓰다 CX-5는 같은 해 13만 6333대가 팔려 RAV4의 4분의 1 수준에 머물렀다. 다만 마쓰다는 더 스포티한 외관과 주행 감각을 원하는 좁은 수요를 겨냥한다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/mazda_cx5_red_front_detail.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
