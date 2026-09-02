@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:32:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:40:58 GMT</lastBuildDate>
+    <item>
+      <title>&quot;주차는 무료라는데, 같은 페이지에 요금표가 있습니다&quot;… 문경새재에서 다시 확인해야 하는 값</title>
+      <link>https://carprism.tmhub.co.kr/articles/mungyeong-saejae-parking-shuttle-fee-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mungyeong-saejae-parking-shuttle-fee-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>문경새재 도립공원 입장료는 2008년부터 무료다. 그런데 관리사무소 홈페이지에는 주차장 &apos;이용요금 : 무료&apos;라는 문구와 함께 버스 4,000원·승용 2,000원·경차 1,000원짜리 주차요금표가 나란히 붙어 있어 헷갈리기 쉽다. 제1관문에서 제2관문 사이를 오가는 전동차는 편도 어른 2,000원, 청소년·군인 800원, 어린이 500원이고 영유아와 장애인 동반 보호자 1인은 무료다. 요금을 낸 어른에게는 문경사랑상품권 1,000원을 지급한다는 조건도 붙어 있다. 오픈세트장은 개인 어른 2,000원, 청소년 1,000원, 어린이 500원이며 문경시민이나 경북투어패스 소지자는 절반 이하로 낮아진다. 제1관문부터 제3관문까지는 6.5km, 도보로 약 2시간 30분이 걸린다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_mungyeong_joryeong_gate.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;입장은 공짜인데 주차만 유료입니다&quot;… 도담삼봉·만천하스카이워크를 하루에 묶는 순서</title>
       <link>https://carprism.tmhub.co.kr/articles/danyang-dodamsambong-mancheonha-skywalk.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>르노 콰이드 부분변경 모델이 인도와 브라질에서 각각 팔리고 있는데, 두 시장의 가격 차이가 3배가 넘는다. 인도는 45만 3,000루피(약 4,700달러)부터, 브라질은 8만 2,790헤알(약 1만 6,000달러)부터다. 엔진은 같은 1.0리터 자연흡기 3기통으로 가솔린 68마력, 에탄올 71마력이며 5단 수동변속기만 조합된다. 장비는 브라질 쪽이 낫다. 10.1인치 터치스크린과 7인치 디지털 계기판이 중상위 트림에 들어가지만 기본 에볼루션 트림은 화면 자리에 플라스틱 커버가 들어간다. 가격 차이의 근원은 생산지와 세금, 인건비다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/renault_kwid_brazil_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;2만 5천 달러 픽업에 지붕을 씌웁니다&quot;… 모두가 떠난 자리에 남은 밴</title>
-      <link>https://carprism.tmhub.co.kr/articles/slate-truck-high-roof-cargo-van.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/slate-truck-high-roof-cargo-van.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>미국 신생 전기차 업체 슬레이트가 자사 소형 픽업에 카고 루프 옵션을 추가한다. 각진 SUV형 지붕과, 화물칸에서 사람이 완전히 설 수 있는 하이루프 두 가지다. 카고 루프 옵션은 3,000달러부터 시작하며 플릿과 개인 고객 모두 구매할 수 있다. 창문은 없음, 일반, 들어 올리는 방식 중에서 고른다. 기본 픽업은 2만 4,950달러에 주행거리 205마일이고, SUV 사양은 2만 9,950달러다. 포드·램·쉐보레·닛산이 모두 떠난 소형 밴 시장에서 사실상 경쟁자가 없는 상태다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/rivian_edv700_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
