@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:55:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:58:53 GMT</lastBuildDate>
+    <item>
+      <title>&quot;아내에겐 롤스로이스라면서&quot;… 김종국이 12년째 못 버리는 7천만 원짜리 벤츠</title>
+      <link>https://carprism.tmhub.co.kr/articles/kim-jong-kook-mercedes-g350-12years-luxury-suv.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kim-jong-kook-mercedes-g350-12years-luxury-suv.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>방송인 김종국이 2014년식 메르세데스-벤츠 G350 블루텍을 12년째 타고 있다. 최근 래핑과 실내외 디테일링, 휠 복원 작업까지 마쳤다는 근황이 전해졌다. 신차 가격은 1억 4,630만 원이었지만 현재 중고 시세는 약 7,000만 원으로, 신차가의 절반에도 못 미친다. 김종국은 자산가로 알려져 있고 강남 논현동 빌라를 현금 62억 원에 매입하기도 했지만, 정작 자신의 차는 544마력 AMG G63 대신 211마력 엔트리 디젤 모델을 12년째 유지하고 있다. 반면 아내에게는 롤스로이스를 선물하겠다고 밝혀 대비를 이룬다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kimjongkook_gwagen_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;짐칸부터 걱정됩니다&quot;… 23년 만에 바뀌는 포터, 반기지만은 않는 사람들</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-porter-5th-gen-23years-semi-bonnet-driver-concerns.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>인천대교는 풍속에 따라 주행 조건이 바뀐다. 초속 21~25m에서는 시속 50km로 감속하고, 초속 25m 이상이면 교량 진입이 전면 통제된다. 안개도 마찬가지여서 시정거리 100~250m에서는 시속 80km, 100m 이하에서는 시속 50km로 낮춘다. 상판이 해수면에서 약 80m 높이에 있어 바람의 영향을 크게 받기 때문이다. 애초에 진입이 제한되는 차량 기준도 있다. 총중량 40톤 초과 또는 축하중 10톤 초과, 높이 4.2m 초과, 길이 16.7m 초과(굴절·연결차 19.0m), 너비 2.5m 초과, 정상속도 50km/h 미만 차량이다. 적설 10cm 이상이거나 영하 20도 이하에서는 폴카와 트레일러 운행이 제한된다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_incheon_bridge_wide.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;사고는 12월에 몰리는데 조건은 11월에 만들어집니다&quot;… 결빙이 시작되는 지점</title>
-      <link>https://carprism.tmhub.co.kr/articles/winter-road-icing-mountain-pass-november.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/winter-road-icing-mountain-pass-november.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>최근 5년(2020~2024년) 도로 결빙으로 발생한 교통사고는 4,112건으로 83명이 숨지고 6,664명이 다쳤다. 이 가운데 78%인 3,198건이 12월과 1월에 몰렸다. 시간대별로는 오전 8~10시가 798건으로 가장 많았고, 치사율은 낮 12~2시가 100건당 3.8명으로 가장 높았다. 결빙 노면에서 승용차 제동거리는 평소의 최대 7배까지 늘어난다. 교량과 고가도로, 터널 입·출구, 급커브, 산기슭 그늘은 상습 결빙 구간으로 꼽힌다. 사고는 12월에 몰리지만, 고도가 높은 고갯길에서는 11월부터 조건이 만들어진다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vk_manhangjae_a.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

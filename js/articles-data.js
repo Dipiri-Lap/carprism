@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kim-jong-kook-mercedes-g350-12years-luxury-suv",
+    title: "\"아내에겐 롤스로이스라면서\"… 김종국이 12년째 못 버리는 7천만 원짜리 벤츠",
+    date: "2026-09-03",
+    image: "kimjongkook_gwagen_front.webp",
+    categories: ["import"],
+    tags: ["김종국", "벤츠G바겐", "G350블루텍", "중고차시세", "셀럽카"],
+    badge: "CELEBRITY",
+    badgeClass: "cat-gold",
+    source: "뉴스와 / 기어업",
+    desc: "방송인 김종국이 2014년식 메르세데스-벤츠 G350 블루텍을 12년째 타고 있다. 최근 래핑과 실내외 디테일링, 휠 복원 작업까지 마쳤다는 근황이 전해졌다. 신차 가격은 1억 4,630만 원이었지만 현재 중고 시세는 약 7,000만 원으로, 신차가의 절반에도 못 미친다. 김종국은 자산가로 알려져 있고 강남 논현동 빌라를 현금 62억 원에 매입하기도 했지만, 정작 자신의 차는 544마력 AMG G63 대신 211마력 엔트리 디젤 모델을 12년째 유지하고 있다. 반면 아내에게는 롤스로이스를 선물하겠다고 밝혀 대비를 이룬다."
+  },
+  {
     slug: "hyundai-porter-5th-gen-23years-semi-bonnet-driver-concerns",
     title: "\"짐칸부터 걱정됩니다\"… 23년 만에 바뀌는 포터, 반기지만은 않는 사람들",
     date: "2026-09-03",
