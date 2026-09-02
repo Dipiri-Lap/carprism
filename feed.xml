@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:40:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:45:10 GMT</lastBuildDate>
+    <item>
+      <title>&quot;한 곳 표만 있으면 다른 곳은 공짜입니다&quot;… 순천만습지·국가정원, 표 한 장으로 도는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/suncheonman-wetland-garden-yongsan-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/suncheonman-wetland-garden-yongsan-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>순천만국가정원과 순천만습지는 서로 연계돼 있어, 둘 중 한 곳에서 입장권을 사면 같은 날 다른 한 곳도 무료로 들어갈 수 있다. 국가정원 개인 주간 요금은 성인 1만 원, 청소년 7,000원, 어린이 5,000원이고 6세 이하와 65세 이상은 무료다. 습지와 정원을 오가는 무인 궤도차 스카이큐브는 왕복 8,000원, 편도 6,000원이며 매주 월요일 쉰다. S자형 수로와 칠면초 붉은 갯벌을 한눈에 담을 수 있는 용산전망대는 습지 입구에서 도보로 약 30분 걸린다. 습지 개장 시간은 오전 8시부터 일몰까지인데, 마지막 입장 시각이 1월엔 오후 5시, 5~8월엔 오후 7시로 계절마다 다르다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_suncheonbay_scurve_aerial.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;주차는 무료라는데, 같은 페이지에 요금표가 있습니다&quot;… 문경새재에서 다시 확인해야 하는 값</title>
       <link>https://carprism.tmhub.co.kr/articles/mungyeong-saejae-parking-shuttle-fee-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>렉서스가 2027년형 NX 부분변경 모델을 공개했다. 전장이 30mm 늘어난 4,690mm가 됐고, 새 LED 헤드램프가 스핀들 그릴과 이어지며 후면에는 L자 테일램프와 발광 배지가 들어갔다. 실내는 대시보드를 다시 설계해 14인치 프리스탠딩 터치스크린과 12.3인치 디지털 계기판을 얹었다. 전 모델이 6세대 렉서스 하이브리드 기술을 쓴다. NX 450h+ PHEV는 288~322마력에 배터리를 18kWh에서 23kWh로 키워 WLTP 기준 100km 전기 주행이 가능하고 DC 급속 충전을 지원한다. 판매는 2026년 말 시작된다. 다만 이번 공개는 글로벌 사양 기준이고 매체별로 인용한 수치에 차이가 있어, 시장별 최종 사양은 추후 확정된다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/lexus_nx350h_black_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;같은 차가 470만 원과 1,600만 원&quot;… 콰이드가 드러낸 값의 정체</title>
-      <link>https://carprism.tmhub.co.kr/articles/renault-kwid-india-brazil-price-gap.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/renault-kwid-india-brazil-price-gap.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>르노 콰이드 부분변경 모델이 인도와 브라질에서 각각 팔리고 있는데, 두 시장의 가격 차이가 3배가 넘는다. 인도는 45만 3,000루피(약 4,700달러)부터, 브라질은 8만 2,790헤알(약 1만 6,000달러)부터다. 엔진은 같은 1.0리터 자연흡기 3기통으로 가솔린 68마력, 에탄올 71마력이며 5단 수동변속기만 조합된다. 장비는 브라질 쪽이 낫다. 10.1인치 터치스크린과 7인치 디지털 계기판이 중상위 트림에 들어가지만 기본 에볼루션 트림은 화면 자리에 플라스틱 커버가 들어간다. 가격 차이의 근원은 생산지와 세금, 인건비다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/renault_kwid_brazil_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
