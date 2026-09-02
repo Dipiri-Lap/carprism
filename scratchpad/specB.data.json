@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "porsche-cayenne-electric-korea-launch-2026",
+    "title": "\"배터리 113kWh, 최고 1,156마력\"… 포르쉐가 카이엔에서 처음으로 엔진을 들어냈습니다",
+    "date": "2026-09-02",
+    "image": "porsche_cayenne_electric_turbo_front.webp",
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "tags": [
+      "포르쉐",
+      "카이엔일렉트릭",
+      "카이엔터보일렉트릭",
+      "전기SUV",
+      "800V충전"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "source": "오토뷰",
+    "desc": "포르쉐 최초의 순수전기 카이엔이 공개됐다. 113kWh 배터리로 최대 642km를 달리고, 터보 모델은 런치 컨트롤 시 1,156마력을 낸다. 국내 가격은 1억 4천만원대부터, 출시는 2026년 하반기다."
+  },
+  {
+    "slug": "vw-id4-gtx-korea-launch-2026",
+    "title": "\"그냥 ID.4가 아닙니다\"… 폭스바겐 고성능 전기 SUV, 9월 국내 상륙설",
+    "date": "2026-09-02",
+    "image": "vw_id4_gtx_front.webp",
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "tags": [
+      "폭스바겐",
+      "ID4GTX",
+      "전기SUV",
+      "듀얼모터",
+      "고성능전기차"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "source": "탑라이더",
+    "desc": "폭스바겐의 고성능 전기 SUV ID.4 GTX가 이르면 2026년 9월 국내 출시를 준비 중인 것으로 알려졌다. 유럽 사양 기준 듀얼모터 220kW(299마력)를 내는 이 모델이 국내 전기 SUV 시장에 어떤 변화를 가져올지 살펴봤다."
+  },
+  {
+    "slug": "bmw-7series-i7-facelift-2026",
+    "title": "\"그릴은 더 커지고, 헤드램프는 작아졌다\"… BMW 7시리즈, 8년 만의 대대적 변신",
+    "date": "2026-09-02",
+    "image": "bmw_i7_front.webp",
+    "categories": [
+      "import"
+    ],
+    "tags": [
+      "BMW7시리즈",
+      "BMWi7",
+      "페이스리프트",
+      "플래그십세단",
+      "전기세단"
+    ],
+    "badge": "FACELIFT",
+    "badgeClass": "cat-gold",
+    "source": "탑라이더",
+    "desc": "BMW가 7세대 7시리즈(G70)의 페이스리프트를 공개했다. 키드니 그릴 확대, 파노라믹 iDrive 인테리어, i7의 주행거리 확대 등이 핵심이다. 글로벌 출고는 2026년 7월부터 시작된다."
+  }
+]
