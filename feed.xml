@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:45:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:50:32 GMT</lastBuildDate>
+    <item>
+      <title>&quot;손 두 개는 무료인데 등대박물관 뒤 건물은 3,000원입니다&quot;… 영덕 블루로드에서 호미곶까지</title>
+      <link>https://carprism.tmhub.co.kr/articles/yeongdeok-blueroad-pohang-homigot-coastal-drive.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/yeongdeok-blueroad-pohang-homigot-coastal-drive.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>영덕 블루로드는 A(빛과 바람의 길·17.5km)부터 D(쪽빛 파도의 길·14.1km)까지 4개 코스, 총 64.6km로 이어진다. A코스는 강구터미널에서 고불봉을 넘어 영덕풍력발전단지를 지나 해맞이공원까지 이어지는 산길 위주 구간이다. 코스 끝에서 해안도로를 따라 남쪽으로 내려가면 포항 호미곶에 닿는다. 호미곶 해맞이광장의 상생의 손은 입장료와 주차비가 모두 무료다. 바다 쪽 오른손은 높이 8.5m·무게 18톤, 육지 쪽 왼손은 높이 5.5m·무게 13톤이다. 옆에 있는 국립등대박물관도 무료지만, 광장 뒤 새천년기념관 5층 전망대는 성인 3,000원이 따로 든다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_yeongdeok_windfarm_aerial.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;한 곳 표만 있으면 다른 곳은 공짜입니다&quot;… 순천만습지·국가정원, 표 한 장으로 도는 법</title>
       <link>https://carprism.tmhub.co.kr/articles/suncheonman-wetland-garden-yongsan-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>현대차의 정통 오프로더 &apos;볼더&apos;의 양산형 디자인이 인도 특허 출원 도면을 통해 드러났다. 수평형 패널 안에 작은 사각형 헤드램프와 세로형 주간주행등을 배치하고, 대형 그릴과 견인 고리, 스키드 플레이트를 적용했다. 콘셉트카에 달렸던 37인치, 지름 약 94cm의 오프로드 타이어가 차체 비율을 크게 바꿨다. 파워트레인은 확정되지 않았으나 후보로 약 333마력의 2.5리터 터보 하이브리드, 400마력 안팎의 플러그인 하이브리드, 약 209마력의 2.2리터 디젤이 거론된다. 사륜구동과 전후 차동기어 잠금장치, 저속 기어가 예상된다. 미국 조지아 메타플랜트 생산 가능성이 거론되지만 생산 공장과 출시 시점, 판매 지역은 아직 발표되지 않았다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_boulder_concept_c.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;배터리를 23kWh로 키웠습니다&quot;… 렉서스 NX가 얼굴보다 먼저 바꾼 것</title>
-      <link>https://carprism.tmhub.co.kr/articles/lexus-nx-2027-facelift-debut.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/lexus-nx-2027-facelift-debut.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>렉서스가 2027년형 NX 부분변경 모델을 공개했다. 전장이 30mm 늘어난 4,690mm가 됐고, 새 LED 헤드램프가 스핀들 그릴과 이어지며 후면에는 L자 테일램프와 발광 배지가 들어갔다. 실내는 대시보드를 다시 설계해 14인치 프리스탠딩 터치스크린과 12.3인치 디지털 계기판을 얹었다. 전 모델이 6세대 렉서스 하이브리드 기술을 쓴다. NX 450h+ PHEV는 288~322마력에 배터리를 18kWh에서 23kWh로 키워 WLTP 기준 100km 전기 주행이 가능하고 DC 급속 충전을 지원한다. 판매는 2026년 말 시작된다. 다만 이번 공개는 글로벌 사양 기준이고 매체별로 인용한 수치에 차이가 있어, 시장별 최종 사양은 추후 확정된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/lexus_nx350h_black_a.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
