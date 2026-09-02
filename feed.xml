@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:50:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:54:32 GMT</lastBuildDate>
+    <item>
+      <title>&quot;기차가 안 다니면 내 차로 2,000원에 들어갑니다&quot;… 태종대·이기대, 계산이 갈리는 지점</title>
+      <link>https://carprism.tmhub.co.kr/articles/busan-taejongdae-igidae-coastal-course.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/busan-taejongdae-igidae-coastal-course.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>태종대 순환도로는 원칙적으로 다누비열차 전용이지만, 열차가 운행하지 않는 날이나 시간대에는 일반 차량도 대당 2,000원을 내면 진입할 수 있다. 다누비열차 요금은 순환 성인 4,000원, 편도 2,000원, 청소년 2,000원, 소인 1,500원이다. 매표는 성수기(6~9월) 오전 9시부터 오후 6시 30분까지, 비수기는 오후 5시 30분까지다. 이기대 해안산책로는 동생말에서 오륙도까지 4.7km, 입장료 없이 연중 개방되며 완주에는 약 2시간 30분이 걸린다. 오륙도 수변공원 주차장은 10분당 300원으로 시간 단위가 아니라 분 단위로 과금된다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_taejongdae_cliff_rocks.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;손 두 개는 무료인데 등대박물관 뒤 건물은 3,000원입니다&quot;… 영덕 블루로드에서 호미곶까지</title>
       <link>https://carprism.tmhub.co.kr/articles/yeongdeok-blueroad-pohang-homigot-coastal-drive.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>르노코리아가 9월부터 필랑트와 2027년형 그랑 콜레오스를 사는 개인·개인사업자 고객에게 보증을 최대 7년·14만km로 확대한다. 기존에는 차체·일반 부품 3년/6만km, 엔진·동력계 5년/10만km였다. 다만 조건이 있다. 구매 후 365일 이내에 매년 공식 서비스센터를 방문해 12개 항목 무상 점검과 유상 엔진오일 교환을 받아야 한다. 중고차로 팔아도 보증은 승계된다. 르노코리아의 8월 내수는 2,024대로 전월 대비 18.8% 늘었고, 1~8월 누적 내수의 하이브리드 비중은 79%에 이르렀다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/renault_grand_koleos.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;타이어 지름만 94cm&quot;… 특허 도면이 먼저 보여준 현대차 볼더</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-boulder-patent-production-design.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-boulder-patent-production-design.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차의 정통 오프로더 &apos;볼더&apos;의 양산형 디자인이 인도 특허 출원 도면을 통해 드러났다. 수평형 패널 안에 작은 사각형 헤드램프와 세로형 주간주행등을 배치하고, 대형 그릴과 견인 고리, 스키드 플레이트를 적용했다. 콘셉트카에 달렸던 37인치, 지름 약 94cm의 오프로드 타이어가 차체 비율을 크게 바꿨다. 파워트레인은 확정되지 않았으나 후보로 약 333마력의 2.5리터 터보 하이브리드, 400마력 안팎의 플러그인 하이브리드, 약 209마력의 2.2리터 디젤이 거론된다. 사륜구동과 전후 차동기어 잠금장치, 저속 기어가 예상된다. 미국 조지아 메타플랜트 생산 가능성이 거론되지만 생산 공장과 출시 시점, 판매 지역은 아직 발표되지 않았다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_boulder_concept_c.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
