@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:54:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:58:58 GMT</lastBuildDate>
+    <item>
+      <title>&quot;어린이는 6세 미만만 무료입니다&quot;… 보성 녹차밭, 나이 기준을 다시 봐야 하는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/boseong-daehan-dawon-yulpo-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/boseong-daehan-dawon-yulpo-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>대한다원 보성녹차밭 입장료는 성인·일반 4,000원, 초·중·고 학생 3,000원(단체 2,500원), 지역주민·장애우 2,000원, 경로(65세 이상) 3,000원이다. 무료는 국가유공자와 만 6세 미만 어린이뿐이라, 초등학생도 3,000원을 내야 한다. 삼나무숲길을 지나는 관람 코스는 5개로 나뉘어 있고, 가장 짧은 3코스는 약 40분이면 돌아볼 수 있다. 5~6월 새벽에는 안개가 차밭 능선에 깔려 다른 계절과 확연히 다른 풍경이 된다. 인근 율포해수녹차센터는 바닷물을 데운 해수 온천 시설로, 옥상 야외탕에서는 바다를 바라보며 몸을 담글 수 있다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_boseong_teafield_misty.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;기차가 안 다니면 내 차로 2,000원에 들어갑니다&quot;… 태종대·이기대, 계산이 갈리는 지점</title>
       <link>https://carprism.tmhub.co.kr/articles/busan-taejongdae-igidae-coastal-course.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>2026 진주남강유등축제는 10월 3일(토)부터 10월 18일(일)까지 진주성과 남강 일원에서 열린다. 주제는 &apos;역사의 강, 평화를 담다 – POWER OF KOREA&apos;다. 유등 점등은 18:00~24:00, 부교와 부스는 13:00~23:00 운영이다. 공식 안내된 주차장은 혁신도시(윙스타워 앞), 물초울공원, 진주종합경기장 세 곳으로 모두 축제장 바로 옆이 아니다. 10월 4일에는 고유제와 상징등 거리행렬, 초혼점등, 드론 라이트쇼, 수상불꽃놀이가 몰려 있고 10월 8일과 18일에도 드론쇼와 불꽃놀이가 예정돼 있다. 셔틀버스와 교통 통제 정보는 아직 공지되지 않았다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_jinju_yudeung_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;7년 14만km로 늘렸습니다&quot;… 르노코리아가 조건 하나를 함께 걸었다</title>
-      <link>https://carprism.tmhub.co.kr/articles/renault-korea-7year-warranty-hybrid-79-percent.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/renault-korea-7year-warranty-hybrid-79-percent.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>르노코리아가 9월부터 필랑트와 2027년형 그랑 콜레오스를 사는 개인·개인사업자 고객에게 보증을 최대 7년·14만km로 확대한다. 기존에는 차체·일반 부품 3년/6만km, 엔진·동력계 5년/10만km였다. 다만 조건이 있다. 구매 후 365일 이내에 매년 공식 서비스센터를 방문해 12개 항목 무상 점검과 유상 엔진오일 교환을 받아야 한다. 중고차로 팔아도 보증은 승계된다. 르노코리아의 8월 내수는 2,024대로 전월 대비 18.8% 늘었고, 1~8월 누적 내수의 하이브리드 비중은 79%에 이르렀다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/renault_grand_koleos.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
