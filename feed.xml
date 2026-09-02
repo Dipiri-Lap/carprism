@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 13:07:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:11:12 GMT</lastBuildDate>
+    <item>
+      <title>&quot;국보 사찰은 공짜인데 서원은 2,000원입니다&quot;… 영주 부석사·소수서원, 반대로 기억하기 쉬운 값</title>
+      <link>https://carprism.tmhub.co.kr/articles/yeongju-buseoksa-sosuseowon-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/yeongju-buseoksa-sosuseowon-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>부석사는 입장료 없이 연중무휴로 개방된다. 신라 문무왕 16년(676) 의상대사가 창건했고, 국보 제18호 무량수전은 배흘림기둥으로 유명하다. 반면 소수서원·소수박물관·선비촌·민속마을 통합 관람권은 어른 2,000원, 청소년 1,330원, 어린이 660원이다. 6세 이하, 65세 이상, 국가유공자, 장애인은 면제되고 영주시민 등은 50% 감면된다. 국보급 사찰이 무료이고 서원 쪽에 요금이 붙는 구조라 반대로 기억하기 쉽다. 두 곳은 차로 약 20분 거리다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_buseoksa_autumn_hall.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;곤돌라 예약과 정상 예약은 따로입니다&quot;… 덕유산 향적봉, 표를 두 번 끊어야 하는 구간</title>
       <link>https://carprism.tmhub.co.kr/articles/muju-deogyusan-gondola-hyangjeokbong-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>민통선 안쪽은 자가용으로 개별 주행할 수 없다. 파주시가 운영하는 DMZ 평화관광은 임진각 매표소에서 표를 끊고 셔틀버스로 이동하며, 매표 시간은 09:00~14:30이고 월요일과 주중 공휴일, 설·추석 당일은 쉰다. 도보관람은 4,000원부터이며 모든 출입자가 신분 확인을 거친다. 별도 프로그램인 &apos;DMZ 평화의 길&apos; 테마노선 파주 코스는 총 20.2~21.5km 가운데 도보 구간이 1.4km이고, 수~일요일 오전 10시와 오후 2시 두 회차, 정원 20명, 참가비 1만 원, 만 8세 이상이다. 방문일 8일 전까지 예약해야 하고 4명 이상이어야 확정된다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_dmz_imjingak_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;사람과 차가 다른 배를 탑니다&quot;… 울릉도에 내 차를 가져가는 값</title>
-      <link>https://carprism.tmhub.co.kr/articles/ulleungdo-car-shipping-guide-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ulleungdo-car-shipping-guide-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>울릉도는 여객선에 차를 실을 수 없다. 차량은 포항에서 화물로 따로 부치고 사람은 여객선을 탄다. 울릉크루즈 뉴씨다오펄호 기준 편도 요금은 국내 경차 12만 9,400원, 중형 17만 8,000원, 대형 20만 9,700원이며 소형버스는 41만 1,200원, 대형버스는 82만 2,800원이다. 2024년 7월 15일부터 계근비 5,000원이 붙는다. 차량등록증 지참은 필수이고 높이 약 4.5m 이하, 최대 25톤까지 가능하다. 스포츠카와 충전율 50%를 넘는 전기차, 사고 이력이 있는 전기차는 선적할 수 없다. 일주도로는 1963년 착공해 2018년에야 완공됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vk_ulleung_sadong_port.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
