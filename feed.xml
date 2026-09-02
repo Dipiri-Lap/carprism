@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 12:58:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:04:08 GMT</lastBuildDate>
+    <item>
+      <title>&quot;주차비 5천 원인데 상품권으로 5천 원 돌려받습니다&quot;… 인제 자작나무숲, 진짜 비용은 임도 3.2km</title>
+      <link>https://carprism.tmhub.co.kr/articles/inje-wondaeri-birch-forest-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/inje-wondaeri-birch-forest-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>인제 원대리 자작나무숲은 입장료가 없다. 주차료는 승용차 기준 5,000원이지만 인제사랑상품권 5,000원으로 전액 돌려받아, 지역 안에서 쓰면 실질적으로 무료다. 진짜 비용은 돈이 아니라 시간이다. 주차장에서 숲까지는 임도 약 3.2km를 걸어야 하고, 완만한 오르막이라도 편도 50분에서 1시간이 걸린다. 왕복 이동과 숲 체류 시간을 더하면 최소 3~4시간을 잡아야 한다. 숲 안에는 자작나무코스(0.9km·50분)부터 하드코스(2.24km·1시간50분)까지 7개 코스가 나뉘어 있어, 시간이 부족하면 짧은 코스만 골라 걸을 수 있다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_inje_birch_canopy_sunlight.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;어린이는 6세 미만만 무료입니다&quot;… 보성 녹차밭, 나이 기준을 다시 봐야 하는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/boseong-daehan-dawon-yulpo-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>한국도로공사가 서해안고속도로 당진IC~서평택IC 구간에 설치한 가변형 속도제한 시스템이 2026년 3월 1일부터 본격 운영에 들어갔다. 비로 노면이 젖었거나 적설량이 20mm 미만이면 법정 제한속도의 80%로, 가시거리가 100m 이내이거나 노면이 얼었거나 적설량이 20mm 이상이면 제한속도의 50%까지 낮춘다. 표시된 제한속도를 넘기면 예외 없이 단속된다. 최근 3년간 기상과 노면 악화로 인한 고속도로 사망자는 연평균 6.7명이었다. 도로전광표지 5개소와 가변속도안내표지 7개소를 포함해 총 98개의 안전시설이 설치됐다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_seohae_bridge_seoul_dir.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;주차장이 축제장에 없습니다&quot;… 유등축제, 차를 어디에 둘 것인가</title>
-      <link>https://carprism.tmhub.co.kr/articles/jinju-yudeung-festival-2026-parking-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/jinju-yudeung-festival-2026-parking-guide.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026 진주남강유등축제는 10월 3일(토)부터 10월 18일(일)까지 진주성과 남강 일원에서 열린다. 주제는 &apos;역사의 강, 평화를 담다 – POWER OF KOREA&apos;다. 유등 점등은 18:00~24:00, 부교와 부스는 13:00~23:00 운영이다. 공식 안내된 주차장은 혁신도시(윙스타워 앞), 물초울공원, 진주종합경기장 세 곳으로 모두 축제장 바로 옆이 아니다. 10월 4일에는 고유제와 상징등 거리행렬, 초혼점등, 드론 라이트쇼, 수상불꽃놀이가 몰려 있고 10월 8일과 18일에도 드론쇼와 불꽃놀이가 예정돼 있다. 셔틀버스와 교통 통제 정보는 아직 공지되지 않았다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_jinju_yudeung_a.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
