@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:58:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 20:03:46 GMT</lastBuildDate>
+    <item>
+      <title>&quot;2년 전엔 부인했습니다&quot;… 렉서스가 일본 대신 중국을 택한 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/lexus-china-shanghai-plant-ev-suv-2027.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/lexus-china-shanghai-plant-ev-suv-2027.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>렉서스의 중국 상하이 공장이 2025년 6월 착공해 2026년 8월 완공을 앞두고 있다. 2027년 하반기부터 전기 SUV를 월 1,000대 규모로 생산하기 시작해 2028년부터는 수만 대 단위로 늘릴 계획이며, 공장의 설계 생산능력은 연 10만 대다. 테슬라에 이어 중국 내 두 번째 외국 브랜드 단독 소유 공장이다. 도요타는 통상 일본에서 먼저 고급 차종을 개발·생산한 뒤 다른 시장으로 확대해 왔는데, 이번에는 차세대 렉서스 BEV를 일본이 아닌 중국에서 먼저 만든다는 점에서 이례적이라는 평가가 나온다. 2024년에는 렉서스 측이 중국 단독 공장 설립 계획을 공식 부인한 바 있어, 2년 만에 상황이 뒤집힌 셈이다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/lexus_es500e_china_motorshow.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;아내에겐 롤스로이스라면서&quot;… 김종국이 12년째 못 버리는 7천만 원짜리 벤츠</title>
       <link>https://carprism.tmhub.co.kr/articles/kim-jong-kook-mercedes-g350-12years-luxury-suv.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>주왕산국립공원은 대구·경북 지역의 유일한 국립공원이다. 국립공원 입장료는 2007년에 폐지됐고, 공원 안 대전사도 개정 문화재보호법이 2023년 5월 4일 시행되면서 문화재관람료 폐지에 동참했다. 즉 지금 주왕산에서 내는 돈은 주차료 등으로 한정된다. 접근은 당진영덕고속도로 청송IC 또는 영덕IC에서 나와 국도를 따르는 경로가 편하다. 대전사는 672년 의상대사가 창건한 것으로 알려졌고 보광전은 보물로 지정돼 있다. 주산지는 조선 숙종 때 축조된 저수지로 수령 300년이 넘는 왕버들이 물속에 자란다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_juwangsan_canyon.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;초속 25m가 넘으면 다리가 닫힙니다&quot;… 바람으로 통제되는 도로의 기준</title>
-      <link>https://carprism.tmhub.co.kr/articles/sea-bridge-wind-speed-control-rules.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/sea-bridge-wind-speed-control-rules.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>인천대교는 풍속에 따라 주행 조건이 바뀐다. 초속 21~25m에서는 시속 50km로 감속하고, 초속 25m 이상이면 교량 진입이 전면 통제된다. 안개도 마찬가지여서 시정거리 100~250m에서는 시속 80km, 100m 이하에서는 시속 50km로 낮춘다. 상판이 해수면에서 약 80m 높이에 있어 바람의 영향을 크게 받기 때문이다. 애초에 진입이 제한되는 차량 기준도 있다. 총중량 40톤 초과 또는 축하중 10톤 초과, 높이 4.2m 초과, 길이 16.7m 초과(굴절·연결차 19.0m), 너비 2.5m 초과, 정상속도 50km/h 미만 차량이다. 적설 10cm 이상이거나 영하 20도 이하에서는 폴카와 트레일러 운행이 제한된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_incheon_bridge_wide.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
