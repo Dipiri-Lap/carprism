@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 07:48:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:32:18 GMT</lastBuildDate>
+    <item>
+      <title>&quot;입장은 공짜인데 주차만 유료입니다&quot;… 도담삼봉·만천하스카이워크를 하루에 묶는 순서</title>
+      <link>https://carprism.tmhub.co.kr/articles/danyang-dodamsambong-mancheonha-skywalk.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/danyang-dodamsambong-mancheonha-skywalk.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>단양 도담삼봉은 입장료가 없지만 주차비는 3,000원이다. 반면 만천하스카이워크는 전망대 자체 요금이 성인 4,000원이지만, 짚와이어나 알파인코스터를 타면 이 요금이 면제된다. 전망대까지는 400m 모노레일(편도 3,000원)을 타거나 걸어 올라가야 하고, 스카이워크 이용은 매표소에서 셔틀버스로만 접근할 수 있다. 만천하 주차장은 6곳이 모두 무료이지만 매표소와 가까운 1·2주차장은 성수기에 먼저 차고, 이럴 땐 무료 셔틀버스로 3~6주차장에서 이동해야 한다. 강우·강설·낙뢰 시에는 모노레일과 스카이워크 모두 운행이 중단되며 전액 환불된다. 도담삼봉과 석문을 먼저 보고 만천하스카이워크로 넘어가는 순서가 남한강을 따라가는 동선과 맞아떨어진다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_dodamsambong_peaks_a.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;조지아산(産) 로보택시&quot;… 아이오닉5, 웨이모 함대 합류 D-1년</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-ioniq5-robotaxi-waymo-metaplant-supply-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>미국 신생 전기차 업체 슬레이트가 자사 소형 픽업에 카고 루프 옵션을 추가한다. 각진 SUV형 지붕과, 화물칸에서 사람이 완전히 설 수 있는 하이루프 두 가지다. 카고 루프 옵션은 3,000달러부터 시작하며 플릿과 개인 고객 모두 구매할 수 있다. 창문은 없음, 일반, 들어 올리는 방식 중에서 고른다. 기본 픽업은 2만 4,950달러에 주행거리 205마일이고, SUV 사양은 2만 9,950달러다. 포드·램·쉐보레·닛산이 모두 떠난 소형 밴 시장에서 사실상 경쟁자가 없는 상태다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/rivian_edv700_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;안개등도 인증을 받아야 합니다&quot;… 8월 26일부터 달라진 것</title>
-      <link>https://carprism.tmhub.co.kr/articles/korea-fog-lamp-tuning-parts-certification-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-fog-lamp-tuning-parts-certification-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>한국자동차튜닝협회가 2026년 8월 26일부터 자동차와 이륜자동차용 앞면안개등에 대한 튜닝부품 인증제도를 시행했다. 인증 기준을 통과한 제품은 개별 튜닝 승인과 검사 절차를 거치지 않아도 된다. 인증 항목은 광학 성능과 색상, 컷오프 라인, 열 영향, 진동 내구성 네 가지다. 협회는 장착 이력 관리와 사후 관리 체계도 함께 운영한다. 이륜차 운전자에게 특히 의미가 큰데, 노면과 기상에 직접 노출되는 특성상 야간과 악천후 시야 확보가 곧 안전으로 이어지기 때문이다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/fog_road_keys_view.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
