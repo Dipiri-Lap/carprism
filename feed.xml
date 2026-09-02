@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:44:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:51:08 GMT</lastBuildDate>
+    <item>
+      <title>&quot;서스펜션을 아예 없앴습니다&quot;… 리콜된 테슬라 장난감이 완판을 반복하는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/tesla-cyberquad-for-kids-recall-loophole-sellout.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/tesla-cyberquad-for-kids-recall-loophole-sellout.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>테슬라와 라디오플라이어가 파는 어린이용 &apos;사이버쿼드 포 키즈&apos;가 재입고 때마다 몇 시간 만에 완판되는 일이 반복되고 있다. 2021년 출시된 초기 모델(914)은 8세 아동과 함께 타던 36세 성인이 어깨에 멍이 든 사고 1건이 접수되면서 미국 CPSC의 청소년 ATV 안전기준 미달로 리콜됐고, 약 5,000대가 회수됐다. 2023년 11월 재출시된 모델915는 후륜 서스펜션을 아예 제거해 &apos;청소년 ATV&apos;가 아닌 &apos;ASTM F963 인증 장난감&apos;으로 재분류하는 방식으로 규제를 피해갔다. 가격은 1,900달러(약 250만 원)로 리콜 전과 동일하다. 정작 2019년 사이버트럭 공개 행사에서 예고됐던 성인용 사이버쿼드는 7년째 정식 출시되지 않았다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_cyberquad_studio_shot.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;카니발보다 큽니다&quot;… 기아가 승용차 대신 밴을 3대나 만드는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/kia-pv7-teaser-large-pbv-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>서울 잠실 자동차극장이 문을 닫으면서 서울에는 자동차극장이 남아 있지 않다. 수도권에서 운영 중인 곳은 경기도에 몰려 있다. 파주 탄현면 낙하리의 자유로 자동차극장은 3,000평 규모로 2022년 12월 자동차 복합 문화 공간으로 새로 단장했고, 굿즈샵과 팝업스토어, 스낵바를 함께 운영한다. 양주 장흥면 권율로의 장흥 자동차극장은 규모가 크고 주차 간격이 넉넉하다. 용인에는 한국민속촌과 묶어 갈 수 있는 CGV Drive in 용인이 있다. 자동차극장은 소리를 라디오 주파수로 받는 구조라, 시동을 끈 채 오디오를 오래 켜 두면 배터리가 문제가 된다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/drivein_theatre_b.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;임도는 열렸는데 내 차가 못 올라갑니다&quot;… 벌초길에서 벌어지는 일</title>
-      <link>https://carprism.tmhub.co.kr/articles/chuseok-grave-visit-mountain-road-driving.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/chuseok-grave-visit-mountain-road-driving.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>산림청은 벌초와 성묘 시기에 맞춰 산림 내 임도 1만 6,425km를 한시적으로 개방한다. 무단벌채와 토석류 채취 위험이 높은 일부 구간은 제외된다. 다만 임도는 일반 도로가 아니다. 노면이 고르지 않고 배수로와 낙석이 있어 승용차 하부와 타이어가 손상되기 쉽다. 회차 공간이 없는 구간에서는 후진으로 수백 미터를 내려와야 하는 상황도 생긴다. 벌초철에는 벌 쏘임과 뱀, 예초기 사고도 함께 주의해야 하며, 고온 건조한 날씨에는 산불 위험도 높아진다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kto_wonju_baegunsan_road.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

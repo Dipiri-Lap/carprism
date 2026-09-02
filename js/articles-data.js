@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "tesla-cyberquad-for-kids-recall-loophole-sellout",
+    title: "\"서스펜션을 아예 없앴습니다\"… 리콜된 테슬라 장난감이 완판을 반복하는 법",
+    date: "2026-09-03",
+    image: "tesla_cyberquad_studio_shot.webp",
+    categories: ["electric", "import", "news"],
+    tags: ["테슬라", "사이버쿼드", "라디오플라이어", "리콜", "CPSC"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "Electrek / CPSC / Radio Flyer",
+    desc: "테슬라와 라디오플라이어가 파는 어린이용 '사이버쿼드 포 키즈'가 재입고 때마다 몇 시간 만에 완판되는 일이 반복되고 있다. 2021년 출시된 초기 모델(914)은 8세 아동과 함께 타던 36세 성인이 어깨에 멍이 든 사고 1건이 접수되면서 미국 CPSC의 청소년 ATV 안전기준 미달로 리콜됐고, 약 5,000대가 회수됐다. 2023년 11월 재출시된 모델915는 후륜 서스펜션을 아예 제거해 '청소년 ATV'가 아닌 'ASTM F963 인증 장난감'으로 재분류하는 방식으로 규제를 피해갔다. 가격은 1,900달러(약 250만 원)로 리콜 전과 동일하다. 정작 2019년 사이버트럭 공개 행사에서 예고됐던 성인용 사이버쿼드는 7년째 정식 출시되지 않았다."
+  },
+  {
     slug: "kia-pv7-teaser-large-pbv-2026",
     title: "\"카니발보다 큽니다\"… 기아가 승용차 대신 밴을 3대나 만드는 이유",
     date: "2026-09-03",
