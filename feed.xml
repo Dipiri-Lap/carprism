@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 13:04:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:07:31 GMT</lastBuildDate>
+    <item>
+      <title>&quot;곤돌라 예약과 정상 예약은 따로입니다&quot;… 덕유산 향적봉, 표를 두 번 끊어야 하는 구간</title>
+      <link>https://carprism.tmhub.co.kr/articles/muju-deogyusan-gondola-hyangjeokbong-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/muju-deogyusan-gondola-hyangjeokbong-guide.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>무주덕유산리조트 관광곤돌라는 성인 왕복 18,000원, 편도 14,000원이다. 주말과 성수기에는 100% 사전 예약제로 운영돼, 탑승일 2주 전 오후 5시부터 리조트 홈페이지에서 예약하고 현장에서 탑승 30분 전까지 실물 표로 바꿔야 한다. 평일에는 예약 없이 현장 구매 후 바로 탑승할 수 있다. 곤돌라로 오르는 해발 1,520m 설천봉에서 정상 향적봉까지는 별도 구간으로, 국립공원 탐방예약제가 적용될 수 있어 곤돌라 표와 별개로 국립공원 예약시스템에서 확인해야 한다. 설천봉~향적봉 구간은 0.6km, 왕복 약 40분이 걸린다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_deogyusan_snowtrail_crowd.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;주차비 5천 원인데 상품권으로 5천 원 돌려받습니다&quot;… 인제 자작나무숲, 진짜 비용은 임도 3.2km</title>
       <link>https://carprism.tmhub.co.kr/articles/inje-wondaeri-birch-forest-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>울릉도는 여객선에 차를 실을 수 없다. 차량은 포항에서 화물로 따로 부치고 사람은 여객선을 탄다. 울릉크루즈 뉴씨다오펄호 기준 편도 요금은 국내 경차 12만 9,400원, 중형 17만 8,000원, 대형 20만 9,700원이며 소형버스는 41만 1,200원, 대형버스는 82만 2,800원이다. 2024년 7월 15일부터 계근비 5,000원이 붙는다. 차량등록증 지참은 필수이고 높이 약 4.5m 이하, 최대 25톤까지 가능하다. 스포츠카와 충전율 50%를 넘는 전기차, 사고 이력이 있는 전기차는 선적할 수 없다. 일주도로는 1963년 착공해 2018년에야 완공됐다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/vk_ulleung_sadong_port.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;100m 앞이 안 보이면 절반으로 줄어듭니다&quot;… 3월부터 서해안고속도로가 달라졌습니다</title>
-      <link>https://carprism.tmhub.co.kr/articles/seohaean-expressway-variable-speed-fog-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/seohaean-expressway-variable-speed-fog-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>한국도로공사가 서해안고속도로 당진IC~서평택IC 구간에 설치한 가변형 속도제한 시스템이 2026년 3월 1일부터 본격 운영에 들어갔다. 비로 노면이 젖었거나 적설량이 20mm 미만이면 법정 제한속도의 80%로, 가시거리가 100m 이내이거나 노면이 얼었거나 적설량이 20mm 이상이면 제한속도의 50%까지 낮춘다. 표시된 제한속도를 넘기면 예외 없이 단속된다. 최근 3년간 기상과 노면 악화로 인한 고속도로 사망자는 연평균 6.7명이었다. 도로전광표지 5개소와 가변속도안내표지 7개소를 포함해 총 98개의 안전시설이 설치됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_seohae_bridge_seoul_dir.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
