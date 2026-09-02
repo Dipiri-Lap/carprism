@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 13:58:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:44:56 GMT</lastBuildDate>
+    <item>
+      <title>&quot;카니발보다 큽니다&quot;… 기아가 승용차 대신 밴을 3대나 만드는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/kia-pv7-teaser-large-pbv-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-pv7-teaser-large-pbv-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>기아가 8월 31일 전동화 PBV &apos;더 기아 PV7&apos;의 티저 이미지와 영상을 처음 공개했다. PV5 전용 플랫폼 E-GMP.S를 기반으로 하되 PV5보다 차체를 키워, 개인 고객 중심이던 라인업을 법인·물류 수요까지 흡수하는 방향으로 확장했다. 실물은 9월 14일부터 20일까지 독일 하노버 &apos;IAA 트랜스포테이션 2026&apos;에서 세계 최초 공개되며, 국내 출시는 2027년으로 예정돼 있다. 기아는 PV5·PV7에 이어 2029년 PV9까지 잇는 3단계 PBV 라인업으로 2030년 연간 23만 2천 대 판매를 목표로 잡았다. PV5는 올해 8월까지 글로벌 3만 9천여 대, 국내 7월 한 달만 2,472대가 팔리며 기아 전기차 판매 3위에 올랐다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_pv7_teaser_exterior.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;국보 사찰은 공짜인데 서원은 2,000원입니다&quot;… 영주 부석사·소수서원, 반대로 기억하기 쉬운 값</title>
       <link>https://carprism.tmhub.co.kr/articles/yeongju-buseoksa-sosuseowon-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>산림청은 벌초와 성묘 시기에 맞춰 산림 내 임도 1만 6,425km를 한시적으로 개방한다. 무단벌채와 토석류 채취 위험이 높은 일부 구간은 제외된다. 다만 임도는 일반 도로가 아니다. 노면이 고르지 않고 배수로와 낙석이 있어 승용차 하부와 타이어가 손상되기 쉽다. 회차 공간이 없는 구간에서는 후진으로 수백 미터를 내려와야 하는 상황도 생긴다. 벌초철에는 벌 쏘임과 뱀, 예초기 사고도 함께 주의해야 하며, 고온 건조한 날씨에는 산불 위험도 높아진다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kto_wonju_baegunsan_road.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;내 차로 갈 수 있는 곳은 여기까지입니다&quot;… 임진각에서 차를 두고 가는 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/dmz-peace-road-car-access-rules-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/dmz-peace-road-car-access-rules-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>민통선 안쪽은 자가용으로 개별 주행할 수 없다. 파주시가 운영하는 DMZ 평화관광은 임진각 매표소에서 표를 끊고 셔틀버스로 이동하며, 매표 시간은 09:00~14:30이고 월요일과 주중 공휴일, 설·추석 당일은 쉰다. 도보관람은 4,000원부터이며 모든 출입자가 신분 확인을 거친다. 별도 프로그램인 &apos;DMZ 평화의 길&apos; 테마노선 파주 코스는 총 20.2~21.5km 가운데 도보 구간이 1.4km이고, 수~일요일 오전 10시와 오후 2시 두 회차, 정원 20명, 참가비 1만 원, 만 8세 이상이다. 방문일 8일 전까지 예약해야 하고 4명 이상이어야 확정된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_dmz_imjingak_a.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

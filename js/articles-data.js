@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-pv7-teaser-large-pbv-2026",
+    title: "\"카니발보다 큽니다\"… 기아가 승용차 대신 밴을 3대나 만드는 이유",
+    date: "2026-09-03",
+    image: "kia_pv7_teaser_exterior.webp",
+    categories: ["electric", "domestic", "news"],
+    tags: ["기아PV7", "PBV", "E-GMP.S", "PV5", "전기밴"],
+    badge: "FIRST LOOK",
+    badgeClass: "cat-blue",
+    source: "기아 뉴스룸 / 현대자동차그룹 뉴스룸",
+    desc: "기아가 8월 31일 전동화 PBV '더 기아 PV7'의 티저 이미지와 영상을 처음 공개했다. PV5 전용 플랫폼 E-GMP.S를 기반으로 하되 PV5보다 차체를 키워, 개인 고객 중심이던 라인업을 법인·물류 수요까지 흡수하는 방향으로 확장했다. 실물은 9월 14일부터 20일까지 독일 하노버 'IAA 트랜스포테이션 2026'에서 세계 최초 공개되며, 국내 출시는 2027년으로 예정돼 있다. 기아는 PV5·PV7에 이어 2029년 PV9까지 잇는 3단계 PBV 라인업으로 2030년 연간 23만 2천 대 판매를 목표로 잡았다. PV5는 올해 8월까지 글로벌 3만 9천여 대, 국내 7월 한 달만 2,472대가 팔리며 기아 전기차 판매 3위에 올랐다."
+  },
+  {
     slug: "yeongju-buseoksa-sosuseowon-guide",
     title: "\"국보 사찰은 공짜인데 서원은 2,000원입니다\"… 영주 부석사·소수서원, 반대로 기억하기 쉬운 값",
     date: "2026-09-02",
