@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:51:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:55:48 GMT</lastBuildDate>
+    <item>
+      <title>&quot;짐칸부터 걱정됩니다&quot;… 23년 만에 바뀌는 포터, 반기지만은 않는 사람들</title>
+      <link>https://carprism.tmhub.co.kr/articles/hyundai-porter-5th-gen-23years-semi-bonnet-driver-concerns.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-porter-5th-gen-23years-semi-bonnet-driver-concerns.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>현대차 포터가 2004년 4세대(포터Ⅱ) 출시 이후 23년째 이어온 뼈대를 바꾼다. 5세대는 엔진룸이 앞으로 나온 세미보닛 구조로 전환되는데, 2027년 이후 강화될 것으로 예상되는 소형 화물차 전방 충돌 안전기준에 대응하기 위해서라는 분석이다. 다만 보닛이 생기는 만큼 전장이 늘고 회전반경이 커져, 적재함이나 골목 진입 성능이 실사용에서 어떻게 바뀔지를 두고 화물차 기사들 사이에서는 우려도 나온다. 파워트레인은 기존 2.5L LPG 터보(159마력·30kg·m)를 유지하되 전기 모델을 강화하는 방향으로 알려졌으며, 양산은 2027년 초로 예상된다. 포터는 월 5,000대 이상 꾸준히 팔리며 불황기에 오히려 판매가 느는 현대차의 캐시카우로, 그만큼 오랫동안 큰 변화 없이 유지돼 왔다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_porter_5th_gen_spyshot_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;서스펜션을 아예 없앴습니다&quot;… 리콜된 테슬라 장난감이 완판을 반복하는 법</title>
       <link>https://carprism.tmhub.co.kr/articles/tesla-cyberquad-for-kids-recall-loophole-sellout.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>최근 5년(2020~2024년) 도로 결빙으로 발생한 교통사고는 4,112건으로 83명이 숨지고 6,664명이 다쳤다. 이 가운데 78%인 3,198건이 12월과 1월에 몰렸다. 시간대별로는 오전 8~10시가 798건으로 가장 많았고, 치사율은 낮 12~2시가 100건당 3.8명으로 가장 높았다. 결빙 노면에서 승용차 제동거리는 평소의 최대 7배까지 늘어난다. 교량과 고가도로, 터널 입·출구, 급커브, 산기슭 그늘은 상습 결빙 구간으로 꼽힌다. 사고는 12월에 몰리지만, 고도가 높은 고갯길에서는 11월부터 조건이 만들어진다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/vk_manhangjae_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;서울에는 한 곳도 없습니다&quot;… 차에 앉아 영화를 보는 곳, 지금 어디 남았나</title>
-      <link>https://carprism.tmhub.co.kr/articles/korea-drive-in-theater-guide-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-drive-in-theater-guide-2026.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>서울 잠실 자동차극장이 문을 닫으면서 서울에는 자동차극장이 남아 있지 않다. 수도권에서 운영 중인 곳은 경기도에 몰려 있다. 파주 탄현면 낙하리의 자유로 자동차극장은 3,000평 규모로 2022년 12월 자동차 복합 문화 공간으로 새로 단장했고, 굿즈샵과 팝업스토어, 스낵바를 함께 운영한다. 양주 장흥면 권율로의 장흥 자동차극장은 규모가 크고 주차 간격이 넉넉하다. 용인에는 한국민속촌과 묶어 갈 수 있는 CGV Drive in 용인이 있다. 자동차극장은 소리를 라디오 주파수로 받는 구조라, 시동을 끈 채 오디오를 오래 켜 두면 배터리가 문제가 된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/drivein_theatre_b.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

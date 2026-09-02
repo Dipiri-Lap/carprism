@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-porter-5th-gen-23years-semi-bonnet-driver-concerns",
+    title: "\"짐칸부터 걱정됩니다\"… 23년 만에 바뀌는 포터, 반기지만은 않는 사람들",
+    date: "2026-09-03",
+    image: "hyundai_porter_5th_gen_spyshot_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["현대포터", "세미보닛", "포터풀체인지", "1톤트럭", "스파이샷"],
+    badge: "SPY SHOT",
+    badgeClass: "cat-hyundai",
+    source: "오토데일리 / 뉴스와",
+    desc: "현대차 포터가 2004년 4세대(포터Ⅱ) 출시 이후 23년째 이어온 뼈대를 바꾼다. 5세대는 엔진룸이 앞으로 나온 세미보닛 구조로 전환되는데, 2027년 이후 강화될 것으로 예상되는 소형 화물차 전방 충돌 안전기준에 대응하기 위해서라는 분석이다. 다만 보닛이 생기는 만큼 전장이 늘고 회전반경이 커져, 적재함이나 골목 진입 성능이 실사용에서 어떻게 바뀔지를 두고 화물차 기사들 사이에서는 우려도 나온다. 파워트레인은 기존 2.5L LPG 터보(159마력·30kg·m)를 유지하되 전기 모델을 강화하는 방향으로 알려졌으며, 양산은 2027년 초로 예상된다. 포터는 월 5,000대 이상 꾸준히 팔리며 불황기에 오히려 판매가 느는 현대차의 캐시카우로, 그만큼 오랫동안 큰 변화 없이 유지돼 왔다."
+  },
+  {
     slug: "tesla-cyberquad-for-kids-recall-loophole-sellout",
     title: "\"서스펜션을 아예 없앴습니다\"… 리콜된 테슬라 장난감이 완판을 반복하는 법",
     date: "2026-09-03",
