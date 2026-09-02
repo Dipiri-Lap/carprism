@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "gwangju-autonomous-vehicle-200-demonstration-2026",
     title: "\"도시 전체가 실험실\"… 광주에 자율주행차 200대 풀린다",
     date: "2026-09-02",
-    image: "autonomous_shuttle_seoul_cheonggyecheon.webp",
+    image: "gwangju_autonomous_mou_ceremony.webp",
     categories: ["news"],
     tags: ["광주 자율주행", "레벨4", "K-자율주행 국가대표팀", "국토교통부", "실증도시"],
     badge: "POLICY",
@@ -59,7 +59,7 @@ window.ARTICLES_DATA = [
     badge: "GLOBAL",
     badgeClass: "cat-sales",
     source: "한국일보",
-    desc: "최대 7500달러의 미국 전기차 세액공제가 9월 30일 종료되며 마지막 구매 러시와 이후 판매 급감이 예고됐다. 현대차·기아 등 완성차 업체의 대응과 시장 전망을 정리했다."
+    desc: "최대 7500달러의 미국 전기차 세액공제가 2025년 9월 30일 종료된 지 1년, 예고보다 가파른 판매 급감(대미 수출 -97%)과 현대차·기아의 하이브리드 투트랙 대응을 실제 수치로 정리했다."
   },
   {
     slug: "tesla-affordable-model-2026-2027",
@@ -99,7 +99,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bmw-7series-i7-facelift-2026",
-    title: "\"그릴은 더 커지고, 헤드램프는 작아졌다\"… BMW 7시리즈, 8년 만의 대대적 변신",
+    title: "\"그릴은 더 슬림해지고, 헤드램프는 거의 사라졌다\"… BMW 7시리즈, 8년 만의 대대적 변신",
     date: "2026-09-02",
     image: "bmw_i7_front.webp",
     categories: ["import"],
@@ -107,7 +107,7 @@ window.ARTICLES_DATA = [
     badge: "FACELIFT",
     badgeClass: "cat-gold",
     source: "탑라이더",
-    desc: "BMW가 7세대 7시리즈(G70)의 페이스리프트를 공개했다. 키드니 그릴 확대, 파노라믹 iDrive 인테리어, i7의 주행거리 확대 등이 핵심이다. 글로벌 출고는 2026년 7월부터 시작된다."
+    desc: "BMW가 7세대 7시리즈(G70)의 페이스리프트를 공개했다. 키드니 그릴은 오히려 더 슬림하고 세로 비율로 재단됐고, 헤드램프는 크게 축소돼 차체 바깥쪽으로 옮겨갔다. 파노라믹 iDrive 인테리어, i7의 주행거리 확대 등도 핵심이다. 글로벌 생산은 2026년 7월부터 시작됐다."
   },
   {
     slug: "genesis-gv80-hybrid-launch-korea-2026",
@@ -135,7 +135,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "skoda-superb-2026-facelift-india-launch",
-    title: "\"국내엔 아직 없는 브랜드\"… 스코다 슈퍼브 페이스리프트, 9월 18일 인도서 출격",
+    title: "\"공개는 됐는데 살 수는 없다\"… 스코다 슈퍼브 디젤, 인도 정식 출시는 2027년",
     date: "2026-09-02",
     image: "skoda_superb_2026_front.webp",
     categories: ["import"],
@@ -143,7 +143,7 @@ window.ARTICLES_DATA = [
     badge: "IMPORT",
     badgeClass: "cat-blue",
     source: "카덱코(CarDekho)",
-    desc: "폭스바겐그룹 산하 체코 브랜드 스코다가 4세대 슈퍼브의 페이스리프트 모델을 9월 18일 인도 시장에 출시한다. 2.0 디젤 150마력에 7단 DSG를 결합하고, 레벨2 ADAS와 12.9형 인포테인먼트를 갖췄다."
+    desc: "폭스바겐그룹 산하 체코 브랜드 스코다가 4세대 슈퍼브 디젤을 인도에서 공개했다. 2.0 디젤 150마력에 7단 DSG를 결합했지만, 정식 판매와 고객 인도는 인도-EU FTA 발효를 기다려 2027년 2분기로 예정됐다."
   },
   {
     slug: "tongyeong-geoje-drive-parking-guide",
