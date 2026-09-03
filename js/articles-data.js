@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "cheonan-kculture-expo-2026-parking-guide",
+    title: "\"임시주차장만 7곳 늘렸습니다\"… 천안 K컬처박람회, 43만 명이 몰리는 5일",
+    date: "2026-09-03",
+    image: "kr_cheonan_kculture_hall_sunset.webp",
+    categories: ["travel"],
+    tags: ["천안K컬처박람회", "독립기념관", "천안축제주차", "천안셔틀버스", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "천안 K-컬처박람회 공식 홈페이지 / 충청매일 / 국제뉴스",
+    desc: "2026 천안 K-컬처박람회가 9월 2일부터 6일까지 독립기념관 일원에서 열린다. 예상 관람객 약 43만 명, 입장료는 무료다. 기존 주차장 1,330면에 임시주차장 7곳 2,515면을 더해 총 3,845면을 운영하며, 시내 셔틀버스 109회와 카카오T·외국인 전용 유료 셔틀도 함께 투입된다. 자차 여행자를 위한 주차·교통 전략을 정리했다."
+  },
+  {
     slug: "namdaemun-market-parking-difficulty-guide",
     title: "\"공식 주차장은 2면뿐입니다\"… 남대문시장, 신세계백화점 영수증이 주차권이 되는 이유",
     date: "2026-09-03",

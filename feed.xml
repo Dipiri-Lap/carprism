@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 13:41:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 13:45:02 GMT</lastBuildDate>
+    <item>
+      <title>&quot;임시주차장만 7곳 늘렸습니다&quot;… 천안 K컬처박람회, 43만 명이 몰리는 5일</title>
+      <link>https://carprism.tmhub.co.kr/articles/cheonan-kculture-expo-2026-parking-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/cheonan-kculture-expo-2026-parking-guide.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2026 천안 K-컬처박람회가 9월 2일부터 6일까지 독립기념관 일원에서 열린다. 예상 관람객 약 43만 명, 입장료는 무료다. 기존 주차장 1,330면에 임시주차장 7곳 2,515면을 더해 총 3,845면을 운영하며, 시내 셔틀버스 109회와 카카오T·외국인 전용 유료 셔틀도 함께 투입된다. 자차 여행자를 위한 주차·교통 전략을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_cheonan_kculture_hall_sunset.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;공식 주차장은 2면뿐입니다&quot;… 남대문시장, 신세계백화점 영수증이 주차권이 되는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/namdaemun-market-parking-difficulty-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>영덕 블루로드는 A(빛과 바람의 길·17.5km)부터 D(쪽빛 파도의 길·14.1km)까지 4개 코스, 총 64.6km로 이어진다. A코스는 강구터미널에서 고불봉을 넘어 영덕풍력발전단지를 지나 해맞이공원까지 이어지는 산길 위주 구간이다. 코스 끝에서 해안도로를 따라 남쪽으로 내려가면 포항 호미곶에 닿는다. 호미곶 해맞이광장의 상생의 손은 입장료와 주차비가 모두 무료다. 바다 쪽 오른손은 높이 8.5m·무게 18톤, 육지 쪽 왼손은 높이 5.5m·무게 13톤이다. 옆에 있는 국립등대박물관도 무료지만, 광장 뒤 새천년기념관 5층 전망대는 성인 3,000원이 따로 든다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_yeongdeok_windfarm_aerial.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;한 곳 표만 있으면 다른 곳은 공짜입니다&quot;… 순천만습지·국가정원, 표 한 장으로 도는 법</title>
-      <link>https://carprism.tmhub.co.kr/articles/suncheonman-wetland-garden-yongsan-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/suncheonman-wetland-garden-yongsan-guide.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>순천만국가정원과 순천만습지는 서로 연계돼 있어, 둘 중 한 곳에서 입장권을 사면 같은 날 다른 한 곳도 무료로 들어갈 수 있다. 국가정원 개인 주간 요금은 성인 1만 원, 청소년 7,000원, 어린이 5,000원이고 6세 이하와 65세 이상은 무료다. 습지와 정원을 오가는 무인 궤도차 스카이큐브는 왕복 8,000원, 편도 6,000원이며 매주 월요일 쉰다. S자형 수로와 칠면초 붉은 갯벌을 한눈에 담을 수 있는 용산전망대는 습지 입구에서 도보로 약 30분 걸린다. 습지 개장 시간은 오전 8시부터 일몰까지인데, 마지막 입장 시각이 1월엔 오후 5시, 5~8월엔 오후 7시로 계절마다 다르다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_suncheonbay_scurve_aerial.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
