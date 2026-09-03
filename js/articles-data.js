@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-kia-us-hybrid-record-august-2026",
+    title: "\"기아, 창사 이래 최고의 8월\"… 그 기록을 쓴 건 전기차가 아니라 하이브리드였다",
+    date: "2026-09-03",
+    image: "hyundai_tucson_hybrid_us_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["현대기아미국판매", "하이브리드", "투싼하이브리드", "스포티지하이브리드", "IRA세액공제종료"],
+    badge: "GLOBAL",
+    badgeClass: "cat-sales",
+    source: "지피코리아 / PR Newswire / Carscoops",
+    desc: "기아가 8월 미국에서 8만3,793대를 팔며 역대 최고 월간 기록을 세웠다. 현대차는 전체 판매가 2% 줄었지만 하이브리드만은 33% 늘며 역대 8월 최다를 기록했다. IRA 세액공제 종료 1년, 전기차 대신 하이브리드를 고른 미국 소비자와 현대차·기아의 대응을 숫자로 짚었다."
+  },
+  {
     slug: "kia-ev-rv-august-2026-domestic-sales-drivers",
     title: "\"열 대 중 여섯 대는 RV였다\"… 기아 8월 내수를 떠받친 두 개의 축, RV와 전기차",
     date: "2026-09-03",

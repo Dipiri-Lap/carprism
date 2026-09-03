@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 06:59:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:07:05 GMT</lastBuildDate>
+    <item>
+      <title>&quot;기아, 창사 이래 최고의 8월&quot;… 그 기록을 쓴 건 전기차가 아니라 하이브리드였다</title>
+      <link>https://carprism.tmhub.co.kr/articles/hyundai-kia-us-hybrid-record-august-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-kia-us-hybrid-record-august-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>기아가 8월 미국에서 8만3,793대를 팔며 역대 최고 월간 기록을 세웠다. 현대차는 전체 판매가 2% 줄었지만 하이브리드만은 33% 늘며 역대 8월 최다를 기록했다. IRA 세액공제 종료 1년, 전기차 대신 하이브리드를 고른 미국 소비자와 현대차·기아의 대응을 숫자로 짚었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_tucson_hybrid_us_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;열 대 중 여섯 대는 RV였다&quot;… 기아 8월 내수를 떠받친 두 개의 축, RV와 전기차</title>
       <link>https://carprism.tmhub.co.kr/articles/kia-ev-rv-august-2026-domestic-sales-drivers.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>남해 가천다랭이마을은 입구에 제1·제2 공영주차장이 있고 둘 다 무료다. 마을 안쪽으로 들어가는 도로가 있기는 하지만 폭이 좁아 주차가 사실상 어렵고, 주차 후 마을 안은 도보로 이동해야 하며 경사가 상당하다. 독일마을에도 주차장이 마련돼 있어 차를 세우고 도보로 둘러보는 방식이 권장된다. 남해는 섬 전체가 곡선 도로로 이어져 있어 이동 시간이 거리보다 길게 나오고, 남해대교와 노량대교로 육지와 연결된다. 다랭이마을과 독일마을은 섬의 남서쪽과 북동쪽으로 서로 반대편에 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_daraengi_village_b.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;만항재만 보고 오면 절반입니다&quot;… 정선·태백을 하루에 잇는 순서</title>
-      <link>https://carprism.tmhub.co.kr/articles/jeongseon-taebaek-drive-course-market.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/jeongseon-taebaek-drive-course-market.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>만항재는 강원도 정선과 태백을 잇는 고개로, 자동차로 오를 수 있는 포장도로 가운데 국내에서 가장 높은 해발 1,330m에 있다. 주차와 입장 모두 무료이고 상시 개방돼 있다. 오르는 길에는 S자 커브가 많다. 접근은 정선 하이원, 영월 상동, 태백 시내 어느 쪽에서도 가능하다. 정선아리랑시장은 끝자리가 2와 7인 날에 5일장이 서고 운영 시간은 오전 9시부터 오후 6시까지다. 시장과 아라리공원 공영주차장은 무료이며, 장날에는 오전 9시 이전 도착이 권장된다. 고개와 장날을 같은 날에 묶으면 하루 동선이 완성된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_manhangjae_road.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
