@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 13:27:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 13:30:54 GMT</lastBuildDate>
+    <item>
+      <title>&quot;셔틀버스는 주말에만 옵니다&quot;… 무주 반딧불축제, 평일 밤엔 걸어야 하는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/muju-firefly-festival-2026-night-parking-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/muju-firefly-festival-2026-night-parking-guide.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>제30회 무주반딧불축제가 9월 4일부터 12일까지 등나무운동장·지남공원·남대천 일원에서 열린다. 천연기념물 서식지에서 반딧불이를 보는 &apos;신비탐사&apos;는 인터넷 선착순 예약제(2만 원, 1만 원 상품권 환급)로 현장 접수가 없다. 주차장은 28곳 3,236면이 마련되지만 셔틀버스는 주말에만 운행되고, 4·5·12일 밤에는 무주교 차량 통행이 통제된다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_muju_firefly_night_forest.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;예약 못 하면 못 들어갑니다&quot;… 화담숲, 단풍철 예매 오픈일부터 챙겨야 하는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/hwadamsup-reservation-autumn-2026-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>단양 도담삼봉은 입장료가 없지만 주차비는 3,000원이다. 만천하스카이워크 전망대 자체 요금은 성인 4,000원이지만, 같은 부지의 짚와이어(30,000원)와 알파인코스터(18,000원, 2023년 10월 개정)는 전망대보다 훨씬 비싸다. 전망대까지는 400m 모노레일(편도 3,000원)을 타거나 걸어 올라가야 하고, 스카이워크 이용은 매표소에서 셔틀버스로만 접근할 수 있다. 만천하 주차장은 6곳이 모두 무료이지만 매표소와 가까운 1·2주차장은 성수기에 먼저 차고, 이럴 땐 무료 셔틀버스로 3~6주차장에서 이동해야 한다. 강우·강설·낙뢰 시에는 모노레일과 스카이워크 모두 운행이 중단되며 전액 환불된다. 도담삼봉과 석문을 먼저 보고 만천하스카이워크로 넘어가는 순서가 남한강을 따라가는 동선과 맞아떨어진다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_dodamsambong_peaks_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;조지아산(産) 로보택시&quot;… 아이오닉5, 웨이모 함대 합류 D-1년</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-ioniq5-robotaxi-waymo-metaplant-supply-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ioniq5-robotaxi-waymo-metaplant-supply-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차그룹 메타플랜트 아메리카(HMGMA)에서 생산된 아이오닉5가 웨이모의 6세대 자율주행 기술을 탑재해 2026년 4분기부터 로보택시로 투입된다. 계약 규모와 운행 도시, 기술 파트너십을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq5_robotaxi_seoul_sensors.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "muju-firefly-festival-2026-night-parking-guide",
+    title: "\"셔틀버스는 주말에만 옵니다\"… 무주 반딧불축제, 평일 밤엔 걸어야 하는 이유",
+    date: "2026-09-03",
+    image: "kr_muju_firefly_night_forest.webp",
+    categories: ["travel"],
+    tags: ["무주반딧불축제", "반딧불이신비탐사", "무주축제주차", "무주남대천", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "무주반딧불축제 공식 홈페이지 / 전북매일신문 / 프레시안",
+    desc: "제30회 무주반딧불축제가 9월 4일부터 12일까지 등나무운동장·지남공원·남대천 일원에서 열린다. 천연기념물 서식지에서 반딧불이를 보는 '신비탐사'는 인터넷 선착순 예약제(2만 원, 1만 원 상품권 환급)로 현장 접수가 없다. 주차장은 28곳 3,236면이 마련되지만 셔틀버스는 주말에만 운행되고, 4·5·12일 밤에는 무주교 차량 통행이 통제된다."
+  },
+  {
     slug: "hwadamsup-reservation-autumn-2026-guide",
     title: "\"예약 못 하면 못 들어갑니다\"… 화담숲, 단풍철 예매 오픈일부터 챙겨야 하는 이유",
     date: "2026-09-03",
