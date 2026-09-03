@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 08:32:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 12:54:59 GMT</lastBuildDate>
+    <item>
+      <title>&quot;63빌딩 앞 주차장, 축제 전날 저녁부터 닫힙니다&quot;… 여의도 불꽃축제, 자차족이 놓치기 쉬운 디테일</title>
+      <link>https://carprism.tmhub.co.kr/articles/yeouido-fireworks-festival-2026-parking-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/yeouido-fireworks-festival-2026-parking-guide.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2026 서울세계불꽃축제는 9월 5일(토) 오후 1시부터 10시까지 여의도 한강공원 일대에서 열린다. 메인 불꽃쇼는 오후 8시부터 9시 10분까지이며 영국·미국·한국 3개국 팀이 참가한다. 63빌딩 앞 주차장은 4일 오후 6시부터 폐쇄되고 여의동로·원효대교는 최대 18시간 교통 통제된다. 카카오T 주차 사전예약, 명당별 특징, 노들섬 유료 관람구역까지 자차 여행자가 알아야 할 것을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_yeouido_fireworks_wide.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;타이어 공장이 발전소가 된다&quot;… 한국타이어 금산공장, 지붕 위에 5,069kW 태양광을 얹은 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/hankook-tire-geumsan-solar-5069kw-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>국토교통부와 광주광역시가 국비 610억 원을 투입해 2026~2028년 자율주행차 200대를 광주 전역에 투입하는 실증도시 사업을 시작한다. 정부의 2027년 레벨4 상용화 로드맵과 연계된 사업 구조를 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/gwangju_autonomous_mou_ceremony.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;2026년이 원년&quot;… 중국 레벨3 자율주행, 시험대에서 도로 위로</title>
-      <link>https://carprism.tmhub.co.kr/articles/china-level3-autonomous-driving-mass-commercialization-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/china-level3-autonomous-driving-mass-commercialization-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>중국 정부가 레벨3 자율주행 상용화를 위한 법·제도 정비에 속도를 내면서 2026년이 대규모 상업 배치의 첫 해가 될 것이라는 전망이 나온다. 화웨이·BYD·니오 등 주요 업체의 진행 상황과 규제 동향을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/byd_han_ev_iaa2023.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
