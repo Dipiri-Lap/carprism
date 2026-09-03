@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-september-2026-delivery-wait-full-lineup",
+    title: "\"카니발 타려면 6개월?\"... 기아 9월 전차종 출고표 열어보니, 진짜 문제는 EV5였다",
+    date: "2026-09-03",
+    image: "kia_carnival_ka4_dc.webp",
+    categories: ["domestic", "news"],
+    tags: ["기아출고대기", "카니발대기기간", "EV5출고대기", "기아9월출고", "카니발하이리무진"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "기아 카니발 하이리무진 4인승은 여전히 6개월을 기다려야 한다. 그런데 9월 표를 자세히 보면 더 눈에 띄는 변화가 있다. 8월 4개월이던 EV5 대기가 한 달 만에 7개월로 뛰었다. 카니발부터 쏘렌토·스포티지·셀토스·K8·EV3·EV5·EV9까지, 기아 전차종의 9월 출고 대기 기간과 그 배경을 정리했다."
+  },
+  {
     slug: "kia-ray-10month-delivery-wait-2026",
     title: "\"사고 싶어도 방법이 없어요\"... 계약해도 무조건 내년, 기아 레이의 정체",
     date: "2026-09-03",
