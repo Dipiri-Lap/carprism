@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-ev-rv-august-2026-domestic-sales-drivers",
+    title: "\"열 대 중 여섯 대는 RV였다\"… 기아 8월 내수를 떠받친 두 개의 축, RV와 전기차",
+    date: "2026-09-03",
+    image: "kia_ev3_gtline_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["기아", "EV3", "EV5", "RV판매", "8월판매"],
+    badge: "KIA",
+    badgeClass: "cat-sales",
+    source: "지피코리아 / 한국경제 / 다나와",
+    desc: "기아가 8월 국내에서 판 4만 213대 중 RV가 2만 6,233대(65%)였다. 그 안에서 EV3(3,174대)와 EV5(3,146대)가 국내 전기차 판매 1·2위에 나란히 올랐다. 승용은 9,758대(24%)에 그쳤다. 1~8월 누적으로도 EV3가 전년 대비 47.1% 늘며 친환경차 비중을 기아 내수의 62%까지 끌어올렸다. 세단 자리가 좁아진 대신 RV와 전기차가 그 자리를 채운 8월 판매 구조를 숫자로 뜯어봤다."
+  },
+  {
     slug: "lexus-china-shanghai-plant-ev-suv-2027",
     title: "\"2년 전엔 부인했습니다\"… 렉서스가 일본 대신 중국을 택한 이유",
     date: "2026-09-03",
