@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:19:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:24:27 GMT</lastBuildDate>
+    <item>
+      <title>&quot;정가는 올랐는데 실구매가는 더 내려갔다&quot;... 팰리세이드 9인승, 9월에도 또 깎았다</title>
+      <link>https://carprism.tmhub.co.kr/articles/hyundai-palisade-9seat-price-cut-september-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-palisade-9seat-price-cut-september-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>현대 팰리세이드 가솔린 9인승의 공식 가격은 4,478만 원으로 오히려 올랐지만, 프로모션을 최대로 끌어모은 실구매가는 4,078만 원까지 내려갔다. 7월 썸머 페스타부터 이어진 할인 흐름과 할인 구성, 경쟁 모델과의 가격 비교까지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/palisade_full_change_main.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;카니발 타려면 6개월?&quot;... 기아 9월 전차종 출고표 열어보니, 진짜 문제는 EV5였다</title>
       <link>https://carprism.tmhub.co.kr/articles/kia-september-2026-delivery-wait-full-lineup.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>KG모빌리티가 중형 SUV 토레스의 두 번째 페이스리프트 모델 &apos;뉴 토레스&apos;를 선보였다. 새 아이신 8단 자동변속기와 e-DHT 하이브리드를 갖췄고, 가솔린은 2,905만 원, 하이브리드는 3,205만 원부터 시작한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kgm_new_torres_facelift_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;공개는 됐는데 살 수는 없다&quot;… 스코다 슈퍼브 디젤, 인도 정식 출시는 2027년</title>
-      <link>https://carprism.tmhub.co.kr/articles/skoda-superb-2026-facelift-india-launch.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/skoda-superb-2026-facelift-india-launch.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>폭스바겐그룹 산하 체코 브랜드 스코다가 4세대 슈퍼브 디젤을 인도에서 공개했다. 2.0 디젤 150마력에 7단 DSG를 결합했지만, 정식 판매와 고객 인도는 인도-EU FTA 발효를 기다려 2027년 2분기로 예정됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/skoda_superb_2026_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

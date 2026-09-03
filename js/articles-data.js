@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-palisade-9seat-price-cut-september-2026",
+    title: "\"정가는 올랐는데 실구매가는 더 내려갔다\"... 팰리세이드 9인승, 9월에도 또 깎았다",
+    date: "2026-09-03",
+    image: "palisade_full_change_main.webp",
+    categories: ["domestic", "news"],
+    tags: ["팰리세이드가격인하", "팰리세이드9인승", "현대차할인", "팰리세이드실구매가", "국산SUV할인"],
+    badge: "PRICE CUT",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴 / 다나와 자동차",
+    desc: "현대 팰리세이드 가솔린 9인승의 공식 가격은 4,478만 원으로 오히려 올랐지만, 프로모션을 최대로 끌어모은 실구매가는 4,078만 원까지 내려갔다. 7월 썸머 페스타부터 이어진 할인 흐름과 할인 구성, 경쟁 모델과의 가격 비교까지 정리했다."
+  },
+  {
     slug: "kia-september-2026-delivery-wait-full-lineup",
     title: "\"카니발 타려면 6개월?\"... 기아 9월 전차종 출고표 열어보니, 진짜 문제는 EV5였다",
     date: "2026-09-03",
