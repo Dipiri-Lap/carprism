@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 13:36:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 13:41:20 GMT</lastBuildDate>
+    <item>
+      <title>&quot;공식 주차장은 2면뿐입니다&quot;… 남대문시장, 신세계백화점 영수증이 주차권이 되는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/namdaemun-market-parking-difficulty-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/namdaemun-market-parking-difficulty-guide.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>남대문시장은 하루 수십만 명이 찾는 관광특구이지만 시가 직접 운영하는 공영주차장은 단 2면, 그마저도 관광버스 전용이다. 실질적인 대안은 옆 신세계백화점 본점 주차장으로, 구매 금액에 따라 1~3시간 무료 주차가 가능하다. 좁은 골목이 만든 구조적 한계와 도매·소매 영업시간 차이, 주차 실전 전략을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_namdaemun_market_alley.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;민통선 검문소는 없습니다&quot;… 연천 호로고루, 해바라기밭 뒤로 임진강이 보이는 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/yeoncheon-horogoru-sunflower-festival-2026-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>순천만국가정원과 순천만습지는 서로 연계돼 있어, 둘 중 한 곳에서 입장권을 사면 같은 날 다른 한 곳도 무료로 들어갈 수 있다. 국가정원 개인 주간 요금은 성인 1만 원, 청소년 7,000원, 어린이 5,000원이고 6세 이하와 65세 이상은 무료다. 습지와 정원을 오가는 무인 궤도차 스카이큐브는 왕복 8,000원, 편도 6,000원이며 매주 월요일 쉰다. S자형 수로와 칠면초 붉은 갯벌을 한눈에 담을 수 있는 용산전망대는 습지 입구에서 도보로 약 30분 걸린다. 습지 개장 시간은 오전 8시부터 일몰까지인데, 마지막 입장 시각이 1월엔 오후 5시, 5~8월엔 오후 7시로 계절마다 다르다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_suncheonbay_scurve_aerial.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;주차는 무료라는데, 같은 페이지에 요금표가 있습니다&quot;… 문경새재에서 다시 확인해야 하는 값</title>
-      <link>https://carprism.tmhub.co.kr/articles/mungyeong-saejae-parking-shuttle-fee-guide.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mungyeong-saejae-parking-shuttle-fee-guide.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>문경새재 도립공원 입장료는 2008년부터 무료다. 그런데 관리사무소 홈페이지에는 주차장 &apos;이용요금 : 무료&apos;라는 문구와 함께 버스 4,000원·승용 2,000원·경차 1,000원짜리 주차요금표가 나란히 붙어 있어 헷갈리기 쉽다. 제1관문에서 제2관문 사이를 오가는 전동차는 편도 어른 2,000원, 청소년·군인 800원, 어린이 500원이고 영유아와 장애인 동반 보호자 1인은 무료다. 요금을 낸 어른에게는 문경사랑상품권 1,000원을 지급한다는 조건도 붙어 있다. 오픈세트장은 개인 어른 2,000원, 청소년 1,000원, 어린이 500원이며 문경시민이나 경북투어패스 소지자는 절반 이하로 낮아진다. 제1관문부터 제3관문까지는 6.5km, 도보로 약 2시간 30분이 걸린다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_mungyeong_joryeong_gate.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

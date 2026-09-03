@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "namdaemun-market-parking-difficulty-guide",
+    title: "\"공식 주차장은 2면뿐입니다\"… 남대문시장, 신세계백화점 영수증이 주차권이 되는 이유",
+    date: "2026-09-03",
+    image: "kr_namdaemun_market_alley.webp",
+    categories: ["travel"],
+    tags: ["남대문시장", "남대문시장주차", "남대문시장영업시간", "신세계백화점주차", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "서울시설공단 / 남대문관광특구 남대문시장 / 비즈한국",
+    desc: "남대문시장은 하루 수십만 명이 찾는 관광특구이지만 시가 직접 운영하는 공영주차장은 단 2면, 그마저도 관광버스 전용이다. 실질적인 대안은 옆 신세계백화점 본점 주차장으로, 구매 금액에 따라 1~3시간 무료 주차가 가능하다. 좁은 골목이 만든 구조적 한계와 도매·소매 영업시간 차이, 주차 실전 전략을 정리했다."
+  },
+  {
     slug: "yeoncheon-horogoru-sunflower-festival-2026-guide",
     title: "\"민통선 검문소는 없습니다\"… 연천 호로고루, 해바라기밭 뒤로 임진강이 보이는 이유",
     date: "2026-09-03",
