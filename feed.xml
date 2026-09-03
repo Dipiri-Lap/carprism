@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:07:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:13:18 GMT</lastBuildDate>
+    <item>
+      <title>&quot;사고 싶어도 방법이 없어요&quot;... 계약해도 무조건 내년, 기아 레이의 정체</title>
+      <link>https://carprism.tmhub.co.kr/articles/kia-ray-10month-delivery-wait-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-ray-10month-delivery-wait-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>기아 경차 레이가 가솔린·EV 전 모델에서 10개월 출고 대기를 기록하고 있다. 지금 계약하면 내년 여름에야 받는다는 얘기다. 동희오토의 생산 캐파 한계와 차박·1인 자영업 수요 폭증이 맞물린 배경, 그래비티 트림의 추가 지연, 오너들의 취소차 사냥 전략까지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kia_ray_official.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;기아, 창사 이래 최고의 8월&quot;… 그 기록을 쓴 건 전기차가 아니라 하이브리드였다</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-kia-us-hybrid-record-august-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>통영 미륵산 케이블카 주차장은 무료이고 규모도 넓지만, 주말 오전 이후에는 혼잡해진다. 요금은 개인 기준 대인 왕복 1만 7,000원, 소인 왕복 1만 3,000원이며 경로는 1만 4,000원, 통영시민은 8,000원이다. 정기휴장일은 매월 2·4주차 수요일이고 매표는 운행 종료 2~3시간 전에 조기 마감된다. 디피랑 영수증을 제시하면 요금을 50% 할인받을 수 있고 유효기간은 이용일로부터 2일 이내다. 루지 티켓은 2,000원, 어드벤처타워 연계는 3,000원 할인이다. 동피랑 벽화마을은 언덕 위 좁은 골목이라 마을 안 주차가 사실상 불가능하다. 부산에서 거제로 들어갈 때는 거가대교를 이용하면 이동 시간이 크게 줄지만 통행료가 붙는다. 통영과 거제를 하루에 묶으려면 케이블카 탑승 시각과 주차 혼잡 시간대를 먼저 정해야 한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kr_tongyeong_cablecar_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;마을까지 길은 있는데 세울 곳이 없습니다&quot;… 남해 다랭이마을의 진입 함정</title>
-      <link>https://carprism.tmhub.co.kr/articles/namhae-german-village-darangyi-parking.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/namhae-german-village-darangyi-parking.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>남해 가천다랭이마을은 입구에 제1·제2 공영주차장이 있고 둘 다 무료다. 마을 안쪽으로 들어가는 도로가 있기는 하지만 폭이 좁아 주차가 사실상 어렵고, 주차 후 마을 안은 도보로 이동해야 하며 경사가 상당하다. 독일마을에도 주차장이 마련돼 있어 차를 세우고 도보로 둘러보는 방식이 권장된다. 남해는 섬 전체가 곡선 도로로 이어져 있어 이동 시간이 거리보다 길게 나오고, 남해대교와 노량대교로 육지와 연결된다. 다랭이마을과 독일마을은 섬의 남서쪽과 북동쪽으로 서로 반대편에 있다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kr_daraengi_village_b.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

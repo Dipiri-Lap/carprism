@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-ray-10month-delivery-wait-2026",
+    title: "\"사고 싶어도 방법이 없어요\"... 계약해도 무조건 내년, 기아 레이의 정체",
+    date: "2026-09-03",
+    image: "kia_ray_official.webp",
+    categories: ["domestic", "news"],
+    tags: ["기아레이", "레이출고대기", "레이EV", "레이대기기간", "동희오토"],
+    badge: undefined,
+    badgeClass: undefined,
+    source: "오토트리뷴",
+    desc: "기아 경차 레이가 가솔린·EV 전 모델에서 10개월 출고 대기를 기록하고 있다. 지금 계약하면 내년 여름에야 받는다는 얘기다. 동희오토의 생산 캐파 한계와 차박·1인 자영업 수요 폭증이 맞물린 배경, 그래비티 트림의 추가 지연, 오너들의 취소차 사냥 전략까지 정리했다."
+  },
+  {
     slug: "hyundai-kia-us-hybrid-record-august-2026",
     title: "\"기아, 창사 이래 최고의 8월\"… 그 기록을 쓴 건 전기차가 아니라 하이브리드였다",
     date: "2026-09-03",
