@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "chaevi-offgrid-charging-goseong",
+    title: "\"전봇대도, 한전 전기도 필요 없다\"… 채비, 고성에 국내 최초 오프그리드 충전소 짓는다",
+    date: "2026-09-03",
+    image: "kr_ev_charging_chuncheon_snow.webp",
+    categories: ["electric", "news"],
+    tags: ["채비", "오프그리드충전소", "코빌리지컴퍼니", "태양광ESS", "계통연계"],
+    badge: "EV INFRA",
+    badgeClass: "cat-ev",
+    source: "지피코리아 / 모토야 / 헤럴드경제",
+    desc: "전기차 충전 사업자 채비가 강원 고성군 코빌리지 고성 내에 태양광과 ESS만으로 운영되는 '오프그리드' 충전소를 짓는다. 한국전력 계통에 의존하지 않는 이 방식이 등장한 배경에는 전기차 충전 인프라 확대의 발목을 잡아온 계통연계 대기 문제가 있다."
+  },
+  {
     slug: "ev-battery-soh-variance-same-model",
     title: "\"같은 연식인데 왜 내 차만 부산을 못 가나\"… 전기차 배터리, 최대 13%포인트 벌어진다",
     date: "2026-09-03",

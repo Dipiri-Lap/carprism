@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:37:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:42:32 GMT</lastBuildDate>
+    <item>
+      <title>&quot;전봇대도, 한전 전기도 필요 없다&quot;… 채비, 고성에 국내 최초 오프그리드 충전소 짓는다</title>
+      <link>https://carprism.tmhub.co.kr/articles/chaevi-offgrid-charging-goseong.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/chaevi-offgrid-charging-goseong.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>전기차 충전 사업자 채비가 강원 고성군 코빌리지 고성 내에 태양광과 ESS만으로 운영되는 &apos;오프그리드&apos; 충전소를 짓는다. 한국전력 계통에 의존하지 않는 이 방식이 등장한 배경에는 전기차 충전 인프라 확대의 발목을 잡아온 계통연계 대기 문제가 있다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_ev_charging_chuncheon_snow.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;같은 연식인데 왜 내 차만 부산을 못 가나&quot;… 전기차 배터리, 최대 13%포인트 벌어진다</title>
       <link>https://carprism.tmhub.co.kr/articles/ev-battery-soh-variance-same-model.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>포르쉐 최초의 순수전기 카이엔이 공개됐다. 113kWh 배터리로 최대 642km를 달리고, 터보 모델은 런치 컨트롤 시 1,156마력을 낸다. 국내 가격은 1억 4천만원대부터, 출시는 2026년 하반기다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/porsche_cayenne_electric_turbo_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;그냥 ID.4가 아닙니다&quot;… 폭스바겐 고성능 전기 SUV, 9월 국내 상륙설</title>
-      <link>https://carprism.tmhub.co.kr/articles/vw-id4-gtx-korea-launch-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vw-id4-gtx-korea-launch-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>폭스바겐의 고성능 전기 SUV ID.4 GTX가 이르면 2026년 9월 국내 출시를 준비 중인 것으로 알려졌다. 유럽 사양 기준 듀얼모터 220kW(299마력)를 내는 이 모델이 국내 전기 SUV 시장에 어떤 변화를 가져올지 살펴봤다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vw_id4_gtx_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
