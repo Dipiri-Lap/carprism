@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "import-car-market-august-2026-tesla-byd-ev-share",
+    title: "\"수입차 2대 중 1대가 전기차\"… 테슬라·BYD가 8월 시장 지형을 통째로 바꿨다",
+    date: "2026-09-03",
+    image: "tesla_model_y.jpg",
+    categories: ["import", "news"],
+    tags: ["수입차시장", "테슬라", "BYD", "전기차비중", "수입차순위"],
+    badge: "시장분석",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드 / 지피코리아",
+    desc: "2026년 8월 국내 수입차 등록 2만 9,817대 중 절반 이상인 50.9%가 전기차였다. 테슬라가 1만 400대로 7개월 연속 1위, BYD는 3,002대로 사상 첫 월 3천 대를 넘기며 4위에 올랐다. 미국·중국 브랜드가 이끄는 수입차 시장 재편을 정리했다."
+  },
+  {
     slug: "korean-automaker-brand-reputation-september-2026",
     title: "\"판매는 줄었는데 평판은 뛰었다\"… 9월 국산차 브랜드평판, 현대·기아 나란히 하락한 이유는",
     date: "2026-09-03",

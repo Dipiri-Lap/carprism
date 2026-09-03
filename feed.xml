@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:29:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:33:04 GMT</lastBuildDate>
+    <item>
+      <title>&quot;수입차 2대 중 1대가 전기차&quot;… 테슬라·BYD가 8월 시장 지형을 통째로 바꿨다</title>
+      <link>https://carprism.tmhub.co.kr/articles/import-car-market-august-2026-tesla-byd-ev-share.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/import-car-market-august-2026-tesla-byd-ev-share.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2026년 8월 국내 수입차 등록 2만 9,817대 중 절반 이상인 50.9%가 전기차였다. 테슬라가 1만 400대로 7개월 연속 1위, BYD는 3,002대로 사상 첫 월 3천 대를 넘기며 4위에 올랐다. 미국·중국 브랜드가 이끄는 수입차 시장 재편을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_model_y.jpg" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;판매는 줄었는데 평판은 뛰었다&quot;… 9월 국산차 브랜드평판, 현대·기아 나란히 하락한 이유는</title>
       <link>https://carprism.tmhub.co.kr/articles/korean-automaker-brand-reputation-september-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>BMW가 7세대 7시리즈(G70)의 페이스리프트를 공개했다. 키드니 그릴은 오히려 더 슬림하고 세로 비율로 재단됐고, 헤드램프는 크게 축소돼 차체 바깥쪽으로 옮겨갔다. 파노라믹 iDrive 인테리어, i7의 주행거리 확대 등도 핵심이다. 글로벌 생산은 2026년 7월부터 시작됐다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/bmw_i7_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;토크 54.0kgf·m, 정지→100km/h 7.1초&quot;… 제네시스 첫 하이브리드 SUV가 내는 숫자</title>
-      <link>https://carprism.tmhub.co.kr/articles/genesis-gv80-hybrid-launch-korea-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/genesis-gv80-hybrid-launch-korea-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>제네시스가 브랜드 최초의 하이브리드 SUV &apos;GV80 하이브리드&apos;를 2026년 9월 출시한다. 2.5 터보 기반 P1+P2 병렬형 하이브리드로 후륜을 굴리며, 합산 출력 352마력에 복합연비는 기존 대비 25% 이상 개선될 전망이다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/genesis_gv80_hybrid_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
