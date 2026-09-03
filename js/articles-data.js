@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hankook-tire-geumsan-solar-5069kw-2026",
+    title: "\"타이어 공장이 발전소가 된다\"… 한국타이어 금산공장, 지붕 위에 5,069kW 태양광을 얹은 이유",
+    date: "2026-09-03",
+    image: "solar_panel_rooftop_factory_korea.webp",
+    categories: ["news", "domestic"],
+    tags: ["한국타이어", "금산공장", "태양광발전", "RE100", "탄소중립"],
+    badge: "GREEN ENERGY",
+    badgeClass: "cat-green",
+    source: "지피코리아",
+    desc: "한국타이어가 충남 금산공장 원자재동·완제품동 지붕에 5,069kW급 자가소비형 태양광 발전설비를 구축했다. 연간 6.66GWh 발전, 온실가스 약 3,061톤 감축이 예상된다. 2050 넷제로를 향한 로드맵과 넥센·금호타이어의 재생에너지 전환 현황을 함께 짚었다."
+  },
+  {
     slug: "porsche-global-sales-four-regions-2026",
     title: "\"한국 대표가 아시아·중동까지 챙긴다\"… 포르쉐, 판매조직 5개서 4개 권역으로 개편",
     date: "2026-09-03",

@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:57:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:05:15 GMT</lastBuildDate>
+    <item>
+      <title>&quot;타이어 공장이 발전소가 된다&quot;… 한국타이어 금산공장, 지붕 위에 5,069kW 태양광을 얹은 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/hankook-tire-geumsan-solar-5069kw-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hankook-tire-geumsan-solar-5069kw-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>한국타이어가 충남 금산공장 원자재동·완제품동 지붕에 5,069kW급 자가소비형 태양광 발전설비를 구축했다. 연간 6.66GWh 발전, 온실가스 약 3,061톤 감축이 예상된다. 2050 넷제로를 향한 로드맵과 넥센·금호타이어의 재생에너지 전환 현황을 함께 짚었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/solar_panel_rooftop_factory_korea.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;한국 대표가 아시아·중동까지 챙긴다&quot;… 포르쉐, 판매조직 5개서 4개 권역으로 개편</title>
       <link>https://carprism.tmhub.co.kr/articles/porsche-global-sales-four-regions-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>중국 정부가 레벨3 자율주행 상용화를 위한 법·제도 정비에 속도를 내면서 2026년이 대규모 상업 배치의 첫 해가 될 것이라는 전망이 나온다. 화웨이·BYD·니오 등 주요 업체의 진행 상황과 규제 동향을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/byd_han_ev_iaa2023.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;원인 몰라도 150억 보상&quot;... 전기차 제조사에 떨어진 새 숙제</title>
-      <link>https://carprism.tmhub.co.kr/articles/ev-fire-insurance-mandate-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-fire-insurance-mandate-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026년 7월부터 시행된 전기차 화재안심보험이 보조금 지급 요건과 연계되며 사실상 의무화됐다. 청라 벤츠 화재와 포르쉐 정비소 화재로 이어진 배경, 보상 범위와 보험료 부담 구조를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/car_fire_roadside.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
