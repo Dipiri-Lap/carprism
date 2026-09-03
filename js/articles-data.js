@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-battery-soh-variance-same-model",
+    title: "\"같은 연식인데 왜 내 차만 부산을 못 가나\"… 전기차 배터리, 최대 13%포인트 벌어진다",
+    date: "2026-09-03",
+    image: "ev_lithium_battery_pack.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차배터리", "SOH", "잔존수명", "중고전기차", "배터리인증"],
+    badge: "BATTERY INSIGHT",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드 / AVILOO / InsideEVs",
+    desc: "오스트리아 배터리 진단업체 아빌루가 50만 건 이상을 분석한 결과, 같은 모델·같은 연식의 전기차도 배터리 잔존수명(SOH)이 최대 13.5%포인트까지 벌어졌다. 편차의 원인과 배터리 화학별 열화 패턴, 중고 전기차 구매 시 실전 체크포인트를 짚었다."
+  },
+  {
     slug: "import-car-market-august-2026-tesla-byd-ev-share",
     title: "\"수입차 2대 중 1대가 전기차\"… 테슬라·BYD가 8월 시장 지형을 통째로 바꿨다",
     date: "2026-09-03",

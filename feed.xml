@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:33:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:37:55 GMT</lastBuildDate>
+    <item>
+      <title>&quot;같은 연식인데 왜 내 차만 부산을 못 가나&quot;… 전기차 배터리, 최대 13%포인트 벌어진다</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-battery-soh-variance-same-model.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-battery-soh-variance-same-model.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>오스트리아 배터리 진단업체 아빌루가 50만 건 이상을 분석한 결과, 같은 모델·같은 연식의 전기차도 배터리 잔존수명(SOH)이 최대 13.5%포인트까지 벌어졌다. 편차의 원인과 배터리 화학별 열화 패턴, 중고 전기차 구매 시 실전 체크포인트를 짚었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ev_lithium_battery_pack.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;수입차 2대 중 1대가 전기차&quot;… 테슬라·BYD가 8월 시장 지형을 통째로 바꿨다</title>
       <link>https://carprism.tmhub.co.kr/articles/import-car-market-august-2026-tesla-byd-ev-share.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>폭스바겐의 고성능 전기 SUV ID.4 GTX가 이르면 2026년 9월 국내 출시를 준비 중인 것으로 알려졌다. 유럽 사양 기준 듀얼모터 220kW(299마력)를 내는 이 모델이 국내 전기 SUV 시장에 어떤 변화를 가져올지 살펴봤다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/vw_id4_gtx_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;그릴은 더 슬림해지고, 헤드램프는 거의 사라졌다&quot;… BMW 7시리즈, 8년 만의 대대적 변신</title>
-      <link>https://carprism.tmhub.co.kr/articles/bmw-7series-i7-facelift-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-7series-i7-facelift-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>BMW가 7세대 7시리즈(G70)의 페이스리프트를 공개했다. 키드니 그릴은 오히려 더 슬림하고 세로 비율로 재단됐고, 헤드램프는 크게 축소돼 차체 바깥쪽으로 옮겨갔다. 파노라믹 iDrive 인테리어, i7의 주행거리 확대 등도 핵심이다. 글로벌 생산은 2026년 7월부터 시작됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_i7_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
