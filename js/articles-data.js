@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-mobis-slovakia-pe-system-plant-2026",
+    title: "\"엔진 없는 시대, 심장은 유럽에서 만든다\"… 현대모비스, 슬로바키아서 '전기차 심장' 첫 유럽 양산",
+    date: "2026-09-03",
+    image: "kia_zilina_slovakia_plant.webp",
+    categories: ["electric", "domestic"],
+    tags: ["현대모비스", "PE시스템", "슬로바키아", "전기차부품", "유럽전동화"],
+    badge: "GLOBAL",
+    badgeClass: "cat-hyundai",
+    source: "오토헤럴드",
+    desc: "현대모비스가 슬로바키아 노바키에 2500억 원을 투자해 유럽 첫 PE시스템(전기차 모터·인버터·감속기 통합 구동장치) 공장을 가동했다. 연 28만 개 생산 규모로 현대차·기아뿐 아니라 폭스바겐, 스텔란티스, 볼보 등 글로벌 완성차에도 공급한다. 신공장 위치와 사양, 유럽 현지화 배경, 현대모비스의 글로벌 생산거점 전략을 짚었다."
+  },
+  {
     slug: "chaevi-offgrid-charging-goseong",
     title: "\"전봇대도, 한전 전기도 필요 없다\"… 채비, 고성에 국내 최초 오프그리드 충전소 짓는다",
     date: "2026-09-03",
