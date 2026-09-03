@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeoncheon-horogoru-sunflower-festival-2026-guide",
+    title: "\"민통선 검문소는 없습니다\"… 연천 호로고루, 해바라기밭 뒤로 임진강이 보이는 이유",
+    date: "2026-09-03",
+    image: "kr_horogoru_sunflower_sunset.webp",
+    categories: ["travel"],
+    tags: ["연천호로고루", "통일바라기축제", "호로고루해바라기", "연천여행", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "연천군청 / 경인일보 / 아시아경제",
+    desc: "제11회 연천장남 통일바라기 축제가 9월 3일부터 6일까지 호로고루 유적지 앞 들판에서 열린다. 3만 3천 평에 해바라기·백일홍·코스모스가 피어 있고 입장료·주차 모두 무료다. 고구려 성곽인 호로고루는 사전 출입 신청이 필요한 다른 연천 안보관광지와 달리 별도 절차 없이 방문 가능한 것으로 파악된다. 방문 시간대와 주차 전략을 정리했다."
+  },
+  {
     slug: "muju-firefly-festival-2026-night-parking-guide",
     title: "\"셔틀버스는 주말에만 옵니다\"… 무주 반딧불축제, 평일 밤엔 걸어야 하는 이유",
     date: "2026-09-03",
