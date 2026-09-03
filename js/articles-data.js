@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "korean-automaker-brand-reputation-september-2026",
+    title: "\"판매는 줄었는데 평판은 뛰었다\"… 9월 국산차 브랜드평판, 현대·기아 나란히 하락한 이유는",
+    date: "2026-09-03",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["브랜드평판", "현대자동차", "기아", "KG모빌리티", "르노코리아"],
+    badge: "RANKING",
+    badgeClass: "cat-gold",
+    source: "한국기업평판연구소",
+    desc: "한국기업평판연구소가 발표한 2026년 9월 국산 완성차 5개사 브랜드평판지수에서 현대차·기아가 각각 18.86%, 20.48% 하락했다. 반면 KG모빌리티(+65.67%)·르노코리아(+96.93%)·한국지엠(+13.21%)은 실제 판매가 줄었는데도 평판지수가 큰 폭으로 뛰었다. 51만대 리콜과 신차 이벤트가 갈라놓은 9월 순위표를 숫자로 뜯어봤다."
+  },
+  {
     slug: "hyundai-palisade-9seat-price-cut-september-2026",
     title: "\"정가는 올랐는데 실구매가는 더 내려갔다\"... 팰리세이드 9인승, 9월에도 또 깎았다",
     date: "2026-09-03",
