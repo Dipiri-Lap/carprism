@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "vw-korea-accident-repair-quality-guarantee-2026",
+    title: "\"사고 수리 받았는데 2년 뒤에도 책임진다고?\"… 폭스바겐코리아가 꺼낸 카드",
+    date: "2026-09-03",
+    image: "vw_id4_black_front.webp",
+    categories: ["import", "news"],
+    tags: ["폭스바겐코리아", "사고수리품질보장", "AQP", "수입차서비스", "애프터서비스"],
+    badge: "SERVICE",
+    badgeClass: "cat-red",
+    source: "모토야 / 헤럴드경제 / 스포츠경향",
+    desc: "폭스바겐코리아가 공식 서비스센터에서 사고수리를 받은 고객에게 출고일로부터 2년간 판금·도장·부품 품질을 책임지는 '사고수리 품질보장 프로그램(AQP)'을 출시했다. 수입차 업계에서 반복돼 온 사고 수리비·전손 처리 관련 불신을 겨냥한 행보로, 벤츠·BMW의 기존 애프터서비스 연장 프로그램과 비교해 어떤 차이가 있는지 짚어본다."
+  },
+  {
     slug: "hyundai-mobis-slovakia-pe-system-plant-2026",
     title: "\"엔진 없는 시대, 심장은 유럽에서 만든다\"… 현대모비스, 슬로바키아서 '전기차 심장' 첫 유럽 양산",
     date: "2026-09-03",

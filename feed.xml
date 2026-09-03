@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 07:49:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 07:54:06 GMT</lastBuildDate>
+    <item>
+      <title>&quot;사고 수리 받았는데 2년 뒤에도 책임진다고?&quot;… 폭스바겐코리아가 꺼낸 카드</title>
+      <link>https://carprism.tmhub.co.kr/articles/vw-korea-accident-repair-quality-guarantee-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vw-korea-accident-repair-quality-guarantee-2026.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>폭스바겐코리아가 공식 서비스센터에서 사고수리를 받은 고객에게 출고일로부터 2년간 판금·도장·부품 품질을 책임지는 &apos;사고수리 품질보장 프로그램(AQP)&apos;을 출시했다. 수입차 업계에서 반복돼 온 사고 수리비·전손 처리 관련 불신을 겨냥한 행보로, 벤츠·BMW의 기존 애프터서비스 연장 프로그램과 비교해 어떤 차이가 있는지 짚어본다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/vw_id4_black_front.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;엔진 없는 시대, 심장은 유럽에서 만든다&quot;… 현대모비스, 슬로바키아서 &apos;전기차 심장&apos; 첫 유럽 양산</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-mobis-slovakia-pe-system-plant-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>최대 7500달러의 미국 전기차 세액공제가 2025년 9월 30일 종료된 지 1년, 예고보다 가파른 판매 급감(대미 수출 -97%)과 현대차·기아의 하이브리드 투트랙 대응을 실제 수치로 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/kia_ev9_gtline_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;진짜 반값 테슬라&quot;는 아직 안 죽었다... 모델3보다 싼 신모델, 2027년 초 상륙 가능성</title>
-      <link>https://carprism.tmhub.co.kr/articles/tesla-affordable-model-2026-2027.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/tesla-affordable-model-2026-2027.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>테슬라가 모델3보다 저렴한 신규 보급형 라인업을 준비 중이다. 비공식 명칭 &apos;모델Q(모델2)&apos;로 불리는 이 차의 예상 가격, 스펙, 생산 계획과 출시 시점 전망을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/tesla_model3_highland_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
