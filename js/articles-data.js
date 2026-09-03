@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hwadamsup-reservation-autumn-2026-guide",
+    title: "\"예약 못 하면 못 들어갑니다\"… 화담숲, 단풍철 예매 오픈일부터 챙겨야 하는 이유",
+    date: "2026-09-03",
+    image: "kr_hwadamsup_monorail_autumn.webp",
+    categories: ["travel"],
+    tags: ["화담숲", "화담숲예약", "화담숲단풍", "곤지암화담숲", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "화담숲 공식 홈페이지 / 곤지암리조트 / NOL 트렌드",
+    desc: "경기 광주 화담숲은 현장 발권이 없는 100% 온라인 사전예약제 수목원이다. 2026년 가을 단풍 시즌 예매는 9월 16일(수) 오후 1시 공식 홈페이지에서 열릴 것으로 알려졌고, 성수기 관람 기간은 10월 23일부터 11월 15일까지로 예상된다. 입장료·모노레일 요금, 주차 안내, 예매 실전 팁까지 자차 여행자가 알아야 할 것을 정리했다."
+  },
+  {
     slug: "yeouido-fireworks-festival-2026-parking-guide",
     title: "\"63빌딩 앞 주차장, 축제 전날 저녁부터 닫힙니다\"… 여의도 불꽃축제, 자차족이 놓치기 쉬운 디테일",
     date: "2026-09-03",

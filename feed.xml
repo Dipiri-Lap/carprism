@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 03 Sep 2026 12:54:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 13:27:15 GMT</lastBuildDate>
+    <item>
+      <title>&quot;예약 못 하면 못 들어갑니다&quot;… 화담숲, 단풍철 예매 오픈일부터 챙겨야 하는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/hwadamsup-reservation-autumn-2026-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hwadamsup-reservation-autumn-2026-guide.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>경기 광주 화담숲은 현장 발권이 없는 100% 온라인 사전예약제 수목원이다. 2026년 가을 단풍 시즌 예매는 9월 16일(수) 오후 1시 공식 홈페이지에서 열릴 것으로 알려졌고, 성수기 관람 기간은 10월 23일부터 11월 15일까지로 예상된다. 입장료·모노레일 요금, 주차 안내, 예매 실전 팁까지 자차 여행자가 알아야 할 것을 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kr_hwadamsup_monorail_autumn.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;63빌딩 앞 주차장, 축제 전날 저녁부터 닫힙니다&quot;… 여의도 불꽃축제, 자차족이 놓치기 쉬운 디테일</title>
       <link>https://carprism.tmhub.co.kr/articles/yeouido-fireworks-festival-2026-parking-guide.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>현대차그룹 메타플랜트 아메리카(HMGMA)에서 생산된 아이오닉5가 웨이모의 6세대 자율주행 기술을 탑재해 2026년 4분기부터 로보택시로 투입된다. 계약 규모와 운행 도시, 기술 파트너십을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq5_robotaxi_seoul_sensors.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;도시 전체가 실험실&quot;… 광주에 자율주행차 200대 풀린다</title>
-      <link>https://carprism.tmhub.co.kr/articles/gwangju-autonomous-vehicle-200-demonstration-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/gwangju-autonomous-vehicle-200-demonstration-2026.html</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>국토교통부와 광주광역시가 국비 610억 원을 투입해 2026~2028년 자율주행차 200대를 광주 전역에 투입하는 실증도시 사업을 시작한다. 정부의 2027년 레벨4 상용화 로드맵과 연계된 사업 구조를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/gwangju_autonomous_mou_ceremony.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
