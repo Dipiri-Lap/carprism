@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "porsche-global-sales-four-regions-2026",
+    title: "\"한국 대표가 아시아·중동까지 챙긴다\"… 포르쉐, 판매조직 5개서 4개 권역으로 개편",
+    date: "2026-09-03",
+    image: "porsche_panamera_970_front.webp",
+    categories: ["import", "news"],
+    tags: ["포르쉐", "판매조직개편", "포르쉐코리아", "마티아스부세", "해외신흥시장"],
+    badge: "MARKET",
+    badgeClass: "cat-red",
+    source: "모토야 / Korea Herald",
+    desc: "포르쉐가 10월 1일부로 글로벌 판매조직을 기존 5개 지역에서 유럽·아메리카·중국·해외 신흥시장 4개 권역으로 개편한다. 포르쉐코리아 마티아스 부세 대표는 한국 대표직을 유지하면서 아시아·중동을 아우르는 해외 신흥시장 총괄까지 겸임한다. 최근 중국 판매 부진과 타이칸 화재 논란 등으로 흔들리는 실적 속에 나온 조직개편이라는 점에서 배경에 관심이 쏠린다."
+  },
+  {
     slug: "vw-korea-accident-repair-quality-guarantee-2026",
     title: "\"사고 수리 받았는데 2년 뒤에도 책임진다고?\"… 폭스바겐코리아가 꺼낸 카드",
     date: "2026-09-03",
