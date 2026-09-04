@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hongseong-namdang-daeha-festival-2026-guide",
+    title: "\"1kg에 4만 5천 원, 어느 집이나 같습니다\"… 남당항 대하축제, 값을 미리 알고 가는 축제",
+    date: "2026-09-04",
+    image: "namdang_harbor_aerial.webp",
+    categories: ["travel"],
+    tags: ["남당항대하축제", "홍성대하", "가을수산물축제", "단일가격제", "축제주차"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "홍성군 / 충남내포뉴스 / 남당항축제추진위원회 / 카프리즘 기획 기사",
+    desc: "제31회 홍성남당항 대하축제가 9월 4일 개막해 11월 8일까지 66일간 열린다. 대하 1kg 가격은 포장 4만 5,000원, 식당 6만 원으로 단일가격제가 적용돼 업소별 가격 차이가 없다. 축제 기간과 프로그램, 자차 방문 시 주차 전략을 정리했다."
+  },
+  {
+    slug: "hallasan-reservation-eased-parking-fee-raised-2026",
+    title: "\"예약은 풀어줬는데 주차비가 7배 됐습니다\"… 한라산, 올해 바뀐 두 가지",
+    date: "2026-09-04",
+    image: "hallasan_summit_signpost.webp",
+    categories: ["travel"],
+    tags: ["한라산예약", "한라산주차요금", "성판악탐방로", "관음사탐방로", "백록담"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한라산탐방 예약시스템 / 경향신문 / 카프리즘 기획 기사",
+    desc: "한라산은 성판악에서 진달래밭(7.3km), 관음사에서 삼각봉(6km)까지 예약 없이 오를 수 있도록 예약 구간을 축소했다. 반대로 2026년 1월부터 공영주차장 요금은 1일 정액 1,800원에서 시간당 가산제로 바뀌어 최대 13,000원까지 오른다. 자차로 한라산에 가는 사람이 알아야 할 두 가지 변화를 정리했다."
+  },
+  {
+    slug: "jirisan-nogodan-reservation-seongsamjae-parking",
+    title: "\"예약은 공짜인데 주차비가 쌓입니다\"… 성삼재, 10분마다 300원씩 올라가는 구조",
+    date: "2026-09-04",
+    image: "vk_seongsamjae.webp",
+    categories: ["travel"],
+    tags: ["지리산노고단", "성삼재주차장", "노고단예약", "국립공원예약", "가을산행주차"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 예약시스템 / 지리산국립공원 / 카프리즘 기획 기사",
+    desc: "지리산 노고단 정상 탐방은 예약이 필요하지만 탐방료는 무료다. 정작 돈이 나가는 쪽은 성삼재 주차장이다. 중소형차 기준 첫 1시간 1,100원에 이후 10분당 300원이 붙어, 6시간을 세우면 1만 원을 넘긴다. 예약 방법과 시간대별 주차비, 성삼재까지 올라가는 도로 조건을 정리했다."
+  },
+  {
+    slug: "naejangsan-autumn-vehicle-control-shuttle-2026",
+    title: "\"단풍 절정에는 차가 아예 못 들어갑니다\"… 내장산, 2.1km를 셔틀로 채우는 구간",
+    date: "2026-09-04",
+    image: "naejangsa_autumn_foliage.webp",
+    categories: ["travel"],
+    tags: ["내장산단풍", "내장산차량통제", "내장산셔틀", "내장호주차장", "단풍철주차"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 / 뉴시스 / 내장산케이블카 / 카프리즘 기획 기사",
+    desc: "내장산국립공원은 단풍 절정기에 공원 안쪽 차량 진입을 통제한다. 방문객은 내장호주차장에 차를 세우고 월령교까지 2.1km 구간을 무료 셔틀로 이동해야 한다. 2026년 단풍 절정은 10월 25일~11월 7일로 예상된다. 통제 기간과 셔틀 운행, 주차료, 케이블카 요금을 정리했다."
+  },
+  {
+    slug: "andong-hahoe-village-shuttle-parking-guide",
+    title: "\"차를 마을 앞까지 못 댑니다\"… 하회마을, 주차장이 애초에 마을 밖에 있는 이유",
+    date: "2026-09-04",
+    image: "hahoe_village_overview_buyongdae.webp",
+    categories: ["travel"],
+    tags: ["안동하회마을", "하회마을주차", "하회마을셔틀", "안동국제탈춤페스티벌", "세계유산마을"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "안동하회마을 공식 홈페이지 / 안동시 / 안동국제탈춤페스티벌 / 카프리즘 기획 기사",
+    desc: "안동 하회마을은 관광객 차량이 마을 안으로 들어갈 수 없다. 2008년경 상업시설을 외곽으로 옮기면서 매표소·주차장·관리사무소가 모두 마을 밖으로 이전됐기 때문이다. 입장권 5,000원 하나로 무료 주차장과 10분 간격 무료 셔틀, 하회세계탈박물관까지 해결되는 구조와 국제탈춤페스티벌 기간 방문 요령을 정리했다."
+  },
+  {
+    slug: "baekje-cultural-festival-2026-parking-guide",
+    title: "\"작년 그 주차장에 대면 헛걸음입니다\"… 백제문화제, 부여 행사장이 시가지로 내려왔습니다",
+    date: "2026-09-04",
+    image: "baekje_festival_gongju_geumgang.webp",
+    categories: ["travel"],
+    tags: ["백제문화제", "부여축제주차", "공주축제주차", "정림사지", "축제자차가이드"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "백제문화제 공식 홈페이지 / 일간투데이 / 부여군 / 공주시 / 카프리즘 기획 기사",
+    desc: "제72회 백제문화제가 2026년 10월 3일부터 11일까지 공주와 부여 두 도시에서 동시에 열린다. 올해 가장 큰 변화는 부여 행사장이 넓은 전용 주차장을 갖춘 백제문화단지에서 부여읍 시가지로 옮겨진 것이다. 주민 설문에서도 교통혼잡·주차부족 우려가 62.1%로 1위였다. 두 도시의 주차장 현황과 자차 접근 순서를 정리했다."
+  },
+  {
     slug: "used-hyundai-n-models-corolla-price-value",
     title: "\"10년 보증인 줄 알았습니다\"… 중고로 사면 절반이 사라집니다",
     date: "2026-09-04",
