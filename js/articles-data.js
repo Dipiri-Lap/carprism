@@ -11,7 +11,7 @@ window.ARTICLES_DATA = [
     badge: "USED CAR",
     badgeClass: "cat-blue",
     source: "CarBuzz",
-    desc: "미국 중고차 시장에서 현대 N 라인업의 감가율이 유독 가파르다. 2020년형 벨로스터 N은 신차 2만 6,900달러에서 약 1만 9,000달러로, 2022년형 아반떼 N은 3만 2,150달러에서 약 2만 6,200달러로 떨어졌다. 동급 혼다 시빅 타입R·폭스바겐 골프 R보다 낮은 가격대에서 형성된 이 감가폭이 오히려 중고 구매자에게는 기회가 된다는 CarBuzz의 분석을 정리했다."
+    desc: "미국 중고차 시장에서 현대 N 라인업의 감가율이 유독 가파르다. 2020년형 벨로스터 N은 신차 2만 6,900달러에서 약 1만 9,000달러로, 2022년형 아반떼 N은 3만 2,150달러에서 약 2만 6,200달러로 떨어졌다. 여기에 현대차의 10년 보증은 최초 오너에게만 적용돼 중고로 사는 순간 5년 보증만 승계받는다는 점도 짚었다. 동급 혼다 시빅 타입R·폭스바겐 골프 R보다 낮은 가격대에서 형성된 이 감가폭이 오히려 중고 구매자에게는 기회가 된다는 CarBuzz의 분석을 정리했다."
   },
   {
     slug: "uber-wayve-mache-london-robotaxi-launch",
@@ -147,7 +147,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "chery-fulwin-t7-2005-600km-ev",
-    title: "\"한 방에 600km 주행\"… 전장 4.57m 전기 SUV가 2,005만 원 출시?",
+    title: "\"한 방에 600km 주행\"… 전장 4.57m 전기 SUV가 2,070만 원 출시?",
     date: "2026-09-04",
     image: "chery_fulwin_t7_front.webp",
     categories: ["news", "electric"],
@@ -155,19 +155,19 @@ window.ARTICLES_DATA = [
     badge: "EV",
     badgeClass: "cat-ev",
     source: "오토트리뷴",
-    desc: "중국 체리자동차가 순수전기 콤팩트 SUV '풀윈 T7'을 9만 7,900위안(약 2,005만 원)부터 출시했다. 전장 4,570mm, 65.05kWh 배터리로 CLTC 기준 600km를 달리는 이 차의 제원과 국내 출시 가능성을 짚어봤다."
+    desc: "중국 체리자동차가 순수전기 콤팩트 SUV '풀윈 T7'을 9만 7,900위안(약 2,070만 원)부터 출시했다. 전장 4,570mm, 65.05kWh 배터리로 CLTC 기준 600km를 달리는 이 차의 제원과 국내 출시 가능성을 짚어봤다."
   },
   {
     slug: "byd-sealion-08-palisade-950km-7seat",
-    title: "\"미니밴 아닌 7인승 패밀리카\"… 팰리세이드보다 큰 950km 신차, BYD 씨라이언8",
+    title: "\"팰리세이드보다 길다\"… BYD 플래그십 SUV 씨라이언8, CLTC 900km로 중국 출시",
     date: "2026-09-04",
     image: "byd_sealion08_production_front.webp",
     categories: ["news", "electric"],
-    tags: ["BYD씨라이언8", "씨라이언08", "BYDSUV", "팰리세이드경쟁", "7인승전기SUV"],
+    tags: ["BYD씨라이언8", "씨라이언08", "BYDSUV", "팰리세이드경쟁", "대형전기SUV"],
     badge: "EV",
     badgeClass: "cat-ev",
     source: "오토트리뷴",
-    desc: "BYD가 9월 2일 중국에서 출시하는 플래그십 SUV 씨라이언8(Sealion 08)은 전장 5,263mm로 팰리세이드보다 203mm 길고, 후륜구동 상위 모델 기준 CLTC 950km 주행거리를 갖췄다. 2+2+3 배열의 7인승 구성과 800V 플랫폼, 국내 출시 전망까지 정리했다."
+    desc: "BYD가 9월 2일 중국에서 출시한 플래그십 SUV 씨라이언8(Sealion 08)은 전장 5,115mm로 팰리세이드보다 55mm 길고, 후륜구동 상위 모델 기준 CLTC 900km 주행거리를 갖췄다. 5·6인승 구성과 800V 플랫폼, 국내 출시 전망까지 정리했다."
   },
   {
     slug: "cheonan-kculture-expo-2026-parking-guide",
