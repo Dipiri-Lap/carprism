@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-seltos-sp3-tcu-free-repair-2026",
+    title: "저속에서 울컥거린다면 확인하세요… 셀토스 1만 1,176대 무상수리 대상",
+    date: "2026-09-06",
+    image: "seltos_sp3k_front.jpg",
+    categories: ["domestic", "news"],
+    tags: ["셀토스무상수리", "셀토스SP3", "셀토스TCU", "기아무상수리2026", "셀토스저속울컥거림"],
+    badge: "SERVICE CAMPAIGN",
+    badgeClass: "cat-red",
+    source: "기아 / update.kia.com / 카프리즘 기획 기사",
+    desc: "2025년 12월 31일부터 2026년 6월 17일 사이 생산된 기아 셀토스(SP3) 1만 1,176대가 무상수리 대상에 올랐다. 저속 서행 중 울컥거리는 느낌, 주차 시 빌트인 캠 화면 미표시, OTA 업데이트 간헐적 실패 등이 대상 증상이며, 무상수리 기간은 2026년 7월 6일부터 2029년 1월 5일까지다."
+  },
+  {
+    slug: "hyundai-kia-september-2026-promotion-discount-guide",
+    title: "코나·싼타페 HEV는 100만 원, 봉고 EV 전환은 50만 원… 9월 할인 총정리",
+    date: "2026-09-06",
+    image: "hyundai_santafe_xrt_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["현대차9월프로모션", "기아9월할인", "싼타페할인", "코나할인", "봉고EV전환할인"],
+    badge: "PROMOTION",
+    badgeClass: "cat-sales",
+    source: "현대자동차 / 기아 / 카눈 / 카프리즘 기획 기사",
+    desc: "현대차와 기아가 2026년 9월 다양한 구매 혜택을 내놓았다. 현대차는 코나·싼타페 하이브리드 100만 원, 구형 싼타페 150만 원을 할인하며 친환경차 보유 고객 대상 '에코 패밀리' 혜택도 제공한다. 기아는 명절 전 조기 출고 고객 할인과 함께, 디젤 소형 트럭을 봉고 EV로 전환하면 50만 원을 할인해준다."
+  },
+  {
+    slug: "korea-used-car-export-record-2025-tariff-offset",
+    title: "신차 수출은 주춤한데, 중고차가 대신 720억 달러를 지켰다",
+    date: "2026-09-06",
+    image: "busan_container_terminal.webp",
+    categories: ["news", "domestic"],
+    tags: ["중고차수출", "자동차수출2025", "중고차수출역대최대", "신차수출관세", "한국자동차수출통계"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "산업통상부 / 문화일보 / 한국무역협회(KITA) / 카프리즘 기획 기사",
+    desc: "2025년 한국의 중고차 수출액이 88.7억 달러로 전년 대비 75.1% 증가하며 역대 최대를 기록했다. 전체 자동차 수출에서 중고차가 차지하는 비중은 7.1%에서 12.7%로 급등했다. 미국의 관세 부과와 현대차그룹의 현지 생산 전환으로 신차 수출이 주춤한 사이, 중고차 수출이 그 감소분을 상쇄했다는 분석이다."
+  },
+  {
+    slug: "china-sodium-battery-pne-electrolyte-thermal-runaway",
+    title: "150도가 넘으면 액체가 순식간에 벽으로 변한다… 열폭주를 원천 차단한 배터리",
+    date: "2026-09-06",
+    image: "sodium_ion_battery_cell_18650.webp",
+    categories: ["electric", "news"],
+    tags: ["나트륨이온배터리", "열폭주차단", "PNE전해질", "중국과학원배터리", "배터리화재기술"],
+    badge: "BATTERY TECH",
+    badgeClass: "cat-ev",
+    source: "네이처 에너지 / 더드라이브 / 카프리즘 기획 기사",
+    desc: "중국과학원 물리연구소 후융성 연구팀이 Ah급 나트륨이온 배터리에서 열폭주(화재)를 완전히 차단하는 난연성 전해질 'PNE'를 개발해 네이처 에너지에 발표했다. 이 전해질은 섭씨 150도를 넘으면 액체에서 고체로 빠르게 변하며 배터리 내부에 치밀한 차단막을 형성해 열 전달을 막는다. 기존 탄산염계 전해질과 비용도 거의 동일한 수준이다."
+  },
+  {
+    slug: "ev-fire-rate-vs-ice-comparison-statistics-2026",
+    title: "1만대당 1.32건 vs 1.86건… 전기차가 불이 더 잘 난다는 건 통계상 틀렸다",
+    date: "2026-09-06",
+    image: "car_fire_roadside.webp",
+    categories: ["electric", "news"],
+    tags: ["전기차화재통계", "전기차화재율", "내연기관화재비교", "전기차화재오해", "배터리화재피해액"],
+    badge: "DATA",
+    badgeClass: "cat-blue",
+    source: "국토교통 통계누리 / 소방연구원 / 데이터솜 / 카프리즘 기획 기사",
+    desc: "국토교통 통계누리와 소방연구원 집계에 따르면 등록 전기차 1만 대당 화재 건수는 1.32건으로, 내연기관차의 1.86건보다 오히려 낮다. 다만 전기차 화재의 48%는 주정차 또는 충전 중에 발생하며, 화재 1건당 평균 재산 피해액은 2,422만 원으로 내연기관차(819만 원)보다 3배 가까이 크다."
+  },
+  {
     slug: "hyundai-ioniq3-review-price-range-2026",
     title: "800V 대신 400V를 택했다… 아이오닉3가 4천만 원대 초반에 가능했던 이유",
     date: "2026-09-06",
