@@ -15,7 +15,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ev-fire-insurance-mandatory-2026-subsidy",
-    title: "\"원인 몰라도 최대 150억 보상\"… 대신 이 보험 안 든 제조사는 보조금이 끊깁니다",
+    title: "\"원인 몰라도 최대 100억 보상\"… 대신 이 보험 안 든 제조사는 보조금이 끊깁니다",
     date: "2026-09-06",
     image: "ev_charging_station_jeju.webp",
     categories: ["electric", "news", "domestic"],
@@ -123,15 +123,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "honda-nissan-holding-company-established-2026",
-    title: "735만 대… 혼다와 닛산이 손잡고 만든 숫자가 현대차그룹을 넘본다",
+    title: "지주사 설립 약속은 깨졌다… 혼다·닛산이 다시 손잡은 이유",
     date: "2026-09-06",
     image: "honda_hq_aoyama.webp",
     categories: ["import", "news"],
-    tags: ["혼다닛산합병", "혼다닛산지주회사", "일본자동차합병", "ECU공동개발", "현대차그룹판매비교"],
+    tags: ["혼다닛산협력", "혼다닛산합병결렬", "SDV공동개발", "차량용OS공동개발", "ECU공동개발"],
     badge: "BUSINESS",
     badgeClass: "cat-sales",
-    source: "SBS / 한국경제 / 이코노믹리뷰 / 카프리즘 기획 기사",
-    desc: "혼다와 닛산이 2026년 8월 공동 지주회사를 공식 설립했다. 두 회사는 브랜드를 유지한 채 지주사 아래 독립 운영되며, 지난해 판매량을 합치면 735만 대로 현대차그룹(730만 대 안팎)을 넘어선다. 두 회사는 파워트레인·ADAS를 통합 제어하는 ECU 공동 개발 계약도 수 주 내 마무리할 예정이다."
+    source: "한국경제 / 아주경제 / CBS News / 카프리즘 기획 기사",
+    desc: "2024년 12월 공동 지주회사 설립을 예고했던 혼다와 닛산의 경영통합 협상은 2025년 2월 완전히 결렬됐다. 대신 두 회사는 2026년 8월 31일 소프트웨어 정의 차량(SDV)의 핵심 부품인 차량용 통합 ECU와 차량용 OS를 공동 개발하는 계약을 체결했다고 발표했다. 2029년 신형 차량 탑재를 목표로 하며, 중국 업체에 맞선 개발비 분담이 배경으로 꼽힌다."
   },
   {
     slug: "toyota-honda-hybrid-earnings-yen-weakness-2026",
