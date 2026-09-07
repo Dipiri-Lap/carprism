@@ -5,7 +5,7 @@ window.ARTICLES_DATA = [
     slug: "yangju-dooriland-parking-admission-guide-2026",
     title: "\"평일엔 공짜, 주말엔 2천 원\"… 두리랜드 주차, 요일부터 확인하세요",
     date: "2026-09-07",
-    image: "water_fountain_play_kids_park.webp",
+    image: "dooriland_indoor_playground_floor.webp",
     categories: ["travel"],
     tags: ["두리랜드", "양주두리랜드", "두리랜드주차", "두리랜드입장료", "경기가볼만한곳"],
     badge: "TRAVEL TIPS",
