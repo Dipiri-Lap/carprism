@@ -29,7 +29,7 @@ window.ARTICLES_DATA = [
     slug: "busan-driving-destinations-parking-guide-2026",
     title: "감천문화마을은 셔틀버스가 생겼는데, 정작 자차족이 알아야 할 건 따로 있습니다",
     date: "2026-09-07",
-    image: "busan_haeundae_beach_umbrellas.webp",
+    image: "busan_gamcheon_colorful_houses_closeup.webp",
     categories: ["travel"],
     tags: ["부산가볼만한곳", "감천문화마을주차", "해운대주차", "광안리주차", "부산자차여행"],
     badge: "TRAVEL TIPS",
