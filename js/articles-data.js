@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-lease-installment-rental-comparison-guide",
+    title: "\"내 차인데 내 이름이 아닙니다\"… 리스·할부·렌트, 소유권부터 확인하세요",
+    date: "2026-09-08",
+    image: "kr_plate_rental_heo.webp",
+    categories: ["life"],
+    tags: ["자동차리스", "자동차할부", "장기렌트비교", "리스할부렌트차이", "자동차구매방법"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "여신금융협회 / 카프리즘 기획 기사",
+    desc: "자동차를 살 때 할부·리스·장기렌트 중 무엇을 고를지는 월 납입금이 아니라 소유권 구조부터 따져야 한다. 할부는 소유권이 본인에게 있어 세금·보험료를 직접 부담하고, 리스는 금융사가 소유하며 잔존가치만큼 월납입금이 낮아지고, 장기렌트는 '허' 번호판을 달고 세금·보험·정비가 전부 포함된다."
+  },
+  {
+    slug: "car-recall-vs-free-repair-difference-guide",
+    title: "\"리콜인데 왜 못 받았지\"… 무상수리와 헷갈리면 놓치는 이유",
+    date: "2026-09-08",
+    image: "hyundai_tucson_recall.webp",
+    categories: ["life"],
+    tags: ["자동차리콜", "무상수리차이", "국토교통부리콜", "자발적리콜", "강제리콜"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "국토교통부 / TS한국교통안전공단 / 카프리즘 기획 기사",
+    desc: "자동차 리콜은 국토교통부가 제작 결함을 공식 확인하고 시정을 명령하는 법적 조치로, 제조사가 의무적으로 무상 수리해야 한다. 반면 무상수리는 제조사가 법적 의무 없이 자체 기준으로 비용을 부담하는 고객서비스로, 대상 차량이나 기간이 제한될 수 있다. 결함 범위도 리콜은 주행 안전과 직결된 결함, 무상수리는 소모성 부품·편의장치 문제인 경우가 많다."
+  },
+  {
+    slug: "hipass-obu-ownership-transfer-guide",
+    title: "\"전 주인 카드로 요금이 나갑니다\"… 하이패스 단말기, 이것부터 바꾸세요",
+    date: "2026-09-08",
+    image: "seoul_tollgate_hipass.jpg",
+    categories: ["life"],
+    tags: ["하이패스명의이전", "하이패스단말기등록", "중고차하이패스", "하이패스차종변경", "OBU등록"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "하이패스 홈페이지 / 카프리즘 기획 기사",
+    desc: "중고차를 사고팔 때 하이패스 단말기의 차종·명의 정보를 바꾸지 않으면, 전 소유자의 카드로 통행료가 결제되거나 반대로 새 소유자가 요금을 물게 되는 문제가 생긴다. 하이패스 공식 홈페이지에서 회원가입 없이 비회원으로도 차종·명의변경이 가능하며, 법인차량은 법인공동인증서 인증 절차가 추가된다."
+  },
+  {
+    slug: "vehicle-inspection-fail-retest-procedure-guide",
+    title: "\"불합격 판정을 받았습니다\"… 10일 안에 이것만 하면 됩니다",
+    date: "2026-09-08",
+    image: "goyang_vehicle_inspection_station.webp",
+    categories: ["life"],
+    tags: ["자동차정기검사재검사", "정기검사불합격", "검사지연과태료", "자동차검사재검사기간", "정기검사절차"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "한국교통안전공단 / 찾기쉬운 생활법령정보 / 카프리즘 기획 기사",
+    desc: "자동차 정기검사에서 불합격 판정을 받으면 판정일로부터 10일 이내에 재검사를 신청해야 한다. 전체 검사를 처음부터 다시 받는 것이 아니라 불합격 항목만 재검사하는 방식이며, 이 기간을 넘기면 검사 지연 과태료가 붙기 시작해 30일 이내 4만 원, 이후 3일마다 2만 원씩 늘어 최대 60만 원까지 오를 수 있다."
+  },
+  {
+    slug: "coolant-color-meaning-replacement-cycle-guide",
+    title: "\"초록색 넣었는데 파란색이 남아있었다\"… 냉각수 색깔, 섞으면 안 되는 이유",
+    date: "2026-09-08",
+    image: "coolant_expansion_tank.webp",
+    categories: ["life"],
+    tags: ["냉각수색깔", "부동액교체주기", "냉각수교체주기", "부동액종류", "롱라이프냉각수"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "킥스사이다 / 카프리즘 기획 기사",
+    desc: "냉각수(부동액)는 초록·파랑·노랑·분홍 등 색상별로 성분이 다르다. 초록은 인산염, 파랑·분홍은 유기산, 노랑은 규산염 타입이며, 전기차는 절연 성능이 있는 파란색, 수소차는 연녹색 냉각수를 쓴다. 색이 다른 냉각수를 섞으면 화학반응으로 침전물이 생겨 라디에이터 통로를 막을 수 있어, 보충하거나 교체할 때는 반드시 기존과 같은 종류인지 확인해야 한다. 교체 주기는 일반 냉각수 2년·4만km, 롱라이프 냉각수 4~5년·8만~10만km, 슈퍼 롱라이프는 최대 10년·16만km 이상이다."
+  },
+  {
+    slug: "headlight-yellowing-restoration-guide",
+    title: "\"치약으로 닦으면 더 나빠집니다\"… 헤드라이트 누렇게 변했을 때 진짜 해법",
+    date: "2026-09-08",
+    image: "headlight_yellowed_oxidized_lens.webp",
+    categories: ["life"],
+    tags: ["헤드라이트황변", "헤드라이트복원", "헤드라이트누렇게변함", "폴리카보네이트황변", "헤드라이트셀프복원"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "모터큐브 / 카프리즘 기획 기사",
+    desc: "헤드라이트 렌즈는 대부분 폴리카보네이트 소재로, 표면 UV 코팅이 자외선에 산화되면서 누렇게 변한다. 코팅이 벗겨지면 황변이 급격히 진행되는데, 치약처럼 연마 성분이 있는 재료로 닦으면 남은 UV 코팅층까지 벗겨내 오히려 산화를 앞당긴다. 2~5만 원대 셀프 복원 키트로도 어느 정도 완화할 수 있지만, 코팅까지 완전히 벗겨졌다면 전문점 복원이나 렌즈 교체가 필요하다."
+  },
+  {
     slug: "yangju-dooriland-parking-admission-guide-2026",
     title: "\"평일엔 공짜, 주말엔 2천 원\"… 두리랜드 주차, 요일부터 확인하세요",
     date: "2026-09-07",
