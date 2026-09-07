@@ -5,13 +5,13 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 07 Sep 2026 08:41:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 08:52:09 GMT</lastBuildDate>
     <item>
       <title>&apos;올해의 차&apos; 3관왕 기념으로 650만 원 깎아줍니다</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-ioniq9-1million-anniversary-discount-2026.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ioniq9-1million-anniversary-discount-2026.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차가 아이오닉 시리즈 누적 판매 100만 대와 아이오닉9의 &apos;올해의 차&apos; 3관왕 수상을 기념해 특별 프로모션을 실시한다. 생산월 조건(최대 300만 원)에 3관왕 기념 100만 원, 트레이드인 100만 원, 세이브오토 50만 원 등을 더하면 최대 650만 원까지 할인받을 수 있다.</description>
+      <description>현대차가 아이오닉 시리즈 누적 판매 100만 대와 아이오닉9의 &apos;올해의 차&apos; 3관왕 수상을 기념해 특별 프로모션을 실시한다. 생산월 조건(최대 300만 원)에 아이오닉 100만대 기념 할인 150만 원, 트레이드인 100만 원, 전시차 50만 원, 세이브오토 50만 원을 더하면 최대 650만 원까지 할인받을 수 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq9_blackink_front.webp" type="image/webp"/>
     </item>
     <item>
@@ -71,19 +71,19 @@
       <enclosure url="https://carprism.tmhub.co.kr/images/sodium_ion_battery_cell_18650.webp" type="image/webp"/>
     </item>
     <item>
-      <title>숫자 앞에 처음 1이 붙습니다 — 전 세계 배터리 사용량, 올해 1TWh를 넘습니다</title>
+      <title>이미 넘었습니다 — 전 세계 배터리 사용량, 지난해 1TWh를 돌파했습니다</title>
       <link>https://carprism.tmhub.co.kr/articles/global-ev-battery-usage-1twh-milestone-2026.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/global-ev-battery-usage-1twh-milestone-2026.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026년 전 세계 전기차용 배터리 사용량이 전년 대비 약 24% 증가해 연말 기준 처음으로 1TWh(테라와트시)를 넘어설 전망이다. 이는 킬로와트시 단위로 세던 개별 차량의 배터리 용량이, 산업 전체로 보면 조 단위 와트시로 집계될 만큼 시장이 커졌다는 뜻이다.</description>
+      <description>SNE리서치 집계에 따르면 전 세계 전기차용 배터리 사용량은 2025년(1~12월) 이미 1,187GWh(약 1.19TWh)로 사상 처음 1TWh를 넘어섰다. 2026년에도 성장세는 이어지고 있으며(1~5월 기준 전년 대비 약 16% 증가), 산업은 이제 다음 이정표를 향해 나아가고 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/battery_lab_researcher_testing.webp" type="image/webp"/>
     </item>
     <item>
-      <title>배터리 값이 다시 오릅니다 — 3년째 내려가던 그래프가 방향을 틀었습니다</title>
+      <title>배터리 값 하락, 브레이크가 걸렸습니다 — 3년 만에 가장 더뎌진 하락 폭</title>
       <link>https://carprism.tmhub.co.kr/articles/ev-battery-pack-price-increase-15to20percent-2026.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-battery-pack-price-increase-15to20percent-2026.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>전기차 배터리팩 가격이 2023년 대비 2026년 약 15~20% 상승할 것으로 전망된다. 그동안 꾸준히 하락해온 배터리 가격 곡선이 방향을 바꾼 것으로, 원자재 가격 변동과 미국의 관세·보조금 정책 변화, 공급망 재편 등이 복합적으로 작용한 결과로 풀이된다.</description>
+      <description>전기차 배터리팩 가격은 2025년에도 8% 하락해 kWh당 108달러로 사상 최저치를 기록했지만, 2026년 하락 폭은 3%대에 그칠 전망이다(블룸버그NEF). 리튬·코발트 등 원자재값 급등과 미국의 관세 정책이 그동안의 가파른 하락세를 눈에 띄게 둔화시키고 있다는 분석이다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/battery_researcher_labcoat.webp" type="image/webp"/>
     </item>
     <item>
@@ -91,7 +91,7 @@
       <link>https://carprism.tmhub.co.kr/articles/ces-2026-robotaxi-race-hyundai-uber-lucid-nuro.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ces-2026-robotaxi-race-hyundai-uber-lucid-nuro.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>CES 2026에서 현대차그룹과 모셔널이 아이오닉5 기반 로보택시를 선보였고, 우버·루시드·누로는 양산형 로보택시를 공개했다. 완성차 업체와 모빌리티 플랫폼, 자율주행 스타트업이 동시에 로보택시 경쟁에 뛰어들며, 233조 원 규모로 추산되는 시장을 둘러싼 각축전이 본격화되고 있다.</description>
+      <description>CES 2026에서 현대차그룹과 모셔널이 아이오닉5 로보택시 연내 상용화를 밝혔고, 우버·루시드·누로는 공동 개발한 &apos;글로벌 로보택시&apos;를 최초 공개했다. 완성차 업체와 모빌리티 플랫폼, 자율주행 기술기업이 손잡으며 2035년 233조 원 규모로 성장할 것으로 전망되는 로보택시 시장을 둘러싼 각축전이 본격화되고 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/waymo_zeekr_ojai_depot_front.webp" type="image/webp"/>
     </item>
     <item>
@@ -107,7 +107,7 @@
       <link>https://carprism.tmhub.co.kr/articles/toyota-gr-supra-oil-pump-free-repair-2026.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/toyota-gr-supra-oil-pump-free-repair-2026.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>토요타 GR 수프라(A90)가 오일펌프 관련 무상수리 대상에 올랐다. 자동차리콜센터에 등록된 정보에 따르면 이 무상수리는 2026년 12월 31일까지 진행된다. 대상 여부는 자동차리콜센터에서 차대번호로 확인할 수 있으며, 토요타코리아 서비스센터에서 무상으로 점검·조치받을 수 있다.</description>
+      <description>토요타 GR 수프라(A90)가 오일펌프 관련 무상수리 대상에 올랐다. 자동차리콜센터에 등록된 정보에 따르면 이 무상수리는 2026년 12월 31일까지 진행되며, 정확한 대상 대수·결함 코드는 차대번호 조회로 확인해야 한다. 토요타코리아 서비스센터에서 무상으로 점검·조치받을 수 있다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/toyota_gr_supra_a90_dc_aerial.webp" type="image/webp"/>
     </item>
     <item>
@@ -115,7 +115,7 @@
       <link>https://carprism.tmhub.co.kr/articles/fl-auto-expedition-door-control-module-service.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/fl-auto-expedition-door-control-module-service.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>에프엘오토가 수입·판매하는 익스페디션 등 2개 차종이 도어 컨트롤 모듈의 윈도우 소프트웨어 관련 무상수리 대상에 올랐다. 자동차리콜센터에 등록된 정보로, 대상 차량은 창문 개폐 동작에 이상이 생길 수 있어 소프트웨어 업데이트를 통한 조치가 이뤄진다.</description>
+      <description>포드·링컨 공식 임포터 에프엘오토코리아가 수입·판매하는 익스페디션 등 2개 차종이 도어 컨트롤 모듈의 윈도우 소프트웨어 관련 무상수리 대상에 올랐다. 자동차리콜센터에 등록된 정보로, 대상 차량은 창문 개폐 동작에 이상이 생길 수 있어 소프트웨어 업데이트를 통한 조치가 이뤄진다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/repair_shop_mechanic.webp" type="image/webp"/>
     </item>
     <item>
@@ -123,7 +123,7 @@
       <link>https://carprism.tmhub.co.kr/articles/iomotors-bono-electric-scooter-battery-recall-2026.html</link>
       <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/iomotors-bono-electric-scooter-battery-recall-2026.html</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>이오모터스의 소형 전기스쿠터 BONO가 고전압배터리 관리시스템(BMS) 관련 결함으로 2026년 9월 1일부터 리콜에 들어갔다. 전기 이륜차 배터리 관리시스템 결함은 최근 국내에서 6,000여 대 규모의 전기 이륜차 리콜로 이어진 사안과 맥을 같이하며, 국토교통부는 전기 이륜차에 대한 안전 관리를 강화하는 추세다.</description>
+      <description>이오모터스의 소형 전기스쿠터 BONO가 고전압배터리 관리시스템(BMS) 관련 결함으로 2026년 9월 1일부터 리콜에 들어갔다. 같은 시기 국내에서는 소방재난본부 화재실험을 계기로 2개사 총 6,144대 규모의 전기 이륜차 리콜이 진행 중이며, BONO의 시행 시점·결함 유형은 그중 한 축과 일치한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/electric_scooter_share_parked.webp" type="image/webp"/>
     </item>
     <item>
