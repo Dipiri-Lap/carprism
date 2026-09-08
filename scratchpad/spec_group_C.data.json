@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "vw-polo-bugatti-tourbillon-crash-2026",
+    "title": "\"신호 앞에 멈춰선 부가티를 못 봤다\"… 2,600만원 폴로가 59억원 투르비용 프로토타입을 들이받았다",
+    "date": "2026-09-08",
+    "image": "bugatti_tourbillon_front34.webp",
+    "categories": [
+      "news"
+    ],
+    "tags": [
+      "부가티투르비용",
+      "폭스바겐폴로",
+      "교통사고",
+      "슈퍼카사고",
+      "스페인"
+    ],
+    "badge": "이슈",
+    "badgeClass": "cat-red",
+    "source": "Carscoops",
+    "desc": "스페인 시에라네바다 산악도로에서 폭스바겐 폴로가 부가티 투르비용 프로토타입의 뒷범퍼를 들이받는 사고가 발생했다. 도로공사 임시신호에 멈춰선 투르비용을 뒤따르던 폴로가 미처 제동하지 못하면서 벌어진 일로, 카본 소재로 뒤덮인 투르비용의 수리비가 상당할 것이라는 전망이 나온다."
+  },
+  {
+    "slug": "chevrolet-corvette-1250hp-hypercar-2026",
+    "title": "\"9초의 벽을 깬 양산차\"… 콜벳이 팩토리 하이퍼카 시대를 열었다",
+    "date": "2026-09-08",
+    "image": "corvette_zr1x_2026_front_silver.webp",
+    "categories": [
+      "import"
+    ],
+    "tags": [
+      "콜벳ZR1X",
+      "쉐보레콜벳",
+      "1250마력",
+      "팩토리하이퍼카",
+      "1쿼터마일기록"
+    ],
+    "badge": "PERFORMANCE",
+    "badgeClass": "cat-gold",
+    "source": "CarBuzz",
+    "desc": "쉐보레 콜벳 ZR1X가 1/4마일 8.675초, 0-60mph 1.68초를 기록하며 완전한 제조사 보증을 갖춘 하이브리드 하이퍼카로 데뷔했다. 트윈터보 V8과 전기모터를 결합한 1,250마력 파워트레인과 미국 판매가를 정리했다."
+  },
+  {
+    "slug": "tesla-model3-performance-korea-cert-2026",
+    "title": "\"겨울에도 413km 달린다\"... 테슬라 신형 모델 3 퍼포먼스, 국내 인증 완료",
+    "date": "2026-09-08",
+    "image": "tesla_model3_highland_front.webp",
+    "categories": [
+      "electric"
+    ],
+    "tags": [
+      "테슬라",
+      "모델3퍼포먼스",
+      "전기차인증",
+      "겨울철주행거리",
+      "KENCIS"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "source": "오토트리뷴",
+    "desc": "테슬라 신형(2026년형) 모델 3 퍼포먼스가 저온(겨울철) 복합 주행거리 413km로 국내 환경 인증을 완료했다. 전륜 모터를 TL2로 교체해 배터리 용량 증대 없이 이전 대비 43km 늘어난 수치를 확보했다."
+  }
+]

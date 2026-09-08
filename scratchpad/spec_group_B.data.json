@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "mercedes-amg-c-class-ev-spy-2026",
+    "title": "\"리어윙까지 달았다\"… 전기 AMG C클래스, BMW 첫 전기 M3와 맞대결 예고",
+    "date": "2026-09-08",
+    "image": "mercedes_amg_c63_w206_front.webp",
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "tags": [
+      "메르세데스AMG",
+      "전기C클래스",
+      "AMGC63",
+      "BMWM3",
+      "전기고성능세단"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "source": "Carscoops",
+    "desc": "메르세데스-AMG의 순수전기 C클래스 프로토타입이 팝업식 리어 스포일러를 단 채 포착됐다. 778마력 안팎으로 추정되는 이 모델은 2027년 출시돼 BMW의 첫 전기 M3와 정면 대결을 벌일 전망이다."
+  },
+  {
+    "slug": "tatadaewoo-level4-autonomous-truck-2026",
+    "title": "\"군산-전주-대전 노선에서 실제로 화물을 실어 날랐다\"… 자율주행 트럭, 양산 로드맵 나왔다",
+    "date": "2026-09-08",
+    "image": "tatadaewoo_maxen_truck.webp",
+    "categories": [
+      "domestic",
+      "news"
+    ],
+    "tags": [
+      "타타대우모빌리티",
+      "자율주행트럭",
+      "레벨4자율주행",
+      "라이드플럭스",
+      "맥쎈"
+    ],
+    "badge": "TECH",
+    "badgeClass": "cat-blue",
+    "source": "오토트리뷴",
+    "desc": "타타대우모빌리티가 자율주행 소프트웨어 기업 라이드플럭스와 손잡고 레벨4 완전자율주행 트럭 양산을 위한 로드맵을 구체화했다. 이미 지난 7월부터 군산-전주-대전 노선에서 국내 최초로 자율주행트럭 유상 화물운송을 수행 중이다."
+  },
+  {
+    "slug": "lexus-lbx-morizo-rr-extreme-spied-2026",
+    "title": "\"카본 루프에 카본 범퍼까지\"… 가장 익스트림한 렉서스, GR 코롤라를 더 닮아간다",
+    "date": "2026-09-08",
+    "image": "lexus_lbx_front_red.webp",
+    "categories": [
+      "import"
+    ],
+    "tags": [
+      "렉서스LBX",
+      "모리조RR",
+      "GR코롤라",
+      "카본파이버",
+      "고성능크로스오버"
+    ],
+    "badge": "SPY SHOT",
+    "badgeClass": "cat-gold",
+    "source": "Carscoops",
+    "desc": "렉서스의 가장 극단적인 소형 크로스오버 'LBX 모리조 RR'의 더욱 강화된 버전이 카본 파이버 루프와 범퍼를 두른 프로토타입으로 포착됐다. 토요타 GR 코롤라와 부품을 공유하며 경량화에 집중한 것으로 보인다."
+  }
+]

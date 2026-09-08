@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "tesla-cybercab-issue-launch-day-2026",
+    "title": "\"운전대도, 페달도 없는데 벌써\"... 테슬라 사이버캡, 영업 개시 몇 시간 만에 '비상'",
+    "date": "2026-09-08",
+    "image": "tesla_cybercab_front.webp",
+    "categories": [
+      "electric",
+      "news"
+    ],
+    "tags": [
+      "테슬라",
+      "사이버캡",
+      "로보택시",
+      "NHTSA조사",
+      "오스틴로보택시"
+    ],
+    "badge": "ISSUE",
+    "badgeClass": "cat-red",
+    "source": "오토트리뷴",
+    "desc": "테슬라의 무인 로보택시 '사이버캡'이 텍사스 오스틴에서 상업 운행을 시작한 지 몇 시간 만에 미국 도로교통안전국(NHTSA)의 조사 대상이 됐다. 운전대와 페달이 아예 없는 차량을 자체 인증만으로 도로에 투입한 것이 문제가 됐다."
+  },
+  {
+    "slug": "polestar-formula-2030-concept-2026",
+    "title": "\"혁명 아닌 진화\"라더니... 폴스타, 차세대 디자인 예고편 '포뮬러 2030' 공개",
+    "date": "2026-09-08",
+    "image": "polestar_formula2030_concept_teaser.webp",
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "tags": [
+      "폴스타",
+      "포뮬러2030",
+      "콘셉트카",
+      "폴스타2",
+      "폴스타7"
+    ],
+    "badge": "신차공개",
+    "badgeClass": "cat-gold",
+    "source": "지피코리아",
+    "desc": "폴스타가 신임 디자인 총괄 필립 뢰머스의 첫 작품인 '포뮬러 2030' 콘셉트카를 티저로 공개했다. 2027년 신형 폴스타2와 2028년 폴스타7에 반영될 디자인 방향을 미리 엿볼 수 있는 콘셉트다."
+  },
+  {
+    "slug": "audi-a2-e-tron-concept-2026",
+    "title": "\"26년 만에 돌아온 그 이름\"... 아우디, 기아 EV3급 전기차 'A2 e-트론' 공개",
+    "date": "2026-09-08",
+    "image": "audi_a2_etron_front34_pistachio.webp",
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "tags": [
+      "아우디",
+      "A2e트론",
+      "엔트리전기차",
+      "기아EV3",
+      "고효율전기차"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "source": "오토헤럴드",
+    "desc": "아우디가 2000년대 초반 단종됐던 소형 해치백 'A2'의 이름을 26년 만에 되살린 전기차 'A2 e-트론'을 공개했다. WLTP 기준 최대 645km를 달리면서도 100km당 12.8kWh라는 브랜드 최고 효율을 갖춰, 기아 EV3와 같은 엔트리 전기차 시장에서 정면 승부를 예고했다."
+  }
+]

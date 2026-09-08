@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "tesla-cybercab-issue-launch-day-2026",
+    "headline": "\"운전대도, 페달도 없는데 벌써\"... 테슬라 사이버캡, 영업 개시 몇 시간 만에 '비상'",
+    "headlineShort": "사이버캡 상업운행 개시 하루 만에 NHTSA 조사",
+    "description": "테슬라의 무인 로보택시 '사이버캡'이 텍사스 오스틴에서 상업 운행을 시작한 지 몇 시간 만에 미국 도로교통안전국(NHTSA)의 조사 대상이 됐다. 운전대와 페달이 아예 없는 차량을 자체 인증만으로 도로에 투입한 것이 문제가 됐다.",
+    "subtitle": "2인승 무인 로보택시 사이버캡이 정식 영업을 시작하자마자 규제 당국의 집중 감시망에 걸렸다. 수동 조작장치 의무화 규정이 아직 남아있는 상황에서, 테슬라가 정부의 별도 승인 없이 자체 판단만으로 안전 기준 충족을 선언했기 때문이다.",
+    "date": "2026-09-08",
+    "time": "09:00",
+    "sectionName": "전기차",
+    "sectionHref": "electric.html",
+    "categoryLabel": "이슈",
+    "categoryClass": "cat-red",
+    "heroImage": "tesla_cybercab_front.webp",
+    "heroAlt": "테슬라 사이버캡 전측면, 운전대와 페달이 없는 2인승 로보택시 외관",
+    "heroCaption": "텍사스 오스틴에서 상업 운행을 시작한 테슬라 사이버캡. 스티어링 휠과 페달이 처음부터 존재하지 않는 전용 로보택시다",
+    "tags": [
+      "테슬라",
+      "사이버캡",
+      "로보택시",
+      "NHTSA조사",
+      "오스틴로보택시"
+    ],
+    "categories": [
+      "electric",
+      "news"
+    ],
+    "badge": "ISSUE",
+    "badgeClass": "cat-red",
+    "dataSource": "오토트리뷴",
+    "imageCredit": "Tesla",
+    "sources": [
+      {
+        "name": "오토트리뷴",
+        "url": "https://www.autotribune.co.kr/news/articleView.html?idxno=45398"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/"
+      },
+      {
+        "name": "Electrek",
+        "url": "https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/"
+      }
+    ],
+    "body": "\n<h2 id=\"sec1\">1. 사이버캡, 오스틴서 첫 유상 운행 시작</h2>\n<p><strong>테슬라가 지난 9월 3일(현지시간) 텍사스주 오스틴에서 완전 무인 로보택시 '사이버캡'의 상업 운행을 시작했다.</strong> 사이버캡은 기존에 오스틴에서 운영되던 모델Y 기반 로보택시(안전요원 동승)와 달리, 처음부터 스티어링 휠과 브레이크·가속 페달, 사이드미러가 존재하지 않는 2인승 전용 로보택시로 설계됐다. 이용자는 테슬라의 로보택시 앱으로 호출과 결제를 마치면 되고, 차량은 사람의 개입 없이 완전 자율주행으로 승객을 목적지까지 데려다준다.</p>\n<p>이는 테슬라가 그동안 예고해온 '운전자 없는 로보택시 사업'의 첫 상업화 사례로, 일론 머스크가 오랫동안 강조해온 자율주행 수익화 전략의 실질적인 첫 걸음으로 평가받았다. 그러나 축포를 터뜨리기도 전에, 서비스는 곧바로 규제 당국의 시험대에 올랐다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/tesla_cybercab_side.webp\" alt=\"테슬라 사이버캡 측면, 문 손잡이와 창문이 없는 미니멀한 차체 디자인\" width=\"1400\" height=\"908\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 사이버캡 측면. 사이드미러 없이 카메라로 후측방을 감지하는 구조가 그대로 드러난다 <span class=\"cap-credit\">ⓒ Tesla</span></p>\n</div>\n\n<h2 id=\"sec2\">2. 영업 개시 하루 만에 등장한 NHTSA 조사</h2>\n<p><strong>미국 도로교통안전국(NHTSA)은 사이버캡이 오스틴 도로에 투입된 지 불과 하루 만인 9월 4일, 테슬라의 자체 인증 절차를 들여다보는 '감사 질의(audit query)'를 개시했다고 발표했다.</strong> NHTSA는 테슬라가 사이버캡에 어떤 기술 데이터와 절차를 근거로 특정 연방자동차안전기준(FMVSS)이 이 차량에 적용되지 않는다고 판단했는지를 집중적으로 검토할 방침이다.</p>\n<p>핵심은 사이버캡에 스티어링 휠, 브레이크·가속 페달 같은 수동 조작장치가 아예 없다는 점이다. 현행 연방안전기준에는 이러한 수동 조작장치를 의무적으로 갖추도록 하는 규정이 여전히 남아있는데, 테슬라는 별도의 정부 승인 절차를 거치지 않고 자체 인증만으로 \"이 규정이 사이버캡에는 적용되지 않는다\"고 판단해 차량을 도로에 내보냈다.</p>\n<div class=\"info-box\">\n<p class=\"info-box-title\">📍 '감사 질의(Audit Query)'란</p>\n<p>NHTSA가 제조사의 자체 인증(self-certification) 내용이 타당한지 검증하기 위해 관련 기술 자료와 시험 데이터 제출을 요구하는 조사 절차다. 곧바로 리콜이나 판매 중단으로 이어지는 것은 아니지만, 제조사의 안전 기준 충족 판단 근거를 정부가 직접 들여다본다는 점에서 강도 높은 조사로 분류된다.</p>\n</div>\n\n<!--AD-->\n\n<h2 id=\"sec3\">3. 죽스는 수년간 심사받고 승인받았는데...</h2>\n<p><strong>비교 대상으로 거론되는 것은 아마존 산하 자율주행 업체 죽스(Zoox)다.</strong> 죽스 역시 스티어링 휠이 없는 무인 로보택시를 선보였지만, 상업 운행에 앞서 NHTSA의 공식 면제(exemption) 승인을 받는 절차를 밟았다. 이 심사는 수년에 걸쳐 진행됐고, 죽스는 2026년 7월 30일에야 정식으로 상업 운행 승인을 받을 수 있었다.</p>\n<p>반면 테슬라는 이런 공식 면제 절차를 거치지 않고 자체 판단만으로 사이버캡을 도로에 투입했다. 이 때문에 업계에서는 \"동일한 무인차 규제 이슈를 두고 두 회사가 전혀 다른 절차를 밟았다\"는 지적이 나온다.</p>\n<div class=\"spec-table-wrap\">\n<table class=\"spec-table align-left\">\n<caption>사이버캡(테슬라)과 로보택시(죽스) 인증 절차 비교</caption>\n<thead>\n<tr><th>구분</th><th>사이버캡(테슬라)</th><th>로보택시(죽스)</th></tr>\n</thead>\n<tbody>\n<tr><td>수동 조작장치</td><td>없음(설계 자체가 미탑재)</td><td>없음(설계 자체가 미탑재)</td></tr>\n<tr><td>안전기준 충족 판단</td><td>자체 인증(셀프 서티피케이션)</td><td>NHTSA 정식 면제 승인</td></tr>\n<tr><td>심사 기간</td><td>별도 사전 심사 없음</td><td>수년간 심사</td></tr>\n<tr><td>상업 운행 개시</td><td>2026년 9월 3일(오스틴)</td><td>2026년 7월 30일(정식 승인 후)</td></tr>\n<tr><td>현재 상태</td><td>NHTSA 감사 질의 진행 중</td><td>정식 운행 중</td></tr>\n</tbody>\n</table>\n</div>\n<div class=\"article-img-wrap\">\n<img src=\"../images/tesla_cybercab_interior.webp\" alt=\"테슬라 사이버캡 실내, 스티어링 휠과 페달이 없는 2인승 좌석 구조\" width=\"1400\" height=\"1050\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 사이버캡 실내. 운전석이라는 개념 자체가 없는 2인승 좌석 구조가 이번 조사의 핵심 배경이다 <span class=\"cap-credit\">ⓒ Tesla</span></p>\n</div>\n\n<h2 id=\"sec4\">4. 테슬라는 '규제 공백'을 파고들었다</h2>\n<p><strong>미국 교통부(DOT)는 현재 수동 조작장치 의무 규정 자체를 연방기준에서 아예 삭제하는 방안을 추진 중이다.</strong> 즉, NHTSA가 이번에 문제 삼고 있는 바로 그 규정이 조만간 공식적으로 폐지될 가능성이 있다는 뜻이다. 이 때문에 업계에서는 테슬라가 \"머지않아 자신들에게 유리하게 닫힐 규제 공백\"을 미리 파고들어 사이버캡을 서둘러 투입했다는 해석도 나온다.</p>\n<p>다만 규정 개정이 최종 완료되기 전까지는 현행 기준이 그대로 유효하다. NHTSA 입장에서는 규정이 바뀌기 전에 제조사가 자체 판단만으로 기준 적용 대상에서 스스로를 제외시키는 선례를 남겨서는 안 된다는 원칙적 대응에 나선 것으로 풀이된다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/tesla_cybercab_oblique.webp\" alt=\"테슬라 사이버캡 전측면 클로즈업, 매끈한 전면부와 폐쇄형 헤드램프\" width=\"1400\" height=\"1050\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 사이버캡 전면부. 기존 양산차와 달리 처음부터 무인 운행만을 전제로 설계됐다 <span class=\"cap-credit\">ⓒ Tesla</span></p>\n</div>\n\n<h2 id=\"sec5\">5. 앞으로 어떻게 되나</h2>\n<p><strong>NHTSA의 감사 질의가 곧바로 사이버캡 서비스 중단으로 이어지는 것은 아니다.</strong> 다만 조사 결과에 따라 테슬라가 뒤늦게 별도의 면제 신청 절차를 밟아야 하거나, 최악의 경우 서비스 운영 방식에 제약이 가해질 가능성도 배제할 수 없다. 반대로 DOT의 규정 개정이 예상보다 빨리 마무리된다면, 테슬라의 자체 인증 판단이 사후적으로 정당화되는 방향으로 상황이 정리될 수도 있다.</p>\n<p>테슬라의 로보택시 관련 소식과 서비스 지역 확대 계획은 공식 홈페이지에서 확인할 수 있다. <a href=\"https://www.tesla.com/ko_kr/robotaxi\" class=\"inline-link-btn\" target=\"_blank\" rel=\"noopener\">바로가기</a></p>\n<div class=\"checkpoint-box\">\n<p><strong>✅ 사이버캡 NHTSA 조사, 이것만은 확인하세요</strong></p>\n<p>· 사이버캡 상업 운행 개시: 2026년 9월 3일, 텍사스 오스틴<br>· NHTSA 감사 질의 개시: 개시 하루 만인 9월 4일<br>· 쟁점은 스티어링 휠·페달 등 수동 조작장치 미탑재에 대한 자체 인증 판단<br>· 경쟁사 죽스는 수년 심사를 거쳐 7월 30일 정식 승인 획득<br>· DOT는 관련 규정 자체를 폐지하는 방안을 별도로 추진 중</p>\n</div>\n\n<div class=\"summary-box\" id=\"summary\">\n<h2>6. 정리</h2>\n<p>사이버캡은 테슬라가 오랫동안 준비해온 무인 로보택시 사업의 첫 상업화 사례지만, 영업을 시작하자마자 규제 당국의 감사 대상에 올랐다. 문제의 핵심은 스티어링 휠과 페달이 없는 차량을 정부의 정식 승인 없이 자체 인증만으로 도로에 투입했다는 점이다. 경쟁사 죽스가 수년에 걸친 심사 끝에 정식 승인을 받은 것과 대비되면서 논란은 당분간 이어질 전망이며, 관련 연방 규정의 개정 여부가 이번 조사의 향방을 가를 핵심 변수가 될 것으로 보인다.</p>\n</div>\n"
+  },
+  {
+    "slug": "polestar-formula-2030-concept-2026",
+    "headline": "\"혁명 아닌 진화\"라더니... 폴스타, 차세대 디자인 예고편 '포뮬러 2030' 공개",
+    "headlineShort": "폴스타 '포뮬러 2030' 콘셉트, 차세대 디자인 예고",
+    "description": "폴스타가 신임 디자인 총괄 필립 뢰머스의 첫 작품인 '포뮬러 2030' 콘셉트카를 티저로 공개했다. 2027년 신형 폴스타2와 2028년 폴스타7에 반영될 디자인 방향을 미리 엿볼 수 있는 콘셉트다.",
+    "subtitle": "폴스타가 스웨덴 예테보리 본사에서 투자자와 딜러를 대상으로 미래 디자인 콘셉트카를 처음 선보였다. '혁명보다는 대담한 진화'를 표방한 이번 콘셉트는 듀얼 블레이드 헤드라이트 등 기존 정체성을 유지하면서도 한층 낮고 넓어진 스탠스를 예고했다.",
+    "date": "2026-09-08",
+    "time": "09:10",
+    "sectionName": "수입차",
+    "sectionHref": "import.html",
+    "categoryLabel": "신차공개",
+    "categoryClass": "cat-gold",
+    "heroImage": "polestar_formula2030_concept_teaser.webp",
+    "heroAlt": "폴스타 포뮬러 2030 콘셉트 티저 이미지, 낮고 넓은 스탠스의 실루엣과 새로운 헤드라이트 디자인",
+    "heroCaption": "폴스타가 공개한 '포뮬러 2030' 콘셉트카 티저 이미지. 신임 디자인 총괄 필립 뢰머스의 첫 작품이다",
+    "tags": [
+      "폴스타",
+      "포뮬러2030",
+      "콘셉트카",
+      "폴스타2",
+      "폴스타7"
+    ],
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "badge": "신차공개",
+    "badgeClass": "cat-gold",
+    "dataSource": "지피코리아",
+    "imageCredit": "Polestar",
+    "sources": [
+      {
+        "name": "지피코리아",
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=146473"
+      },
+      {
+        "name": "오토헤럴드",
+        "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61547"
+      },
+      {
+        "name": "모토야",
+        "url": "https://www.motoya.co.kr/news/articleView.html?idxno=47267"
+      }
+    ],
+    "body": "\n<h2 id=\"sec1\">1. 폴스타, 미래 디자인 예고편을 먼저 꺼냈다</h2>\n<p><strong>폴스타가 브랜드의 미래 디자인 방향을 담은 콘셉트카 '포뮬러 2030'을 티저 이미지로 공개했다.</strong> 이번 공개는 폴스타2·3·4로 이어져 온 기존 양산 라인업 소식이 아니라, 아직 세상에 없는 차세대 디자인 언어를 미리 보여주는 성격의 콘셉트카라는 점에서 지금까지의 폴스타 관련 소식들과는 결이 다르다. 실제 판매될 특정 신차가 아니라, 앞으로 나올 여러 모델에 반영될 '디자인 방향성'을 제시하는 것이 이 콘셉트의 목적이다.</p>\n<p>비공개 선공개는 9월 8일(현지시간) 스웨덴 예테보리 본사 내 전시 공간 '더 큐브(The Cube)'에서 투자자, 딜러, 일부 VIP 고객을 대상으로 진행됐다. 일반 대중과 글로벌 미디어를 대상으로 한 정식 공개는 10월 스페인 아스카리에서 열리는 폴스타4 SUV 미디어 드라이브 행사를 통해 이뤄질 예정이다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/polestar2_2026my_front.webp\" alt=\"현재 판매 중인 폴스타2 전측면, 2026년형 모델\" width=\"1600\" height=\"900\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 현재 판매 중인 2026년형 폴스타2. 포뮬러 2030 콘셉트의 디자인은 이 차의 후속 모델(2027년 출시 예정)에 반영될 예정이다 <span class=\"cap-credit\">ⓒ Polestar</span></p>\n</div>\n\n<h2 id=\"sec2\">2. 티저 한 장에 담긴 디자인 힌트</h2>\n<p><strong>공개된 티저 이미지는 낮고 넓은 스탠스, 캠버가 적용된 전륜, 모터스포츠를 연상시키는 세로형 와이퍼 등을 담고 있다.</strong> 무엇보다 눈에 띄는 것은 새롭게 해석된 헤드라이트 구조다. 폴스타 특유의 '토르의 망치'식 듀얼 블레이드 주간주행등이 훨씬 큰 규모로 확대됐고, 위아래로 배치돼 실제 헤드램프를 감싸는 형태로 바뀌었다. 여기에 폴스타3에 적용됐던 에어로 브릿지 요소도 함께 통합된 것으로 파악된다.</p>\n<div class=\"info-box\">\n<p class=\"info-box-title\">📍 참고로 알아두면 좋은 것</p>\n<p>'듀얼 블레이드 헤드라이트'는 폴스타1부터 이어져 온 브랜드 시그니처 디자인 요소로, 세로로 분리된 두 개의 광원이 헤드램프 좌우에 자리하는 것이 특징이다. 폴스타는 이번 콘셉트에서도 이 요소 자체는 유지하되, 형태와 비중을 대폭 키워 재해석했다.</p>\n</div>\n\n<!--AD-->\n\n<h2 id=\"sec3\">3. 신임 디자인 총괄, 필립 뢰머스의 첫 작품</h2>\n<p><strong>포뮬러 2030은 2025년 1월 폴스타에 합류한 신임 디자인 총괄 필립 뢰머스가 이끄는 팀의 첫 결과물이다.</strong> 뢰머스는 이번 콘셉트에 대해 \"완전한 격변보다는 대담한 진화가 필요했다\"고 설명하며, 기존 스칸디나비안 디자인 언어의 절제된 비율과 조명 디자인 철학을 계승하면서도 한층 스포티하고 각진 조형 요소를 더했다고 밝혔다. 후면 라이트바 형태나 후측창 유무 같은 기존 특징들 역시 이번 콘셉트를 통해 재해석될 가능성이 거론된다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/polestar4_front.webp\" alt=\"폴스타4 전측면, 후면 유리창 없는 디자인으로 화제가 된 모델\" width=\"1600\" height=\"900\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 후면 유리창을 없앤 파격적 디자인으로 화제를 모았던 폴스타4. 이번 콘셉트는 이런 기존 폴스타의 디자인 실험들을 계승·재해석하는 성격을 띤다 <span class=\"cap-credit\">ⓒ Polestar</span></p>\n</div>\n\n<h2 id=\"sec4\">4. 폴스타2·폴스타7에 이렇게 반영된다</h2>\n<p><strong>포뮬러 2030에서 제시된 디자인 요소는 2027년 출시 예정인 신형 폴스타2와 2028년 출시 예정인 콤팩트 SUV 폴스타7에 순차적으로 반영될 계획이다.</strong> 즉 이번 티저 이미지 한 장은 단순한 모터쇼용 콘셉트가 아니라, 향후 2~3년간 폴스타 양산 라인업의 얼굴이 어떻게 바뀔지를 예고하는 '디자인 로드맵'에 가깝다.</p>\n<div class=\"spec-table-wrap\">\n<table class=\"spec-table align-left\">\n<caption>포뮬러 2030 콘셉트 디자인 요소와 향후 반영 모델</caption>\n<thead>\n<tr><th>디자인 요소</th><th>설명</th><th>반영 예정 모델</th></tr>\n</thead>\n<tbody>\n<tr><td>듀얼 블레이드 헤드라이트</td><td>확대된 형태로 헤드램프를 감싸는 구조로 재해석</td><td>신형 폴스타2(2027년)</td></tr>\n<tr><td>에어로 브릿지</td><td>폴스타3의 공력 요소를 통합</td><td>폴스타7(2028년)</td></tr>\n<tr><td>로우 앤 와이드 스탠스</td><td>낮고 넓은 차체, 캠버 적용된 전륜</td><td>차세대 라인업 전반</td></tr>\n</tbody>\n</table>\n</div>\n\n<h2 id=\"sec5\">5. 왜 지금 디자인 예고편을 꺼냈나</h2>\n<p><strong>이번 콘셉트 공개는 폴스타의 중장기 경영 전략인 '2030 전략'의 일환으로 추진됐다.</strong> 폴스타는 이를 통해 지속적인 사업 성장과 수익성 확보, 그리고 성능·기술·지속가능성이라는 브랜드 핵심 가치를 강화하겠다는 목표를 밝혔다. 다만 현재 폴스타는 만만치 않은 경영 환경에 놓여 있다. 미국 시장에서는 2027년형 이후 모델 판매가 어려워지면서 신차 판매 자체를 철수하는 방안을 준비 중이며, 2026년 성장률 전망치도 기존 '낮은 두 자릿수'에서 '낮은~중간 한 자릿수'로 하향 조정된 상태다. 이런 상황에서 나온 미래 디자인 예고편인 만큼, 투자자와 딜러를 대상으로 한 이번 선공개는 브랜드의 장기 방향성에 대한 신뢰를 확보하려는 목적도 있는 것으로 풀이된다.</p>\n<p>폴스타의 콘셉트카 관련 소식과 향후 공개 일정은 공식 미디어 채널에서 확인할 수 있다. <a href=\"https://www.polestar.com/global/\" class=\"inline-link-btn\" target=\"_blank\" rel=\"noopener\">바로가기</a></p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/polestar2_facelift_9470.webp\" alt=\"폴스타2 페이스리프트 모델 측면, 야외 촬영\" width=\"1600\" height=\"900\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 폴스타2 페이스리프트 모델. 2027년 나올 완전변경 신형 폴스타2에는 포뮬러 2030의 디자인 언어가 본격적으로 반영될 예정이다 <span class=\"cap-credit\">ⓒ Polestar</span></p>\n</div>\n<div class=\"checkpoint-box\">\n<p><strong>✅ 포뮬러 2030 콘셉트, 이것만은 확인하세요</strong></p>\n<p>· 9월 8일 스웨덴 예테보리 본사에서 투자자·딜러 대상 비공개 선공개<br>· 정식 글로벌 공개는 10월 스페인 아스카리, 폴스타4 미디어 드라이브 행사에서<br>· 신임 디자인 총괄 필립 뢰머스(2025년 1월 합류)의 첫 결과물<br>· 디자인은 2027년 신형 폴스타2, 2028년 폴스타7에 순차 반영 예정<br>· 실제 판매 모델이 아닌 '디자인 방향성'을 제시하는 콘셉트카</p>\n</div>\n\n<div class=\"summary-box\" id=\"summary\">\n<h2>6. 정리</h2>\n<p>포뮬러 2030은 폴스타가 처음으로 공개한 차세대 디자인 예고편이다. 신임 디자인 총괄 필립 뢰머스는 '혁명보다 진화'를 표방하며 듀얼 블레이드 헤드라이트 같은 기존 정체성은 유지하되, 한층 낮고 넓어진 스탠스와 확대된 조명 디자인으로 새로운 방향을 제시했다. 이 디자인은 2027년 신형 폴스타2와 2028년 폴스타7에 순차적으로 반영될 예정이며, 정식 공개는 10월 스페인에서 열리는 폴스타4 미디어 행사를 통해 이뤄진다.</p>\n</div>\n"
+  },
+  {
+    "slug": "audi-a2-e-tron-concept-2026",
+    "headline": "\"26년 만에 돌아온 그 이름\"... 아우디, 기아 EV3급 전기차 'A2 e-트론' 공개",
+    "headlineShort": "아우디 A2 e-트론, 645km 주행거리로 부활",
+    "description": "아우디가 2000년대 초반 단종됐던 소형 해치백 'A2'의 이름을 26년 만에 되살린 전기차 'A2 e-트론'을 공개했다. WLTP 기준 최대 645km를 달리면서도 100km당 12.8kWh라는 브랜드 최고 효율을 갖춰, 기아 EV3와 같은 엔트리 전기차 시장에서 정면 승부를 예고했다.",
+    "subtitle": "덩치와 배터리 용량을 키우는 경쟁에 제동을 걸겠다는 아우디의 선언이다. 아우디는 2026년 9월 7일 신형 A2 e-트론을 공개하며 콤팩트한 차체에 고효율 기술을 집약하는 전략으로 돌아왔다. 주문은 10월부터, 인도는 2027년 초부터 유럽 전역에서 시작된다.",
+    "date": "2026-09-08",
+    "time": "09:20",
+    "sectionName": "수입차",
+    "sectionHref": "import.html",
+    "categoryLabel": "EV",
+    "categoryClass": "cat-ev",
+    "heroImage": "audi_a2_etron_front34_pistachio.webp",
+    "heroAlt": "아우디 A2 e-트론 전측면, 피스타치오 그린 색상, 스튜디오 촬영",
+    "heroCaption": "아우디가 공개한 신형 A2 e-트론. 짧은 노즈와 크게 기울어진 앞유리로 해치백과 MPV의 중간 형태를 취했다",
+    "tags": [
+      "아우디",
+      "A2e트론",
+      "엔트리전기차",
+      "기아EV3",
+      "고효율전기차"
+    ],
+    "categories": [
+      "import",
+      "electric"
+    ],
+    "badge": "EV",
+    "badgeClass": "cat-ev",
+    "dataSource": "오토헤럴드",
+    "imageCredit": "Audi",
+    "sources": [
+      {
+        "name": "오토헤럴드",
+        "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61548"
+      },
+      {
+        "name": "Audi.com",
+        "url": "https://www.audi.com/en/press-releases/audi-a2-e-tron-rethinking-efficiency-18299"
+      },
+      {
+        "name": "InsideEVs",
+        "url": "https://insideevs.com/news/807379/new-audi-a2-range-price-efficiency-official/"
+      }
+    ],
+    "body": "\n<h2 id=\"sec1\">1. 26년 만에 부활한 이름, 이번엔 전기차다</h2>\n<p><strong>아우디가 2026년 9월 7일(현지시간) 소형 전기차 'A2 e-트론'을 공식 공개했다.</strong> A2는 2000년 처음 등장해 알루미늄 스페이스프레임 차체와 뛰어난 연비로 주목받았던 아우디의 콤팩트 해치백으로, 2005년 단종된 이후 26년 만에 이름을 되살렸다. 아우디 CEO 게르노트 될너는 \"고객이 원하는 것은 일상을 바꿀 실용적인 전동화\"라며, A2 e-트론이 프리미엄 전기 이동성 시장의 새로운 진입점 역할을 하게 될 것이라고 밝혔다.</p>\n<p>아우디는 이번 신차를 통해 그동안 전기차 시장에서 이어져 온 \"더 크고 무거운 배터리를 얹어 몸집을 키우는\" 경쟁 구도에 제동을 걸겠다는 의지를 분명히 했다. 작은 차체에 고효율 기술을 집약하는 것이 A2 e-트론의 핵심 전략이다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/audi_a2_classic_front.webp\" alt=\"2000년대 출시됐던 초대 아우디 A2, 알루미늄 차체의 소형 해치백\" width=\"1600\" height=\"900\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ 2000년 출시됐던 초대 아우디 A2. 알루미늄 스페이스프레임과 뛰어난 연비로 화제를 모았지만 2005년 단종됐다 <span class=\"cap-credit\">ⓒ Audi</span></p>\n</div>\n\n<h2 id=\"sec2\">2. 브랜드 최고 효율, 100km당 12.8kWh</h2>\n<p><strong>A2 e-트론의 가장 큰 무기는 효율이다.</strong> WLTP 기준 에너지 소비효율은 100km당 12.8kWh(약 7.8km/kWh)로, 아우디가 지금까지 양산한 어떤 모델보다도 낮은 수치다. 여기에 최적 사양 기준 공기저항계수(Cd)는 0.24로, 아우디 콤팩트 라인업 가운데 가장 낮다. 짧은 노즈, 크게 기울어진 앞유리, 뒤로 갈수록 좁아지는 루프라인과 이단 구조의 리어 유리로 마무리되는 '캠백(Kammback)' 형태가 공력 성능의 비결이다.</p>\n<div class=\"info-box\">\n<p class=\"info-box-title\">📍 참고로 알아두면 좋은 것</p>\n<p>에너지 소비효율(kWh/100km)은 전기차가 100km를 달리는 데 쓰는 전력량을 뜻하며, 수치가 낮을수록 같은 배터리로 더 멀리 갈 수 있다는 의미다. 12.8kWh/100km는 준중형 전기 세단들의 평균치(대략 15~18kWh/100km)보다 20~30%가량 낮은 수준이다.</p>\n</div>\n\n<!--AD-->\n\n<h2 id=\"sec3\">3. 배터리 3종, 최대 645km 주행</h2>\n<p><strong>A2 e-트론은 52kWh·61kWh LFP 배터리와 84kWh NMC 배터리 등 총 3가지 용량으로 제공되며, 출력은 트림에 따라 125~240kW(약 170~326마력) 사이 4단계로 나뉜다.</strong> 최상위 사양 기준 WLTP 주행거리는 최대 645km(발표처에 따라 646km로도 소개)에 달한다. 급속충전은 최대 183kW급 DC 충전을 지원하며, 10%에서 80%까지 충전하는 데 24~29분이 걸린다. 완속 충전 시에도 89.6%에 달하는 높은 충전 효율을 갖췄다.</p>\n<div class=\"spec-table-wrap\">\n<table class=\"spec-table align-left\">\n<caption>아우디 A2 e-트론 트림별 주요 제원(WLTP 기준)</caption>\n<thead>\n<tr><th>구분</th><th>배터리</th><th>최고출력</th><th>DC 급속충전</th></tr>\n</thead>\n<tbody>\n<tr><td>엔트리 트림</td><td>52kWh(LFP)</td><td>125kW(약 170마력)</td><td>최대 183kW, 24~29분(10→80%)</td></tr>\n<tr><td>중간 트림</td><td>61kWh(LFP)</td><td>트림별 상이</td><td>최대 183kW</td></tr>\n<tr><td>상위 트림</td><td>84kWh(NMC)</td><td>최대 240kW(약 326마력)</td><td>최대 183kW</td></tr>\n</tbody>\n</table>\n</div>\n<div class=\"article-img-wrap\">\n<img src=\"../images/audi_a2_etron_side_pistachio.webp\" alt=\"아우디 A2 e-트론 측면, 피스타치오 그린 색상, 짧은 오버행과 캠백 루프라인\" width=\"2880\" height=\"2161\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ A2 e-트론 측면. 짧은 오버행과 뒤로 갈수록 좁아지는 캠백 루프라인이 공기저항계수 0.24의 비결이다 <span class=\"cap-credit\">ⓒ Audi</span></p>\n</div>\n\n<h2 id=\"sec4\">4. 실내 — 무선 급속충전과 Fidlock 고정 시스템</h2>\n<p><strong>실내에는 11.9인치 가상 콕핏과 12.8인치 터치스크린이 하나로 통합돼 배치됐고, AI가 결합된 아우디 어시스턴트가 기본 제공된다.</strong> 스마트폰을 위한 25W 규격의 Qi2.2 무선 고속충전 트레이가 마련됐으며, 센터 암레스트 등에는 자석식 결합 방식인 'Fidlock' 고정 시스템이 표준 장비로 탑재돼 소지품을 간편하게 붙였다 뗄 수 있다. 2770mm에 달하는 휠베이스 덕분에 작은 차체에도 넉넉한 2열 무릎 공간을 확보했고, 적재공간은 기본 396ℓ에서 2열을 접으면 1336ℓ까지 늘어난다. 차량을 외부 전력원으로 활용하는 양방향 충전(V2L·V2H) 기능도 지원한다.</p>\n<div class=\"article-img-wrap\">\n<img src=\"../images/audi_a2_etron_interior_cockpit.webp\" alt=\"아우디 A2 e-트론 실내, 통합형 가상 콕핏과 터치스크린\" width=\"2880\" height=\"1620\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ A2 e-트론 실내. 11.9인치 계기판과 12.8인치 터치스크린이 하나로 이어지는 디스플레이 구성을 갖췄다 <span class=\"cap-credit\">ⓒ Audi</span></p>\n</div>\n\n<h2 id=\"sec5\">5. 기아 EV3와 같은 체급, 엔트리 전기차 시장 격돌</h2>\n<p><strong>A2 e-트론은 소형 차체에 실용적인 거주성을 담았다는 점에서 기아 EV3와 정확히 같은 세그먼트를 겨냥한다.</strong> 두 모델 모두 대형 배터리와 큰 차체로 승부하는 대신, 적당한 크기와 뛰어난 효율로 대중적인 전기차 수요를 노린다는 공통점이 있다. 다만 A2 e-트론은 프리미엄 브랜드 아우디의 진입 모델이라는 점에서 가격대는 다소 높게 형성될 전망이며, 독일 기준 시작 가격은 3만 8,200유로(약 5,800만원, 52kWh·125kW 사양 기준)로 책정됐다.</p>\n<div class=\"checkpoint-box\">\n<p><strong>✅ 아우디 A2 e-트론, 이것만은 확인하세요</strong></p>\n<p>· 공개일: 2026년 9월 7일, 독일 잉골슈타트 생산<br>· WLTP 기준 최대 주행거리 645km, 에너지 효율 100km당 12.8kWh(브랜드 최고)<br>· 배터리 52·61kWh(LFP)·84kWh(NMC) 3종, 출력 125~240kW(약 170~326마력)<br>· 독일 시작 가격 3만 8,200유로(약 5,800만원)<br>· 주문 접수 10월(영국), 인도는 2027년 초 유럽 순차 시작</p>\n</div>\n<div class=\"article-img-wrap\">\n<img src=\"../images/audi_a2_etron_rear34_gray.webp\" alt=\"아우디 A2 e-트론 후측면, 무채색, 스튜디오 촬영\" width=\"2880\" height=\"2160\" itemprop=\"image\" loading=\"lazy\" decoding=\"async\">\n<p class=\"article-img-caption\">▲ A2 e-트론 후측면. 이단 구조의 리어 유리로 마감되는 캠백 디자인이 특징이다 <span class=\"cap-credit\">ⓒ Audi</span></p>\n</div>\n\n<h2 id=\"sec6\">6. 출시 일정과 국내 출시 여부</h2>\n<p><strong>유럽 기준 주문 접수는 2026년 9월 10일부터 시작되며, 영국 등 일부 시장은 10월부터 주문을 받는다.</strong> 초도 물량 인도는 2026년 12월 독일을 시작으로, 2027년 초 유럽 전역으로 확대될 예정이다. 아직 국내 출시 일정은 공식화되지 않았으며, 국내에는 기존 Q4 e-트론 등이 아우디의 전기차 엔트리 라인업을 맡고 있는 만큼 A2 e-트론의 국내 투입 여부와 시점은 아우디코리아의 향후 발표를 지켜봐야 한다. 관련 소식은 아우디 공식 홈페이지에서 확인할 수 있다. <a href=\"https://www.audi.com/en/audi-a2-e-tron-17954\" class=\"inline-link-btn\" target=\"_blank\" rel=\"noopener\">바로가기</a></p>\n\n<div class=\"summary-box\" id=\"summary\">\n<h2>7. 정리</h2>\n<p>A2 e-트론은 단종 26년 만에 부활한 이름값에 걸맞게, 몸집 경쟁이 아닌 효율 경쟁으로 승부수를 던진 아우디의 엔트리 전기차다. 100km당 12.8kWh라는 브랜드 최고 효율과 최대 645km의 주행거리를 갖췄고, 기아 EV3와 같은 체급에서 프리미엄 전기차 대중화를 노린다. 유럽 주문은 10월부터, 인도는 2027년 초부터 시작되며, 국내 출시 여부는 아직 미정인 만큼 아우디코리아의 후속 발표를 지켜볼 필요가 있다.</p>\n</div>\n"
+  }
+]
