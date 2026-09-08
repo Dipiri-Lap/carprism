@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "deoksugung-seokjojeon-night-tour-2026",
+    title: "\"덕수궁 밤의 석조전, 추첨은 이미 끝났지만 잔여석은 아직 열려 있습니다\"",
+    date: "2026-09-08",
+    image: "deoksugung_night_seokjojeon.webp",
+    categories: ["travel"],
+    tags: ["덕수궁밤의석조전", "덕수궁야간개장", "석조전예매", "덕수궁주차", "고궁야간관람"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산진흥원 / ZDNet Korea / 카프리즘 기획 기사",
+    desc: "덕수궁 밤의 석조전(1인 3만 5,000원, 회당 16~18명) 하반기 추첨 응모는 8월 25일에 마감됐다. 하지만 9월 2일 오후 2시부터 열린 잔여석 선착순 예매는 지금도 진행 중이다. 9월 9일부터 10월 18일까지 이어지는 일정과 예매 절차, 그리고 '주차 자체가 불가능한' 덕수궁의 대중교통 동선을 정리했다."
+  },
+  {
+    slug: "changgyeonggung-night-banquet-yayeon-2026",
+    title: "\"창경궁 야연, 오늘 오후 2시부터 예매가 시작됩니다\"",
+    date: "2026-09-08",
+    image: "changgyeong_night_myeongjeong.webp",
+    categories: ["travel"],
+    tags: ["창경궁야연", "창경궁야간개장", "궁중연회체험", "창경궁주차", "고궁야간관람"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 궁능유적본부 / 우리문화신문 / 카프리즘 기획 기사",
+    desc: "부모님을 왕실 연회의 주빈으로 초대하는 '창경궁 야연' 2026년 하반기 회차(9월 24일~10월 4일) 예매가 오늘 오후 2시 티켓링크에서 시작된다. 1매 5만 원으로 체험자 1명과 동반 가족 2명, 총 3명이 참여할 수 있다. 예매 방법과 인원 제한, 창경궁 자체에는 주차장이 없다는 사실까지 정리했다."
+  },
+  {
+    slug: "gwangyang-jeoneo-festival-2026",
+    title: "\"섬진강 전어와 가을의 추억\"… 제25회 광양전어축제, 축제장 밖 배알도까지 엮었다",
+    date: "2026-09-08",
+    image: "gwangyang_baealdo_beach_island.webp",
+    categories: ["travel"],
+    tags: ["광양전어축제", "망덕포구", "진월전어잡이소리", "배알도수변공원", "9월가을축제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "광양시 문화관광 / 전남일보 / 카프리즘 기획 기사",
+    desc: "9월 4일부터 6일까지 사흘간 진월면 망덕포구 무접섬 광장에서 제25회 광양전어축제가 열렸다. 전어잡기 체험과 전어가요제, 스탬프 투어로 이어지는 진월 명소 탐방까지 프로그램을 정리하고, 임시주차장 위치와 배알도 수변공원 등 인근 연계 코스까지 함께 짚었다."
+  },
+  {
+    slug: "iksan-mireuksaji-media-art-2026",
+    title: "\"사라진 목탑이 30m 빛기둥으로 되살아났다\"… 익산 미륵사지, 9월 한 달의 밤",
+    date: "2026-09-08",
+    image: "iksan_mireuksaji_night_starry.webp",
+    categories: ["travel"],
+    tags: ["미륵사지미디어아트", "국가유산미디어아트", "익산가볼만한곳", "미륵사지석탑", "9월야간관광"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "2026 국가유산 미디어아트 익산 미륵사지 공식 / 전북금강일보 / 아시아투데이 / 카프리즘 기획 기사",
+    desc: "국가유산청이 주관하는 '2026 국가유산 미디어아트'가 익산 미륵사지에서 9월 4일부터 27일까지 24일간 열린다. 사라진 목탑을 30m 높이 미디어파사드로 되살리는 '재탄생: 목탑의 귀환'을 중심으로, 매일 저녁 7시 반부터 4회씩 진행되는 운영시간과 낮 시간 국보 석탑 연계 관람 팁까지 정리했다."
+  },
+  {
+    slug: "sinan-purple-island-flower-festival-2026",
+    title: "\"보라색 옷 한 벌이면 입장료가 공짜\"… 신안 퍼플섬, 버들마편초는 9월 13일까지",
+    date: "2026-09-08",
+    image: "sinan_purpleisland_verbena_aerial_2026.webp",
+    categories: ["travel"],
+    tags: ["신안퍼플섬", "버들마편초축제", "반월도박지도", "퍼플교", "9월꽃축제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "신안군 문화관광 공식 / 텔트립 / 카프리즘 기획 기사",
+    desc: "신안 퍼플섬(반월도·박지도) 버들마편초 꽃축제가 2026년 6월 12일부터 9월 13일까지 이어진다. 입장료 5,000원이지만 보라색 옷이나 신발, 모자 중 하나만 착용해도 면제되는 독특한 정책과 퍼플교를 도보로 건너야 하는 이동 방식, 안좌도 주차 정보를 정리했다."
+  },
+  {
     slug: "xpeng-iron-robot-production-2026",
     title: "\"직원 사원증을 목에 걸어줬다\"… 샤오펑 로봇 '아이언', 스스로 걸어서 양산 라인을 나왔다",
     date: "2026-09-08",
