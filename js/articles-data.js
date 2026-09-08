@@ -39,15 +39,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ev-battery-degradation-study-2026",
-    title: "\"9만3천 마일 뒤에도 배터리 94%\"… 독일 세단이 테슬라 전부를 앞질렀다",
+    title: "\"9만3천 마일 뒤에도 배터리 94%\"… 벤츠 EQA가 테슬라 전부를 앞질렀다",
     date: "2026-09-08",
-    image: "benz_cla_c174_ev_a.webp",
+    image: "mercedes_eqa_h243_front.webp",
     categories: ["electric"],
-    tags: ["배터리열화", "전기차배터리", "메르세데스CLA", "테슬라모델Y", "아빌루"],
+    tags: ["배터리열화", "전기차배터리", "메르세데스EQA", "테슬라모델Y", "아빌루"],
     badge: "EV",
     badgeClass: "cat-ev",
     source: "Carscoops",
-    desc: "오스트리아 배터리 진단업체 아빌루(Aviloo)가 50만 건 이상의 실측 데이터를 분석한 결과, 메르세데스-벤츠 CLA가 15만km(9만3,205마일) 주행 후 배터리 상태 94%를 기록해 테슬라 모델Y(90.3%)와 모델3(88.9%)를 넘어섰다. 역대 최대 규모로 꼽히는 이번 연구의 방법론과 순위, 시사점을 짚었다."
+    desc: "오스트리아 배터리 진단업체 아빌루(Aviloo)가 50만 건 이상의 실측 데이터를 분석한 결과, 메르세데스-벤츠 EQA가 15만km(9만3,205마일) 주행 후 배터리 상태 94%를 기록해 테슬라 모델Y(90.3%)와 모델3(88.9%)를 넘어섰다. 역대 최대 규모로 꼽히는 이번 연구의 방법론과 순위, 시사점을 짚었다."
   },
   {
     slug: "korea-ev-registration-2million-2026",
@@ -71,7 +71,7 @@ window.ARTICLES_DATA = [
     badge: "단종",
     badgeClass: "cat-red",
     source: "Carbuzz",
-    desc: "캐딜락 CT5-V 블랙윙이 2026년 모델을 끝으로 미국 시장에서 단종 수순을 밟는다. 6.2리터 슈퍼차저 V8과 6단 수동변속기를 고집해온 이 차는, 경쟁 모델들이 터보·하이브리드·전륜구동으로 전환한 가운데 남은 마지막 순수 후륜구동 V8 스포츠 세단으로 꼽힌다."
+    desc: "캐딜락 CT5-V 블랙윙이 2026년 모델을 끝으로 미국 시장에서 단종 수순을 밟는다. 6.2리터 슈퍼차저 V8과 6단 수동변속기를 고집해온 이 차는, 경쟁 모델들이 터보·하이브리드·사륜구동으로 전환한 가운데 남은 마지막 순수 후륜구동 V8 스포츠 세단으로 꼽힌다."
   },
   {
     slug: "vw-polo-bugatti-tourbillon-crash-2026",
@@ -171,7 +171,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "audi-a2-e-tron-concept-2026",
-    title: "\"26년 만에 돌아온 그 이름\"... 아우디, 기아 EV3급 전기차 'A2 e-트론' 공개",
+    title: "\"21년 만에 돌아온 그 이름\"... 아우디, 기아 EV3급 전기차 'A2 e-트론' 공개",
     date: "2026-09-08",
     image: "audi_a2_etron_front34_pistachio.webp",
     categories: ["import", "electric"],
@@ -179,7 +179,7 @@ window.ARTICLES_DATA = [
     badge: "EV",
     badgeClass: "cat-ev",
     source: "오토헤럴드",
-    desc: "아우디가 2000년대 초반 단종됐던 소형 해치백 'A2'의 이름을 26년 만에 되살린 전기차 'A2 e-트론'을 공개했다. WLTP 기준 최대 645km를 달리면서도 100km당 12.8kWh라는 브랜드 최고 효율을 갖춰, 기아 EV3와 같은 엔트리 전기차 시장에서 정면 승부를 예고했다."
+    desc: "아우디가 2005년 단종됐던 소형 해치백 'A2'의 이름을 21년 만에 되살린 전기차 'A2 e-트론'을 공개했다. WLTP 기준 최대 645km를 달리면서도 100km당 12.8kWh라는 브랜드 최고 효율을 갖춰, 기아 EV3와 같은 엔트리 전기차 시장에서 정면 승부를 예고했다."
   },
   {
     slug: "car-lease-installment-rental-comparison-guide",
