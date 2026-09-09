@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "byd-seal-sedan-review-summary-2026",
+    title: "\"모델3 살 돈이면 이게 낫다\"… BYD 씰 세단 시승기 종합",
+    date: "2026-09-09",
+    image: "byd_seal_rwd_front.webp",
+    categories: ["reviews", "import", "electric"],
+    tags: ["BYD씰시승기", "씰가격", "BYD코리아", "전기세단", "테슬라모델3비교"],
+    badge: "리뷰",
+    badgeClass: "cat-ev",
+    source: "BYD코리아, 국내 매체 시승기 종합",
+    desc: "BYD코리아가 2026년 2월 출시한 중형 전기 세단 씰(RWD 3,990만 원, 다이내믹 AWD 4,690만 원)의 국내 시승기들을 종합했다. 씨라이언6·7과 달리 정통 세단 차체를 택해 테슬라 모델3와 직접 경쟁하며, 82.56kWh 블레이드 배터리로 복합 407km, AWD는 제로백 3.8초를 기록한다."
+  },
+  {
+    slug: "polestar2-review-summary-2026",
+    title: "\"단종됐는데 왜 인기일까\"… 폴스타2가 남긴 상품성 종합 리뷰",
+    date: "2026-09-09",
+    image: "polestar2_2026my_front.webp",
+    categories: ["reviews", "import", "electric"],
+    tags: ["폴스타2리뷰", "폴스타2단종", "폴스타2가격", "전기세단", "폴스타코리아"],
+    badge: "리뷰",
+    badgeClass: "cat-ev",
+    source: "폴스타, 국내외 매체 종합",
+    desc: "2026년 2월 국내 신차 판매가 사실상 종료된 폴스타2의 상품성을 정리했다. 절제된 스칸디나비아 디자인, 2026년형(해외) 기준 배터리 70kWh·WLTP 554km로 개선된 전비, 그리고 이 상품성이 중고 시장 강세로 이어지는 배경을 다룬다."
+  },
+  {
+    slug: "nissan-leaf-review-summary-2026",
+    title: "\"한국엔 없는 세계 최초 양산 전기차\"… 닛산 리프, 3세대로 돌아온 이유",
+    date: "2026-09-09",
+    image: "nissan_leaf_white_front.webp",
+    categories: ["reviews", "import", "electric"],
+    tags: ["닛산리프", "리프3세대", "닛산리프단종", "세계최초전기차", "한국닛산"],
+    badge: "리뷰",
+    badgeClass: "cat-ev",
+    source: "닛산, 해외 매체 종합",
+    desc: "2020년 닛산의 한국 철수와 함께 판매가 중단된 닛산 리프는 2026년 현재도 국내에 없다. 그러나 2010년 세계 최초의 대중형 양산 전기차로 역사를 시작해 누적 40만 대 판매를 돌파한 리프가, 해치백을 버리고 크로스오버로 거듭난 3세대의 해외 평가와 함께 어떤 의미를 갖는지 정리했다."
+  },
+  {
+    slug: "genesis-gv60-magma-review-summary-2026",
+    title: "\"BMW iX M60보다 세다\"… GV60 마그마, 숫자로 증명한 진짜 실력",
+    date: "2026-09-09",
+    image: "genesis_gv60_magma_orange_front.webp",
+    categories: ["reviews", "domestic", "electric"],
+    tags: ["GV60마그마리뷰", "GV60마그마가격", "GV60마그마제원", "부스트모드650마력", "고성능전기SUV비교"],
+    badge: "리뷰",
+    badgeClass: "cat-genesis",
+    source: "종합",
+    desc: "제네시스 GV60 마그마는 9,657만 원(개소세 인하 종료 후 9,788만 원)에 출시된 GV60 최초의 고성능 양산 트림이다. 부스트모드 시 478kW(650마력)를 내며 BMW iX M60(610마력)·캐딜락 리릭-V(615마력)를 웃돈다. 차체 강성 9.7% 향상, 제동거리 33.8m 등 실제 상품성과 경쟁 모델 대비 포지션을 정리했다."
+  },
+  {
+    slug: "genesis-gv70-review-summary-2026",
+    title: "\"수납공간이 없다\"는 불만 속에도… GV70이 제네시스 SUV 판매 1위인 이유",
+    date: "2026-09-09",
+    image: "genesis_gv70_2027_official.jpg",
+    categories: ["reviews", "domestic"],
+    tags: ["GV70리뷰", "GV70가격", "GV70전동화", "GV70오너후기", "GV80비교"],
+    badge: "리뷰",
+    badgeClass: "cat-genesis",
+    source: "종합",
+    desc: "제네시스 GV70 2026년형은 가솔린 2.5 터보 5,393만 원부터 전동화 모델 7,580만 원대까지 라인업을 갖췄다. 판매 볼륨 모델로서 오너 만족도가 높지만, 수납공간 부족 등 아쉬운 점도 꾸준히 지적된다. 국내외 오너 후기와 GV80과의 포지셔닝 차이를 종합했다."
+  },
+  {
+    slug: "genesis-g90-review-summary-2026",
+    title: "\"이 차 타고 나면 벤츠도 평범해 보인다\"… 오너 평점 9.1의 G90, 진짜 이유는",
+    date: "2026-09-09",
+    image: "genesis_g90_rs4_a.webp",
+    categories: ["reviews", "domestic"],
+    tags: ["G90리뷰", "G90가격", "G90블랙", "G90오너평점", "S클래스비교"],
+    badge: "리뷰",
+    badgeClass: "cat-genesis",
+    source: "종합",
+    desc: "제네시스 G90 2026년형은 기본 9,748만 원부터 롱휠베이스 블랙 1억 7,498만 원까지 네 가지 구성으로 운영된다. 오너 평점 9.1점을 기록할 만큼 승차감·정숙성에서 호평받으며, 벤츠 S클래스·BMW 7시리즈 대비 편의사양은 동등하면서 가격은 크게 낮다는 평가다. 플래그십 세단으로서의 실제 상품성을 종합했다."
+  },
+  {
     slug: "kia-ray-review-summary-2026",
     title: "\"박스카가 이렇게 잘 팔릴 일인가\"… 15년 차 기아 레이가 여전히 경차 1위인 이유",
     date: "2026-09-09",
