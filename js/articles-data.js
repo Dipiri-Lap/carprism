@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-ray-review-summary-2026",
+    title: "\"박스카가 이렇게 잘 팔릴 일인가\"… 15년 차 기아 레이가 여전히 경차 1위인 이유",
+    date: "2026-09-09",
+    image: "kia_ray_official.webp",
+    categories: ["reviews", "domestic"],
+    tags: ["기아레이리뷰", "레이EV가격", "레이오너평가", "경차판매1위", "레이슬라이딩도어"],
+    badge: "리뷰",
+    badgeClass: "cat-sales",
+    source: "종합",
+    desc: "2026년형 기아 레이는 가솔린 트렌디 1,490만 원부터 X-라인 2,003만 원까지, 레이 EV는 35.2kWh 배터리로 1회충전 205km를 달리며 라이트 2,852만 원·에어 3,062만 원에 판매된다. 오너 평가와 시승기를 종합하면 낮은 가격보다 슬라이딩도어와 박스형 실내가 만드는 실사용성이 15년째 경차 판매 1위를 지키는 핵심 이유로 꼽힌다."
+  },
+  {
+    slug: "hyundai-tucson-nx5-preview-2026",
+    title: "\"파라메트릭 히든 램프는 이제 안녕\"… 5세대 투싼, 9월 공개 앞두고 뭐가 달라지나",
+    date: "2026-09-09",
+    image: "tucson_ng_front.webp",
+    categories: ["domestic"],
+    tags: ["투싼NX5", "5세대투싼프리뷰", "투싼신형디자인", "투싼출시일", "투싼하이브리드"],
+    badge: "프리뷰",
+    badgeClass: "cat-hyundai",
+    source: "종합",
+    desc: "현대차 5세대 투싼(NX5)이 스파이샷과 티저로 윤곽을 드러냈다. 수직형 H-엣지 라이팅으로 4세대의 파라메트릭 히든 램프를 대체하고, 전장 4,700mm 등 전방위로 커진 차체와 차세대 인포테인먼트 '플레오스' 탑재가 유력하다. 공개는 이르면 9월 중으로 전망되며, 파워트레인은 가솔린 8단 자동·하이브리드 라인업이 예상된다."
+  },
+  {
+    slug: "hyundai-ioniq5-review-summary-2026",
+    title: "\"기어 레버가 반대 방향\"… 아이오닉5 오너들이 공통으로 짚은 적응 포인트",
+    date: "2026-09-09",
+    image: "ioniq5_2026_front.webp",
+    categories: ["reviews", "electric", "domestic"],
+    tags: ["아이오닉5리뷰", "아이오닉5가격", "아이오닉5제원", "800V급속충전", "전기SUV비교"],
+    badge: "EV 리뷰",
+    badgeClass: "cat-ev",
+    source: "종합",
+    desc: "현대 아이오닉5 2026년형 가격은 스탠다드 4,740만 원부터 아이오닉5 N 8,142만 원까지 다양하다. 800V 급속충전과 넓은 실내는 여전한 강점이지만, 오너들은 기어 레버 방향 등 적응이 필요한 부분도 공통으로 짚었다. 국내외 시승기·오너 후기·경쟁모델(EV6·EV3·모델Y) 비교를 종합했다."
+  },
+  {
+    slug: "kia-ev6-review-summary-2026",
+    title: "\"전 트림 300만 원 내렸다\"… EV6 2026년형이 아이오닉5 대신 선택받는 이유",
+    date: "2026-09-09",
+    image: "kia_ev6_gtline_white.webp",
+    categories: ["reviews", "electric", "domestic"],
+    tags: ["EV6리뷰", "EV6가격", "EV6GT", "EV6페이스리프트", "전기차비교"],
+    badge: "EV 리뷰",
+    badgeClass: "cat-ev",
+    source: "종합",
+    desc: "기아 EV6 2026년형은 페이스리프트를 거치며 전 트림 약 300만 원 수준 가격을 인하했다. 스탠다드 라이트 4,660만 원부터 GT라인 6,000만 원, 고성능 GT(609~650마력)까지 라인업을 갖췄다. 실사용 전비와 오너 후기, 아이오닉5와의 디자인·주행감성 차이를 종합했다."
+  },
+  {
+    slug: "tesla-model-y-review-summary-2026",
+    title: "\"4천만원대까지 내렸다가 다시 올랐다\"… 모델Y 주니퍼, 2026년 가격이 롤러코스터를 탄 이유",
+    date: "2026-09-09",
+    image: "tesla_modely_juniper_front.webp",
+    categories: ["reviews", "electric", "import"],
+    tags: ["모델Y리뷰", "모델Y가격", "모델Y주니퍼", "테슬라충전", "수입전기차비교"],
+    badge: "EV 리뷰",
+    badgeClass: "cat-ev",
+    source: "종합",
+    desc: "테슬라 모델Y 주니퍼는 2026년 1월 4천만 원대로 가격을 낮췄다가 4월과 7월 두 차례 다시 인상됐다. 2026년 9월 기준 RWD 5,299만 원, 롱레인지 6,314만 원이다. 실사용 주행거리와 충전 인프라, FSD 논란까지 국내외 리뷰를 종합했다."
+  },
+  {
     slug: "used-ev-market-polestar-rise-2026",
     title: "\"테슬라 아성 흔들리나\"… 중고 전기차 시장에 폴스타2가 치고 올라왔다",
     date: "2026-09-09",
