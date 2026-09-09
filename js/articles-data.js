@@ -135,7 +135,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "tesla-service-center-bms-issue-2026",
-    title: "\"926일 걸렸다\"… AS센터는 14곳뿐, 테슬라 BMS 오류의 그림자",
+    title: "\"926일 걸렸다\"… AS센터는 16곳뿐, 테슬라 BMS 오류의 그림자",
     date: "2026-09-09",
     image: "tesla_modely_juniper_rear.webp",
     categories: ["news"],
@@ -143,7 +143,7 @@ window.ARTICLES_DATA = [
     badge: "이슈",
     badgeClass: "cat-red",
     source: "지피코리아",
-    desc: "국내 테슬라 전기차의 서비스센터가 전국 14곳에 불과한 가운데, 배터리관리시스템(BMS) 오류로 인한 수리가 최근 5년간 4,637건에 달한다는 사실이 국정감사 자료로 드러났다. 평균 수리기간은 23.4일이지만 926일이 걸린 사례도 확인돼, 정비 인프라 부족과 맞물려 소비자 불안이 커지고 있다."
+    desc: "국내 테슬라 전기차의 서비스센터가 전국 16곳에 불과한 가운데, 배터리관리시스템(BMS) 오류로 인한 수리가 최근 5년간 4,637건에 달한다는 사실이 국정감사 자료로 드러났다. 평균 수리기간은 23.4일이지만 926일이 걸린 사례도 확인돼, 정비 인프라 부족과 맞물려 소비자 불안이 커지고 있다."
   },
   {
     slug: "tesla-model-y-us-top-safety-rating-2026",
