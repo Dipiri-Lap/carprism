@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "tesla-service-center-bms-issue-2026",
+    "title": "\"926일 걸렸다\"… AS센터는 14곳뿐, 테슬라 BMS 오류의 그림자",
+    "date": "2026-09-09",
+    "image": "tesla_modely_juniper_rear.webp",
+    "categories": [
+      "news"
+    ],
+    "tags": [
+      "테슬라",
+      "AS센터",
+      "BMS오류",
+      "전기차정비",
+      "국정감사"
+    ],
+    "badge": "이슈",
+    "badgeClass": "cat-red",
+    "source": "지피코리아",
+    "desc": "국내 테슬라 전기차의 서비스센터가 전국 14곳에 불과한 가운데, 배터리관리시스템(BMS) 오류로 인한 수리가 최근 5년간 4,637건에 달한다는 사실이 국정감사 자료로 드러났다. 평균 수리기간은 23.4일이지만 926일이 걸린 사례도 확인돼, 정비 인프라 부족과 맞물려 소비자 불안이 커지고 있다."
+  },
+  {
+    "slug": "tesla-model-y-us-top-safety-rating-2026",
+    "title": "\"충돌시험 전 항목 굿(Good)\"… 테슬라 모델 Y, 美 안전등급 최고점 받았다",
+    "date": "2026-09-09",
+    "image": "tesla_modely_juniper_front.webp",
+    "categories": [
+      "electric"
+    ],
+    "tags": [
+      "테슬라",
+      "모델Y",
+      "IIHS",
+      "안전등급",
+      "전기차안전"
+    ],
+    "badge": "안전",
+    "badgeClass": "cat-ev",
+    "source": "오토트리뷴",
+    "desc": "미국 고속도로안전보험협회(IIHS)가 2026~2027년형 테슬라 모델 Y에 최고 등급인 '탑 세이프티 픽 플러스'를 수여했다. 스몰 오버랩·측면 충돌 등 강화된 전 항목에서 '굿(Good)' 판정을 받았으며, 국내에서도 지난 8월 9,638대가 판매되며 전체 차종 판매 1위에 올랐다."
+  },
+  {
+    "slug": "kia-us-nameplate-registration-k-series-2026",
+    "title": "\"신차 5종 온다?\"… 기아, 美서 K2·K3·K6·K7·K8 상표 재출원한 진짜 이유",
+    "date": "2026-09-09",
+    "image": "kia_k8_2027_front.webp",
+    "categories": [
+      "news"
+    ],
+    "tags": [
+      "기아",
+      "K시리즈",
+      "USPTO",
+      "상표출원",
+      "기아신차"
+    ],
+    "badge": "이슈",
+    "badgeClass": "cat-blue",
+    "source": "지피코리아",
+    "desc": "기아가 미국 특허상표청(USPTO)에 K2·K3·K6·K7·K8 등 5개 상표를 재출원한 사실이 알려지며 신차 출시설이 나왔지만, 실상은 2020년 등록분의 6년 주기 상표 유지 절차에 가까운 것으로 파악됐다. K6는 아직 실제 양산된 적 없는 이름이라는 점도 확인됐다."
+  }
+]
