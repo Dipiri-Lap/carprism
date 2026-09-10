@@ -1,0 +1,166 @@
+const fs = require('fs');
+
+const body = `
+<div class="article-img-wrap">
+  <img src="../images/tadf_hero_platter.webp" alt="은박 불판 위에 소금구이로 익힌 자연산 대하가 가득 쌓인 모습" width="1600" height="858" itemprop="image">
+  <p class="article-img-caption">▲ 소금구이로 구워낸 안면도 자연산 대하. 백사장항은 전국 최대의 자연산 대하 집산지로 꼽힌다 <span class="cap-credit">사진=한국관광공사</span></p>
+</div>
+
+<aside class="key-points">
+  <h2 class="kp-title">📌 안면도 백사장 대하축제 핵심</h2>
+  <ul>
+    <li><strong>정식 명칭</strong>: 제25회 안면도 백사장 대하축제</li>
+    <li><strong>기간</strong>: 2026년 9월 12일(토) ~ 19일(토), 8일간 (입장 무료)</li>
+    <li><strong>장소</strong>: 충남 태안군 안면읍 백사장1길 120 백사장항 일원</li>
+    <li><strong>주의</strong>: 홍성군 남당항 대하축제(9/4~11/8)와는 <strong>다른 지역, 다른 축제</strong>다</li>
+    <li><strong>가격</strong>: 남당항과 달리 <strong>단일가격제가 아니다</strong>. 크기·조업량에 따라 매일 달라지는 시가로 거래된다</li>
+  </ul>
+</aside>
+
+<p>"거기 남당항 아니에요?" 가을마다 서해안 대하 축제 얘기가 나오면 꼭 나오는 질문이다. 하지만 <strong>태안군 안면읍 백사장항</strong>과 <strong>홍성군 서부면 남당항</strong>은 이름도, 위치도, 축제 운영 방식도 전혀 다른 곳이다. 태안군은 9월 12일부터 19일까지 8일간 <strong>제25회 안면도 백사장 대하축제</strong>를 백사장항 일원에서 연다. 백사장항은 충남 대하 어획량의 약 80%를 차지하는, 전국 최대 규모의 자연산 대하 집산지다.</p>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="sec1">1. 남당항 아닙니다 — 태안 안면도와 홍성 남당항의 차이</h2>
+<div class="article-img-wrap">
+  <img src="../images/tadf_daeha_grill_foil.webp" alt="은박지를 두른 불판에 소금을 깔고 구운 자연산 대하가 겹겹이 담긴 모습" loading="lazy">
+  <p class="article-img-caption">▲ 백사장항 인근 식당에서 흔히 볼 수 있는 대하 소금구이 상차림 <span class="cap-credit">ⓒ 채지형 (공유마당, CC BY)</span></p>
+</div>
+<p>두 축제는 매년 비슷한 시기에 열리다 보니 혼동하는 사람이 많지만, 실제로는 완전히 다른 행정구역, 다른 항구다. <strong>안면도 백사장 대하축제</strong>는 태안군 안면읍 백사장항에서, <strong>남당항 대하축제</strong>는 홍성군 서부면 남당항에서 각각 별도로 운영된다. 가장 큰 차이는 가격 체계다. 남당항은 대하 1kg 기준 포장 4만 5,000원, 식당 이용 6만 원으로 업소 공통의 <strong>단일가격제</strong>를 운영하지만, 백사장항은 이런 고정가 제도가 없다. 조업량과 크기에 따라 매일 시세가 달라지는 <strong>시가(時價)</strong> 거래가 기본이다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<thead><tr><th>구분</th><th>안면도 백사장 대하축제</th><th>홍성 남당항 대하축제</th></tr></thead>
+<tbody>
+<tr><td>행정구역</td><td class="spec-highlight">충남 태안군 안면읍</td><td>충남 홍성군 서부면</td></tr>
+<tr><td>2026년 기간</td><td>9월 12일~19일 (8일간)</td><td>9월 4일~11월 8일 (66일간)</td></tr>
+<tr><td>대하 가격</td><td>시가 (고정가 없음)</td><td>단일가격제(1kg 포장 4.5만 원/식당 6만 원)</td></tr>
+<tr><td>규모</td><td>제25회</td><td>제31회</td></tr>
+</tbody>
+</table>
+<p class="table-note">※ 태안군·홍성군 공식 발표 기준. 두 지역은 승용차로 약 1시간 거리에 있다.</p>
+</div>
+<p>즉 남당항에서 봤던 가격표를 그대로 떠올리고 백사장항에 가면 당황할 수 있다. 백사장항에서는 <strong>주문 전에 당일 시세를 직접 확인</strong>하는 절차가 필요하다는 뜻이다.</p>
+
+<h2 id="sec2">2. 가격표가 없다 — 그래서 얼마인가</h2>
+<div class="article-img-wrap">
+  <img src="../images/tadf_daeha_grill_table.webp" alt="야외 좌판에서 은박 불판에 구운 대하와 곁들이 음식을 차려놓고 먹는 모습" loading="lazy">
+  <p class="article-img-caption">▲ 좌판에서 즉석으로 구워 먹는 대하 상차림. 가격은 당일 조업량과 크기에 따라 달라진다 <span class="cap-credit">ⓒ 박동식 (공유마당, CC BY)</span></p>
+</div>
+<p>태안군과 현지 언론 모두 "자연산 대하 가격은 크기와 당일 조업량에 따라 달라질 수 있어 주문 전 가격을 확인하는 것이 좋다"고 안내한다. 축제 측이 공식적으로 못 박은 kg당 가격은 없다는 뜻이다. 참고할 만한 지표는 도매 경매가다. 수산물 시세 정보에 따르면 2026년 7월 자연산 상(上)등급 대하의 평균 도매가는 1kg당 3만~3만 4,000원 선이었다. 다만 이는 산지 도매 기준이고, 백사장항 직판장·식당에서 실제로 체감하는 소비자가는 계절·물량에 따라 이보다 높게 형성되는 경우가 많다.</p>
+<div class="info-box">
+  <p><strong>가격 확인 체크</strong></p>
+  <ul>
+    <li>백사장항 직판장은 업소마다 그날그날 다른 가격을 붙여 판매한다. <strong>2~3곳 정도 둘러보고 비교</strong>하는 편이 안전하다.</li>
+    <li>축제 기간 중 <strong>무료 시식회</strong>가 운영되니, 구매 전 맛부터 확인할 수 있다.</li>
+    <li>남당항의 '단일가격제' 같은 고정가를 기대하고 갔다가는 흥정에서 당황할 수 있다. 시세 확인은 필수다.</li>
+    <li>대하는 <strong>제철이 9~1월</strong>이며, 이 시기 글리신 함량이 높아져 단맛과 감칠맛이 강해진다.</li>
+  </ul>
+</div>
+<a href="https://www.taean.go.kr/prog/tursmCn/tour/sub04_01_10/view.do?cntno=72" class="inline-link-btn" target="_blank" rel="noopener">태안군 문화관광에서 확인 가능</a>
+
+<!--AD-->
+
+<h2 id="sec3">3. 맨손 대하잡기부터 경매쇼까지 — 8일간 프로그램</h2>
+<div class="article-img-wrap">
+  <img src="../images/tadf_seafood_pajeon.webp" alt="다양한 밑반찬과 함께 차려진 해물파전 한 접시" loading="lazy">
+  <p class="article-img-caption">▲ 대하와 함께 즐길 수 있는 태안 지역 해물파전 <span class="cap-credit">ⓒ 채지형 (공유마당, CC BY)</span></p>
+</div>
+<p>올해 축제는 무대 공연 중심에서 벗어나 <strong>체험형·체류형 프로그램</strong>을 대폭 늘린 것이 특징이다. 개막식은 12일 오후 7시, 인기가수 축하공연과 불꽃놀이로 시작한다. 이후 8일 내내 이어지는 프로그램은 다음과 같다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<thead><tr><th>프로그램</th><th>내용</th></tr></thead>
+<tbody>
+<tr><td>맨손 대하잡기</td><td>수조나 임시 어장에서 직접 대하를 잡아보는 체험</td></tr>
+<tr><td>무료 시식회</td><td>구매 전 대하 맛을 미리 볼 수 있는 시식 행사</td></tr>
+<tr><td>경매쇼·저울 게임</td><td>실제 수산물 경매를 재현한 참여형 이벤트</td></tr>
+<tr><td>어린이 체험존</td><td>바다액자·마라카스·키링 만들기 등 공예 체험</td></tr>
+<tr><td>안심가족형 돗자리존</td><td>백사장 풍경을 보며 쉴 수 있는 가족 단위 휴식 공간(신설)</td></tr>
+</tbody>
+</table>
+</div>
+<p>가족 단위 방문객을 겨냥한 구성이 눈에 띈다. 아이와 함께라면 맨손잡기 체험과 공예 체험존을 오전에, 시식과 식사는 점심 무렵으로 잡는 동선이 무난하다. 개막일(12일) 저녁 불꽃놀이를 보려면 주차와 인파가 몰리는 만큼 일찍 도착하는 편이 좋다.</p>
+
+<h2 id="sec4">4. 대하 먹고 한 바퀴 — 백사장항 주변 동선</h2>
+<div class="article-img-wrap">
+  <img src="../images/tadf_kkotji_beach.webp" alt="노을 지는 하늘 아래 할미바위·할아비바위 실루엣과 백사장을 걷는 사람들" loading="lazy">
+  <p class="article-img-caption">▲ 백사장항에서 이어지는 꽃지해수욕장의 할미바위·할아비바위. 저녁 시간대에는 노을 명소로도 유명하다 <span class="cap-credit">ⓒ 김순식 (공유마당, CC BY)</span></p>
+</div>
+<p>백사장항은 그 자체로도 볼거리가 있다. 항구와 드리니항을 잇는 해상보행교 <strong>'대하랑꽃게랑교'</strong>는 낮 풍경은 물론 노을·야경까지 세 번 다른 얼굴을 보여주는 곳으로 꼽힌다. 축제장에서 대하를 먹은 뒤 다리를 건너 반대편 항구까지 걸어보는 코스가 짧은 산책으로 인기다.</p>
+<div class="article-img-wrap">
+  <img src="../images/tadf_taean_coast_sunset.webp" alt="노을이 번지는 태안 해안, 바위와 잔잔한 바다 위로 붉은 빛이 반사되는 모습" loading="lazy">
+  <p class="article-img-caption">▲ 해 질 무렵의 태안 해안. 안면도 서쪽 해안은 가을철 노을이 특히 곱게 물드는 지역으로 꼽힌다 <span class="cap-credit">ⓒ 이정운·채재혁·이원호 (공유마당, 기증저작물)</span></p>
+</div>
+<p>시간이 넉넉하다면 <strong>안면도자연휴양림</strong>에서 소나무 숲길을 걷거나, 조금 더 남쪽으로 내려가 <strong>꽃지해수욕장</strong>의 할미바위·할아비바위 노을을 보는 코스도 함께 묶을 수 있다. 다만 이 도로 구간의 드라이브 경로 자체는 이번 기사의 범위가 아니다. 국도 77호선을 타고 안면도 전체를 훑는 드라이브 코스는 별도로 다룬 적이 있으니, 낙조 명소 위주로 길게 도는 일정을 짜고 싶다면 그쪽을 참고하는 편이 낫다.</p>
+<div class="checkpoint-box">
+  <p><strong>동선 체크포인트</strong></p>
+  <ul>
+    <li>백사장항 → 대하랑꽃게랑교(도보) → 안면도자연휴양림 → 꽃지해수욕장 순서가 무난하다.</li>
+    <li>축제장과 꽃지해수욕장은 차로 15~20분 거리다. 저녁 노을까지 보고 돌아올 계획이면 오후 일찍 축제장에 도착하는 편이 좋다.</li>
+    <li>주말·개막 주(9/12~14)는 백사장항 진입로와 주차장이 혼잡할 수 있어, 가능하면 평일이나 축제 후반부(9/17~19)를 노려볼 만하다.</li>
+  </ul>
+</div>
+
+<h2 id="summary" class="summary-box">5. 정리</h2>
+<div class="checkpoint-box">
+  <p><strong>체크포인트</strong></p>
+  <ul>
+    <li><strong>제25회 안면도 백사장 대하축제</strong>는 2026년 9월 12일(토)~19일(토), 8일간 태안군 안면읍 백사장항 일원에서 열린다. 입장은 무료다.</li>
+    <li>홍성 <strong>남당항 대하축제와는 전혀 다른 축제</strong>다. 남당항은 단일가격제(1kg 포장 4.5만 원/식당 6만 원)지만, 백사장항은 <strong>고정가 없이 시가</strong>로 거래된다.</li>
+    <li>참고 지표로 2026년 7월 자연산 상등급 대하 도매가는 1kg당 3만~3만 4,000원 선이었다. 실제 소비자가는 이보다 높을 수 있으니 현장에서 가격을 꼭 확인하자.</li>
+    <li>개막식은 12일 오후 7시, 축하공연과 불꽃놀이가 열린다. 맨손 대하잡기·무료 시식회·경매쇼·어린이 체험존 등이 8일 내내 운영된다.</li>
+    <li>축제장 주변은 대하랑꽃게랑교·안면도자연휴양림·꽃지해수욕장으로 동선을 확장할 수 있다.</li>
+  </ul>
+</div>
+<p>문의는 태안군청 수산과 수산정책팀(041-670-2875)이다.</p>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+`;
+
+const spec = {
+  slug: "taean-anmyeondo-daeha-festival-2026",
+  headline: "\"남당항 아니냐고요? 여긴 태안입니다\"…9월 12일 열리는 안면도 백사장 대하축제",
+  headlineShort: "안면도 백사장 대하축제 완전정리",
+  description: "제25회 안면도 백사장 대하축제가 2026년 9월 12일부터 19일까지 8일간 태안군 안면읍 백사장항 일원에서 열린다. 홍성 남당항과 헷갈리기 쉽지만 위치도, 가격 체계도 다르다. 단일가격제 없이 시가로 거래되는 백사장항의 대하 가격, 8일간 프로그램, 주변 동선까지 정리했다.",
+  subtitle: "매년 이맘때면 헷갈리는 두 대하 축제, 이번엔 태안 안면도 백사장항 차례다. 남당항과 달리 정가표가 없는 이 축제의 일정·가격·프로그램·주변 동선을 정리했다.",
+  date: "2026-09-10",
+  time: "10:50",
+  sectionName: "국내여행",
+  sectionHref: "travel.html",
+  categoryLabel: "TRAVEL TIPS",
+  categoryClass: "cat-blue",
+  heroImage: "tadf_hero_platter.webp",
+  heroAlt: "은박 불판 위에 소금구이로 익힌 자연산 대하가 가득 쌓인 모습",
+  heroCaption: "소금구이로 구워낸 안면도 자연산 대하. 백사장항은 전국 최대의 자연산 대하 집산지로 꼽힌다",
+  tags: ["안면도대하축제", "백사장항", "태안여행", "가을수산물축제", "남당항비교"],
+  categories: ["travel"],
+  badge: "TRAVEL TIPS",
+  badgeClass: "cat-blue",
+  dataSource: "태안군청",
+  imageCredit: "한국관광공사·공유마당(CC BY)",
+  sources: [
+    { name: "태안군청 문화관광(백사장항 대하축제)", url: "https://www.taean.go.kr/prog/tursmCn/tour/sub04_01_10/view.do?cntno=72" },
+    { name: "대한민국 구석구석(한국관광공사)", url: "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=c36dbc64-b3a5-4160-ac32-04dfd05a7a63" },
+    { name: "굿모닝충청", url: "https://www.goodmorningcc.com/news/articleView.html?idxno=452023" },
+    { name: "더트래블뉴스", url: "https://thetravelnews.co.kr/2026/09/taean-anmyeondo-baeksajang-shrimp-festival-2026/" },
+    { name: "전매일신문", url: "https://www.jeonmae.co.kr/news/articleView.html?idxno=1291631" }
+  ],
+  body: body
+};
+
+fs.writeFileSync('C:\\\\Projects\\\\carsite\\\\scratchpad\\\\spec_taean.json', JSON.stringify(spec, null, 2), 'utf8');
+console.log('written');
