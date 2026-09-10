@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "byd-auto-yongin-showroom-2026",
+    "title": "\"수원·성남·화성 110만 인구를 정조준\"… BYD, 용인에 38번째 전시장 열었다",
+    "date": "2026-09-10",
+    "image": "byd_auto_yongin_showroom_exterior.webp",
+    "categories": [
+      "import"
+    ],
+    "tags": [
+      "BYD코리아",
+      "BYD Auto용인",
+      "전시장",
+      "경기남부",
+      "BYD전시장38호"
+    ],
+    "badge": "네트워크",
+    "badgeClass": "cat-blue",
+    "source": "카가이",
+    "desc": "BYD코리아가 경기 용인시 기흥구에 'BYD Auto 용인 전시장'을 열고 국내 승용 전시장을 38곳으로 늘렸다. 수원·성남·화성 등 경기 남부 대도시와 인접한 입지를 앞세워, 9월 중순에는 서비스센터까지 갖춘 3S 복합거점으로 확장할 예정이다. 지난해 4월 첫 인도 이후 11개월 만에 누적 판매 1만 대를 넘긴 성장세가 전시장 확충의 배경으로 꼽힌다."
+  },
+  {
+    "slug": "hyundai-kia-partner-ai-training-center-2026",
+    "title": "\"내연기관 부품사가 미래차 부품사로\"… 현대차·기아, 협력사 AI 교육에 팔 걷었다",
+    "date": "2026-09-10",
+    "image": "hyundai_kia_ai_training_center_plaque.webp",
+    "categories": [
+      "news"
+    ],
+    "tags": [
+      "현대차기아",
+      "AI공동훈련센터",
+      "협력사AX",
+      "GPC",
+      "SDV전환"
+    ],
+    "badge": "산업",
+    "badgeClass": "cat-blue",
+    "source": "오토헤럴드",
+    "desc": "현대차·기아가 경북 경주 글로벌상생협력센터(GPC)에서 부품 협력사를 위한 'AI 특화 공동훈련센터'를 열었다. 올해 900여 명을 시작으로, 생성형 AI 문서 자동화부터 AI 비전검사, 공정 빅데이터 분석까지 실무 중심 교육을 제공한다. SDV·전동화 전환 속에서 협력사가 미래차 부품사로 연착륙하도록 돕겠다는 취지다."
+  },
+  {
+    "slug": "hyundai-conversion-plus-platform-2026",
+    "title": "\"도면 오류부터 줄인다\"… 현대차, 특장업체 위한 3D 기술정보 플랫폼 새로 열었다",
+    "date": "2026-09-10",
+    "image": "hyundai_conversion_plus_hero.webp",
+    "categories": [
+      "news"
+    ],
+    "tags": [
+      "현대자동차",
+      "현대컨버전플러스",
+      "특장차",
+      "바디빌더",
+      "상용차플랫폼"
+    ],
+    "badge": "산업",
+    "badgeClass": "cat-hyundai",
+    "source": "현대자동차그룹",
+    "desc": "현대자동차가 전 세계 약 120개국 특장업체(바디빌더)를 대상으로 한 상용차 기술정보 플랫폼 '현대 컨버전 플러스'를 새롭게 오픈했다. 기존 2D 도면에 3D CAD 데이터를 더해 설계 오류를 줄이고, 해외 법인·본사·연구소를 잇는 '테크니컬 핫라인'까지 갖춰 특장차 제작 전 과정을 지원한다."
+  }
+]

@@ -1,0 +1,276 @@
+const fs = require('fs');
+const path = require('path');
+
+const articles = [];
+
+/* ============ 1. Tesla China 298man recall door handle ============ */
+articles.push({
+  slug: "tesla-china-recall-298man-door-handle-2026",
+  headline: "\"충돌 나면 손잡이부터 못 찾는다\"… 테슬라, 中서 298만대 리콜",
+  headlineShort: "테슬라, 중국서 298만대 리콜… 비상 손잡이 결함",
+  description: "테슬라가 중국에서 판매한 모델3·모델Y·모델S·모델X 약 298만대를 9월 25일부터 리콜한다. 비상용 기계식 문손잡이가 내장재와 색상이 비슷해 식별하기 어렵고, 충돌로 저전압 시스템이 멈추면 전동식 문 개폐 기능까지 함께 먹통이 되는 구조적 결함이 원인이다.",
+  subtitle: "중국에서 팔린 테슬라 차량 사실상 전량에 해당하는 약 298만대가 리콜 대상에 올랐다. 사고 순간 정작 문을 열 방법을 찾기 어려웠다는 지적이, 중국 규제당국의 전방위 조사로 이어졌다.",
+  date: "2026-09-10",
+  time: "11:00",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "리콜",
+  categoryClass: "cat-red",
+  heroImage: "tesla_modely_juniper_front.webp",
+  heroAlt: "테슬라 모델Y 주니퍼 전측면, 화이트 색상, 야외 주차된 모습",
+  heroCaption: "이번 리콜 대상 중 가장 많은 195만대를 차지한 모델Y. 중국산 모델Y와 모델3가 리콜 물량의 대부분을 차지한다",
+  tags: ["테슬라", "중국리콜", "도어핸들결함", "모델Y", "모델3"],
+  categories: ["news"],
+  badge: "리콜",
+  badgeClass: "cat-red",
+  dataSource: "지피코리아",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "지피코리아", url: "https://www.gpkorea.com/news/articleView.html?idxno=145903" },
+    { name: "오토헤럴드", url: "http://www.autoherald.co.kr/news/articleView.html?idxno=61387" },
+    { name: "카가이", url: "https://www.carguy.kr/news/articleView.html?idxno=61966" }
+  ],
+  body: `
+<h2 id="sec1">1. 297만 5,910대, 사실상 판매 전량이 리콜 대상</h2>
+<p><strong>테슬라가 중국 시장에서 판매한 차량 약 298만대(정확히는 297만 5,910대)를 오는 9월 25일부터 리콜한다고 밝혔다.</strong> 리콜 대상은 중국에서 생산된 모델3와 모델Y를 중심으로, 수입된 모델3·모델S·모델X까지 포함한 사실상 전 라인업이다. 2020년 이후 테슬라가 중국에서 판매해 온 물량과 맞먹는 규모로, 단일 업체의 리콜로는 중국 자동차 시장 역대 최대 수준이다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>테슬라 중국 리콜 대상 모델별 대수</caption>
+<thead>
+<tr><th>모델</th><th>대수</th></tr>
+</thead>
+<tbody>
+<tr><td>국산 모델Y</td><td>195만 6,713대</td></tr>
+<tr><td>국산 모델3</td><td>97만 3,156대</td></tr>
+<tr><td>수입 모델3</td><td>3만 5,590대</td></tr>
+<tr><td>모델X</td><td>8,328대</td></tr>
+<tr><td>모델S</td><td>2,123대</td></tr>
+<tr><td>합계</td><td>297만 5,910대</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/tesla_model3_highland_interior.webp" alt="테슬라 모델3 하이랜드 실내, 대시보드와 센터 디스플레이가 보이는 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 모델3 실내. 비상용 기계식 문손잡이는 도어 트림 하단에 숨겨져 있어 평소에는 눈에 잘 띄지 않는 구조다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 결함의 핵심 — "찾기도 어렵고, 쓸 수도 없다"</h2>
+<p><strong>이번 리콜의 원인은 차량 내부에 마련된 비상용 기계식 문손잡이가 주변 내장재와 색상·질감이 비슷해 탑승자가 위급 상황에서 이를 빠르게 식별하고 조작하기 어렵다는 점이다.</strong> 테슬라를 포함한 최근 전기차들은 실내를 매끈하게 꾸미기 위해 비상 손잡이를 도어 하단이나 수납공간 안쪽에 숨겨두는 경우가 많은데, 평소 사용할 일이 없다 보니 탑승자가 위치 자체를 모르는 경우도 적지 않다.</p>
+<p>더 큰 문제는 여기서 그치지 않는다. 심각한 충돌로 차량의 저전압 배터리 시스템이 작동을 멈추면, 평소 쓰던 전동식 문 개폐 버튼 기능이 통째로 무력화된다. 이 상태에서 기계식 비상 손잡이마저 찾지 못하면, 탑승자 스스로 탈출하는 것은 물론 외부 구조대가 문을 여는 것도 지연될 수밖에 없다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 저전압 시스템과 전동식 도어의 관계</p>
+<p>전기차의 주행용 고전압 배터리와 별도로, 차량 전장 부품을 구동하는 작은 저전압(12V 안팎) 배터리가 따로 탑재된다. 도어 잠금 해제·개폐 버튼처럼 일상적으로 쓰는 전동식 기능 대부분이 이 저전압 시스템에 의존하는데, 충돌 충격으로 저전압 배선이 끊기거나 시스템이 다운되면 평소 쓰던 버튼식 도어 개폐 기능은 그대로 먹통이 된다. 이 때문에 완전히 별도 경로로 작동하는 기계식 비상 손잡이의 존재와 위치가 중요해진다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 테슬라의 해결책 — 경고 표시와 OTA 업데이트</h2>
+<p><strong>테슬라는 이번 리콜에서 부품 교체 없이 두 가지 조치로 대응한다.</strong> 우선 비상 손잡이 위치를 명확히 알리는 경고 표시(라벨)를 무료로 부착한다. 이와 함께 무선 소프트웨어 업데이트(OTA)를 통해, 심각한 충돌이 감지되면 창문이 자동으로 내려가도록 하는 기능을 추가한다는 계획이다. 창문을 통한 탈출·구조 경로를 넓혀 기계식 손잡이를 찾지 못하는 상황의 위험을 낮추겠다는 취지다.</p>
+<div class="article-img-wrap">
+<img src="../images/tesla_model_s_2019.webp" alt="2019년형 테슬라 모델S, 실버 색상, 야외에 주차된 측면 모습" width="1280" height="720" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 이번 리콜에는 물량은 적지만 모델S와 모델X도 포함됐다. 두 모델을 합쳐 1만 451대가 대상이다 <span class="cap-credit">ⓒ Greg Gjerdingen, Wikimedia Commons(CC BY 2.0)</span></p>
+</div>
+
+<h2 id="sec4">4. 규제 배경 — 중국 당국, 손잡이 안전기준 정조준</h2>
+<p><strong>이번 리콜은 중국 당국이 전자식·매립형 문손잡이의 안전 규제를 전반적으로 강화하는 흐름 속에서 나왔다.</strong> 테슬라 단독으로 그치지 않고, 같은 시기 중국에서는 총 9개 자동차 업체의 차량 약 430만대가 함께 리콜 대상에 올랐다. 그중 테슬라의 298만대가 가장 큰 비중을 차지했으며, 나머지는 샤오미·립모터·샤오펑 등 중국 전기차 업체들이다. 업계 전반의 리콜로 확산된 배경과 향후 규제 방향은 관련 후속 기사에서 별도로 다룬다.</p>
+<div class="article-img-wrap">
+<img src="../images/tesla_modely_juniper_rear.webp" alt="테슬라 모델Y 주니퍼 후측면, 화이트 색상, 도심 도로 주행 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 모델Y 후측면. 중국산 모델Y 195만 6,713대가 이번 리콜의 3분의 2 가량을 차지한다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 소비자가 지금 확인해야 할 것</h2>
+<p><strong>이번 리콜은 부품을 새로 갈아 끼우는 방식이 아니라 라벨 부착과 소프트웨어 업데이트로 진행되는 만큼, 차주 입장에서 큰 불편 없이 조치를 받을 수 있다는 것이 테슬라 측 설명이다.</strong> 다만 그 사이 비상 상황이 발생할 경우를 대비해, 차주들은 지금 당장이라도 자신의 차량에서 기계식 비상 손잡이의 정확한 위치를 확인해 두는 것이 안전하다. 리콜 대상 여부와 일정은 테슬라 중국 공식 채널을 통해 순차 공지될 예정이다. <a href="https://www.tesla.cn/" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="checkpoint-box">
+<p><strong>✅ 테슬라 중국 298만대 리콜, 이것만은 확인하세요</strong></p>
+<p>· 9월 25일부터 모델3·모델Y·모델S·모델X 297만 5,910대 리콜<br>· 원인은 비상용 기계식 문손잡이 식별 어려움 + 충돌 시 전동식 도어 기능 정지<br>· 무료 경고 라벨 부착, OTA로 충돌 후 창문 자동 하강 기능 추가<br>· 같은 시기 중국 9개 업체 약 430만대 동반 리콜, 테슬라가 최대 비중<br>· 부품 교체 없이 소프트웨어·라벨 조치로 진행</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>테슬라의 이번 298만대 리콜은 중국에서 판매된 차량 사실상 전량을 대상으로 한다는 점에서 이례적이다. 평소 쓸 일 없는 비상 손잡이가 정작 필요한 순간 식별도 조작도 어렵다는 구조적 결함이 드러났고, 여기에 충돌 시 전동식 도어 기능까지 함께 멈추는 문제가 겹치면서 규제당국이 움직였다. 테슬라는 라벨 부착과 OTA 업데이트로 대응하지만, 이번 리콜이 같은 시기 중국에서 진행 중인 9개 업체 430만대 규모의 업계 전반 리콜과 맞물려 있다는 점에서 파장은 한 회사에 그치지 않을 전망이다.</p>
+</div>
+`
+});
+
+/* ============ 2. China 430man flush door handle recall ============ */
+articles.push({
+  slug: "china-flush-door-handle-recall-430man-2026",
+  headline: "\"매끈한 디자인 뒤에 숨은 위험\"… 중국 430만대 리콜, '매립형 손잡이' 퇴출 수순",
+  headlineShort: "중국 430만대 리콜, 매립형 도어핸들 2027년부터 사실상 금지",
+  description: "중국에서 테슬라·샤오미·립모터·샤오펑 등 9개 업체 약 430만대가 매립형 도어핸들 관련 결함으로 동시에 리콜됐다. 중국 자동차 시장 역대 최대 규모로, 샤오미 SU7 화재 사망 사고가 도화선이 됐다. 중국 당국은 2027년부터 물리적 기계식 손잡이가 없는 완전 매립형 디자인을 사실상 금지하는 표준을 예고했다.",
+  subtitle: "공기저항을 줄이고 매끈한 외관을 만들어준다던 매립형 도어핸들이, 사고 앞에서는 오히려 탈출과 구조를 가로막는 걸림돌이 됐다. 중국에서만 9개 업체 430만대가 동시에 리콜되며, 업계의 디자인 트렌드 자체가 흔들리고 있다.",
+  date: "2026-09-10",
+  time: "11:10",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "리콜",
+  categoryClass: "cat-red",
+  heroImage: "tesla_model3_prefacelift_front.webp",
+  heroAlt: "테슬라 모델3 페이스리프트 이전 모델 전측면, 레드 색상, 도로 주행 모습",
+  heroCaption: "매립형 도어핸들을 대중화시킨 장본인으로 꼽히는 테슬라. 이번 430만대 리콜 중 298만대가 테슬라 차량이다",
+  tags: ["매립형도어핸들", "중국리콜", "샤오미SU7", "테슬라", "자동차안전규제"],
+  categories: ["news"],
+  badge: "리콜",
+  badgeClass: "cat-red",
+  dataSource: "지피코리아",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "지피코리아", url: "https://www.gpkorea.com/news/articleView.html?idxno=146029" },
+    { name: "지피코리아", url: "https://www.gpkorea.com/news/articleView.html?idxno=145903" },
+    { name: "카가이", url: "https://www.carguy.kr/news/articleView.html?idxno=61966" }
+  ],
+  body: `
+<h2 id="sec1">1. 중국 자동차 시장 역대 최대, 9개 업체 430만대 동시 리콜</h2>
+<p><strong>중국에서 매립형·전동식 도어핸들과 관련한 안전 결함으로 9개 자동차 업체, 약 430만대가 한꺼번에 리콜 대상에 올랐다.</strong> 중국 자동차 시장에서 이뤄진 리콜 가운데 역대 최대 규모로 꼽힌다. 업체별로는 테슬라가 약 298만대로 가장 많고, 샤오미(SU7) 약 39만대, 립모터 37만 1,000대, 샤오펑 26만 4,000대 순이며, 나머지는 지커·체리·FAW 홍치 등 소규모 업체들이 채웠다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>중국 매립형 도어핸들 관련 리콜 업체별 규모(2026년 8월 기준)</caption>
+<thead>
+<tr><th>업체</th><th>대수</th></tr>
+</thead>
+<tbody>
+<tr><td>테슬라</td><td>약 298만대</td></tr>
+<tr><td>샤오미(SU7)</td><td>약 39만대</td></tr>
+<tr><td>립모터</td><td>37만 1,000대</td></tr>
+<tr><td>샤오펑</td><td>26만 4,000대</td></tr>
+<tr><td>지커·체리·FAW 홍치 등</td><td>소규모 리콜</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/xiaomi_su7_exterior.webp" alt="샤오미 SU7 전측면, 실외 전시된 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 샤오미 SU7. 이번 리콜 사태의 도화선이 된 화재 사고 차종으로, 약 39만대가 리콜 대상에 포함됐다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 테슬라 298만대 리콜과의 관계 — 같은 뿌리, 같은 결함</h2>
+<p><strong>이번 430만대 리콜은 앞서 보도된 테슬라 단독 298만대 리콜과 별개의 사건이 아니라, 사실상 같은 안전 이슈가 업계 전반으로 확산된 결과다.</strong> 두 리콜 모두 원인은 동일하다. 차량 내부의 비상용 기계식 문손잡이를 식별·조작하기 어렵고, 사고로 저전압 전원이 끊기면 전동식 도어 개폐 기능까지 함께 멈춘다는 구조적 문제다. 테슬라의 298만대는 이 430만대 전체 리콜 중 가장 큰 비중(약 69%)을 차지하는 최대 당사자인 셈이다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 참고로 알아두면 좋은 것</p>
+<p>테슬라의 298만대 리콜은 9월 25일부터 시행되며, 경고 라벨 부착과 사고 후 창문 자동 하강 OTA 업데이트로 대응한다. 다른 업체들 역시 비슷한 방식—경고 표시와 소프트웨어 업데이트—으로 리콜을 진행할 예정이다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 왜 매립형 손잡이였나 — 공기저항과 디자인의 유혹</h2>
+<p><strong>매립형(플러시) 도어핸들은 평소 차체 표면과 매끈하게 밀착해 있다가 필요할 때만 튀어나오는 방식으로, 주행 중 공기저항을 줄이고 매끈한 외관을 연출할 수 있어 최근 몇 년 새 전기차를 중심으로 빠르게 확산됐다.</strong> 전기차는 공기저항계수(Cd) 한 수치 차이가 주행가능거리로 직결되는 만큼, 제조사들에게는 포기하기 어려운 디자인 요소였다. 테슬라가 모델S·모델3 등에 이 방식을 적용하며 사실상 대중화시켰고, 이후 중국 전기차 업체들도 앞다퉈 이를 채택했다.</p>
+<p>문제는 이 매립형 손잡이가 대개 전동 모터로 튀어나오는 방식이라, 전원이 끊기면 작동을 멈춘다는 점이다. 이때 탑승자나 구조대가 의지할 수 있는 것은 대부분 눈에 잘 띄지 않는 곳에 숨겨진 기계식 비상 해제 장치뿐이다.</p>
+<div class="article-img-wrap">
+<img src="../images/tesla_modely_juniper_interior.webp" alt="테슬라 모델Y 주니퍼 실내, 미니멀한 대시보드와 센터 디스플레이" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 매끈한 외관을 강조하는 전기차 실내 디자인 트렌드 속에서, 비상 손잡이는 점점 더 눈에 띄지 않는 곳으로 숨어들었다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec4">4. 도화선이 된 샤오미 SU7 화재 사망 사고</h2>
+<p><strong>이번 대규모 리콜 논의에 불을 지핀 것은 샤오미 SU7 화재 사고였다.</strong> 사고 당시 구조대가 차량 문을 여는 데 어려움을 겪었고, 도어 패널 수납공간 안쪽에 숨겨진 비상 탈출 장치를 탑승자들이 제때 찾지 못한 것으로 추정되는 사망 사고가 발생하며 사회적 파장이 커졌다. 이 사고를 계기로 중국 규제당국인 국가시장감독관리총국(SAMR)은 매립형·전동식 도어핸들 문제를 "단순한 개별 결함이 아닌 전기차 업계 전반의 구조적 안전 위협"으로 규정하고 전방위 조사에 착수했다.</p>
+<div class="article-img-wrap">
+<img src="../images/xiaomi_su7_interior.webp" alt="샤오미 SU7 실내, 대시보드와 스티어링휠, 센터 디스플레이가 보이는 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ SU7 실내. 비상 탈출용 기계식 손잡이는 도어 트림 수납공간 안쪽에 배치돼 평상시에는 존재를 인지하기 어려운 구조였다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 2027년부터 사실상 금지 — 세계 최초 규제에 업계 술렁</h2>
+<p><strong>중국 산업정보부는 '자동차 도어 핸들 안전 기술 요구사항' 표준을 마련해 2027년 1월부터 시행하기로 했다.</strong> 이 표준은 모든 차량에 기계식 해제 기능을 갖춘 외부 도어핸들을 의무적으로 설치하도록 하고, 내부 비상 손잡이도 누구나 쉽게 식별할 수 있도록 요구한다. 사실상 물리적 기계식 손잡이가 전혀 없는 완전 매립형 디자인은 설 자리를 잃게 되는 셈으로, 세계 최초의 관련 규제로 평가된다.</p>
+<p>미국 규제당국도 전동식 도어 개폐장치에 대한 안전기준 검토에 나선 것으로 알려지며, 세계 최대 자동차 시장인 중국의 이번 규제가 글로벌 신차 도어 설계 전반에 변화를 가져올 수 있다는 전망이 나온다. 관련 표준안 세부 내용은 중국 공업신식화부 공식 채널에서 확인할 수 있다. <a href="https://www.miit.gov.cn/" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="checkpoint-box">
+<p><strong>✅ 중국 매립형 도어핸들 리콜 사태, 이것만은 확인하세요</strong></p>
+<p>· 테슬라·샤오미·립모터·샤오펑 등 9개 업체 약 430만대 동시 리콜, 중국 역대 최대<br>· 테슬라 298만대가 전체의 약 69%로 최대 비중<br>· 공통 원인은 비상 손잡이 식별 어려움 + 전원 차단 시 전동식 도어 기능 정지<br>· 샤오미 SU7 화재 사망 사고가 규제 강화의 직접적 계기<br>· 중국, 2027년 1월부터 완전 매립형(기계식 손잡이 없는) 디자인 사실상 금지</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>공기저항을 줄이고 미래적인 인상을 주기 위해 확산됐던 매립형 도어핸들이, 잇단 사고를 거치며 안전상의 약점을 여실히 드러냈다. 430만대에 달하는 이번 동시 리콜은 테슬라 한 회사의 문제가 아니라 업계 전반이 공유해온 설계 방식의 한계를 보여준다. 중국이 2027년부터 세계 최초로 관련 규제를 시행하기로 하면서, 앞으로 출시될 신차들의 도어핸들 설계에도 상당한 변화가 불가피할 전망이다.</p>
+</div>
+`
+});
+
+/* ============ 3. Tesla Autopilot crash jury verdict ============ */
+articles.push({
+  slug: "tesla-autopilot-crash-jury-verdict-2026",
+  headline: "\"핸들은 잡고 있었다\"… 그런데 왜 테슬라가 33% 책임을 물었나",
+  headlineShort: "테슬라 오토파일럿 소송, 2,430억원 배상 확정… 항소전으로",
+  description: "2019년 미국 플로리다 키라고에서 발생한 테슬라 모델S 오토파일럿 사고에 대해, 연방 배심원단이 테슬라에 33%의 책임을 인정하고 총 2억 4,300만 달러(약 3,500억원) 배상을 평결했다. 2026년 2월 연방판사가 이를 확정했고, 테슬라는 9월 제11연방순회항소법원에 항소했다.",
+  subtitle: "운전자는 분명 스티어링휠에 손을 얹고 있었다. 하지만 눈은 떨어뜨린 휴대폰을 찾고 있었다. 오토파일럿의 '손 감지' 기능이 놓친 그 틈에서, 배심원단은 테슬라에도 책임이 있다고 판단했다.",
+  date: "2026-09-10",
+  time: "11:20",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "안전",
+  categoryClass: "cat-red",
+  heroImage: "tesla_model_s_2019.webp",
+  heroAlt: "2019년형 테슬라 모델S, 실버 색상, 야외에 주차된 측면 모습",
+  heroCaption: "사고 차량과 같은 2019년형 테슬라 모델S. 오토파일럿이 작동 중이던 이 차량은 정지신호와 점멸 신호를 지나쳐 시속 약 100km로 주차 차량과 충돌했다",
+  tags: ["테슬라", "오토파일럿", "배심원평결", "손해배상소송", "키라고사고"],
+  categories: ["news"],
+  badge: "안전",
+  badgeClass: "cat-red",
+  dataSource: "오토트리뷴",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=45341" },
+    { name: "글로벌이코노믹", url: "https://www.g-enews.com/article/Global-Biz/2026/02/2026022121281094359a1f309431_1" },
+    { name: "이비엔(EBN)뉴스센터", url: "https://www.ebn.co.kr/news/articleView.html?idxno=1700381" }
+  ],
+  body: `
+<h2 id="sec1">1. 2019년 키라고, T자형 교차로에서 벌어진 사고</h2>
+<p><strong>사건은 2019년 4월, 미국 플로리다 키라고의 한 T자형 교차로에서 벌어졌다.</strong> 조지 맥기는 오토파일럿을 켠 테슬라 모델S를 운전하던 중 손에서 휴대폰을 떨어뜨렸고, 이를 주우려 고개를 숙였다. 그 사이 차량은 정지신호와 점멸하는 빨간불을 그대로 통과해 시속 약 100km(62마일)로 갓길에 주차돼 있던 쉐보레 타호와 충돌했다. 이 사고로 타호 옆에 서 있던 나이벨 베나비데스 레온(당시 22세)이 숨졌고, 함께 있던 딜론 앙굴로(당시 26세)는 중상을 입었다.</p>
+<div class="article-img-wrap">
+<img src="../images/tesla_model3_highland_interior.webp" alt="테슬라 차량 실내, 스티어링휠과 대시보드, 센터 디스플레이가 보이는 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 오토파일럿 작동 화면 예시. 사고 당시 맥기는 운전대에 손을 얹은 상태였지만, 시선은 떨어뜨린 휴대폰을 향해 있었다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. "핸들은 잡았지만, 보고 있지 않았다" — 감지 시스템의 허점</h2>
+<p><strong>이 사건이 주목받는 이유는 운전자가 완전히 손을 놓고 있었던 게 아니라는 점이다.</strong> 테슬라의 오토파일럿은 오랫동안 스티어링휠에 가해지는 토크(힘)를 감지해 운전자의 '손 감지 여부'를 판단하는 방식을 써왔다. 이는 어디까지나 운전자가 전방을 주시하고 있을 것이라는 전제 아래 만들어진 대리 지표일 뿐, 실제로 운전자가 도로를 보고 있는지까지 확인하는 장치는 아니었다.</p>
+<p>맥기의 차량은 그가 주의를 기울이지 않으면 경고음을 울렸고, 이를 무시하면 오토파일럿이 해제되는 '스트라이크아웃' 기록을 남겼다. 맥기는 차량을 보유한 3개월 동안 총 23번의 스트라이크아웃을 받았는데, 사고가 난 바로 그날의 주행에서도 이미 한 차례 스트라이크아웃이 발생한 뒤였다. 시스템이 운전자의 부주의 징후를 여러 차례 포착하고도, 최종적으로 사고를 막지는 못한 셈이다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 '핸즈온' 감지와 '아이즈온' 감지는 다르다</p>
+<p>스티어링휠 토크 감지(핸즈온)는 운전자가 손을 얹고 있다는 사실만 확인할 뿐, 시선이 도로를 향해 있는지(아이즈온)는 판단하지 못한다. 실제로 오렌지나 물병을 운전대에 끼워 감지를 속이는 사례가 알려지기도 했다. 최근에는 실내 카메라로 운전자의 시선을 추적하는 방식이 도입되는 추세지만, 2019년 사고 당시 차량에는 이런 기능이 없었다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 배심원단의 판단 — 테슬라 33%, 운전자 67%</h2>
+<p><strong>2025년 8월, 미국 마이애미 연방법원 배심원단은 이 사고에 대해 테슬라에 33%, 운전자 맥기에게 67%의 책임이 있다고 평결했다.</strong> 오토파일럿 관련 치명적 사고에 대해 연방 배심원단이 테슬라의 책임을 인정한 첫 사례로 기록됐다. 배심원단은 보상적 손해배상금 약 4,300만 달러에 더해, 징벌적 손해배상금 2억 달러를 별도로 평결했다. 이를 합친 총 배상액은 2억 4,300만 달러(약 3,500억원)에 달한다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>테슬라 오토파일럿 배상 평결 개요</caption>
+<thead>
+<tr><th>항목</th><th>내용</th></tr>
+</thead>
+<tbody>
+<tr><td>사고 발생</td><td>2019년 4월, 플로리다 키라고</td></tr>
+<tr><td>배심원 평결</td><td>2025년 8월, 마이애미 연방법원</td></tr>
+<tr><td>책임 비율</td><td>테슬라 33% : 운전자 67%</td></tr>
+<tr><td>보상적 손해배상금</td><td>약 4,300만 달러</td></tr>
+<tr><td>징벌적 손해배상금</td><td>2억 달러</td></tr>
+<tr><td>총 배상액</td><td>2억 4,300만 달러(약 3,500억원)</td></tr>
+<tr><td>판결 확정</td><td>2026년 2월, 베스 블룸 판사</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/us_court_eleventh_circuit_tuttle.webp" alt="미국 애틀랜타에 위치한 엘버트 P. 터틀 연방항소법원 건물 외관" width="330" height="247" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 애틀랜타의 엘버트 P. 터틀 연방항소법원 건물. 테슬라는 이곳 제11연방순회항소법원에 항소했다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec4">4. 항소전 돌입 — 테슬라 "징벌적 배상 상한 위반" 주장</h2>
+<p><strong>테슬라는 2026년 2월 판결이 확정된 뒤에도 불복해, 9월 제11연방순회항소법원(애틀랜타)에 항소했다.</strong> 테슬라 측은 전 미국 법무차관 폴 클레멘트와 테드 부트로스 등 유수의 항소심 전문 변호인단을 꾸려, 플로리다주 법상 징벌적 손해배상금이 보상적 손해배상금의 3배를 넘지 못하도록 한 상한 규정을 위반했다는 점과 원고 측 전문가 증언의 신빙성을 문제 삼고 있다. 앞서 테슬라는 1심에서도 "일론 머스크의 오토파일럿 성능 관련 발언이 배심원을 오도했다"고 주장했으나 받아들여지지 않은 바 있다. 원고 측은 전 미국 송무차관 엘리자베스 프렐로가가 대리하고 있다.</p>
+<div class="article-img-wrap">
+<img src="../images/tesla_modely_juniper_interior.webp" alt="테슬라 모델Y 주니퍼 실내, 센터 디스플레이와 스티어링휠이 보이는 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 최신 테슬라 차량들은 실내 카메라 기반의 운전자 주시 감지 기능을 추가해왔지만, 이번 소송의 대상이 된 2019년형 모델S에는 해당 기능이 없었다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 운전자 책임과 제조사 책임, 어디까지가 몫인가</h2>
+<p><strong>이번 사건은 운전자 보조 시스템을 둘러싼 책임 소재 논쟁에서 상징적인 이정표로 꼽힌다.</strong> 배심원단이 운전자에게 더 큰 책임(67%)을 물으면서도 제조사에게도 3분의 1의 책임을 인정했다는 점에서, "운전자가 최종 책임자"라는 원칙과 "제조사가 시스템의 한계를 충분히 알리고 안전장치를 갖췄는가"라는 물음이 동시에 다뤄진 사례라는 평가가 나온다. 그동안 오토파일럿과 관련한 다른 소송 상당수가 재판 없이 합의로 종결됐던 것과 달리, 이 사건은 연방 배심원 평결까지 이어졌다는 점에서도 이례적이다. 이번 항소심 결과는 앞으로 이어질 운전자 보조 시스템 관련 소송들에도 영향을 미칠 것으로 전망된다.</p>
+<div class="checkpoint-box">
+<p><strong>✅ 테슬라 오토파일럿 배심원 평결, 이것만은 확인하세요</strong></p>
+<p>· 2019년 4월 플로리다 키라고 사고, 운전자는 휴대폰을 줍다 정지신호 통과<br>· 운전자는 스티어링휠에 손을 얹고 있었지만 시선은 도로를 벗어나 있었음<br>· 사고 당일 포함 3개월간 23차례 오토파일럿 '스트라이크아웃' 기록<br>· 2025년 8월 배심원 평결: 테슬라 33% : 운전자 67% 책임, 총 2억 4,300만 달러 배상<br>· 2026년 2월 판결 확정, 9월 테슬라 제11연방순회항소법원에 항소</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>이번 사건은 "운전자가 손을 얹고 있었다"는 사실만으로는 책임 논쟁이 끝나지 않는다는 것을 보여준다. 시스템이 손의 존재는 감지했지만 시선의 부재까지는 잡아내지 못했고, 그 틈에서 벌어진 사고에 배심원단은 제조사에도 33%의 책임을 물었다. 2,430억원대 배상 판결이 확정된 뒤에도 테슬라가 항소에 나서면서, 운전자 보조 시스템을 둘러싼 법적 책임 공방은 당분간 계속될 전망이다.</p>
+</div>
+`
+});
+
+const outPath = path.join(__dirname, 'spec_wave2_g5.json');
+fs.writeFileSync(outPath, JSON.stringify(articles, null, 2), 'utf8');
+console.log('written', outPath, articles.length, 'articles');

@@ -1,0 +1,267 @@
+const fs = require('fs');
+const path = require('path');
+
+const articles = [];
+
+/* ============ 1. [칼럼] 18개월 신차 속도전 vs 품질 ============ */
+articles.push({
+  slug: "china-ev-18month-cycle-quality-column-2026",
+  headline: "\"18개월이면 신차가 나온다\"던 中… 속도전에 발목 잡힌 BYD·지리 품질 논란",
+  headlineShort: "中 '18개월 신차' 속도전 제동… BYD·지리 품질 논란이 남긴 것",
+  description: "중국 자동차 업체들이 자랑해온 '18개월 신차 개발'이라는 속도 경쟁력에 제동이 걸렸다. 지리 싱위안과 BYD 친 L DM-i가 정부의 생산 일치성 검사에서 나란히 문제가 확인되면서, 중국 정부가 4개 부처 합동으로 품질관리 특별조치에 나섰다. 업계는 이제 중국차의 다음 경쟁력이 '속도'에서 '신뢰'로 옮겨갈 것으로 본다.",
+  subtitle: "3~5년이 걸리던 신차 개발을 2년, 심지어 18개월까지 단축해온 중국 자동차 업계. 그 속도전의 그늘이 품질 논란으로 드러나면서, 중국 정부가 직접 칼을 빼들었다.",
+  date: "2026-09-10",
+  time: "10:30",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "이슈",
+  categoryClass: "cat-red",
+  heroImage: "geely_xingyuan_street_blue.webp",
+  heroAlt: "지리 싱위안(지오미 브랜드) 전측면, 실버 색상, 중국 도로변 주차 모습",
+  heroCaption: "정부 생산 일치성 검사에서 휠베이스 오차가 지적된 지리 싱위안. '18개월 신차'로 대표되는 중국차 속도전의 이면이 드러났다",
+  tags: ["중국전기차", "BYD", "지리자동차", "품질논란", "생산일치성"],
+  categories: ["news", "import"],
+  badge: "이슈",
+  badgeClass: "cat-red",
+  dataSource: "오토헤럴드(김훈기 칼럼)",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "오토헤럴드", url: "http://www.autoherald.co.kr/news/articleView.html?idxno=61531" },
+    { name: "CnEVPost", url: "https://cnevpost.com/2026/08/28/geely-xingyuan-byd-qin-l-flagged-china-quality-review/" }
+  ],
+  body: `
+<h2 id="sec1">1. "3~5년 걸리던 신차, 이제 18개월"… 중국차의 속도 경쟁력</h2>
+<p><strong>글로벌 완성차 업체가 신차 하나를 내놓는 데 통상 3~5년이 걸리는 것과 달리, 중국 자동차 업체들은 평균 2년, 빠르면 18개월 만에 신차를 개발해 시장에 내놓는다.</strong> 소비자 취향 변화와 전기차 기술 발전 속도에 민첩하게 대응할 수 있다는 점에서, 이 '속도'는 그동안 중국차의 핵심 경쟁력으로 꼽혀왔다. 일부 업체는 여기에 AI를 접목해 개발 기간을 더 단축하는 방안까지 논의해온 것으로 알려졌다.</p>
+<p>문제는 이 속도전이 개발·검증 과정을 얼마나 촘촘히 거치고 있느냐다. 생산능력 과잉과 극심한 가격 경쟁이 겹친 중국 내수 시장에서, 신차 출시 속도를 늦추는 것은 곧 점유율 하락으로 이어질 수 있다는 압박이 업체들을 짓눌러왔다는 것이 업계의 대체적인 시각이다.</p>
+<div class="article-img-wrap">
+<img src="../images/geely_e2_xingyuan_front.webp" alt="지리 싱위안 전측면 클로즈업, 실버 색상, 주차장에서 촬영된 모습" width="1280" height="960" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 지리 싱위안. 정부 검사에서 표본 차량의 실제 휠베이스가 신고 수치 대비 허용오차 1%를 초과한 것으로 확인됐다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 지리 싱위안·BYD 친 L DM-i, 정부 검사서 나란히 적발</h2>
+<p><strong>중국 공업정보화부(MIIT)가 실시한 신에너지차 생산 일치성 검사에서 총 7개 차종에서 문제가 확인됐는데, 그중 지리 '싱위안'과 BYD '친 L DM-i'가 대표 사례로 지목됐다.</strong> 싱위안은 표본 차량의 실제 휠베이스가 정부에 신고한 수치와 허용오차 1%를 넘어서는 차이를 보였고, 친 L DM-i는 배터리 충전량을 일정 수준으로 유지한 상태(CS 모드)에서 측정한 연료소비량이 신고 수치를 초과한 것으로 나타났다. 이밖에 사용자 설명서 누락, 비상용 창문 기준 미흡, 측면 충돌 보호 장치 기준 미달 사례도 함께 적발됐다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>이번 생산 일치성 검사 주요 적발 사례</caption>
+<thead>
+<tr><th>업체·차종</th><th>적발 내용</th></tr>
+</thead>
+<tbody>
+<tr><td>지리 싱위안</td><td>실제 휠베이스가 신고 수치 대비 허용오차 1% 초과</td></tr>
+<tr><td>BYD 친 L DM-i</td><td>CS 모드 연료소비량이 신고 수치 초과</td></tr>
+<tr><td>기타 5개 차종</td><td>사용자 설명서 누락, 비상용 창문·측면 충돌 보호 기준 미달 등</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/byd_qinl_dmi_front.webp" alt="BYD 친 L DM-i 전측면, 화이트 색상, '秦L DM-i' 번호판이 부착된 모터쇼 전시 모습" width="2000" height="1207" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ BYD 친 L DM-i. CS 모드 연료소비량이 정부 신고 수치를 초과한 것으로 확인돼 생산 일치성 검사 대표 사례로 꼽혔다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 4개 부처 합동, 1년짜리 '품질 향상 특별조치'</h2>
+<p><strong>중국 공업정보화부·공안부·생태환경부·국가시장감독관리총국 등 4개 부처는 지난달 27일부터 1년간 "도로 자동차 제품 생산 일치성 및 품질 향상 특별조치"에 착수했다.</strong> 전기차 의무 내구 시험거리를 기존 1만 5,000km에서 3만km으로 확대하는 방안도 함께 거론되고 있다. 중국 정부는 이번 조치의 취지를 "신에너지차 산업의 경쟁 질서를 정상화하고 제품의 생산 일치성과 품질 및 안전의 최저선을 지키겠다"고 설명했다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 생산 일치성 검사란</p>
+<p>생산 일치성(Conformity of Production) 검사는 양산 차량이 정부에 인증받은 제원·성능 그대로 만들어지고 있는지를 확인하는 절차다. 신고한 수치와 실제 양산차 사이에 오차가 크면, 소비자가 구매 당시 안내받은 성능·안전 기준과 실제 차량이 다를 수 있다는 뜻이 된다. 이번에 지적된 휠베이스·연료소비량 오차는 수치상으로는 작아 보이지만, 인증 제도 자체의 신뢰도와 직결되는 문제로 받아들여진다.</p>
+</div>
+
+<h2 id="sec4">4. 국내용 넘어 수출용 기준까지… "품질=신뢰"로 무게중심 이동</h2>
+<p><strong>규제 강화는 내수 시장에만 머물지 않는다.</strong> 상무부·공업정보화부·시장감독관리총국은 지난 1일 "자동차 산업 해외 경쟁행위 및 컴플라이언스 구축 지침"을 별도로 발표하고, 해외로 수출되는 중국산 자동차에 대해서도 품질관리·생산안전·데이터 보안·현지 법규 준수를 요구하기로 했다. 중국차의 해외 판매 비중이 갈수록 커지는 상황에서, 가격 경쟁력만으로는 해외 소비자의 신뢰를 얻기 어렵다는 위기의식이 반영된 조치로 풀이된다.</p>
+<p>자동차 제조사들은 올해 말까지 제품 품질·신뢰성·내구성에 대한 자체 보고서를 지방 당국에 제출해야 하며, 결함이 발견될 경우 자발적 리콜도 함께 실시해야 한다. 관련 소식은 오토헤럴드 원문 기사에서 확인할 수 있다. <a href="http://www.autoherald.co.kr/news/articleView.html?idxno=61531" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/battery_cell_assembly_line_robot.webp" alt="전기차 배터리 생산라인, 로봇 팔이 배터리 셀을 조립하는 모습(자료사진)" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 전기차 배터리 생산라인(자료사진). 짧아진 개발주기만큼 생산·검증 공정의 신뢰성이 새로운 쟁점으로 떠올랐다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. '속도'에서 '신뢰'로 — 다음 라운드의 경쟁력</h2>
+<p><strong>이번 사태를 바라보는 업계의 시각은 크게 두 갈래다.</strong> 한쪽에서는 정부의 개입이 지나치게 늦었다는 지적이 나온다. 이미 수십 개 브랜드가 초단기 개발 경쟁을 벌여온 상황에서, 뒤늦은 규제가 얼마나 실효성을 가질지 의문이라는 것이다. 다른 한쪽에서는 오히려 지금이 적기라는 평가도 있다. 내수 시장의 극심한 가격 경쟁이 한계에 다다른 시점에서, 품질과 신뢰를 축으로 한 새로운 경쟁 질서가 자리잡을 수 있는 계기가 될 수 있다는 것이다.</p>
+<p>분명한 것은, 중국차가 그동안 앞세워온 '빠른 신차'라는 무기가 이제 '검증된 신차'라는 조건 없이는 통하지 않게 됐다는 점이다. 국내에서도 BYD를 비롯한 중국 브랜드의 전시장이 빠르게 늘어나고 있는 만큼, 이번 품질관리 강화가 실제 제품 신뢰도 향상으로 이어질지 지켜볼 필요가 있다.</p>
+<div class="checkpoint-box">
+<p><strong>✅ 中 '18개월 신차' 속도전과 품질 논란, 이것만은 확인하세요</strong></p>
+<p>· 중국차 신차 개발기간 평균 2년, 일부 18개월까지 단축<br>· 지리 싱위안(휠베이스 오차)·BYD 친 L DM-i(연료소비량 초과) 등 7개 차종 생산 일치성 검사서 적발<br>· 4개 부처 합동 '품질 향상 특별조치' 지난달 27일부터 1년간 시행<br>· 전기차 의무 내구시험 거리 1만5000km→3만km 확대 검토<br>· 해외 수출용 자동차에도 별도 컴플라이언스 지침 신설(9월 1일)</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>중국 자동차 업계의 '18개월 신차'라는 속도 경쟁력은 그동안 시장 대응력의 상징이었지만, 지리 싱위안과 BYD 친 L DM-i의 생산 일치성 문제로 그 이면이 드러났다. 중국 정부는 4개 부처 합동 특별조치와 해외 수출용 컴플라이언스 지침까지 동시에 꺼내들며 품질관리 고삐를 죄고 있다. 국내 시장에서도 존재감을 넓혀가는 중국 브랜드인 만큼, 앞으로는 '얼마나 빨리 내놓느냐'보다 '얼마나 믿을 수 있느냐'가 중국차의 새로운 경쟁 기준이 될 전망이다.</p>
+</div>
+`
+});
+
+/* ============ 2. 中 정부, 100곳 전수 점검 ============ */
+articles.push({
+  slug: "china-byd-geely-quality-inspection-100-2026",
+  headline: "\"공장에서 차를 직접 뜯어봤다\"… 中 정부, BYD·지리 등 100곳 전수 점검 착수",
+  headlineShort: "中 정부, BYD·지리 품질 문제 적발 '제조사 100곳 전수 점검'",
+  description: "중국 정부가 신에너지차 생산 일치성 검사에서 지리·BYD 등 7개 차종의 품질 문제를 적발한 데 이어, 전국 완성차 제조사 약 100곳을 대상으로 한 1년짜리 전수 점검에 착수했다. 제조사 자체 보고가 아닌 공장·판매점에서 직접 차량을 확보해 봉인 후 검사하는 방식으로, 신차 개발 속도전 속 검증 부실 우려에 대응한 조치다.",
+  subtitle: "지리 싱위안과 BYD 친 L DM-i에서 확인된 생산 일치성 문제가 발단이 됐다. 중국 정부는 여기서 멈추지 않고, 전국 완성차 제조사 100곳을 대상으로 한 대대적인 전수 점검에 나섰다.",
+  date: "2026-09-10",
+  time: "10:40",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "이슈",
+  categoryClass: "cat-red",
+  heroImage: "geely_e2_xingyuan_rear.webp",
+  heroAlt: "지리 싱위안 후측면, 핑크 색상, 중국 도심 주차장에서 촬영된 모습",
+  heroCaption: "생산 일치성 검사에서 문제가 확인된 지리 싱위안. 중국 정부는 이를 계기로 전국 완성차 제조사 100곳에 대한 전수 점검에 나섰다",
+  tags: ["중국전기차", "BYD", "지리자동차", "전수점검", "중국정부규제"],
+  categories: ["news", "import"],
+  badge: "이슈",
+  badgeClass: "cat-red",
+  dataSource: "오토헤럴드",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "오토헤럴드", url: "http://www.autoherald.co.kr/news/articleView.html?idxno=61523" },
+    { name: "CnEVPost", url: "https://cnevpost.com/2026/08/28/geely-xingyuan-byd-qin-l-flagged-china-quality-review/" }
+  ],
+  body: `
+<h2 id="sec1">1. 지리·BYD에서 시작된 적발, 전수 점검으로 확대</h2>
+<p><strong>중국 공업정보화부(MIIT)가 신에너지차 생산 일치성 검사 결과를 공개하면서, 지리 '싱위안'과 BYD '친 L DM-i'를 포함한 총 7개 차종에서 문제가 확인됐다고 밝혔다.</strong> 싱위안은 표본 차량의 실제 휠베이스가 신고 수치 대비 허용오차 1%를 초과했고, 친 L DM-i는 배터리 충전량을 유지한 상태(CS 모드)에서 측정한 연료소비량이 신고 수치를 넘어섰다. 이밖에 다른 업체 차종에서는 사용자 설명서 누락, 비상용 창문 기준 미흡, 측면 충돌 보호 장치 기준 미달 사례도 함께 드러났다.</p>
+<div class="article-img-wrap">
+<img src="../images/geely_e2_xingyuan_interior.webp" alt="지리 싱위안(지오미) 실내, 스티어링 휠과 센터 디스플레이가 보이는 모터쇼 전시 모습" width="1600" height="1200" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 지리 싱위안의 실내. 정부 검사는 외관 제원뿐 아니라 충돌 안전, 배터리팩, 사이버 보안, 데이터 보안까지 폭넓게 점검한다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 제조사 자체 보고 아닌 '현장 직접 확보' 방식으로 전환</h2>
+<p><strong>이번 점검에서 눈에 띄는 대목은 검사 방식의 변화다.</strong> 기존에는 제조사가 제출한 자료를 토대로 서류 검토 위주의 검사가 이뤄졌다면, 이번에는 정부가 공장과 판매점에서 직접 차량과 부품을 확보한 뒤 하드웨어·소프트웨어를 봉인해 검사하는 방식이 적용됐다. 검사 범위도 단순 제원 비교를 넘어 충돌 안전, 배터리팩 안전성, 사이버 보안, 데이터 보안까지 폭넓게 확대됐다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>중국 정부 자동차 전수 점검 개요</caption>
+<thead>
+<tr><th>항목</th><th>내용</th></tr>
+</thead>
+<tbody>
+<tr><td>점검 대상</td><td>전국 완성차 제조사 약 100곳</td></tr>
+<tr><td>시작 시점</td><td>2026년 8월 27일</td></tr>
+<tr><td>점검 기간</td><td>약 1년간</td></tr>
+<tr><td>검사 방식</td><td>공장·판매점 현장에서 직접 차량·부품 확보 후 봉인 검사</td></tr>
+<tr><td>점검 범위</td><td>제원 일치성, 충돌 안전, 배터리팩, 사이버·데이터 보안</td></tr>
+<tr><td>보고 의무</td><td>연말까지 품질·신뢰성·내구성 자체 보고서 지방 당국 제출, 결함 시 자발적 리콜</td></tr>
+</tbody>
+</table>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 왜 지금인가 — 내수 과당경쟁이 부른 검증 부실 우려</h2>
+<p><strong>이번 조치의 배경에는 중국 자동차 산업의 구조적 문제가 자리한다.</strong> 신차 개발 기간이 평균 2년, 일부는 AI를 활용해 18개월까지 단축된 상황에서, 생산능력 과잉과 극심한 가격 경쟁이 맞물려 개발·검증 과정이 생략되고 있다는 우려가 업계 안팎에서 꾸준히 제기돼왔다. 정부 입장에서는 빠른 개발 속도 자체보다, 그 속도에 걸맞은 품질 신뢰도가 뒷받침되지 않는다는 점을 문제로 본 셈이다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 참고로 알아두면 좋은 것</p>
+<p>중국의 신에너지차(NEV) 시장은 매년 수십 개 신규 모델이 쏟아지는 구조다. 업체 간 경쟁이 치열해질수록 신차 출시 주기는 짧아지고, 그만큼 내구성·안전성 검증에 투입되는 시간은 줄어들 수밖에 없다는 것이 업계의 공통된 지적이다. 이번 특별조치는 이 같은 구조적 문제를 정부가 직접 나서 바로잡으려는 시도로 해석된다.</p>
+</div>
+
+<h2 id="sec4">4. 확대되는 검사 기준 — 내구 시험거리 2배로</h2>
+<p><strong>정부는 검사 강도를 높이는 구체적 방안으로 전기차 의무 내구 시험거리를 기존 1만 5,000km에서 3만km으로 확대하는 방안도 검토하고 있다.</strong> 이는 기존 기준의 약 2배에 달하는 수준으로, 배터리 열화나 부품 내구성 문제를 조기에 걸러내려는 목적으로 풀이된다. 제조사들은 연말까지 자체 품질·신뢰성·내구성 보고서를 지방 당국에 제출해야 하며, 이 과정에서 결함이 확인되면 자발적 리콜까지 실시해야 한다. 관련 소식은 오토헤럴드 원문 기사에서 확인할 수 있다. <a href="http://www.autoherald.co.kr/news/articleView.html?idxno=61523" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/lithium_coincell_lab_testing.webp" alt="배터리 셀 실험실 테스트 장비, 다수의 전극 클립이 회로기판에 연결된 모습(자료사진)" width="1600" height="900" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 배터리 셀 실험실 테스트 장비(자료사진). 확대된 검사 범위에는 배터리팩 안전성 점검도 포함된다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+<div class="article-img-wrap">
+<img src="../images/byd_qinl_rear.webp" alt="BYD 친 L 후측면, 화이트 색상, 모터쇼 전시장에서 관람객들이 둘러보는 모습" width="2000" height="1500" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ BYD 친 시리즈 모터쇼 전시 모습(자료사진). 친 L DM-i는 CS 모드 연료소비량 초과로 이번 검사에서 지목된 대표 사례 중 하나다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 수출 확대 앞둔 중국차, 신뢰도 확보가 관건</h2>
+<p><strong>이번 전수 점검은 내수 시장 정상화 차원을 넘어, 갈수록 비중이 커지는 수출 시장까지 염두에 둔 조치로 풀이된다.</strong> 중국 상무부·공업정보화부·시장감독관리총국은 지난 1일 별도로 "자동차 산업 해외 경쟁행위 및 컴플라이언스 구축 지침"을 발표하고, 해외로 수출되는 자동차에 대해서도 품질관리·생산안전·데이터 보안·현지 법규 준수를 요구하기로 했다. 국내에서도 BYD 등 중국 브랜드의 전시장이 빠르게 늘어나는 상황에서, 이번 점검 결과가 실제 리콜이나 품질 개선으로 이어질지 주목된다.</p>
+<div class="checkpoint-box">
+<p><strong>✅ 中 완성차 제조사 100곳 전수 점검, 이것만은 확인하세요</strong></p>
+<p>· 지리 싱위안(휠베이스 오차)·BYD 친 L DM-i(연료소비량 초과) 등 7개 차종 생산 일치성 검사서 적발<br>· 전국 완성차 제조사 약 100곳 대상, 8월 27일부터 1년간 전수 점검<br>· 제조사 자체 보고 아닌 공장·판매점 현장에서 직접 차량 확보해 봉인 검사<br>· 전기차 의무 내구시험 거리 1만5000km→3만km 확대 검토<br>· 연말까지 자체 보고서 제출 의무, 결함 시 자발적 리콜</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>지리 싱위안과 BYD 친 L DM-i에서 확인된 생산 일치성 문제는 중국 자동차 산업 전반의 검증 부실 우려로 번졌고, 정부는 완성차 제조사 100곳을 대상으로 한 1년짜리 전수 점검이라는 강수를 뒀다. 서류 검토가 아닌 현장 직접 확보 방식으로 검사 강도를 높이고, 내구 시험거리까지 2배로 늘리는 방안을 검토 중인 만큼, 이번 조치가 중국차의 품질 신뢰도를 실질적으로 끌어올릴 수 있을지 지켜볼 대목이다.</p>
+</div>
+`
+});
+
+/* ============ 3. 캐나다, 中 전기차 장벽 완화 ============ */
+articles.push({
+  slug: "canada-china-ev-tariff-quota-byd-geely-2026",
+  headline: "\"3만 3397대까지 열어줬다\"… 캐나다, 中 전기차 장벽 낮추며 BYD·지리 진출 채비",
+  headlineShort: "캐나다, 中 전기차 장벽 낮춰 '3만 3397대 추가 허용' BYD·지리 진출 채비",
+  description: "캐나다가 9월 1일부터 내년 2월까지 중국산 전기차 3만 3397대에 대해 최혜국대우(MFN) 관세율 6.1%를 적용하는 2차 쿼터를 개방했다. 첫 번째 쿼터 기간 미소진 물량 8,897대가 이월된 결과로, 현재는 테슬라 등 중국 생산 글로벌 업체가 주요 수혜자지만 BYD·지리·체리 등 중국 토종 브랜드도 현지 인증을 진행 중이어서 북미 전기차 시장 경쟁 구도에 변화가 예상된다.",
+  subtitle: "미국이 중국산 전기차에 100%대 고율 관세로 문을 걸어 잠근 사이, 캐나다는 올해 초부터 단계적으로 빗장을 풀고 있다. 9월 1일부터는 3만 3397대 규모의 2차 쿼터가 새로 열렸다.",
+  date: "2026-09-10",
+  time: "10:50",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "이슈",
+  categoryClass: "cat-red",
+  heroImage: "tesla_model3_highland_front.webp",
+  heroAlt: "테슬라 모델3 전측면, 화이트 색상, 모터쇼 전시장 스튜디오 촬영",
+  heroCaption: "현재 캐나다 저율 관세 쿼터의 최대 수혜자는 상하이 기가팩토리산 모델3를 수입하는 테슬라다. BYD·지리 등 중국 토종 브랜드는 아직 현지 진출을 준비하는 단계다",
+  tags: ["캐나다", "중국전기차", "BYD", "지리자동차", "관세쿼터"],
+  categories: ["news", "import"],
+  badge: "이슈",
+  badgeClass: "cat-red",
+  dataSource: "오토헤럴드",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "오토헤럴드", url: "http://www.autoherald.co.kr/news/articleView.html?idxno=61514" },
+    { name: "electrive.com", url: "https://www.electrive.com/2026/09/08/canadas-ev-import-quota-for-china-made-cars-mostly-benefits-tesla/" }
+  ],
+  body: `
+<h2 id="sec1">1. 9월 1일부터 3만 3397대, 캐나다의 2차 쿼터 개방</h2>
+<p><strong>캐나다가 2026년 9월 1일부터 2027년 2월 28일까지 중국산 전기차 3만 3397대에 대해 최혜국대우(MFN) 관세율 6.1%를 적용하는 2차 수입 쿼터를 새로 열었다.</strong> 이는 2차 기간 기본 할당량 2만 4,500대에, 앞선 1차 기간(2026년 3월 1일~8월 31일) 동안 다 쓰지 못하고 남은 8,897대가 이월된 결과다. 1차 기간에는 2만 4,500대가 허용됐지만 실제 수입 물량은 1만 5,603대에 그쳐, 8,897대가 고스란히 다음 기간으로 넘어갔다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>캐나다 중국산 전기차 수입 쿼터 현황</caption>
+<thead>
+<tr><th>구분</th><th>기간</th><th>허용 물량</th></tr>
+</thead>
+<tbody>
+<tr><td>1차 쿼터</td><td>2026.3.1~8.31</td><td>2만 4,500대(실제 수입 1만 5,603대)</td></tr>
+<tr><td>2차 쿼터</td><td>2026.9.1~2027.2.28</td><td>3만 3,397대(기본 2만 4,500대+이월 8,897대)</td></tr>
+<tr><td>적용 관세율</td><td>-</td><td>최혜국대우(MFN) 6.1%</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/tesla_model3_highland_rear.webp" alt="테슬라 모델3 후측면, 화이트 색상, 모터쇼 전시장 스튜디오 촬영" width="1280" height="960" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 상하이 기가팩토리에서 생산돼 캐나다로 수출되는 테슬라 모델3. 지난 5월부터 저율 관세 쿼터를 활용한 수입이 시작됐다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 올 초 새로 맺은 캐나다·중국 파트너십이 배경</h2>
+<p><strong>이번 쿼터 완화의 출발점은 지난 1월 캐나다와 중국이 발표한 새로운 전략적 파트너십이다.</strong> 양국은 이 합의를 통해 중국산 전기차·하이브리드에 대해 연간 4만 9,000대까지 최혜국대우 관세율 6.1%를 적용하기로 했다. 이는 기존 캐나다가 중국산 전기차에 매겨온 100%의 고율 관세와 비교하면 파격적인 완화다. 캐나다는 그간 미국과 보조를 맞춰 중국산 전기차에 고율 관세를 부과해왔지만, 자국 시장의 가격 경쟁력 확보와 통상 다변화 필요성이 맞물리며 정책 기조를 선회한 것으로 풀이된다.</p>
+<div class="info-box">
+<p class="info-box-title">📍 참고로 알아두면 좋은 것</p>
+<p>캐나다는 2024년 미국의 조치에 맞춰 중국산 전기차에 100% 관세를 부과한 바 있다. 이번 최혜국대우 쿼터 도입은 그 기조에서 벗어나 단계적으로 문을 여는 조치로, 중국과의 통상 관계 개선 흐름 속에서 나왔다는 평가가 나온다. 다만 쿼터를 벗어나는 물량에는 여전히 높은 관세가 적용돼, 무제한 개방과는 거리가 있다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 현재 수혜자는 테슬라… BYD·지리는 아직 '준비 단계'</h2>
+<p><strong>정작 저율 관세 쿼터의 최대 수혜자는 중국 토종 브랜드가 아니라 테슬라다.</strong> 테슬라는 지난 5월부터 상하이 기가팩토리에서 생산한 모델3를 캐나다로 수입하기 시작했고, 이밖에 중국에서 생산하는 링컨 노틸러스 하이브리드, 로터스, 폴스타 등 글로벌 업체 차량들도 저율 관세의 수혜를 보고 있다. BYD는 캐나다 시장 진출 시점을 2026년 말로 예상하고 있지만 아직 판매가 시작되지 않았고, 지리 역시 캐나다에서 활동을 시작하지 않은 상태다.</p>
+<div class="article-img-wrap">
+<img src="../images/byd_seal_rwd_front.webp" alt="BYD 씰(Seal) 세단 전측면, 화이트 색상, 유럽 시내 도로변 주차 모습" width="1600" height="838" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ BYD의 세단형 전기차 씰(자료사진). BYD는 체리·지리와 함께 캐나다 현지 인증과 딜러망 구축을 진행 중이며, 이르면 내년부터 직접 판매를 시작할 전망이다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec4">4. "이르면 내년부터"… 북미 시장 가격 경쟁 심화 전망</h2>
+<p><strong>BYD·체리·지리 등은 현재 캐나다 현지 인증, 인력 채용, 딜러망 구축 등을 진행 중인 것으로 알려졌다.</strong> 업계에서는 이르면 내년부터 중국 토종 브랜드가 캐나다 소비자를 직접 공략할 수 있을 것으로 내다본다. 이 경우 그동안 100% 관세에 가로막혀 있던 중국 브랜드의 저가 전기차들이 본격적으로 북미 시장에 진입하게 되는 셈이어서, 가격 경쟁이 한층 심화될 가능성이 크다는 관측이 나온다.</p>
+<p>미국이 여전히 중국산 전기차에 높은 장벽을 유지하고 있는 것과 비교하면, 캐나다의 이번 조치는 북미 시장에서 상대적으로 이례적인 행보로 평가된다. 관련 소식은 오토헤럴드 원문 기사에서 확인할 수 있다. <a href="http://www.autoherald.co.kr/news/articleView.html?idxno=61514" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/geely_galaxy_e8.webp" alt="지리 갤럭시 E8 전측면, 화이트 색상, '吉利银河E8' 배지가 보이는 모터쇼 전시 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 지리의 세단형 전기차 갤럭시 E8(자료사진). 지리 역시 캐나다 진출을 위한 인증 절차를 밟고 있는 브랜드 중 하나다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 관전 포인트 — 관세를 넘어야 할 다음 관문</h2>
+<p><strong>다만 관세 장벽이 낮아졌다고 해서 중국 브랜드의 캐나다 진출이 순탄하기만 한 것은 아니다.</strong> 공교롭게도 이번 쿼터 완화 시점은 중국 정부가 BYD·지리 등 자국 완성차 업체를 대상으로 생산 일치성 문제를 적발하고 전수 점검에 착수한 시점과 겹친다. 해외 진출을 앞둔 중국 브랜드 입장에서는 관세라는 첫 관문을 넘더라도, 북미 소비자의 품질·안전 신뢰를 얻어야 하는 두 번째 관문이 기다리고 있는 셈이다.</p>
+<div class="checkpoint-box">
+<p><strong>✅ 캐나다 中 전기차 쿼터 완화, 이것만은 확인하세요</strong></p>
+<p>· 9월 1일~내년 2월 28일, 중국산 전기차 3만 3,397대에 MFN 관세율 6.1% 적용<br>· 1차 쿼터(2만 4,500대) 중 미소진 8,897대 이월돼 2차 물량 확대<br>· 기존 100% 관세에서 완화, 올 1월 캐나다·중국 전략적 파트너십이 배경<br>· 현재 최대 수혜자는 테슬라(상하이산 모델3), BYD·지리는 아직 캐나다 미진출<br>· BYD·체리·지리, 현지 인증·딜러망 구축 중… 이르면 내년 직접 판매 전망</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>캐나다가 중국산 전기차에 대한 관세 장벽을 단계적으로 낮추면서, 3만 3,397대 규모의 2차 쿼터가 9월 1일부터 새로 열렸다. 현재는 상하이산 테슬라 모델3가 최대 수혜를 누리고 있지만, BYD·지리·체리 등 중국 토종 브랜드도 현지 인증과 딜러망 구축을 진행 중이어서 이르면 내년부터 본격적인 북미 진출이 예상된다. 다만 같은 시기 중국 본토에서는 이들 업체를 겨냥한 품질 전수 점검이 진행되고 있는 만큼, 관세 장벽을 넘어선 이후에도 품질 신뢰라는 또 다른 과제가 남아 있다.</p>
+</div>
+`
+});
+
+const outPath = path.join(__dirname, 'spec_wave2_g4.json');
+fs.writeFileSync(outPath, JSON.stringify(articles, null, 2), 'utf8');
+console.log('written', outPath, articles.length, 'articles');

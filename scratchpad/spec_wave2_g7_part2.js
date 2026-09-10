@@ -1,0 +1,117 @@
+const fs = require('fs');
+const path = require('path');
+
+const articles = [];
+
+/* ============ 2. Ferrari Luce Korea debut ============ */
+articles.push({
+  slug: "ferrari-luce-korea-debut-2026",
+  headline: "\"1,050마력에 삼성 디스플레이까지\"... 페라리 첫 순수 전기차 '루체' 한국 최초 공개",
+  headlineShort: "페라리 첫 전기차 '루체' 한국 최초 공개, 가격 9억 7천만원",
+  description: "페라리가 브랜드 최초의 순수 전기 스포츠카 '루체(Luce)'를 서울 청담 전시장에서 한국 최초로 공개했다. 최고출력 1,050cv, 0-100km/h 2.5초의 성능과 4도어 5인승이라는 파격을 동시에 내세운 루체는, 하이브리드에 이어 페라리가 내딛는 전동화 전략의 다음 단계다. 람보르기니·맥라렌 등 경쟁 하이퍼카 브랜드들이 순수 전기차 전환에 신중한 모습을 보이는 것과는 대조적이다.",
+  subtitle: "엔진 소리 대신 네 개의 전기모터가 만드는 가속감. 페라리 최초의 순수 전기차이자 첫 4도어 5인승 모델인 '루체'가 서울 청담 전시장에서 한국 관람객을 만났다.",
+  date: "2026-09-10",
+  time: "12:10",
+  sectionName: "수입차",
+  sectionHref: "import.html",
+  categoryLabel: "신차공개",
+  categoryClass: "cat-gold",
+  heroImage: "ferrari_luce_front_left.webp",
+  heroAlt: "페라리 루체 전측면, 그레이 색상, 야외 전시 모습",
+  heroCaption: "페블비치에서 공개된 페라리 루체의 전측면. 4도어 5인승 패스트백 구조를 채택한 브랜드 최초의 순수 전기 스포츠카다",
+  tags: ["페라리", "페라리루체", "전기차", "하이퍼카전동화", "람보르기니란자도르"],
+  categories: ["import", "electric"],
+  badge: "신차공개",
+  badgeClass: "cat-gold",
+  dataSource: "오토트리뷴",
+  imageCredit: "Wikimedia Commons",
+  sources: [
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=44920" },
+    { name: "지피코리아", url: "https://www.gpkorea.com/news/articleView.html?idxno=145959" },
+    { name: "모터그래프", url: "https://www.motorgraph.com/news/articleView.html?idxno=44365" }
+  ],
+  body: `
+<h2 id="sec1">1. 청담 전시장에서 열린 한국 최초 공개</h2>
+<p><strong>페라리코리아가 브랜드 최초의 순수 전기 스포츠카 '루체(Luce)'를 서울 강남구 청담동 페라리 전시장에서 한국 최초로 공개했다.</strong> 루체는 2026년 5월 25일 이탈리아 로마에서 세계 최초로 공개된 뒤, 8월 24일 한국 무대에 처음 모습을 드러냈다. 이후 8월 26일부터 9월 13일까지 청담 전시장에서, 9월 29일부터 10월 4일까지는 부산 전시장에서 프라이빗 뷰 행사가 이어질 예정이다.</p>
+<p>현장에서는 597리터에 달하는 트렁크 용량을 시연하기 위해 여행용 가방 5개를 동시에 싣는 퍼포먼스가 진행돼 눈길을 끌었다. 스포츠카 이미지가 강한 페라리가 실용성을 전면에 내세운 것은 이례적이라는 평가다.</p>
+<div class="article-img-wrap">
+<img src="../images/ferrari_luce_auction_side.webp" alt="페라리 루체 측면, 그레이 색상, 2026년 몬터레이 카 위크 전시 모습" width="1280" height="889" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 2026년 몬터레이 카 위크에서 공개된 페라리 루체 섀시 0번. 매끄러운 4도어 패스트백 실루엣이 특징이다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 최고출력 1,050마력, 0-100km/h 2.5초... 루체의 제원</h2>
+<p><strong>루체는 네 바퀴 각각에 독립 전기모터를 배치한 사륜구동 시스템으로 시스템 최고출력 1,050cv를 낸다.</strong> 정지 상태에서 시속 100km까지 2.5초 만에 도달하며, 최고속도는 310km/h에 이른다. 122kWh 대용량 배터리를 탑재해 WLTP 기준 약 530km의 주행거리를 확보했다. 서스펜션에는 액티브 서스펜션 기술인 'ASC 3.0'이 적용돼 노면 상황에 따라 차체 자세를 능동적으로 제어한다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>페라리 루체 주요 제원</caption>
+<thead>
+<tr><th>항목</th><th>내용</th></tr>
+</thead>
+<tbody>
+<tr><td>구동계</td><td>4개 독립 전기모터, 사륜구동</td></tr>
+<tr><td>시스템 최고출력</td><td>1,050cv</td></tr>
+<tr><td>배터리 용량</td><td>122kWh</td></tr>
+<tr><td>0-100km/h</td><td>2.5초</td></tr>
+<tr><td>최고속도</td><td>310km/h</td></tr>
+<tr><td>주행거리(WLTP)</td><td>약 530km</td></tr>
+<tr><td>트렁크 용량</td><td>597리터</td></tr>
+<tr><td>국내 가격</td><td>약 9억 7,000만원</td></tr>
+</tbody>
+</table>
+</div>
+<div class="info-box">
+<p class="info-box-title">📍 삼성 디스플레이가 탑재된 계기판</p>
+<p>루체의 실내에는 삼성디스플레이의 OLED 기술이 적용된 다층 계기판이 탑재됐다. 12.9인치와 12인치 패널이 함께 구성돼 있으며, 4도어 5인승 구조를 통해 뒷좌석 탑승객도 넉넉한 공간을 누릴 수 있도록 설계됐다. 디자인은 애플 출신 디자이너들이 참여한 것으로 알려졌다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. "엔진을 대체하지 않는다"... 페라리의 멀티 에너지 전략</h2>
+<p><strong>루체는 2022년 페라리 캐피털 마켓 데이(Capital Market Day)에서 예고된 '멀티 에너지 전략'의 결실이다.</strong> 페라리는 순수 전기차, 하이브리드, 내연기관을 모두 아우르는 기술 중립적 접근을 이어가겠다고 밝힌 바 있다. 즉 전기차가 기존 엔진 라인업을 대체하는 것이 아니라, 라인업을 확장하는 방식으로 전동화를 추진한다는 것이다. 전기모터부터 배터리 팩까지 핵심 부품을 내부에서 개발·생산했다는 점도 페라리가 전동화 기술 내재화에 힘을 쏟고 있음을 보여준다.</p>
+<p>루체는 페라리 최초의 5인승 모델이라는 점에서도 의미가 크다. 기존 2도어 스포츠카 중심이었던 브랜드 라인업에, 일상적으로 활용 가능한 4도어 GT 모델이 추가된 셈이다. 관련 소식은 페라리 공식 미디어센터에서 확인할 수 있다. <a href="https://www.ferrari.com/en-EN/auto/ferrari-luce" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/ferrari_12cilindri_front.webp" alt="페라리 12칠린드리 전측면, 레드 색상, V12 자연흡기 엔진 탑재 모델" width="1280" height="827" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ V12 자연흡기 엔진을 고수하는 페라리 12칠린드리. 페라리는 전기차 루체를 내놓으면서도 내연기관·하이브리드 라인업은 그대로 유지한다는 방침이다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec4">4. 람보르기니는 전기차를 접었다... 엇갈리는 하이퍼카 브랜드들</h2>
+<p><strong>페라리의 행보는 경쟁 하이퍼카 브랜드들과 뚜렷하게 대비된다.</strong> 람보르기니는 콘셉트카 '란자도르'로 예고했던 순수 전기차 양산 계획을 취소했다. 슈테판 빙켈만 람보르기니 CEO는 핵심 고객층이 전기차로 전환할 의향이 거의 없으며, V8·V12 엔진이 빠진 람보르기니에 대한 관심은 사실상 제로에 가깝다고 밝힌 바 있다. 대신 람보르기니는 레부엘토, 우루스 SE, 테메라리오 등 플러그인 하이브리드(PHEV) 모델로 전 라인업의 전동화를 마무리하는 쪽을 택했다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>하이퍼카 브랜드별 전동화 전략 비교(2026년 9월 기준)</caption>
+<thead>
+<tr><th>브랜드</th><th>전동화 전략</th></tr>
+</thead>
+<tbody>
+<tr><td>페라리</td><td>순수 전기차(루체) 출시, 내연기관·하이브리드와 병행하는 멀티 에너지 전략</td></tr>
+<tr><td>람보르기니</td><td>순수 전기차(란자도르) 양산 취소, PHEV로 전 라인업 전동화 완료</td></tr>
+<tr><td>맥라렌</td><td>하이브리드 중심(아투라 등), 순수 전기차 전환 계획 재검토 가능성</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/lamborghini_revuelto_orange_rear.webp" alt="람보르기니 레부엘토 후측면, 오렌지 색상, 플러그인 하이브리드 모델" width="1280" height="697" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 람보르기니의 플러그인 하이브리드 모델 레부엘토. 람보르기니는 순수 전기차 대신 PHEV로 전동화 방향을 선회했다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 맥라렌을 비롯한 다른 브랜드들의 선택은</h2>
+<p><strong>맥라렌 역시 아투라 등 하이브리드 모델을 중심으로 전동화를 진행하고 있지만, 순수 전기 하이퍼카 출시에는 아직 신중한 태도를 보이고 있다.</strong> 업계에서는 람보르기니의 전기차 계획 철회를 계기로, 페라리·맥라렌·애스턴마틴 등 다른 고성능 브랜드들도 순수 전기차 전환 일정을 재검토할 가능성이 제기된다. 이런 분위기 속에서 페라리가 루체를 통해 순수 전기차 노선을 유지한 것은, 하이퍼카 시장에서 상대적으로 이례적인 결정으로 받아들여진다.</p>
+<div class="article-img-wrap">
+<img src="../images/mclaren_artura.webp" alt="맥라렌 아투라, 하이브리드 슈퍼카 모델" width="1280" height="742" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 맥라렌의 하이브리드 슈퍼카 아투라. 맥라렌은 순수 전기 하이퍼카 전환에는 아직 신중한 태도를 유지하고 있다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+<div class="checkpoint-box">
+<p><strong>✅ 페라리 루체 한국 공개, 이것만은 확인하세요</strong></p>
+<p>· 8월 24일 서울 청담 전시장에서 한국 최초 공개, 이후 청담·부산에서 프라이빗 뷰 진행<br>· 최고출력 1,050cv, 0-100km/h 2.5초, 주행거리 약 530km, 국내 가격 약 9억 7,000만원<br>· 페라리 최초의 순수 전기차이자 4도어 5인승 모델, 삼성디스플레이 OLED 계기판 탑재<br>· 페라리는 전기차·하이브리드·내연기관을 병행하는 멀티 에너지 전략 유지<br>· 람보르기니는 순수 전기차 계획을 취소하는 등 경쟁 브랜드와는 상반된 행보</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>페라리 루체의 한국 공개는 단순한 신차 출시를 넘어, 하이퍼카 브랜드들이 전동화 앞에서 엇갈린 선택을 하고 있음을 보여주는 상징적 장면이다. 람보르기니가 순수 전기차 계획을 접고 하이브리드로 방향을 선회한 반면, 페라리는 내연기관·하이브리드 라인업을 유지하면서도 루체를 통해 순수 전기차 노선을 함께 걸어가기로 했다. 1,050마력의 성능과 4도어 5인승이라는 파격을 동시에 갖춘 루체가 국내 하이퍼카 시장에서 어떤 반응을 이끌어낼지 주목된다.</p>
+</div>
+`
+});
+
+const outPath = path.join(__dirname, 'spec_wave2_g7_part2.json');
+fs.writeFileSync(outPath, JSON.stringify(articles, null, 2), 'utf8');
+console.log('written', outPath, articles.length, 'articles');

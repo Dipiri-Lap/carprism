@@ -1,0 +1,296 @@
+const fs = require('fs');
+const path = require('path');
+
+const articles = [];
+
+/* ============ 1. Grandeur GN7 3.5 gasoline price cut ============ */
+articles.push({
+  slug: "hyundai-grandeur-gn7-price-cut-2026",
+  headline: "\"신차 가격 3519만 원으로 내렸다\"... 타는 순간 VIP, 최정상급 세단 정체는?",
+  headlineShort: "그랜저 3.5 가솔린, 580만 원 혜택으로 3519만 원",
+  description: "현대차가 8세대 신형 그랜저를 출시한 뒤에도, 기존형(GN7) 그랜저 3.5 가솔린 재고에 최대 580만 원 혜택을 적용해 실구매가를 3,519만 원까지 낮췄다. 자연흡기 V6 특유의 부드러운 감성과 넓은 2열 공간을 갖춘 대형 세단이 준중형급 가격대에 진입하며 눈길을 끈다.",
+  subtitle: "6기통 자연흡기 엔진의 부드러운 회전감과 널찍한 뒷좌석을 갖춘 대형 세단이 3천만 원대로 내려왔다. 신형 그랜저가 판매되는 와중에도, 기존형 3.5 가솔린 재고에 붙은 최대 580만 원 혜택 덕분이다.",
+  date: "2026-09-10",
+  time: "10:00",
+  sectionName: "국산차",
+  sectionHref: "domestic.html",
+  categoryLabel: "가격",
+  categoryClass: "cat-sales",
+  heroImage: "kr_grandeur_gn7_black_road.webp",
+  heroAlt: "그랜저 GN7 기존형 3.5 가솔린 블랙 색상 측후면, 도로 주행 모습",
+  heroCaption: "신형 그랜저 출시 이후에도 판매 중인 기존형(GN7) 그랜저 3.5 가솔린. 최대 580만 원 혜택으로 실구매가가 3,519만 원까지 낮아졌다",
+  tags: ["그랜저", "그랜저3.5가솔린", "그랜저할인", "현대자동차", "그랜저GN7"],
+  categories: ["domestic"],
+  badge: "가격",
+  badgeClass: "cat-sales",
+  dataSource: "오토트리뷴",
+  imageCredit: "Hyundai Motor / Wikimedia Commons",
+  sources: [
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=45270" }
+  ],
+  body: `
+<h2 id="sec1">1. 4,099만 원 그랜저가 3,519만 원까지... 580만 원 혜택의 정체</h2>
+<p><strong>자연흡기 V6의 부드러운 회전감과 넓은 2열을 갖춘 기존형 그랜저 3.5 가솔린이 4,099만 원부터 시작한다.</strong> 여기에 공식 최대 혜택 580만 원을 단순 반영하면 계산가는 3,519만 원까지 내려간다. 8세대 신형 그랜저(더 뉴 그랜저)가 이미 출시돼 함께 판매되고 있는 상황에서도, V6 자연흡기 엔진을 원하는 소비자라면 가격표를 다시 들여다볼 이유가 생긴 셈이다.</p>
+<p>현대차 공식 가격표 기준 그랜저 전체 시작가는 3,852만 원이지만, 3.5 엔진을 선택하려면 247만 원의 옵션 가격이 더 붙는다. 이 때문에 3.5 가솔린의 실제 시작가는 4,099만 원이며, 여기서 최대 혜택을 차감한 값이 3,519만 원이다.</p>
+<div class="article-img-wrap">
+<img src="../images/hyundai_grandeur_gn7_pe_front.webp" alt="그랜저 GN7 기존형 전측면, 그릴과 헤드램프 디자인" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 기존형(GN7) 그랜저 전측면. 8세대 신형이 출시된 이후에도 3.5 가솔린 재고는 별도 혜택을 받으며 판매되고 있다 <span class="cap-credit">ⓒ Hyundai Motor</span></p>
+</div>
+
+<h2 id="sec2">2. 3.5 가솔린 자연흡기 V6, 무엇이 다른가</h2>
+<p><strong>그랜저 3.5 가솔린을 지탱하는 것은 3,470cc 배기량의 6기통 자연흡기 엔진이다.</strong> 최고출력 290마력, 최대토크 36.2kgf·m를 8단 자동변속기와 맞물려 낸다. 다운사이징 터보 엔진이 대세가 된 지금, 회전수를 끌어올릴수록 힘이 선형적으로 붙는 자연흡기 특유의 감각은 오히려 희소해졌다. 출발부터 고속 주행까지 여유롭게 힘을 이어가는 매끄러운 감각이 3.5 가솔린만의 강점으로 꼽힌다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>그랜저(GN7) 기존형 3.5 가솔린 주요 제원</caption>
+<thead>
+<tr><th>항목</th><th>내용</th></tr>
+</thead>
+<tbody>
+<tr><td>엔진</td><td>3,470cc V6 자연흡기 가솔린</td></tr>
+<tr><td>최고출력</td><td>290마력</td></tr>
+<tr><td>최대토크</td><td>36.2kgf·m</td></tr>
+<tr><td>변속기</td><td>8단 자동</td></tr>
+<tr><td>공식 시작가(3.5 가솔린)</td><td>4,099만 원</td></tr>
+<tr><td>공식 최대 혜택</td><td>580만 원</td></tr>
+<tr><td>계산가</td><td>3,519만 원</td></tr>
+</tbody>
+</table>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 넓은 2열과 고급 소재… 누구에게 맞는 차인가</h2>
+<p><strong>실내는 넓은 2열 공간과 고급 소재, 큼직한 디스플레이를 중심으로 구성됐다.</strong> 뒷좌석 승차감과 정숙성이 좋아 가족용은 물론, 법인 임원차나 장거리 업무용으로도 활용도가 높다는 평가를 받는다. 최신 운전자 보조 기능과 편의 사양까지 갖추고 있어, 비슷한 값의 중고 고급차보다 관리 부담이 적다는 점도 장점이다.</p>
+<p>대형 세단의 정숙성과 고속 안정감을 제대로 즐기고 싶은 운전자, 뒷좌석 손님을 자주 태우는 개인·법인 수요에 특히 잘 맞는 조합이다.</p>
+<div class="article-img-wrap">
+<img src="../images/kr_grandeur_gn7_pe_brown.webp" alt="그랜저 GN7 기존형 브라운 색상, 측면에서 본 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 그랜저 3.5 가솔린은 넓은 2열과 정숙성을 앞세워 장거리 이동이 많은 개인·법인 수요를 겨냥한다 <span class="cap-credit">ⓒ Hyundai Motor</span></p>
+</div>
+
+<h2 id="sec4">4. 제네시스 G80과 나란히 놓고 보면</h2>
+<div class="info-box">
+<p class="info-box-title">📍 그랜저 3.5 vs 제네시스 G80</p>
+<p>차체 크기와 실내 공간만 놓고 보면 그랜저 3.5는 제네시스 G80을 함께 고민하게 만드는 수준이다. 하지만 가격은 훨씬 낮다. 3,519만 원이라는 계산가는 G80 시작가와 1천만 원 이상 차이가 나는 수준으로, 그랜저라는 익숙한 브랜드와 전국 서비스망, 부품 수급의 편의성까지 고려하면 실사용 측면의 이점이 크다. 오래 보유할수록 정비 접근성과 신차 보증의 가치도 함께 커진다.</p>
+</div>
+<div class="article-img-wrap">
+<img src="../images/genesis_g80_2026_front.webp" alt="제네시스 G80 2026년형 전측면" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 제네시스 G80. 그랜저 3.5는 차체·실내 공간에서 G80과 비교되지만 가격대는 뚜렷하게 낮다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 580만 원, 어떻게 채우나 — 혜택 조건 뜯어보기</h2>
+<p><strong>580만 원이라는 최대 혜택은 단일 할인이 아니라 여러 조건을 조합해야 채워지는 구조다.</strong> 핵심은 2026년 7월 이전 생산분에 적용되는 생산월 할인으로, 일반 모델은 300만 원, 3.5 가솔린은 여기에 150만 원을 더 얹은 450만 원이 적용된다. 파워트레인별 재고 소진 의도가 뚜렷한 대목이다. 여기에 인증중고차 트레이드인(50만 원 또는 30만 원), 노후차 조건(20만 원), 전시차(30만 원), 세이브오토(30만 원 또는 50만 원)를 조합하면 공식 최대 580만 원에 도달한다.</p>
+<p>다만 8월과 9월의 공식 최대치는 580만 원으로 동일하지만, 생산월 조건 기준이 6월 이전에서 7월 이전 생산분으로 한 달 이동했다. 신형 그랜저가 함께 판매되기 시작한 만큼, 이 혜택은 결국 기존형 3.5 재고 중 원하는 색상과 옵션을 찾을 수 있느냐가 관건이다. 최신 조건은 현대차 공식 홈페이지에서 확인할 수 있다. <a href="https://www.hyundai.com/kr/ko/e/vehicles/the-new-grandeur/intro" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/kr_grandeur_gn7_silver_rear.webp" alt="그랜저 GN7 기존형 실버 색상 후측면" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 그랜저 3.5 가솔린 후측면. 생산월·트레이드인·노후차·전시차·세이브오토 조건을 조합해야 최대 혜택에 도달한다 <span class="cap-credit">ⓒ Hyundai Motor</span></p>
+</div>
+<div class="checkpoint-box">
+<p><strong>✅ 그랜저 3.5 가솔린 580만 원 혜택, 이것만은 확인하세요</strong></p>
+<p>· 3.5 가솔린 시작가 4,099만 원, 최대 혜택 반영 시 계산가 3,519만 원<br>· 생산월 할인 450만 원은 2026년 7월 이전 생산분 한정, 재고 색상·옵션 확인 필수<br>· 트레이드인·노후차·전시차·세이브오토 조건을 조합해야 최대 580만 원 도달<br>· 제네시스 G80과 비교되는 차체·실내 공간, 가격은 1천만 원 이상 저렴<br>· 도심 정체·장거리 주행이 잦다면 3.5리터 배기량의 연료비 부담도 함께 고려</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>그랜저 3.5 가솔린의 3,519만 원 계산가는 신형 그랜저 출시로 밀려난 기존형 재고를 소진하려는 현대차의 가격 정책에서 나왔다. 자연흡기 V6 특유의 부드러운 감각과 넓은 2열, 제네시스 G80급 실내 공간을 준중형 가격대에 누릴 수 있다는 점이 핵심 매력이다. 다만 580만 원 최대 혜택은 생산월·트레이드인 등 여러 조건을 모두 채워야 하는 만큼, 실구매 전 재고 상태와 본인이 채울 수 있는 조건을 꼼꼼히 따져볼 필요가 있다.</p>
+</div>
+`
+});
+
+/* ============ 2. Genesis One of One US expansion ============ */
+articles.push({
+  slug: "genesis-one-of-one-expansion-us-2026",
+  headline: "21명 요청이 미국까지 움직였다... 제네시스 '원 오브 원' 확장",
+  headlineShort: "제네시스 원 오브 원, 중동·한국 이어 미국 진출",
+  description: "중동 고객 21명의 맞춤 제작 요청에서 출발한 제네시스의 최상위 비스포크 프로그램 '원 오브 원'이 미국 시장으로 무대를 넓힌다. 벤틀리 뮬리너·롤스로이스 비스포크에 견줄 만한 초고급 커스터마이징 서비스로, 제네시스가 글로벌 럭셔리 시장에서 존재감을 키우는 신호탄으로 꼽힌다.",
+  subtitle: "외장 색상부터 실내 소재, 각인까지 고객이 직접 결정하는 제네시스의 최상위 비스포크 서비스 '원 오브 원'이 중동, 한국에 이어 미국으로 영역을 넓힌다. 단 21명의 요청에서 출발한 프로그램은 어떻게 여기까지 왔을까.",
+  date: "2026-09-10",
+  time: "10:10",
+  sectionName: "뉴스",
+  sectionHref: "news.html",
+  categoryLabel: "럭셔리",
+  categoryClass: "cat-genesis",
+  heroImage: "genesis_gv90_neolun_front.webp",
+  heroAlt: "제네시스 GV90 네오룬 콘셉트 전측면, 원 오브 원 비스포크 프로그램 확장을 상징하는 플래그십 모델",
+  heroCaption: "제네시스의 차세대 플래그십 GV90. 원 오브 원 프로그램은 GV90·G90 등 최상위 라인업을 중심으로 미국 시장 확장을 준비하고 있다",
+  tags: ["제네시스", "원오브원", "제네시스원오브원", "GV90", "비스포크"],
+  categories: ["news"],
+  badge: "럭셔리",
+  badgeClass: "cat-genesis",
+  dataSource: "오토트리뷴",
+  imageCredit: "Genesis / Wikimedia Commons",
+  sources: [
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=45226" },
+    { name: "Carscoops", url: "https://carscoops.com/2022/06/genesis-to-launch-one-of-one-division-for-bespoke-builds/amp" },
+    { name: "Autoblog", url: "https://www.autoblog.com/news/genesis-plans-rolls-royce-style-customization-for-u-s-buyers" }
+  ],
+  body: `
+<h2 id="sec1">1. 21명의 요청에서 시작된 프로그램</h2>
+<p><strong>제네시스의 최상위 맞춤 제작 서비스 '원 오브 원(One of One)'은 거창한 시장 조사가 아니라, 중동 고객 단 21명의 구체적인 요청에서 출발했다.</strong> 많지 않은 숫자였음에도 요청 내용이 워낙 구체적이었던 탓에, 제네시스는 이를 계기로 별도 시설과 전담 조직을 갖춘 공식 프로그램으로 발전시켰다. 이렇게 시작된 원 오브 원은 중동과 한국에서의 성공 경험을 발판 삼아, 이제 세계 최대 럭셔리카 시장인 미국으로 무대를 넓히고 있다.</p>
+<div class="article-img-wrap">
+<img src="../images/genesis_gv90_neolun_side.webp" alt="제네시스 GV90 네오룬 콘셉트 측면, 플래그십 SUV 디자인" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 제네시스 플래그십 SUV GV90. 원 오브 원은 브랜드 최상위 모델을 중심으로 고객 맞춤 제작을 지원한다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec2">2. 원 오브 원이란 무엇인가</h2>
+<div class="info-box">
+<p class="info-box-title">📍 원 오브 원(One of One) 프로그램이란</p>
+<p>원 오브 원은 고객이 외장 색상, 실내 소재, 장식 패턴, 각인 등을 직접 선택해 세상에 하나뿐인 자신만의 차량을 완성하는 제네시스의 최고급 맞춤 제작 서비스다. 파워트레인과 변속기, 시트 배열까지 고객의 취향과 필요에 맞춰 조율할 수 있다는 점에서, 일반적인 상위 트림 선택과는 결이 다르다. 2023년 중동 럭셔리 시장에서 처음 선보인 이래, 브랜드가 지향하는 '럭셔리'의 정체성을 보여주는 상징적 서비스로 자리 잡았다.</p>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 중동 → 한국 → 미국, 확장 로드맵</h2>
+<p><strong>원 오브 원은 지역을 넓혀갈 때마다 그 시장 고객의 취향과 구매 방식에 맞춰 서비스를 재설계해왔다.</strong> 중동에서는 21명의 소규모 요청이 프로그램의 씨앗이 됐고, 한국에서는 이를 정식 서비스로 다듬는 과정을 거쳤다. 이제 준비 중인 미국 진출은 세계 최대 럭셔리카 시장을 정조준한 단계로, 제네시스는 미국 고객의 구매 성향에 맞춰 별도의 운영 방식을 설계할 계획이다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>제네시스 원 오브 원 확장 흐름</caption>
+<thead>
+<tr><th>단계</th><th>지역</th><th>내용</th></tr>
+</thead>
+<tbody>
+<tr><td>출발점</td><td>중동</td><td>고객 21명의 맞춤 제작 요청, 전담 시설·조직 구성</td></tr>
+<tr><td>정식화</td><td>한국</td><td>공식 비스포크 프로그램으로 체계화</td></tr>
+<tr><td>확장 단계</td><td>미국</td><td>현지 고객 취향에 맞춘 별도 운영 방식 준비</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/genesis_g90_2gen_a.webp" alt="제네시스 G90 측면, 네이비 색상, 해외 도로 주행 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 제네시스 플래그십 세단 G90. 브랜드 최상위 세단·SUV 라인업이 원 오브 원 프로그램의 주요 대상으로 꼽힌다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec4">4. 벤틀리 뮬리너·롤스로이스 비스포크와 비교하면</h2>
+<p><strong>업계에서는 원 오브 원을 벤틀리 뮬리너와 롤스로이스 비스포크처럼, 차량 자체를 넘어 구매 경험까지 차별화하는 사례로 평가한다.</strong> 롤스로이스 비스포크는 손으로 그린 코치라인, 고객 사양에 맞춰 조색한 단독 외장 컬러, 특정 날짜·장소의 별자리를 재현한 스타라이트 헤드라이너 등 극단적인 개인화로 유명하다. 벤틀리 뮬리너 역시 맞춤 실내 베니어와 수작업 스티칭은 물론, 약 2백만 달러에 달하는 바투르(Batur) 같은 완전 커스텀 원오프 차량까지 제작한다.</p>
+<p>이에 비해 제네시스 원 오브 원은 아직 파워트레인·색상·소재·각인 등 구성 요소 중심의 맞춤화 단계로, BMW·메르세데스·포르쉐가 제공하는 상위 커스터마이징과 뮬리너·롤스로이스 비스포크 사이 어딘가에 위치한다는 것이 업계의 대체적인 평가다.</p>
+<div class="article-img-wrap">
+<img src="../images/genesis_g90_rs4_interior_a.webp" alt="제네시스 G90 실내, 고급 가죽 시트와 우드 트림" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 제네시스 G90 실내. 원 오브 원은 소재·색상·각인 등 세부 요소를 고객이 직접 결정하는 것이 핵심이다 <span class="cap-credit">ⓒ Wikimedia Commons</span></p>
+</div>
+
+<h2 id="sec5">5. 제네시스가 노리는 것 — 브랜드 프리미엄 전략</h2>
+<p><strong>원 오브 원의 미국 진출은 단순한 신규 서비스 출시를 넘어, 제네시스가 '한국의 벤틀리 뮬리너'로 자리매김하려는 장기 전략과 맞닿아 있다.</strong> GV90 같은 플래그십 SUV와 G90 같은 최상위 세단을 앞세워 초고급 시장을 공략하는 동시에, 차량 구매 경험 자체를 프리미엄화함으로써 브랜드 이미지를 한 단계 끌어올리려는 의도로 풀이된다. 관련 소식은 제네시스 뉴스룸에서 확인할 수 있다. <a href="https://newsroom.genesis.com/" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="checkpoint-box">
+<p><strong>✅ 제네시스 원 오브 원, 이것만은 확인하세요</strong></p>
+<p>· 중동 고객 21명의 맞춤 제작 요청에서 시작, 2023년 정식 프로그램화<br>· 외장 색상·실내 소재·각인·파워트레인까지 고객이 직접 결정하는 비스포크 서비스<br>· 중동 → 한국 → 미국 순으로 지역별 맞춤 확장 진행 중<br>· 벤틀리 뮬리너·롤스로이스 비스포크와 비교되지만, 아직 구성 요소 중심 커스터마이징 단계<br>· GV90·G90 등 최상위 라인업을 중심으로 브랜드 프리미엄 전략과 맞물려 확장</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>제네시스 원 오브 원은 단 21명의 요청에서 출발해, 중동과 한국을 거쳐 이제 미국이라는 세계 최대 럭셔리카 시장으로 향하고 있다. 벤틀리 뮬리너, 롤스로이스 비스포크 같은 세계적 비스포크 프로그램과 견줘지기 시작했다는 사실 자체가, 제네시스가 지향하는 럭셔리 브랜드로서의 위상 변화를 보여준다. 미국 시장에 맞춘 구체적인 운영 방식이 공개될 때, 원 오브 원이 실제로 경쟁 프로그램들과 어깨를 나란히 할 수 있을지 판가름 날 전망이다.</p>
+</div>
+`
+});
+
+/* ============ 3. Kia September delivery schedule / 2027 carryover ============ */
+articles.push({
+  slug: "kia-september-delivery-schedule-2027-carryover-2026",
+  headline: "\"9월 안 넘기면 그대로 밀린다\"... 기아 신차 납기표, 경차·EV는 벌써 2027년",
+  headlineShort: "기아 9월 납기표, 레이·EV5는 내년 이월 확정",
+  description: "기아의 2026년 9월 출고 기준 차종별 납기표를 보면 쏘렌토·K5·K8·카니발 등 주력 모델은 한 달 안팎이면 받을 수 있지만, 경차 레이와 EV5 등 일부 전기차는 지금 계약해도 2027년에나 출고된다. 연내 인도를 원한다면 9월 계약이 사실상 마지막 기회로 꼽힌다.",
+  subtitle: "같은 기아차라도 차종에 따라 출고 대기 기간이 최대 10개월까지 벌어진다. 9월에 계약해도 레이는 2027년 여름에나 받을 수 있는 반면, 쏘렌토·K5·K8은 한 달이면 충분하다.",
+  date: "2026-09-10",
+  time: "10:20",
+  sectionName: "국산차",
+  sectionHref: "domestic.html",
+  categoryLabel: "구매가이드",
+  categoryClass: "cat-sales",
+  heroImage: "kia_k5_gt_driving_2026.webp",
+  heroAlt: "기아 K5 주행 모습, 2026년 9월 신차 출고 대기 관련",
+  heroCaption: "기아 K5는 9월 계약 시 4~5주 안에 받을 수 있는 대표적인 '연내 출고 안정권' 모델이다",
+  tags: ["기아신차출고", "기아납기", "기아레이", "기아EV5", "신차계약"],
+  categories: ["domestic"],
+  badge: "구매가이드",
+  badgeClass: "cat-sales",
+  dataSource: "오토트리뷴",
+  imageCredit: "Kia",
+  sources: [
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=45247" },
+    { name: "오토트리뷴", url: "https://www.autotribune.co.kr/news/articleView.html?idxno=45324" }
+  ],
+  body: `
+<h2 id="sec1">1. 같은 기아차, 왜 이렇게 대기 기간이 다를까</h2>
+<p><strong>기아가 공개한 2026년 9월 기준 차종별 출고 대기 현황을 보면, 같은 브랜드 안에서도 납기 편차가 최대 10개월에 달한다.</strong> 세단과 주력 SUV 상당수는 한 달 안팎이면 받을 수 있는 반면, 경차 레이와 일부 신형 전기차는 지금 계약해도 해를 넘겨 2027년에나 출고된다. 반도체 수급이나 특정 옵션의 생산 배분, 신차 초기 주문 쏠림 등이 겹치며 벌어지는 현상으로, 연내 인도를 원한다면 차종별 납기부터 확인하는 것이 필수가 됐다.</p>
+<div class="article-img-wrap">
+<img src="../images/kr_sorento_mq4_hybrid.webp" alt="기아 쏘렌토 하이브리드 4세대(MQ4) 주행 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 기아 쏘렌토 하이브리드. 주력 SUV답게 9월 계약 시 4~5주 만에 받을 수 있는 안정권 모델로 꼽힌다 <span class="cap-credit">ⓒ Kia</span></p>
+</div>
+
+<h2 id="sec2">2. 한 달이면 충분 — 세단·주력 SUV 납기표</h2>
+<p><strong>K5·K8 등 주력 세단과 쏘렌토·카니발 같은 인기 SUV는 여전히 빠른 출고가 가능한 편이다.</strong> K5와 K8은 4~5주, 쏘렌토는 하이브리드 4~5주·가솔린 5~6주 수준이며, 패밀리카로 꾸준히 사랑받는 카니발도 일반 트림 기준 가솔린 5~6주, 하이브리드 2.5개월이면 받을 수 있다. 경형 SUV로 분류되는 니로 하이브리드 역시 4~5주로 빠른 편이다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>기아 주요 차종 출고 대기 현황(2026년 9월 계약 기준)</caption>
+<thead>
+<tr><th>차종</th><th>대기 기간</th><th>비고</th></tr>
+</thead>
+<tbody>
+<tr><td>K5</td><td>4~5주</td><td>연내 출고 안정권</td></tr>
+<tr><td>K8</td><td>4~5주</td><td>시그니처 블랙은 월별 집중 생산</td></tr>
+<tr><td>K9</td><td>2개월</td><td>-</td></tr>
+<tr><td>쏘렌토</td><td>하이브리드 4~5주 / 가솔린 5~6주</td><td>연내 출고 안정권</td></tr>
+<tr><td>카니발(일반)</td><td>가솔린 5~6주 / 하이브리드 2.5개월</td><td>연내 출고 가능</td></tr>
+<tr><td>카니발 하이리무진</td><td>7·9인승 2개월 / 4인승 6개월</td><td>4인승은 연내 출고 어려움</td></tr>
+<tr><td>니로 하이브리드</td><td>4~5주</td><td>연내 출고 안정권</td></tr>
+<tr><td>스포티지</td><td>가솔린·하이브리드 3개월 / LPG 3.5개월</td><td>10월 계약 시 내년으로 이월 위험</td></tr>
+<tr><td>셀토스</td><td>3.5개월</td><td>10월 계약 시 내년으로 이월 위험</td></tr>
+</tbody>
+</table>
+</div>
+
+<!--AD-->
+
+<h2 id="sec3">3. 경차·대형 RV, 이미 2027년 넘어간 모델들</h2>
+<div class="info-box">
+<p class="info-box-title">📍 지금 계약해도 해를 넘기는 모델</p>
+<p>경형 모델인 레이는 가솔린·전기차(EV) 모두 대기 기간이 10개월에 달해, 9월에 계약해도 실제 인도는 2027년 여름께나 가능하다. 카니발 하이리무진 4인승 사양도 6개월 대기로 2027년 초 이월이 유력하다. 전기차 EV5 역시 7개월 대기로, 9월 한정으로 즉시 출고가 가능한 스탠다드 트림을 제외하면 연내 인도가 사실상 불가능하다.</p>
+</div>
+<div class="article-img-wrap">
+<img src="../images/kia_ray_gravity_front34_street.webp" alt="기아 레이 EV 그래비티, 도심 주행 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 기아 레이. 가솔린·EV 모두 대기 기간이 10개월에 달해, 9월 계약분도 2027년 여름에나 받을 수 있다 <span class="cap-credit">ⓒ Kia</span></p>
+</div>
+
+<h2 id="sec4">4. EV 라인업 납기 현황 — EV9은 빠르고, EV5는 느리다</h2>
+<p><strong>전기차 라인업 안에서도 모델별 편차가 크다.</strong> 플래그십 EV9은 2.5개월로 비교적 빠른 편이고, EV6는 4개월, EV3·EV4는 5개월 수준이다. 반면 EV5는 7개월로 가장 긴 축에 속하며, 9월 한정으로 스탠다드 트림만 즉시 출고가 가능한 상황이다. 상용 전기차 PV5는 패신저·카고 5개월, 오픈베드 4개월로 집계된다.</p>
+<div class="spec-table-wrap">
+<table class="spec-table align-left">
+<caption>기아 전기차(EV) 라인업 출고 대기 현황</caption>
+<thead>
+<tr><th>차종</th><th>대기 기간</th></tr>
+</thead>
+<tbody>
+<tr><td>EV9</td><td>2.5개월</td></tr>
+<tr><td>EV6</td><td>4개월</td></tr>
+<tr><td>EV3 / EV4</td><td>5개월</td></tr>
+<tr><td>EV5</td><td>7개월(9월 한정 스탠다드 트림 즉시 출고 예외)</td></tr>
+<tr><td>PV5</td><td>패신저·카고 5개월 / 오픈베드 4개월</td></tr>
+<tr><td>레이 EV</td><td>10개월</td></tr>
+</tbody>
+</table>
+</div>
+<div class="article-img-wrap">
+<img src="../images/kia_ev5_front.webp" alt="기아 EV5 전측면, 주차된 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 기아 EV5. 7개월의 긴 대기 기간 탓에 스탠다드 트림을 제외하면 연내 출고가 사실상 불가능하다 <span class="cap-credit">ⓒ Kia</span></p>
+</div>
+
+<h2 id="sec5">5. 9월 계약이 왜 중요한가 — 연내 출고 팁</h2>
+<p><strong>스포티지(가솔린·하이브리드 3개월)와 셀토스(3.5개월)처럼 '경계선'에 있는 모델은 9월 초 계약 시 12월 중순~말 사이 간신히 연내 인도가 가능하지만, 10월로 계약이 넘어가면 출고 시점이 2027년 1월로 밀릴 수 있다.</strong> 반대로 K5·K8·쏘렌토·니로 하이브리드처럼 4~5주 안팎의 모델은 시기와 크게 상관없이 비교적 안정적으로 연내 출고가 가능한 편이다.</p>
+<p>연내 출고를 원한다면 우선순위는 명확하다. 대기 기간이 짧은 모델은 서두를 필요가 적지만, 스포티지·셀토스처럼 경계선에 걸린 차종은 9월 안에 계약을 마쳐야 안전하다. 레이·EV5·카니발 하이리무진 4인승처럼 이미 대기 기간이 6개월을 넘는 차종은 애초에 2027년 인도를 전제로 계획을 세우는 편이 현실적이다. 최신 납기 정보는 기아 공식 홈페이지에서 확인할 수 있다. <a href="https://www.kia.com/kr/" class="inline-link-btn" target="_blank" rel="noopener">바로가기</a></p>
+<div class="article-img-wrap">
+<img src="../images/kia_carnival_ka4_dc.webp" alt="기아 카니발 4세대(KA4) 전측면 주행 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+<p class="article-img-caption">▲ 기아 카니발. 일반 트림은 연내 출고가 가능하지만, 하이리무진 4인승은 6개월 대기로 2027년 이월이 유력하다 <span class="cap-credit">ⓒ Kia</span></p>
+</div>
+<div class="checkpoint-box">
+<p><strong>✅ 기아 9월 신차 납기, 이것만은 확인하세요</strong></p>
+<p>· K5·K8·쏘렌토·니로 하이브리드는 4~5주로 연내 출고 안정권<br>· 스포티지·셀토스는 3~3.5개월, 10월 계약 시 내년 1월로 밀릴 위험<br>· 레이(가솔린·EV 모두 10개월), 카니발 하이리무진 4인승(6개월)은 2027년 이월 유력<br>· EV5는 7개월 대기, 9월 한정 스탠다드 트림만 즉시 출고 가능<br>· EV9(2.5개월)·EV6(4개월)·EV3·EV4(5개월)는 상대적으로 빠른 편</p>
+</div>
+
+<div class="summary-box" id="summary">
+<h2>6. 정리</h2>
+<p>기아의 9월 출고 기준 납기표는 같은 브랜드 안에서도 차종별 온도차가 뚜렷하다는 점을 보여준다. K5·K8·쏘렌토처럼 한 달 안팎이면 받는 모델이 있는가 하면, 레이·EV5·카니발 하이리무진 4인승처럼 이미 2027년 인도가 사실상 확정된 모델도 있다. 특히 스포티지·셀토스처럼 3개월 안팎의 '경계선' 차종은 9월 계약 여부에 따라 연내 인도와 해넘김이 갈리는 만큼, 지금 계약을 고민 중이라면 원하는 차종의 최신 납기부터 확인하는 것이 순서다.</p>
+</div>
+`
+});
+
+const outPath = path.join(__dirname, 'spec_wave2_g3.json');
+fs.writeFileSync(outPath, JSON.stringify(articles, null, 2), 'utf8');
+console.log('written', outPath, articles.length, 'articles');
