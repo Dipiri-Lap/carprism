@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeonggwang-bulgapsa-flower-2026",
+    title: "\"오후 2시면 이미 늦었다\"… 불갑사 꽃무릇, 주차장부터 동백골까지 시간순으로 따라가 봤다",
+    date: "2026-09-11",
+    image: "bulgapsa_daeungjeon_hero.webp",
+    categories: ["travel"],
+    tags: ["불갑사꽃무릇", "불갑산상사화축제", "영광불갑사주차장", "불갑사동백골", "선운사꽃무릇비교"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "영광군청 / 불갑산상사화축제 공식 홈페이지",
+    desc: "전남 영광 불갑사에서 9월 18일부터 열리는 제26회 불갑산상사화축제. 주차장 도착부터 동백골 군락지, 야간 프로그램, 귀가 동선까지 실제 방문 순서대로 정리했다. 주차장 위치, 걷는 거리, 혼잡 시간대, 선운사와의 차이까지 자동차 매체 관점에서 짚었다."
+  },
+  {
+    slug: "hampyeong-yongcheonsa-flower-2026",
+    title: "\"열흘간 40만 명이 다녀갔는데, 이 절 얘기는 없습니다\"… 3대 꽃무릇 명소를 숫자로 갈라봤다",
+    date: "2026-09-11",
+    image: "yongcheonsa_flowerfield_pavilion.webp",
+    categories: ["travel"],
+    tags: ["함평용천사", "꽃무릇축제2026", "선운사불갑사비교", "상사화명소주차", "9월가을축제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "함평문화원 / 베타뉴스 / 카프리즘 기획 기사",
+    desc: "9월 16일 개막하는 함평 용천사 꽃무릇축제를 앞두고 고창 선운사·영광 불갑사와 규모·방문객·주차 사정을 비교했다. 축제 기간, 확인된 방문객 수, 진입로 형태까지 숫자로 갈라본 3대 꽃무릇 명소 안내."
+  },
+  {
+    slug: "jeju-saebyeol-oreum-silvergrass-2026",
+    title: "\"주차하고 20분이면 억새 능선\"… 새별오름, 그래서 언제 가야 하나",
+    date: "2026-09-11",
+    image: "saebyeol_ridge_sunset_grass.webp",
+    categories: ["travel"],
+    tags: ["새별오름", "새별오름억새", "제주들불축제", "제주오름등반", "애월읍여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "제주시 문화관광 / 제주환경일보 / 미디어제주",
+    desc: "제주시 애월읍 새별오름은 주차장에서 정상까지 20~30분이면 닿는 초보자용 오름이다. 억새는 10월 초중순부터 11월까지가 절정이며, 표고 519.3m·비고 119m로 동쪽 사면은 완만하고 서쪽 사면은 가파르다. 주차장 규모, 운동화 착용 여부, 매년 3월 열리는 제주들불축제와의 관계, 1100도로·한라산과 하루에 묶을 수 있는지까지 방문 전 가장 많이 묻는 질문에 답했다."
+  },
+  {
+    slug: "jeongseon-mindungsan-silvergrass-2026",
+    title: "\"왕복 3시간이냐, 1시간이냐\"… 정선 민둥산 억새, 코스 하나로 갈리는 하루 예산",
+    date: "2026-09-11",
+    image: "mindungsan_ridge_trail_crowd.webp",
+    categories: ["travel"],
+    tags: ["정선민둥산", "민둥산억새축제", "발구덕코스", "증산초교코스", "가을억새산행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "정선군청·경향신문 종합",
+    desc: "강원 정선 민둥산 억새 산행, 증산초교 코스와 발구덕 코스의 등산 시간·주차·셔틀 비용을 분 단위·원 단위로 쪼갠 예산표로 비교했다."
+  },
+  {
+    slug: "pocheon-myeongseongsan-silvergrass-2026",
+    title: "\"수도권에서 제일 가깝다는 억새밭인데, 왜 이렇게 막힐까\"… 포천 명성산 산정호수, 주차 전쟁의 진짜 원인",
+    date: "2026-09-11",
+    image: "myeongseongsan_silvergrass_trail_crowd.webp",
+    categories: ["travel"],
+    tags: ["명성산억새", "산정호수주차장", "포천여행", "명성산등산코스", "가을억새명소"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "포천시청 / 경인일보",
+    desc: "10월 중순 절정에 이르는 포천 명성산 억새. 서울에서 가장 가까운 5대 억새군락지라는 이유로 산정호수 주차장은 오전부터 마비된다. 주차장 구조와 국도 병목이라는 두 가지 원인을 짚고, 시간대 회피와 대중교통 연계라는 해결책까지 정리했다."
+  },
+  {
+    slug: "hapcheon-hwangmaesan-silvergrass-2026",
+    title: "\"봄엔 셔틀버스, 가을엔 내 차\" — 황매산이 계절마다 통제 방식을 바꾸는 이유",
+    date: "2026-09-11",
+    image: "hwangmaesan_autumn_silvergrass_sunset_ridge.webp",
+    categories: ["travel"],
+    tags: ["황매산억새", "황매산철쭉", "황매산주차", "황매산임도", "모산재코스"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "합천 황매산군립공원 / 경남축제다모아 / 대한민국 구석구석 / 카프리즘 기획 기사",
+    desc: "경남 합천 황매산은 5월엔 철쭉, 10월엔 억새로 두 번 절정을 맞는다. 같은 임도인데 봄엔 셔틀버스 중심, 가을엔 자차 진입 중심으로 통제 방식이 달라지는 이유와 계절별 주차·접근 동선을 비교했다."
+  },
+  {
     slug: "amg-cle646-limited-2026",
     title: "\"BMW M4는 이미 이겼다, 그런데 살 수가 없다\"… AMG가 30대만 만든 괴물 쿠페",
     date: "2026-09-11",
