@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "leaf-covered-road-braking-distance-2026",
+    title: "\"비도 안 오는데 왜 미끄러웠지\"… 출퇴근길 낙엽, 브레이크가 안 먹는 진짜 이유",
+    date: "2026-09-11",
+    image: "leaf-road-braking_1.webp",
+    categories: ["life"],
+    tags: ["가을철운전주의보", "낙엽미끄럼사고", "제동거리", "안전운전", "도심교통사고"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 / 한국교통안전공단 / KWQC(美) / 카프리즘 기획 기사",
+    desc: "가을철 도심 도로에 쌓인 낙엽이 비에 젖으면 마찰계수가 빙판 수준까지 떨어져 제동거리가 크게 늘어난다. 산길이 아닌 출퇴근길 시내 도로·횡단보도 앞에서 벌어지는 낙엽 미끄럼 위험과 안전운전 수칙을 짚어본다."
+  },
+  {
+    slug: "autumn-tire-pressure-drop-2026",
+    title: "\"어제까지 멀쩡했는데\"… 가을 아침마다 타이어 경고등이 뜨는 진짜 이유",
+    date: "2026-09-11",
+    image: "tire-pressure-autumn_1.webp",
+    categories: ["life", "news"],
+    tags: ["가을철타이어관리", "타이어공기압일교차", "타이어공기압자연감소", "TPMS경고등가을", "냉간공기압점검"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "콘티넨탈코리아 / GM코리아 / 제주의소리",
+    desc: "가을철 아침저녁 일교차가 벌어지면 타이어 공기압이 자연스럽게 떨어져 TPMS 경고등이 켜지는 사례가 늘어난다. 기온과 공기압의 물리적 관계, TPMS 경고등이 켜지는 정확한 기준, 올바른 냉간 공기압 점검법까지 수치로 정리했다."
+  },
+  {
+    slug: "windshield-oil-film-removal-2026",
+    title: "\"와이퍼 새 걸로 갈아도 그대로\"… 비 오는 밤 헤드라이트가 번져 보인다면 유막부터 의심하라",
+    date: "2026-09-11",
+    image: "windshield-oil-film-removal_1.webp",
+    categories: ["life"],
+    tags: ["앞유리유막", "유막제거", "유막제거제", "야간빛번짐", "발수코팅"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "엔카미디어 / 킥스만 / 카프리즘 기획 기사",
+    desc: "맑은 날엔 안 보이다가 비 오는 밤에만 나타나는 앞유리 뿌연 번짐, 와이퍼를 갈아도 낫지 않는다면 범인은 십중팔구 유막이다. 유막이 생기는 원인(배기가스·왁스 잔여물·와이퍼 고무 마모), 제거제·클레이바로 없애는 순서, 방치했을 때 야간·우천 시야에 미치는 영향과 재발 주기까지 정리했다."
+  },
+  {
+    slug: "autumn-undercarriage-wash-corrosion-2026",
+    title: "\"여름 바다는 다녀왔는데, 하부세차는 하셨나요?\"… 가을까지 남은 염분이 차를 갉아먹는다",
+    date: "2026-09-11",
+    image: "undercarriage-wash-autumn_1.webp",
+    categories: ["life"],
+    tags: ["하부세차", "차량부식방지", "염분부식", "가을세차", "하부세차주기"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "킥스사이다 / 프레시안 / 아하 / 카프리즘 기획 기사",
+    desc: "여름철 바닷가·계곡을 다녀온 차량 하부에는 염분과 모래, 유기물이 그대로 눌어붙어 있는 경우가 많다. 이 염분이 습기와 만나 전해질 역할을 하며 부식을 촉진하는 원리, 방치했을 때 브레이크 라인·머플러·서스펜션까지 번지는 문제, 셀프·자동·전문점별 하부세차 비용과 권장 주기를 정리했다."
+  },
+  {
+    slug: "new-license-plate-regulation-2026",
+    title: "\"야간에 잘 안 보인다더니\"… 2026년 11월, 번호판이 6배 밝아집니다",
+    date: "2026-09-11",
+    image: "license-plate-2026_1.webp",
+    categories: ["life"],
+    tags: ["개선형번호판", "자동차번호판교체", "번호판반사성능", "국토교통부번호판고시", "번호판보증기간"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "엠투데이 / 대한민국 정책브리핑",
+    desc: "2026년 11월 28일부터 반사성능이 최대 6배 강화된 개선형 자동차 번호판이 시행된다. 5년 보증기간 명문화, 생산정보 표시 의무화 등 달라지는 점과 기존 차량 교체 의무 여부를 정리했다."
+  },
+  {
+    slug: "school-zone-regulation-2026",
+    title: "\"스쿨존 전부 시속 20km 된다\"… 2026년 진짜 달라진 것 5가지",
+    date: "2026-09-11",
+    image: "schoolzone-2026_1.webp",
+    categories: ["life"],
+    tags: ["스쿨존2026", "어린이보호구역단속강화", "스쿨존20km하향", "무인단속카메라확대", "후면번호판단속"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "경찰청 / 서울시 / 카프리즘 기획 기사",
+    desc: "2026년 스쿨존 전체가 시속 20km로 바뀐다는 소문은 경찰청이 직접 부인한 가짜뉴스다. 실제로는 일부 이면도로만 선택적으로 20km로 낮아지고, 대신 무인단속카메라와 오토바이 후면번호판 단속이 확대된다. 진짜 달라진 것과 헷갈리는 것을 구분했다."
+  },
+  {
+    slug: "mileage-insurance-discount-refund-2026",
+    title: "\"1년 타고 27만 원 돌려받았습니다\"… 마일리지 특약, 사진 두 장을 놓치면 전부 날아간다",
+    date: "2026-09-11",
+    image: "mileage_insurance_discount_odometer_photo.webp",
+    categories: ["life"],
+    tags: ["마일리지특약", "자동차보험환급", "주행거리할인", "자동차보험특약", "보험료절약"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "손해보험협회 / KB손해보험 / 삼성화재 다이렉트",
+    desc: "자동차보험 마일리지 특약은 주행거리가 적을수록 보험료를 돌려주는 제도지만, 가입만 해서는 소용없다. 가입 시점과 만기 시점에 계기판·번호판 사진을 각각 등록해야 하고, 기간을 놓치면 환급 자체가 사라진다. 선할인형과 후환급형의 차이, 보험사별 할인율, 사진 촬영 시 흔히 저지르는 실수, 환급이 들어오는 시점까지 실제 신청 절차를 따라 정리했다."
+  },
+  {
     slug: "yeonggwang-bulgapsa-flower-2026",
     title: "\"오후 2시면 이미 늦었다\"… 불갑사 꽃무릇, 주차장부터 동백골까지 시간순으로 따라가 봤다",
     date: "2026-09-11",
