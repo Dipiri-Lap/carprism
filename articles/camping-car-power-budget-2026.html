@@ -52,7 +52,7 @@
   "description": "차박 중 전기장판·미니냉장고·선풍기·조명을 함께 켜두면 일반 차량 배터리 용량을 쉽게 넘어선다. 기기별 소비전력(W)에 사용시간을 곱해 필요한 전력량(Wh)을 미리 계산하는 '전력 예산표' 작성법과, 자동차 배터리로 감당 가능한 한계, 보조배터리(파워뱅크)가 필요한 시점을 구체적 수치로 정리했다.",
   "image": ["https://carprism.tmhub.co.kr/images/camping-car-power-budget_1.webp"],
   "datePublished": "2026-09-11T15:00:00+09:00",
-  "dateModified": "2026-09-11T15:00:00+09:00",
+  "dateModified": "2026-09-11T23:59:00+09:00",
   "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
   "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
 }
@@ -138,6 +138,8 @@
           <time class="meta-item" datetime="2026-09-11">2026년 9월 11일</time>
           <div class="meta-divider"></div>
           <span class="meta-item">읽는 시간 약 9분</span>
+          <div class="meta-divider"></div>
+          <time class="meta-item meta-updated" datetime="2026-09-11">최종 수정 2026년 9월 11일</time>
         </div>
       </header>
 
@@ -198,6 +200,11 @@
 </div>
 <p>여기서 끝이 아니다. 실제로는 여러 기기를 <strong>동시에</strong> 켜두는 경우가 많으므로, 필요 전력량은 각 기기의 값을 더한 '합산'으로 계산해야 한다. 전기장판만 켜는 것과, 전기장판에 냉장고·선풍기·랜턴까지 얹는 것은 완전히 다른 이야기다.</p>
 
+<div class="info-box">
+<p class="info-box-title">📍 시거잭 직결 vs 인버터 경유 — 15% 손실은 언제 붙나</p>
+<p>모든 기기에 인버터 변환손실 15%가 붙는 건 아니다. 전기장판이나 차량용 냉장고처럼 <strong>12V 시거잭(DC)에 바로 꽂는 제품</strong>은 전압을 바꾸는 과정이 없어 손실이 거의 없다. 반대로 <strong>220V 콘센트용 가전을 쓰려면 12V→220V로 바꿔주는 인버터를 거쳐야</strong> 하고, 이 변환 단계에서 전기 에너지 일부가 열로 빠져나가는데 그 손실률이 약 15%다. 즉 같은 45W짜리 미니냉장고라도 12V DC 전용 모델은 계산값 그대로 쓰면 되지만, 220V AC 콘센트에 꽂는 가정용 소형 냉장고를 인버터로 돌린다면 필요 전력량에 ÷0.85를 곱해 여유분을 더 얹어야 방전을 피할 수 있다. 구매 전 제품이 DC 12V용인지 AC 220V용인지부터 확인하는 게 먼저다.</p>
+</div>
+
 <div class="article-img-wrap">
 <img src="../images/camping-car-power-budget_4.webp" alt="SUV 트렁크 차박 공간에 미니냉장고, 미니 선풍기, LED 랜턴이 하나의 멀티 케이블 허브에 함께 연결되어 있는 모습" loading="lazy">
 <p class="article-img-caption">▲ 미니냉장고, 선풍기, 랜턴을 동시에 연결해 쓰면 필요 전력량은 단순히 더한 값이 된다</p>
@@ -257,6 +264,13 @@
 </div>
 <p>보조배터리(포터블 파워뱅크)는 리튬인산철(LFP) 배터리를 쓰는 제품이 대부분이며, 위에서 계산한 필요 전력량에 맞춰 용량을 고르면 된다. 대표적으로 잭커리(Jackery) 300 Plus는 <strong>288Wh 용량, 정격 출력 300W</strong>에 무게 3.75kg으로, 랜턴·스마트폰·선풍기 정도의 미니멀~중간 구성이라면 하룻밤을 버티기에 충분하다. 반면 전기장판과 냉장고를 함께 쓰는 풀세팅 구성이라면 300Wh급 한 대로는 부족하고, <strong>800~1,000Wh 이상급</strong> 제품을 따로 준비하거나 300Wh급을 여러 대 조합해야 한다.</p>
 <a href="https://kr.jackery.com/products/jackery-%ED%9C%B4%EB%8C%80%EC%9A%A9-%ED%8C%8C%EC%9B%8C%EB%B1%85%ED%81%AC-300-plus" class="inline-link-btn" target="_blank" rel="noopener">제품 스펙 확인 가능</a>
+
+<div class="article-img-wrap">
+<img src="../images/camping-car-power-budget_5.webp" alt="SUV 트렁크를 열고 휴대용 태양광 패널을 캠핑 의자 옆에 펼쳐 케이블로 트렁크 안 파워뱅크에 연결해 낮 시간 충전 중인 모습" loading="lazy">
+<p class="article-img-caption">▲ 휴대용 태양광 패널로 낮 동안 파워뱅크를 미리 채워두면 밤에 쓸 전력 여유가 늘어난다</p>
+</div>
+<p>보조배터리 용량을 넉넉하게 준비했더라도 2박 이상 이어지는 차박에서는 결국 방전 걱정이 다시 찾아온다. 이때 고려할 수 있는 게 <strong>휴대용 태양광 패널(솔라 패널)을 이용한 보조 충전</strong>이다. 100W급 접이식 패널 기준으로 맑은 날 한낮에는 시간당 60~80Wh 안팎을 파워뱅크에 채워 넣을 수 있어, 낮 동안 차를 세워두고 캠핑장 활동을 하는 사이 밤에 쓸 전력을 미리 벌어두는 방식이다. 다만 흐린 날이나 그늘에서는 출력이 절반 이하로 뚝 떨어지고, 패널을 펼치고 각도를 맞추는 수고가 들어가는 만큼 '없어도 되지만 있으면 방전 위험을 크게 줄여주는' 보조 수단으로 보는 게 맞다. 주행 중 시거잭이나 완속 충전으로 파워뱅크를 채우는 방식과 병행하면, 하루 중 절반 이상을 태양광·주행 충전으로 메우고 밤에는 저장된 용량만 소비하는 구조를 만들 수 있다.</p>
+
 <div class="info-box">
 <p class="info-box-title">📍 보조배터리 고를 때 체크할 것</p>
 <p>제품 스펙에는 보통 <strong>용량(Wh)</strong>과 <strong>정격 출력(W)</strong>이 따로 표기된다. 용량은 '얼마나 오래' 쓸 수 있는지를, 정격 출력은 '동시에 얼마나 큰 부하'를 감당할 수 있는지를 뜻한다. 전기장판(40W)과 냉장고(45W), 선풍기(30W)를 동시에 켠다면 합산 부하는 약 115W이므로, 정격 출력이 이보다 넉넉한 제품을 골라야 한다. 용량만 크고 정격 출력이 낮은 제품은 여러 기기를 동시에 켜는 순간 과부하로 꺼질 수 있다.</p>
