@@ -5,7 +5,111 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 11 Sep 2026 13:45:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 14:33:47 GMT</lastBuildDate>
+    <item>
+      <title>&quot;차는 빌리는데, 나는 왜 사진부터 찍고 있지?&quot;… 쏘카 첫 이용, 예약보다 이 10분이 중요하다</title>
+      <link>https://carprism.tmhub.co.kr/articles/socar-first-use-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/socar-first-use-guide-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>쏘카·그린카 같은 카셰어링은 렌터카와 달리 사람을 만나지 않고 시간 단위로 차를 빌린다. 예약부터 대여 10분 전 외관 촬영, 주유카드 사용법, 반납 사진, 사고 발생 시 대응까지 실제 이용 순서대로 수치와 함께 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/socar-first-use-guide_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;이 정도 흠집은 그냥 반납해도 되겠지&quot;… 다음 이용자가 발견하는 순간 이야기가 달라진다</title>
+      <link>https://carprism.tmhub.co.kr/articles/carsharing-unreported-damage-penalty-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/carsharing-unreported-damage-penalty-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>카셰어링 이용 중 생긴 경미한 흠집을 신고하지 않고 그냥 반납하면 어떻게 될까. 다음 이용자가 발견해 신고하는 순간부터 벌어지는 일과, 면책금 제도가 통째로 무효화되는 약관상 구조를 실제 사례와 함께 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/carsharing-unreported-damage_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;12개 중 살아남은 건 1개뿐&quot;… 반려동물 하네스, 아무거나 채우면 안 되는 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/pet-car-safety-harness-carseat-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/pet-car-safety-harness-carseat-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>반려동물과 차를 탈 때 하네스, 전용 카시트, 이동장(켄넬) 중 무엇을 골라야 할까. 해외 충돌 테스트 결과와 장비별 구조·장단점·가격대를 비교했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/pet-carseat-harness_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;전기장판 8시간 켰더니 아침에 시동이 안 걸렸다&quot;… 차박 배터리, 방전 전에 계산부터 하라</title>
+      <link>https://carprism.tmhub.co.kr/articles/camping-car-power-budget-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/camping-car-power-budget-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>차박 중 전기장판·미니냉장고·선풍기·조명을 함께 켜두면 일반 차량 배터리 용량을 쉽게 넘어선다. 기기별 소비전력(W)에 사용시간을 곱해 필요한 전력량(Wh)을 미리 계산하는 &apos;전력 예산표&apos; 작성법과, 자동차 배터리로 감당 가능한 한계, 보조배터리(파워뱅크)가 필요한 시점을 구체적 수치로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/camping-car-power-budget_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;여기 세워도 되나요?&quot;… 차박 애매한 장소 7곳, 법적 기준으로 정리했다</title>
+      <link>https://carprism.tmhub.co.kr/articles/camping-car-parking-legal-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/camping-car-parking-legal-guide-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>공영주차장, 해수욕장, 고속도로 휴게소, 아파트 방문자 주차장, 사유지까지 차박할 때 애매한 장소 7곳의 법적 근거와 과태료를 정리했다. 2024년 9월 20일 개정 주차장법부터 자연공원법, 도로교통법까지 실제 조문 기준으로 짚었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/camping-car-parking-legal_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;세차는 하는데 왜 표면이 까끌까끌하지&quot;… 손세차 졸업하고 셀프 디테일링 시작하는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/self-detailing-beginner-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/self-detailing-beginner-guide-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>손세차와 자동세차는 오염물을 씻어내는 &apos;세정&apos;일 뿐, 도장면 속 오염물 제거·미세 스크래치 연마·보호막 형성까지 포함하는 디테일링과는 범위가 다르다. 클레이바→폴리싱→왁스/코팅으로 올라가는 레벨업 구조로 셀프 디테일링 입문 단계별 필요 장비, 비용, 소요시간, 난이도를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/self-detailing-guide_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;물티슈로 매일 닦았을 뿐인데&quot;… 가죽시트가 갈라진 진짜 이유</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-seat-stain-odor-removal-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-seat-stain-odor-removal-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>가죽·패브릭·알칸타라는 세척 원리부터 정반대다. 소재를 착각해 잘못된 방법으로 관리하면 오히려 시트가 손상된다. 소재별 금지 세제와 관리 주기, 담배·음식물·습기로 생기는 냄새의 원인과 올바른 제거법을 비교표로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/car-seat-stain-odor-removal_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;주차장만 보면 심장이 뛴다&quot;… 초보운전 트라우마, 4주 감각 훈련이면 끝난다</title>
+      <link>https://carprism.tmhub.co.kr/articles/beginner-driver-parking-training-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/beginner-driver-parking-training-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>초보 운전자가 가장 무서워하는 순간은 고속도로가 아니라 주차장이다. 사이드미러 조정부터 차폭 감각, 후방 기준점 잡기, 평행주차까지 실제 운전 강사가 가르치는 방식대로 4주 단계별 훈련 프로그램으로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/beginner-driver-parking-training_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;그냥 태워준 건데 왜 제가 다 책임져요?&quot;… 학부모 카풀, 사고 나면 법은 이렇게 봅니다</title>
+      <link>https://carprism.tmhub.co.kr/articles/carpool-school-legal-liability-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/carpool-school-legal-liability-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>학부모들끼리 돌아가며 자녀를 통학시키는 카풀 중 사고가 나면 책임은 누구에게 있을까. 무상 호의동승의 운전자 책임 범위, 기름값을 주고받는 카풀의 여객자동차법 위반 여부, 내 보험으로 다른 집 아이가 다쳤을 때의 보상 처리까지 법조문과 판례로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/carpool-school-legal-liability_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;분명 괜찮았는데 갑자기 토했어요&quot;… 아이 차멀미, 원인 모르고 대처하면 소용없다</title>
+      <link>https://carprism.tmhub.co.kr/articles/kids-car-sickness-prevention-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kids-car-sickness-prevention-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>장거리 드라이브 중 아이가 겪는 차멀미는 원인이 제각각이다. 전정기관과 시각 정보의 불일치, 공복·과식, 냄새 민감, 근거리 시선 집중까지 원인별 대처법과 소아 멀미약 복용 기준을 짚어본다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/kids-car-sickness-prevention_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;표시 성능 대비 4~5%&quot;— 차량용 공기청정기, 컵홀더에 꽂기만 하면 될까</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-air-purifier-humidifier-review-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-air-purifier-humidifier-review-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>차량용 공기청정기의 CADR·헤파 등급 표기는 왜 과장되기 쉬운지, 2019년 정부 공동조사에서 드러난 실제 성능 수치와 밀폐된 차 안에서 가습기가 김서림·세균 번식을 유발할 수 있는 이유를 스펙 비교로 짚었다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/car-air-purifier-humidifier-review_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;표지는 붙어 있는데 왜 과태료가 나왔지?&quot;… 장애인전용주차구역, 진짜 위반 기준은 따로 있다</title>
+      <link>https://carprism.tmhub.co.kr/articles/disabled-parking-enforcement-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/disabled-parking-enforcement-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>장애인전용주차구역은 표지만 있으면 끝이 아니다. 표지 미부착 10만원, 진입로 가로막기 50만원, 표지 부당사용 최대 200만원까지 — 실제 자주 걸리는 위반 유형별로 과태료와 법적 근거를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/disabled-parking-enforcement-2026_1.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;정말 5분이면 될까&quot; 자동차등록증 재발급, 직접 순서대로 짚어봤다</title>
+      <link>https://carprism.tmhub.co.kr/articles/vehicle-registration-reissue-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vehicle-registration-reissue-guide-2026.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>자동차등록증을 잃어버렸거나 훼손됐을 때 재발급받는 방법을 온라인(자동차365·정부24)과 오프라인(차량등록사업소) 절차로 나눠 단계별로 비교했다. 수수료·구비서류·소요시간까지 정부 공식 자료로 확인했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/vehicle-registration-reissue-guide_1.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;비도 안 오는데 왜 미끄러웠지&quot;… 출퇴근길 낙엽, 브레이크가 안 먹는 진짜 이유</title>
       <link>https://carprism.tmhub.co.kr/articles/leaf-covered-road-braking-distance-2026.html</link>
@@ -141,110 +245,6 @@
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <description>오토헤럴드가 시승한 8세대 디 올 뉴 아반떼 하이브리드의 승차감, 핸들링, 정숙성, 연비 체감을 카프리즘이 국내 시승기들과 함께 정리했다. 157마력 하이브리드 시스템과 커진 차체가 만든 변화를 다뤘다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/avante8gen_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;7.3m 거구인데 운전은 의외로 쉬웠다&quot;…벤츠 스프린터 15인승이 노리는 영업용 시장</title>
-      <link>https://carprism.tmhub.co.kr/articles/benz-sprinter-15seater-test-drive-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/benz-sprinter-15seater-test-drive-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>오토헤럴드가 시승한 메르세데스-벤츠 스프린터 15인승 모델을 카프리즘이 재구성했다. 전장 7.3m급 대형 밴의 운전 체감, 파워트레인, 실내 구성과 함께 현대 쏠라티·포드 트랜짓 등 경쟁 모델 가격을 비교했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/benzsprinter_hero_side.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;전기차와 구분 안 될 것&quot;... BMW 3시리즈, 노이어클라쎄 입고 완전변경 예고</title>
-      <link>https://carprism.tmhub.co.kr/articles/bmw-3series-mclaren-gts-2027-preview.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-3series-mclaren-gts-2027-preview.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>BMW가 2027년형 8세대 3시리즈(G50)를 노이어클라쎄 디자인 언어로 완전변경하겠다고 예고했다. 같은 시기 맥라렌도 아르투라 후속 하이브리드 슈퍼카 &apos;P34&apos;를 예고하며 라인업 재편에 나섰다. 두 브랜드의 2027년 신차 전략을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/preview2027_bmw3series_current_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;계기판을 없앴다&quot;… BMW 첫 노이어 클라쎄 iX3, 아이오닉5·모델Y와 붙어도 괜찮을까</title>
-      <link>https://carprism.tmhub.co.kr/articles/bmw-ix3-neue-klasse-korea-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bmw-ix3-neue-klasse-korea-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>BMW 첫 노이어 클라쎄 양산차 iX3의 디자인 언어 의미, 108.7kWh 배터리·611km 주행거리·800V 초급속충전 제원, 국내 트림별 가격, 아이오닉5·EV6·테슬라 모델Y 비교까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/bmw_ix3_na5_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;위장막 벗고 서울을 달렸다&quot;… GM 뷰익 &apos;엘렉트라 E7&apos;, 연말 국내 상륙하나</title>
-      <link>https://carprism.tmhub.co.kr/articles/buick-electra-e7-korea-test-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/buick-electra-e7-korea-test-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>GM 뷰익의 중형 PHEV SUV 엘렉트라 E7이 위장막을 벗은 채 서울 도심에서 포착됐다. 지피코리아 단독 보도를 토대로 제원, GM 한국사업장의 뷰익 브랜드 전략, 아이오닉5·싼타페 하이브리드 대비 포지셔닝, 국내 출시 시점 전망까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/buickelectrae7_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;같은 전기차인데 왜 정반대로 갈렸나&quot;… 유럽은 +36%, 북미는 -33% 뒤집힌 8월 판매곡선</title>
-      <link>https://carprism.tmhub.co.kr/articles/ev-sales-europe-boom-namerica-decline-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-sales-europe-boom-namerica-decline-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026년 8월 유럽 전기차 판매는 전년 대비 36% 늘었지만 북미는 33% 줄었다. 보조금을 늘린 유럽과 세액공제를 없앤 미국, 정책 한 끗 차이가 대서양 양쪽의 전기차 시장을 정반대로 갈라놓은 과정을 Electrek 보도를 바탕으로 짚었다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/evtransatlantic_renault5_etech_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;배터리에 물이 스며든다&quot;… 현대차·제네시스 전기차 6종, BMS 리콜</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-genesis-bms-recall-6models-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-genesis-bms-recall-6models-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차·제네시스가 아이오닉5 N·아이오닉6·아이오닉6 N과 GV60·GV70·G80 등 전기차 6종에 대해 배터리관리시스템(BMS) 결함으로 자발적 리콜을 공표했다. 고전압배터리 가스배출장치를 통해 수분이 유입돼 온도 감지 센서가 오작동할 수 있는 결함으로, 8월 31일부터 2028년 2월까지 고전압배터리 소프트웨어 업데이트로 무상 조치된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq5_n_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;쏘렌토 하이브리드 바 엔... 1200만 원 할인&quot;이라더니, 정작 쏘렌토는 아니었다</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-kia-september-2026-discount-roundup.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-kia-september-2026-discount-roundup.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>오토트리뷴 보도를 직접 확인해보니 &apos;쏘렌토 하이브리드 1200만 원 할인&apos; 제목의 실제 주인공은 BMW 3시리즈 투어링이었다. 같은 시기 현대차 프리미엄 세단(그랜저)에 걸린 최대 580만 원 할인 조건까지 함께 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hkdiscount0926_sorento_hybrid_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;수명 다한 배터리, 그냥 버려질까요?&quot;… 현대차·LG엔솔·원익피앤이가 화성에 세운 200kWh의 답</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-ubess-battery-reuse-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ubess-battery-reuse-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차·기아가 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 손잡고 전기차 사용 후 배터리를 재활용한 에너지저장장치 &apos;UBESS&apos; 실증에 들어갔다. 경기 화성 원익피앤이 동탄 사업장에 200kWh 규모로 구축된 이번 실증은 국내 최초 사례로, E-GMP 사용후 배터리를 급속충전 인프라의 전력원으로 재사용한다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/ubess_ioniq5_egmp_source_vehicle.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;4,575만 원이 3천만 원대로&quot;... 기아 EV5, 3단계 보조금 계산해보니</title>
-      <link>https://carprism.tmhub.co.kr/articles/kia-ev5-subsidy-3step-calculation-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-ev5-subsidy-3step-calculation-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>기아 EV5 에어 롱레인지 2WD의 세제혜택 후 가격은 4,575만 원이다. 국고보조금 552만 원, 지방비, 전환지원금을 3단계로 더하면 성남 기준 3,719만 원까지 내려간다. 그런데 이 계산을 앞서 보도된 기아 EV3와 나란히 놓으면, EV5가 오히려 보조금에서 불리한 구조라는 게 드러난다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kia_ev5_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;해치백도 세단도 있는데, 이번엔 짐칸이다&quot;… 기아 K4, 왜건으로 유럽 라인업 완성</title>
-      <link>https://carprism.tmhub.co.kr/articles/kia-k4-wagon-hybrid-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-k4-wagon-hybrid-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>기아가 K4 스포츠왜건을 유럽에 공개하고 올 하반기 풀 하이브리드 추가를 예고했다. 세단·해치백에 이어 왜건까지 갖추며 유럽 시장 공략을 강화하지만, 국내 출시 여부는 여전히 불투명하다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/k4wagon_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;쿠퍼S보다 비싼데 마력은 더 낮다&quot;… MINI가 &apos;1998&apos;이라는 숫자에 건 도박</title>
-      <link>https://carprism.tmhub.co.kr/articles/mini-1998-gt-handling-edition-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/mini-1998-gt-handling-edition-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>MINI가 한정판 &apos;1998 GT 에디션&apos;을 공개했다. 이름의 &apos;1998&apos;은 연식이 아니라 엔진 배기량 1,998cc를 뜻한다. 쿠퍼S보다 4,075달러 비싸지만 엔진은 오히려 약하다. 대신 JCW 서스펜션과 브레이크를 통째로 얹어 출력 대신 핸들링을 택했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/mini1998gt_side_profile.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;이름이 돌아왔다&quot;... 닛산, 유럽 소형 전기차 &apos;픽소&apos; 13년 만에 부활시킨다</title>
-      <link>https://carprism.tmhub.co.kr/articles/nissan-pixo-revival-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/nissan-pixo-revival-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>닛산이 9월 23일 유럽향 초소형 전기차 &apos;픽소(Pixo)&apos;를 13년 만에 부활시켜 공개한다. 르노 트윙고 E-테크와 플랫폼을 공유하는 이 차는 27.5kWh LFP 배터리로 WLTP 기준 약 263km를 주행할 전망이며, 2027년 상반기 2만유로 미만 가격으로 유럽 시장에 투입된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/nissanpixo_2009_original_silver_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;포르쉐 플랫6은 여기까지&quot;… RUF가 실린더를 2개 더 얹은 이유</title>
-      <link>https://carprism.tmhub.co.kr/articles/ruf-1000hp-twinturbo-flat8-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ruf-1000hp-twinturbo-flat8-2026.html</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <description>독일 튜너 RUF가 포르쉐 부품 없이 완전 자체 개발한 4.8리터 트윈터보 플랫8 엔진 &apos;B8&apos;을 공개했다. 순수 내연기관만으로 1,000마력 이상을 내며, CTR3 기반 개발 뮬 &apos;에어프로버&apos;에 탑재돼 2026 굿우드 페스티벌 오브 스피드에서 처음 공개됐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/rufflat8_ctr3_front.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
