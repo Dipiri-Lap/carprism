@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "amazon-eactros-electric-truck-germany-2026",
-    title: "\"디젤 대신 배터리\"… 아마존, 독일 물류망에 벤츠 전기 트럭 50대 투입",
+    title: "\"디젤 대신 배터리\"… 아마존, 독일 물류망에 벤츠 전기 트럭 27대 투입",
     date: "2026-09-12",
     image: "amazon-eactros_front_hanover.webp",
     categories: ["electric", "news"],
@@ -11,7 +11,7 @@ window.ARTICLES_DATA = [
     badge: "GLOBAL",
     badgeClass: "cat-blue",
     source: "Electrek",
-    desc: "아마존이 메르세데스-벤츠 eActros 600 전기 트럭 50여 대를 독일 물류망에 투입했다. 621kWh 배터리로 500km를 달리는 이 트럭은 200대 이상 주문의 일부이며, 아마존은 유럽 전동화·탈탄소 네트워크에 10억 유로 이상을 투자하고 있다. Electrek 보도를 바탕으로 eActros 600 제원, 아마존의 물류 전동화 전략, 독일 내 충전 인프라, 글로벌 전기트럭 경쟁구도까지 정리했다."
+    desc: "아마존이 메르세데스-벤츠 eActros 600 전기 트럭 27대를 독일 물류망에 투입했다. 연내 50대 이상으로 늘릴 계획이다. 621kWh 배터리로 500km를 달리는 이 트럭은 200대 이상 주문의 일부이며, 아마존은 유럽 전동화·탈탄소 네트워크에 10억 유로 이상을 투자하고 있다. Electrek 보도를 바탕으로 eActros 600 제원, 아마존의 물류 전동화 전략, 독일 내 충전 인프라, 글로벌 전기트럭 경쟁구도까지 정리했다."
   },
   {
     slug: "audi-a8-w12-final-cheaper-than-accord",
@@ -47,7 +47,7 @@ window.ARTICLES_DATA = [
     badge: "SERVICE",
     badgeClass: "cat-blue",
     source: "오토트리뷴",
-    desc: "BYD코리아가 추석 연휴를 앞두고 9월 21~23일, 30일~10월 2일 전후 총 6일간 전국 서비스센터에서 무상 안심점검 캠페인을 진행한다. 동력 배터리와 하부, 브레이크, 소모품 등을 30분 안에 점검하고 실내 탈취 서비스와 트래블 키트 선물까지 제공한다."
+    desc: "BYD코리아가 추석 연휴를 앞두고 9월 21~23일, 28~30일 전후 총 6일간 전국 서비스센터에서 무상 안심점검 캠페인을 진행한다. 동력 배터리와 하부, 브레이크, 소모품 등 15개 항목을 30분 안에 점검하고 실내 탈취 서비스와 트래블 키트 선물까지 제공한다."
   },
   {
     slug: "caravan-salon-2026-worlds-largest",
@@ -167,7 +167,7 @@ window.ARTICLES_DATA = [
     badge: "INDUSTRY",
     badgeClass: "cat-blue",
     source: "오토헤럴드",
-    desc: "지리그룹이 링크앤코의 유럽 판매·AS를 볼보자동차에 전담시키는 협약을 맺었다. 2020년 온라인 구독 모델로 출발한 링크앤코는 2027년 1월부터 볼보의 140여개 거점망에 올라탄다. 협약 배경과 지리그룹 브랜드 관계, 국내 진출 가능성을 짚는다."
+    desc: "지리그룹이 링크앤코의 유럽 판매·AS를 볼보자동차에 전담시키는 협약을 맺었다. 2020년 온라인 구독 모델로 출발한 링크앤코는 2027년 1월부터 자체 구축한 140여개 매장망까지 볼보의 영업·서비스 체계 안으로 들여보낸다. 협약 배경과 지리그룹 브랜드 관계, 국내 진출 가능성을 짚는다."
   },
   {
     slug: "mazda-miata-reliability-study-2026",
