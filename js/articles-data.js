@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "winter-battery-voltage-management-2026",
+    title: "\"시동이 자꾸 늦게 걸린다\"… 기온 뚝 떨어지면 배터리부터 의심해야 하는 이유",
+    date: "2026-09-12",
+    image: "car_windshield_frost_pattern_cold_morning.webp",
+    categories: ["life"],
+    tags: ["배터리전압관리", "저온방전", "배터리교체시기", "겨울철배터리", "크랭킹앰프"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-sales",
+    source: "Battery Council International / 정비 전문 매체",
+    desc: "가을에서 겨울로 접어드는 시기, 배터리 자체의 화학적 성능 저하로 시동 불량이 급증한다. 정상 전압 범위와 저온에서 크랭킹 앰프가 줄어드는 원리, 전압계로 직접 점검하는 법, 3년 이상 노후 배터리의 교체 판단 기준을 정리했다."
+  },
+  {
+    slug: "individual-consumption-tax-extension-2026",
+    title: "\"어차피 5% 아니었어?\"…개소세 인하는 이미 끝났고, 전기차·하이브리드 감면만 남았다",
+    date: "2026-09-12",
+    image: "car_installment_contract_signing.webp",
+    categories: ["life"],
+    tags: ["개별소비세", "개소세 인하", "전기차 세제혜택", "하이브리드 개소세", "친환경차 감면"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "기획재정부 2026년 세제개편안 / 스마트투데이 / 에너지데일리",
+    desc: "승용차 개별소비세 인하(5%→3.5%)는 2026년 6월 30일로 끝나 7월부터 정상세율로 돌아갔다. 반면 전기차·수소차 개소세 감면은 2029년까지 단계적으로 축소되며 남고, 하이브리드 감면은 올해 말이 마지막이다. 차종별·시기별 한도를 표로 정리했다."
+  },
+  {
+    slug: "ev-battery-info-disclosure-2026",
+    title: "\"이 배터리, 어느 회사 겁니까\"… 이제 자동차등록증만 봐도 답이 나온다",
+    date: "2026-09-12",
+    image: "ev_lithium_battery_pack.webp",
+    categories: ["life"],
+    tags: ["전기차배터리", "배터리정보공개", "국토교통부", "자동차등록증", "전기차화재안전"],
+    badge: "EV POLICY",
+    badgeClass: "cat-ev",
+    source: "정책브리핑",
+    desc: "국토교통부가 전기차 배터리 제조사·용량·정격전압 등 정보공개 항목을 6종에서 10종으로 확대하는 법령 개정을 추진 중이다. 2026년 5월 시행된 6종 공개와 확대 예정인 10종 공개 내용, 소비자가 실제로 확인할 수 있는 경로를 정리했다."
+  },
+  {
+    slug: "driving-habit-insurance-discount-2026",
+    title: "\"브레이크를 세게 밟을 때마다 점수가 깎인다\"… 운전습관으로 보험료 낮추는 법",
+    date: "2026-09-12",
+    image: "driving_habit_insurance_discount_score_screen.webp",
+    categories: ["life"],
+    tags: ["운전습관연계보험", "UBI", "자동차보험할인", "텔레매틱스특약", "안전운전점수"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "티맵·카카오내비 켜고 운전하면 보험료가 저절로 할인될까. 삼성화재·현대해상·DB손보·KB손보의 운전습관 연계보험(UBI) 특약 실제 할인율과 가입 조건, 급가속·급제동·심야운전 측정 방식, 편법 사용 시 문제점까지 정리했다."
+  },
+  {
+    slug: "autumn-camping-vanlife-precheck-2026",
+    title: "\"작년엔 멀쩡했는데\"… 가을 차박·캠핑 떠나기 전, 이 5분을 건너뛰면 안 되는 이유",
+    date: "2026-09-12",
+    image: "autumn-camping-vanlife-precheck-2026_1.webp",
+    categories: ["life"],
+    tags: ["가을차박점검", "캠핑차량점검", "장거리운전체크리스트", "일산화탄소중독예방", "타이어공기압점검"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 / 한국교통안전공단 / 소방청 / 카프리즘 기획 기사",
+    desc: "가을철 장거리 차박·캠핑을 떠나기 전 확인해야 할 차량 점검 포인트를 정리했다. 타이어 공기압과 트레드, 냉각수·부동액, 브레이크, 와이퍼·워셔액, 전조등·안개등 같은 일반 점검 항목은 물론, 차 안에서 밤을 보낼 때 특히 위험한 일산화탄소 중독 예방법까지 함께 다뤘다."
+  },
+  {
+    slug: "heated-seat-steering-wheel-maintenance-2026",
+    title: "\"히터는 나오는데 왜 엉덩이만 시릴까\" — 열선시트·열선핸들 고장 신호와 예방법",
+    date: "2026-09-12",
+    image: "heated_seat_steering_dashboard_button.webp",
+    categories: ["life"],
+    tags: ["열선시트고장", "열선핸들고장", "저온화상", "열선시트수리비용", "겨울철차량점검"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 취급설명서 / moongo.co.kr / 겟차 블로그",
+    desc: "열선시트·열선핸들이 갑자기 안 따뜻해질 때 의심해야 할 배선 단선·커넥터 접촉불량·필름 손상 등 원인과 셀프 점검법, 언제 정비소에 가야 하는지, 저온화상 안전수칙과 A/S 비용대까지 정리했다."
+  },
+  {
     slug: "yongdamho-lake-road-drive-2026",
     title: "\"호수를 따라 64.6km, 마이산까지 이어진다\"… 아무도 안 알려주는 진안 용담호 드라이브",
     date: "2026-09-12",
