@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "pyeongtaek-lake-light-festival-2026",
+    title: "\"배 모양 전망대 위로 불꽃이 터진다\"… 평택호 물빛축제, 축제 끝나도 남는 이유",
+    date: "2026-09-13",
+    image: "pyeongtaek_lake_boat_observatory.webp",
+    categories: ["domestic"],
+    tags: ["평택호물빛축제", "평택호관광단지", "궁평항", "아산만방조제", "경기도가을축제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "2026년 9월 12일 하루 열린 평택호 물빛축제의 프로그램과 셔틀버스·주차 정보, 그리고 축제가 끝난 뒤에도 사시사철 찾을 수 있는 평택호 관광단지 실제 명소(한국소리터, 평택호예술관, 뱃머리전망대)와 아산만방조제~궁평항 드라이브 코스까지 정리했다."
+  },
+  {
+    slug: "gimhae-dwitgogi-festival-2026",
+    title: "\"도축장 뒷문에서 몰래 팔던 그 고기였는데\"… 김해는 지금 뒷고기로 축제를 엽니다",
+    date: "2026-09-13",
+    image: "gimhae-dwitgogi-festival-2026_1.webp",
+    categories: ["domestic"],
+    tags: ["김해뒷고기", "김해뒷고기거리", "김해뒷고기푸드페스타", "김해Doit뒷고기거리축제", "김해가볼만한곳"],
+    badge: "GOURMET DRIVE",
+    badgeClass: "cat-blue",
+    source: "김해시 / 김해문화관광재단 / 경남도민일보 / 김해뉴스 외 종합",
+    desc: "경남 최대 양돈 지역 김해의 명물 '뒷고기'는 도축업자들이 몰래 챙기던 자투리 고기에서 시작해 이제 도시의 축제 브랜드가 됐다. 봉황동·부원동 뒷고기거리 방문법부터 9월 12~13일 열린 2026 뒷고기푸드페스타, 11월 김해Doit 뒷고기거리축제, 주차·드라이브 코스까지 정리했다."
+  },
+  {
+    slug: "cheorwon-gosokjeong-flower-festival-2026",
+    title: "의적 임꺽정이 숨었던 바위 앞에, 지금은 코스모스가 핀다… 철원 고석정 꽃밭",
+    date: "2026-09-13",
+    image: "cheorwon_gosokjeong_flower_field_sunset.webp",
+    categories: ["domestic"],
+    tags: ["철원여행", "고석정꽃밭", "한탄강주상절리길", "가을꽃축제", "드라이브코스"],
+    badge: "FESTIVAL",
+    badgeClass: "cat-blue",
+    source: "철원군청 / 철원문화재단",
+    desc: "강원 철원 한탄강 협곡의 명승 고석정 옆에서 열리는 '2026 고석정 꽃밭'은 8월 28일부터 10월 31일까지 코스모스·핑크뮬리로 채워진다. 순담계곡 주상절리길(잔도), 승일교, 직탕폭포까지 잇는 드라이브 코스와 입장료·주차 정보를 정리했다."
+  },
+  {
+    slug: "pocheon-unaksan-cloud-bridge-2026",
+    title: "\"해발 800m, 구름 위를 걷는다\"… 포천이 새로 놓은 다리, 명성산 아닙니다",
+    date: "2026-09-13",
+    image: "unaksan_cloudpath_aerial_ridge.webp",
+    categories: ["domestic"],
+    tags: ["운악산구름길", "포천여행", "운악산등산코스", "현등사", "경기5악"],
+    badge: "DRIVE COURSE",
+    badgeClass: "cat-blue",
+    source: "포천시 / 대한민국 구석구석(한국관광공사)",
+    desc: "포천시가 운악산 해발 약 800m 절벽에 41m 출렁다리와 88m 잔도를 이어 만든 '운악산 구름길'이 2026년 9월 7일 개방됐다. 억새로 유명한 명성산과는 다른 산인 운악산의 등산코스, 현등사, 단풍 시기, 주차·드라이브 정보를 정리했다."
+  },
+  {
+    slug: "sokcho-travel-guide-2026",
+    title: "아바이마을 갯배는 지금도 사람이 직접 끌어서 움직입니다",
+    date: "2026-09-13",
+    image: "kto_sokcho_beach_ferriswheel.webp",
+    categories: ["travel"],
+    tags: ["속초가볼만한곳", "아바이마을갯배", "영랑호둘레길", "속초관광수산시장", "속초드라이브코스"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 / 속초시 / 카프리즘 기획 기사",
+    desc: "아바이마을 갯배부터 대포항, 영랑호, 영금정, 속초관광수산시장, 설악산 입구까지 — 자차로 하루에 도는 속초 드라이브 코스와 주차·이용 정보를 정리했다."
+  },
+  {
     slug: "winter-battery-voltage-management-2026",
     title: "\"시동이 자꾸 늦게 걸린다\"… 기온 뚝 떨어지면 배터리부터 의심해야 하는 이유",
     date: "2026-09-12",
