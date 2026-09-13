@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "damyang-juknokwon-bamboo-forest-2026",
+    title: "\"메타세쿼이아길이 아니라 대나무숲입니다\"… 담양 죽녹원, 8가지 길로 걷는 법",
+    date: "2026-09-13",
+    image: "damyang_juknok_pond_waterfall.webp",
+    categories: ["domestic"],
+    tags: ["담양죽녹원", "죽녹원입장료", "담양여행", "한국대나무박물관", "죽녹원8길"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "담양군 죽녹원 / 한국관광공사",
+    desc: "담양 여행에서 메타세쿼이아길에 밀려 스쳐 지나가기 쉬운 죽녹원. 16만㎡ 대숲을 가로지르는 8가지 테마 산책로부터 2026년 기준 입장료·운영시간·주차, 야간개장 여부, 한국대나무박물관·관방제림 연계 코스까지 정리했다."
+  },
+  {
+    slug: "jeongseon-railbike-2026",
+    title: "\"페달만 밟으면 30분, 돌아올 땐 기차\"… 정선 레일바이크, 구절리~아우라지 7.2km 완전 정복",
+    date: "2026-09-13",
+    image: "jeongseon_railbike_silvergrass_track.webp",
+    categories: ["travel"],
+    tags: ["정선레일바이크", "구절리역", "아우라지역", "정선여행코스", "레일바이크예매"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "정선군청 관광포털 / 정선레일바이크 공식 홈페이지 / 강원관광재단 종합",
+    desc: "강원 정선 구절리역에서 아우라지역까지 7.2km를 달리는 정선 레일바이크의 운행시간표, 요금, 예매 방법, 소요시간, 주차, 아우라지역 연계 관광까지 실제 이용 순서대로 정리했다."
+  },
+  {
+    slug: "geoje-wind-hill-2026",
+    title: "\"바람의 언덕\"을 검색했다가 파주로 갔다면… 거제에 진짜가 있다",
+    date: "2026-09-13",
+    image: "kr_geoje_windyhill_overlook.webp",
+    categories: ["travel"],
+    tags: ["거제", "바람의언덕", "신선대", "외도보타니아", "학동흑진주몽돌해변"],
+    badge: "DRIVE COURSE",
+    badgeClass: "cat-blue",
+    source: "거제관광문화 / 외도유람선 / 카프리즘 기획 기사",
+    desc: "경기 파주 임진각의 '바람의 언덕'과 이름만 같은 곳. 거제 남부면 도장포 마을 옆 해안 언덕에는 2009년 세운 풍차와 신선대, 그리고 외도 보타니아·학동 흑진주 몽돌해변으로 이어지는 진짜 절경이 있다. 주차·요금·계절별 볼거리를 정리했다."
+  },
+  {
+    slug: "nami-island-autumn-foliage-2026",
+    title: "\"메타세쿼이아는 11월 초에 절정\"… 남이섬 단풍, 올해는 언제 가야 가장 예쁠까",
+    date: "2026-09-13",
+    image: "namiseom_autumn_maple_canopy.webp",
+    categories: ["domestic"],
+    tags: ["남이섬단풍", "남이섬입장료", "나미나라공화국", "가평선착장", "남이섬가는법"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "나미나라공화국(남이섬) 공식 안내 / 대한민국 구석구석(한국관광공사)",
+    desc: "강원 춘천 남이섬의 2026년 가을 단풍 절정 시기 예측과 나미나라공화국 입장료, 가평선착장 배편, 주차, 자라섬 연계 관광, 드라이브 코스까지 정리했다. 계수나무·단풍나무는 10월 중순부터, 메타세쿼이아는 11월 초순이 절정으로 예상된다."
+  },
+  {
+    slug: "gangneung-anmok-coffee-street-2026",
+    title: "\"자판기 커피 두 잔이 시작이었다\"… 강릉 안목해변, 어떻게 커피의 도시가 됐나",
+    date: "2026-09-13",
+    image: "gangneung_anmok_mascot_sign.webp",
+    categories: ["travel"],
+    tags: ["안목해변커피거리", "테라로사", "보헤미안커피", "강릉카페", "경포대드라이브"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "헤럴드경제 / 세계일보 / 문화포털 인문360 / 대한민국 구석구석 / 강릉시청 종합",
+    desc: "강릉 안목해변 커피거리는 40년 전 어부들을 위한 자판기 커피에서 시작해 테라로사·보헤미안 같은 1세대 바리스타의 로스터리가 들어서며 전국구 명소가 됐다. 유래와 대표 카페, 주차 정보, 경포대·경포호로 이어지는 드라이브 코스까지 정리했다."
+  },
+  {
     slug: "hyundai-sonata-2026-review",
     title: "\"3천만 원대에 2.5터보 290마력\"… 쏘나타 디 엣지, 트림별로 뜯어보니 답이 나온다",
     date: "2026-09-13",
