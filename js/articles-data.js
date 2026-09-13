@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-sonata-2026-review",
+    title: "\"3천만 원대에 2.5터보 290마력\"… 쏘나타 디 엣지, 트림별로 뜯어보니 답이 나온다",
+    date: "2026-09-13",
+    image: "hyundai_sonata_nline_driving_2026.webp",
+    categories: ["domestic", "reviews"],
+    tags: ["쏘나타디엣지", "쏘나타N라인", "쏘나타하이브리드", "쏘나타가격표", "중형세단"],
+    badge: "국산차",
+    badgeClass: "cat-hyundai",
+    source: "현대자동차그룹 / 탑라이더 / 오토이슈 / 카눈 외 종합",
+    desc: "2026년형 쏘나타 디 엣지는 신규 'S' 트림을 더해 2.0 가솔린·1.6 터보·하이브리드·2.5 터보 N 라인까지 4갈래 파워트레인을 파는 국내 유일의 중형 세단이 됐다. 트림별 가격표부터 성능 제원, K5·캠리 대비 포지셔닝까지 취합했다."
+  },
+  {
+    slug: "porter-bongo-ev-2026-review",
+    title: "\"보조금 빼면 2천만원대\"… 지금 살 수 있는 1톤 전기트럭, 포터EV·봉고3EV 계산기 두드려보니",
+    date: "2026-09-13",
+    image: "hyundai_porter2_ev_dryvan_front.webp",
+    categories: ["electric", "domestic", "reviews"],
+    tags: ["포터EV", "봉고3EV", "전기트럭", "전기차보조금", "1톤전기트럭"],
+    badge: "EV REVIEW",
+    badgeClass: "cat-ev",
+    source: "카프리즘 기획 기사",
+    desc: "현대 포터2 일렉트릭과 기아 봉고3 EV의 2026년 가격표, 보조금 반영 실구매가, 주행거리·충전 성능, 경유 모델 대비 유지비, 화물차주 실사용 후기까지 취합했다. 차세대 세미보닛 포터와는 별개로, 지금 당장 살 수 있는 현행 모델을 다룬다."
+  },
+  {
+    slug: "volvo-ex30-korea-review-2026",
+    title: "\"3천만원대에 볼보를 살 수 있다고?\"… EX30, 가격표만큼 실속도 챙겼을까",
+    date: "2026-09-13",
+    image: "volvo_ex30_front.webp",
+    categories: ["electric", "import"],
+    tags: ["볼보EX30", "볼보EX30가격", "EX30보조금", "볼보전기차", "전기SUV추천"],
+    badge: "EV PRICING",
+    badgeClass: "cat-ev",
+    source: "볼보코리아 / 오토뷰 / 모터그래프 종합",
+    desc: "볼보코리아가 소형 전기 SUV EX30 가격을 2026년 2월 또 한 번 내렸다. 코어 3,991만원, 울트라 4,479만원, 크로스컨트리 울트라 4,812만원 — 보조금까지 더하면 3천만원대 후반도 가능하다. 트림별 가격·보조금·배터리·주행거리부터 모델Y·EQA·Q4 e-트론과의 경쟁 구도까지 정리했다."
+  },
+  {
+    slug: "kia-ray-ev-2026-review",
+    title: "\"경차인데 왜 1,400만원대까지 내려가지\"… 기아 레이 EV, 가솔린 레이보다 싼 이유",
+    date: "2026-09-13",
+    image: "kia_ray_gravity_front34_street.webp",
+    categories: ["electric", "domestic", "reviews"],
+    tags: ["레이EV가격", "레이EV보조금", "레이EV주행거리", "캐스퍼일렉트릭비교", "경차전기차"],
+    badge: "EV REVIEW",
+    badgeClass: "cat-ev",
+    source: "종합",
+    desc: "기아 레이 EV 2026년형 가격표(라이트 2,852만원·에어 3,062만원)와 국고·지자체 보조금을 더한 실구매가, 35.2kWh LFP 배터리의 1회충전 주행거리·충전 성능, 캐스퍼 일렉트릭과의 실내공간 비교, 완속충전 결함 이슈와 오너 만족도까지 취합해 정리했다."
+  },
+  {
     slug: "peugeot-3008-hybrid-korea-2026",
     title: "\"가격은 8년 전 그대로, 디자인은 올해의 1등\"… 푸조 3008 하이브리드, 정말 그 정도일까",
     date: "2026-09-13",
