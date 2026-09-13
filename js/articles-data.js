@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jinan-maisan-tapsa-2026",
+    title: "\"태풍에도 안 무너진다\"… 시멘트 한 톨 없이 쌓은 마이산 돌탑 80개의 비밀",
+    date: "2026-09-13",
+    image: "maisan_twin_peaks_flower_field.webp",
+    categories: ["domestic"],
+    tags: ["마이산탑사", "진안여행", "이갑룡처사", "암마이봉수마이봉", "역고드름"],
+    badge: "TRAVEL",
+    badgeClass: "cat-blue",
+    source: "진안군청 / 한국관광공사",
+    desc: "전북 진안 마이산은 계절마다 이름이 바뀌는 두 개의 말귀 모양 봉우리다. 그 사이 계곡에 이갑룡 처사가 시멘트 없이 쌓은 80여 개 돌탑군 탑사와 겨울철 역고드름으로 유명한 은수사, 등산코스와 2026년 입장료·운영시간·주차 정보를 정리했다."
+  },
+  {
+    slug: "yeongwol-cheongryeongpo-2026",
+    title: "\"삼면은 강물, 한쪽은 벼랑\" — 나룻배 없이는 못 나가는 단종의 유배지",
+    date: "2026-09-13",
+    image: "kr_yeongwol_cheongnyeongpo_river_bend_view.webp",
+    categories: ["travel"],
+    tags: ["영월", "청령포", "단종유배지", "관음송", "장릉"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "강원관광재단 / 영월군청 문화관광 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "강원 영월 청령포는 다리도, 도로도 없이 나룻배로만 드나들 수 있는 육지 속 섬이다. 세조에게 쫓겨난 어린 단종이 갇혀 지낸 이곳의 유배 사연과 관음송·금표비·망향탑, 2026년 기준 입장료·운영시간·주차, 인근 장릉 연계 코스까지 정리했다."
+  },
+  {
+    slug: "bonghwa-cheongryangsan-2026",
+    title: "\"입장료도 주차도 공짜\"… 봉화 청량산, 12봉우리가 감싸안은 천년고찰 청량사 가는 법",
+    date: "2026-09-13",
+    image: "bonghwa_cheongryangsan_hero_pagoda_pine.webp",
+    categories: ["travel"],
+    tags: ["청량산", "청량사", "봉화여행", "유리보전", "하늘다리"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "봉화군청 관광포털 / 대한민국 구석구석(한국관광공사) / 청량산도립공원관리사무소 종합",
+    desc: "경북 봉화 청량산도립공원의 기암절벽 12봉우리와 천년고찰 청량사(유리보전·응진전), 등산코스 6가지, 하늘다리, 단풍 절정 시기, 입장료·주차, 승부역·분천역 연계 관광까지 방문 전 확인할 정보를 정리했다."
+  },
+  {
+    slug: "gokseong-train-village-railbike-2026",
+    title: "\"표를 세 번 사야 한다고?\"… 곡성 섬진강기차마을, 증기기관차·레일바이크·심청마을 완전정리",
+    date: "2026-09-14",
+    image: "gokseong_hero_steamtrain_azalea.webp",
+    categories: ["travel"],
+    tags: ["곡성기차마을", "섬진강레일바이크", "곡성레일바이크", "심청이야기마을", "섬진강도깨비마을"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "곡성문화관광 / 전국 통합 레일바이크 곡성 / 대한민국 정책브리핑 종합",
+    desc: "전남 곡성 섬진강기차마을의 공원 입장료, 증기기관차 시간표·요금, 가정역 섬진강 레일바이크(3.6km 왕복 순환)와 기차마을 레일바이크(1km 원내 순환)의 차이, 심청전설이 깃든 도깨비마을·심청이야기마을, 주차까지 실제 동선 순서대로 정리했다."
+  },
+  {
+    slug: "wando-sinji-myeongsasipri-beach-2026",
+    title: "모래가 운다는 그 해변, 4km를 걸어도 끝이 안 보였다",
+    date: "2026-09-14",
+    image: "wando_sinji_myeongsasipri_beach.webp",
+    categories: ["travel"],
+    tags: ["완도", "신지명사십리해변", "신지대교", "완도타워", "완도수목원"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "완도군 문화관광 / 해양치유완도 / 전남 해수욕장 정보 / 카프리즘 기획 기사",
+    desc: "전남 완도군 신지도의 명사십리해수욕장은 고운 모래사장이 약 4km 이어지는 남해안 최고의 해변이다. 소나무숲 야영장과 완도대교·신지대교 드라이브 코스, 완도타워·완도수목원 연계 관광, 주차 7개소 2,860면 정보까지 한 번에 정리했다."
+  },
+  {
     slug: "damyang-juknokwon-bamboo-forest-2026",
     title: "\"메타세쿼이아길이 아니라 대나무숲입니다\"… 담양 죽녹원, 8가지 길로 걷는 법",
     date: "2026-09-13",
