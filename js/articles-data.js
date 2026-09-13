@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "peugeot-3008-hybrid-korea-2026",
+    title: "\"가격은 8년 전 그대로, 디자인은 올해의 1등\"… 푸조 3008 하이브리드, 정말 그 정도일까",
+    date: "2026-09-13",
+    image: "wiki_peugeot_3008_allure_hybrid.webp",
+    categories: ["import", "news"],
+    tags: ["푸조3008", "푸조3008하이브리드", "한불모터스", "STLA미디엄", "파노라믹아이콕핏"],
+    badge: "NEW CAR",
+    badgeClass: "cat-sales",
+    source: "한불모터스 / 오토뷰 / 톱라이더 / 휠로그 종합",
+    desc: "한국자동차기자협회·전문기자협회가 나란히 '2026 올해의 디자인'으로 꼽은 푸조 올 뉴 3008 스마트 하이브리드. 알뤼르 4490만원, GT 4990만원 — 8년 전과 같은 가격표를 유지한 채 STLA 미디엄 플랫폼과 파노라믹 i-콕핏을 들고 왔다. 가격, 트림별 사양, 실연비, 경쟁 구도까지 정리했다."
+  },
+  {
+    slug: "cupra-korea-entry-2026",
+    title: "\"한국 소비자 관심은 뜨겁다\"… 100만 대 판 쿠프라는 왜 아직 한국에 없을까",
+    date: "2026-09-13",
+    image: "cupra_formentor_front_motorshow.webp",
+    categories: ["import", "news"],
+    tags: ["쿠프라", "CUPRA", "폭스바겐그룹코리아", "쿠프라포르멘토르", "쿠프라본"],
+    badge: "MARKET",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "세아트에서 독립한 폭스바겐그룹 산하 브랜드 쿠프라가 2025년 전 세계 32만 8,800대를 팔며 사상 최대 실적을 냈다. 2022년부터 이어진 한국 진출설, 포르멘토르·테라마르·본·타바스칸 등 실제 라인업, 호주·북미 진출 사례를 취합했다."
+  },
+  {
+    slug: "vinfast-korea-entry-2026",
+    title: "\"한국GM 출신 임원들이 무더기로 이 회사로 이직했다\"… 빈패스트, 이번엔 정말 한국에 올까",
+    date: "2026-09-13",
+    image: "vinfast_vf8_front_germany.webp",
+    categories: ["electric", "import", "news"],
+    tags: ["빈패스트", "VinFast", "VF8", "VF9", "베트남전기차"],
+    badge: "GLOBAL EV",
+    badgeClass: "cat-ev",
+    source: "데일리카 / 다나와 자동차 / 위키백과 / 나무위키 종합",
+    desc: "2018년 서울에 법인까지 세웠던 베트남 전기차업체 빈패스트가 미국·유럽·인도·인도네시아·필리핀으로는 발 빠르게 확장하면서도 정작 한국에는 8년째 발을 들이지 못하는 이유를 VF6·VF7·VF8·VF9 라인업과 최근 재무 구조조정까지 짚어봤다."
+  },
+  {
+    slug: "kgm-torres-evx-deep-review-2026",
+    title: "\"내연기관 토레스보다 싸게 탄다\"… KGM 토레스 EVX, 보조금 얹으면 실구매가 3천만원대",
+    date: "2026-09-13",
+    image: "kgm_torres_evx_deep_review_showroom.webp",
+    categories: ["electric", "domestic", "reviews"],
+    tags: ["토레스EVX", "KGM전기차", "LFP배터리", "전기차보조금", "토레스EVX가격"],
+    badge: "EV REVIEW",
+    badgeClass: "cat-ev",
+    source: "카프리즘 기획 기사",
+    desc: "KGM 토레스 EVX 2027년형 가격표와 LFP 배터리·주행거리·충전 성능, 국고·지자체 보조금을 더한 실구매가, 3개월 실사용 후기의 장단점까지 취합해 정리했다. 완속충전이 느리고 저온 주행거리가 줄어드는 약점도 함께 짚었다."
+  },
+  {
+    slug: "alfa-romeo-korea-lineup-2026",
+    title: "\"엔초 페라리도 여기서 커리어를 시작했다\"… 한국에는 없는 브랜드, 알파로메오는 지금 무슨 차를 팔고 있을까",
+    date: "2026-09-13",
+    image: "alfa-romeo-korea-lineup-2026_1.webp",
+    categories: ["import"],
+    tags: ["알파로메오", "알파로메오코리아", "줄리아", "스텔비오", "토날레"],
+    badge: "브랜드",
+    badgeClass: "cat-gold",
+    source: "오토뷰 / 모터그래프 / 시사위크 / 데일리카 / 카가이 외 종합",
+    desc: "116년 역사의 이탈리아 브랜드 알파로메오는 왜 아직 한국에 정식 수입되지 않았을까. 1996년 한보그룹의 짧은 수입 시도부터 2017~2019년 FCA코리아의 도입 검토, 그리고 현재 글로벌 시장에서 판매 중인 줄리아·스텔비오·토날레·주니어 라인업까지 취합했다."
+  },
+  {
     slug: "pyeongtaek-lake-light-festival-2026",
     title: "\"배 모양 전망대 위로 불꽃이 터진다\"… 평택호 물빛축제, 축제 끝나도 남는 이유",
     date: "2026-09-13",
