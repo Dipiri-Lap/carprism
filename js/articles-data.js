@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-certified-used-200-discount-2026",
+    title: "\"어차피 살 거면 인증중고로\"… 그랜저·팰리세이드·G80까지, 현대차가 추석 앞두고 200대 풀었다",
+    date: "2026-09-14",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["domestic"],
+    tags: ["현대인증중고차", "그랜저", "팰리세이드", "G80", "인증중고차"],
+    badge: "PROMOTION",
+    badgeClass: "cat-hyundai",
+    source: "지피코리아 / 아시아투데이 / 헤럴드경제 / 파이낸셜뉴스 / 머니투데이 외 종합",
+    desc: "현대인증중고차가 출범 3주년을 맞아 그랜저·팰리세이드·쏘나타·아반떼와 제네시스 G80·GV70 등 약 200대를 할인 판매하는 '추석맞이 BIG 페스타'를 9월 30일까지 진행한다. 시트커버 통째 교체 기획전, 3년 누적 판매 1위 차종, 그리고 인증중고차 제도 자체의 매입·진단·보증 구조까지 취합했다."
+  },
+  {
+    slug: "driver-license-cost-1million-2026",
+    title: "\"100만 원짜리 신분증\"…운전면허, 지원금 없이는 포기하는 청년들",
+    date: "2026-09-14",
+    image: "driver-license-cost-1million-2026_license_card.webp",
+    categories: ["life"],
+    tags: ["운전면허 비용", "운전면허 지원금", "청년 운전면허", "도로연수", "운전면허학원"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴 / 토픽트리 / 도로교통공단 · 공공데이터포털 종합",
+    desc: "운전면허 학원비와 시험 응시료가 1종 보통 기준 89만 원, 도로연수를 더하면 120만 원대까지 치솟으면서 29세 이하 면허 소지자가 4년 새 65만 명 넘게 줄었다. 취득 비용이 이렇게 오른 이유와 지자체별 최대 70만 원 청년 지원금 현황, 신청 방법까지 정리했다."
+  },
+  {
+    slug: "hyundai-2030-strategy-100-new-models-2026",
+    title: "\"4년 안에 신차 100종을 쏟아붓겠다\"… 현대차, 2030년 555만 대로 세계 1위 도약할 수 있을까",
+    date: "2026-09-14",
+    image: "hyundai_munoz_investor_day_2026_a.webp",
+    categories: ["domestic", "news"],
+    tags: ["현대자동차", "CEO인베스터데이", "호세무뇨스", "2030전략", "제네시스"],
+    badge: "기업전략",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴 / 헤럴드경제 / 경향신문 / 에너지경제 / 현대자동차 뉴스룸 외 종합",
+    desc: "현대차가 2026 CEO 인베스터 데이에서 2030년 555만 대 판매, 영업이익률 9% 이상, 신차 100종 이상 투입이라는 중장기 목표를 공개했다. 전동화 비중 60% 확대, 생산능력 127만 대 증설, 중국·인도 공략 계획과 함께 토요타·폭스바겐 대비 실제 순위 전망까지 짚었다."
+  },
+  {
+    slug: "vw-golf-gti-black-edition-20th-2026",
+    title: "\"핫해치는 한국에서도 20년을 달렸다\"… 골프 GTI, 검은 헌정판으로 돌아온 이유",
+    date: "2026-09-14",
+    image: "vw_golf_gti_edition50_front.webp",
+    categories: ["import", "news"],
+    tags: ["골프GTI", "폭스바겐코리아", "골프GTI블랙에디션", "핫해치", "폭스바겐골프"],
+    badge: "NEW CAR",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "폭스바겐코리아가 골프 GTI 국내 출시 20주년과 글로벌 출시 50주년을 기념해 '골프 GTI 블랙 에디션'을 5,275만원에 선보였다. 블랙 바디에 레드 허니콤 데칼을 더한 전용 디자인과 구매 혜택, 2006년부터 이어진 국내 20년 역사, 245마력 2.0 TSI 제원까지 정리했다."
+  },
+  {
+    slug: "hyundai-ioniq-v-korea-launch-obstacle-2026",
+    title: "“2천만 원대 전기차, 왜 한국에선 못 사나”… 아이오닉 V 국내 출시 막는 진짜 변수",
+    date: "2026-09-14",
+    image: "hyundai_ioniqv_front_beijing.webp",
+    categories: ["electric", "news"],
+    tags: ["아이오닉V", "현대아이오닉V", "아이오닉V가격", "현대전기차", "중국전기차"],
+    badge: "EV PRICING",
+    badgeClass: "cat-ev",
+    source: "오토트리뷴 / 현대차그룹 뉴스룸 / 카피아 / 이콘밍글 종합",
+    desc: "현대차가 중국 전용으로 개발한 전기 세단 아이오닉 V가 2026년 8월 청두모터쇼에서 11만 9,900위안(약 2,400만원대)부터 사전판매를 시작했다. 27인치 4K 디스플레이와 800V 급속충전을 갖춘 이 차가 국내에는 왜 못 들어오는지, 가격·제원부터 노사 협약·라인업 중복 같은 출시 걸림돌, 향후 전망까지 정리했다."
+  },
+  {
+    slug: "riboncar-rqi-used-car-transparency-2026",
+    title: "\"이 차, 진짜 상태가 어떻길래\"… 중고차 시장에도 번지는 '체크슈머' 열풍",
+    date: "2026-09-14",
+    image: "riboncar_engine_inspection.webp",
+    categories: ["news"],
+    tags: ["리본카", "RQI", "체크슈머", "중고차구매", "중고차점검"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-gen",
+    source: "카가이 / 헤럴드경제 / 굿모닝경제 / 오토뷰 종합",
+    desc: "성분·원재료를 꼼꼼히 따지는 '체크슈머'가 중고차 시장까지 번지고 있다. 직영 중고차 브랜드 리본카는 특허받은 정밀점검 기준 'RQI'로 196개 항목을 점검하고 결과를 그대로 공개한다. RQI가 정확히 무엇을 점검하는지, 중고차 시장의 고질적인 정보 비대칭 문제를 어떻게 풀고 있는지 정리했다."
+  },
+  {
     slug: "jinan-maisan-tapsa-2026",
     title: "\"태풍에도 안 무너진다\"… 시멘트 한 톨 없이 쌓은 마이산 돌탑 80개의 비밀",
     date: "2026-09-13",
