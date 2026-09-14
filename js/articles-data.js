@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-kia-erev-lineup-2026",
+    title: "\"전기차인데 주유구가 있다?\"… 현대차그룹이 던진 승부수, EREV 라인업 총정리",
+    date: "2026-09-14",
+    image: "santa_fe_mx5_front.webp",
+    categories: ["electric", "news"],
+    tags: ["EREV", "싼타페EREV", "제네시스GV70", "현대차그룹", "주행거리연장전기차"],
+    badge: "EV",
+    badgeClass: "cat-ev",
+    source: "카프리즘 기획 기사",
+    desc: "현대차그룹이 2026 CEO 인베스터 데이에서 EREV(주행거리 연장 전기차) 상용화 계획을 공식화했다. 2027년 상반기 미국에 투입되는 현대 싼타페 EREV와 제네시스 GV70 EREV의 생산지·배터리·주행거리부터, 기아가 텔루라이드 등 대형차에 검토 중인 후속 계획까지 확인된 발표 내용만 정리했다."
+  },
+  {
+    slug: "korean-hybrid-lineup-full-guide-2026",
+    title: "\"이제는 계약부터 하이브리드부터 물어봐요\"… 국산 하이브리드 17종, 경차부터 대형 SUV까지 가격·연비 지도",
+    date: "2026-09-14",
+    image: "genesis_gv80_hybrid_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["하이브리드", "국산차", "현대차", "기아", "제네시스"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-blue",
+    source: "탑라이더 / 공감신문 / 토픽트리 / 비즈니스포스트 / 현대자동차·기아·제네시스·KGM·르노코리아 공식 자료 종합",
+    desc: "2026년 9월 기준 현대차·기아·제네시스·KGM·르노코리아가 국내에 판매 중인 하이브리드 승용 라인업을 세그먼트별로 정리했다. 세단부터 대형 SUV, 미니밴까지 모델별 가격대와 복합연비를 표로 비교하고, 올해 하이브리드 판매가 24%대 급증하며 일부 모델은 생산 물량 조절까지 벌어지는 배경도 짚었다."
+  },
+  {
+    slug: "hyundai-e-gmp-platform-lineup-2026",
+    title: "\"같은 배터리, 같은 모터를 쓰는데 가격은 왜 두 배 차이 날까\"… 현대차그룹 전기차 뼈대 하나로 정리했다",
+    date: "2026-09-14",
+    image: "hyundai_ioniq5_atlas_white.webp",
+    categories: ["electric", "domestic"],
+    tags: ["E-GMP", "아이오닉5", "아이오닉6", "EV6", "GV60"],
+    badge: "EV PLATFORM",
+    badgeClass: "cat-ev",
+    source: "카프리즘 기획 기사",
+    desc: "아이오닉5·6·9, EV6·EV9, GV60·GV70 전동화까지 현대차그룹 전기차 7종은 모두 전용 플랫폼 E-GMP를 공유한다. 800V 시스템과 배터리 바닥 배치 같은 공통 기술부터, 같은 뼈대인데도 가격과 성격이 갈리는 이유, 그리고 정작 E-GMP가 아닌 G80 전동화까지 취합했다."
+  },
+  {
+    slug: "korean-cars-discontinued-2026",
+    title: "\"태풍의 눈 엠블럼도 역사 속으로\"… SM6부터 코란도까지, 조용히 사라진 국산차들",
+    date: "2026-09-14",
+    image: "korean-cars-discontinued-2026_1.webp",
+    categories: ["domestic", "news"],
+    tags: ["국산차 단종", "르노코리아 SM6", "QM6", "KGM 코란도", "티볼리"],
+    badge: "단종",
+    badgeClass: "cat-blue",
+    source: "데일리카 / 오토데일리 / 시사저널e / 전자신문 / 카가이 외 종합",
+    desc: "르노코리아 SM6·QM6, KGM 코란도·코란도 EV가 잇따라 단종되고 티볼리는 후속 계획 없이 단종설에 휩싸였다. 반면 5년 전 내수에서 사라진 기아 스토닉은 2025년 유럽에서 부활했다. 2025~2026년 실제 확인된 단종·단종 임박 국산차 모델을 이유·시점·후속 모델까지 취합했다."
+  },
+  {
+    slug: "korea-pickup-commercial-ev-lineup-2026",
+    title: "\"콜로라도는 그새 단종됐다\"… 지금 국내서 짐 실을 수 있는 차, 픽업 4종·전기 상용차 3종 다 모아봤다",
+    date: "2026-09-14",
+    image: "kia_tasman_front.webp",
+    categories: ["domestic", "import", "news"],
+    tags: ["픽업트럭", "전기상용차", "타스만", "렉스턴스포츠칸", "포터EV"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "타스만·렉스턴 스포츠·칸부터 조용히 단종된 콜로라도와 그 자리를 채운 GMC 캐니언, 포터2 일렉트릭·봉고3 EV·PV5 카고까지. 2026년 국내에서 실제로 구매 가능한 '적재 가능 차량' 7종의 가격, 적재중량, 용도(개인용·사업용)를 한 번에 비교했다."
+  },
+  {
+    slug: "2027-facelift-models-preview-2026",
+    title: "\"타이거노즈가 사라졌다\"… 2026년 하반기부터 쏟아지는 부분변경 신차, 뭐가 바뀌나",
+    date: "2026-09-14",
+    image: "kia_k5_facelift_spy_1.webp",
+    categories: ["domestic", "import", "news"],
+    tags: ["부분변경", "페이스리프트", "제네시스G90", "싼타페", "K5"],
+    badge: "신차소식",
+    badgeClass: "cat-blue",
+    source: "CarBuzz / Carscoops / 지피코리아 / 오토트리뷴 / 글로벌모터스 / 오토스파이넷 외 종합",
+    desc: "제네시스 G90, 현대 싼타페, 기아 K5부터 벤츠 C클래스, 렉서스 NX, 레인지로버 스포츠까지 — 2026년 하반기부터 2027년 사이 부분변경이 확인된 국산·수입 모델들을 스파이샷과 보도를 근거로 취합했다."
+  },
+  {
+    slug: "camping-vanlife-best-cars-lineup-2026",
+    title: "\"이 차, 뒷자리 눕혀보면 답 나온다\"… 차박·캠핑용 차 고를 때 진짜 봐야 할 것들",
+    date: "2026-09-14",
+    image: "kia_carnival_ka4_side.webp",
+    categories: ["life"],
+    tags: ["차박추천차량", "캠핑차량비교", "카니발차박", "스타리아차박", "차박콘센트"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "기아·현대자동차·KG모빌리티 공식 홈페이지 / 카프리즘 취합 기사",
+    desc: "차박·캠핑용 차를 고를 때 기준이 되는 실내 평탄화 가능 여부, 트렁크·적재 공간, 전동 시트 폴딩, 실내 220V 콘센트 유무를 카니발, 스타리아, 쏘렌토, 싼타페, 코란도 투리스모, 렉스턴 등 인기 모델별로 비교했다."
+  },
+  {
+    slug: "korea-new-cars-h2-2026-calendar",
+    title: "\"아반떼부터 GV90까지\"… 2026년 9~12월, 국내 시장을 흔들 신차는 몇 대나 될까",
+    date: "2026-09-14",
+    image: "genesis_gv90_neolun_front.webp",
+    categories: ["news"],
+    tags: ["신차출시", "2026년신차", "아반떼", "투싼", "GV90"],
+    badge: "UPCOMING",
+    badgeClass: "cat-blue",
+    source: "겟차 / 현대자동차 / 제네시스 / 카프리즘 기획 기사",
+    desc: "2026년 9월부터 12월까지 현대·기아·제네시스·KGM·르노코리아와 주요 수입 브랜드가 예고한 하반기 신차 출시 일정을 월별로 취합했다. 아반떼 풀체인지, 투싼 풀체인지, 제네시스 GV90·GV80 하이브리드, KGM 신형 토레스, 수입 전기 SUV까지 확인 가능한 정보를 정리했다."
+  },
+  {
     slug: "hyundai-certified-used-200-discount-2026",
     title: "\"어차피 살 거면 인증중고로\"… 그랜저·팰리세이드·G80까지, 현대차가 추석 앞두고 200대 풀었다",
     date: "2026-09-14",
