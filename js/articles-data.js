@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "sunchang_chaegyesan_swing_bridge_2026",
+    title: "\"국도 24호선이 산을 갈라놨는데, 다리로 다시 이었다\"… 순창 하늘 위 270m",
+    date: "2026-09-14",
+    image: "chaegyesan_bridge_aerial_hikers.webp",
+    categories: ["domestic"],
+    tags: ["채계산출렁다리", "순창여행", "적성강드라이브", "강천산군립공원", "전북여행"],
+    badge: "DRIVE COURSE",
+    badgeClass: "cat-blue",
+    source: "전북특별자치도 / 순창군",
+    desc: "전북 순창 적성면 채계산, 국도 24호선으로 갈라진 두 봉우리를 잇는 길이 270m·높이 75~90m의 무주탑 산악 현수교 채계산 출렁다리를 정리했다. 등산코스, 적성강 드라이브, 입장료·주차, 강천산·고추장민속마을 등 인근 관광지 연계 정보까지 담았다."
+  },
+  {
+    slug: "daegu_palgongsan_cablecar_2026",
+    title: "\"7분이면 해발 820m\"… 국립공원 된 팔공산, 케이블카 타고 갓바위·동화사까지 한 번에",
+    date: "2026-09-14",
+    image: "daegu_palgongsan_cablecar_hero.webp",
+    categories: ["travel"],
+    tags: ["팔공산케이블카", "갓바위", "동화사", "대구여행", "팔공산국립공원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "대한민국 구석구석(한국관광공사) / 국립공원공단 팔공산국립공원사무소 / 대구광역시 동구청 종합",
+    desc: "대구 팔공산 케이블카의 운행구간·요금·운영시간·주차 정보부터 소원 성취로 유명한 갓바위(관봉 석조여래좌상), 493년 고찰 동화사와 통일약사여래대불, 팔공산순환도로 드라이브 코스까지 방문 전 확인할 정보를 정리했다."
+  },
+  {
+    slug: "taean_chollipo_arboretum_2026",
+    title: "\"전생에 한국인\"이라 불린 미국인이 태안 야산에 수백억을 쏟은 이유",
+    date: "2026-09-14",
+    image: "wiki_chollipo_arboretum_path.webp",
+    categories: ["travel"],
+    tags: ["천리포수목원", "민병갈", "태안가볼만한곳", "신두리해안사구", "태안드라이브코스"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "천리포수목원 / 태안군 / 카프리즘 기획 기사",
+    desc: "민병갈(칼 페리스 밀러) 박사가 일군 국내 최초 민간 수목원, 천리포수목원의 2026년 입장료·관람시간부터 세계 최다 목련·호랑가시나무 컬렉션, 주변 신두리 해안사구·만리포 드라이브 코스, 주차 정보까지 정리했다."
+  },
+  {
+    slug: "goseong_sangjogam_dinosaur_2026",
+    title: "\"밥상다리를 닮았다\" — 1억2천만 년 전 공룡이 걸어간 고성 바닷가",
+    date: "2026-09-14",
+    image: "kr_goseong_sangjokam_seacliff_caves.webp",
+    categories: ["travel"],
+    tags: ["고성상족암", "공룡발자국화석지", "고성공룡박물관", "경남여행", "물때"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "고성군청 문화관광 / 국가유산포털 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "경남 고성 상족암은 밥상다리 모양 해식동굴과 세계적 규모의 백악기 공룡·새발자국 화석지가 한자리에 있는 해안 명승지다. 2026년 기준 고성공룡박물관 리모델링 휴관 안내, 물때에 따른 화석지 관람법, 주차·둘레길 정보까지 정리했다."
+  },
+  {
+    slug: "buan_naesosa_temple_2026",
+    title: "\"입장료는 사라졌는데, 왜 다들 전나무숲만 보고 돌아갈까\"… 부안 내소사 대웅보전이 숨겨둔 것들",
+    date: "2026-09-14",
+    image: "buan_naesosa_fir_forest_iljumun_autumn.webp",
+    categories: ["travel"],
+    tags: ["내소사", "부안여행", "전나무숲길", "변산반도국립공원", "대웅보전"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 국가유산포털 / 디지털부안문화대전 / 투어전북(변산반도국립공원) 종합",
+    desc: "전북 부안 내소사의 600m 전나무숲길과 보물 대웅보전·고려 동종, 1000년 느티나무, 2023년 무료화된 입장료와 유료 주차 요금, 변산반도국립공원 연계 드라이브 코스까지 방문 전 확인할 정보를 정리했다."
+  },
+  {
+    slug: "suncheon_nakan_folk_village_2026",
+    title: "\"성벽 안에 아직도 228명이 산다\" — 조선시대 그대로인 순천 낙안읍성",
+    date: "2026-09-14",
+    image: "kr_nagan_folkvillage_aerial_fortress_wall.webp",
+    categories: ["travel"],
+    tags: ["순천", "낙안읍성", "민속마을", "순천만습지", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "순천시청 문화관광 / 대한민국 구석구석(한국관광공사) / 나무위키 종합",
+    desc: "전남 순천 낙안읍성은 세트장이 아니다. 1.4km 성곽 안에서 지금도 98세대 228명이 아궁이에 불을 때며 실제로 살아간다. 2026년 기준 입장료·운영시간·주차 정보와 순천만습지 연계 드라이브 코스까지 정리했다."
+  },
+  {
+    slug: "jecheon_cheongpungho_cablecar_2026",
+    title: "바닥이 투명한 캐빈 아래로 청풍호가 펼쳐진다",
+    date: "2026-09-14",
+    image: "jc_cheongpung_cablecar_aerial.webp",
+    categories: ["travel"],
+    tags: ["제천청풍호반케이블카", "청풍문화재단지", "비봉산케이블카", "제천가볼만한곳", "청풍호드라이브코스"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "제천시 / 청풍호반케이블카 / 카프리즘 기획 기사",
+    desc: "충북 제천 청풍호반케이블카 운행 구간·요금·운영시간부터 크리스탈 캐빈, 비봉산 정상 전망대, 청풍문화재단지 연계 코스, 주차 정보까지 2026년 기준으로 정리했다."
+  },
+  {
     slug: "hyundai-kia-erev-lineup-2026",
     title: "\"전기차인데 주유구가 있다?\"… 현대차그룹이 던진 승부수, EREV 라인업 총정리",
     date: "2026-09-14",
