@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "sobaeksan_huibang_yeonhwabong_autumn_2026",
+    title: "영남제일폭포 옆, 단풍이 물줄기를 붉게 감싼다",
+    date: "2026-09-15",
+    image: "sobaeksan_huibang_waterfall.webp",
+    categories: ["travel"],
+    tags: ["소백산단풍", "희방폭포연화봉코스", "소백산국립공원", "죽령옛길", "영주가볼만한곳"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단",
+    desc: "경북 영주 희방탐방지원센터에서 희방폭포·희방사를 지나 연화봉 정상까지 오르는 소백산국립공원 단풍 코스를 거리·소요시간·난이도부터 소백산천문대, 죽령 옛길 연계 코스, 입장료·주차 정보까지 정리했다."
+  },
+  {
+    slug: "daedunsan_cablecar_geumgang_samseon_2026",
+    title: "\"5분 만에 구름 위로\"… 대둔산 케이블카 타고 만나는 81m 금강구름다리, 51도 삼선계단",
+    date: "2026-09-15",
+    image: "../images/daedunsan_hero.webp",
+    categories: ["travel"],
+    tags: ["대둔산케이블카", "금강구름다리", "삼선계단", "완주여행", "논산여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "",
+    source: "참고",
+    desc: "전북 완주군과 충남 논산·금산에 걸친 대둔산도립공원. 케이블카로 5분이면 오르는 상부역사부터 국내 최초 산악 현수교 금강구름다리, 경사 51도의 삼선계단, 정상 마천대까지 요금·운영시간·등산코스·단풍 시기를 정리했다."
+  },
+  {
+    slug: "baekyangsa_jangseong_autumn_maple_2026",
+    title: "\"흰 양이 눈물을 흘렸다\"… 애기단풍 물드는 천년고찰, 백양사",
+    date: "2026-09-15",
+    image: "../images/kto_naejangsan_baekyangsa.webp",
+    categories: ["travel"],
+    tags: ["백양사단풍", "장성백양단풍축제", "백학봉등산코스", "장성가볼만한곳", "쌍계루단풍"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "official",
+    desc: "전남 장성 백암산 자락의 천년고찰 백양사. 창건 설화와 이름의 유래, 쌍계루·백학봉 명승, 장성백양단풍축제 일정, 백학봉 등산코스, 입장료·주차·템플스테이 정보까지 2026년 기준으로 정리했다."
+  },
+  {
+    slug: "songnisan_beopjusa_sejogil_2026",
+    title: "\"가마가 걸리겠다\" 하니 가지가 절로 들렸다… 정2품 벼슬 받은 소나무를 아시나요",
+    date: "2026-09-15",
+    image: "beopjusa_palsangjeon.webp",
+    categories: ["travel"],
+    tags: ["법주사", "정이품송", "세조길", "속리산국립공원", "보은가볼만한곳"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "법주사 / 한국관광공사 지역N문화 / 카프리즘 기획 기사",
+    desc: "세조에게 벼슬을 받았다는 정이품송, 왕이 요양하며 거닐었다는 3.2km 세조길, 국보 팔상전이 있는 법주사까지 — 문장대 등산코스와 단풍 시기, 입장료·주차 정보를 2026년 기준으로 정리했다."
+  },
+  {
     slug: "tesla-fsd-korea-80-percent-unusable-2026",
     title: "\"등록 22만 대 중 4만 대만 켜진다\"… 테슬라 FSD, 국내 5명 중 4명은 왜 못 쓰나",
     date: "2026-09-15",
