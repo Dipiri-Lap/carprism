@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "tesla-fsd-korea-80-percent-unusable-2026",
+    title: "\"등록 22만 대 중 4만 대만 켜진다\"… 테슬라 FSD, 국내 5명 중 4명은 왜 못 쓰나",
+    date: "2026-09-15",
+    image: "tesla_fsd_korea_model_y_2025.webp",
+    categories: ["news"],
+    tags: ["테슬라FSD", "완전자율주행", "테슬라코리아", "모델Y", "모델3"],
+    badge: "MOBILITY TECH",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴",
+    desc: "오토트리뷴 보도에 따르면 국내 등록 테슬라 22만 9,311대 중 FSD를 정상적으로 활성화할 수 있는 차량은 4만 7,458대(20.7%)에 불과하다. 900만 원 안팎의 옵션을 사고도 기능을 켤 수 없는 이유를 생산지별 인증, 하드웨어 세대, 국내 규제·정밀지도 인프라 문제로 나눠 분석했다."
+  },
+  {
+    slug: "bmw-navigation-3d-tesla-style-makeover-2026",
+    title: "\"테슬라처럼 보이게 만들었다\"… BMW, 내비게이션을 통째로 갈아엎다",
+    date: "2026-09-15",
+    image: "bmw_nav_idrive_x5_display.webp",
+    categories: ["news"],
+    tags: ["BMW맵스", "BMW내비게이션", "3D내비게이션", "iDrive", "하이웨이어시스턴트"],
+    badge: "MOBILITY TECH",
+    badgeClass: "cat-blue",
+    source: "InsideEVs",
+    desc: "BMW그룹이 10월부터 'BMW 맵스 위드 드라이버 어시스턴스'를 통해 내비게이션과 주행보조 정보를 하나의 3D 화면에 통합한다. 테슬라식 3D 시각화를 벤치마킹한 이번 개편은 i3·iX3·X5/iX5·7시리즈부터 순차 적용되며, 2027년에는 독일에서 내비게이션 연동 도심 준자율주행으로 확장된다."
+  },
+  {
+    slug: "toyota-photo-assistant-patent-camera-2026",
+    title: "\"운전자가 쳐다보기만 하면 차가 사진을 찍어준다\"… 토요타의 엉뚱한 특허",
+    date: "2026-09-15",
+    image: "toyota_photo_assistant_bz4x_exterior.webp",
+    categories: ["news"],
+    tags: ["토요타특허", "포토어시스턴트", "시선추적카메라", "운전자모니터링", "토요타세이프티센스"],
+    badge: "MOBILITY TECH",
+    badgeClass: "cat-blue",
+    source: "Motor1",
+    desc: "토요타가 미국에 낸 특허는 실내 시선 추적 카메라와 차량 외부 카메라를 결합해, 운전자가 바라본 풍경을 자동으로 촬영해 스마트폰으로 전송하는 기술을 담고 있다. 아직 양산이 확정된 것은 아니지만, 운전 중 스마트폰을 조작하다 생기는 주의분산 사고를 줄일 수 있는 아이디어로 주목받는다."
+  },
+  {
+    slug: "lidl-einride-cabless-truck-germany-2026",
+    title: "\"운전석이 아예 없는 트럭이 도로를 달린다\"… 리들이 실전 배치한 무인 화물차",
+    date: "2026-09-15",
+    image: "lidl_einride_cabless_truck_pod.webp",
+    categories: ["news"],
+    tags: ["아인라이드", "캡리스트럭", "자율주행트럭", "리들", "SAE레벨4"],
+    badge: "MOBILITY TECH",
+    badgeClass: "cat-blue",
+    source: "InsideEVs",
+    desc: "독일 마트 체인 리들이 스웨덴 자율주행 트럭 스타트업 아인라이드(Einride)와 손잡고, 운전석과 안전요원이 아예 없는 SAE 레벨4 캡리스 트럭을 공공도로에 투입했다. 독일 연방자동차청(KBA)의 첫 허가를 받은 이 트럭은 물류창고와 매장 사이를 상시 운행 중이다."
+  },
+  {
+    slug: "tiny-ev-camper-sleeps-four-chevy-bolt-2026",
+    title: "\"쉐보레 볼트보다 작은데 4명이 잔다\"… 초소형 EV 캠핑카의 발상",
+    date: "2026-09-15",
+    image: "tiny_ev_camper_wuling_hongguang_front.webp",
+    categories: ["news", "electric"],
+    tags: ["초소형캠퍼밴", "전기캠핑카", "우링EV", "캠핑카개조", "마이크로캠퍼"],
+    badge: "MOBILITY TECH",
+    badgeClass: "cat-blue",
+    source: "InsideEVs",
+    desc: "우링 계열 초소형 전기차를 기반으로 개조한 캠퍼밴이 전장 3.6m, 전폭 1.5m로 쉐보레 볼트보다 작으면서도 팝업 루프탑 텐트와 접이식 좌석을 활용해 4명이 잘 수 있는 구조를 갖췄다. 총 비용은 1만 5천 달러(약 2천만 원) 안팎으로 알려졌다."
+  },
+  {
     slug: "volvo-xc60-xc90-2028-phev-ev-range-record",
     title: "\"완전변경 아니고 페이스리프트인데, 전기주행거리는 두 배\"… 2028 볼보 XC60·XC90, PHEV 최장 기록 새로 썼다",
     date: "2026-09-15",
