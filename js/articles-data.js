@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "volvo-xc60-xc90-2028-phev-ev-range-record",
+    title: "\"완전변경 아니고 페이스리프트인데, 전기주행거리는 두 배\"… 2028 볼보 XC60·XC90, PHEV 최장 기록 새로 썼다",
+    date: "2026-09-15",
+    image: "volvo_xc60_recall.webp",
+    categories: ["import", "news"],
+    tags: ["볼보XC60", "볼보XC90", "플러그인하이브리드", "T8", "전기주행거리"],
+    badge: "MODEL UPDATE",
+    badgeClass: "cat-sales",
+    source: "Motor1, CarBuzz, InsideEVs",
+    desc: "볼보가 2028년형 XC60·XC90 플러그인하이브리드(T8)를 공개했다. XC60은 78마일(126km), XC90은 73마일(117km)의 1회 충전 전기주행거리를 확보해 현재 미국에서 판매되는 플러그인하이브리드 중 가장 긴 기록을 세웠다. 배터리 용량을 두 배 이상 키우고 토르의 망치 헤드램프 등 디자인도 다듬었다."
+  },
+  {
+    slug: "kia-pv7-europe-north-america-pbv-outlook",
+    title: "\"미국엔 안 판다고요? 그게 더 아쉽다\"… 해외 매체가 본 기아 PV7의 잠재력",
+    date: "2026-09-15",
+    image: "kia_pv7_iaa_e.webp",
+    categories: ["import", "news"],
+    tags: ["기아PV7", "PBV", "전기밴", "IAA트랜스포테이션", "800V"],
+    badge: "PBV",
+    badgeClass: "cat-blue",
+    source: "Motor1, Carscoops, The Autopian, electrive.com",
+    desc: "기아가 IAA 트랜스포테이션 2026에서 세계 최초 공개한 대형 전기 PBV 'PV7'에 해외 매체들이 주목하고 있다. Motor1은 '뭐든 다 하려는 차'라고 평했고, 미국 매체들은 정작 북미 판매 계획이 없는 이 차가 '미국 상용밴 시장에 딱 맞는 크기'라는 점을 아쉬워했다. 유럽·한국 우선 출시 전략과 800V 급속충전 등 PV7의 글로벌 경쟁력을 짚었다."
+  },
+  {
+    slug: "jlr-defender-pickup-stellantis-us",
+    title: "\"슬로바키아에서 실어오면 관세만 15%\"… 재규어랜드로버가 스텔란티스와 손잡은 이유",
+    date: "2026-09-15",
+    image: "landrover_defender_130_l663.webp",
+    categories: ["import", "news"],
+    tags: ["랜드로버디펜더", "스텔란티스", "픽업트럭", "재규어랜드로버", "미국생산"],
+    badge: "PICKUP",
+    badgeClass: "cat-blue",
+    source: "Motor1, Automotive News, autoevolution",
+    desc: "재규어랜드로버(JLR)가 미국 시장 전용 디펜더 픽업트럭을 스텔란티스와 함께 만드는 방안을 검토하고 있다. 5월 체결한 비구속적 업무협약을 바탕으로 연말까지 구체적 생산 계약을 목표로 하며, 지프 랭글러와 연관된 스텔란티스 플랫폼과 오하이오 톨레도 공장이 유력 후보로 거론된다. 슬로바키아산 수입에 붙는 관세를 피하려는 전략이 핵심 배경이다."
+  },
+  {
+    slug: "mitsubishi-pajero-2027-no-spare-tire",
+    title: "\"뒷문에 매달린 그 타이어, 이제 안 보인다\"… 신형 파제로가 스페어타이어를 숨긴 사연",
+    date: "2026-09-15",
+    image: "mitsubishi_new_pajero_rear.webp",
+    categories: ["import", "news"],
+    tags: ["미쓰비시파제로", "스페어타이어", "완전변경", "오프로드SUV", "트라이톤"],
+    badge: "DESIGN",
+    badgeClass: "cat-blue",
+    source: "Motor1, Drive.com.au, CarExpert",
+    desc: "미쓰비시가 완전변경한 신형 파제로에서 트렁크 문에 매달려 있던 외장 스페어타이어를 없앴다. 스페어타이어는 차체 하부로 자리를 옮겼고, 미쓰비시는 무거운 타이어가 테일게이트 개폐를 방해하고 좁은 주차 공간에서 적재 접근성을 떨어뜨렸다고 설명했다. 토요타 프라도가 먼저 택한 방식과 같은 흐름이다."
+  },
+  {
+    slug: "bmw-ix5-hydrogen-fcev-2026-production",
+    title: "\"0→100km/h 5초대\"… 양산 임박한 BMW 수소차 iX5 하이드로젠의 진짜 목표",
+    date: "2026-09-15",
+    image: "bmw_ix5_hydrogen_fcev_front_hood_open.webp",
+    categories: ["import", "news"],
+    tags: ["BMWiX5하이드로젠", "수소연료전지차", "FCEV", "도요타", "수소차"],
+    badge: "HYDROGEN",
+    badgeClass: "cat-blue",
+    source: "Motor1, BMW Blog, BMW Group",
+    desc: "BMW의 수소연료전지차 'iX5 하이드로젠'이 실도로 테스트 단계에 진입하며 2028년 양산을 향해 다가서고 있다. 도요타와 공동 개발한 3세대 연료전지 시스템을 얹어 0-100km/h 5초대를 목표로 하며, WLTP 기준 최대 750km 주행거리와 5분 이내 충전을 내세운다. 순수전기 iX5와는 전혀 다른 차종이라는 점에 유의해야 한다."
+  },
+  {
+    slug: "lexus-es-electric-korea-70million-price",
+    title: "\"7000만원대면 해볼 만하다\"… 렉서스, 국내 'ES 전기차' 가격 승부수",
+    date: "2026-09-15",
+    image: "lexus_es350e_front34_studio.webp",
+    categories: ["import", "news"],
+    tags: ["렉서스ES", "ES350e", "전기세단", "렉서스전기차", "수입전기차"],
+    badge: "PRICING",
+    badgeClass: "cat-sales",
+    source: "지피코리아(GPKorea)",
+    desc: "렉서스가 8세대 ES의 순수전기 버전 'ES 350e'를 국내 7,160만원부터 책정하며 승부수를 던졌다. 10월 13일 출시를 앞둔 국내 ES 라인업은 하이브리드 4종, 전기차 5종 등 총 9개 그레이드로 구성된다. 1회 충전 주행거리 478km, 3년 후 최대 60% 잔존가치 보장 프로그램까지 더해 볼보 ES90·BMW i5 등과의 정면 승부를 예고했다."
+  },
+  {
     slug: "maserati-tipo61-birdcage-record-auction-2026",
     title: "\"57억 원짜리 뼈대\"… 마세라티 '버드케이지'가 경매장을 뒤흔든 이유",
     date: "2026-09-15",
