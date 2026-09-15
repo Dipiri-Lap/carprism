@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "wonju_ginkgo_bangyeri_autumn_2026",
+    title: "\"1317년을 산 나무가 있다\"… 원주 도심에서 반계리 천년 은행나무까지",
+    date: "2026-09-15",
+    image: "wonju_bangyeri_ginkgo_summer.webp",
+    categories: ["travel"],
+    tags: ["원주여행", "반계리은행나무", "원주은행나무", "명륜동", "가을단풍명소"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "",
+    source: "대한민국 구석구석(한국관광공사)",
+    desc: "원주향교 명륜당에서 이름을 딴 원주 명륜동 도심 일대부터, 국내 최고령으로 확인된 천연기념물 반계리 은행나무(수령 1317년)까지, 원주에서 가을 은행나무를 즐기는 법을 정리했다."
+  },
+  {
+    slug: "busan_samnak_ecopark_cosmos_pinkmuhly_2026",
+    title: "\"낙동강 따라 7km 꽃길\"… 부산 삼락생태공원, 코스모스·핑크뮬리 동시 개화",
+    date: "2026-09-15",
+    image: "busan_samnak_ecopark_map.webp",
+    categories: ["travel"],
+    tags: ["부산여행", "삼락생태공원", "코스모스명소", "핑크뮬리명소", "낙동강생태공원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "",
+    source: "부산광역시 낙동강관리본부",
+    desc: "부산 사상구 낙동강변에 자리한 삼락생태공원은 가을이면 코스모스와 핑크뮬리가 동시에 만개하는 부산 최대 리버파크다. 개화 시기와 위치, 주차·자전거 등 이용정보, 인근 연계 생태공원까지 정리했다."
+  },
+  {
+    slug: "daejeon_gyejoksan_barefoot_mudroad_2026",
+    title: "\"신발부터 벗으세요\"… 전국 맨발걷기 열풍의 시작, 대전 계족산 황톳길",
+    date: "2026-09-15",
+    image: "daejeon_gyejoksan_mud_road_hiker.webp",
+    categories: ["travel"],
+    tags: ["대전여행", "계족산황톳길", "맨발걷기", "대덕구여행", "가을단풍명소"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "",
+    source: "대전광역시 대덕구청",
+    desc: "2006년 조성된 대전 계족산 황톳길은 총 14.5km에 이르는 전국 최대 맨발걷기 전용 보행로다. 코스 안내부터 계족산성 전망대, 가을 단풍 시기, 이용정보까지 정리했다."
+  },
+  {
+    slug: "seokchon_olympic_ginkgo_autumn_2026",
+    title: "\"벚꽃만 유명한 줄 알았는데\"… 석촌호수·올림픽공원, 가을엔 은행나무길이 진짜다",
+    date: "2026-09-15",
+    image: "seokchon_lake_autumn_path.webp",
+    categories: ["travel"],
+    tags: ["서울가을여행", "석촌호수은행나무길", "올림픽공원은행나무길", "송파구여행", "가을단풍명소"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "",
+    source: "서울특별시 송파구청",
+    desc: "봄 벚꽃으로 유명한 서울 송파구 석촌호수와 올림픽공원이지만, 가을이면 호수 둘레길과 몽촌토성 다리 인근 은행나무길이 색다른 매력을 보여준다. 은행나무 포인트와 들꽃마루 가을꽃, 겨울 조명축제 정보까지 정리했다."
+  },
+  {
     slug: "wolchulsan_autumn_gureumdari_2026",
     title: "\"국내 최초 산악 구름다리, 해발 510m 허공에 뜬다\"… 기암괴석 월출산, 가을 단풍과 만나다",
     date: "2026-09-15",
