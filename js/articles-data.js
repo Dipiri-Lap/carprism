@@ -53,13 +53,13 @@ window.ARTICLES_DATA = [
     slug: "tiny-ev-camper-sleeps-four-chevy-bolt-2026",
     title: "\"쉐보레 볼트보다 작은데 4명이 잔다\"… 초소형 EV 캠핑카의 발상",
     date: "2026-09-15",
-    image: "tiny_ev_camper_wuling_hongguang_front.webp",
+    image: "vala_kcar_wuling_camper_side.webp",
     categories: ["news", "electric"],
-    tags: ["초소형캠퍼밴", "전기캠핑카", "우링EV", "캠핑카개조", "마이크로캠퍼"],
+    tags: ["초소형캠퍼밴", "전기캠핑카", "발라카", "ValaKcar", "우링EV"],
     badge: "MOBILITY TECH",
     badgeClass: "cat-blue",
     source: "InsideEVs",
-    desc: "우링 계열 초소형 전기차를 기반으로 개조한 캠퍼밴이 전장 3.6m, 전폭 1.5m로 쉐보레 볼트보다 작으면서도 팝업 루프탑 텐트와 접이식 좌석을 활용해 4명이 잘 수 있는 구조를 갖췄다. 총 비용은 1만 5천 달러(약 2천만 원) 안팎으로 알려졌다."
+    desc: "중국 캠핑카 스타트업 발라(Vala)가 우링(Wuling)과 협업해 만든 초소형 전기 캠퍼밴 '발라 카(Vala Kcar)'가 전장 3.6m, 전폭 1.5m로 쉐보레 볼트보다 작으면서도 팝업 루프탑 텐트와 접이식 좌석을 활용해 4명이 잘 수 있는 구조를 갖췄다. 중국 현지 가격은 스탠다드 트림 기준 9만 9,800위안(약 1,900만 원) 수준이다."
   },
   {
     slug: "volvo-xc60-xc90-2028-phev-ev-range-record",
