@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "maserati-tipo61-birdcage-record-auction-2026",
+    title: "\"57억 원짜리 뼈대\"… 마세라티 '버드케이지'가 경매장을 뒤흔든 이유",
+    date: "2026-09-15",
+    image: "maserati_tipo61_birdcage_lime_rock_1959.webp",
+    categories: ["news"],
+    tags: ["마세라티", "티포61", "버드케이지", "클래식카경매", "페블비치"],
+    badge: "AUCTION",
+    badgeClass: "cat-blue",
+    source: "motorgraph,autotribune,gpkorea",
+    desc: "1959년형 마세라티 티포 61 '버드케이지'가 미국 페블 비치 경매에서 424만 달러(약 57억 원)에 낙찰되며 해당 모델 역대 최고가를 새로 썼다. 200개의 강철 튜브로 짠 스페이스프레임과 뉘르부르크링 2연패 기록, 마세라티 100주년 레이싱 유산까지 짚어본다."
+  },
+  {
+    slug: "geely-export-triple-growth-2026",
+    title: "\"수출이 1년 만에 3배\"… 지리차, 중국 밖에서 무슨 일이 벌어졌나",
+    date: "2026-09-15",
+    image: "geely_galaxy_e8.webp",
+    categories: ["news"],
+    tags: ["지리자동차", "지리수출", "중국전기차", "지커", "볼보"],
+    badge: "GLOBAL SALES",
+    badgeClass: "cat-blue",
+    source: "autotribune",
+    desc: "지리자동차의 2026년 8월 전체 판매는 8% 늘었지만 중국 내수는 25% 줄었다. 그 공백을 메운 것은 205% 급증한 수출로, 해외 판매 비중이 14.4%에서 40.7%까지 뛰었다. 연간 수출 목표를 92만 대로 올린 지리차의 수출 전략과 배경을 짚어본다."
+  },
+  {
+    slug: "ford-bronco-60th-anniversary-legendary-models",
+    title: "지프에 맞서 태어난 지 60년… 역대 가장 상징적인 포드 브롱코 10대는",
+    date: "2026-09-15",
+    image: "ford_bronco_1966_first_gen.webp",
+    categories: ["news"],
+    tags: ["포드브롱코", "브롱코60주년", "브롱코랩터", "오프로드SUV", "포드"],
+    badge: "ANNIVERSARY",
+    badgeClass: "cat-blue",
+    source: "carbuzz",
+    desc: "1966년 지프 CJ에 맞서 태어난 포드 브롱코가 2026년 60주년을 맞았다. 1세대부터 6세대까지 세대별 역사와 함께, 미국 매체 카버즈가 선정한 '역대 가장 상징적인 브롱코 10대'를 정리한다."
+  },
+  {
     slug: "kia-pv7-world-premiere-hannover-2026",
     title: "\"스타리아보다 크다\"... 기아, 최대 11인승 대형 전동 PBV 'PV7' 세계 최초 공개",
     date: "2026-09-15",
