@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "wolchulsan_autumn_gureumdari_2026",
+    title: "\"국내 최초 산악 구름다리, 해발 510m 허공에 뜬다\"… 기암괴석 월출산, 가을 단풍과 만나다",
+    date: "2026-09-15",
+    image: "wolchulsan_gureumdari_bridge.webp",
+    categories: ["travel"],
+    tags: ["월출산", "구름다리", "천황봉", "도갑사", "가을단풍"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 월출산국립공원사무소 / 영암군 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "전남 영암 월출산국립공원의 명물 구름다리와 천황봉 등산 코스, 국보 도갑사 해탈문, 단풍 절정 시기와 교통·주차·입장료 정보를 정리했다."
+  },
+  {
+    slug: "mudeungsan_seoseokdae_autumn_2026",
+    title: "\"돌기둥 200여 개가 병풍처럼 늘어섰다\"… 광주 무등산 주상절리, 가을이면 더 붉어진다",
+    date: "2026-09-15",
+    image: "mudeungsan_ridge_panorama1.webp",
+    categories: ["travel"],
+    tags: ["무등산", "서석대", "입석대", "주상절리", "가을단풍"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 무등산국립공원사무소 / 광주광역시 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "광주 무등산국립공원의 천연기념물 주상절리대 서석대·입석대 코스와 증심사·원효사, 단풍 시기, 등산코스·교통 정보를 정리했다."
+  },
+  {
+    slug: "worak_yeongbong_chungjuho_autumn_2026",
+    title: "\"구름바다 위로 솟은 바위 봉우리\"… 제천 월악산 영봉, 충주호를 한눈에 담다",
+    date: "2026-09-15",
+    image: "woraksan_chungjuho_clouds.webp",
+    categories: ["travel"],
+    tags: ["월악산", "영봉", "만수계곡", "송계계곡", "충주호"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 월악산국립공원사무소 / 제천시·충주시 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "충북 제천 월악산국립공원 영봉 조망 코스와 만수계곡·송계계곡 단풍, 덕주사 마애불, 등산코스·교통·주차 정보를 정리했다."
+  },
+  {
+    slug: "chiaksan_guryongsa_autumn_2026",
+    title: "\"단풍 터널 끝에 천년 고찰이 있다\"… 원주 치악산 구룡사 단풍길, 비로봉까지 이어지다",
+    date: "2026-09-15",
+    image: "chiaksan_autumn_foliage.webp",
+    categories: ["travel"],
+    tags: ["치악산", "구룡사", "비로봉", "사다리병창", "가을단풍"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 치악산국립공원사무소 / 원주시 / 대한민국 구석구석(한국관광공사) 종합",
+    desc: "강원 원주 치악산국립공원 구룡사 단풍길과 비로봉 등산 코스, 사다리병창 난이도, 등산코스·교통·주차 정보를 정리했다."
+  },
+  {
     slug: "sobaeksan_huibang_yeonhwabong_autumn_2026",
     title: "영남제일폭포 옆, 단풍이 물줄기를 붉게 감싼다",
     date: "2026-09-15",
