@@ -87,7 +87,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jlr-defender-pickup-stellantis-us",
-    title: "\"슬로바키아에서 실어오면 관세만 15%\"… 재규어랜드로버가 스텔란티스와 손잡은 이유",
+    title: "\"슬로바키아에서 실어오면 관세만 25%\"… 재규어랜드로버가 스텔란티스와 손잡은 이유",
     date: "2026-09-15",
     image: "landrover_defender_130_l663.webp",
     categories: ["import", "news"],
