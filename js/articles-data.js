@@ -65,7 +65,7 @@ window.ARTICLES_DATA = [
     slug: "mudeungsan_seoseokdae_autumn_2026",
     title: "\"돌기둥 200여 개가 병풍처럼 늘어섰다\"… 광주 무등산 주상절리, 가을이면 더 붉어진다",
     date: "2026-09-15",
-    image: "mudeungsan_ridge_panorama1.webp",
+    image: "mudeungsan_jusangjeolli_snow.webp",
     categories: ["travel"],
     tags: ["무등산", "서석대", "입석대", "주상절리", "가을단풍"],
     badge: "TRAVEL TIPS",
