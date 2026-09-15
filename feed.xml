@@ -5,7 +5,39 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 15 Sep 2026 13:04:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 13:55:11 GMT</lastBuildDate>
+    <item>
+      <title>&quot;급속충전 매일 쓰면 배터리가 늙는다&quot;… 완속과 급속, 무엇이 다른가</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-slow-fast-charging-battery-health-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-slow-fast-charging-battery-health-guide.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>전기차 급속충전은 리튬이온을 짧은 시간에 밀어넣는 과정에서 &quot;리튬 도금&quot; 현상을 일으켜 배터리 열화를 앞당길 수 있다. KAIST 연구진은 급속충전 시 흑연 음극 표면에 금속 리튬이 쌓이는 현상을 디지털 트윈으로 규명했으며, 완속충전 중심에 20~80% 충전 습관을 더하는 것이 배터리 수명을 오래 지키는 길로 꼽힌다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ev_battery_pack_cells_closeup.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;이 충전기, 우리 차에 맞는 걸까&quot;… 전기차 커넥터 3종 구분법</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-charging-connector-types-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-charging-connector-types-guide.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>전기차 충전 커넥터는 크게 국내 표준인 DC콤보(Combo-1), 구형 차데모(CHAdeMO), 완속용 AC 3상(타입2 계열)으로 나뉜다. 겉모양과 핀 구성만 알면 충전소에서 바로 구분할 수 있으며, 내 차의 인렛 규격을 미리 확인해두면 어댑터가 필요한지도 헷갈리지 않는다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/ev_connector_types_chademo_ccs_type2.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;번호판을 못 봤어요&quot;… 뺑소니 당했을 때 첫 5분이 가른다</title>
+      <link>https://carprism.tmhub.co.kr/articles/hit-and-run-accident-initial-response-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hit-and-run-accident-initial-response-guide.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>블랙박스가 없거나 각도가 맞지 않아 상대 차량을 특정하지 못했더라도, 목격자 확보와 주변 CCTV 위치 파악, 차량 파편·도색 흔적 채증만 제대로 해두면 가해자를 특정할 가능성이 남는다. 112 신고 절차와 손해보험협회 정부보장사업 신청 방법, 뺑소니 특정 시 처벌 수위까지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/hitandrun_car_damage_dent_scrape.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;화면이 깨져서 못 보고 있었습니다&quot;… 블랙박스 SD카드, 이래서 수명이 짧다</title>
+      <link>https://carprism.tmhub.co.kr/articles/dashcam-sd-card-lifespan-format-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/dashcam-sd-card-lifespan-format-guide.html</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>블랙박스는 24시간 상시녹화로 같은 저장 공간에 끊임없이 쓰고 지우기를 반복해, 일반 SD카드보다 훨씬 빨리 낸드플래시 수명(P/E 사이클)을 소진한다. 최소 한 달에 1~2회 포맷, 1년 주기 교체, 블랙박스 전용 고내구성 카드 사용이 권장되며 영상 깨짐이나 카드 인식 불가는 수명이 다했다는 신호다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/dashcam_dual_windshield_mount.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;1317년을 산 나무가 있다&quot;… 원주 도심에서 반계리 천년 은행나무까지</title>
       <link>https://carprism.tmhub.co.kr/articles/wonju_ginkgo_bangyeri_autumn_2026.html</link>
@@ -213,38 +245,6 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>1966년 지프 CJ에 맞서 태어난 포드 브롱코가 2026년 60주년을 맞았다. 1세대부터 6세대까지 세대별 역사와 함께, 미국 매체 카버즈가 선정한 &apos;역대 가장 상징적인 브롱코 10대&apos;를 정리한다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/ford_bronco_1966_first_gen.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;스타리아보다 크다&quot;... 기아, 최대 11인승 대형 전동 PBV &apos;PV7&apos; 세계 최초 공개</title>
-      <link>https://carprism.tmhub.co.kr/articles/kia-pv7-world-premiere-hannover-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/kia-pv7-world-premiere-hannover-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>기아가 9월 14일(현지시각) 독일 하노버 IAA 트랜스포테이션 2026에서 대형 전동화 PBV &apos;더 기아 PV7&apos;을 세계 최초 공개했다. 전장 5,350mm에 최대 11인승 구성이 가능하며, 2027년 하반기 국내·유럽 시장에 출시된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/kia_pv7_teaser_exterior.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;루프 없이도 버틴다&quot;... 제네시스 플래그십 오픈탑, 기술적 난제 풀렸다</title>
-      <link>https://carprism.tmhub.co.kr/articles/genesis-flagship-convertible-bulkhead-patent-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/genesis-flagship-convertible-bulkhead-patent-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>현대차그룹이 오픈탑 차량의 고질적 약점이던 차체 강성 문제를 해결하는 &apos;차체 격벽&apos; 구조 특허를 출원했다. 제네시스가 여러 차례 컨버터블 콘셉트를 선보인 가운데, 이번 특허로 플래그십 오픈탑의 양산 가능성이 다시 부상하고 있다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/genesis_g90_2gen_a.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;경쟁 넘어 열정으로&quot;... 현대 N과 토요타 GR, 인제에서 짐카나로 하나 되다</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-n-toyota-gr-gymkhana-day-inje-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-n-toyota-gr-gymkhana-day-inje-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>토요타코리아와 현대자동차가 9월 11일 강원도 인제 스피디움에서 &apos;현대 N x 토요타 가주 레이싱 짐카나 데이&apos;를 열었다. 현대 N과 토요타 GR 오너 80명이 혼합팀을 이뤄 짐카나 챌린지와 교차 시승을 진행했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq5_n_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;핸들 제어권 넘어가면 끝장&quot;... 현대차, 국내 최초 OTA 해킹 대비 모의훈련</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-ota-hacking-cybersecurity-drill-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-ota-hacking-cybersecurity-drill-2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>국토교통부 주도로 현대자동차 판교 AVP 본부에서 국내 최초 차량 OTA 해킹 대비 민관 합동 모의훈련이 실시됐다. 협력사 서버 침입 악성코드가 OTA 시스템을 통해 배포돼 조향 장치를 마비시키는 시나리오를 가정, 5단계 대응 절차를 점검했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ioniq5_autonomous_test_seoul.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

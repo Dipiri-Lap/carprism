@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-slow-fast-charging-battery-health-guide",
+    title: "\"급속충전 매일 쓰면 배터리가 늙는다\"… 완속과 급속, 무엇이 다른가",
+    date: "2026-09-15",
+    image: "ev_battery_pack_cells_closeup.webp",
+    categories: ["life"],
+    tags: ["전기차배터리수명", "완속충전", "급속충전", "배터리열화", "EV충전습관"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "전기차 급속충전은 리튬이온을 짧은 시간에 밀어넣는 과정에서 \"리튬 도금\" 현상을 일으켜 배터리 열화를 앞당길 수 있다. KAIST 연구진은 급속충전 시 흑연 음극 표면에 금속 리튬이 쌓이는 현상을 디지털 트윈으로 규명했으며, 완속충전 중심에 20~80% 충전 습관을 더하는 것이 배터리 수명을 오래 지키는 길로 꼽힌다."
+  },
+  {
+    slug: "ev-charging-connector-types-guide",
+    title: "\"이 충전기, 우리 차에 맞는 걸까\"… 전기차 커넥터 3종 구분법",
+    date: "2026-09-15",
+    image: "ev_connector_types_chademo_ccs_type2.webp",
+    categories: ["life"],
+    tags: ["전기차충전커넥터", "DC콤보", "차데모", "AC3상충전", "충전어댑터"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "전기차 충전 커넥터는 크게 국내 표준인 DC콤보(Combo-1), 구형 차데모(CHAdeMO), 완속용 AC 3상(타입2 계열)으로 나뉜다. 겉모양과 핀 구성만 알면 충전소에서 바로 구분할 수 있으며, 내 차의 인렛 규격을 미리 확인해두면 어댑터가 필요한지도 헷갈리지 않는다."
+  },
+  {
+    slug: "hit-and-run-accident-initial-response-guide",
+    title: "\"번호판을 못 봤어요\"… 뺑소니 당했을 때 첫 5분이 가른다",
+    date: "2026-09-15",
+    image: "hitandrun_car_damage_dent_scrape.webp",
+    categories: ["life"],
+    tags: ["뺑소니대처법", "뺑소니신고", "정부보장사업", "무보험차량피해보상", "도주차량처벌"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "손해보험협회",
+    desc: "블랙박스가 없거나 각도가 맞지 않아 상대 차량을 특정하지 못했더라도, 목격자 확보와 주변 CCTV 위치 파악, 차량 파편·도색 흔적 채증만 제대로 해두면 가해자를 특정할 가능성이 남는다. 112 신고 절차와 손해보험협회 정부보장사업 신청 방법, 뺑소니 특정 시 처벌 수위까지 정리했다."
+  },
+  {
+    slug: "dashcam-sd-card-lifespan-format-guide",
+    title: "\"화면이 깨져서 못 보고 있었습니다\"… 블랙박스 SD카드, 이래서 수명이 짧다",
+    date: "2026-09-15",
+    image: "dashcam_dual_windshield_mount.webp",
+    categories: ["life"],
+    tags: ["블랙박스SD카드", "SD카드포맷", "블랙박스전용카드", "낸드플래시수명", "블랙박스관리"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "블랙박스는 24시간 상시녹화로 같은 저장 공간에 끊임없이 쓰고 지우기를 반복해, 일반 SD카드보다 훨씬 빨리 낸드플래시 수명(P/E 사이클)을 소진한다. 최소 한 달에 1~2회 포맷, 1년 주기 교체, 블랙박스 전용 고내구성 카드 사용이 권장되며 영상 깨짐이나 카드 인식 불가는 수명이 다했다는 신호다."
+  },
+  {
     slug: "wonju_ginkgo_bangyeri_autumn_2026",
     title: "\"1317년을 산 나무가 있다\"… 원주 도심에서 반계리 천년 은행나무까지",
     date: "2026-09-15",
