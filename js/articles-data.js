@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-pv7-world-premiere-hannover-2026",
+    title: "\"스타리아보다 크다\"... 기아, 최대 11인승 대형 전동 PBV 'PV7' 세계 최초 공개",
+    date: "2026-09-15",
+    image: "kia_pv7_teaser_exterior.webp",
+    categories: ["news", "domestic"],
+    tags: ["기아PV7", "PBV", "전기밴", "기아상용차", "IAA트랜스포테이션"],
+    badge: "FIRST LOOK",
+    badgeClass: "cat-blue",
+    source: "카가이 / 모터그래프",
+    desc: "기아가 9월 14일(현지시각) 독일 하노버 IAA 트랜스포테이션 2026에서 대형 전동화 PBV '더 기아 PV7'을 세계 최초 공개했다. 전장 5,350mm에 최대 11인승 구성이 가능하며, 2027년 하반기 국내·유럽 시장에 출시된다."
+  },
+  {
+    slug: "genesis-flagship-convertible-bulkhead-patent-2026",
+    title: "\"루프 없이도 버틴다\"... 제네시스 플래그십 오픈탑, 기술적 난제 풀렸다",
+    date: "2026-09-15",
+    image: "genesis_g90_2gen_a.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스오픈탑", "제네시스G90", "컨버터블", "차체격벽특허", "제네시스플래그십"],
+    badge: "FLAGSHIP",
+    badgeClass: "cat-blue",
+    source: "오토헤럴드",
+    desc: "현대차그룹이 오픈탑 차량의 고질적 약점이던 차체 강성 문제를 해결하는 '차체 격벽' 구조 특허를 출원했다. 제네시스가 여러 차례 컨버터블 콘셉트를 선보인 가운데, 이번 특허로 플래그십 오픈탑의 양산 가능성이 다시 부상하고 있다."
+  },
+  {
+    slug: "hyundai-n-toyota-gr-gymkhana-day-inje-2026",
+    title: "\"경쟁 넘어 열정으로\"... 현대 N과 토요타 GR, 인제에서 짐카나로 하나 되다",
+    date: "2026-09-15",
+    image: "hyundai_ioniq5_n_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대N", "토요타GR", "짐카나데이", "인제스피디움", "모터스포츠"],
+    badge: "MOTORSPORT",
+    badgeClass: "cat-blue",
+    source: "카가이 / 오토헤럴드",
+    desc: "토요타코리아와 현대자동차가 9월 11일 강원도 인제 스피디움에서 '현대 N x 토요타 가주 레이싱 짐카나 데이'를 열었다. 현대 N과 토요타 GR 오너 80명이 혼합팀을 이뤄 짐카나 챌린지와 교차 시승을 진행했다."
+  },
+  {
+    slug: "hyundai-ota-hacking-cybersecurity-drill-2026",
+    title: "\"핸들 제어권 넘어가면 끝장\"... 현대차, 국내 최초 OTA 해킹 대비 모의훈련",
+    date: "2026-09-15",
+    image: "hyundai_ioniq5_autonomous_test_seoul.webp",
+    categories: ["news", "domestic"],
+    tags: ["OTA해킹", "차량사이버보안", "현대차보안훈련", "CSMS", "커넥티드카"],
+    badge: "CYBERSECURITY",
+    badgeClass: "cat-blue",
+    source: "오토헤럴드",
+    desc: "국토교통부 주도로 현대자동차 판교 AVP 본부에서 국내 최초 차량 OTA 해킹 대비 민관 합동 모의훈련이 실시됐다. 협력사 서버 침입 악성코드가 OTA 시스템을 통해 배포돼 조향 장치를 마비시키는 시나리오를 가정, 5단계 대응 절차를 점검했다."
+  },
+  {
+    slug: "waymo-robotaxi-tokyo-2027-ahead-of-korea",
+    title: "\"한국보다 일본이 먼저\"... 웨이모 로보택시, 2027년 도쿄서 상용 운행",
+    date: "2026-09-15",
+    image: "waymo_ipace_street.webp",
+    categories: ["news"],
+    tags: ["웨이모", "로보택시", "자율주행택시", "도쿄자율주행", "웨이모코리아"],
+    badge: "AUTONOMOUS",
+    badgeClass: "cat-blue",
+    source: "오토헤럴드",
+    desc: "웨이모가 2027년 일본 도쿄에서 로보택시 상용 서비스를 시작한다. 일본 최대 모빌리티 플랫폼 GO, 택시회사 니혼코츠와 협력하며 최대 100여 대 규모로 확대할 계획이다. 지난달 '웨이모코리아' 법인을 설립했지만 한국 상용화는 도쿄보다 늦을 전망이다."
+  },
+  {
     slug: "sunchang_chaegyesan_swing_bridge_2026",
     title: "\"국도 24호선이 산을 갈라놨는데, 다리로 다시 이었다\"… 순창 하늘 위 270m",
     date: "2026-09-14",
