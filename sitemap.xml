@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -8550,6 +8550,96 @@
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/dashcam-sd-card-lifespan-format-guide.html</loc>
     <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/genesis-electric-bms-recall-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kia-ev6-pe-gt-battery-recall.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-bmw-recall-107000-units.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/bentley-tutto-veneto-hillclimb-100years.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-virtual-gear-shift-ev-patent.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-hydrogen-bus-480-infrastructure-2032.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hankook-dynapro-brand-film-us-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/stellantis-driverless-electric-cargo-iaa-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/mercedes-nextgenh2-truck-iaa-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-sealion-08-launch-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/carbuzz-hyundai-kia-genesis-luxury-gap.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/toyota-service-satisfaction-byd-korea-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-durability-400000km-study.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/vw-honda-jlr-restructuring-2026.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/china-nev-2030-five-year-plan.html</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
