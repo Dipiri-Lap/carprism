@@ -75,7 +75,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "import-car-maintenance-cost-reality-2026",
-    title: "\"부품비만 3.7배\"… 보험연구원 데이터로 확인한 수입차 유지비의 진짜 격차",
+    title: "\"부품값만 6배\"… 보험연구원 데이터로 확인한 수입차 유지비의 진짜 격차",
     date: "2026-09-16",
     image: "repair_shop_mechanic.webp",
     categories: ["import", "news"],
@@ -83,7 +83,7 @@ window.ARTICLES_DATA = [
     badge: "MAINTENANCE COST",
     badgeClass: "cat-blue",
     source: "보험연구원(KIRI) / 손해보험협회 / 더스쿠프 / 카프리즘 기획 기사",
-    desc: "보험연구원(KIRI) 2025-17 보고서에 따르면 수입차의 건당 평균 수리비는 국산차의 2.6배, 부품비는 3.7배에 달한다. 손해보험협회·보험개발원 통계와 브랜드별 편차까지, 확실한 1차 출처만 골라 수입차 유지비의 실체를 정리했다."
+    desc: "보험연구원(KIRI) 2025-17 보고서에 따르면 그랜저와 BMW 520d의 앞범퍼 교환비용은 3.6배, 부품값만 놓고 보면 6배 넘게 벌어진다. 손해보험협회·보험개발원 통계와 브랜드별 편차까지, 확실한 1차 출처만 골라 수입차 유지비의 실체를 정리했다."
   },
   {
     slug: "korean-vs-german-same-price-comparison-2026",
