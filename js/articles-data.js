@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "lpg-taxi-durability-consumer-insight-data-2026",
+    title: "\"폐차 직전까지 지구를 5바퀴 돌았다\"… 47만 대 데이터가 증명한 '가장 오래 타는 차'의 정체",
+    date: "2026-09-16",
+    image: "hyundai_sonata_lpi_taxi.webp",
+    categories: ["domestic", "news"],
+    tags: ["LPG차내구성", "폐차데이터", "컨슈머인사이트", "택시LPG", "오래타는차"],
+    badge: "DATA",
+    badgeClass: "cat-gold",
+    source: "컨슈머인사이트 / 다나와 자동차 / 한국자동차해체재활용업협회 / 카프리즘 기획 기사",
+    desc: "컨슈머인사이트와 CL M&S가 2000년 이후 등록돼 최근 말소된 국산·수입 승용차 47만2665대를 분석한 결과, 평균 누적 주행거리는 21만3858km(지구 5바퀴 이상)였다. 그중 가장 오래 달린 연료는 LPG로, 평균 25만6758km에 20만km 이상 운행 비율이 70.9%에 달했다."
+  },
+  {
     slug: "hyundai-kia-durability-400000km-study",
     title: "\"토요타 19.7% vs 현대차·기아 0.8%\"... 40만km 완주 확률, 왜 이렇게 벌어졌나",
     date: "2026-09-16",

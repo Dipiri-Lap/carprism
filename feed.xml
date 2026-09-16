@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 16 Sep 2026 06:59:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 07:45:10 GMT</lastBuildDate>
+    <item>
+      <title>&quot;폐차 직전까지 지구를 5바퀴 돌았다&quot;… 47만 대 데이터가 증명한 &apos;가장 오래 타는 차&apos;의 정체</title>
+      <link>https://carprism.tmhub.co.kr/articles/lpg-taxi-durability-consumer-insight-data-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/lpg-taxi-durability-consumer-insight-data-2026.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <description>컨슈머인사이트와 CL M&amp;S가 2000년 이후 등록돼 최근 말소된 국산·수입 승용차 47만2665대를 분석한 결과, 평균 누적 주행거리는 21만3858km(지구 5바퀴 이상)였다. 그중 가장 오래 달린 연료는 LPG로, 평균 25만6758km에 20만km 이상 운행 비율이 70.9%에 달했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_sonata_lpi_taxi.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;토요타 19.7% vs 현대차·기아 0.8%&quot;... 40만km 완주 확률, 왜 이렇게 벌어졌나</title>
       <link>https://carprism.tmhub.co.kr/articles/hyundai-kia-durability-400000km-study.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>전북 완주군과 충남 논산·금산에 걸친 대둔산도립공원. 케이블카로 5분이면 오르는 상부역사부터 국내 최초 산악 현수교 금강구름다리, 경사 51도의 삼선계단, 정상 마천대까지 요금·운영시간·등산코스·단풍 시기를 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/../images/daedunsan_hero.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;흰 양이 눈물을 흘렸다&quot;… 애기단풍 물드는 천년고찰, 백양사</title>
-      <link>https://carprism.tmhub.co.kr/articles/baekyangsa_jangseong_autumn_maple_2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/baekyangsa_jangseong_autumn_maple_2026.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>전남 장성 백암산 자락의 천년고찰 백양사. 창건 설화와 이름의 유래, 쌍계루·백학봉 명승, 장성백양단풍축제 일정, 백학봉 등산코스, 입장료·주차·템플스테이 정보까지 2026년 기준으로 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/../images/kto_naejangsan_baekyangsa.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
