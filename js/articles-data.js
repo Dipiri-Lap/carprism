@@ -161,7 +161,7 @@ window.ARTICLES_DATA = [
     slug: "kia-ev6-pe-gt-battery-recall",
     title: "\"고속 질주하다 힘이 빠질 수 있다\"… 기아 EV6 GT, 고전압배터리 자발적 리콜",
     date: "2026-09-16",
-    image: "kia_ev6_facelift_gray_front.webp",
+    image: "kia_ev6_gt_facelift_front.webp",
     categories: ["electric", "domestic", "news"],
     tags: ["기아 리콜", "EV6 GT", "고전압배터리", "전기차 리콜", "BMS"],
     badge: "RECALL",
