@@ -41,7 +41,7 @@ window.ARTICLES_DATA = [
     slug: "hyundai-dui-prevention-patent-2026",
     title: "\"반려견을 태워도, 동승자를 시켜도 소용없다\"… 현대차가 낸 음주운전 원천 차단 특허",
     date: "2026-09-17",
-    image: "hyundaidui_venue_dashboard_steering.webp",
+    image: "hyundaidui_patent_drawing_steering.webp",
     categories: ["domestic", "news"],
     tags: ["현대차특허", "음주운전방지장치", "알코올인터록", "현대차음주측정", "안면인식음주방지"],
     badge: "PATENT",
