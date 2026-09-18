@@ -77,7 +77,7 @@ window.ARTICLES_DATA = [
     slug: "hyundai-bayon-2nd-gen-teaser-2026",
     title: "\"해치백은 이제 그만\"… 현대차, 2세대 바이욘을 SUV로 다시 그렸다",
     date: "2026-09-18",
-    image: "bayon2gen_front_white.webp",
+    image: "bayon2gen_sketch_exterior_hero.webp",
     categories: ["import", "news"],
     tags: ["현대바이욘", "바이욘2세대", "현대차SUV", "아트오브스틸", "현대유럽전략"],
     badge: "NEW MODEL",
