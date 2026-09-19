@@ -17,7 +17,7 @@ window.ARTICLES_DATA = [
     slug: "car-insurance-any-driver-rider-guide-2026",
     title: "\"가족한정인데 왜 보상이 안 되죠?\"… 지정운전 특약과 누구나운전 특약, 헷갈리면 사고 난다",
     date: "2026-09-19",
-    image: "any_driver_rider_key_handover.webp",
+    image: "any_driver_rider_key_handover_codex.webp",
     categories: ["life"],
     tags: ["지정운전특약", "가족운전한정특약", "누구나운전특약", "단기운전자확대", "자동차보험특약"],
     badge: "DRIVING TIPS",
