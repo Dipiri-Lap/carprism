@@ -146,6 +146,8 @@ function build(spec) {
       <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
       <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
       <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+      <a href="../travel.html" class="nav-link" id="nav-travel">국내여행</a>
+      <a href="../life.html" class="nav-link" id="nav-life">생활정보</a>
     </nav>
     <button class="search-btn" id="searchBtn" aria-label="검색">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -163,6 +165,8 @@ function build(spec) {
   <a href="../reviews.html" class="nav-link">리뷰</a>
   <a href="../domestic.html" class="nav-link">국산차</a>
   <a href="../import.html" class="nav-link">수입차</a>
+  <a href="../travel.html" class="nav-link">국내여행</a>
+  <a href="../life.html" class="nav-link">생활정보</a>
 </nav>
 
 <!-- ===== MAIN ===== -->
@@ -230,7 +234,7 @@ ${sourceLinks}
         </div>
 
         <div class="article-tags">
-${tags.slice(0, 5).map(t => `          <a href="#" class="article-tag-item">${t}</a>`).join('\n')}
+${tags.slice(0, 5).map(t => `          <a href="../tag.html?t=${encodeURIComponent(t)}" class="article-tag-item">${t}</a>`).join('\n')}
         </div>
 
         <div class="share-block">
@@ -259,7 +263,7 @@ ${tags.slice(0, 5).map(t => `          <a href="#" class="article-tag-item">${t}
       <div class="sidebar-block reveal" id="sidebar-tags">
         <h2 class="sidebar-title">인기 태그</h2>
         <div class="pop-tags">
-${tags.slice(0, 5).map(t => `          <a href="#" class="pop-tag">${t}</a>`).join('\n')}
+${tags.slice(0, 5).map(t => `          <a href="../tag.html?t=${encodeURIComponent(t)}" class="pop-tag">${t}</a>`).join('\n')}
         </div>
       </div>
 
@@ -286,6 +290,8 @@ ${tags.slice(0, 5).map(t => `          <a href="#" class="pop-tag">${t}</a>`).jo
         <li><a href="../reviews.html">리뷰</a></li>
         <li><a href="../domestic.html">국산차</a></li>
         <li><a href="../import.html">수입차</a></li>
+        <li><a href="../travel.html">국내여행</a></li>
+        <li><a href="../life.html">생활정보</a></li>
         <li><a href="../archive.html">전체 기사</a></li>
       </ul>
     </div>

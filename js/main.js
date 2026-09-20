@@ -19,7 +19,10 @@ function escapeAttr(str) {
     const HERO_COUNT = 8;
     const heroItems = sortedByDate.slice(0, HERO_COUNT);
 
-    track.innerHTML = heroItems.map((item, i) => `
+    // scripts/prerender-lists.js가 이미 같은 내용을 정적으로 채워둔 경우
+    // (정상 배포 상태) innerHTML을 다시 만들지 않고 기존 마크업에 이벤트만 건다.
+    if (track.children.length === 0) {
+      track.innerHTML = heroItems.map((item, i) => `
       <div class="slide" role="group" aria-label="슬라이드 ${i + 1}" data-href="articles/${item.slug}.html" tabindex="0">
         <div class="slide-image">
           <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
@@ -34,7 +37,15 @@ function escapeAttr(str) {
       </div>
     `).join('');
 
+      if (dotsWrap) {
+        dotsWrap.innerHTML = heroItems.map((_, i) => `
+        <button class="dot${i === 0 ? ' dot--active' : ''}" id="dot-${i}" role="tab" aria-selected="${i === 0}" aria-label="슬라이드 ${i + 1}"></button>
+      `).join('');
+      }
+    }
+
     // 슬라이드 영역 어디를 눌러도 해당 기사로 이동 (버튼/링크 자체 클릭은 기본 동작에 맡김)
+    // — 정적 마크업이든 방금 새로 그린 마크업이든 이 바인딩은 항상 실행한다.
     track.querySelectorAll('.slide').forEach(slide => {
       slide.addEventListener('click', (e) => {
         if (e.target.closest('a')) return;
@@ -47,17 +58,11 @@ function escapeAttr(str) {
         }
       });
     });
-
-    if (dotsWrap) {
-      dotsWrap.innerHTML = heroItems.map((_, i) => `
-        <button class="dot${i === 0 ? ' dot--active' : ''}" id="dot-${i}" role="tab" aria-selected="${i === 0}" aria-label="슬라이드 ${i + 1}"></button>
-      `).join('');
-    }
   }
 
   // 최신 기사 리스트
   const latestList = document.querySelector('#articles .article-list');
-  if (latestList) {
+  if (latestList && latestList.children.length === 0) {
     const LATEST_COUNT = 15;
     const latestItems = sortedByDate.slice(0, LATEST_COUNT);
 
@@ -83,6 +88,7 @@ function escapeAttr(str) {
     const cardsWrap = document.getElementById(`cat-preview-${cat}-cards`);
     const listWrap = document.getElementById(`cat-preview-${cat}-list`);
     if (!cardsWrap || !listWrap) return;
+    if (cardsWrap.children.length > 0 && listWrap.children.length > 0) return;
 
     const items = sortedByDate.filter((item) => item.categories.includes(cat)).slice(0, 6);
     const cardItems = items.slice(0, 2);
@@ -119,7 +125,7 @@ function escapeAttr(str) {
 
   // 운전 상식과 팁 리스트 (DRIVING TIPS·POLICY UPDATE·EV POLICY 기사 최신순)
   const tipsList = document.querySelector('#driving-tips .article-list');
-  if (tipsList) {
+  if (tipsList && tipsList.children.length === 0) {
     const TIPS_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
     const tipsItems = sortedByDate.filter((item) => TIPS_BADGES.includes(item.badge));
 
@@ -141,6 +147,61 @@ function escapeAttr(str) {
 })();
 
 // ─────────────────────────────────────────────
+//  태그 페이지 (tag.html?t=태그명) — 기사 태그 클릭 시 해당 태그가 달린
+//  기사를 모아 보여준다. 페이지네이션은 아래 공통 로직이 자동 적용됨.
+// ─────────────────────────────────────────────
+(function() {
+  const list = document.getElementById('tag-article-list');
+  const data = window.ARTICLES_DATA;
+  if (!list || !data) return;
+
+  const params = new URLSearchParams(location.search);
+  const tag = (params.get('t') || '').trim();
+
+  const titleEl = document.getElementById('tag-title');
+  const pageTitleEl = document.getElementById('tag-page-title');
+  const countEl = document.getElementById('tag-count');
+  const emptyEl = document.getElementById('tag-empty');
+
+  if (!tag) {
+    if (titleEl) titleEl.innerHTML = '<span class="section-title-bar"></span>태그 검색';
+    if (emptyEl) emptyEl.style.display = 'block';
+    return;
+  }
+
+  if (titleEl) titleEl.innerHTML = `<span class="section-title-bar"></span>#${escapeAttr(tag)}`;
+  if (pageTitleEl) pageTitleEl.textContent = `#${tag} 태그 기사 모음 | CarPrism`;
+
+  const matches = data
+    .filter((item) => (item.tags || []).includes(tag))
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  if (countEl) countEl.textContent = `${matches.length}건의 기사`;
+
+  if (matches.length === 0) {
+    if (emptyEl) emptyEl.style.display = 'block';
+    return;
+  }
+
+  list.innerHTML = matches.map((item) => {
+    const sourceLine = item.badge === 'TEST DRIVE' ? ` · 원문: ${item.source}` : '';
+    return `
+      <li>
+        <a href="articles/${item.slug}.html" class="article-row reveal">
+          <div class="row-thumb">
+            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+          </div>
+          <div class="row-info">
+            <span class="cat-label ${item.badgeClass}">${item.badge}</span>
+            <h3 class="row-title">${item.title}</h3>
+            <p class="row-meta">${item.date.replace(/-/g, '.')}${sourceLine}</p>
+          </div>
+        </a>
+      </li>`;
+  }).join('');
+})();
+
+// ─────────────────────────────────────────────
 //  카테고리 페이지: 상단 3개 카드 + 나머지 리스트 자동 렌더링
 //  (js/articles-data.js 기준 — electric.html/news.html/domestic.html/import.html/reviews.html)
 // ─────────────────────────────────────────────
@@ -150,6 +211,12 @@ function escapeAttr(str) {
   const cardsWrap = document.getElementById('category-top3');
   const list = section ? section.querySelector('ul.article-list') : null;
   if (!data || !section || !cardsWrap || !list) return;
+
+  // scripts/prerender-lists.js가 발행 시마다 이 영역을 정적 HTML로 미리 채워둔다.
+  // 이미 내용이 있으면(정상 배포 상태) 굳이 같은 내용을 다시 그리지 않고
+  // 그대로 사용해 무거운 articles-data.js 순회·innerHTML 재작성을 건너뛴다.
+  // (정적 스냅샷이 비어 있는 예외 상황에서만 JS로 대체 렌더링)
+  if (cardsWrap.children.length > 0 && list.children.length > 0) return;
 
   const category = section.getAttribute('data-category');
   const items = [...data]
