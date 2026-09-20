@@ -503,18 +503,25 @@ if (mobileMenuBtn && mobileNav) {
   const current = data.find((item) => item.slug === currentSlug);
   if (!current) return;
 
-  function sharedCategoryCount(item) {
-    return item.categories.filter((cat) => current.categories.includes(cat)).length;
+  // 카테고리는 8개뿐인 넓은 버킷(domestic/import/electric/news/travel 등)이라
+  // 겹침만으로는 실제 주제 연관성을 구분하지 못한다. 태그(구체적 키워드)와
+  // 배지(소재 유형: RECALL/NEW MODEL 등) 일치에 훨씬 높은 가중치를 둬서
+  // "진짜 비슷한 기사"가 상단에 오도록 점수를 매긴다.
+  function relevanceScore(item) {
+    const sharedTags = (item.tags || []).filter((t) => (current.tags || []).includes(t)).length;
+    const sharedCategories = item.categories.filter((cat) => current.categories.includes(cat)).length;
+    const sameBadge = item.badge && current.badge && item.badge === current.badge ? 1 : 0;
+    return sharedTags * 5 + sameBadge * 2 + sharedCategories;
   }
 
   const related = data
     .filter((item) => item.slug !== currentSlug)
     .sort((a, b) => {
-      const scoreDiff = sharedCategoryCount(b) - sharedCategoryCount(a);
+      const scoreDiff = relevanceScore(b) - relevanceScore(a);
       if (scoreDiff !== 0) return scoreDiff;
       return new Date(b.date) - new Date(a.date);
     })
-    .slice(0, 3);
+    .slice(0, 4);
 
   relatedList.innerHTML = related.map((item) => `
     <li>
