@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "auto-insurance-rate-difference-analysis-2026",
+    title: "\"같은 차, 같은 사람인데 왜 저 회사는 10만 원이 더 쌀까\"… 자동차보험료, 회사마다 다른 진짜 이유",
+    date: "2026-09-21",
+    image: "insuranceratediff_agent_faceToFace_consulting.webp",
+    categories: ["life"],
+    tags: ["자동차보험료비교", "보험다모아", "다이렉트보험", "할인할증등급", "보험료할인특약"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "같은 조건인데도 보험사마다 자동차보험료가 다르게 나오는 이유는 무엇일까. 보험다모아·손해보험협회 공시 자료를 바탕으로 순보험료·사업비 구조, 손해율 차이, 다이렉트와 대면채널의 가격 차이, 그리고 보험료를 합법적으로 낮추는 방법을 정리했다."
+  },
+  {
+    slug: "used-car-platform-price-comparison-2026",
+    title: "\"같은 차인데 왜 50만 원이 더 비싸죠?\"… 중고차 플랫폼마다 시세가 다른 이유",
+    date: "2026-09-21",
+    image: "usedcar_price_dealership_lot.webp",
+    categories: ["life"],
+    tags: ["중고차플랫폼비교", "엔카케이카헤이딜러", "중고차수수료", "인증중고차", "중고차시세차이"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "엔카·케이카·헤이딜러와 제조사 인증중고차 프로그램은 같은 차량이라도 서로 다른 가격을 보여준다. 오픈마켓·직영 매입·경매라는 거래 구조 차이가 수수료와 시세 표시 방식에 어떻게 반영되는지, 그리고 여러 플랫폼을 비교할 때 소비자가 무엇을 확인해야 하는지 2026년 기준으로 정리했다."
+  },
+  {
+    slug: "dealer-negotiation-margin-reality-2026",
+    title: "\"몇 백은 더 깎아드릴게요\"… 신차 딜러가 실제로 양보할 수 있는 폭은 어디까지일까",
+    date: "2026-09-21",
+    image: "dealernegotiation_showroom_interior_customer.webp",
+    categories: ["life"],
+    tags: ["신차구매협상", "딜러할인", "자동차영업사원인센티브", "신차구매팁", "트레이드인"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "신차 계약 자리에서 딜러가 먼저 흔드는 할인 카드, 어디까지 믿어야 할까. 제조사 인센티브와 딜러 재량 할인은 어떻게 다르고, 커뮤니티에 공유된 실구매 후기와 업계 자료를 종합하면 실제 협상 여지는 어느 항목에, 어느 시기에 몰려 있는지 정리했다."
+  },
+  {
+    slug: "ev-charging-infrastructure-density-gap-2026",
+    title: "\"충전기는 늘었다는데 우리 동네엔 왜 없을까\"… 전국 급속충전기 밀도, 수도권과 3배 넘게 벌어졌다",
+    date: "2026-09-21",
+    image: "kr_ev_charging_gonggeun.webp",
+    categories: ["electric"],
+    tags: ["전기차충전인프라", "급속충전기", "충전사각지대", "무공해차통합누리집", "고속도로휴게소충전"],
+    badge: "INFRASTRUCTURE",
+    badgeClass: "cat-ev",
+    source: "카프리즘 기획 기사",
+    desc: "환경부·한국전력·한국자동차충전협회 통계로 본 전국 급속충전기 밀도 격차. 수도권은 충전기 1기당 전기차 1.9대인 반면 제주는 8.1대, 급속충전기 기준으로는 부산·인천이 울산·경북보다 3배 넘게 부족하다. 고속도로 휴게소 충전 대란의 구조적 원인과 2026~2030년 정부 확충 계획까지 정리했다."
+  },
+  {
+    slug: "vehicle-scrap-age-domestic-vs-import-2026",
+    title: "\"수입차는 오래 못 탄다\"는 말, 통계로 보면 맞을까 — 국산차 15.7년 vs 수입차 13.8년",
+    date: "2026-09-21",
+    image: "car_scrapyard_birkenhead.webp",
+    categories: ["news"],
+    tags: ["폐차연령", "국산차수입차비교", "자동차평균사용연수", "말소등록", "자동차등록통계"],
+    badge: "DATA",
+    badgeClass: "cat-gold",
+    source: "카프리즘 기획 기사",
+    desc: "한국자동차해체재활용업협회·국토교통부 통계를 바탕으로 국산차와 수입차의 실제 평균 폐차(말소등록) 연령을 비교했다. 차급별 차이, 부품가·감가상각 인식이 만드는 격차, 그리고 미국·일본·독일과 비교한 한국의 자동차 사용연수까지 데이터로 짚었다."
+  },
+  {
+    slug: "traffic-accident-age-gender-statistics-2026",
+    title: "\"20대와 60대, 사고 건수는 비슷한데 왜 다르게 죽을까\"… 연령·성별로 갈리는 교통사고의 얼굴",
+    date: "2026-09-21",
+    image: "accidentstats_seoul_multilane_road_traffic.webp",
+    categories: ["life"],
+    tags: ["교통사고통계", "고령운전자", "초보운전", "조건부면허", "TAAS"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "도로교통공단 TAAS와 경찰청 통계를 보면 20대와 60대 이상은 사고 건수는 비슷해도 사고 원인과 치명률이 다르게 나타난다. 초보운전자의 신호위반·과속, 고령운전자의 안전운전불이행, 성별 사고율 차이의 통계적 배경과 조건부면허·실버존 등 제도적 대응을 2026년 기준으로 정리했다."
+  },
+  {
+    slug: "ev-subsidy-local-government-comparison-2026",
+    title: "\"같은 아이오닉5인데 왜 우리 동네만 200만 원이 적을까\"… 전국 10개 지자체 전기차 보조금 직접 비교해봤다",
+    date: "2026-09-21",
+    image: "kr_ev_charging_gonggeun.webp",
+    categories: ["life"],
+    tags: ["전기차보조금", "지자체보조금비교", "무공해차통합누리집", "지방비보조금", "전기차구매가이드"],
+    badge: "EV POLICY",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "전기차 보조금은 국비만 보면 안 된다. 지자체가 얹는 지방비가 지역마다 최대 400만 원 가까이 차이 나기 때문이다. 카프리즘이 서울·경기·부산·대구·인천·광주·대전·울산·세종·제주 등 10개 지자체의 2026년 승용 전기차 보조금 공고를 직접 취합해 국비+지방비 합산 총액을 비교표로 정리했다."
+  },
+  {
     slug: "xiaomi-li-auto-self-developed-battery-race-2026",
     title: "\"CATL 없이도 만든다\"… 샤오미·리오토가 배터리를 직접 만들기 시작한 이유",
     date: "2026-09-21",
