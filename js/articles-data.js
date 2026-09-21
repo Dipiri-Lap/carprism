@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yangyang-pine-mushroom-autumn-gourmet-travel-2026",
+    title: "\"1kg 경매가 100만 원\"… 전국 최대 송이 산지 양양, 추석 지나면 왜 붐빌까",
+    date: "2026-09-21",
+    image: "yangyangsongi_naksansa_uisangdae_pine_cliff.webp",
+    categories: ["travel"],
+    tags: ["양양송이", "양양여행", "송이버섯", "양양송이축제", "낙산사"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "양양군청 / 양양속초산림조합 / 한국관광공사 종합",
+    desc: "전국 최대 송이버섯 경매장이 있는 강원 양양의 가을 제철 미식 여행 정보를 정리했다. 양양산이 유명한 이유부터 2026년 첫 공판 시세, 경매장·전통시장 구매법, 송이 맛집, 낙산사·하조대 연계 코스까지 담았다."
+  },
+  {
+    slug: "anyang-suri-mountain-byeongmogan-autumn-festival-2026",
+    title: "\"도심에서 20분, 단풍은 산 정상급\"… 안양 수리산 병목안, 가을엔 왜 붐빌까",
+    date: "2026-09-21",
+    image: "anyangsurisan_autumn_hiking_event.webp",
+    categories: ["travel"],
+    tags: ["병목안가을단풍축제", "수리산도립공원", "안양여행", "병목안시민공원", "경기도가을축제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "안양시청 만안구 / 경기도 / 한국관광공사 종합",
+    desc: "경기 안양 수리산도립공원과 병목안시민공원에서 매년 가을 열리는 병목안 가을단풍축제 정보를 정리했다. 2026년 정확한 일정은 미발표 상태로, 예년(2025년 11월 1일)을 참고했다. 국내 최대 규모 인공폭포와 등산 코스, 수도권 근교라는 접근성까지 방문 전 확인할 내용을 순서대로 짚었다."
+  },
+  {
+    slug: "taebaek-cheolam-autumn-foliage-festival-2026",
+    title: "\"광부들이 살던 까치발 건물, 단풍이 들면 제일 붐빈다\"… 태백 철암단풍축제, 10월 16~18일",
+    date: "2026-09-21",
+    image: "taebaekcheolam_kkachibal_riverside_buildings.webp",
+    categories: ["travel"],
+    tags: ["철암단풍축제", "태백철암", "철암탄광역사촌", "구문소", "태백산단풍"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "태백시청 / 강원종합뉴스 / 한국관광공사 대한민국 구석구석 종합",
+    desc: "강원 태백 철암동에서 10월 16~18일 열리는 제15회 철암단풍축제 일정과 철암탄광역사촌의 탄광촌 역사, 철암 단풍 군락지·태백산 단풍 절정 시기, 구문소·추전역 연계 코스, 가는 법과 주차 정보까지 정리했다."
+  },
+  {
+    slug: "inje-autumn-flower-festival-2026",
+    title: "\"대한민국 첫 단풍의 시작\"이라더니… 작년 30만 명 몰린 인제 가을꽃축제, 올해는 뭐가 달라졌나",
+    date: "2026-09-21",
+    image: "injeautumnflower_flowerpath_valley.webp",
+    categories: ["travel"],
+    tags: ["인제가을꽃축제", "인제여행", "용대관광지", "강원가을축제", "박인환낭만정원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "인제가을꽃축제 공식 홈페이지 / 대한민국 구석구석(한국관광공사) / 인제군 종합",
+    desc: "2026년 9월 24일 개막하는 인제가을꽃축제의 개최 장소·기간, 마편초·국화 등 가을꽃 볼거리, 박인환 낭만정원 등 테마 공간, 입장료·주차·가는 법과 원대리 자작나무숲 등 인제 연계 여행 코스까지 정리했다."
+  },
+  {
+    slug: "jindo-baekjo-lake-park-cosmos-2026",
+    title: "\"백조는 아직 안 왔는데 코스모스는 벌써 폈다\"… 진도 백조호수공원, 4.4km 가을꽃길이 열렸다",
+    date: "2026-09-21",
+    image: "jindocosmos_walking_path_seaview.webp",
+    categories: ["travel"],
+    tags: ["진도여행", "백조호수공원", "나리방조제", "코스모스명소", "진도가볼만한곳"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "진도군청 공식 홈페이지 / 진도군 보도자료 / 한국관광공사 종합",
+    desc: "전남 진도군 백조호수공원에서 나리방조제까지 이어지는 4.4km 산책로에 코스모스가 만개했다. 2026년 9월 21일부터 10월 5일까지 열리는 가을꽃 행사 프로그램과 백조(고니) 도래지의 사연, 가는 법·주차, 진도대교·울돌목·진도개테마파크로 이어지는 연계 여행 코스까지 정리했다."
+  },
+  {
+    slug: "boryeong-muchangpo-sea-parting-daeha-jeoneo-festival-2026",
+    title: "\"바다가 하루에 두 번 갈라진다고?\"… 보령 무창포, 대하·전어 먹으러 갔다가 바닷길까지 걷는 법",
+    date: "2026-09-21",
+    image: "muchangpo_sunset_beach.webp",
+    categories: ["travel"],
+    tags: ["무창포신비의바닷길", "무창포대하전어축제", "보령여행", "서해안바닷길", "물때시간표"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "보령시청 문화관광 / 국립해양조사원 / 무창포해수욕장 공식 홈페이지 종합",
+    desc: "충남 보령 무창포해수욕장에서 2026년 9월 18일부터 10월 11일까지 대하·전어축제가 열린다. 하루 두 차례 바닷물이 갈라지며 석대도까지 1.5km 바닷길이 드러나는 '신비의 바닷길' 현상의 원리와 2026년 9~10월 물때 시간표, 축제 프로그램, 가는 법·주차까지 정리했다."
+  },
+  {
+    slug: "seocheon-hongwonhang-jeoneo-crab-festival-2026",
+    title: "\"축제는 열엿새 만에 끝났는데, 전어는 아직 안 끝났다\"… 서천 홍원항이 지금 가야 하는 이유",
+    date: "2026-09-21",
+    image: "seocheonjeoneo_harbor_aerial_festival.webp",
+    categories: ["travel"],
+    tags: ["홍원항", "서천여행", "전어축제", "꽃게축제", "충남가볼만한곳"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "서천군 / 한국관광공사 대한민국 구석구석 / 홍원항마을축제추진위원회 종합",
+    desc: "충남 서천 홍원항은 매년 늦여름 자연산 전어·꽃게 축제가 열리는 서해안 대표 포구다. 제24회 축제는 2026년 8월 22일~9월 6일 16일간 열렸지만, 전어와 꽃게의 진짜 제철은 가을 내내 이어진다. 축제 프로그램, 갯벌전어가 맛있는 이유, 가는 법·주차, 마량리 동백나무숲·신성리 갈대밭 연계 코스까지 정리했다."
+  },
+  {
     slug: "auto-insurance-rate-difference-analysis-2026",
     title: "\"같은 차, 같은 사람인데 왜 저 회사는 10만 원이 더 쌀까\"… 자동차보험료, 회사마다 다른 진짜 이유",
     date: "2026-09-21",
