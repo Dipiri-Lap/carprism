@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "polestar-kim-woobin-ambassador-2026",
+    title: "\"신민아 남편\" 대신 \"폴스타 얼굴\"… 김우빈이 전기차 앰버서더가 된 이유",
+    date: "2026-09-25",
+    image: "polestar3_front.webp",
+    categories: ["news", "import"],
+    tags: ["폴스타", "김우빈", "브랜드앰버서더", "자동차PPL", "전기차"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "종합",
+    desc: "스웨덴 프리미엄 전기차 브랜드 폴스타코리아가 2026년 2월 배우 김우빈을 브랜드 앰버서더로 선정했다. 결혼 발표 직후 나온 이 발탁의 공식 배경과, 제네시스·볼보·벤츠AMG로 이어진 자동차 앰버서더 시리즈 안에서 이 사례가 보여주는 패턴을 분석했다."
+  },
+  {
+    slug: "genesis-freaky-friday-hollywood-ppl-2026",
+    title: "\"제이미 리 커티스는 GV60, 린제이 로한은 GV80\"… 제네시스가 할리우드에 심은 노림수",
+    date: "2026-09-24",
+    image: "genesis_gv60_magma_orange_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스GV60", "제네시스GV80", "할리우드PPL", "프리키프라이데이", "자동차PPL"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "디즈니 영화 '프리키 프라이데이' 속편에 제네시스 GV60과 GV80이 등장한다. 제이미 리 커티스는 GV60을, 린제이 로한은 GV80을 탄다. 국내 드라마 협찬을 넘어 할리우드 대작으로 확장된 제네시스의 미국 시장 PPL 전략을 뜯어봤다."
+  },
+  {
+    slug: "mercedes-amg-ambassador-joojihoon-2026",
+    title: "\"조폭 대신 벤츠 몰았다\"… AMG가 주지훈을 고른 계산법",
+    date: "2026-09-24",
+    image: "mercedes_amg_c63_w206_front.webp",
+    categories: ["news", "import"],
+    tags: ["벤츠AMG", "주지훈", "브랜드앰버서더", "자동차PPL", "벤츠코리아"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "이데일리, 오토캐스트, 서울파이낸스, 이투데이 종합",
+    desc: "메르세데스-벤츠 코리아가 2021년 고성능 브랜드 AMG의 브랜드 앰버서더로 배우 주지훈을 선정했다. '신과함께', '공작', '킹덤'으로 쌓은 카리스마·액션 이미지를 고성능차 브랜드에 그대로 이식한 이 발탁을, 제네시스×한소희·볼보×김혜수 사례와 비교해 분석했다."
+  },
+  {
     slug: "yeongwol-eoranyeon-autumn-2026",
     title: "\"협곡 사이로 굽이치는 옥빛 물줄기\"… 영월 어라연, 단풍 절정에 걷는 명승 제14호",
     date: "2026-09-24",
