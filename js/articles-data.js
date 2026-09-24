@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kia-hearts2hearts-moonride-collab-2026",
+    title: "\"차가 소품이 아니라 노래가 됐다\"… 기아가 하츠투하츠와 신곡을 만든 이유",
+    date: "2026-09-25",
+    image: "kia_sorento_diesel_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["기아", "하츠투하츠", "Moonride", "자동차PPL", "블랙에디션"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "스포츠월드 / 머니투데이 엔터코노미 / 톱스타뉴스 / 네이트연예",
+    desc: "SM엔터테인먼트 신인 걸그룹 하츠투하츠가 2026년 9월 9일 오후 6시 기아 RV '블랙 에디션'과 협업한 싱글 겸 뮤직비디오 'Moonride'를 공개했다. 드라마 PPL이 아닌 음원·뮤직비디오 자체 제작이라는 새로운 방식과, 코카콜라×뉴진스 등 선례와 비교해 이번 사례가 자동차 PPL 시리즈에서 갖는 의미를 짚었다."
+  },
+  {
     slug: "polestar-kim-woobin-ambassador-2026",
     title: "\"신민아 남편\" 대신 \"폴스타 얼굴\"… 김우빈이 전기차 앰버서더가 된 이유",
     date: "2026-09-25",
