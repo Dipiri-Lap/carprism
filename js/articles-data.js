@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeongwol-eoranyeon-autumn-2026",
+    title: "\"협곡 사이로 굽이치는 옥빛 물줄기\"… 영월 어라연, 단풍 절정에 걷는 명승 제14호",
+    date: "2026-09-24",
+    image: "yeongwol_eoranyeon_autumn_valley.webp",
+    categories: ["travel"],
+    tags: ["영월어라연", "동강트레킹", "명승제14호", "가을단풍여행", "국내여행"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "영월군청 / 국가유산청 / 대한민국 구석구석",
+    desc: "강원 영월 동강 상류, 명승 제14호로 지정된 어라연(魚羅淵)의 단풍 트레킹 코스를 정리했다. 거운리에서 잣봉을 거쳐 전망대와 강변을 잇는 약 7km 왕복 코스, 여름 래프팅 시즌 마무리, 한반도지형·청령포 등 주변 연계 코스까지 함께 짚었다."
+  },
+  {
+    slug: "sunchang-gangcheonsan-autumn-foliage-2026",
+    title: "\"전국 군립공원 1호가 왜 명당인지 알겠다\"… 순창 강천산, 구름다리에서 보는 단풍이 다릅니다",
+    date: "2026-09-24",
+    image: "gangcheonsan_autumn_foliage_reflection.webp",
+    categories: ["travel"],
+    tags: ["강천산단풍", "순창여행", "구름다리", "전북단풍명소", "가을단풍여행"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "순창군청 / 한국관광공사 / 전북특별자치도",
+    desc: "1981년 국내 최초로 지정된 군립공원, 전북 순창 강천산. 높이 50m·길이 78m 구름다리(현수교)와 887년 창건 천년고찰 강천사, 병풍폭포까지 이어지는 단풍 명소를 입장료·주차·접근로 정보와 함께 정리했다."
+  },
+  {
+    slug: "jeju-ttarabi-oreum-silvergrass-2026",
+    title: "\"입장료도 주차도 공짜\"… 제주 '오름의 여왕' 따라비오름, 지금이 억새 절정",
+    date: "2026-09-24",
+    image: "jeju_ttarabi_oreum_silvergrass_sunset.webp",
+    categories: ["travel"],
+    tags: ["따라비오름", "제주가을여행", "억새명소", "표선면가볼만한곳", "오름의여왕"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "한국관광공사(대한민국 구석구석) / 비짓제주 / 위키백과",
+    desc: "제주 서귀포시 표선면 가시리에 있는 따라비오름은 3개의 굼부리(분화구)와 6개의 봉우리가 어우러진 오름으로, 10~11월이면 능선 전체가 억새로 뒤덮여 '오름의 여왕'이라 불린다. 입장료와 주차가 모두 무료인 이곳의 위치·탐방로·접근 정보와 유료 억새 명소인 산굼부리와의 차이를 정리했다."
+  },
+  {
+    slug: "imsil-cheese-theme-park-2026",
+    title: "\"벨기에 신부가 만든 산양 두 마리에서 시작됐다\"… 임실치즈테마파크로 떠나는 국내 치즈 발상지 여행",
+    date: "2026-09-24",
+    image: "imsil_cheese_theme_park_entrance.webp",
+    categories: ["travel"],
+    tags: ["임실치즈테마파크", "국내여행", "가족여행", "치즈체험", "전북여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "임실군청 / 임실치즈테마파크 공식 홈페이지",
+    desc: "전북 임실군 성수면 임실치즈테마파크는 1964년 벨기에 출신 지정환 신부가 임실에 정착해 산양을 기르며 국내 최초로 치즈를 만든 자리에서 출발한 곳이다. 치즈 만들기 체험부터 치즈 역사관, 성수산 연계 코스와 접근로까지 2026년 기준 정보로 정리했다."
+  },
+  {
+    slug: "hongcheon-ginkgo-forest-2026",
+    title: "10월 한 달만 열리는 비밀의 숲… 홍천 은행나무숲, 노란 파도가 친다",
+    date: "2026-09-24",
+    image: "hongcheon_ginkgo_forest_official.webp",
+    categories: ["travel"],
+    tags: ["홍천은행나무숲", "가을단풍여행", "강원도가볼만한곳", "내면광원리", "10월단풍명소"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "홍천군청 문화관광포털 / 대한민국 구석구석(한국관광공사)",
+    desc: "강원 홍천군 내면 광원리에 있는 홍천 은행나무숲은 매년 10월 한 달간만 무료로 문을 여는 개인 조성 숲이다. 2,000여 그루가 5m 간격으로 늘어선 이 숲의 개방 시기, 위치, 접근로와 주변 명소를 정리했다."
+  },
+  {
+    slug: "asan-gokgyocheon-gingko-road-2026",
+    title: "아산 곡교천 은행나무길, 차에서 내리지 않아도 되는 황금빛 2.1km",
+    date: "2026-09-24",
+    image: "kto_asan_ginkgo_road2.webp",
+    categories: ["travel"],
+    tags: ["곡교천은행나무길", "아산가을여행", "가을드라이브", "은행나무가로수길", "충남여행"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "아산시청 / 충남관광포털 / 한국관광공사",
+    desc: "충남 아산 염치읍, 곡교천 충무교에서 현충사 입구까지 이어지는 2.1km 은행나무 가로수길. 350여 그루가 만든 노란 터널의 단풍 절정 시기, 무료 주차장 위치, 차 없는 거리 운영, 최근 시작된 야간 조명까지 정리했다."
+  },
+  {
     slug: "hwa-restomod-vs-mercedes-190e-evo2-price",
     title: "\"복원개조차가 오리지널보다 비싸다\"… HWA 190E vs 진짜 에볼루션 II, 가격 역전",
     date: "2026-09-24",
