@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hwa-restomod-vs-mercedes-190e-evo2-price",
+    title: "\"복원개조차가 오리지널보다 비싸다\"… HWA 190E vs 진짜 에볼루션 II, 가격 역전",
+    date: "2026-09-24",
+    image: "hwa190e_evo2_front_museum.webp",
+    categories: ["import"],
+    tags: ["HWA EVO", "메르세데스190E", "에볼루션II", "레스토모드", "클래식카경매"],
+    badge: "CLASSIC & TUNING",
+    badgeClass: "cat-blue",
+    source: "Carscoops 등 종합",
+    desc: "옛 AMG 모터스포츠 부문 HWA가 만든 메르세데스-벤츠 190E 레스토모드 'HWA EVO'가 10억 원대에 고객 인도를 시작했다. 반면 진짜 1990년식 190E 2.5-16 에볼루션 II는 경매에서 4억 원대에 거래되고 있어, 신형 복원개조차보다 오히려 저렴하게 오리지널을 손에 넣을 수 있는 역전 현상이 벌어지고 있다. HWA의 정체와 두 차의 스펙, 레스토모드 시장의 최근 흐름까지 정리했다."
+  },
+  {
+    slug: "chinese-automakers-us-market-2038-projection",
+    title: "\"허용만 되면 연 170만대\"… 중국차, 미국 시장 뚫리면 벌어질 일",
+    date: "2026-09-24",
+    image: "chinaus2038_byd_seal_brazil_front.webp",
+    categories: ["import", "electric"],
+    tags: ["중국전기차", "BYD", "미국자동차시장", "관세", "커넥티드카"],
+    badge: "",
+    badgeClass: "",
+    source: "CnEVPost",
+    desc: "S&P 글로벌에서 분사한 컨설팅사 모빌리티 글로벌(Mobility Global)이 중국 완성차의 미국 시장 진입이 허용될 경우 2038년까지 연간 170만대를 판매할 수 있다는 전망을 내놨다. 관세와 커넥티드카 규정으로 막혀 있는 현재 상황, 유럽·브라질 등 다른 시장에서 BYD가 거둔 성과, 그리고 GM·포드·스텔란티스가 이 시나리오를 두려워하는 이유를 짚었다."
+  },
+  {
+    slug: "stellantis-gm-stock-drop-2026",
+    title: "\"악재는 없었다\"… 스텔란티스·GM 주가, 하루 만에 나란히 4% 빠진 이유",
+    date: "2026-09-24",
+    image: "stellantisgmstock_nyse_facade.webp",
+    categories: ["import"],
+    tags: ["스텔란티스", "GM", "로테이션트레이드", "포드", "자동차주"],
+    badge: "",
+    badgeClass: "",
+    source: "24/7 Wall St",
+    desc: "2026년 9월 18일 스텔란티스와 GM 주가가 개별 악재 없이 각각 4%씩 동반 급락했다. 전날 경기순환주로 몰렸던 '로테이션 트레이드'가 하루 만에 되돌려진 결과다. 55% 급락한 스텔란티스와 저평가 논쟁 중인 GM의 처지, 상대적으로 선방한 포드, 그리고 애널리스트들의 밸류에이션 시각을 24/7 Wall St 보도를 토대로 정리했다."
+  },
+  {
+    slug: "ev-subsidy-gap-promotion-competition-2026",
+    title: "\"테조금? 비조금?\"… 보조금 공백기에도 전기차 할인은 더 치열해졌다",
+    date: "2026-09-24",
+    image: "evsubsidygap_charging_station_bay.webp",
+    categories: ["electric"],
+    tags: ["전기차보조금", "테조금", "비조금", "전기차보조금공백기", "전기차할인"],
+    badge: "EV POLICY",
+    badgeClass: "cat-ev",
+    source: "참고: 지피코리아",
+    desc: "2026년 전기차 보조금이 10월 소진되면서 3개월 이상의 '보조금 공백기'가 예고됐다. 그런데도 테슬라의 자체 할인('테조금'), BYD의 자체 할인('비조금'), 현대차·기아의 파격 프로모션까지 완성차 업체 간 가격 경쟁은 오히려 격화되고 있다. 공백기가 생기는 이유와 국산·수입차 보조금 400만원 격차, 지금 사야 할지 기다려야 할지를 정리했다."
+  },
+  {
+    slug: "supercar-prices-bmw-3series-level-2026",
+    title: "\"이 돈이면 슈퍼카를 산다고?\"… V8·V10·V12 익조틱카, 이제 BMW 3시리즈 값",
+    date: "2026-09-24",
+    image: "supercarprice_astonmartin_db9_front.webp",
+    categories: ["import"],
+    tags: ["슈퍼카중고가", "익조틱카", "아스턴마틴DB9", "그란투리스모", "BMW3시리즈"],
+    badge: "IMPORT",
+    badgeClass: "cat-blue",
+    source: "CarBuzz",
+    desc: "아스턴마틴 DB9, 마세라티 그란투리스모, 아우디 R8 V10 스파이더, 벤틀리 컨티넨탈 GT 같은 다기통 익조틱카들이 중고 시장에서 풀옵션 BMW 3시리즈와 맞먹는 가격에 거래되고 있다. CarBuzz 보도를 바탕으로 가격 하락의 배경과 실제 구매 시 유의점을 짚었다."
+  },
+  {
+    slug: "bentley-torcal-electric-suv-debut-2026",
+    title: "\"페라리 루체와는 다른 생각\"… 벤틀리, 브랜드 첫 순수전기 SUV '토르칼' 세계 최초 공개",
+    date: "2026-09-24",
+    image: "bentleytorcal_ref_bentayga_front.webp",
+    categories: ["import", "electric"],
+    tags: ["벤틀리", "토르칼", "Torcal", "전기SUV", "벤테이가"],
+    badge: "IMPORT",
+    badgeClass: "cat-blue",
+    source: "지피코리아, 오토헤럴드, InsideEVs",
+    desc: "벤틀리모터스가 브랜드 최초의 순수전기 SUV '토르칼(Torcal)'을 런던에서 세계 최초 공개했다. 최고출력 888마력, WLTP 기준 최대 600km 주행, 400kW급 초급속 충전을 갖췄으며, 페라리 '루체'와 달리 상대적으로 접근 가능한 가격대를 택했다. 정확한 제원과 Beyond100+ 전동화 로드맵, 경쟁모델 비교를 정리했다."
+  },
+  {
     slug: "cabin-air-quality-fine-dust-guide-2026",
     title: "체증 구간, 차 안이 밖보다 더 나쁠 수 있다… 미세먼지 시즌 실내 공기 관리법",
     date: "2026-09-23",
