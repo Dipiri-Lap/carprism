@@ -709,6 +709,59 @@ body {
 }
 .related-date { font-size: 0.72rem; color: var(--text-muted); }
 
+/* 본문 하단 인라인 관련 기사 (모바일에서 사이드바보다 먼저 노출) */
+.related-inline {
+  margin: 32px 0 8px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.related-inline-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.related-inline-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.related-inline-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--surface);
+  transition: opacity 0.2s, transform 0.2s;
+}
+.related-inline-card:hover { opacity: 0.85; transform: translateY(-2px); }
+.related-inline-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: var(--navy-mid);
+  overflow: hidden;
+}
+.related-inline-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.related-inline-card-title {
+  padding: 0 12px 12px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 720px) {
+  .related-inline-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .related-inline-grid { grid-template-columns: 1fr; }
+}
+
 /* 인기 태그 */
 .pop-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .pop-tag {

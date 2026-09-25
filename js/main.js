@@ -558,13 +558,17 @@ if (mobileMenuBtn && mobileNav) {
 })();
 
 // ─────────────────────────────────────────────
-//  관련 기사 자동 렌더링 (기사 상세 페이지 사이드바)
+//  관련 기사 자동 렌더링 (사이드바 + 본문 하단 인라인)
+//
+//  모바일에서는 .article-sidebar가 본문 전체 아래로 밀려나기 때문에
+//  사이드바 "관련 기사"만으로는 대부분의 방문자가 그걸 보기도 전에
+//  이탈한다. 그래서 같은 추천 로직을 본문(article-body) 안쪽,
+//  마지막 광고 바로 아래에도 카드 형태로 노출한다.
 // ─────────────────────────────────────────────
 (function() {
-  const relatedList = document.getElementById('related-list');
   const articleEl = document.querySelector('.article-main[data-slug]');
   const data = window.ARTICLES_DATA;
-  if (!relatedList || !articleEl || !data) return;
+  if (!articleEl || !data) return;
 
   const currentSlug = articleEl.getAttribute('data-slug');
   const current = data.find((item) => item.slug === currentSlug);
@@ -581,27 +585,49 @@ if (mobileMenuBtn && mobileNav) {
     return sharedTags * 5 + sameBadge * 2 + sharedCategories;
   }
 
-  const related = data
+  const ranked = data
     .filter((item) => item.slug !== currentSlug)
     .sort((a, b) => {
       const scoreDiff = relevanceScore(b) - relevanceScore(a);
       if (scoreDiff !== 0) return scoreDiff;
       return new Date(b.date) - new Date(a.date);
-    })
-    .slice(0, 4);
+    });
 
-  relatedList.innerHTML = related.map((item) => `
-    <li>
-      <a href="${item.slug}.html" class="related-item">
-        <div class="related-thumb">
-          <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
-        </div>
-        <div class="related-info">
-          <span class="related-title">${item.title}</span>
-          <span class="related-date">${item.date.replace(/-/g, '.')}</span>
-        </div>
-      </a>
-    </li>
-  `).join('');
+  const relatedList = document.getElementById('related-list');
+  if (relatedList) {
+    const sidebarRelated = ranked.slice(0, 4);
+    relatedList.innerHTML = sidebarRelated.map((item) => `
+      <li>
+        <a href="${item.slug}.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">${item.title}</span>
+            <span class="related-date">${item.date.replace(/-/g, '.')}</span>
+          </div>
+        </a>
+      </li>
+    `).join('');
+  }
+
+  const inlineGrid = document.getElementById('related-inline-grid');
+  if (inlineGrid) {
+    // 사이드바와 겹치지 않게 그 다음 순위 기사를 보여준다.
+    const inlineRelated = ranked.slice(4, 7).length ? ranked.slice(4, 7) : ranked.slice(0, 3);
+    if (inlineRelated.length) {
+      inlineGrid.innerHTML = inlineRelated.map((item) => `
+        <a href="${item.slug}.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">${item.title}</span>
+        </a>
+      `).join('');
+    } else {
+      const inlineBlock = document.getElementById('related-inline');
+      if (inlineBlock) inlineBlock.style.display = 'none';
+    }
+  }
 })();
 
