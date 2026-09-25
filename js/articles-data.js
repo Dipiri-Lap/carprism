@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "keys-locked-in-car-how-to-unlock-guide",
+    title: "\"키가 운전석 위에 보이는데\"… 차 안에 키 두고 문 잠겼을 때 가장 빨리 여는 순서",
+    date: "2026-09-25",
+    image: "lockedkeys_smartkey_on_seat.webp",
+    categories: ["life"],
+    tags: ["차키갇힘", "차문잠김", "긴급출동", "블루링크", "스마트키"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터 / 현대자동차·기아·제네시스 / 삼성화재·현대해상·KB손해보험",
+    desc: "차 안에 스마트키를 두고 문이 잠겼을 때 가장 빠른 해결 순서를 정리했다. 제조사 앱 원격 문 열기(블루링크·Kia Connect·MY GENESIS 등) 조건, 보험 긴급출동 잠금장치 해제의 횟수와 스마트키·외제차 제외 조건, 예비키·열쇠 업체, 119를 불러야 하는 상황까지."
+  },
+  {
+    slug: "fuel-warning-light-how-far-can-you-drive",
+    title: "주유 경고등 켜졌다면… 주유소까지 갈 수 있을까, 지금 해야 할 일",
+    date: "2026-09-25",
+    image: "lowfuel_dashboard_warning_light.webp",
+    categories: ["life"],
+    tags: ["주유경고등", "연료경고등", "주행가능거리", "비상급유", "긴급견인"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "제조사 취급설명서 / 한국도로공사 / 손해보험사 약관",
+    desc: "주유 경고등이 켜지면 차종에 따라 대략 6~12리터 안팎이 남아 있지만, 계기판 주행가능거리는 최근 평균 연비로 계산한 추정치일 뿐이다. 지금 바로 할 일, 고속도로에서의 대처, 보험 비상급유(1회 3리터·보험기간 중 2회 등)와 한국도로공사 2504 무료 긴급견인까지 정리했다."
+  },
+  {
+    slug: "misfueling-wrong-fuel-what-to-do-guide",
+    title: "\"시동부터 걸지 마세요\"… 휘발유차에 경유, 경유차에 휘발유 넣었을 때 바로 할 일",
+    date: "2026-09-25",
+    image: "misfuel_nozzle_hesitation.webp",
+    categories: ["life"],
+    tags: ["혼유사고", "잘못주유", "셀프주유소", "경유차휘발유", "자동차보험"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "한국소비자원 / 법원 판례 / 언론 보도 종합",
+    desc: "휘발유차에 경유를, 경유차에 휘발유를 넣었다면 시동 여부가 수리비를 가른다. 시동 전·주행 중 상황별 대처 순서, 유형별 증상과 위험, 연료 제거부터 고압펌프 교체까지 수리 범위와 비용, 셀프·직원 주유 주유소별 책임과 판례, 자동차보험 적용 여부, 예방법까지 정리했다."
+  },
+  {
+    slug: "smart-key-not-detected-emergency-start-guide",
+    title: "\"키가 감지되지 않습니다\"… 스마트키 인식 안 될 때, 1분 안에 시동 거는 법",
+    date: "2026-09-25",
+    image: "smartkey_press_start_button.webp",
+    categories: ["life"],
+    tags: ["스마트키", "스마트키방전", "비상시동", "스마트키배터리교체", "시동안걸림"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아·제네시스 취급설명서 / 토요타·BMW·폭스바겐·쉐보레 오너스 매뉴얼 / 볼보·테슬라 고객지원",
+    desc: "계기판에 \"키가 감지되지 않습니다\"가 뜨고 시동이 안 걸릴 때 바로 따라 할 비상 시동법을 정리했다. 현대·기아·제네시스, 토요타, BMW, 폭스바겐, 쉐보레, 볼보, 테슬라의 키 대는 위치와 기계식 비상 키로 문 여는 법, 원인 구분표, 키 배터리(CR2032·CR2450) 교체법까지."
+  },
+  {
+    slug: "kim-bujang-drama-car-symbol-2026",
+    title: "\"김 부장이 타는 차\"는 왜 그랜저였나… 서울드라마어워즈 3관왕 '김 부장 이야기' 속 부장님 차",
+    date: "2026-09-25",
+    image: "kimbujang_grandeur_gn7_white_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["그랜저", "김부장이야기", "자동차PPL", "서울드라마어워즈", "부장님차"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "2025년 10~11월 JTBC에서 방영된 '서울 자가에 대기업 다니는 김 부장 이야기'가 2026년 9월 발표된 서울드라마어워즈 2026에서 3관왕에 올랐다. 극 중 김낙수 부장(류승룡)이 타는 차는 현대차 그랜저. 방영 당시 경제지들이 이 설정을 '성공의 상징'으로 읽은 이유와, 극 후반 차를 파는 장면이 갖는 의미를 확인된 사실 안에서 정리했다."
+  },
+  {
+    slug: "hyundai-motorstudio-documentary-the-studio-2026",
+    title: "\"차를 빌려주는 대신 영화를 찍었다\"… 현대차가 모터스튜디오 12년을 극장에 건 이유",
+    date: "2026-09-25",
+    image: "hms_doc_motorstudio_goyang_rn24.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대모터스튜디오", "더스튜디오", "현대차", "자동차PPL", "브랜드다큐멘터리"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "모터그래프 · 카가이 · 오토헤럴드",
+    desc: "현대차가 2026년 9월 21일 현대 모터스튜디오의 12년을 담은 장편 다큐멘터리 '더 스튜디오: 바퀴 위 공간에서, 땅 위의 공간으로'를 개봉했다. 정다운 감독 연출, 이노션 기획으로 아트하우스 모모에서 10월 9일까지 상영되고 부산국제영화제에서도 관객을 만난다. 드라마 협찬·음원 협업과 달리 브랜드가 영화를 직접 만든 이번 사례의 의미를 짚었다."
+  },
+  {
     slug: "toyota-alphard-review-2026",
     title: "[시승기] 토요타 알파드, \"2열은 VIP 리무진, 1열은 스포츠 세단\"",
     date: "2026-09-25",
