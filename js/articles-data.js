@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "eu-delays-tesla-fsd-approval-vote-2026",
+    title: "\"25분 논의, 표결은 없다\"… EU, 테슬라 FSD 표결 12월로 또 미뤘다",
+    date: "2026-09-26",
+    image: "tesla_fsd_korea_model_y_2025.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["테슬라FSD", "EU자율주행규제", "TCMV", "완전자율주행", "유럽자동차규제"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "Electrek",
+    desc: "EU 자동차기술위원회(TCMV)가 10월 6일로 예정됐던 테슬라 '감독형 완전자율주행(FSD)' EU 전역 확대 표결을 12월 이후로 무기한 연기했다. 스웨덴·프랑스의 반대와 과속 논란이 발목을 잡았다."
+  },
+  {
+    slug: "kia-k5-us-price-increase-2026",
+    title: "\"美 가격 또 올렸다\"... 기아 K5, 미국에서는 최소 1000만 원 이상 비싸?",
+    date: "2026-09-26",
+    image: "kiaamerica_k5.webp",
+    categories: ["news", "domestic"],
+    tags: ["기아K5", "K5미국가격", "K5가격비교", "기아미국전략", "K5GT"],
+    badge: "가격",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴",
+    desc: "기아 K5(현지명 K5)의 2027년형 미국 가격이 또 올랐다. 기본 트림 시작가는 원화 환산 약 3,790만~3,960만 원으로, 국내 K5(2,763만 원부터)보다 최소 1,000만 원 이상 비싸다. 트림·사양 구성이 달라 단순 비교는 어렵지만 격차는 여전하다."
+  },
+  {
+    slug: "jeep-grand-cherokee-l-korea-launch-2026",
+    title: "\"3.6ℓ V6보다 강하다\" 지프 신형 그랜드 체로키 L, 2.0ℓ 터보 얹고 이달 국내 출시",
+    date: "2026-09-26",
+    image: "jeep_defect_grand_cherokee_l_front.webp",
+    categories: ["news", "import"],
+    tags: ["그랜드체로키L", "지프그랜드체로키", "허리케인4터보", "지프신차", "수입SUV"],
+    badge: "NEW MODEL",
+    badgeClass: "cat-gold",
+    source: "오토헤럴드",
+    desc: "지프가 배기량을 줄이고도 출력과 토크를 모두 끌어올린 2.0리터 허리케인4 터보 엔진을 얹은 신형 그랜드 체로키 L을 이달 말 국내에 출시한다. 최고출력 329마력, 최대토크 45.89kg·m로 기존 3.6리터 V6(286마력·35.1kg·m) 대비 출력은 15%, 토크는 31% 늘었다."
+  },
+  {
+    slug: "hyundai-motor-group-overtakes-ford-us-big3-2026",
+    title: "현대차그룹, 포드 제치고 美 '빅3' 사상 첫 진입 전망... 3분기 역전 초읽기",
+    date: "2026-09-26",
+    image: "augustsales_hyundai_hq.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대차그룹", "포드", "미국판매량", "콕스오토모티브", "하이브리드라인업"],
+    badge: "DATA",
+    badgeClass: "cat-gold",
+    source: "콕스오토모티브(Cox Automotive) / 오토헤럴드",
+    desc: "콕스오토모티브의 2026년 3분기 미국 신차 판매 전망에 따르면 현대차그룹이 51만1421대(+6.5%)로 포드(50만4172대, -7.1%)를 앞서며 사상 처음으로 미국 판매 3위권 진입을 눈앞에 뒀다. 촘촘한 하이브리드 라인업이 승부를 갈랐다."
+  },
+  {
+    slug: "mercedes-solid-state-battery-deal-2026",
+    title: "\"10년 넘은 인연, 이제는 우선권\"… 벤츠가 프롤로지움과 다시 손잡은 이유",
+    date: "2026-09-26",
+    image: "benz_eqs_450plus.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["메르세데스벤츠", "프롤로지움", "전고체배터리", "ProLogium", "벤츠전기차"],
+    badge: "TECHNOLOGY",
+    badgeClass: "cat-ev",
+    source: "Carscoops",
+    desc: "메르세데스-벤츠가 대만 배터리 기업 프롤로지움과 10년 넘게 이어온 협력을 확대해, 4세대 전고체 배터리 셀에 대한 우선 접근권을 확보했다고 발표했다. 전기적·열적·안전성 테스트를 벤츠 자체 시설과 제3자 기관에서 진행하며, 일부 기술은 12개월 내 시장 적용 가능성도 거론된다."
+  },
+  {
+    slug: "rivian-recall-100000-camera-defect-2026",
+    title: "리비안, 후방카메라 결함으로 R1S·R1T·R2 등 약 10만 대 리콜",
+    date: "2026-09-26",
+    image: "rivian_r1s_burlingame1.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["리비안리콜", "R1S", "R1T", "리비안R2", "후방카메라결함"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "CarBuzz",
+    desc: "리비안이 후방카메라 영상이 제때 뜨지 않는 결함으로 R1S, R1T, R2 총 98,828대를 리콜한다. NHTSA 리콜 번호 26V597, 원인은 안정성 제어 경고창이 화면을 가리는 소프트웨어 결함이며 무선 업데이트(OTA)로 해결한다."
+  },
+  {
+    slug: "byd-recall-183211-units-2026",
+    title: "\"무려 스토퍼 패드 이탈\"… BYD 18만3211대 리콜, 국내 판매차도 위험할까?",
+    date: "2026-09-26",
+    image: "byd_vw_recall_byd_tang_front.webp",
+    categories: ["news", "import"],
+    tags: ["BYD리콜", "BYD탕", "BYD친", "스토퍼패드결함", "국가시장감독관리총국"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "참고: 오토트리뷴, 지피코리아 종합",
+    desc: "BYD가 중국에서 탕(Tang)·친(Qin) 계열 18만3211대를 브레이크 페달 스토퍼 패드 결함으로 리콜한다. 국가시장감독관리총국(SAMR) 발표 내용과 결함 위험성, 그리고 국내에서 판매 중인 아토3·씰·씨라이언7·돌핀 등이 이번 리콜 대상에 포함되는지 여부를 정리했다."
+  },
+  {
+    slug: "genesis-gv90-pop-up-theater-screen-2026",
+    title: "주차하면 화면이 90mm 솟아오른다… 제네시스 GV90 '24.6인치 팝업 극장' 뜯어보기",
+    date: "2026-09-26",
+    image: "genesis_gv90_interior_cockpit.webp",
+    categories: ["news", "domestic", "electric"],
+    tags: ["제네시스GV90", "시네마틱디스플레이", "팝업스크린", "펠레오스커넥트", "GV90출시"],
+    badge: "NEW MODEL",
+    badgeClass: "cat-genesis",
+    source: "Carscoops / Electrek / 제네시스",
+    desc: "제네시스 GV90의 대시보드 디스플레이는 주행 중엔 23.6인치, 주차 후 버튼을 누르면 90mm 솟아올라 24.6인치 '시네마틱 디스플레이'가 된다. 3840x1440 해상도, 브러시리스 모터 구동, 100,000회 내구 테스트를 거쳤고 넷플릭스 등을 재생하는 '미디어 홈' 모드로 전환된다. 해외 매체가 3주 만에 직접 확인한 세부 사양과 국내 출시(4분기) 연결점을 정리했다."
+  },
+  {
     slug: "keys-locked-in-car-how-to-unlock-guide",
     title: "\"키가 운전석 위에 보이는데\"… 차 안에 키 두고 문 잠겼을 때 가장 빨리 여는 순서",
     date: "2026-09-25",
