@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jangseong-hwangryonggang-autumn-flower-festival-2026",
+    title: "\"4km 꽃길이 강을 덮었다\"… 장성 황룡강 가을꽃축제, 10월 8일 개막",
+    date: "2026-09-26",
+    image: "jangseong_hwangryonggang_river_sunset.webp",
+    categories: ["travel"],
+    tags: ["황룡강가을꽃축제", "장성여행", "코스모스축제", "가을꽃축제", "국내여행"],
+    badge: "FESTIVAL",
+    badgeClass: "cat-blue",
+    source: "장성군청 / 장성군 문화관광 / 대한민국 구석구석",
+    desc: "2026년 10월 8일부터 11일까지 전남 장성군 황룡강변 일원에서 열리는 황룡강 가을꽃축제. 백일홍·천일홍·해바라기·코스모스·핑크뮬리가 강변을 물들이는 규모와 구간, 야간 조명, 공연 일정, 홍길동테마파크 연계 코스까지 정리했다."
+  },
+  {
+    slug: "yangju-nari-garden-autumn-flowers-2026",
+    title: "양주 나리농원, 9월 18일 개장… 천일홍 6만6000㎡가 만드는 가을",
+    date: "2026-09-26",
+    image: "anseong_farmland_pink_muhly_field.webp",
+    categories: ["travel"],
+    tags: ["양주나리농원", "천일홍축제", "가을꽃여행", "경기북부여행", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "양주시청 / 대한민국 구석구석(한국관광공사)",
+    desc: "경기 양주시 나리농원이 2026년 9월 18일부터 10월 25일까지 38일간 가을꽃으로 문을 연다. 나리꽃 자체는 여름꽃이지만 가을 시즌에는 천일홍·안젤로니아·맨드라미 등 30여 종이 식재되며, 예년처럼 핑크뮬리·코스모스도 함께 어우러질 전망이다. 위치·입장료·주차와 인근 연계 관광지까지 정리했다."
+  },
+  {
+    slug: "seoullo7017-autumn-chrysanthemum-2026",
+    title: "서울로7017, 국화 674본으로 물들다… 10월 23일엔 '구석구석 라이브'까지",
+    date: "2026-09-26",
+    image: "seoullo7017_walkway_planters.webp",
+    categories: ["travel"],
+    tags: ["서울로7017", "국화길", "가을여행", "서울역", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "서울시청 / 서울도시기반시설본부",
+    desc: "서울시가 9월 15일부터 18일까지 서울로7017에 국화 674본을 새로 식재했다. 10월 23일 낮 12시 장미무대에서는 '구석구석 라이브' 공연도 열린다. 서울역 고가를 개조한 보행길의 가을 산책 코스와 주차·접근 방법, 야경 명소를 정리했다."
+  },
+  {
+    slug: "baekdudaegan-gorge-train-v-train-2026",
+    title: "\"창문을 열고 달리는 기차\"… 백두대간협곡열차 V-트레인, 타보면 이게 다릅니다",
+    date: "2026-09-26",
+    image: "bonghwa_buncheon_station_santavillage.webp",
+    categories: ["travel"],
+    tags: ["백두대간협곡열차", "V트레인", "코레일관광열차", "승부역", "봉화태백여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "코레일(KORAIL) / 코레일톡 / 대한민국 구석구석",
+    desc: "경북 봉화에서 강원 태백까지, 시속 30km로 협곡을 끼고 서행하는 코레일 관광열차 백두대간협곡열차(V-트레인). 창문을 여는 방법부터 정확한 시간표·요금 확인법, 승부역이 '오지역'으로 불리는 이유까지 탑승 전 알아둘 것들을 정리했다."
+  },
+  {
     slug: "ev-ultra-fast-charging-4min30sec-2026",
     title: "\"10%→70% 단 4분 30초\"... 지리, 2.25MW 초고속 충전 공개, '한국의 6.4배'는 무슨 뜻일까",
     date: "2026-09-26",
