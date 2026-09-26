@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 26 Sep 2026 14:49:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 14:58:22 GMT</lastBuildDate>
+    <item>
+      <title>&quot;달이 머물다 간다는 봉우리&quot;… 영동 월류봉 둘레길, 단풍·물안개 제대로 보는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/yeongdong-wollyubong-autumn-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/yeongdong-wollyubong-autumn-2026.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>충북 영동 황간면 월류봉과 한천팔경, 월류정을 잇는 8.4km 월류봉 둘레길의 구간 정보와 황간IC 접근·주차, 산림청 예측 기반 단풍 시기와 물안개 조건, 반야사·노근리 평화공원·영동 와인터널·10월 영동난계국악축제 연계 코스까지 운전자 관점으로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/wollyubong_wollyujeong_sunset.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;어른 여섯이 안아야 하는 은행나무&quot;… 대구 달성 도동서원, 다람재에서 낙동강부터 보고 내려가세요</title>
       <link>https://carprism.tmhub.co.kr/articles/dalseong-dodong-seowon-ginkgo-daramjae-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <description>지프가 배기량을 줄이고도 출력과 토크를 모두 끌어올린 2.0리터 허리케인4 터보 엔진을 얹은 신형 그랜드 체로키 L을 이달 말 국내에 출시한다. 최고출력 329마력, 최대토크 45.89kg·m로 기존 3.6리터 V6(286마력·35.1kg·m) 대비 출력은 15%, 토크는 31% 늘었다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/jeep_defect_grand_cherokee_l_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>현대차그룹, 포드 제치고 美 &apos;빅3&apos; 사상 첫 진입 전망... 3분기 역전 초읽기</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-motor-group-overtakes-ford-us-big3-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-motor-group-overtakes-ford-us-big3-2026.html</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <description>콕스오토모티브의 2026년 3분기 미국 신차 판매 전망에 따르면 현대차그룹이 51만1421대(+6.5%)로 포드(50만4172대, -7.1%)를 앞서며 사상 처음으로 미국 판매 3위권 진입을 눈앞에 뒀다. 촘촘한 하이브리드 라인업이 승부를 갈랐다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/augustsales_hyundai_hq.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

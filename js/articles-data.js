@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeongdong-wollyubong-autumn-2026",
+    title: "\"달이 머물다 간다는 봉우리\"… 영동 월류봉 둘레길, 단풍·물안개 제대로 보는 법",
+    date: "2026-09-26",
+    image: "wollyubong_wollyujeong_sunset.webp",
+    categories: ["travel"],
+    tags: ["월류봉", "월류봉둘레길", "영동여행", "가을단풍", "국내여행"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "영동군 문화관광 / 대한민국 구석구석 / 충북나드리 / 산림청 / 국가유산청",
+    desc: "충북 영동 황간면 월류봉과 한천팔경, 월류정을 잇는 8.4km 월류봉 둘레길의 구간 정보와 황간IC 접근·주차, 산림청 예측 기반 단풍 시기와 물안개 조건, 반야사·노근리 평화공원·영동 와인터널·10월 영동난계국악축제 연계 코스까지 운전자 관점으로 정리했다."
+  },
+  {
     slug: "dalseong-dodong-seowon-ginkgo-daramjae-2026",
     title: "\"어른 여섯이 안아야 하는 은행나무\"… 대구 달성 도동서원, 다람재에서 낙동강부터 보고 내려가세요",
     date: "2026-09-26",
