@@ -5,7 +5,47 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 26 Sep 2026 11:05:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 13:03:42 GMT</lastBuildDate>
+    <item>
+      <title>&quot;꽂았는데 충전이 안 돼요&quot;… 전기차 충전 안 될 때, 충전기 탓인지 차 탓인지 1분 만에 가리는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-not-charging-troubleshooting-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-not-charging-troubleshooting-guide.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>전기차 충전이 시작되지 않거나 중간에 멈출 때 현장에서 바로 따라 할 순서를 정리했다. 커넥터 체결·결제 인증·예약충전·충전 한도 확인법, 충전기 고장과 차량 문제를 가르는 원인 구분표, 커넥터가 안 빠질 때 비상 해제법, 고장 충전기 신고·환불 요청 창구, 보험 긴급출동 기준까지.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/evcharge_fix_driver_app_garage.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>주차 자리에 얼룩이 생겼다면… 색깔과 위치로 &apos;어디서 새는지&apos; 5분 만에 가려내는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-fluid-leak-stain-color-diagnosis-guide.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-fluid-leak-stain-color-diagnosis-guide.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>주차 자리 바닥에 생긴 얼룩, 색깔과 위치만 보면 어디서 새는지 대부분 짐작할 수 있다. 흰 골판지를 밤새 깔아 확인하는 법, 투명·검정·빨강·초록·노랑·파랑 등 색깔별 진단표와 당장 운행해도 되는지, 브레이크액·연료·냉각수처럼 바로 멈춰야 하는 신호, 정비소에 전달할 정보까지 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/fluidleak_cardboard_stain_test.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>전자식 주차브레이크(EPB)가 안 풀릴 때… 브레이크 밟고 버튼부터, 그다음 확인할 5가지</title>
+      <link>https://carprism.tmhub.co.kr/articles/electronic-parking-brake-wont-release-fix.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/electronic-parking-brake-wont-release-fix.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>전자식 주차브레이크(EPB)가 안 풀릴 때 바로 따라 할 순서를 정리했다. 현대·기아·제네시스·르노·쉐보레 공식 매뉴얼로 확인한 해제 조건, 경고등·배터리 전압 저하·겨울철 결빙·스위치·캘리퍼 모터 고장 구분표, 매뉴얼이 안내하는 비상 대처와 상차 견인 요령까지.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/epb_switch_brake_pedal.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>스페어타이어 없는 차, 펑크 났을 때… 트렁크 속 &apos;리페어 키트&apos;로 10분 만에 응급조치하는 법</title>
+      <link>https://carprism.tmhub.co.kr/articles/flat-tire-repair-kit-sealant-how-to.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/flat-tire-repair-kit-sealant-how-to.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>스페어타이어 대신 타이어 리페어 키트(TMK)만 실린 차가 펑크 났을 때 따라 할 순서를 정리했다. 안전 확보, 트레드·옆면 펑크 구분, 실런트 주입과 공기압 보충 순서, 4mm 기준과 키트로 안 되는 경우, 사용 후 80km/h·200km 제한, 보험 긴급출동 범위까지.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/tirerepair_screw_in_tread.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>카플레이·안드로이드 오토가 안 뜨거나 자꾸 끊길 때, 5분 안에 해볼 순서</title>
+      <link>https://carprism.tmhub.co.kr/articles/carplay-android-auto-not-connecting-fix.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/carplay-android-auto-not-connecting-fix.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>폰을 꽂았는데 애플 카플레이·안드로이드 오토 화면이 안 뜨거나 무선 연결이 자꾸 끊길 때 바로 따라 할 순서를 정리했다. 케이블·USB 포트, 블루투스·와이파이 재등록, 아이폰 스크린타임 제한, 안드로이드 오토 앱, 인포테인먼트 재시작과 업데이트, 증상별 원인표와 서비스센터 가야 할 기준까지.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/carplay_vw_id4_wireless_screen.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;4km 꽃길이 강을 덮었다&quot;… 장성 황룡강 가을꽃축제, 10월 8일 개막</title>
       <link>https://carprism.tmhub.co.kr/articles/jangseong-hwangryonggang-autumn-flower-festival-2026.html</link>
@@ -205,46 +245,6 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>토요타 럭셔리 미니밴 알파드를 시승했다. 2.5L 가솔린 하이브리드에 모터 3개를 조합해 시스템 총출력 250마력을 내며, 주파수 감응형 댐퍼로 에어서스펜션급 승차감을 구현했다. 2열은 비즈니스 클래스급 리무진 시트, 1열은 스포츠 세단에 가까운 핸들링을 갖췄다는 평가다. 가격, 카니발·스타리아 대비 포지셔닝까지 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/toyota_alphard_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>완충 후 1,338km 주행… 아우디 A6 e-트론, 기네스 세계기록 세웠다</title>
-      <link>https://carprism.tmhub.co.kr/articles/audi-a6-etron-guinness-range-record-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/audi-a6-etron-guinness-range-record-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>아우디 A6 스포트백 e-트론 퍼포먼스가 완충 상태로 1,338km(831마일)를 주행해 기네스 세계기록을 인증받았다. 공식 WLTP 인증치(약 777km)보다 72% 더 멀리 달린 것으로, 45시간 넘게 폴란드 전역의 실도로를 달리며 세운 기록이다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/audi_a6etron_front_dealer1.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;포드 파워스트로크 넘었다&quot;… GM 신형 &apos;몽구스&apos; 듀라맥스 8.3L 디젤, 555마력·1230lb-ft 공식화</title>
-      <link>https://carprism.tmhub.co.kr/articles/gm-mongoose-duramax-8-3l-diesel-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/gm-mongoose-duramax-8-3l-diesel-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>GM이 완전 새로 설계한 8.3리터 V8 디젤엔진 &apos;몽구스&apos; 듀라맥스를 공개했다. 555마력, 최대토크 1,230lb-ft(약 1,668Nm)로 포드 파워스트로크 고출력 사양(500마력·1,200lb-ft)을 넘어섰으며, 2027년형 시보레 실버라도 HD와 GMC 시에라 HD에 탑재된다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/silveradohd2500_ltz_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>폭스바겐 ID.버즈 미국 복귀, 이번엔 &apos;2028년형&apos;으로 또 연기</title>
-      <link>https://carprism.tmhub.co.kr/articles/vw-id-buzz-us-delay-2028.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/vw-id-buzz-us-delay-2028.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>폭스바겐이 전기 밴 ID.버즈의 미국 복귀를 2028년형으로 다시 미뤘다. 2026년형에 이어 2027년형까지 건너뛰는 것으로, 8월 판매 재개 예고가 불발된 지 한 달 만에 나온 세 번째 연기다. Carscoops·Car and Driver·InsideEVs 보도를 종합해 연기 배경과 2028년형 변경점을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/vwidbuzz_us_front_2025.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>2027년형 스바루 임프레자, 마력 올리고 가격은 내렸다… 베이스 트림 부활로 최저가 2만5,840달러</title>
-      <link>https://carprism.tmhub.co.kr/articles/subaru-impreza-2027-more-power-lower-price.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/subaru-impreza-2027-more-power-lower-price.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>스바루가 2027년형 임프레자의 베이스 트림을 부활시키며 시작가를 1,950달러 낮췄다. RS 전용이던 2.5리터 복서엔진(180마력)을 베이스 트림까지 확대해 기존보다 28마력 높아졌으며, 미국에서 가장 저렴한 AWD 차량 자리를 지켰다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/subaruimpreza2027_front_gray.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;10년짜리 계획은 이제 안 통한다&quot;… 벤틀리, &apos;EV 올인&apos; 접고 유연 전략으로 선회</title>
-      <link>https://carprism.tmhub.co.kr/articles/bentley-ev-strategy-flexibility-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/bentley-ev-strategy-flexibility-2026.html</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>벤틀리가 2020년 &apos;Beyond 100&apos; 전략에서 내세운 2030년 전기차 전용 전환 목표를 사실상 철회하고, 하이브리드와 전기차를 같은 생산라인에서 함께 만드는 유연화 전략으로 돌아섰다. 프랑크-슈테펜 발리저 CEO는 수요 둔화와 불확실한 시장 환경을 이유로 들었으며, 다음 순수전기차는 2030년 이후에나 나올 전망이다. Carscoops 보도를 바탕으로 배경과 새 전략을 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/bentley_bentayga_speed.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

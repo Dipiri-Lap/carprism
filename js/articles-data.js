@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-not-charging-troubleshooting-guide",
+    title: "\"꽂았는데 충전이 안 돼요\"… 전기차 충전 안 될 때, 충전기 탓인지 차 탓인지 1분 만에 가리는 법",
+    date: "2026-09-26",
+    image: "evcharge_fix_driver_app_garage.webp",
+    categories: ["life", "electric"],
+    tags: ["전기차충전안됨", "전기차충전오류", "충전커넥터분리", "충전기고장신고", "예약충전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "기아 2026년형 전기차 취급설명서 / 테슬라 서비스 안내 / 무공해차 통합누리집·한국자동차환경협회 / 현대해상·DB손해보험",
+    desc: "전기차 충전이 시작되지 않거나 중간에 멈출 때 현장에서 바로 따라 할 순서를 정리했다. 커넥터 체결·결제 인증·예약충전·충전 한도 확인법, 충전기 고장과 차량 문제를 가르는 원인 구분표, 커넥터가 안 빠질 때 비상 해제법, 고장 충전기 신고·환불 요청 창구, 보험 긴급출동 기준까지."
+  },
+  {
+    slug: "car-fluid-leak-stain-color-diagnosis-guide",
+    title: "주차 자리에 얼룩이 생겼다면… 색깔과 위치로 '어디서 새는지' 5분 만에 가려내는 법",
+    date: "2026-09-26",
+    image: "fluidleak_cardboard_stain_test.webp",
+    categories: ["life"],
+    tags: ["자동차누유", "누유색깔", "차바닥얼룩", "냉각수누수", "브레이크액누유"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "GS칼텍스 Kixx 엔진오일 블로그 / 현대·기아 취급설명서 / KG모빌리티 공식 블로그 / 불스원 자동차 상식 / Jiffy Lube·Atlantic Tire 정비 가이드",
+    desc: "주차 자리 바닥에 생긴 얼룩, 색깔과 위치만 보면 어디서 새는지 대부분 짐작할 수 있다. 흰 골판지를 밤새 깔아 확인하는 법, 투명·검정·빨강·초록·노랑·파랑 등 색깔별 진단표와 당장 운행해도 되는지, 브레이크액·연료·냉각수처럼 바로 멈춰야 하는 신호, 정비소에 전달할 정보까지 정리했다."
+  },
+  {
+    slug: "electronic-parking-brake-wont-release-fix",
+    title: "전자식 주차브레이크(EPB)가 안 풀릴 때… 브레이크 밟고 버튼부터, 그다음 확인할 5가지",
+    date: "2026-09-26",
+    image: "epb_switch_brake_pedal.webp",
+    categories: ["life"],
+    tags: ["전자식주차브레이크", "EPB", "주차브레이크안풀림", "오토홀드", "긴급출동"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아·제네시스 취급설명서 / 르노코리아 그랑 콜레오스 사용설명서 / GM 쉐보레 이쿼녹스 오너스 매뉴얼",
+    desc: "전자식 주차브레이크(EPB)가 안 풀릴 때 바로 따라 할 순서를 정리했다. 현대·기아·제네시스·르노·쉐보레 공식 매뉴얼로 확인한 해제 조건, 경고등·배터리 전압 저하·겨울철 결빙·스위치·캘리퍼 모터 고장 구분표, 매뉴얼이 안내하는 비상 대처와 상차 견인 요령까지."
+  },
+  {
+    slug: "flat-tire-repair-kit-sealant-how-to",
+    title: "스페어타이어 없는 차, 펑크 났을 때… 트렁크 속 '리페어 키트'로 10분 만에 응급조치하는 법",
+    date: "2026-09-26",
+    image: "tirerepair_screw_in_tread.webp",
+    categories: ["life"],
+    tags: ["타이어펑크", "타이어리페어키트", "TMK", "실런트", "긴급출동"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아 취급설명서(타이어 응급 처치 키트) / 한국GM 공식 블로그 / 미쉐린코리아 타이어 안내 / 국토교통부·한국도로공사 / 삼성화재 애니카서비스",
+    desc: "스페어타이어 대신 타이어 리페어 키트(TMK)만 실린 차가 펑크 났을 때 따라 할 순서를 정리했다. 안전 확보, 트레드·옆면 펑크 구분, 실런트 주입과 공기압 보충 순서, 4mm 기준과 키트로 안 되는 경우, 사용 후 80km/h·200km 제한, 보험 긴급출동 범위까지."
+  },
+  {
+    slug: "carplay-android-auto-not-connecting-fix",
+    title: "카플레이·안드로이드 오토가 안 뜨거나 자꾸 끊길 때, 5분 안에 해볼 순서",
+    date: "2026-09-26",
+    image: "carplay_vw_id4_wireless_screen.webp",
+    categories: ["life"],
+    tags: ["카플레이", "안드로이드오토", "카플레이연결안됨", "안드로이드오토끊김", "인포테인먼트"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "Apple 지원(If you need help with CarPlay, Use CarPlay with your iPhone) / Android Auto 고객센터 / 현대자동차 인포테인먼트 웹 매뉴얼 / Carscoops",
+    desc: "폰을 꽂았는데 애플 카플레이·안드로이드 오토 화면이 안 뜨거나 무선 연결이 자꾸 끊길 때 바로 따라 할 순서를 정리했다. 케이블·USB 포트, 블루투스·와이파이 재등록, 아이폰 스크린타임 제한, 안드로이드 오토 앱, 인포테인먼트 재시작과 업데이트, 증상별 원인표와 서비스센터 가야 할 기준까지."
+  },
+  {
     slug: "jangseong-hwangryonggang-autumn-flower-festival-2026",
     title: "\"4km 꽃길이 강을 덮었다\"… 장성 황룡강 가을꽃축제, 10월 8일 개막",
     date: "2026-09-26",
