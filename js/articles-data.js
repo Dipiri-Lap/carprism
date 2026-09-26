@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "dalseong-dodong-seowon-ginkgo-daramjae-2026",
+    title: "\"어른 여섯이 안아야 하는 은행나무\"… 대구 달성 도동서원, 다람재에서 낙동강부터 보고 내려가세요",
+    date: "2026-09-26",
+    image: "dodongseowon_suwollu_spring.webp",
+    categories: ["travel"],
+    tags: ["도동서원", "달성여행", "은행나무명소", "다람재", "유네스코세계유산"],
+    badge: "AUTUMN FOLIAGE",
+    badgeClass: "cat-blue",
+    source: "국가유산청 국가유산 디지털 서비스 / 대한민국 구석구석 / 달성군 / 디지털달성문화대전 종합",
+    desc: "2019년 유네스코 세계유산 '한국의 서원'에 오른 대구 달성 도동서원. 김굉필을 모신 서원 앞 400년 은행나무가 물드는 시기, 수월루·환주문·중정당 기단 관람 포인트, 다람재 정자에서 보는 낙동강 물굽이, 다람재 고갯길과 도동터널 중 어느 길로 갈지, 주차와 사문진·마비정 연계 코스까지 정리했다."
+  },
+  {
+    slug: "donghae-mureung-betteulbawi-trail-autumn-2026",
+    title: "\"한국의 장가계\"라 불리는 길… 동해 무릉계곡 베틀바위 산성길, 가을에 걷는 법",
+    date: "2026-09-26",
+    image: "betteulbawi_dutasan_cliffs.webp",
+    categories: ["travel"],
+    tags: ["베틀바위산성길", "무릉계곡", "두타산", "동해여행", "가을등산"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "동해시시설관리공단 / 동해시 관광 / 두루누비·대한민국 구석구석(한국관광공사)",
+    desc: "강원 동해시 무릉계곡 베틀바위 산성길을 정리했다. 관리사무소에서 베틀바위 전망대, 미륵바위, 두타산성, 마천루를 거쳐 쌍폭포·용추폭포로 이어지는 코스별 거리와 시간, 입장료 4,000원과 주차료, 648대 규모 주차장, 산림청 단풍 예측과 산불조심기간 체크 포인트, 추암 촛대바위·묵호 논골담길 연계 코스까지 담았다."
+  },
+  {
+    slug: "seocheon-sinseongri-reed-field-autumn-2026",
+    title: "\"강둑 하나만 넘으면 25만㎡가 금빛이다\"… 서천 신성리 갈대밭, 10월이 절정",
+    date: "2026-09-26",
+    image: "sinseongri_reed_field_fall.webp",
+    categories: ["travel"],
+    tags: ["신성리갈대밭", "서천여행", "갈대명소", "JSA촬영지", "가을드라이브"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "서천군 문화관광 / 충남관광 / 한국관광공사 대한민국 구석구석 / 국립생태원",
+    desc: "충남 서천 신성리 갈대밭은 금강변을 따라 폭 200m, 총면적 25만㎡로 펼쳐진 국내 4대 갈대밭이자 영화 '공동경비구역 JSA' 촬영지다. 상시 개방, 연중무휴이며 갈대는 10월에 갈색빛으로 절정을 맞는다. 동서천IC에서의 접근과 주차, 데크길 동선, 해질녘 방문 팁, 한산모시관·국립생태원·장항스카이워크 연계 코스까지 운전자 기준으로 정리했다."
+  },
+  {
+    slug: "ulsan-bangucheon-petroglyphs-unesco-2026",
+    title: "\"신석기 고래가 80m 앞에\"… 세계유산 1년 된 울산 반구천 암각화, 가을에 보는 법",
+    date: "2026-09-26",
+    image: "bangucheon_autumn_cliff.webp",
+    categories: ["travel"],
+    tags: ["반구대암각화", "반구천의암각화", "울산여행", "유네스코세계유산", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "국가유산청 / 울산암각화박물관 / 대한민국 구석구석 / 울산문화관광재단",
+    desc: "2025년 7월 유네스코 세계유산에 오른 울산 '반구천의 암각화'. 반구대암각화 공영주차장에서 무료 순환버스·탐방로로 이어지는 관람 동선, 80m 떨어진 관람 지점과 새로 설치된 XR 망원경, 울산암각화박물관 이용 시간, 해마다 물에 잠기는 문제와 사연댐 수문 공사, 가을 방문 팁과 언양 불고기·태화강 국가정원 연계 코스까지 운전자 관점에서 정리했다."
+  },
+  {
+    slug: "gwangju-chunghyodong-wangbeodeul-gwangjuho-2026",
+    title: "\"430년 버드나무가 마을을 지켰다\"… 광주 충효동 왕버들과 광주호 호수생태원, 도심 옆 숨은 가을 산책",
+    date: "2026-09-26",
+    image: "wangbeodeul_chunghyodong_grove.webp",
+    categories: ["travel"],
+    tags: ["충효동왕버들", "광주호호수생태원", "광주가을여행", "가사문화권", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "국가유산청 / 광주광역시 푸른도시사업소 / 광주관광(오매광주) / 소쇄원 공식 홈페이지",
+    desc: "천연기념물 광주 충효동 왕버들 군과 광주호 호수생태원을 묶은 가을 산책 코스. 국가유산청 지정 내용과 김덕령 이야기, 생태원 운영시간·주차, 환벽당·식영정·소쇄원·충장사 연계 동선과 행정구역, 운전자 체크리스트까지 정리했다."
+  },
+  {
+    slug: "haenam-dalmasan-dosolam-2026",
+    title: "\"바위 틈에 끼워 넣은 한 칸 법당\"… 해남 달마산 도솔암, 차 한 대 폭 임도 끝에서 걷는 800m",
+    date: "2026-09-26",
+    image: "dosolam_hermitage_rocks.webp",
+    categories: ["travel"],
+    tags: ["해남도솔암", "달마산", "미황사", "달마고도", "해남여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "대한민국 구석구석 / 해남군 문화관광 / 디지털해남문화대전 / 미황사",
+    desc: "전남 해남 달마산 능선의 바위 절벽 사이에 들어앉은 암자 도솔암. 차 한 대 너비 임도와 작은 주차 공간, 주차 후 약 800m 산길, 미황사 기점 달마고도 17.74km 4개 코스, 가을 일출·일몰 시간과 땅끝·대흥사 연계 코스까지 운전자 관점으로 정리했다."
+  },
+  {
+    slug: "okcheon-busodamak-daecheongho-2026",
+    title: "\"호수 위에 바위 병풍이 떴다\"… 옥천 부소담악, 700m 절벽 위 추소정 가는 법과 주차 팁",
+    date: "2026-09-26",
+    image: "busodamak_chusojeong_aerial.webp",
+    categories: ["travel"],
+    tags: ["부소담악", "옥천여행", "추소정", "대청호", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "옥천군 문화관광 / 대한민국 구석구석 / 대청호오백리길(대전관광공사)",
+    desc: "충북 옥천 대청호 위로 약 700m 뻗은 바위 병풍 부소담악. 대청댐이 만든 풍경의 내력, 주차장 가는 길과 추소정까지 600m 동선, 운영시간·휴장일, 가을 방문 팁, 대청호오백리길 7구간·정지용 생가·용암사 연계 코스까지 정리했다."
+  },
+  {
     slug: "engine-air-filter-replacement-interval-guide",
     title: "보닛 열고 클립 두 개면 끝… 엔진 에어필터, 언제 갈고 어떻게 확인할까",
     date: "2026-09-26",
