@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "ev-ultra-fast-charging-4min30sec-2026",
+    title: "\"10%→70% 단 4분 30초\"... 지리, 2.25MW 초고속 충전 공개, '한국의 6.4배'는 무슨 뜻일까",
+    date: "2026-09-26",
+    image: "geely22mw_geely_group_charging_station.webp",
+    categories: ["news", "electric"],
+    tags: ["지리자동차", "초고속충전", "전기차충전", "2250kW충전기", "충전인프라"],
+    badge: "TECHNOLOGY",
+    badgeClass: "cat-blue",
+    source: "Geely / 오토트리뷴 / InsideEVs / Carscoops",
+    desc: "중국 지리자동차가 최대 2,250kW급 5세대 스마트 충전 스테이션을 공개했다. 링크앤코와 지커 차량이 10%에서 70%까지 4분 30초 만에 충전됐다. 업계에서 회자되는 '한국의 6.4배'라는 비교는 실제 충전 시간이 아니라 충전기 최고 출력(2,250kW 대 350kW)을 단순 비교한 수치로, 지리 스스로도 차량이 전 구간에서 그 출력을 받는 것은 아니라고 선을 그었다."
+  },
+  {
+    slug: "kia-pv5-popularity-volkswagen-response-2026",
+    title: "\"결국 무리수 던지는 폭스바겐\"... 기아 PV5 인기가 이렇게 무서웠나?",
+    date: "2026-09-26",
+    image: "kia_pv5_passenger_main.webp",
+    categories: ["news", "domestic"],
+    tags: ["기아PV5", "폭스바겐ID버즈카고", "PBV전기밴", "전기상용차경쟁", "기아PV5인기"],
+    badge: "기업전략",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴 · 한국경제 · 글로벌이코노믹",
+    desc: "폭스바겐이 ID.버즈 카고의 약점으로 꼽히던 적재 공간을 휠베이스 확장으로 보완한 롱 휠베이스 모델을 내놨다. 기아 PV5가 출시 13개월 만에 전 세계 5만대 넘게 팔리며 상용 전기밴 시장에서 존재감을 키우자, 업계에서는 두 모델의 정면 경쟁에 주목하고 있다."
+  },
+  {
+    slug: "land-rover-baby-defender-spy-shot-2026",
+    title: "\"싼타페보다 작지만 기대해\"… 랜드로버 '베이비 디펜더', 2027년 출격 예고",
+    date: "2026-09-26",
+    image: "landrover_defender_130_l663.webp",
+    categories: ["news", "import"],
+    tags: ["랜드로버베이비디펜더", "디펜더스포츠", "랜드로버디펜더", "EMA플랫폼", "소형오프로더"],
+    badge: "SPY SHOT",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴 / Autoblog / Carscoops / Motor1",
+    desc: "랜드로버가 개발 중인 소형 디펜더 '디펜더 스포츠'가 위장막을 두른 채 포착됐다. 현대 싼타페보다 작은 체격, JLR의 800V EMA 플랫폼, 하이브리드·전기 동시 개발, 2027년 출시 등 해외 매체 스파이샷 보도를 종합해 정리했다."
+  },
+  {
+    slug: "chevrolet-corvette-dual-model-year-production-2026",
+    title: "\"신차 나왔는데 구형도 계속 찍는다\"... 콜벳, 2개 연식 동시 생산하는 이유는?",
+    date: "2026-09-26",
+    image: "chevrolet_corvette_c8_front.webp",
+    categories: ["news", "import"],
+    tags: ["쉐보레콜벳", "콜벳2027년형", "볼링그린공장", "콜벳우핸들", "콜벳스팅레이"],
+    badge: "산업",
+    badgeClass: "cat-blue",
+    source: "오토트리뷴 종합",
+    desc: "쉐보레가 미국 켄터키주 볼링그린 공장에서 2026년형과 2027년형 콜벳을 동시에 생산하고 있다. 북미 판매분은 이미 새 6.7리터 V8을 얹은 2027년형으로 전환됐지만, 일본·영국·호주·뉴질랜드 등 우핸들 시장에는 기존 6.2리터 V8을 쓰는 2026년형 스팅레이와 E-레이가 계속 필요하기 때문이다. 오토트리뷴 보도를 바탕으로 배경과 트림별 차이를 정리했다."
+  },
+  {
+    slug: "genesis-g90-convertible-rumor-2026",
+    title: "\"의선이 형만 믿는다\"... 제네시스 G90 컨버터블, 美 특허로 양산 기대감만 커졌다",
+    date: "2026-09-26",
+    image: "genesisxgc_gran_convertible_side.webp",
+    categories: ["news", "domestic"],
+    tags: ["제네시스G90컨버터블", "X그란컨버터블", "X그란쿠페", "제네시스디자인특허", "제네시스양산루머"],
+    badge: "RUMOR",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴 · Motor1 · Carscoops · 오토헤럴드",
+    desc: "제네시스 X 그란 쿠페와 X 그란 컨버터블이 미국 특허청(USPTO)에 디자인 특허로 등록됐다. G90 기반 2도어 플래그십에 대한 기대감이 커지고 있지만, 특허 등록은 디자인 권리 보호일 뿐 양산이나 출시 확정을 의미하지 않는다. 팬들의 '양산 기원' 여론과 실제 근거를 짚어봤다."
+  },
+  {
+    slug: "byd-han-ev-1000km-range-launch-2026",
+    title: "\"10월 13일, 1,008km 세단이 나온다\"… BYD 플래그십 한, 출시일 확정",
+    date: "2026-09-26",
+    image: "byd_han_ev_2024_white.webp",
+    categories: ["news", "import", "electric"],
+    tags: ["BYD한", "BYD한EV", "왕조시리즈", "블레이드배터리", "플래시충전"],
+    badge: "NEW MODEL",
+    badgeClass: "cat-ev",
+    source: "Electrek",
+    desc: "BYD가 왕조 시리즈 플래그십 세단 '한(Han)' EV의 정식 출시일을 10월 13일로 확정했다. CLTC 기준 최대 1,008km 주행거리, 102.326kWh 블레이드 배터리 2.0, 최대 570kW 사륜구동, 5분 만에 10→70% 충전이 가능한 플래시 충전 기술까지 원문(Electrek) 보도를 토대로 정리했다."
+  },
+  {
     slug: "eu-delays-tesla-fsd-approval-vote-2026",
     title: "\"25분 논의, 표결은 없다\"… EU, 테슬라 FSD 표결 12월로 또 미뤘다",
     date: "2026-09-26",
