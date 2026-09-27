@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "idol-supercar-maintenance-cost-2026",
+    title: "지드래곤 슈퍼카 3대 '16억 원'… 진짜 돈은 산 다음부터 나간다",
+    date: "2026-09-27",
+    image: "lamborghini_aventador_lp700_4_orange.webp",
+    categories: ["news", "import"],
+    tags: ["지드래곤슈퍼카", "아이돌슈퍼카", "슈퍼카유지비", "슈퍼카보험료", "람보르기니우루스"],
+    badge: "MONEY",
+    badgeClass: "cat-import",
+    source: "이데일리, 뉴스1, 한국금융신문, 이투데이, 더팩트, KB차차차, 카미유 종합",
+    desc: "지드래곤이 '가장 비싼 차 타는 아이돌 1위'(이데일리)로 꼽히며 화제가 된 슈퍼카 3대, 16억 원. 하지만 슈퍼카는 사는 순간이 끝이 아니라 시작이다. 공개된 보험료·감가율·수리비 데이터를 근거로 슈퍼카 1대를 1년 굴리는 데 실제로 얼마가 드는지 계산했다."
+  },
+  {
+    slug: "knight-rider-kitt-tensor-robocar-2026",
+    title: "\"키트, 빨리 와!\"… 1980년대 드라마 속 AI 자동차, 2026년 하반기 진짜로 출시된다",
+    date: "2026-09-27",
+    image: "tensorrobocar_hero_night_city.webp",
+    categories: ["news", "import"],
+    tags: ["텐서로보카", "전격Z작전", "키트", "자율주행", "레벨4"],
+    badge: "FUTURE MOBILITY",
+    badgeClass: "cat-import",
+    source: "텐서(Tensor) 공식 발표, Auto Trending News, Forbes, Automotive World 종합",
+    desc: "1980년대 미국 드라마 '전격 Z작전'에서 스스로 판단하고 말을 알아듣던 AI 자동차 '키트'가 2026년 하반기 미국 스타트업 텐서의 '로보카'로 유럽·미국·UAE에 실제 출시된다. 레벨4 완전자율주행, 자동 전개식 운전대, 카모지 시그널 스크린까지 실제 제원과 함께 키트와의 유사점·차이점을 정리했다."
+  },
+  {
+    slug: "taxi-driver-season3-grandeur-staria-2026",
+    title: "복수극 몰던 차는 단종됐다… '모범택시3' 김도기가 그랜저를 고른 이유",
+    date: "2026-09-27",
+    image: "hyundai_grandeur_gn7_pe_front.webp",
+    categories: ["news", "domestic"],
+    tags: ["모범택시3", "그랜저", "스타리아", "자동차PPL", "현대차마케팅"],
+    badge: "MARKETING",
+    badgeClass: "cat-hyundai",
+    source: "파이낸셜뉴스·문화일보·현대차그룹 뉴스룸·인사이트·서울경제 종합",
+    desc: "SBS 드라마 '모범택시3'에서 김도기(이제훈)의 메인 차량이 그랜저(GN7)로, 무지개운수의 작전 차량이 스타리아로 확정됐다. 시즌1·2의 복수극 이미지에서 시즌3는 '사회 정의 실현자'로 캐릭터가 바뀌며 탄 차도 바뀌었다는 서사를, 그랜저·스타리아의 실제 제원·가격과 연결해 분석했다."
+  },
+  {
+    slug: "hansung-motors-jindallae-ambassador-2026",
+    title: "벤츠코리아가 아니라 '딜러사'가 뽑았다… 한성자동차, 진달래 앰버서더 선정",
+    date: "2026-09-27",
+    image: "mercedes_cclass_w206_front.webp",
+    categories: ["news", "import"],
+    tags: ["한성자동차", "진달래", "브랜드앰버서더", "벤츠코리아", "메르세데스벤츠"],
+    badge: "MARKETING",
+    badgeClass: "cat-blue",
+    source: "전자신문, 헤럴드경제, 오토모닝, 오토트리뷴, 더퍼블릭 종합",
+    desc: "메르세데스-벤츠 공식 딜러사 한성자동차가 2026년 6월 23일 방송인 진달래 아나운서를 브랜드 앰버서더로 선정했다. 벤츠코리아 본사가 아닌 딜러사 단위 앰버서더 발탁이라는 흔치 않은 사례를 두고, 국내 최대 벤츠 딜러 한성자동차의 위상과 진달래의 이력, 발탁 배경, '디지털 소통 강화'가 구체적으로 뜻하는 활동을 정리했다."
+  },
+  {
     slug: "incheon-gyodongdo-daeryong-market-2026",
     title: "\"1970년대가 그대로 멈춰 있다\"… 검문소 넘어 만나는 강화 교동도 대룡시장",
     date: "2026-09-27",
