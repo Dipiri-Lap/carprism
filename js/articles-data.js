@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hyundai-santafe-review-roundup-2026",
+    title: "\"박스 디자인 논란 2년 뒤\"… 국내외 시승기 13편이 내린 싼타페의 결론",
+    date: "2026-09-27",
+    image: "santafereview_front_hybrid.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["싼타페시승기", "싼타페하이브리드", "싼타페가격표", "싼타페실연비", "중형SUV비교"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "카가이 / 오토헤럴드 / 엠투데이 / 모터그래프 / 탑라이더 / Car and Driver / MotorTrend / Edmunds / Top Gear / Autocar / Carwow / Chasing Cars / CarExpert / 토픽트리 / 현대자동차·기아·르노코리아 공식 가격표",
+    desc: "현대 싼타페(5세대 MX5)에 대한 국내 시승기 5편과 미국·영국·호주 매체 리뷰 8편, 오너 평가를 모아 비교했다. 2열·3열·트렁크·테일게이트 공간 평가, 2.5 터보와 1.6 터보 하이브리드 차이, 하이브리드 실연비, 승차감, 2026년 9월 공식 가격표 기준 트림 추천과 쏘렌토·팰리세이드·그랑 콜레오스·필랑트 대비 위치까지 정리했다."
+  },
+  {
+    slug: "kia-sportage-review-roundup-2026",
+    title: "\"신형 투싼 나오기 전에 사도 될까\"… 국내외 시승기 15곳이 본 스포티지의 강점과 약점",
+    date: "2026-09-27",
+    image: "sportagereview_front_press.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["스포티지시승기", "스포티지하이브리드연비", "스포티지가격", "투싼스포티지비교", "스포티지트림추천"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "기아 공식 가격표·카탈로그 / 오토뷰·글로벌오토뉴스·오토헤럴드 등 국내 시승기 7편 / Autocar·Car and Driver·MotorTrend 등 해외 8개 매체 11건 / 마이클 실연비 / IIHS",
+    desc: "기아 스포티지 부분변경 모델을 다룬 국내 시승기 7편과 Autocar·Car and Driver·MotorTrend 등 해외 8개 매체 리뷰, 오너 실연비 약 1만 9천 명분을 모아 정리했다. 2열 공간과 8단 자동 1.6T는 호평, 하이브리드 효율과 저속 승차감은 공통 지적이었다. 하이브리드 오너 실연비는 16.19km/L로 공인값에 근접했다. 2027년형 가격표와 트림 추천, 신형 투싼·셀토스·쏘렌토 비교까지 담았다."
+  },
+  {
+    slug: "kia-ev3-review-roundup-2026",
+    title: "[시승기 종합] \"인증 501km, 실제로는?\"… 국내외 14편으로 본 기아 EV3의 숫자",
+    date: "2026-09-27",
+    image: "ev3review_gtline_black_seoul.webp",
+    categories: ["news", "domestic", "electric", "reviews"],
+    tags: ["기아EV3", "EV3시승기", "EV3실주행거리", "EV3충전속도", "전기SUV비교"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "오토뷰·탑라이더·블로터·더팩트 / Autocar·Top Gear·Auto Express·Electrifying·Carwow·Carbuyer·The Drive / NAF·CarExplorers / 기아",
+    desc: "기아 EV3 국내외 시승기·실측 테스트 14편을 모아 인증 주행거리와 실제 주행거리를 비교했다. 여름 국도 전비 6.8~7.3km/kWh, 100km/h 고속 정속 약 415~431km, 노르웨이 영하 6~7℃ 겨울 테스트 약 500km, 급속충전 10→80% 실측 31분까지. 매체별 평가 요약, 칭찬·지적 합의도, 2026년 9월 가격표와 트림 추천, 모델Y·EV5·돌핀·캐스퍼 일렉트릭 비교를 정리했다."
+  },
+  {
+    slug: "kia-carnival-review-roundup-2026",
+    title: "[시승기 종합] 국내외 리뷰 12편 모아보니… 카니발 하이브리드, \"굼뜨다\"는 지적에도 대체재가 없는 이유",
+    date: "2026-09-27",
+    image: "carnivalreview_hev_front.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["카니발시승기", "카니발하이브리드", "카니발하이브리드연비", "2027카니발가격", "카니발트림추천"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "기아 공식 가격표·제원 / 모터그래프·카가이·탑라이더·더팩트·아시아투데이·지디넷코리아 / MotorWeek·The Drive·Consumer Reports·Edmunds·CarExpert·Drive / 네이버 마이카(오토트리뷴)·마이클 / IIHS",
+    desc: "기아 카니발(2027년형) 국내외 시승기 12편과 오너 데이터를 모아 칭찬과 지적을 다시 정리했다. 연비 칭찬은 9개 매체, 가속 지적은 4개 매체에서 나왔고, 하이브리드 오너 1만4천여 명의 평균 실연비는 13.79km/L다. 하이브리드 vs 3.5 가솔린 유류비, 7·9인승과 버스전용차로, 하이리무진 대기, 공식 가격표와 트림 추천, 스타리아·시에나·알파드 비교까지."
+  },
+  {
+    slug: "hyundai-grandeur-review-roundup-2026",
+    title: "[시승기 종합] \"부장님 차\" 너머의 그랜저… 국내외 리뷰 11편이 입 모은 것과 엇갈린 것",
+    date: "2026-09-27",
+    image: "grandeurreview_front34.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["더뉴그랜저시승기", "그랜저하이브리드", "그랜저트림추천", "그랜저실연비", "준대형세단비교"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "현대자동차 공식 가격표·카탈로그 / 현대자동차그룹 / 국토교통부 / 오토헤럴드 / 전자신문 / 글로벌오토뉴스 / 탑라이더 / 글로벌모빌리티 / 조선비즈 / MTN / 동행미디어 시대 / Jalopnik / CarExpert / 마이클",
+    desc: "2026년 5월 출시된 부분변경 '더 뉴 그랜저'의 국내외 시승기·리뷰 11편(주행 10편·전시차 정적 리뷰 1편)과 오너 평가를 모아 재구성했다. 주행 리뷰 10편 모두 승차감·정숙성을 호평했고, 2.5 가솔린은 가속력 부족 지적이 반복됐다. 차세대 하이브리드 실연비, 공식 가격표 기준 트림 추천, KNCAP·보증, K8·수입 준대형 대비 포지션까지 정리했다."
+  },
+  {
+    slug: "kia-sorento-review-roundup-2026",
+    title: "[시승기 종합] 풀체인지 앞둔 쏘렌토는 왜 아직 1위인가… 국내외 리뷰 15편이 꼽은 장점과 한계",
+    date: "2026-09-27",
+    image: "sorentoreview_hev_side_press.webp",
+    categories: ["news", "domestic", "reviews"],
+    tags: ["쏘렌토시승기", "쏘렌토하이브리드", "2027쏘렌토", "쏘렌토3열", "중형SUV비교"],
+    badge: "TEST DRIVE",
+    badgeClass: "cat-hyundai",
+    source: "기아 가격표 / 오토트리뷴 / 헤럴드경제 / 오토뷰·뉴스핌·아시아타임즈 외 국내 시승기 / Consumer Reports·Edmunds·Carwow·CarExpert 외 해외 리뷰 / 마이클 모두의 차고",
+    desc: "2026년 8월 국산차 판매 1위(6,397대)에 오른 기아 쏘렌토의 국내 시승기 8편과 해외 리뷰 7편, 오너 평가를 종합했다. 넓은 1·2열과 하이브리드 정숙성은 공통 장점, 3열은 공통 한계였다. 하이브리드 오너 실연비 15.37km/L와 2.5 터보 9.17km/L 비교, 2027년형 가격표와 트림 추천, 싼타페·팰리세이드·그랑 콜레오스 비교까지 정리했다."
+  },
+  {
     slug: "yeongdong-wollyubong-autumn-2026",
     title: "\"달이 머물다 간다는 봉우리\"… 영동 월류봉 둘레길, 단풍·물안개 제대로 보는 법",
     date: "2026-09-26",
