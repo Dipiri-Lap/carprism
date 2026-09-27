@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "incheon-gyodongdo-daeryong-market-2026",
+    title: "\"1970년대가 그대로 멈춰 있다\"… 검문소 넘어 만나는 강화 교동도 대룡시장",
+    date: "2026-09-27",
+    image: "gyodongdo_daeryong_market_stall.webp",
+    categories: ["travel"],
+    tags: ["대룡시장", "교동도", "강화도여행", "교동대교", "실향민시장"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "강화군청 / 인천광역시 / 국가유산청 / 대한민국 구석구석",
+    desc: "인천 강화군 교동도 대룡시장은 6·25전쟁 때 황해도 연백에서 피란 온 실향민들이 고향의 연백장을 본떠 만든 골목시장이다. 민간인출입통제선(민통선) 안에 있어 신분증과 출입 절차가 필요한 교동대교 통행 방법, 대룡시장 주차, 걷는 동선, 화개산·교동읍성 연계 코스까지 자가용 여행자 기준으로 정리했다."
+  },
+  {
+    slug: "wanju-hwaamsa-2026",
+    title: "\"차가 못 들어가는 절\"… 완주 화암사, 계곡 철계단 147개를 올라야 만난다",
+    date: "2026-09-27",
+    image: "hwaamsa_geungnakjeon_hall.webp",
+    categories: ["travel"],
+    tags: ["완주화암사", "불명산화암사", "완주여행", "국내여행", "가을단풍여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "완주군청 / 국가유산청 / 대한민국 구석구석",
+    desc: "전북 완주군 불명산 자락에 숨은 화암사는 주차장에서부터 걸어야만 닿을 수 있는 절이다. 국내 유일 하앙식 목조건축인 국보 극락전과 보물 우화루, 계곡 철계단 진입로, 주차장 위치와 좁은 진입로 사정, 대둔산·완주곶감 연계 코스까지 정리했다."
+  },
+  {
+    slug: "seoul-buam-seongbuk-hidden-walk-2026",
+    title: "\"차 대기가 더 어렵다\"… 부암동 백사실계곡부터 성북동 길상사까지, 서울 도심 속 조용한 가을 산책",
+    date: "2026-09-27",
+    image: "seoulhidden_baeksasil_pond_site.webp",
+    categories: ["travel"],
+    tags: ["백사실계곡", "인왕산초소책방", "길상사", "부암동", "성북동"],
+    badge: "TRAVEL",
+    badgeClass: "cat-blue",
+    source: "서울시 / 종로구시설관리공단 / 성북구청",
+    desc: "서울 종로구 부암동 백사실계곡(백석동천), 인왕산 옛 경찰초소를 고친 초소책방, 성북동 옛 요정 대원각을 시주받아 지은 길상사까지 세 곳을 잇는 도심 속 가을 산책 코스. 장소별 유래와 걷는 동선, 자가용 접근·주차 상황, 대중교통 대안을 정리했다."
+  },
+  {
+    slug: "yeoncheon-jaein-waterfall-2026",
+    title: "\"18m 물줄기가 현무암 절벽을 때린다\"… 연천 재인폭포, 유네스코가 인정한 이유",
+    date: "2026-09-27",
+    image: "jaein_waterfall_aerial_rainbow.webp",
+    categories: ["travel"],
+    tags: ["재인폭포", "한탄강지질공원", "연천여행", "유네스코세계지질공원", "국내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "연천군청 / 한탄강세계지질공원 / 국가유산청",
+    desc: "한탄강 유네스코 세계지질공원의 대표 명소 경기 연천 재인폭포. 주상절리 절벽과 18m 폭포가 만들어진 지질학적 배경, 스카이워크 전망대와 출렁다리, 전기셔틀버스·주차 요금, 자가용 접근 경로와 가을 방문 팁, 인근 지질명소 연계 코스까지 정리했다."
+  },
+  {
+    slug: "miryang-wiyangji-2026",
+    title: "\"이팝나무 대신 단풍이 비친다\"… 가을에 가야 더 좋은 밀양 위양지",
+    date: "2026-09-27",
+    image: "wiyangji_wanjaejeong_reflection.webp",
+    categories: ["travel"],
+    tags: ["위양지", "밀양여행", "완재정", "가을여행", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "밀양시청 문화관광 / 디지털밀양문화대전 / 대한민국 구석구석",
+    desc: "경남 밀양시 부북면에 있는 저수지 위양지. 이팝나무 흰 꽃이 절정인 봄과 달리 가을에는 단풍과 고요함이 매력인 이유, 완재정 반영 사진 포인트, 자가용 기준 주차·접근 방법, 영남루·밀양강 연계 코스까지 정리했다."
+  },
+  {
+    slug: "yecheon-hoeryongpo-autumn-2026",
+    title: "물길이 350° 마을을 휘감는다… 예천 회룡포, 가을 물돌이 마을로 가는 법",
+    date: "2026-09-27",
+    image: "hoeryongpo_riverbend_autumn_view.webp",
+    categories: ["travel"],
+    tags: ["회룡포", "예천여행", "뿅뿅다리", "내성천", "국내여행"],
+    badge: "TRAVEL",
+    badgeClass: "cat-blue",
+    source: "예천군청 문화관광과 / 국가유산청 / 대한민국 구석구석",
+    desc: "경북 예천군 용궁면 내성천이 350도 휘감아 도는 물돌이 마을 회룡포. 명승 제16호 회룡대·장안사 전망, 뿅뿅다리 건너기, 마을 둘레길, 가을 방문 팁과 주차·접근 정보, 삼강주막·예천 곤충생태원 연계 코스까지 자가용 여행자 기준으로 정리했다."
+  },
+  {
+    slug: "gwangju-yangnimdong-songjeong-market-2026",
+    title: "\"선교사 골목에서 100년 시장까지\"… 광주 양림동 펭귄마을·근대역사문화마을, 1913송정역시장으로 잇는 하루",
+    date: "2026-09-27",
+    image: "yangnimdong_wilson_missionary_house.webp",
+    categories: ["travel"],
+    tags: ["양림동", "펭귄마을", "근대역사문화마을", "1913송정역시장", "국내여행"],
+    badge: "TRAVEL GUIDE",
+    badgeClass: "cat-blue",
+    source: "광주광역시 남구·광산구 문화관광 / 국가유산청 국가유산포털 / 대한민국 구석구석",
+    desc: "전남광주통합특별시 남구 양림동 근대역사문화마을(오웬기념각·우일선 선교사 사택·이장우가옥)과 펭귄마을 공예거리, 광산구 1913송정역시장을 잇는 자가용 여행 코스. 근대 개항기 선교사 역사, 골목 산책 동선, 주차·접근, 두 지역을 잇는 드라이브 코스와 계절 팁까지 정리했다."
+  },
+  {
+    slug: "busan-yeongdo-hidden-spots-2026",
+    title: "\"해운대 말고 여기\"… 흰여울마을부터 몰운대까지, 조용한 부산 3곳",
+    date: "2026-09-27",
+    image: "yeongdohidden_huinnyeoul_view.webp",
+    categories: ["travel"],
+    tags: ["흰여울문화마을", "아미동비석문화마을", "몰운대", "다대포", "부산숨은명소"],
+    badge: "DRIVE COURSE",
+    badgeClass: "cat-blue",
+    source: "부산 영도구청 / 부산 서구 / 부산 사하구청 / 대한민국 구석구석 / 부산광역시",
+    desc: "관광버스가 몰리는 해운대·광안리 대신, 영도 흰여울문화마을과 절영해안산책로, 서구 아미동 비석문화마을, 사하구 다대포 몰운대를 잇는 자가용 드라이브 코스. 각 장소의 유래와 걷는 동선, 좁은 골목 대비 대체 주차장, 계절 팁을 정리했다."
+  },
+  {
     slug: "hyundai-santafe-review-roundup-2026",
     title: "\"박스 디자인 논란 2년 뒤\"… 국내외 시승기 13편이 내린 싼타페의 결론",
     date: "2026-09-27",
