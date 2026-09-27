@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "green-plate-corporate-car-top10-2026",
+    title: "\"연두색 번호판, 가장 많이 단 차는?\"… 1위는 벤츠가 아니라 G90이었다",
+    date: "2026-09-28",
+    image: "genesis_g90_rs4_a.webp",
+    categories: ["news"],
+    tags: ["연두색번호판", "법인차", "제네시스G90", "법인차순위", "업무용승용차"],
+    badge: "DATA",
+    badgeClass: "cat-sales",
+    source: "카프리즘 기획 기사",
+    desc: "8,000만 원 이상 법인 업무용 승용차에 연두색 번호판이 붙은 지 2년 반. 국토교통부 부착 현황 자료로 확인된 차종 순위(G90·GV80·740i xDrive·S500 4MATIC·GV80 쿠페)와 포르쉐·마이바흐·우르스·페라리·G80의 법인 비중, 제도 전후 고가 법인차 감소와 8,000만 원 가격 맞추기, 2026년 반등과 국세청 세무조사까지 데이터로 정리했다."
+  },
+  {
+    slug: "popular-used-cars-top10-2026",
+    title: "\"결국 다들 이 차를 샀다\"… 2026년 상반기 가장 많이 팔린 중고차 10대, 1위는 왜 또 그랜저일까",
+    date: "2026-09-28",
+    image: "dealerhealth_used_car_complex_lot.webp",
+    categories: ["news"],
+    tags: ["인기중고차", "중고차순위", "그랜저중고", "E클래스중고", "중고차시세"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "KB차차차(KB의 생각)·카이즈유데이터연구소",
+    desc: "KB차차차가 공개한 2026년 1~6월 판매량 기준 국산·수입 인기 중고차 TOP5를 모델별로 분석했다. 그랜저(1만5,366대)와 E클래스(4,702대)가 1위였고, 카이즈유 실거래·오토인사이드 통계와 순위가 어떻게 다른지, 모델별 리콜·구매 체크포인트와 시장 트렌드까지 정리했다."
+  },
+  {
     slug: "elderly-driver-license-return-program-2026",
     title: "\"반납하면 20만원 드립니다\"… 그런데 왜 100명 중 2명만 손을 들까",
     date: "2026-09-27",
