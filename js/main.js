@@ -60,11 +60,12 @@ function escapeAttr(str) {
     });
   }
 
-  // 최신 기사 리스트
+  // 최신 기사 리스트 (운전 상식·팁 기사는 별도 섹션에서만 노출, 여기서는 제외)
   const latestList = document.querySelector('#articles .article-list');
   if (latestList && latestList.children.length === 0) {
     const LATEST_COUNT = 15;
-    const latestItems = sortedByDate.slice(0, LATEST_COUNT);
+    const LATEST_EXCLUDE_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
+    const latestItems = sortedByDate.filter((item) => !LATEST_EXCLUDE_BADGES.includes(item.badge)).slice(0, LATEST_COUNT);
 
     latestList.innerHTML = latestItems.map((item) => `
       <li>
