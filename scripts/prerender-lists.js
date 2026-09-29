@@ -147,23 +147,85 @@ const CATEGORY_FILES = {
   all: 'archive.html',
 };
 
+// 카테고리·아카이브 목록은 페이지당 PAGE_SIZE개씩 정적 HTML 파일로 분할한다.
+// news.html(1페이지) → news-2.html, news-3.html … 각 페이지는 실제 <a> 링크로 서로 연결되어
+// 크롤러가 순서대로 따라 들어갈 수 있다. (기존에는 한 페이지에 전체 링크를 넣고 JS로만 5개씩 보여줬다.)
+const PAGE_SIZE = 30;
+const SITE_ORIGIN = 'https://carprism.tmhub.co.kr';
+
+function pageFileName(filename, n) {
+  return n === 1 ? filename : filename.replace(/\.html$/, `-${n}.html`);
+}
+
+function pagerHtml(filename, page, totalPages) {
+  if (totalPages <= 1) return '';
+  const nums = new Set([1, totalPages]);
+  for (let d = -2; d <= 2; d++) {
+    const n = page + d;
+    if (n >= 1 && n <= totalPages) nums.add(n);
+  }
+  const sorted = [...nums].sort((a, b) => a - b);
+  let out = '';
+  if (page > 1) out += `<a href="${pageFileName(filename, page - 1)}" class="page-prev" rel="prev">← 이전</a>`;
+  let prev = 0;
+  sorted.forEach((n) => {
+    if (prev && n - prev > 1) out += '<span class="page-gap">…</span>';
+    out += n === page
+      ? `<span class="page-cur" aria-current="page">${n}</span>`
+      : `<a href="${pageFileName(filename, n)}" class="page-num">${n}</a>`;
+    prev = n;
+  });
+  if (page < totalPages) out += `<a href="${pageFileName(filename, page + 1)}" class="page-next" rel="next">다음 →</a>`;
+  return out;
+}
+
+// 2페이지 이상의 <head>·JSON-LD 를 1페이지 템플릿에서 파생한다.
+function derivePageHtml(template, filename, page) {
+  const pageUrl = `${SITE_ORIGIN}/${pageFileName(filename, page)}`;
+  let html = template.split(`${SITE_ORIGIN}/${filename}`).join(pageUrl);
+  html = html.replace(/(<title>[^<]*?)( \| CarPrism<\/title>)/, `$1 ${page}페이지$2`);
+  html = html.replace(/(<meta property="og:title" content="[^"]*?)( \| CarPrism")/, `$1 ${page}페이지$2`);
+  html = html.replace(/(<meta name="twitter:title" content="[^"]*?)( \| CarPrism")/, `$1 ${page}페이지$2`);
+  html = html.replace(/(<meta name="description" content="[^"]*)"/, `$1 (${page}페이지)"`);
+  html = html.replace(/(<meta property="og:description" content="[^"]*)"/, `$1 (${page}페이지)"`);
+  html = html.replace(/(<meta name="twitter:description" content="[^"]*)"/, `$1 (${page}페이지)"`);
+  // 1페이지 JSON-LD 의 hasPart(최신 기사 일부)는 2페이지 이상에는 맞지 않으므로 제거
+  html = html.replace(/,\s*"hasPart":\s*\[[\s\S]*?\r?\n\s{2}\]/, '');
+  return html;
+}
+
 Object.entries(CATEGORY_FILES).forEach(([cat, filename]) => {
   const file = path.join(root, filename);
-  let html = fs.readFileSync(file, 'utf8');
+  const template = fs.readFileSync(file, 'utf8');
 
   const items = [...data]
     .filter((i) => cat === 'all' || i.categories.includes(cat))
     .sort((a, b) => new Date(b.date) - new Date(a.date));
   const topItems = items.slice(0, 3);
   const restItems = items.slice(3);
+  const totalPages = Math.max(1, Math.ceil(restItems.length / PAGE_SIZE));
 
-  html = fillMarkers(html, filename, [
-    ['TOP3', topItems.map((i) => featuredCard(i)).join('')],
-    ['LIST', restItems.map((i) => articleRow(i)).join('')],
-  ]);
+  for (let page = 1; page <= totalPages; page++) {
+    const out = pageFileName(filename, page);
+    const pageItems = restItems.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+    const base = page === 1 ? template : derivePageHtml(template, filename, page);
+    const html = fillMarkers(base, out, [
+      ['TOP3', page === 1 ? topItems.map((i) => featuredCard(i)).join('') : ''],
+      ['LIST', pageItems.map((i) => articleRow(i)).join('')],
+      ['PAGER', pagerHtml(filename, page, totalPages)],
+    ]);
+    fs.writeFileSync(path.join(root, out), html);
+  }
 
-  fs.writeFileSync(file, html);
-  console.log(`${filename}: 정적 스냅샷 갱신 완료 (${items.length}개 기사)`);
+  // 페이지 수가 줄었을 때 남은 옛 파일 정리 (예: news-26.html)
+  const stem = filename.replace(/\.html$/, '');
+  const stale = new RegExp(`^${stem}-(\\d+)\\.html$`);
+  fs.readdirSync(root).forEach((f) => {
+    const m = f.match(stale);
+    if (m && Number(m[1]) > totalPages) fs.unlinkSync(path.join(root, f));
+  });
+
+  console.log(`${filename}: 정적 스냅샷 갱신 완료 (${items.length}개 기사, ${totalPages}페이지)`);
 });
 
 // ── RSS 피드 (feed.xml) ──

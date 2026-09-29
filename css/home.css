@@ -633,6 +633,16 @@ body {
   transition: opacity 0.2s;
 }
 .page-next:hover { opacity: 0.75; }
+.static-pagination { flex-wrap: wrap; gap: 8px; }
+.static-pagination .page-num, .static-pagination .page-cur, .static-pagination .page-gap {
+  min-width: 34px; padding: 6px 10px; text-align: center; border-radius: 8px; font-weight: 600;
+}
+.static-pagination .page-num { color: var(--text); border: 1px solid var(--border); }
+.static-pagination .page-num:hover { border-color: var(--accent); color: var(--accent); }
+.static-pagination .page-cur { background: var(--accent); color: #fff; }
+.static-pagination .page-gap { color: var(--text-muted); }
+.static-pagination .page-prev, .static-pagination .page-next { color: var(--accent); font-weight: 600; padding: 6px 10px; }
+.cat-top3:empty { display: none; }
 
 /* ============================================================
    SIDEBAR

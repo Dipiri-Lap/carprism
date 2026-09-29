@@ -398,6 +398,8 @@ if (mobileMenuBtn && mobileNav) {
   const ITEMS_PER_PAGE = 5;
 
   document.querySelectorAll('.article-list').forEach((list) => {
+    // 카테고리·아카이브 목록은 정적 HTML 페이지(news-2.html …)로 분할되어 있으므로 클라이언트 페이지네이션을 적용하지 않는다.
+    if (list.closest('#category-articles')) return;
     const items = Array.from(list.children).filter((el) => el.tagName === 'LI');
     const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
     if (totalPages <= 1) return;
@@ -596,7 +598,8 @@ if (mobileMenuBtn && mobileNav) {
     });
 
   const relatedList = document.getElementById('related-list');
-  if (relatedList) {
+  // scripts/build-related.js 가 정적 HTML로 미리 채워둔 경우(정상 배포 상태) JS 렌더링을 건너뛴다.
+  if (relatedList && relatedList.children.length === 0) {
     const sidebarRelated = ranked.slice(0, 4);
     relatedList.innerHTML = sidebarRelated.map((item) => `
       <li>
@@ -614,7 +617,7 @@ if (mobileMenuBtn && mobileNav) {
   }
 
   const inlineGrid = document.getElementById('related-inline-grid');
-  if (inlineGrid) {
+  if (inlineGrid && inlineGrid.children.length === 0) {
     // 사이드바와 겹치지 않게 그 다음 순위 기사를 보여준다.
     const inlineRelated = ranked.slice(4, 7).length ? ranked.slice(4, 7) : ranked.slice(0, 3);
     if (inlineRelated.length) {
