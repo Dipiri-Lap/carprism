@@ -17,7 +17,8 @@ function escapeAttr(str) {
   const dotsWrap = document.getElementById('sliderDots');
   if (track) {
     const HERO_COUNT = 8;
-    const heroItems = sortedByDate.slice(0, HERO_COUNT);
+    // 국내여행 기사는 홈 히어로/최신 기사에서 제외 (여행 섹션·여행 페이지에서만 노출)
+    const heroItems = sortedByDate.filter((item) => !(item.categories || []).includes('travel')).slice(0, HERO_COUNT);
 
     // scripts/prerender-lists.js가 이미 같은 내용을 정적으로 채워둔 경우
     // (정상 배포 상태) innerHTML을 다시 만들지 않고 기존 마크업에 이벤트만 건다.
@@ -60,12 +61,12 @@ function escapeAttr(str) {
     });
   }
 
-  // 최신 기사 리스트 (운전 상식·팁 기사는 별도 섹션에서만 노출, 여기서는 제외)
+  // 최신 기사 리스트 (운전 상식·팁 기사, 국내여행 기사는 별도 섹션에서만 노출, 여기서는 제외)
   const latestList = document.querySelector('#articles .article-list');
   if (latestList && latestList.children.length === 0) {
     const LATEST_COUNT = 15;
     const LATEST_EXCLUDE_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
-    const latestItems = sortedByDate.filter((item) => !LATEST_EXCLUDE_BADGES.includes(item.badge)).slice(0, LATEST_COUNT);
+    const latestItems = sortedByDate.filter((item) => !LATEST_EXCLUDE_BADGES.includes(item.badge) && !(item.categories || []).includes('travel')).slice(0, LATEST_COUNT);
 
     latestList.innerHTML = latestItems.map((item) => `
       <li>

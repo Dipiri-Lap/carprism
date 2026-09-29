@@ -106,10 +106,12 @@ const CAT_KEYS = ['electric', 'news', 'domestic', 'import', 'reviews', 'travel',
   const file = path.join(root, 'index.html');
   let html = fs.readFileSync(file, 'utf8');
 
-  const heroItems = sortedByDate.slice(0, 8);
+  const isTravel = (i) => (i.categories || []).includes('travel');
+  // 국내여행 기사는 히어로/최신 기사에서 제외하고 여행 섹션에서만 노출
+  const heroItems = sortedByDate.filter((i) => !isTravel(i)).slice(0, 8);
   const TIPS_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
   // 운전 상식·팁 기사는 최신 기사 목록에서 제외하고 TIPS 섹션에서만 노출
-  const latestItems = sortedByDate.filter((i) => !TIPS_BADGES.includes(i.badge)).slice(0, 15);
+  const latestItems = sortedByDate.filter((i) => !TIPS_BADGES.includes(i.badge) && !isTravel(i)).slice(0, 15);
   const tipsItems = sortedByDate.filter((i) => TIPS_BADGES.includes(i.badge));
 
   const blocks = [
