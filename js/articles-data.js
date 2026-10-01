@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "mobile-id-private-app-expansion-driver-license-guide-2026",
+    title: "\"은행 앱에서 받은 운전면허증, 단속 때도 통할까?\" 모바일 신분증 12개 앱 확대, 운전자가 알아둘 것",
+    date: "2026-10-01",
+    image: "mobileidapp_rental_counter_phone.webp",
+    categories: ["life"],
+    tags: ["모바일신분증", "모바일운전면허증", "운전면허증", "민간앱", "렌터카"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "행정안전부 발표 보도·정책뉴스·모바일 신분증 공식 안내 참고",
+    desc: "10월부터 우리·하나·신한·IBK기업은행 앱이 모바일 신분증 발급 앱에 추가되고 내년 삼성카드까지 총 12개가 된다. 민간 앱 발급분도 정부 앱과 효력이 같다. 모바일 운전면허증이 되는 곳과 안 되는 곳, 발급·재발급 절차, 해외 사용 여부와 주의점을 정리했다."
+  },
+  {
+    slug: "resident-registration-copy-notation-change-1029-2026",
+    title: "\"등본만 떼도 재혼 사실이 드러난다?\" 10월 29일부터 '세대원'으로 바뀐다, 상세 표기 선택법은?",
+    date: "2026-10-01",
+    image: "rrcopy_mansu1_civil_office_counter.webp",
+    categories: ["life"],
+    tags: ["주민등록등본", "주민등록초본", "세대원", "동거인", "가족관계표기"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "행정안전부·정책브리핑 보도, 뉴스핌·파이낸셜뉴스·한국AI부동산신문 보도 참고",
+    desc: "2026년 10월 29일부터 주민등록 등·초본에서 세대주 배우자를 제외한 민법상 가족은 '세대원', 가족이 아닌 사람은 '동거인'으로 표기된다. 표기 전후 비교, 상세 표기 선택과 용도·목적 작성, 전세·대출 제출 시 유의점, 확인하지 못한 사항을 정부 보도 기준으로 정리했다."
+  },
+  {
+    slug: "child-support-advance-payment-income-limit-removed-2026",
+    title: "\"소득 기준 때문에 막혔다면…\" 10월 29일부터 양육비 선지급, 소득 상관없이 월 최대 20만 원 누가 받나",
+    date: "2026-10-01",
+    image: "childsupportadv_gov_complex_seoul.webp",
+    categories: ["life"],
+    tags: ["양육비선지급제", "양육비이행관리원", "한부모가족", "소득기준폐지", "성평등가족부"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "성평등가족부·양육비이행관리원·한국사회복지저널·뉴스핌 보도 참고",
+    desc: "2026년 10월 29일부터 양육비 선지급제의 기준 중위소득 150% 이하 요건이 폐지된다. 자녀 1명당 월 최대 20만 원, 신청 요건 표, 신청 방법과 서류, 지급일, 중지·회수, 자주 묻는 질문을 공식 안내와 보도 기준으로 정리했다."
+  },
+  {
+    slug: "rail-ticket-two-months-advance-booking-2026-guide",
+    title: "\"기차표 두 달 전부터 산다\"… 연말·설 이동, KTX 먼저 잡을까 내 차로 갈까",
+    date: "2026-10-01",
+    image: "railbook2m_ktx_sancheon_side.webp",
+    categories: ["life"],
+    tags: ["철도승차권", "KTX", "SRT", "예매", "코레일"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "뉴시스·매일신문 등 종합 / 국토교통부·코레일 발표",
+    desc: "10월 1일부터 철도 승차권 예매가 출발 2개월 전으로 확대됐다. 시행 내용과 확인되지 않은 부분, 위약금, 서울~부산 KTX와 자가용 비용 비교, 코레일 연계 주차 할인까지 정리했다."
+  },
+  {
+    slug: "fuel-tax-cut-extended-november-2026-guide",
+    title: "\"유류세 인하 또 연장됐다는데, 내 지갑엔 얼마?\" 11월 말까지 휘발유 122원·경유 145원, 연 주행거리별 주유비 계산",
+    date: "2026-10-01",
+    image: "fueltax2026_driver_refuel_receipt.webp",
+    categories: ["life"],
+    tags: ["유류세인하", "유류세연장", "주유비", "알뜰주유소", "경차유류세환급"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "언론 보도(정부 발표 인용)·한국석유공사 오피넷 참고",
+    desc: "정부가 유류세 인하를 11월 30일까지 2개월 연장했다. 휘발유 15%·경유 25%·부탄 25% 인하율 유지, 리터당 122원·145원·51원 절감, 50L 주유 시 6,100원·7,250원 효과를 정리하고 연 주행거리별 주유비 영향, 인하 종료 시 가격 추정, 알뜰·셀프주유소와 경차 환급 절약법을 계산표로 풀었다."
+  },
+  {
     slug: "pocheon-herb-island-pink-muhly-night-2026",
     title: "\"핑크뮬리 보고 밤에 한 번 더?\"… 포천 허브아일랜드 핑크뮬리 축제, 입장료·운영시간·주차 한 번에 확인했다",
     date: "2026-10-01",
