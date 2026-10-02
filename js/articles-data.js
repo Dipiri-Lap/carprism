@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "year-end-tax-settlement-car-related-deductions-2026",
+    title: "\"주유비는 되는데 통행료는 왜 안 되지?\"… 연말정산 앞두고 차에 쓴 돈, 얼마나 돌려받나",
+    date: "2026-10-02",
+    image: "yetax_gas_station_itaewon.webp",
+    categories: ["life"],
+    tags: ["연말정산", "신용카드소득공제", "주유비공제", "자동차보험료", "통행료"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "신차 구입비·통행료·리스료는 카드 소득공제에서 빠지고 주유비는 들어간다. 2025년 귀속과 2026년 귀속의 차이, 2026 세제개편안(정부안)의 대중교통 공제 변화, 연봉별 절세액 계산표를 정리했다."
+  },
+  {
+    slug: "fuel-cost-saving-alddeul-station-card-compare-2026",
+    title: "\"알뜰주유소, 진짜 그만큼 싼가?\" 브랜드별 최대 142원(EX알뜰 기준) 격차와 카드 할인, 연 주행거리별 주유비 직접 계산해보니",
+    date: "2026-10-02",
+    image: "fuelsave_songak_self_oilbank.webp",
+    categories: ["life"],
+    tags: ["주유비절약", "알뜰주유소", "셀프주유소", "주유할인카드", "오피넷"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "알뜰주유소(농협·자영·EX)와 정유사 브랜드의 리터당 격차, 오피넷 9월 4주 기준 실제 격차, 주유 카드 월 한도, 요일·시간대 속설 판정, 연 주행거리별 연간 절감액을 1,850원/L 가정으로 계산했다."
+  },
+  {
+    slug: "international-driving-permit-overseas-rental-car-guide-2026",
+    title: "\"국제면허만 있으면 어디서든 운전?\"… 연말 해외 렌터카, 출국 전에 확인할 7가지",
+    date: "2026-10-02",
+    image: "idprental_icn_t2_arrival.webp",
+    categories: ["life"],
+    tags: ["국제운전면허증", "해외렌터카", "렌터카보험", "CDW", "영사콜센터"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사 (참고: 도로교통공단·외교부 해외안전여행·영사안전콜센터)",
+    desc: "연말 해외여행 전 국제운전면허증 발급 장소·준비물·수수료·유효기간(1년), 제네바·비엔나협약과 한국면허 인정 국가 체계, 해외 렌터카 보험 용어(CDW·SLI·TP)와 면책금, 일본·미국·유럽 비교와 사고 시 영사콜센터 대응까지 2026년 10월 기준으로 정리했다."
+  },
+  {
     slug: "car-ownership-cost-new-vs-used-5year-2026",
     title: "\"중고가 무조건 싸다\"는 착각… 신차 vs 3년 중고, 5년 총비용 계산하니 차종마다 승자가 갈렸다",
     date: "2026-10-02",
