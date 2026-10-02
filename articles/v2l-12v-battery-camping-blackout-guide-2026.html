@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"정전되면 차에서 전기 뽑으면 되지"… V2L 계산해보니 열흘은 버티는데, 포트+밥솥은 실내 콘센트로 안 된다, 전열기구는 설명서부터 확인 | CarPrism</title>
+<meta name="description" content="전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다.">
+<meta name="keywords" content="V2L, 차량전력공급, 정전대비, 차박전력, 12V배터리방전">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="V2L 정전·캠핑 활용법과 가을철 12V 배터리 방전 대비 가이드">
+<meta property="og:description" content="전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/v2l12v_ioniq5_rear.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-10-02T14:54+09:00">
+<meta property="article:section" content="생활정보">
+<meta property="article:tag" content="V2L,차량전력공급,정전대비,차박전력,12V배터리방전">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="V2L 정전·캠핑 활용법과 가을철 12V 배터리 방전 대비 가이드">
+<meta name="twitter:description" content="전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다.">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/v2l12v_ioniq5_rear.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html" },
+  "headline": "\"정전되면 차에서 전기 뽑으면 되지\"… V2L 계산해보니 열흘은 버티는데, 포트+밥솥은 실내 콘센트로 안 된다, 전열기구는 설명서부터 확인",
+  "description": "전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다.",
+  "image": ["https://carprism.tmhub.co.kr/images/v2l12v_ioniq5_rear.webp"],
+  "datePublished": "2026-10-02T14:54+09:00",
+  "dateModified": "2026-10-02T14:54+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "V2L 정전·캠핑 활용법과 가을철 12V 배터리 방전 대비 가이드", "item": "https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../electric.html" class="nav-link" id="nav-electric">전기차</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+      <a href="../travel.html" class="nav-link" id="nav-travel">국내여행</a>
+      <a href="../life.html" class="nav-link" id="nav-life">생활정보</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../electric.html" class="nav-link">전기차</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+  <a href="../travel.html" class="nav-link">국내여행</a>
+  <a href="../life.html" class="nav-link">생활정보</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="v2l-12v-battery-camping-blackout-guide-2026">
+      <meta itemprop="datePublished" content="2026-10-02T14:54+09:00">
+
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../life.html">생활정보</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">V2L 정전·캠핑 활용법과 가을철 12V 배터리 방전 대비 가이드</span>
+      </nav>
+
+      <header class="article-header reveal">
+        <span class="article-cat cat-blue">DRIVING TIPS</span>
+        <h1 class="article-title" itemprop="headline">
+          "정전되면 차에서 전기 뽑으면 되지"… V2L 계산해보니 열흘은 버티는데, 포트+밥솥은 실내 콘센트로 안 된다, 전열기구는 설명서부터 확인
+        </h1>
+        <p class="article-subtitle">
+          출력 한도와 방전 하한만 알면 계산은 어렵지 않다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-10-02">2026년 10월 2일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 12분</span>
+        </div>
+      </header>
+
+      <div class="article-body reveal">
+
+        <div class="article-img-wrap">
+          <img src="../images/v2l12v_ioniq5_rear.webp" alt="길가 주차 구역에 서 있는 은색 현대 아이오닉 5를 뒤쪽 비스듬한 각도에서 촬영한 모습" width="1600" height="1098" itemprop="image">
+          <p class="article-img-caption">▲ 실외 V2L 3.6kW, 실내 1.9kW(보도 기준). 아이오닉 5는 출력 한도 안에서 가전을 관리해야 한다 <span class="cap-credit">ⓒ Wikimedia Commons / crash71100, CC0</span></p>
+        </div>
+
+<p><strong>"정전되면 차에서 전기 뽑으면 되지."</strong> 전기차 V2L(차량 전력 공급) 이야기가 나오면 으레 따라붙는 말이다. 틀린 말은 아니다. 다만 <strong>몇 시간, 며칠을 버티는지</strong>, 그리고 <strong>무엇을 동시에 꽂을 수 있는지</strong>는 배터리 용량보다 출력 한도와 방전 하한 설정이 좌우한다. 카프리즘이 제조사 공개 자료를 대조해 직접 계산표를 만들어 봤다.</p>
+<p>이 글은 크게 두 부분이다. 앞부분은 V2L로 정전·캠핑을 버티는 계산, 뒷부분은 <strong>가을 아침 기온이 내려가기 시작하는 지금</strong> 의외로 발목을 잡는 12V 보조배터리 방전 대비다. 인버터를 이용한 일반 차박 전력 계산은 <a href="car-camping-power-inverter-calculation.html">차박 인버터 용량 계산</a>과 <a href="camping-car-power-budget-2026.html">차박 전력 예산표</a>에서 다뤘으므로, 여기서는 전기차 고전압 배터리를 쓰는 V2L과 정전 대비 각도에 집중한다.</p>
+
+<aside class="key-points">
+  <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+  <ul>
+    <li><strong>출력 한도</strong>: 아이오닉 5는 실외 V2L 최대 3.6kW, 실내 V2L 1.9kW(보도 기준, 현대차 공식 설명서에서는 확인하지 못함) — 합산 소비전력이 넘으면 차단된다</li>
+    <li><strong>제조사 금지 항목</strong>: 기아 EV6 설명서는 다리미·커피포트·토스터 같은 <strong>전열기구 사용을 금지</strong>한다. 출력 한도 계산과 별개이므로 차종별 설명서를 먼저 확인해야 한다</li>
+    <li><strong>사용 가능 에너지</strong>(카프리즘 계산): 84kWh 차량을 80%에서 하한 20%까지 쓰면 약 <strong>42.8kWh</strong>, 가정용 하루 3.4kWh 부하라면 약 12.6일 분량</li>
+    <li><strong>방전 하한</strong>: 설정 가능하며 하한에 도달하면 자동 중단(기아 EV6 설명서). 본 기사 계산은 20%를 가정했다. 하한을 높게 잡을수록 정전 후 <strong>충전소까지 갈 주행거리</strong>가 남는다</li>
+    <li><strong>12V 보조배터리</strong>는 V2L과 별개로 가을·겨울 초입에 약해진다. 점프 스타트 도구와 비상 시동 절차를 미리 확인해 두자</li>
+  </ul>
+</aside>
+
+<h2 id="specs">1. V2L, 차종별로 얼마나 나오나 — 출력과 배터리 한눈에</h2>
+
+<p>V2L은 주행용 고전압 배터리의 전기를 220V 교류로 바꿔 내보내는 기능이다. 기아 EV6 사용설명서는 이를 "주행용 고전압 배터리를 이용해 여러 전자제품을 작동시키는 AC 전원 시스템"으로 설명하며, 실외(충전구 커넥터)와 실내(2열 시트 하단 콘센트) 두 방식을 안내한다. 아래 표는 공식 페이지와 보도에서 확인한 값을 카프리즘이 정리한 것이다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>V2L 출력·배터리 정리 (확인 출처 병기)</caption>
+    <thead>
+      <tr><th>차종</th><th>배터리(kWh)</th><th>V2L 출력</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>아이오닉 5</strong></td><td>63.0 / 84.0</td><td>실외 <strong>3.6kW</strong>, 실내 <strong>1.9kW</strong>(보도 기준·공식 미확인)</td><td>스탠다드는 실내 V2L, 롱레인지는 실내·실외 모두 지원(2025년형 가격표·보도 기준). 실내 1.9kW와 트림별 지원 구성은 현대차 공식 설명서·사이트 재확인에서도 수치를 확인하지 못했다(설명서에는 전기 사용(V2L) 항목과 방전 제한 설정이 있다)</td></tr>
+      <tr><td><strong>기아 EV6</strong></td><td>62.9 / 84.0</td><td>최대 약 <strong>3.6kW</strong></td><td>배터리는 기아 공식 제원 페이지, 출력은 보도 기준. 설명서에는 W 수치가 없고 16A 이하만 안내한다. 일부 해외 자료는 지역(전압)별로 1.9kW와 3.68kW를 달리 소개하므로, 해외 수치를 국내 사양에 그대로 대입하지 말 것(카프리즘은 국내 공식 근거를 확인하지 못함)</td></tr>
+      <tr><td><strong>기아 EV9</strong></td><td>76.1 / 99.8</td><td>약 3.6kW(국내 보도·220V 16A급)</td><td>해외 자료에는 3.68kW로 나오나 국내는 3.6kW로 보도됨. 기아 EV9 가격 페이지는 실내 V2L 콘센트와 실외 V2L 커넥터를 트림별로 나눠 표기한다(§1 하단). 공식 출력 수치는 미확인</td></tr>
+      <tr><td><strong>폭스바겐 ID. California</strong></td><td>79</td><td>2.0kW</td><td>해외 출시 예정 모델, 국내 판매 계획 불명</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="info-box">
+  <p class="info-box-title">📍 "3.6kW"의 의미는 220V × 16A</p>
+  <p>기아 EV6 설명서는 연결 기기를 <strong>16암페어 이하</strong>로 제한하라고 안내한다. 220V 기준 16A는 약 3,520W로, 보도에서 말하는 3.6kW급과 같은 선이다. 즉 한도는 <strong>"배터리가 얼마나 남았나"가 아니라 "지금 순간에 몇 W를 당기나"</strong>로 정해진다.</p>
+</div>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>공식 자료로 확인한 것과 못 한 것 (2026-10-02 기준, 제원 확인된 항목만 수치 표기)</caption>
+    <thead>
+      <tr><th>항목</th><th>아이오닉 5</th><th>EV6</th><th>EV9</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>V2L 최대 출력 수치</strong></td><td>공식 미확인(보도: 실외 3.6kW·실내 1.9kW)</td><td>설명서에 W 수치 없음, 연결 기기 16A 이하</td><td>공식 미확인(보도 약 3.6kW)</td></tr>
+      <tr><td><strong>실내·실외 구분</strong></td><td>설명서에 전기 사용(V2L) 항목 있음, 실내/실외 구성은 보도 기준</td><td>실외 커넥터·실내 콘센트 모두 안내(설명서)</td><td>트림별로 실내 콘센트와 실외 커넥터 구성이 나뉨(기아 가격 페이지)</td></tr>
+      <tr><td><strong>방전 하한 설정</strong></td><td>설정 가능, <strong>현재 충전량 이하로만</strong> 설정, 도달 시 자동 차단(현대 설명서). 설정 범위·기본값은 미확인</td><td>설정 가능, 도달 시 V2L 중지(설명서). 범위 미확인</td><td>EV9 전용 설명서 확인 못함(기아 국내 설명서는 같은 설정 항목 존재)</td></tr>
+      <tr><td><strong>전열기구 금지 문구</strong></td><td>이번에 확인 못함</td><td>다리미·커피포트·토스터 금지(설명서)</td><td>EV9 전용 설명서 확인 못함(기아 국내 설명서 2025년판에 전기 주전자·토스트기·다리미 금지 문구)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>기아 EV9 가격 페이지는 2WD 트림 전반에 실내 V2L 콘센트가 있고, 실외 V2L 커넥터는 트림에 따라 기본 여부가 갈리는 것으로 표시한다. 트림 구성은 연식·판매 시점에 따라 바뀔 수 있으므로 계약 전에 공식 가격 페이지에서 직접 확인하자. 아이오닉 5의 차종 특징은 <a href="hyundai-ioniq5-review-summary-2026.html">아이오닉 5 시승 요약</a>에서 볼 수 있다.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12vb_ioniq5_front.webp" alt="회색 현대 아이오닉 5를 앞쪽 비스듬한 각도에서 촬영한 모습" width="1600" height="975" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 아이오닉 5 앞모습. 이 사진만으로 트림이나 V2L 구성은 확정할 수 없다 <span class="cap-credit">ⓒ Wikimedia Commons / DieselFordMondeo, CC BY-SA 4.0</span></p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12vb_ev9_rear.webp" alt="전시장에 놓인 검은색 기아 EV9의 뒷모습" width="1600" height="1143" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 전시장의 EV9 뒷모습. 사진으로는 트림·사양을 확정하지 않는다 <span class="cap-credit">ⓒ Wikimedia Commons / Ethan Llamas, CC BY-SA 4.0</span></p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_ev6_rear.webp" alt="주차된 기아 EV6를 뒤쪽 비스듬한 각도에서 촬영한 모습" width="1600" height="1080" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ EV6는 실외 V2L 커넥터와 실내 콘센트를 모두 제공한다. 차종·트림별 지원 여부는 확인이 필요하다 <span class="cap-credit">ⓒ Wikimedia Commons / DestinationFearFan, CC BY-SA 4.0</span></p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_ev9_front.webp" alt="전시장에 놓인 기아 EV9의 앞쪽 비스듬한 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 전시장 전시차로 놓인 99.8kWh 대용량 배터리의 EV9. 배터리가 클수록 정전 대응 시간도 길어진다 <span class="cap-credit">ⓒ Wikimedia Commons / Matti Blume, CC BY-SA 4.0</span></p>
+</div>
+
+
+<h2 id="formula">2. 사용 가능 전력량 계산식 — 카프리즘 가정을 먼저 밝힌다</h2>
+
+<p>계산은 단순하다. <strong>사용 가능 전력량(kWh) = 배터리 용량 × (시작 SOC − 방전 하한 SOC) × 변환 효율</strong>. 여기서 카프리즘이 둔 가정은 세 가지다.</p>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 계산 가정 (추정 포함)</strong></p>
+  <p>· <strong>방전 하한 20%</strong> — <strong>본 기사의 계산 가정</strong>이다. 기아 EV6 설명서와 현대차 설명서 모두 하한을 설정할 수 있고 도달하면 자동 중단된다고 안내한다(현대차는 현재 충전량 이하로만 설정 가능). 다만 설정 가능 범위, 기본값 20%, 현대차의 20~100% 사용 구간은 설명서로 확인하지 못했다<br>
+  · <strong>시작 SOC 80% 또는 100%</strong> — 평소 80% 충전 습관인 운전자와 만충한 경우를 구분<br>
+  · <strong>변환 효율 85%</strong> — 고전압 배터리에서 220V 교류로 바꾸는 손실을 반영한 <strong>카프리즘의 추정치</strong>이며, 제조사 공식 수치가 아니다. 차량 자체의 대기 소모는 반영하지 않았다</p>
+</div>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>V2L로 꺼내 쓸 수 있는 전력량 (효율 85%, 하한 20%)</caption>
+    <thead>
+      <tr><th>배터리</th><th>80% → 20% (60%p)</th><th>100% → 20% (80%p)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>63.0kWh</strong></td><td>32.1kWh</td><td>42.8kWh</td></tr>
+      <tr><td><strong>84.0kWh</strong></td><td>42.8kWh</td><td>57.1kWh</td></tr>
+      <tr><td><strong>99.8kWh</strong></td><td>50.9kWh</td><td>67.9kWh</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>예를 들어 84kWh 차량을 80%에서 20%까지 쓰면 84 × 0.6 × 0.85 = 42.8kWh다. 이 값이 이후 모든 표의 기준이 된다.</p>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="blackout">3. 정전 대비 — 하루 3.4kWh 가정으로 며칠 버티나</h2>
+
+<div class="info-box">
+  <p class="info-box-title">⚠️ 계산상 가능과 제조사 허용은 다른 문제다</p>
+  <p>이 장의 전기포트(1,500W)·인덕션(1,800W)·소형 히터·에어프라이어 예시는 <strong>출력 한도(실내 1.9kW 등)와 배터리 용량 안에서 되는지</strong>만 본 계산이다. 이와 별개로 기아 EV6 설명서는 다리미·커피포트·토스터 등 <strong>전열기구 사용을 금지</strong>한다. 제조사 설명서가 전열기구를 금지할 수 있으므로 차종별 확인이 필요하다(§6).</p>
+</div>
+
+<p>정전 때 우리 집에서 꼭 필요한 것만 켠다고 가정했다. 정격 소비전력과 사용 시간은 <strong>가정용 제품의 대표적 범위를 바탕으로 한 카프리즘의 가정값</strong>이므로, 실제로는 가진 제품의 라벨(정격 W)로 바꿔 계산해야 한다. 냉장고는 컴프레서가 계속 도는 것이 아니어서 평균 부하를 60W(정격 150W, 가동률 40% 가정)로 잡았다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>정전 시 하루 소비 전력량 가정표</caption>
+    <thead>
+      <tr><th>기기</th><th>가정 소비전력</th><th>하루 사용</th><th>하루 전력량</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>냉장고</td><td>평균 60W</td><td>24시간</td><td>1,440Wh</td></tr>
+      <tr><td>LED 조명 4개</td><td>10W × 4개</td><td>5시간</td><td>200Wh</td></tr>
+      <tr><td>선풍기</td><td>40W</td><td>8시간</td><td>320Wh</td></tr>
+      <tr><td>와이파이 공유기</td><td>12W</td><td>24시간</td><td>288Wh</td></tr>
+      <tr><td>노트북·휴대폰 충전</td><td>약 60W / 20W</td><td>3시간 / 2시간</td><td>220Wh</td></tr>
+      <tr><td>TV</td><td>100W</td><td>4시간</td><td>400Wh</td></tr>
+      <tr><td>전기밥솥(취사)</td><td>800W</td><td>30분</td><td>400Wh</td></tr>
+      <tr><td>전기포트</td><td>1,500W</td><td>5분</td><td>125Wh</td></tr>
+      <tr><td><strong>합계</strong></td><td></td><td></td><td><strong>약 3,393Wh (3.4kWh)</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>하루 3.4kWh 부하일 때 버티는 일수 (계산값 = 가용 전력량 ÷ 3.393kWh)</caption>
+    <thead>
+      <tr><th>배터리</th><th>80% → 20%</th><th>100% → 20%</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>63.0kWh</strong></td><td>약 9.5일</td><td>약 12.6일</td></tr>
+      <tr><td><strong>84.0kWh</strong></td><td>약 12.6일</td><td>약 16.8일</td></tr>
+      <tr><td><strong>99.8kWh</strong></td><td>약 15.0일</td><td>약 20.0일</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="info-box">
+  <p class="info-box-title">📍 "며칠"보다 중요한 것 — 현실 보정</p>
+  <p>위 일수는 <strong>이상적인 계산값</strong>이다. 차량이 V2L을 켜 둔 동안 쓰는 대기 전력, 겨울철 배터리 효율 저하, 멀티탭에서의 전력 손실은 반영하지 않았고 확인된 수치도 없다. 실제로는 계산값의 70~80% 정도로 여유 있게 잡는 편이 안전하다(카프리즘의 보수적 권고). 또 정전이 열흘씩 이어지는 일은 드물기 때문에, 이 표는 오히려 <strong>"하루 이틀 정전에는 차 배터리가 거의 줄지 않는다"</strong>는 의미로 읽는 것이 맞다.</p>
+</div>
+
+<h2 id="appliance">4. 가전별 연속 사용 시간과 동시 사용 판정표</h2>
+
+<p>84kWh 차량을 80%에서 하한 20%까지 쓴 42.8kWh를 기준으로, 한 가지 기기만 연속으로 쓴다면 몇 시간인지 계산했다(시간 = 42,800Wh ÷ 소비전력).</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>단일 기기 연속 사용 가능 시간 (42.8kWh 기준, 가정 소비전력)</caption>
+    <thead>
+      <tr><th>기기</th><th>소비전력</th><th>연속 사용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>선풍기</td><td>40W</td><td>약 1,070시간</td></tr>
+      <tr><td>냉장고(평균)</td><td>60W</td><td>약 713시간(약 29.7일)</td></tr>
+      <tr><td>전기장판(싱글)</td><td>100W</td><td>약 428시간</td></tr>
+      <tr><td>TV</td><td>100W</td><td>약 428시간</td></tr>
+      <tr><td>소형 히터</td><td>1,200W</td><td>약 35.7시간</td></tr>
+      <tr><td>전기밥솥(취사 중)</td><td>800W</td><td>약 53.5시간</td></tr>
+      <tr><td>전기포트·에어프라이어(전열기구는 제조사 금지 가능)</td><td>1,500W</td><td>약 28.5시간</td></tr>
+      <tr><td>인덕션 1구(최대 화력)</td><td>1,800W</td><td>약 23.8시간</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>전력량에서는 여유가 많아도 <strong>순간 출력 한도</strong>에서 막히는 경우가 훨씬 흔하다. 아래는 동시에 꽂았을 때 실내(1.9kW)·실외(3.6kW) 한도를 넘는지 정리한 판정표다. <strong>"가능"은 출력 한도 기준의 계산상 판정일 뿐, 전열기구 사용을 제조사가 금지할 수 있으니 차종별 설명서를 먼저 확인해야 한다.</strong></p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>동시 사용 조합 판정 (아이오닉 5 보도 한도 기준, 제조사 금지 여부는 별개)</caption>
+    <thead>
+      <tr><th>조합</th><th>합계</th><th>실내 1.9kW</th><th>실외 3.6kW</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>전기포트 + 노트북</td><td>1,560W</td><td>가능(여유 340W)</td><td>가능</td></tr>
+      <tr><td>전기밥솥 + 전기포트</td><td>2,300W</td><td><strong>초과</strong></td><td>가능</td></tr>
+      <tr><td>인덕션 + 에어프라이어</td><td>3,300W</td><td><strong>초과</strong></td><td>가능하나 여유 300W뿐, 비권장</td></tr>
+      <tr><td>인덕션 + 포트 + 밥솥</td><td>4,100W</td><td><strong>초과</strong></td><td><strong>초과</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 냉장고 기동 전류 주의</strong></p>
+  <p>냉장고·에어컨 같은 컴프레서 기기는 켜지는 순간 정격보다 큰 전류가 흐르는 것이 일반적이다. 다른 기기를 한도 근처까지 함께 쓰는 중에 냉장고가 가동하면 <strong>순간적으로 한도를 넘어 차단</strong>될 수 있다(카프리즘의 일반 원리 설명, 차종별 실측 수치는 확인 못함). 냉장고는 가장 먼저 연결하고 큰 기기는 따로 돌리는 순서를 권한다.</p>
+</div>
+
+<h2 id="camping">5. 캠핑 하룻밤 예산과 "이동용 하한" 정하는 법</h2>
+
+<p>캠핑에서는 시간이 짧은 대신 열을 쓰는 기기가 많다. 가을 차박 한 밤을 가정했다. 전기장판 100W × 8시간(800Wh), LED 조명 10W × 6시간(60Wh), 휴대폰·노트북 충전(200Wh), 선풍기 40W × 6시간(240Wh), 인덕션 1,800W × 45분(1,350Wh)으로 합계 <strong>2,650Wh</strong>다(인덕션 등 전열기구는 제조사가 금지할 수 있어 계산상 예시이며, 실제 사용 전 설명서 확인 필요). 배터리에서 빠져나가는 양은 2.65 ÷ 0.85 = 3.12kWh다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>차박 한 밤(2.65kWh 소비)이 SOC를 얼마나 깎나</caption>
+    <thead>
+      <tr><th>배터리</th><th>배터리 소모 3.12kWh의 SOC 환산</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>63.0kWh</strong></td><td>약 5.0%p</td></tr>
+      <tr><td><strong>84.0kWh</strong></td><td>약 3.7%p</td></tr>
+      <tr><td><strong>99.8kWh</strong></td><td>약 3.1%p</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>즉 하룻밤 SOC 소모는 몇 퍼센트포인트 수준이다. 캠핑에서 진짜 문제는 전기 부족이 아니라 <strong>"돌아갈 주행거리를 남겼느냐"</strong>다. 방전 하한을 20%로 둘 때와 높게 둘 때 남는 거리를 비교해 보자. 전비는 가을·히터 사용을 감안한 가정치(5.0km/kWh와 4.0km/kWh)로 두었다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>84kWh 차량의 V2L 하한별 잔여 주행 가능 거리 (카프리즘 추정)</caption>
+    <thead>
+      <tr><th>방전 하한</th><th>남는 전력량</th><th>5.0km/kWh일 때</th><th>4.0km/kWh일 때</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>20%</td><td>16.8kWh</td><td>약 84km</td><td>약 67km</td></tr>
+      <tr><td>30%</td><td>25.2kWh</td><td>약 126km</td><td>약 101km</td></tr>
+      <tr><td>40%</td><td>33.6kWh</td><td>약 168km</td><td>약 134km</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>기아 안내에 따르면 하한은 인포테인먼트 설정에서 직접 정할 수 있고, 도달하면 V2L이 자동으로 끊긴다. 가장 가까운 급속충전소가 40km 떨어진 곳이라면 하한은 최소 30%로 올려 두는 식으로 <strong>"충전소까지 거리 × 2 + 여유"</strong>를 기준 삼는 것을 추천한다. 캠핑장 전력과 차박 장소 규정은 <a href="autumn-camping-vanlife-precheck-2026.html">가을 캠핑·차박 출발 전 점검</a>도 함께 보자.</p>
+
+<h3>캠핑 가전 조합 시나리오 4가지 — 하룻밤에 SOC 몇 %p?</h3>
+
+<p>같은 2.65kWh짜리 한 밤이라도 가전 조합에 따라 결과가 크게 갈린다. 아래는 카프리즘 가정 소비전력으로 만든 조합표다. 계산식은 <strong>소비 Wh = Σ(W × 사용 시간)</strong>, <strong>배터리 소모 kWh = 소비 Wh ÷ 0.85(효율 가정)</strong>, <strong>SOC 소모 = 배터리 소모 ÷ 배터리 용량</strong>이다. "동시 최대"는 모든 기기를 한꺼번에 켠 최악의 순간 합계다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>캠핑 시나리오별 하룻밤 소모 (카프리즘 가정, 효율 85%, node 검산)</caption>
+    <thead>
+      <tr><th>시나리오(가정 기기 W × 시간)</th><th>소비 Wh</th><th>동시 최대</th><th>63kWh SOC</th><th>84kWh SOC</th><th>실내 1.9kW</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>업무 차박</strong> 노트북 60W×6h, 모니터 25W×6h, 조명 10W×5h, 공유기 12W×6h, 휴대폰 20W×2h</td><td>672Wh</td><td>127W</td><td>약 1.3%p</td><td>약 0.9%p</td><td>여유</td></tr>
+      <tr><td><strong>영화 차박</strong> 프로젝터 60W×3h, 스피커 20W×3h, 조명 10W×5h, 미니냉장고 평균 45W×12h, 휴대폰 20W×2h</td><td>870Wh</td><td>155W</td><td>약 1.6%p</td><td>약 1.2%p</td><td>여유</td></tr>
+      <tr><td><strong>전기장판 차박</strong> 전기장판 100W×8h, 조명 10W×6h, 휴대폰 20W×2h, 서큘레이터 30W×4h</td><td>1,020Wh</td><td>160W</td><td>약 1.9%p</td><td>약 1.4%p</td><td>여유(전열 제품 해당 여부는 설명서 확인)</td></tr>
+      <tr><td><strong>조리 포함</strong> 밥솥 800W×0.5h, 포트 1,500W×0.1h, 조명 10W×5h, 휴대폰 20W×2h, TV 60W×3h</td><td>820Wh</td><td>2,390W</td><td>약 1.5%p</td><td>약 1.1%p</td><td><strong>동시에 켜면 초과</strong>(실외 3.6kW 이내). 전열기구는 설명서 금지 가능</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>핵심은 두 가지다. 첫째, 전기를 거의 쓰지 않는 조합은 하룻밤에 SOC 1~2%p밖에 줄이지 않는다. 둘째, 소비 전력량이 비슷해도 <strong>조리가 들어가면 동시 최대가 15배 이상 뛰어</strong> 출력 한도가 문제가 된다. 같은 가정으로 84kWh를 80%에서 20%까지 쓰면 업무 차박은 약 63.7박, 전기장판 차박은 약 42.0박 분량이라, 캠핑에서는 전기량보다 "돌아갈 주행거리"와 출력 한도가 제약이다. 겨울철 전비 하락은 <a href="ev-winter-range-loss-comparison-2026.html">전기차 겨울 주행거리 감소 비교</a>를 함께 참고하자.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12vb_korea_ev_charging.webp" alt="태양광 지붕이 있는 국내 전기차 충전소에서 흰색 전기차 두 대가 충전 대기 중인 모습" width="1600" height="901" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 국내 전기차 충전소 사례. 캠핑 전 가장 가까운 급속충전소 위치를 확인해 하한을 정하는 것이 안전하다 <span class="cap-credit">ⓒ Wikimedia Commons / GTV경기도청방송국, CC BY 3.0</span></p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_campsite_ev.webp" alt="캠핑 파크의 잔디 길가에 서 있는 파란색 전기차와 충전 케이블" width="1600" height="1200" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 전기를 쓰는 전기차와 캠프사이트. 기사 중심 차종은 현대·기아이며, 이 사진은 일반 전기차의 충전 사례로 V2L 사용 장면이 아니다 <span class="cap-credit">ⓒ Wikimedia Commons / Chuq, CC BY-SA 4.0</span></p>
+</div>
+
+
+<h2 id="safety">6. V2L 안전수칙 — 설명서에 적힌 것만 모았다</h2>
+
+<p>안전 항목은 기아 EV6 공식 사용설명서의 V2L 주의 사항을 기준으로 정리했다. 현대 차량도 방식은 비슷하지만 세부는 차종별 설명서에서 확인해야 한다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>V2L 사용 시 금지·주의 항목 (기아 EV6 사용설명서 기준)</caption>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>전류 한도</strong></td><td>연결 기기는 16A 이하</td></tr>
+      <tr><td><strong>고출력 가전</strong></td><td>에어컨·세탁기·건조기 등 사용 금지로 안내</td></tr>
+      <tr><td><strong>전열기구 금지</strong></td><td>다리미·커피포트·토스터 등 전열기구는 차량 안에서 사용 금지(화재·부상 우려). 전기포트·인덕션·히터류도 차종별 설명서 확인 필요</td></tr>
+      <tr><td><strong>연장선</strong></td><td>꼬이거나 겹친 상태로 사용 금지</td></tr>
+      <tr><td><strong>멀티탭</strong></td><td>멀티탭을 여러 개 연결(문어발) 금지</td></tr>
+      <tr><td><strong>의료기기</strong></td><td>중단되면 안 되는 연속 전원 필요 의료기기 연결 금지</td></tr>
+      <tr><td><strong>기상</strong></td><td>낙뢰 위험이 있을 때 사용 금지</td></tr>
+      <tr><td><strong>방전 하한(현대 설명서)</strong></td><td>방전 제한량은 현재 배터리 충전량 이하로만 설정 가능, 충전량이 설정값에 도달하면 V2L이 자동 차단</td></tr>
+      <tr><td><strong>자동 중단</strong></td><td>하한 도달, 과소비 전력, 커넥터 과열, 커넥터 스위치 OFF, 실내 사용 중 충전구 열림 시 중단</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_ev6_interior.webp" alt="기아 EV6 실내 운전석 쪽 대시보드와 계기판" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ EV6 실내. 실내 V2L 콘센트는 2열 시트 하단에 있으며 사진은 운전석 쪽 모습이다 <span class="cap-credit">ⓒ Wikimedia Commons / Ethan Llamas, CC BY-SA 4.0</span></p>
+</div>
+
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12vb_power_strip.webp" alt="분해한 구형 3구 멀티탭의 겉모습과 내부 접점" width="1600" height="1807" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 분해한 구형 멀티탭의 내부. 낡은 멀티탭을 겹쳐 꽂는 방식은 설명서가 금지한다 <span class="cap-credit">ⓒ Wikimedia Commons / Dmitry G, CC BY-SA 3.0</span></p>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 정전·태풍 대비 사전 점검표 (카프리즘 권고)</strong></p>
+  <p>· 가전 라벨의 정격 소비전력(W)을 적어 두고 합계가 실내·실외 한도 안인지 계산해 둔다<br>
+  · 장시간 켤 기기(냉장고·공유기·조명) 목록과 큰 기기(밥솥·포트 등) 목록을 나눠 둔다<br>
+  · 정격 16A급 연장선 1개를 풀어서 쓸 수 있게 준비(멀티탭 겹쳐 꽂기 금지)<br>
+  · 방전 하한은 가장 가까운 급속충전소까지 거리의 2배 + 여유로 정해 둔다<br>
+  · 충전구 열림 여부, 커넥터 스위치 상태 등 자동 중단 조건을 설명서에서 확인<br>
+  · 휴대용 배터리·손전등 등 V2L 없이 쓸 수 있는 보조 수단도 함께 준비<br>
+  · 예보가 나오면 만충하고, 정전 해소 뒤 12V 상태와 READY 진입을 확인</p>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 정전 대비 사용 순서</strong></p>
+  <p>· <strong>1단계</strong>: 평소 충전 습관을 80%로 하더라도 폭풍·태풍 예보 시에는 만충해 둔다<br>
+  · <strong>2단계</strong>: 인포테인먼트에서 방전 하한을 이동 거리에 맞춰 설정<br>
+  · <strong>3단계</strong>: 냉장고 → 조명·통신 → 큰 가전 순서로 연결하고 합계 W를 계산<br>
+  · <strong>4단계</strong>: 실내 사용 시 충전구 도어를 열지 않는다. 연장선은 풀어서 펼쳐 쓴다<br>
+  · <strong>5단계</strong>: 정전 해소 후 차량이 정상 시동(READY) 되는지 확인</p>
+</div>
+
+<h2 id="12v">7. 가을철 12V 보조배터리 — 방전 원인과 대비</h2>
+
+<p>V2L을 아무리 잘 써도 차가 안 움직이면 소용이 없다. 전기차를 포함한 모든 차량의 시동·계기판·문 잠금은 별도의 12V 보조배터리가 담당한다. 현대해상 교통기후환경연구소가 2022년 3월~2024년 2월 전기차 긴급출동을 분석한 보도에서는 겨울철 전기차 긴급출동 중 <strong>배터리 충전 요청이 24.1%</strong>였다(견인 29.6%, 타이어 펑크 24.7%). 같은 보도에서 내연기관차를 포함한 전체 차량의 겨울철 긴급출동은 배터리 충전 요청이 58.1%로, 전기차 비중이 훨씬 낮았다. 같은 보도는 최근 출시 차량에는 12V 충전 상태가 낮으면 고전압 배터리로 자동 충전해 방전을 막는 기능이 들어간 경우가 많다고 설명한다.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_battery_hood.webp" alt="주차된 차량 보닛 위에 올려진 은색 12V 납산 배터리" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 교체나 점검을 위해 꺼낸 12V 배터리. 가을·겨울에는 약해진 배터리가 먼저 드러난다 <span class="cap-credit">ⓒ Wikimedia Commons / Shixart1985, CC BY 2.0</span></p>
+</div>
+
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>12V 방전의 주요 원인과 점검 포인트</caption>
+    <thead>
+      <tr><th>원인</th><th>상황</th><th>대비</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>장기 주차</strong></td><td>일주일 이상 방치(연휴·출장)</td><td>주 1회는 30분 이상 주행 또는 READY 상태 유지</td></tr>
+      <tr><td><strong>블랙박스 상시 녹화</strong></td><td>저전압 차단이 약하거나 꺼져 있음</td><td>차단 전압·타이머 점검 (<a href="dashcam-battery-drain-management-2026.html">블랙박스 방전 관리</a>)</td></tr>
+      <tr><td><strong>배터리 노후</strong></td><td>3~5년 이상 사용, 시동 지연·계기판 깜빡임</td><td>교체 신호 점검 (<a href="car-battery-replacement-signs-guide.html">12V 배터리 교체 신호</a>)</td></tr>
+      <tr><td><strong>기온 하락</strong></td><td>한랭한 아침 최저기온</td><td>겨울 전압 관리 (<a href="winter-battery-voltage-management-2026.html">겨울철 배터리 전압 관리</a>)</td></tr>
+      <tr><td><strong>충전 계통 이상</strong></td><td>ICCU·LDC 이상으로 12V 충전 불가</td><td>경고 메시지 시 즉시 안전한 곳에 정차</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>충전 계통 이상은 <strong>2023년 7월 경향신문 보도</strong>에서 ICCU 과전류가 LDC 손상으로 이어져 12V가 충전되지 않고 주행 중 출력이 떨어진 사례(당시 국내 34건 보도)가 소개됐다. 보도에 따르면 경고 이후 20~30분 정도 주행이 가능했다고 한다. 이후 2024년 12월 아이오닉 5·EV6 등 약 17만 8천 대 규모의 ICCU 후속 리콜(3월 리콜에 이은 것)이 시행됐으나, 리콜 이후에도 증상이 재발했다는 보도가 이어지고 있다(2026년 1월 보도 등). 이 리콜 보도 대상에 EV9는 포함되지 않았으며, 그 외 차종의 대상 여부는 차종별 리콜 공지로 확인해야 한다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table">
+    <caption>일반 납산(AGM 포함) 12V 배터리 정지 전압과 충전 상태 (통상 기준, 차종·온도별 차이 있음)</caption>
+    <thead>
+      <tr><th>정지 전압(시동 끈 뒤 수 시간)</th><th>대략적 충전 상태</th><th>판단</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>12.6V 이상</td><td>거의 100%</td><td>양호</td></tr>
+      <tr><td>12.4V 전후</td><td>약 75%</td><td>주행 후 재측정</td></tr>
+      <tr><td>12.2V 전후</td><td>약 50%</td><td>충전 필요</td></tr>
+      <tr><td>12.0V 이하</td><td>25% 이하</td><td>방전 직전, 점검·교체</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>참고로 AGM 배터리는 완충 직후 12.8V 안팎으로 위 표보다 약간 높게 나올 수 있다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>12V 보조배터리 점검 주기 제안 (카프리즘 권고, 제조사 공식 주기 아님)</caption>
+    <thead>
+      <tr><th>시점</th><th>할 일</th><th>이유</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>월 1회</strong></td><td>시동 직후 계기판 경고·READY 진입 반응 확인, 가능하면 정지 전압 측정</td><td>전압 하락의 초기 징후 포착</td></tr>
+      <tr><td><strong>가을 초입(첫 쌀쌀한 아침 전)</strong></td><td>정지 전압 측정, 점프 스타터 충전 상태 확인</td><td>기온 하락 전에 약한 배터리를 먼저 거르기</td></tr>
+      <tr><td><strong>1주일 이상 장기 주차 전</strong></td><td>블랙박스 저전압 차단 설정 확인, 출발 전 전압 확인</td><td>상시 전원 소모와 자연 방전 누적</td></tr>
+      <tr><td><strong>V2L·장시간 공회전(READY) 사용 직후</strong></td><td>다음 시동·계기판 정상 여부 확인</td><td>장시간 사용 뒤 12V 상태 변화 확인</td></tr>
+      <tr><td><strong>3년차 이후</strong></td><td>연 1회 정비소에서 배터리 상태 점검</td><td>노후 배터리 교체 시점 판단(교체 기준은 차종·배터리 종류별로 다름)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>겨울을 앞두고 고전압 배터리까지 함께 관리하려면 <a href="ev-winter-battery-management-guide.html">전기차 겨울철 배터리 관리법</a>도 참고할 만하다.</p>
+
+<div class="info-box">
+  <p class="info-box-title">📍 리튬 12V 장착 차종은 이 표를 쓰지 말 것</p>
+  <p>일부 차종은 12V 배터리로 리튬 계열을 쓰는 것으로 알려져 있다. 이 표는 일반 납산 기준의 통설이므로, 장착 배터리 종류는 설명서나 정비소에서 확인하고 그에 맞게 점검해야 한다.</p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_flat_battery_tourist.webp" alt="국립공원 주차장에서 보닛을 연 흰색 SUV 주변에 사람들이 모여 점검하는 모습" width="1600" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 방전은 어디서든 일어난다. 점프 도구가 없으면 도움을 기다려야 한다 <span class="cap-credit">ⓒ Wikimedia Commons / Alexandra Cadet, CC BY-SA 4.0</span></p>
+</div>
+
+
+<h2 id="jump">8. 방전됐을 때 — 비상 시동과 점프 스타트, 예방 체크리스트</h2>
+
+<p>기아 하이브리드 사용설명서는 12V 방전 시 스티어링 휠 왼쪽 <strong>「12V BATT RESET」 버튼</strong>을 누르고 <strong>15초 이내</strong>에 시동을 걸도록 안내한다. 이후 READY 상태를 약 30분 유지해야 보조배터리가 충전되며, 충전이 충분하지 않은 채 버튼을 반복해 누르면 오히려 과방전되어 점프 스타트가 필요하다고 경고한다. 이는 <strong>하이브리드 차종 설명서</strong>이므로 전기차는 차종별 사용설명서에서 같은 기능 유무를 확인해야 한다. 점프 케이블 연결 순서와 극성은 <a href="car-battery-jump-start-guide-2026.html">점프 스타트 직접 하는 법</a>에 정리해 두었다.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/v2l12v_jumper_clips.webp" alt="빨간색과 검은색 클램프가 달린 휴대용 점프 스타터 케이블이 파우치 위에 놓인 모습" width="1600" height="1067" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 휴대용 점프 스타터는 다른 차 없이 혼자 시동을 걸 수 있는 방전 대비 도구다 <span class="cap-credit">ⓒ Wikimedia Commons / Tony Webster, CC BY 2.0</span></p>
+</div>
+
+
+<div class="checkpoint-box">
+  <p><strong>✅ 가을 12V 방전 대비 체크리스트</strong></p>
+  <p>· 휴대용 점프 스타터 또는 점프 케이블을 트렁크에 비치하고 충전 상태 확인<br>
+  · 차량 설명서에서 <strong>비상 시동 절차와 점프 단자 위치</strong>를 미리 확인<br>
+  · 장기 주차 예정이면 출발 전 12V 상태와 블랙박스 저전압 차단 설정 점검<br>
+  · 전기차는 V2L을 쓴 뒤 정상 시동과 계기판 경고를 확인<br>
+  · 긴급출동 연락처(보험사·제조사)를 휴대폰에 저장해 두기</p>
+</div>
+
+<p>전기차의 고전압 배터리 관리와 정전 시 전력 활용을 더 넓게 보려면 <a href="ev-vehicle-to-grid-battery-selling-2026.html">V2G 배터리 전력 판매</a> 기사도 참고할 만하다.</p>
+
+<div class="summary-box" id="summary">
+  <h2>9. 요약</h2>
+  <p>
+    <strong>V2L 정전 대비의 핵심은 용량이 아니라 출력과 하한 설정이다.</strong> 아이오닉 5 기준 실외 3.6kW·실내 1.9kW 한도 안에서 합계 소비전력을 관리해야 하며, 84kWh 차량은 80%에서 20%까지 약 42.8kWh를 쓸 수 있어 하루 3.4kWh 가정 부하를 열흘 안팎 감당하는 계산이다(카프리즘 추정, 효율 85% 가정).
+  </p>
+  <p>
+    <strong>하한은 이동 거리로 정한다.</strong> 충전소까지 거리의 두 배와 여유를 남기도록 20~40% 사이에서 직접 설정하고, 연장선·멀티탭·의료기기 등 설명서 금지 항목은 지킨다.
+  </p>
+  <p>
+    <strong>12V 보조배터리는 가을부터 점검한다.</strong> 장기 주차·블랙박스·노후가 주범이므로 점프 스타터를 비치하고 비상 시동 절차를 미리 확인해 두자.
+  </p>
+</div>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <div class="related-inline reveal" id="related-inline">
+          <h2 class="related-inline-title">함께 보면 좋은 기사</h2>
+          <div class="related-inline-grid" id="related-inline-grid"><!--REL:INLINE:START-->
+        <a href="smart-key-not-detected-emergency-start-guide.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/smartkey_press_start_button.webp" alt="&quot;키가 감지되지 않습니다&quot;… 스마트키 인식 안 될 때, 1분 안에 시동 거는 법" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">"키가 감지되지 않습니다"… 스마트키 인식 안 될 때, 1분 안에 시동 거는 법</span>
+        </a>
+        <a href="cabin-air-quality-fine-dust-guide-2026.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/cabinairquality_recirculation_button_dashboard.webp" alt="체증 구간, 차 안이 밖보다 더 나쁠 수 있다… 미세먼지 시즌 실내 공기 관리법" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">체증 구간, 차 안이 밖보다 더 나쁠 수 있다… 미세먼지 시즌 실내 공기 관리법</span>
+        </a>
+        <a href="new-car-delivery-wait-2027-carryover-guide-2026.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/deliverywait2027_showroom_contract.webp" alt="&quot;9월 지나면 내년에 받습니다&quot;… 계약 막차 타기 전, 기아·현대·제네시스 납기와 투싼 함정 확인" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">"9월 지나면 내년에 받습니다"… 계약 막차 타기 전, 기아·현대·제네시스 납기와 투싼 함정 확인</span>
+        </a>
+<!--REL:INLINE:END--></div>
+        </div>
+
+      </div>
+
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="https://www.kia.com/content/dam/kia2/in/en/content/ev6-manual/topics/chapter1_3_4.html" target="_blank" rel="noopener">기아 EV6 사용설명서 — Vehicle to load (V2L)</a>
+              <a href="https://www.kia.com/uk/electric-hybrid-cars/technology/vehicle-to-load/" target="_blank" rel="noopener">기아 UK — Vehicle-to-Load (V2L)</a>
+              <a href="https://www.kia.com/kr/vehicles/ev6/specification" target="_blank" rel="noopener">기아 EV6·EV9 공식 제원 페이지</a>
+              <a href="https://www.hyundai.com/contents/repn-car/catalog/ioniq-5-2025-price.pdf" target="_blank" rel="noopener">현대차 2025 아이오닉 5 가격표</a>
+              <a href="https://ownersmanual.hyundai.com/full_webhelp/ne1n/2025/ko_kr/id225JF6050E7.html" target="_blank" rel="noopener">현대차 아이오닉 5 사용설명서(2025) — 전기 사용(V2L) 시 방전 제한량 설정하기</a>
+              <a href="https://ownersmanual.kia.com/full_webhelp/SG2KV/2025/ko_KR/topics/chapter1_3_5.html" target="_blank" rel="noopener">기아 사용설명서(2025, 국내판) — 전기 사용 설정(V2L)</a>
+              <a href="https://www.kia.com/kr/vehicles/ev9/price" target="_blank" rel="noopener">기아 EV9 가격 — 트림별 V2L 구성</a>
+              <a href="https://www.intn.co.kr/news/articleView.html?idxno=2041916" target="_blank" rel="noopener">일간NTN — 현대해상 교통기후환경연구소, 전기자동차 계절별 긴급출동 이용특성</a>
+              <a href="https://ownersmanual.kia.com/full_webhelp/DL3KH/2025/ko_KR/topics/chapter7_3_3.html" target="_blank" rel="noopener">기아 하이브리드 사용설명서 — 비상 시동</a>
+              <a href="https://www.khan.co.kr/article/202307041606001" target="_blank" rel="noopener">경향신문 — 달리다가 멈춰서는 현대차·기아 전기차, 12V 배터리 탓?</a>
+              <a href="https://www.autocast.kr/article/view/atc202412040001" target="_blank" rel="noopener">오토캐스트 — 'ICCU 결함' 아이오닉5·EV6 등 17만8382대 리콜</a>
+              <a href="https://www.news-wa.com/article/automobiles/2026/01/04/20260104500031" target="_blank" rel="noopener">뉴스와 — 리콜 소용없는 현대차 ICCU 재발 보도</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> Wikimedia Commons
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="../tag.html?t=V2L" class="article-tag-item">V2L</a>
+          <a href="../tag.html?t=%EC%B0%A8%EB%9F%89%EC%A0%84%EB%A0%A5%EA%B3%B5%EA%B8%89" class="article-tag-item">차량전력공급</a>
+          <a href="../tag.html?t=%EC%A0%95%EC%A0%84%EB%8C%80%EB%B9%84" class="article-tag-item">정전대비</a>
+          <a href="../tag.html?t=%EC%B0%A8%EB%B0%95%EC%A0%84%EB%A0%A5" class="article-tag-item">차박전력</a>
+          <a href="../tag.html?t=12V%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%B0%A9%EC%A0%84" class="article-tag-item">12V배터리방전</a>
+        </div>
+
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"><!--REL:LIST:START-->
+      <li>
+        <a href="vw-id-california-electric-camper-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/vw_id_era_5x_front34.webp" alt="&quot;9cm 매트리스에 2,000W 콘센트&quot;… 폭스바겐이 만든 첫 전기 캠퍼밴" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"9cm 매트리스에 2,000W 콘센트"… 폭스바겐이 만든 첫 전기 캠퍼밴</span>
+            <span class="related-date">2026.08.28</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="camping-car-power-budget-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/camping-car-power-budget_1.webp" alt="&quot;전기장판 8시간 켰더니 아침에 시동이 안 걸렸다&quot;… 차박 배터리, 방전 전에 계산부터 하라" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"전기장판 8시간 켰더니 아침에 시동이 안 걸렸다"… 차박 배터리, 방전 전에 계산부터 하라</span>
+            <span class="related-date">2026.09.11</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="camping-vanlife-best-cars-lineup-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/kia_carnival_ka4_side.webp" alt="&quot;이 차, 뒷자리 눕혀보면 답 나온다&quot;… 차박·캠핑용 차 고를 때 진짜 봐야 할 것들" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"이 차, 뒷자리 눕혀보면 답 나온다"… 차박·캠핑용 차 고를 때 진짜 봐야 할 것들</span>
+            <span class="related-date">2026.09.14</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="dashcam-battery-drain-management-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/dashcam_windshield_voltage_display.webp" alt="&quot;주차만 했는데 배터리가 방전됐다&quot;… 블랙박스 상시녹화, 이렇게 관리하세요" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"주차만 했는데 배터리가 방전됐다"… 블랙박스 상시녹화, 이렇게 관리하세요</span>
+            <span class="related-date">2026.07.31</span>
+          </div>
+        </a>
+      </li>
+<!--REL:LIST:END--></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="../tag.html?t=V2L" class="pop-tag">V2L</a>
+          <a href="../tag.html?t=%EC%B0%A8%EB%9F%89%EC%A0%84%EB%A0%A5%EA%B3%B5%EA%B8%89" class="pop-tag">차량전력공급</a>
+          <a href="../tag.html?t=%EC%A0%95%EC%A0%84%EB%8C%80%EB%B9%84" class="pop-tag">정전대비</a>
+          <a href="../tag.html?t=%EC%B0%A8%EB%B0%95%EC%A0%84%EB%A0%A5" class="pop-tag">차박전력</a>
+          <a href="../tag.html?t=12V%EB%B0%B0%ED%84%B0%EB%A6%AC%EB%B0%A9%EC%A0%84" class="pop-tag">12V배터리방전</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../travel.html">국내여행</a></li>
+        <li><a href="../life.html">생활정보</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-ownership-cost-new-vs-used-5year-2026",
+    title: "\"중고가 무조건 싸다\"는 착각… 신차 vs 3년 중고, 5년 총비용 계산하니 차종마다 승자가 갈렸다",
+    date: "2026-10-02",
+    image: "owncost_avante_red.webp",
+    categories: ["life"],
+    tags: ["신차vs중고차", "5년총비용", "자동차유지비", "중고차감가", "자동차세계산"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "아반떼·쏘나타·쏘렌토 HEV·아이오닉5로 신차와 3년 중고를 5년 보유할 때 총비용을 감가·취득세·자동차세·보험료·정비비·연료비·이자 7개 항목으로 직접 계산했다. 가격표와 중고 시세 통계를 쓰고 가정은 추정으로 밝혔으며, 중고가 이기는 차와 신차가 이기는 차가 갈렸다."
+  },
+  {
+    slug: "v2l-12v-battery-camping-blackout-guide-2026",
+    title: "\"정전되면 차에서 전기 뽑으면 되지\"… V2L 계산해보니 열흘은 버티는데, 포트+밥솥은 실내 콘센트로 안 된다, 전열기구는 설명서부터 확인",
+    date: "2026-10-02",
+    image: "v2l12v_ioniq5_rear.webp",
+    categories: ["life"],
+    tags: ["V2L", "차량전력공급", "정전대비", "차박전력", "12V배터리방전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다."
+  },
+  {
+    slug: "ev-charging-fee-structure-subscription-compare-2026",
+    title: "\"구독하면 오히려 손해?\"… 전기차 충전요금 구조 해부하고 연간 충전비 직접 계산해보니",
+    date: "2026-10-02",
+    image: "evfee_seoul_station_chargers.webp",
+    categories: ["electric"],
+    tags: ["전기차충전요금", "충전요금구독", "SK일렉링크", "기아그린패스", "전기차연간충전비"],
+    badge: "EV POLICY",
+    badgeClass: "cat-hyundai",
+    source: "카프리즘 기획 기사",
+    desc: "공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준."
+  },
+  {
+    slug: "trim-option-value-which-trim-2026",
+    title: "\"노블레스가 336만 원 비싼 이유\"… 쏘렌토 하이브리드, 가격표로 값이 확인되는 건 59만 원어치뿐이었다",
+    date: "2026-10-02",
+    image: "trimval_front_dark_ditzingen.webp",
+    categories: ["domestic"],
+    tags: ["쏘렌토하이브리드", "쏘렌토트림", "쏘렌토옵션", "트림추천", "쏘렌토가격표"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "기아 공식 가격표 2026년 10월판으로 쏘렌토 하이브리드 트림 간 가격 차이를 사양 단위로 분해했다. 노블레스 +336만 원 중 공식 옵션가로 확인되는 것은 59만 원, 100만 원당 신규 항목 수, 4WD의 실제 증가분 332만 원, 하이브리드 프리미엄 회수 기간, 구매자 유형별 추천 트림을 계산해 정리했다."
+  },
+  {
+    slug: "hev-phev-erev-which-fits-driving-pattern-2026",
+    title: "\"내 주차장에 충전기가 있나요?\" 하이브리드·PHEV·EREV, 연료비 계산표가 먼저 묻는 한 가지",
+    date: "2026-10-02",
+    image: "evpick_tucson_hybrid_nline.webp",
+    categories: ["life"],
+    tags: ["하이브리드PHEV비교", "EREV", "차종선택", "연료비계산", "전기차보조금"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "하이브리드·PHEV·EREV·전기차 중 내 주행 패턴에 맞는 차를 고르는 판정표. 2026년 10월 2일 기준 휘발유·충전 단가와 공인 연비·전비로 연 1.2만·2만·3만 km 연료비를 직접 계산하고, 차값 차액 회수 기간과 정부 지원·세제 변화, 현대차 EREV 계획의 소비자 의미를 정리했다."
+  },
+  {
     slug: "paju-gaeseong-ginseng-festival-imjingak-2026",
     title: "\"인삼 축제가 하루가 아니라고?\"… 10월 17~18일 임진각, 차 세우고 장단콩까지 이어 가는 법",
     date: "2026-10-02",

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEV1RL0FN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MEV1RL0FN4');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>"구독하면 오히려 손해?"… 전기차 충전요금 구조 해부하고 연간 충전비 직접 계산해보니 | CarPrism</title>
+<meta name="description" content="공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준.">
+<meta name="keywords" content="전기차충전요금, 충전요금구독, SK일렉링크, 기아그린패스, 전기차연간충전비">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
+     crossorigin="anonymous"></script>
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="전기차 충전요금 구조와 구독 손익분기 계산">
+<meta property="og:description" content="공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준.">
+<meta property="og:image" content="https://carprism.tmhub.co.kr/images/evfee_seoul_station_chargers.webp">
+<meta property="og:url" content="https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html">
+<meta property="og:site_name" content="CarPrism">
+<meta property="article:published_time" content="2026-10-02T15:06+09:00">
+<meta property="article:section" content="전기차">
+<meta property="article:tag" content="전기차충전요금,충전요금구독,SK일렉링크,기아그린패스,전기차연간충전비">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="전기차 충전요금 구조와 구독 손익분기 계산">
+<meta name="twitter:description" content="공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준.">
+<meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/evfee_seoul_station_chargers.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/article.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html" },
+  "headline": "\"구독하면 오히려 손해?\"… 전기차 충전요금 구조 해부하고 연간 충전비 직접 계산해보니",
+  "description": "공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준.",
+  "image": ["https://carprism.tmhub.co.kr/images/evfee_seoul_station_chargers.webp"],
+  "datePublished": "2026-10-02T15:06+09:00",
+  "dateModified": "2026-10-02T15:06+09:00",
+  "author": [{ "@type": "Person", "name": "김도균", "jobTitle": "기자", "url": "https://carprism.tmhub.co.kr/about.html#author" }],
+  "publisher": { "@type": "Organization", "name": "CarPrism", "logo": { "@type": "ImageObject", "url": "https://carprism.tmhub.co.kr/images/logo.png", "width": 512, "height": 512 } }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://carprism.tmhub.co.kr/" },
+    { "@type": "ListItem", "position": 2, "name": "전기차 충전요금 구조와 구독 손익분기 계산", "item": "https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" role="banner">
+  <div class="header-inner wrap">
+    <a href="../index.html" class="logo" aria-label="CarPrism 홈">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">CAR<em>PRISM</em></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="../index.html" class="nav-link" id="nav-home">홈</a>
+      <a href="../electric.html" class="nav-link" id="nav-electric">전기차</a>
+      <a href="../news.html" class="nav-link" id="nav-news">자동차 뉴스</a>
+      <a href="../reviews.html" class="nav-link" id="nav-review">리뷰</a>
+      <a href="../domestic.html" class="nav-link" id="nav-domestic">국산차</a>
+      <a href="../import.html" class="nav-link" id="nav-import">수입차</a>
+      <a href="../travel.html" class="nav-link" id="nav-travel">국내여행</a>
+      <a href="../life.html" class="nav-link" id="nav-life">생활정보</a>
+    </nav>
+    <button class="search-btn" id="searchBtn" aria-label="검색">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="모바일 메뉴">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴">
+  <a href="../index.html" class="nav-link">홈</a>
+  <a href="../electric.html" class="nav-link">전기차</a>
+  <a href="../news.html" class="nav-link">자동차 뉴스</a>
+  <a href="../reviews.html" class="nav-link">리뷰</a>
+  <a href="../domestic.html" class="nav-link">국산차</a>
+  <a href="../import.html" class="nav-link">수입차</a>
+  <a href="../travel.html" class="nav-link">국내여행</a>
+  <a href="../life.html" class="nav-link">생활정보</a>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main>
+  <div class="article-wrap">
+
+    <!-- ── 메인 컬럼 ── -->
+    <article class="article-main" itemscope itemtype="https://schema.org/NewsArticle" data-slug="ev-charging-fee-structure-subscription-compare-2026">
+      <meta itemprop="datePublished" content="2026-10-02T15:06+09:00">
+
+      <nav class="breadcrumb reveal" aria-label="현재 위치">
+        <a href="../index.html">홈</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="../electric.html">전기차</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">전기차 충전요금 구조와 구독 손익분기 계산</span>
+      </nav>
+
+      <header class="article-header reveal">
+        <span class="article-cat cat-hyundai">EV POLICY</span>
+        <h1 class="article-title" itemprop="headline">
+          "구독하면 오히려 손해?"… 전기차 충전요금 구조 해부하고 연간 충전비 직접 계산해보니
+        </h1>
+        <p class="article-subtitle">
+          월 몇 kWh부터 구독이 이득인지, 집 충전은 언제 비싸지는지 계산표로 확인했다.
+        </p>
+        <div class="article-meta">
+          <div class="meta-author">
+            <span class="author-avatar">김</span>
+            <span class="author-name">김도균 기자</span>
+          </div>
+          <div class="meta-divider"></div>
+          <time class="meta-item" datetime="2026-10-02">2026년 10월 2일</time>
+          <div class="meta-divider"></div>
+          <span class="meta-item">읽는 시간 약 14분</span>
+        </div>
+      </header>
+
+      <div class="article-body reveal">
+
+        <div class="article-img-wrap">
+          <img src="../images/evfee_seoul_station_chargers.webp" alt="실내 주차장에 파란색과 초록색 구역으로 나뉘어 늘어선 전기차 충전기들" width="1200" height="900" itemprop="image">
+          <p class="article-img-caption">▲ 충전기 출력(kW)에 따라 같은 주차장에서도 단가가 달라진다 <span class="cap-credit">ⓒ Immanuelle / Wikimedia Commons (CC BY 4.0)</span></p>
+        </div>
+
+<p><strong>"급속 391원, 완속 295원, 구독하면 295원."</strong> 숫자는 쉽게 외워지지만, 정작 내 연간 충전비가 얼마인지는 아무도 알려주지 않는다. 같은 3,000km를 타도 어디서, 어떤 요금제로 충전하느냐에 따라 한 해 충전비가 <strong>수십만 원</strong> 갈린다.</p>
+<p>이 기사는 8월 요금 개편 내용을 다시 정리하지 않는다(그건 <a href="ev-charging-fee-cut-2026-08.html">8월 전기차 충전 요금 개편 총정리</a>, <a href="ev-charging-rate-plans-complete-guide-2026.html">충전 요금제 완전정리</a>에 있다). 대신 <strong>전기차 충전요금이 어떤 단가로 쌓이는지 구조를 해부</strong>하고, 월 주행거리별 <strong>연간 충전비를 직접 계산</strong>한 뒤, 구독제가 <strong>월 몇 kWh부터 이득인지</strong> 손익분기를 계산했다. 요금 기준일은 <strong>2026년 10월 2일</strong>이다.</p>
+
+<aside class="key-points">
+  <h2 class="kp-title">📌 핵심만 먼저 보기</h2>
+  <ul>
+    <li><strong>공공 충전요금은 5단계</strong>: 30kW 미만 295.0원, 30~50kW 307.2원, 50~100kW 325.6원, 100~200kW 348.4원, 200kW 이상 393.1원 (kWh당, 8월 1일 시행)</li>
+    <li><strong>연간 충전비 격차</strong>: 월 1,500km 기준 공공 완속 약 <strong>118만 원</strong> vs 초급속 약 <strong>157만 원</strong> — 연 39만 원 차이</li>
+    <li><strong>구독제 기준선은 "비구독 391원"</strong>: SK일렉링크 마스터는 월 207kWh부터 비구독 대비 이득이지만, 환경부 100~200kW 급속(348.4원)과 비교하면 <strong>월 약 373kWh</strong>부터</li>
+    <li><strong>집 충전이 항상 싼 건 아니다</strong>: 기존 사용량이 많아 주택 누진 3단계(월 400kWh 초과)에 걸치면 충전 추가분 단가가 <strong>kWh당 약 367원</strong>(월 3,000km·기존 350kWh 조건)으로 공공 급속보다 비싸질 수 있다(카프리즘 추정)</li>
+    <li><strong>집 충전은 "400kWh 선"이 갈림길</strong>: 기존 사용량과 충전량을 합쳐 월 400kWh까지만 집에서, 넘는 분은 공공 완속(295원)에서 충전하는 조합이 최저였다(7장). 환산하면 주행 1km당 비용은 완속 약 66원, 초급속 약 87원으로 휘발유(가정 1,850원/L, 15km/L 약 123원)보다 낮다(8장)</li>
+  </ul>
+</aside>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="structure">1. 충전요금은 어떻게 쌓이나 — 5단계 공공요금부터</h2>
+
+<p>공공 충전요금은 기후에너지환경부가 8월 1일부터 <strong>충전기 출력 기준 5단계</strong>로 세분화했다. 기존에는 완속·급속 2단계였다. 완속(30kW 미만) 충전기가 전체의 약 90%를 차지하고, 200kW 이상 초급속은 약 2.3%다.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_seoul_station_chargers.webp" alt="서울역 실내 주차장에 파란색과 초록색 구역으로 구분되어 나란히 설치된 전기차 충전기들" width="1200" height="900" itemprop="image">
+  <p class="article-img-caption">▲ 실내 주차장에 늘어선 전기차 충전기. 같은 주차장이라도 충전기 출력에 따라 단가가 달라진다 <span class="cap-credit">ⓒ Immanuelle / Wikimedia Commons (CC BY 4.0)</span></p>
+</div>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>공공 충전요금 5단계 (kWh당, 2026년 8월 1일 시행·10월 2일 기준)</caption>
+    <thead><tr><th>충전기 출력</th><th>개편 후 단가</th><th>비고</th></tr></thead>
+    <tbody>
+      <tr><td><strong>30kW 미만</strong> (완속)</td><td>295.0원</td><td>기존 324.4원 대비 29.4원(약 9.1%) 인하</td></tr>
+      <tr><td><strong>30~50kW</strong></td><td>307.2원</td><td>중속</td></tr>
+      <tr><td><strong>50~100kW</strong></td><td>325.6원</td><td>급속</td></tr>
+      <tr><td><strong>100~200kW</strong></td><td>348.4원</td><td>급속</td></tr>
+      <tr><td><strong>200kW 이상</strong> (초급속)</td><td>393.1원</td><td>약 13.2% 인상</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>핵심은 <strong>"급속이냐 완속이냐"가 아니라 "몇 kW 충전기냐"</strong>가 요금을 정한다는 점이다. 같은 급속이라도 50~100kW와 200kW 이상은 kWh당 67.5원 차이가 난다. 내 차의 최대 충전 속도가 150kW인데 200kW급 충전기를 고집할 이유가 없다는 뜻이다. 충전기 앞에 적힌 <strong>출력(kW) 표시를 먼저 확인</strong>하는 습관이 단가를 바꾼다.</p>
+
+<div class="info-box">
+  <p class="info-box-title">📍 민간 사업자는 "회원가"와 "비회원가"가 따로 있다</p>
+  <p>SK일렉링크는 비구독 회원의 기본 급속충전 요금을 <strong>kWh당 391원</strong>으로 공개하고 있다. 환경부 100~200kW 급속(348.4원)보다 <strong>42.6원 비싸고</strong> 200kW 이상(393.1원)과 거의 같다. 구독제는 이 391원을 "정가"로 놓고 할인하는 구조라서, 구독 이득은 <strong>어디와 비교하느냐</strong>에 따라 달라진다. 그 계산은 4장에서 한다. (SK 구독 4종 요금과 비구독 391원은 2026년 10월 2일 SK일렉링크 공식 구독 페이지에서 재확인했다.)</p>
+  <p><strong>5단계 단가가 적용되는 범위</strong>: 기후에너지환경부와 정책뉴스에 따르면 구간은 충전기의 <strong>정격출력</strong> 기준이며, 새 단가는 환경부가 설치·운영하는 공공 충전기와 협약을 맺은 민간 충전기에서 <strong>환경부 멤버십 카드로 결제할 때</strong> 적용된다. 민간 사업자의 자체 회원가는 별개다. 8월 인하 보도(<a href="https://www.autotribune.co.kr/news/articleView.html?idxno=44388" target="_blank" rel="noopener">오토트리뷴</a>)에서 완속은 플러그링크 292원, GS차지비 등 295원으로 정리됐지만, <strong>GS차지비·에버온·대영채비의 8월 이후 급속 회원가는 공식 요금표로 확인하지 못해</strong> 비교 표에는 넣지 않았다. 사업자별 앱의 요금 안내를 직접 확인하자.</p>
+</div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="assumption">2. 계산의 전제 — 전비·충전량 가정</h2>
+
+<p>연간 충전비를 계산하려면 가정이 필요하다. 아래 가정은 이 기사의 <strong>모든 표에 동일하게 적용</strong>했다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>카프리즘 계산 가정</caption>
+    <thead><tr><th>항목</th><th>가정값</th><th>근거·비고</th></tr></thead>
+    <tbody>
+      <tr><td><strong>충전기 청구 기준 전비</strong></td><td>4.5km/kWh</td><td>배터리 기준 실주행 전비 5.0km/kWh에 충전 손실 약 10%를 반영한 카프리즘 가정. 차종·계절에 따라 달라짐</td></tr>
+      <tr><td><strong>월 주행거리</strong></td><td>1,000 / 1,500 / 2,000 / 3,000km</td><td>월 충전량 약 222 / 333 / 444 / 667kWh</td></tr>
+      <tr><td><strong>단가</strong></td><td>부가세 포함 표시단가 그대로</td><td>8월 1일 시행 공공요금, SK일렉링크 공개 요금</td></tr>
+      <tr><td><strong>제외 항목</strong></td><td>카드 할인·포인트·주차요금·시간대 할인</td><td>변수가 많아 별도 언급</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_orange_slow_charger.webp" alt="건물 벽면에 설치된 주황색 벽부형 완속 전기차 충전기" width="1200" height="1600" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 건물 벽면에 설치된 벽부형 완속 충전기. 완속은 공공요금에서 가장 저렴한 295원 구간이다 <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 계산식</strong></p>
+  <p>· 월 충전량(kWh) = 월 주행거리 ÷ 4.5<br>
+  · 월 충전비 = 월 충전량 × kWh당 단가 (구독은 + 월 구독료)<br>
+  · 연간 충전비 = 월 충전비 × 12<br>
+  · 내 차의 전비가 4.0km/kWh라면 모든 금액에 <strong>×1.125</strong>, 5.0km/kWh라면 <strong>×0.9</strong>를 곱하면 된다</p>
+</div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="annual">3. 월 주행거리별 연간 충전비 계산표</h2>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_jeju_seogwipo_station.webp" alt="초록색 전기차 전용 주차면과 나무 지붕 아래 충전기들이 설치된 공원형 충전소" width="1200" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 숲과 맞닿은 공원형 충전소. 충전 장소가 어디든 청구 기준은 충전기 출력과 사업자 요금이다 <span class="cap-credit">ⓒ Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)</span></p>
+</div>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>연간 충전비 (원, 전비 4.5km/kWh 가정, 12개월 단순 환산)</caption>
+    <thead><tr><th>충전 방식 (kWh당)</th><th>월 1,000km</th><th>월 1,500km</th><th>월 2,000km</th><th>월 3,000km</th></tr></thead>
+    <tbody>
+      <tr><td><strong>공공 완속 30kW 미만 (295.0원)</strong></td><td>약 78.7만</td><td>약 118만</td><td>약 157만</td><td>약 236만</td></tr>
+      <tr><td><strong>공공 50~100kW (325.6원)</strong></td><td>약 86.8만</td><td>약 130만</td><td>약 174만</td><td>약 261만</td></tr>
+      <tr><td><strong>공공 100~200kW (348.4원)</strong></td><td>약 92.9만</td><td>약 139만</td><td>약 186만</td><td>약 279만</td></tr>
+      <tr><td><strong>공공 200kW 이상 (393.1원)</strong></td><td>약 104.8만</td><td>약 157만</td><td>약 210만</td><td>약 314만</td></tr>
+      <tr><td><strong>SK일렉링크 비구독 (391원)</strong></td><td>약 104.3만</td><td>약 156만</td><td>약 209만</td><td>약 313만</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>월 1,500km를 타는 운전자는 <strong>완속만 쓰면 연 약 118만 원, 초급속만 쓰면 약 157만 원</strong>으로 연 39만 원 차이가 난다. 월 3,000km를 타는 장거리 운전자는 같은 비교에서 <strong>연 약 78만 원</strong> 격차다. 다만 현실에서는 완속과 급속을 섞어 쓰므로, 아래 혼합 시나리오를 함께 보자.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>운전 유형별 혼합 시나리오 (월 1,500km 기준, 연 4,000kWh)</caption>
+    <thead><tr><th>유형</th><th>충전 비중 가정</th><th>연간 충전비</th></tr></thead>
+    <tbody>
+      <tr><td><strong>아파트 완속 위주</strong></td><td>완속 80% + 100~200kW 급속 20%</td><td>약 122만 원</td></tr>
+      <tr><td><strong>도심 급속 위주</strong></td><td>100~200kW 급속 100%</td><td>약 139만 원</td></tr>
+      <tr><td><strong>장거리 고속도로 위주</strong></td><td>200kW 이상 초급속 60% + 100~200kW 급속 40%</td><td>약 150만 원</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>같은 거리를 타고도 유형에 따라 연 <strong>약 28만 원</strong> 차이가 난다(아파트 완속 위주 vs 장거리 초급속 위주). 충전비를 줄이는 가장 큰 레버는 요금제 가입이 아니라 <strong>충전기 출력 선택</strong>이다.</p>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_jeju_public_fast_station.webp" alt="초록색 전기차 전용 주차면과 파라솔, 급속충전기가 설치된 야외 공공 충전소" width="1200" height="799" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 야외 전기차 충전소(제주, 2019년 촬영). 가을 주말 낮에는 공공 급속 요금이 할인된다 <span class="cap-credit">ⓒ 대한민국역사박물관 현대사아카이브(공공누리 제1유형) / Wikimedia Commons</span></p>
+</div>
+
+<div class="info-box">
+  <p class="info-box-title">📍 가을 주말 낮 할인은 지금(10월 31일까지)만</p>
+  <p>9월 5일~10월 31일 <strong>주말·공휴일 오전 11시~오후 2시</strong>에는 공공 급속충전기 요금이 kWh당 85.4~97.2원(약 22~32%) 감면되고, 민간 19개사도 할인·포인트 혜택을 제공한다. 민간은 해당 사업자 회원 앱·카드로 결제하고 충전을 11시 이후 시작해야 적용된다. 시기 한정 할인이므로 위 연간표(연간 충전비 비교)에는 이 감면분이 반영되어 있지 않다.</p>
+  <p>근거: 기후에너지환경부가 9월 3일 발표한 보도자료를 다룬 <a href="https://www.newspim.com/news/view/20260903000599" target="_blank" rel="noopener">뉴스핌 보도</a>와 <a href="https://www.hankyung.com/article/202609016052i" target="_blank" rel="noopener">한국경제 보도</a>다. 한국전력 운영 충전기는 11~17%(40.1~48.6원) 감면으로 별도이고, 참여 민간 사업자 수는 보도에 따라 표기가 달라(15~19개사) 정확한 사업자·할인 방식은 각 앱에서 확인해야 한다. 정부는 이번 결과를 분석해 2027년 계절·시간대별 요금체계를 설계할 계획이다.</p>
+</div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="subscription">4. 구독제 손익분기 — 월 몇 kWh부터 이득일까</h2>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_chaevi_fast_charger.webp" alt="보호 지붕 아래 두 개의 충전 건이 달린 회색 급속충전기와 충전 외 주차금지 표지판" width="1200" height="1600" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 급속충전기 앞에서 확인할 것은 출력(kW)과 내 사업자 회원 여부다 <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<p>SK일렉링크의 급속충전 구독 요금제는 3월 신규 3종 출시로 총 4종이 됐다. 아래는 공식 구독 안내 페이지 기준이다(급속충전 한정, 미사용 약정량은 이월 불가).</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>SK일렉링크 구독 요금제 (10월 2일 확인)</caption>
+    <thead><tr><th>요금제</th><th>월 구독료</th><th>약정 충전량</th><th>급속 단가</th></tr></thead>
+    <tbody>
+      <tr><td><strong>스타터</strong></td><td>900원</td><td>50kWh</td><td>315원</td></tr>
+      <tr><td><strong>베이직</strong></td><td>3,900원</td><td>150kWh</td><td>305원</td></tr>
+      <tr><td><strong>프로</strong></td><td>8,900원</td><td>300kWh</td><td>300원</td></tr>
+      <tr><td><strong>마스터</strong></td><td>19,900원</td><td>무제한</td><td>295원</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>손익분기는 <strong>월 구독료 ÷ (비교 단가 − 구독 단가)</strong>로 계산한다. 비교 대상을 두 가지로 놓았다. 하나는 SK 비구독 391원, 다른 하나는 <strong>충전소만 맞으면 대신 쓸 수 있는 환경부 100~200kW 급속 348.4원</strong>이다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>구독 손익분기 (월 급속 충전량 기준)</caption>
+    <thead><tr><th>요금제</th><th>vs 비구독 391원</th><th>vs 환경부 348.4원</th></tr></thead>
+    <tbody>
+      <tr><td><strong>스타터</strong></td><td>월 12kWh부터</td><td>월 27kWh부터 (약정 50kWh 이내)</td></tr>
+      <tr><td><strong>베이직</strong></td><td>월 45kWh부터</td><td>월 90kWh부터</td></tr>
+      <tr><td><strong>프로</strong></td><td>월 98kWh부터</td><td>월 184kWh부터</td></tr>
+      <tr><td><strong>마스터</strong></td><td>월 207kWh부터</td><td>월 373kWh부터</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>여기에 월 충전량별로 <strong>어떤 요금제가 가장 싼지</strong>를 계산해 보았다. 약정 초과분은 391원이 적용된다고 가정했다(<strong>초과 단가는 공식 페이지에서 확인하지 못해 카프리즘이 놓은 가정</strong>이다).</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>월 급속 충전량별 월 비용 (원, 구독료 포함, 초과분 391원 가정)</caption>
+    <thead><tr><th>월 충전량</th><th>비구독</th><th>스타터</th><th>베이직</th><th>프로</th><th>마스터</th><th>최저</th></tr></thead>
+    <tbody>
+      <tr><td><strong>50kWh</strong></td><td>19,550</td><td>16,650</td><td>19,150</td><td>23,900</td><td>34,650</td><td>스타터</td></tr>
+      <tr><td><strong>100kWh</strong></td><td>39,100</td><td>36,200</td><td>34,400</td><td>38,900</td><td>49,400</td><td>베이직</td></tr>
+      <tr><td><strong>200kWh</strong></td><td>78,200</td><td>75,300</td><td>69,200</td><td>68,900</td><td>78,900</td><td>프로</td></tr>
+      <tr><td><strong>300kWh</strong></td><td>117,300</td><td>114,400</td><td>108,300</td><td>98,900</td><td>108,400</td><td>프로</td></tr>
+      <tr><td><strong>400kWh</strong></td><td>156,400</td><td>153,500</td><td>147,400</td><td>138,000</td><td>137,900</td><td>마스터(프로와 거의 동일)</td></tr>
+      <tr><td><strong>667kWh</strong></td><td>260,797</td><td>257,897</td><td>251,797</td><td>242,397</td><td>216,665</td><td>마스터</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 구독제 판단 3줄</strong></p>
+  <p>· 월 급속 충전량 <strong>100kWh 미만</strong>(월 약 450km): 스타터면 충분하고, 구독 이득도 월 수천 원 수준<br>
+  · 월 <strong>100~300kWh</strong>(월 약 450~1,350km 급속 주행): 베이직·프로가 최적<br>
+  · 월 <strong>400kWh 이상</strong>(월 약 1,800km 이상 급속): 마스터가 유리하나, <strong>환경부 급속이 가까우면 마스터의 실익은 월 373kWh 아래에서 사라진다</strong></p>
+</div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="kia">5. 기아 그린패스, 계산해 보면</h2>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_solar_canopy_taxi.webp" alt="태양광 지붕 아래 충전소 옆에 흰색 전기차 두 대가 서 있는 모습" width="1200" height="676" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 태양광 캐노피가 설치된 도심 충전소. 주행거리가 긴 영업용 차량일수록 구독제 효과가 크다 <span class="cap-credit">ⓒ GTV경기도청방송국 / Wikimedia Commons (CC BY 3.0)</span></p>
+</div>
+
+<p>기아 그린패스는 기아 EV 오너용 구독형 충전 요금제로, SK일렉링크 급속충전소에서 <strong>kWh당 96원(약 25%) 할인</strong>이 적용된다. 요금제는 3종이며, 월 약정량을 넘으면 정상요금(회원가)이 적용된다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>기아 그린패스 손익분기 (카프리즘 계산)</caption>
+    <thead><tr><th>요금제</th><th>월 요금</th><th>월 약정량</th><th>vs 정상가 손익분기</th><th>약정량 소진 시 월 절감액</th></tr></thead>
+    <tbody>
+      <tr><td><strong>미니</strong></td><td>6,900원</td><td>200kWh</td><td>월 72kWh</td><td>약 12,300원</td></tr>
+      <tr><td><strong>라이트</strong></td><td>10,000원</td><td>400kWh</td><td>월 104kWh</td><td>약 28,400원</td></tr>
+      <tr><td><strong>그린+</strong></td><td>20,000원</td><td>1,400kWh</td><td>월 208kWh</td><td>약 114,400원</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>계산식은 <strong>손익분기 = 월 요금 ÷ 96원</strong>, <strong>절감액 = 약정량 × 96원 − 월 요금</strong>이다. 정상요금(회원가)을 391원으로 보면 할인 후 단가는 약 295원이고, 월 요금까지 약정량 전부 소진했을 때의 실효 단가는 <strong>미니 약 330원, 라이트 약 320원, 그린+ 약 309원</strong>이다. 그린+ 최대 절감액은 산술상 1,400kWh × 96원 − 20,000원 = 114,400원이며, 기아 안내의 114,000원은 반올림 표기로 보인다. 단, <strong>정상 회원가가 391원이라는 것은 카프리즘의 추정</strong>이며(96원이 약 25%라는 표기에서 역산), 실제 적용 단가는 기아 안내 페이지에서 직접 확인해야 한다.</p>
+
+<div class="info-box">
+  <p class="info-box-title">📍 구독이 손해가 되는 순간</p>
+  <p>· 약정량을 채우지 못해도 월 요금은 그대로 나간다(<strong>이월 불가</strong>).<br>
+  · 구독 할인은 <strong>해당 사업자 급속충전기에서만</strong> 적용된다. 내가 다니는 길에 그 사업자 충전기가 없으면 소용이 없다.<br>
+  · 집·회사 완속 위주 운전자는 구독료만 더 낸다. 295원 완속은 이미 마스터 급속 단가와 같다.</p>
+</div>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="home">6. 집 충전은 정말 가장 쌀까 — 누진제의 함정</h2>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_indoor_twin_chargers.webp" alt="지붕이 있는 주차장 옆 잔디밭에 나란히 서 있는 두 대의 검은색 충전기" width="1200" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 건물 주차장에 설치된 충전기 (사업자와 요금은 장소마다 다르다) <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<p>단독·다세대 주택에서 집 계량기로 충전하면 충전전력이 <strong>주택용 누진제</strong>에 합산된다. 2026년 4분기 전기요금은 동결(연료비조정단가 kWh당 +5원 유지)됐고, 주택용 저압 요금은 기타계절 기준 200kWh 이하 120원, 201~400kWh 214.6원, 400kWh 초과 307.3원이다(기본요금 910원·1,600원·7,300원).</p>
+
+<p>여기에 기후환경요금(<strong>kWh당 9.0원</strong>: 2025년 9.0원 확정 이후 4분기 전기요금 동결 때 "기본요금·전력량요금·기후환경요금 모두 변동 없음"이 보도돼 유지된 것으로 판단. 한전 요금표 페이지에서 단가 자체는 직접 확인하지 못했으니 고지서로 재확인)과 연료비조정단가 5원, 전력산업기반기금 3.7%, 부가세 10%를 얹어 <strong>충전 때문에 늘어난 월 전기요금</strong>을 계산했다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>집 계량기 충전 시 추가 전기요금 (카프리즘 추정, 기타계절 기준)</caption>
+    <thead><tr><th>기존 월 사용량</th><th>충전량 222kWh (월 1,000km)</th><th>충전량 333kWh (월 1,500km)</th><th>충전량 667kWh (월 3,000km)</th></tr></thead>
+    <tbody>
+      <tr><td><strong>150kWh</strong></td><td>월 약 5.3만원 (kWh당 239원)</td><td>월 약 9.7만원 (292원)</td><td>월 약 21.9만원 (329원)</td></tr>
+      <tr><td><strong>250kWh</strong></td><td>월 약 7.2만원 (323원)</td><td>월 약 11.2만원 (337원)</td><td>월 약 23.4만원 (351원)</td></tr>
+      <tr><td><strong>350kWh</strong></td><td>월 약 8.2만원 (371원)</td><td>월 약 12.3만원 (369원)</td><td>월 약 24.5만원 (367원)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>결과가 의외다. 기존 사용량이 <strong>월 250kWh</strong>인 집에서 월 1,500km를 충전하면 추가 단가가 <strong>kWh당 약 337원</strong>으로 공공 완속(295원)보다 비싸고, <strong>350kWh</strong>인 집은 약 369원으로 공공 급속(348.4원)보다도 비싸다. 반대로 기존 사용량이 150kWh로 적은 집이 월 1,000km만 충전하면 239원으로 공공 완속보다 확실히 싸다.</p>
+
+<div class="info-box">
+  <p class="info-box-title">📍 해법: 누진을 피하는 세 갈래</p>
+  <p>· 우리 집 기존 사용량이 <strong>월 250kWh 안팎 이상</strong>이면 집 충전보다 단지 공용 완속이나 공공 완속(295원)이 싸질 수 있다.<br>
+  · 한전의 <strong>전기차 충전 전용 요금제·별도 계량기</strong>(심야 23시~9시 저렴) 적용 여부를 한전 고객센터에서 확인한다. 요율은 이 기사에서 다루지 않았다.<br>
+  · 아파트라면 <a href="apartment-ev-charger-installation-guide.html">아파트 전기차 충전기 설치 가이드</a>에서 단지 충전기 구조를 먼저 확인하자.</p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfee_chuncheon_snow_chargers.webp" alt="눈이 내린 야외 주차장에 파란색 충전기들이 길게 줄지어 서 있는 모습" width="1200" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 눈 내린 야외 충전소. 겨울에는 전비가 떨어져 같은 거리라도 충전량과 충전비가 늘어난다 <span class="cap-credit">ⓒ Sharon Hahn Darlin / Wikimedia Commons (CC BY 2.0)</span></p>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 이 계산이 틀어지는 지점</strong></p>
+  <p>· <strong>겨울 전비</strong>: 한파에는 전비가 떨어져 월 충전량이 늘어난다. 4.5km/kWh 가정은 연평균 근사다.<br>
+  · <strong>기후환경요금 9원</strong>은 한전 공식 요금표 페이지에서 직접 열람하지 못한 값이다. 4분기 동결 보도(<a href="https://www.fnnews.com/news/202609211845537590" target="_blank" rel="noopener">파이낸셜뉴스</a>)에서 기후환경요금을 포함한 항목이 모두 유지됐고 연료비조정단가 +5원도 동결됐음을 확인했다. 고지서 기재 단가로 바꿔 계산하면 결과가 약간 달라진다.<br>
+  · <strong>하계(7~8월) 요금</strong>은 누진 구간이 달라 위 표와 다르다.<br>
+  · 5년 단위 총비용은 <a href="ev-vs-hybrid-5year-maintenance-cost-2026.html">니로 EV·하이브리드 5년 유지비 계산</a>을, 장거리 충전 동선은 <a href="ev-road-trip-charging-plan-korea.html">전기차 장거리 충전 계획</a>을 참고하자.</p>
+</div>
+
+<h2 id="mixed">7. 집+공공 혼합 충전, 어떻게 나누면 가장 쌀까</h2>
+
+<p>6장에서 집 충전 단가가 월 사용량에 따라 오르내린다는 걸 확인했다. 그렇다면 "집에서 얼마나, 나머지는 공공에서"로 나누는 것이 답이다. 구간별 <strong>추가 1kWh당 실질 단가</strong>를 먼저 보자(구간 단가 + 기후환경요금 9원 + 연료비조정 5원, 여기에 기금 3.7%와 부가세 10%를 곱한 값 ×1.1407).</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>주택용 누진 구간별 추가 1kWh당 실질 단가 (기타계절, 카프리즘 계산)</caption>
+    <thead><tr><th>월 합계 사용량 구간</th><th>계산식</th><th>추가 1kWh당</th><th>공공 완속 295원과 비교</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1~200kWh</strong></td><td>(120+9+5)×1.1407</td><td>약 153원</td><td>크게 저렴</td></tr>
+      <tr><td><strong>201~400kWh</strong></td><td>(214.6+9+5)×1.1407</td><td>약 261원</td><td>저렴</td></tr>
+      <tr><td><strong>400kWh 초과</strong></td><td>(307.3+9+5)×1.1407</td><td>약 367원</td><td>비쌈 (기본요금도 910→1,600→7,300원으로 단계 상승)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfeeb_fast_charger_green_bays.webp" alt="초록색 주차면과 침엽수 사이에 서 있는 회색 지붕형 전기차 충전기" width="1200" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 주차면 앞에 선 지붕형 전기차 충전기. 집과 공공 충전을 나눠 쓰면 월 충전비가 달라진다 (촬영 장소의 사업자와 요금은 사진으로 확정하지 않음) <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<p>그래서 최적 조합은 단순하다. <strong>집에서는 월 합계(기존 사용량+충전량)가 400kWh에 닿을 때까지만 충전하고, 넘는 분은 공공 완속에서 충전</strong>하는 것이다. 월 1,500km(충전량 약 333kWh)를 모두 집에서 충전하는 경우와 비교하면 아래와 같다. 나머지 충전분은 공공 완속 295원으로 가정했다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>월 충전량 333kWh(월 1,500km) 집·공공 완속 혼합 최저 조합 (원/월, 기타계절)</caption>
+    <thead><tr><th>기존 월 사용량</th><th>집 100%</th><th>공공 완속 100%</th><th>최저 조합 (집 충전량)</th><th>최저 월 비용</th><th>공공 완속 100% 대비 절감</th></tr></thead>
+    <tbody>
+      <tr><td><strong>100kWh</strong></td><td>86,540</td><td>98,235</td><td>집 300kWh + 공공 33kWh</td><td>77,739</td><td>20,496</td></tr>
+      <tr><td><strong>150kWh</strong></td><td>97,189</td><td>98,235</td><td>집 250kWh + 공공 83kWh</td><td>84,871</td><td>13,364</td></tr>
+      <tr><td><strong>250kWh</strong></td><td>112,322</td><td>98,235</td><td>집 150kWh + 공공 183kWh</td><td>92,973</td><td>5,262</td></tr>
+      <tr><td><strong>350kWh</strong></td><td>122,862</td><td>98,235</td><td>집 50kWh + 공공 283kWh</td><td>96,481</td><td>1,754</td></tr>
+      <tr><td><strong>450kWh</strong></td><td>121,651</td><td>98,235</td><td>공공 완속만</td><td>98,235</td><td>0</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 계산 방식과 한계</strong></p>
+  <p>· 월 전기요금 = (기본요금 + 구간별 전력량요금 + 기후환경요금 9원×kWh + 연료비조정 5원×kWh)에 기금 3.7%와 부가세 10%를 더한 값. 충전으로 늘어난 요금은 "(기존+충전) 청구액 − 기존 청구액"이다. 6장 표와 같은 모델이며 node로 재계산해 일치를 확인했다.<br>
+  · 충전량을 집과 공공으로 <strong>마음대로 나눌 수 있다는 이상적 가정</strong>이다. 현실에서 퇴근 후 집 충전 위주라면 위 표의 "집 100%" 열에 가깝다.<br>
+  · 충전량이 222~667kWh로 달라져도 총 충전량이 최적 집 충전량보다 크면 절감액은 같다(예: 기존 250kWh 가구는 어느 경우나 월 5,262원 절감). 총 충전량이 작으면(222kWh, 기존 100kWh) 전부 집에서 충전하는 편이 더 싸다.<br>
+  · 하계(7~8월) 누진 구간은 달라 이 표를 그대로 쓸 수 없다.</p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfeeb_stand_slow_charger.webp" alt="건물 앞 화단 옆에 세워진 스탠드형 완속 전기차 충전기와 분홍색 보호대" width="1200" height="1600" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 스탠드형 완속 충전기. 집 충전이 비싸지는 가구에는 이런 공공·단지 완속이 대안이 된다 (사업자는 사진으로 확정하지 않음) <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<p>이제 <strong>집 충전이 불가능한 운전자</strong>(공용 충전기를 쓰는 아파트 거주자 등)가 급속을 얼마나 섞느냐에 따라 최저 요금제가 어떻게 바뀌는지 보자. 월 1,500km(약 333kWh) 기준, 급속분은 환경부 348.4원·SK 비구독 391원·SK 구독 중 고르고 나머지는 공공 완속 295원으로 계산했다. 구독 약정 초과분은 391원 가정이다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>급속 비중별 월 충전비와 최저 요금제 (월 333kWh, 원, 완속분 295원 포함)</caption>
+    <thead><tr><th>급속 비중</th><th>급속 kWh</th><th>환경부 348.4원</th><th>비구독 391원</th><th>스타터</th><th>베이직</th><th>프로</th><th>마스터</th><th>최저</th></tr></thead>
+    <tbody>
+      <tr><td><strong>20%</strong></td><td>67</td><td>101,893</td><td>104,733</td><td>101,833</td><td>102,900</td><td>107,567</td><td>118,233</td><td>스타터(환경부와 60원 차이)</td></tr>
+      <tr><td><strong>40%</strong></td><td>133</td><td>105,453</td><td>111,133</td><td>108,233</td><td>103,567</td><td>107,900</td><td>118,233</td><td>베이직</td></tr>
+      <tr><td><strong>60%</strong></td><td>200</td><td>109,013</td><td>117,533</td><td>114,633</td><td>108,533</td><td>108,233</td><td>118,233</td><td>프로</td></tr>
+      <tr><td><strong>100%</strong></td><td>333</td><td>116,133</td><td>130,333</td><td>127,433</td><td>121,333</td><td>111,933</td><td>118,233</td><td>프로</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>급속 비중이 20%대면 구독의 실익은 사실상 없다. 환경부 급속에 가까운 곳에서 충전할 수 있다면 구독료 없이 환경부 단가를 쓰는 편이 같거나 낫다. <strong>급속 비중 40~60%</strong>에서 베이직·프로가 최저이고, 월 333kWh를 전부 급속으로 충전하는 극단적 경우에도 <strong>마스터(118,233원)는 프로(111,933원)보다 비싸다</strong>. 마스터가 이기려면 급속 충전량이 월 400kWh 안팎은 되어야 한다(4장 표). 계산식은 "월 합계 = 구독료 + 약정 내 kWh×구독 단가 + 초과 kWh×391원 + 완속 kWh×295원"이다.</p>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="7157835634"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h2 id="gasoline">8. 휘발유로 환산하면 얼마나 싼가</h2>
+
+<p>충전요금을 주행 1km당 비용으로 바꿔 휘발유차와 비교해 보자. EV는 4.5km/kWh 가정(충전기 청구 기준)으로 <strong>단가 ÷ 4.5</strong>, 휘발유는 <strong>L당 가격 ÷ 연비</strong>다. 휘발유 가격은 오피넷 9월 넷째 주 전국 평균 1,858원을 반올림한 <strong>1,850원/L 가정</strong>이고 연비도 가정치로, 실제 가격은 오피넷 등에서 확인하고 내 차 연비를 대입해야 한다.</p>
+
+<div class="spec-table-wrap">
+  <table class="spec-table align-left">
+    <caption>주행 1km당 연료비 비교 (원/km, 카프리즘 계산)</caption>
+    <thead><tr><th>구분</th><th>단가·가정</th><th>1km당</th><th>월 1,500km</th><th>연 18,000km</th></tr></thead>
+    <tbody>
+      <tr><td><strong>EV 공공 완속</strong></td><td>295.0원/kWh</td><td>약 66원</td><td>약 9.8만 원</td><td>약 118만 원</td></tr>
+      <tr><td><strong>EV 100~200kW 급속</strong></td><td>348.4원/kWh</td><td>약 77원</td><td>약 11.6만 원</td><td>약 139만 원</td></tr>
+      <tr><td><strong>EV 200kW 이상 초급속</strong></td><td>393.1원/kWh</td><td>약 87원</td><td>약 13.1만 원</td><td>약 157만 원</td></tr>
+      <tr><td><strong>휘발유 (연비 15km/L)</strong></td><td>1,850원/L 가정</td><td>약 123원</td><td>약 18.5만 원</td><td>약 222만 원</td></tr>
+      <tr><td><strong>휘발유 (연비 12km/L)</strong></td><td>1,850원/L 가정</td><td>약 154원</td><td>약 23.1만 원</td><td>약 278만 원</td></tr>
+      <tr><td><strong>휘발유 (연비 10km/L)</strong></td><td>1,850원/L 가정</td><td>약 185원</td><td>약 27.8만 원</td><td>약 333만 원</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfeeb_rest_stop_fast_charger.webp" alt="흰색 전기차가 주차된 초록색 충전구역과 지붕형 급속충전기" width="1200" height="900" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 충전구역에 주차한 전기차와 급속충전기. 가장 비싼 초급속도 1km당 비용은 휘발유보다 낮다 (촬영 장소와 충전기 출력은 사진으로 확정하지 않음) <span class="cap-credit">ⓒ Choi Kwang-mo / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<p>초급속(87원/km)조차 연비 15km/L 휘발유차(123원/km)보다 낮다. 손익분기는 <strong>휘발유 가격 = 87.4원 × 연비</strong>로, 연비 15km/L 차는 L당 약 1,310원 이하, 12km/L 차는 약 1,048원 이하일 때만 초급속 EV가 불리해진다. 휘발유 가격은 가정이므로 실제 가격으로 다시 확인하자. 다만 이는 <strong>연료비만의 비교</strong>다. 차량 가격 차이·보험·감가·겨울철 전비 하락(<a href="ev-winter-range-loss-comparison-2026.html">겨울 전기차 주행거리 감소 비교</a> 참고)은 포함하지 않았다. 5년 총비용은 <a href="ev-vs-hybrid-5year-maintenance-cost-2026.html">니로 EV·하이브리드 5년 유지비 계산</a>에서 이어 볼 수 있다.</p>
+
+<div class="checkpoint-box">
+  <p><strong>✅ 충전 전 체크리스트</strong></p>
+  <p>· 충전기 <strong>정격출력(kW)</strong> 표시 확인 — 5단계 단가는 이 값으로 정해진다.<br>
+  · 결제는 환경부 멤버십 카드 vs 사업자 앱 중 어느 쪽이 싼지 비교 — 민간 충전기는 회원가가 따로 있다.<br>
+  · 주말·공휴일 11~14시(10월 31일까지)면 시작 시각을 11시 이후로 맞춘다.<br>
+  · 충전 후 바로 이동 — 충전구역에 계속 주차하면 과태료 대상이 될 수 있다.<br>
+  · 월 합계 400kWh를 넘기는 집이라면 집 충전량을 조절하고 나머지는 공공 완속으로 나눈다.</p>
+</div>
+
+<div class="article-img-wrap">
+  <img src="../images/evfeeb_charging_block_fine_sign.webp" alt="충전방해금지 과태료 기준이 적힌 초록색 테두리의 안내판" width="1200" height="1600" itemprop="image" loading="lazy" decoding="async">
+  <p class="article-img-caption">▲ 충전구역 주차 방해에 과태료를 부과한다는 안내판(강원 횡성군). 충전을 끝냈다면 자리를 비우는 것도 요금만큼 중요하다 <span class="cap-credit">ⓒ Choikwangmo9 / Wikimedia Commons (CC0)</span></p>
+</div>
+
+<div class="summary-box" id="summary">
+  <h2>9. 요약</h2>
+  <p><strong>공공 충전요금은 8월부터 충전기 출력 5단계(295.0~393.1원)</strong>로 바뀌었고, 월 1,500km 기준 완속 위주와 초급속 위주의 연간 충전비 격차는 약 39만 원이다. 요금제보다 먼저 볼 것은 충전기 출력(kW)이다.</p>
+  <p><strong>구독제는 "비구독 391원"과 비교하면 이득이 빨리 나지만</strong>, 환경부 100~200kW 급속(348.4원)과 비교하면 SK 마스터는 월 373kWh부터, 프로는 월 184kWh부터 이득이다. 월 급속 충전량 100~300kWh면 베이직·프로, 400kWh 이상이면 마스터가 최저다. 기아 그린패스는 월 요금 ÷ 96원이 손익분기다(정상 회원가 391원은 카프리즘 추정).</p>
+  <p><strong>집 충전은 월 사용량에 따라 오히려 비쌀 수 있다.</strong> 기존 사용량이 250~350kWh인 집은 충전 추가분 단가가 337~369원으로 올라간다(기후환경요금 9원 가정). 전비·기후환경요금·약정 초과 단가 같은 가정이 바뀌면 결과도 바뀌므로, 내 조건을 대입해 확인하자.</p>
+  <p><strong>집과 공공을 섞는다면 월 합계 400kWh 선이 기준</strong>이다. 기존 사용량이 150kWh인 가구가 월 333kWh를 충전하면 집 250kWh+공공 완속 83kWh 조합이 집 100%보다 월 약 1.2만 원 더 싸다. 연료비만 보면 초급속(약 87원/km)도 연비 15km/L 휘발유차(약 123원/km, 가격 가정)보다 낮다.</p>
+</div>
+
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-7327562206502398"
+     data-ad-slot="2907599434"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <div class="related-inline reveal" id="related-inline">
+          <h2 class="related-inline-title">함께 보면 좋은 기사</h2>
+          <div class="related-inline-grid" id="related-inline-grid"><!--REL:INLINE:START-->
+        <a href="ev-battery-ownership-separation-seminar-2026.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/evbatteryownership_national_assembly_yeouido.webp" alt="&quot;차는 사고, 배터리는 빌린다&quot;… 전기차 소유권을 반으로 쪼개려는 이유" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">"차는 사고, 배터리는 빌린다"… 전기차 소유권을 반으로 쪼개려는 이유</span>
+        </a>
+        <a href="ev-buy-now-or-wait-2027.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/kia_ev4_korea_street.webp" alt="&quot;지금 재고차냐, 내년 신차냐&quot;… 전기차 구매 타이밍, 네 가지만 따지면 된다" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">"지금 재고차냐, 내년 신차냐"… 전기차 구매 타이밍, 네 가지만 따지면 된다</span>
+        </a>
+        <a href="tesla-california-myfirstev-rebate-2026.html" class="related-inline-card">
+          <div class="related-inline-thumb">
+            <img src="../images/tesla_modely_juniper_front.webp" alt="&quot;5일 만에 바닥났다&quot;… 캘리포니아 첫 전기차 보조금, 테슬라가 싹쓸이" loading="lazy">
+          </div>
+          <span class="related-inline-card-title">"5일 만에 바닥났다"… 캘리포니아 첫 전기차 보조금, 테슬라가 싹쓸이</span>
+        </a>
+<!--REL:INLINE:END--></div>
+        </div>
+
+      </div>
+
+      <footer class="article-footer reveal">
+        <div class="source-block">
+          <p>
+            <span class="source-icon">📄</span>
+            <span class="source-label">참고:</span>
+            <span class="source-links">
+              <a href="https://www.mcee.go.kr/home/web/board/read.do?boardId=1874650&amp;boardMasterId=939&amp;menuId=10598" target="_blank" rel="noopener">기후에너지환경부 보도자료 — 전기차 공공 충전 요금 체계 개편</a>
+              <a href="https://skelectlink.co.kr/membership/subscribe" target="_blank" rel="noopener">SK일렉링크 — 구독 요금제 안내</a>
+              <a href="https://members.kia.com/kr/view/qevt/ev_recharge_solution_subscription.do" target="_blank" rel="noopener">기아 e-라이프 패키지 — 그린패스(구독형 충전 요금제)</a>
+              <a href="https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html" target="_blank" rel="noopener">한국전력공사 — 주택용 전기요금표</a>
+              <a href="https://www.mt.co.kr/economy/2026/09/21/2026092109553255452" target="_blank" rel="noopener">머니투데이 — 연료비조정단가 kWh당 5원 동결, 4분기 전기요금 동결</a>
+              <a href="https://www.fnnews.com/news/202609211845537590" target="_blank" rel="noopener">파이낸셜뉴스 — 한전, 4분기 전기요금 동결(기후환경요금 등 변동 없음)</a>
+              <a href="https://www.korea.kr/news/policyNewsView.do?newsId=148963665" target="_blank" rel="noopener">정책뉴스 — 전기차 공공 충전요금 5단계로 세분화(정격출력 기준)</a>
+              <a href="https://www.newspim.com/news/view/20260903000599" target="_blank" rel="noopener">뉴스핌 — 가을철 주말 낮시간 전기차 충전요금 최대 32% 인하</a>
+              <a href="https://www.autotribune.co.kr/news/articleView.html?idxno=44388" target="_blank" rel="noopener">오토트리뷴 — 전기차 충전 요금, 8월부터 인하(민간 완속 292~295원)</a>
+            </span>
+          </p>
+          <p>
+            <span class="source-icon">🖼</span>
+            <span class="source-label">이미지 출처:</span> Wikimedia Commons (Immanuelle CC BY 4.0, Sharon Hahn Darlin CC BY 2.0, Choi Kwang-mo CC0, GTV경기도청방송국 CC BY 3.0, 대한민국역사박물관 현대사아카이브 KOGL 제1유형)
+          </p>
+        </div>
+
+        <div class="article-tags">
+          <a href="../tag.html?t=%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%9A%94%EA%B8%88" class="article-tag-item">전기차충전요금</a>
+          <a href="../tag.html?t=%EC%B6%A9%EC%A0%84%EC%9A%94%EA%B8%88%EA%B5%AC%EB%8F%85" class="article-tag-item">충전요금구독</a>
+          <a href="../tag.html?t=SK%EC%9D%BC%EB%A0%89%EB%A7%81%ED%81%AC" class="article-tag-item">SK일렉링크</a>
+          <a href="../tag.html?t=%EA%B8%B0%EC%95%84%EA%B7%B8%EB%A6%B0%ED%8C%A8%EC%8A%A4" class="article-tag-item">기아그린패스</a>
+          <a href="../tag.html?t=%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%97%B0%EA%B0%84%EC%B6%A9%EC%A0%84%EB%B9%84" class="article-tag-item">전기차연간충전비</a>
+        </div>
+
+        <div class="share-block">
+          <span class="share-label">공유하기</span>
+          <a href="#" class="share-btn share-btn--kakao" id="share-kakao">
+            <span>💬</span> <span>카카오톡</span>
+          </a>
+          <a href="#" class="share-btn share-btn--twitter" id="share-twitter">
+            <span>✕</span> <span>트위터</span>
+          </a>
+          <button class="share-btn share-btn--copy" id="share-copy" onclick="navigator.clipboard.writeText(location.href).then(()=>alert('링크가 복사되었습니다.'))">
+            <span>🔗</span> <span>링크 복사</span>
+          </button>
+        </div>
+      </footer>
+
+    </article><!-- /.article-main -->
+
+    <aside class="article-sidebar" aria-label="관련 정보">
+
+      <div class="sidebar-block reveal" id="sidebar-related">
+        <h2 class="sidebar-title">관련 기사</h2>
+        <ul class="related-list" id="related-list"><!--REL:LIST:START-->
+      <li>
+        <a href="ev-charging-fee-cut-2026-08.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/ev_charging_station_jeju.webp" alt="&quot;완속은 싸지고 급속은 비싸진다&quot;… 8월 전기차 충전 요금 개편 총정리" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"완속은 싸지고 급속은 비싸진다"… 8월 전기차 충전 요금 개편 총정리</span>
+            <span class="related-date">2026.08.03</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="ev-charging-rate-plans-complete-guide-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/ev_charging_station_jeju.webp" alt="&quot;같은 급속인데 왜 요금이 2배 차이 날까&quot;… 전기차 충전 요금제 완전정리" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"같은 급속인데 왜 요금이 2배 차이 날까"… 전기차 충전 요금제 완전정리</span>
+            <span class="related-date">2026.08.05</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="ev-winter-battery-management-guide.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/kr_ev_charging_chuncheon_snow.webp" alt="&quot;영하에서 30% 사라진다&quot;… 겨울 전기차, 습관 다섯 개로 되돌리는 방법" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"영하에서 30% 사라진다"… 겨울 전기차, 습관 다섯 개로 되돌리는 방법</span>
+            <span class="related-date">2026.08.17</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="ev-vs-hybrid-5year-maintenance-cost-2026.html" class="related-item">
+          <div class="related-thumb">
+            <img src="../images/kia_niro_ev_front.webp" alt="&quot;충전비는 반값인데 왜 더 손해일까&quot;… 니로 EV·니로 하이브리드 5년 유지비 직접 계산해보니" loading="lazy">
+          </div>
+          <div class="related-info">
+            <span class="related-title">"충전비는 반값인데 왜 더 손해일까"… 니로 EV·니로 하이브리드 5년 유지비 직접 계산해보니</span>
+            <span class="related-date">2026.08.05</span>
+          </div>
+        </a>
+      </li>
+<!--REL:LIST:END--></ul>
+      </div>
+
+      <div class="sidebar-block reveal" id="sidebar-tags">
+        <h2 class="sidebar-title">인기 태그</h2>
+        <div class="pop-tags">
+          <a href="../tag.html?t=%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%9A%94%EA%B8%88" class="pop-tag">전기차충전요금</a>
+          <a href="../tag.html?t=%EC%B6%A9%EC%A0%84%EC%9A%94%EA%B8%88%EA%B5%AC%EB%8F%85" class="pop-tag">충전요금구독</a>
+          <a href="../tag.html?t=SK%EC%9D%BC%EB%A0%89%EB%A7%81%ED%81%AC" class="pop-tag">SK일렉링크</a>
+          <a href="../tag.html?t=%EA%B8%B0%EC%95%84%EA%B7%B8%EB%A6%B0%ED%8C%A8%EC%8A%A4" class="pop-tag">기아그린패스</a>
+          <a href="../tag.html?t=%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%97%B0%EA%B0%84%EC%B6%A9%EC%A0%84%EB%B9%84" class="pop-tag">전기차연간충전비</a>
+        </div>
+      </div>
+
+    </aside><!-- /.article-sidebar -->
+
+  </div><!-- /.article-wrap -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner wrap">
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-logo-icon">C</span>
+        <span class="footer-logo-text">CAR<em>PRISM</em></span>
+      </a>
+      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+    </div>
+    <div>
+      <h3 class="footer-col-title">카테고리</h3>
+      <ul class="footer-links">
+        <li><a href="../electric.html">전기차</a></li>
+        <li><a href="../news.html">자동차 뉴스</a></li>
+        <li><a href="../reviews.html">리뷰</a></li>
+        <li><a href="../domestic.html">국산차</a></li>
+        <li><a href="../import.html">수입차</a></li>
+        <li><a href="../travel.html">국내여행</a></li>
+        <li><a href="../life.html">생활정보</a></li>
+        <li><a href="../archive.html">전체 기사</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer-col-title">사이트 정보</h3>
+      <ul class="footer-links">
+        <li><a href="../about.html">소개</a></li>
+        <li><a href="../editorial.html">편집 지침</a></li>
+        <li><a href="../about.html#contact">광고 문의</a></li>
+        <li><a href="../about.html#contact">기사제보</a></li>
+        <li><a href="../privacy.html">개인정보처리방침</a></li>
+        <li><a href="../terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <p>© 2026 CarPrism. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/articles-data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -5,7 +5,47 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 02 Oct 2026 07:22:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:02:35 GMT</lastBuildDate>
+    <item>
+      <title>&quot;중고가 무조건 싸다&quot;는 착각… 신차 vs 3년 중고, 5년 총비용 계산하니 차종마다 승자가 갈렸다</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-ownership-cost-new-vs-used-5year-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-ownership-cost-new-vs-used-5year-2026.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>아반떼·쏘나타·쏘렌토 HEV·아이오닉5로 신차와 3년 중고를 5년 보유할 때 총비용을 감가·취득세·자동차세·보험료·정비비·연료비·이자 7개 항목으로 직접 계산했다. 가격표와 중고 시세 통계를 쓰고 가정은 추정으로 밝혔으며, 중고가 이기는 차와 신차가 이기는 차가 갈렸다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/owncost_avante_red.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;정전되면 차에서 전기 뽑으면 되지&quot;… V2L 계산해보니 열흘은 버티는데, 포트+밥솥은 실내 콘센트로 안 된다, 전열기구는 설명서부터 확인</title>
+      <link>https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/v2l-12v-battery-camping-blackout-guide-2026.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>전기차 V2L로 정전과 캠핑을 버틸 수 있을까. 아이오닉 5·EV6 등 차종별 출력(보도 기준 실외 3.6kW, 실내 1.9kW)과 배터리 용량을 바탕으로 가전별 사용 가능 시간, 동시 사용 판정표, 방전 하한 설정, 설명서상 안전수칙(전열기구 금지 포함)을 계산해 정리하고 가을철 12V 보조배터리 방전 원인과 비상 시동 대비까지 다뤘다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/v2l12v_ioniq5_rear.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;구독하면 오히려 손해?&quot;… 전기차 충전요금 구조 해부하고 연간 충전비 직접 계산해보니</title>
+      <link>https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ev-charging-fee-structure-subscription-compare-2026.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>공공 충전요금 5단계 구조부터 월 주행거리별 연간 충전비, SK일렉링크·기아 그린패스 구독의 손익분기, 집 충전 누진제 함정까지 전비·단가 가정을 밝히고 직접 계산했다. 2026년 10월 2일 기준.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/evfee_seoul_station_chargers.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;노블레스가 336만 원 비싼 이유&quot;… 쏘렌토 하이브리드, 가격표로 값이 확인되는 건 59만 원어치뿐이었다</title>
+      <link>https://carprism.tmhub.co.kr/articles/trim-option-value-which-trim-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/trim-option-value-which-trim-2026.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>기아 공식 가격표 2026년 10월판으로 쏘렌토 하이브리드 트림 간 가격 차이를 사양 단위로 분해했다. 노블레스 +336만 원 중 공식 옵션가로 확인되는 것은 59만 원, 100만 원당 신규 항목 수, 4WD의 실제 증가분 332만 원, 하이브리드 프리미엄 회수 기간, 구매자 유형별 추천 트림을 계산해 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/trimval_front_dark_ditzingen.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;내 주차장에 충전기가 있나요?&quot; 하이브리드·PHEV·EREV, 연료비 계산표가 먼저 묻는 한 가지</title>
+      <link>https://carprism.tmhub.co.kr/articles/hev-phev-erev-which-fits-driving-pattern-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hev-phev-erev-which-fits-driving-pattern-2026.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>하이브리드·PHEV·EREV·전기차 중 내 주행 패턴에 맞는 차를 고르는 판정표. 2026년 10월 2일 기준 휘발유·충전 단가와 공인 연비·전비로 연 1.2만·2만·3만 km 연료비를 직접 계산하고, 차값 차액 회수 기간과 정부 지원·세제 변화, 현대차 EREV 계획의 소비자 의미를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/evpick_tucson_hybrid_nline.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;인삼 축제가 하루가 아니라고?&quot;… 10월 17~18일 임진각, 차 세우고 장단콩까지 이어 가는 법</title>
       <link>https://carprism.tmhub.co.kr/articles/paju-gaeseong-ginseng-festival-imjingak-2026.html</link>
@@ -205,46 +245,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <description>한국타이어앤테크놀로지가 폭스바겐 대형 SUV 아틀라스 북미 모델에 다이나프로 HPX를 18·20·21인치 신차용(OE) 타이어로 공급한다. 제품 특징과 폭스바겐 OE 포트폴리오, 아틀라스 변화와 확인되지 않은 사항을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/hkatlas_vw_atlas_2024_peak_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;전동화 시대에 램프는 부품일까, 센서일까&quot;… 현대모비스, 램프사업 물적분할해 OP모빌리티에 6,000억 원 매각</title>
-      <link>https://carprism.tmhub.co.kr/articles/hyundai-mobis-lamp-business-spin-off-2027.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/hyundai-mobis-lamp-business-spin-off-2027.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>현대모비스가 9월 30일 램프사업 물적분할을 결의하고 신설회사 지분 100%를 프랑스 OP모빌리티에 약 6,000억 원에 넘기는 계약을 맺었다. 분할기일(2027년 4월 1일), 임시주총 11월 24일, 주식매수청구가 40만 8,394원, 램프사업 규모와 ADB 기술, 증권가 반응을 공시·보도 기준으로 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/mobislamp_g80_headlamp_upper_detail.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;LFP만큼 싸고 에너지밀도는 33% 높다&quot;… GM·LG엔솔이 2028년 미국에서 처음 양산할 LMR 배터리, 믿어도 될까</title>
-      <link>https://carprism.tmhub.co.kr/articles/gm-lges-lmr-battery-us-production-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/gm-lges-lmr-battery-us-production-2026.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>GM·LG에너지솔루션 합작사 얼티엄셀즈가 테네시 스프링힐 공장에서 각형 LMR(리튬·망간 리치) 배터리를 2028년 양산하기로 했다. LFP 수준 원가에 에너지밀도 33% 높다는 주장의 출처와 한계, 탑재 차종·시기, 한국 배터리 산업 시사점을 GM 공식 자료와 보도로 교차 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/lmrgm_silverado_ev_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;파업 물량은 메웠을까&quot;… 현대차 내수 43% 반등했지만 작년 9월은 못 넘었고, 기아는 3분기 역대 최대</title>
-      <link>https://carprism.tmhub.co.kr/articles/korea-carmakers-september-2026-sales-results.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-carmakers-september-2026-sales-results.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026년 9월 완성차 5사 합계는 64만 6,502대로 8월 대비 9.7% 증가했다(필자 집계). 현대차 내수는 전월비 +42.8%지만 전년비 -25.7%, 기아는 28만 1,984대로 3분기 역대 최대, 한국GM은 수출 급증으로 4만 1,101대(+73.3%)를 기록했다. 현대차 해외 증감률 불일치 설명과 전동화 비중 확인 범위도 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/hyundai_ulsan_plant_assembly_line.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;1,000PS는 확정, 가격표는 아직&quot;… 재규어 타입 01, 10월 6일 뉴욕 공개 전 확정·미확정 가르기</title>
-      <link>https://carprism.tmhub.co.kr/articles/jaguar-type01-new-york-reveal-preview-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/jaguar-type01-new-york-reveal-preview-2026.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>재규어 양산형 전기 GT 타입 01이 10월 6일 뉴욕에서 공개된다. 트라이모터 1,000PS 이상·영국 생산은 재규어 공식 확정이지만, 항속거리·배터리·가격·인도 시기는 보도가 엇갈린다. 공개 전 확정과 미확정 항목, 한국 출시 여부, 체크포인트를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/jt01prev_prototype_blue_coast.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;1,500만 원 할인&quot;은 혼다 전 차종이 아니다… 월 34만 원대 볼보와 함께 본 수입 SUV 10월 판촉 읽는 법</title>
-      <link>https://carprism.tmhub.co.kr/articles/import-suv-october-2026-promotion-roundup.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/import-suv-october-2026-promotion-roundup.html</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>볼보는 XC40 B4 월 34만 9,000원(선납 32%, 5년 리스), 혼다는 파일럿 블랙 에디션 1,500만 원·어코드/CR-V 1,000만 원 할인, 지프는 하나캐피탈 이용 시 랭글러 최대 1,300만 원을 내놨다. 혼다 8월 100대 한정 프로모션과의 관계, 월 납입과 할인의 차이, 확인하지 못한 조건까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/importsuvoct_xc40.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
