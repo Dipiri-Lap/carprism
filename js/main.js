@@ -636,3 +636,57 @@ if (mobileMenuBtn && mobileNav) {
   }
 })();
 
+
+/* 모바일 표 카드 변환 준비
+   3열 이상 .spec-table 에 셀별 data-label 을 붙이고, 문장이 긴 표는 .is-cards 를 붙인다.
+   카드로 보이는 것은 css/article.css 의 600px 이하 미디어쿼리뿐이라 데스크톱 표는 그대로다.
+   짧은 숫자 표는 일반 표로 두되, 좁은 화면에서 가로 스크롤이 생기면 카드로 바꾼다.
+   병합 셀(colspan/rowspan)·머리글 2줄 이상·열 수가 어긋난 표는 구조가 깨지므로 건드리지 않는다. */
+(function () {
+  const candidates = [];
+
+  document.querySelectorAll('.spec-table').forEach((table) => {
+    const headRows = table.querySelectorAll('thead tr');
+    if (headRows.length !== 1) return;
+    const labels = Array.from(headRows[0].children).map((cell) => cell.textContent.trim());
+    if (labels.length < 3 || labels.some((label) => !label)) return;
+    if (table.querySelector('[colspan], [rowspan]')) return;
+    const rows = Array.from(table.querySelectorAll('tbody tr'));
+    if (rows.length < 2) return;
+
+    let total = 0;
+    let count = 0;
+    let longest = 0;
+    for (const row of rows) {
+      if (row.children.length !== labels.length) return;
+      for (const cell of row.children) {
+        const length = cell.textContent.trim().length;
+        total += length;
+        count += 1;
+        if (length > longest) longest = length;
+      }
+    }
+
+    rows.forEach((row) => {
+      Array.from(row.children).forEach((cell, index) => cell.setAttribute('data-label', labels[index]));
+    });
+    // 평균 9자 이상이거나 한 셀이 28자를 넘으면 좁은 화면에서 열이 눌린다.
+    if (total / count >= 9 || longest >= 28) table.classList.add('is-cards');
+    else candidates.push(table);
+  });
+
+  if (!candidates.length || !window.matchMedia) return;
+  const narrow = window.matchMedia('(max-width: 600px)');
+  const fallbackToCards = () => {
+    if (!narrow.matches) return;
+    candidates.forEach((table) => {
+      const wrap = table.parentElement;
+      if (wrap && wrap.classList.contains('spec-table-wrap') && wrap.scrollWidth > wrap.clientWidth + 2) {
+        table.classList.add('is-cards');
+      }
+    });
+  };
+  fallbackToCards();
+  window.addEventListener('load', fallbackToCards);
+  if (narrow.addEventListener) narrow.addEventListener('change', fallbackToCards);
+})();

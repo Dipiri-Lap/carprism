@@ -502,6 +502,7 @@ body {
   font-size: 0.76rem;
   color: var(--text-muted);
   background: var(--bg);
+  white-space: normal;
 }
 .spec-table th,
 .spec-table td {
@@ -530,6 +531,75 @@ body {
 .spec-table.align-left td { text-align: left; white-space: normal; }
 .spec-table.align-left th:first-child,
 .spec-table.align-left td:first-child { width: 34%; }
+
+/* ── 모바일 표 보정 ──
+   ① 720px 이하: 패딩·글자 축소, 첫 열 34% 고정 해제, 어절 단위 줄바꿈(한글이 음절 중간에서 끊기지 않게).
+   ② 600px 이하: JS(main.js)가 .is-cards 를 붙인 표(3열 이상·문장이 긴 표)는 행을 카드로 세로 나열한다.
+      <table> 구조는 그대로 두고 표시만 바꾸므로 검색·접근성 영향이 없다. */
+@media (max-width: 720px) {
+  .spec-table { font-size: 0.8rem; }
+  .spec-table th,
+  .spec-table td { padding: 9px 10px; }
+  .spec-table.align-left th,
+  .spec-table.align-left td {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .spec-table.align-left th:first-child,
+  .spec-table.align-left td:first-child { width: auto; }
+  .spec-table caption { padding: 8px 12px; }
+}
+@media (max-width: 480px) {
+  .spec-table { font-size: 0.78rem; }
+  .spec-table th,
+  .spec-table td { padding: 8px 6px; }
+}
+@media (max-width: 600px) {
+  .spec-table.is-cards,
+  .spec-table.is-cards tbody,
+  .spec-table.is-cards tr,
+  .spec-table.is-cards td,
+  .spec-table.is-cards th { display: block; width: auto; }
+  .spec-table.is-cards { white-space: normal; }
+  .spec-table.is-cards thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+  }
+  .spec-table.is-cards tbody tr {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .spec-table.is-cards tbody tr:last-child { border-bottom: none; }
+  .spec-table.is-cards td,
+  .spec-table.is-cards th {
+    display: grid;
+    grid-template-columns: 5.6em minmax(0, 1fr);
+    column-gap: 10px;
+    padding: 5px 0;
+    border-bottom: none;
+    text-align: left;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    font-weight: 400;
+  }
+  .spec-table.is-cards td::before,
+  .spec-table.is-cards th::before {
+    content: attr(data-label);
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--text-muted);
+  }
+  .spec-table.is-cards td:first-child,
+  .spec-table.is-cards th:first-child { font-weight: 700; }
+  .spec-table.is-cards td.spec-highlight { font-weight: 800; }
+  .spec-table.is-cards caption { display: block; }
+}
 
 /* 체크포인트 콜아웃 */
 .checkpoint-box {
