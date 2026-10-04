@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-address-change-moving-report-deadline-guide-2026",
+    title: "\"이사하면 자동차 주소도 알아서 바뀌겠지\"… 전입신고로 끝나는 차와 30일 안에 따로 신고해야 하는 차, 법 조문으로 가려봤다",
+    date: "2026-10-04",
+    image: "addrchg_namchon_community_center.webp",
+    categories: ["life"],
+    tags: ["자동차주소변경", "전입신고", "자동차변경등록", "자동차세", "전기차보조금"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "이사 후 자동차 주소 변경이 전입신고만으로 끝나는 경우와 30일 안에 별도 변경등록이 필요한 경우를 자동차등록령·규칙 조문으로 가르고, 미신고 과태료 환산, 정기검사·리콜 통지, 자동차세 납기, 하이패스·보험 체크리스트, 전기차 보조금 사후관리를 정리했다."
+  },
+  {
+    slug: "yellow-light-tailgating-stop-line-signal-violation-guide-2026",
+    title: "\"노란불에 넘었는데 신호위반?\" 황색·꼬리물기·정지선·비보호좌회전, 상황별 위반 판정과 범칙금·벌점 직접 대조",
+    date: "2026-10-04",
+    image: "signalviol_cheongdam_intersection_crosswalk.webp",
+    categories: ["life"],
+    tags: ["신호위반", "황색신호", "꼬리물기", "정지선", "비보호좌회전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "황색신호 통과가 위반인 경우와 아닌 경우, 꼬리물기(제25조 제5항) 범칙금·과태료, 정지선·교차로 안 신호 변경, 비보호좌회전, 무인단속 판정, 벌점 누적 계산과 이의신청 경로를 도로교통법령 원문으로 직접 대조했다."
+  },
+  {
+    slug: "compact-car-benefits-tax-toll-parking-guide-2026",
+    title: "\"경차 한 대 5년 타면 얼마가 남나?\" 취득세 면제·통행료 50%·유류세 환급을 같은 가격 일반 승용차와 직접 비교한 5년 합계표",
+    date: "2026-10-04",
+    image: "kcarben_casper_gas_rear.webp",
+    categories: ["life"],
+    tags: ["경차혜택", "경차취득세", "경차유류세환급", "경차통행료할인", "경차자동차세"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "경형 기준(1,000cc 미만·3.6m·1.6m·2.0m)과 취득세 75만 원 면제, 자동차세 cc당 80원, 통행료·공영주차 50%, 유류세 환급 연 30만 원을 같은 가격 일반 승용차와 비교해 5년 합계를 계산했다. 캐스퍼 일렉트릭이 경형이 아닌 이유와 일몰 시한도 정리했다."
+  },
+  {
+    slug: "car-insurance-cancel-refund-sale-scrap-guide-2026",
+    title: "\"차 팔았는데 보험료는 계속 나간다?\" 양도·폐차 때 자동차보험 해지 순서와 환급금, 일할 계산으로 직접 뽑아보니",
+    date: "2026-10-04",
+    image: "inscancel_usedlot.webp",
+    categories: ["life"],
+    tags: ["자동차보험해지", "보험환급", "폐차말소", "명의이전", "의무보험"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "차를 팔거나 폐차·말소할 때 보험 승계와 해지, 일할 vs 단기요율 환급 계산, 해지 순서, 의무보험 공백 과태료(최고 90만 원), 할인할증 등급과 분납 환급을 표준약관·법령 문구로 정리하고 80만 원 가정 계산표로 풀었다."
+  },
+  {
+    slug: "traffic-fine-arrears-plate-seizure-installment-guide-2026",
+    title: "\"고지서는 못 받았는데 번호판을 떼 간다고요?\" 과태료 체납 후 가산금 최대 75%, 영치·압류 순서와 분할납부 요건 직접 계산했다",
+    date: "2026-10-04",
+    image: "sidewalk_parking_violation.webp",
+    categories: ["life"],
+    tags: ["과태료체납", "번호판영치", "가산금", "분할납부", "범칙금"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "교통 과태료·범칙금을 미납하면 가산금(3%+월 1.2%, 최대 75%), 번호판 영치(30만 원·60일), 압류로 이어지는 순서와 5만·10만 원 계산표, 징수유예·분할납부 요건, 범칙금 체납 차이를 정리했다."
+  },
+  {
+    slug: "dashcam-buying-guide-channels-resolution-parking-mode-2026",
+    title: "\"화질 좋은 블랙박스 하나면 되죠?\" 1·2·3채널, FHD·QHD·UHD 번호판 픽셀, 주차녹화·방전까지 구매 전 체크표로 직접 계산해보니",
+    date: "2026-10-04",
+    image: "dashbuy_dualcam_windshield.webp",
+    categories: ["life"],
+    tags: ["블랙박스구매", "블랙박스채널", "주차녹화", "블랙박스화질", "블랙박스SD카드"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "블랙박스를 사기 전에 확인할 채널 수, 해상도별 번호판 픽셀, 야간 센서, 주차녹화 방식과 방전, 고온·SD카드 용량, 설치와 보험 할인, 순정 빌트인·전기차 12V까지 용도별 조합표로 정리했다."
+  },
+  {
+    slug: "car-lease-long-term-rent-early-termination-penalty-2026",
+    title: "\"리스 3년 타다 끊으면 위약금이 얼마?\" 월 80만 원·60개월 계약, 24개월 차 해지 시 가정 위약금 약 346만 원부터 직접 계산해 보니",
+    date: "2026-10-04",
+    image: "leaseterm_sonata_front.webp",
+    categories: ["life"],
+    tags: ["리스중도해지", "장기렌트", "위약금", "자동차리스", "표준약관"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "금융리스·운용리스·장기렌트의 중도해지 구조, 리스 표준약관의 미회수원금×요율 산식과 잔여 리스료 상한, 전손 면책, 승계 대안, 월 80만 원·60개월 가정 위약금을 정리했다."
+  },
+  {
     slug: "gwangmyeong-cave-light-festival-2026-night-drive",
     title: "\"드론 1,000대가 동굴 위 밤하늘을 채운다\"… 광명동굴 빛 축제, 이틀뿐인 밤에 차는 어디에 세울까",
     date: "2026-10-04",
