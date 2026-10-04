@@ -9,3 +9,10 @@ collector/.env.secrets
 
 # API keys
 .env
+
+# 배포 용량 절감: 작업용 폴더는 추적·배포하지 않는다
+scratchpad_dl/
+imgs_travel_g2/
+scratch_imginfo1.json
+a656*.pdf
+a656*.txt
