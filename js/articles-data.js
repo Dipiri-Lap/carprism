@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "andong-woryeonggyo-bridge-night-fountain-guide-2026",
+    title: "\"달빛 아래 387m를 걷는다\"… 안동 월영교, 분수 시간표는 왜 자료마다 다를까",
+    date: "2026-10-07",
+    image: "woryeonggyo26_pavilion_night_hero.webp",
+    categories: ["travel"],
+    tags: ["안동월영교", "월영교야경", "월영교분수", "안동여행", "안동민속촌"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "안동시 관광 누리집 / 한국관광공사 TourAPI·대한민국 구석구석 / 메트로신문 / 매일신문 / 경북매일 / 서울신문",
+    desc: "안동 월영교는 길이 387m·폭 3.6m 목재 보행교로 상시 개방된다. 원이엄마 편지 이야기, 분수·조명 시간표 출처별 차이, 개목나루 문보트, 안동민속촌, 월영가람길, 도산서원 연결 자차 코스를 확인된 것과 확인하지 못한 것으로 나눠 정리했다."
+  },
+  {
+    slug: "muju-jeoksangsan-autumn-drive-guide-2026",
+    title: "\"차로 15km, 산정호수까지 갑니다\"… 무주 적상산 1,034m, 11월이면 문 닫는 곳과 막힌 폭포",
+    date: "2026-10-07",
+    image: "jeoksangsan26_foliage_parking.webp",
+    categories: ["travel"],
+    tags: ["적상산", "무주여행", "단풍명소", "덕유산국립공원", "적상산사고지"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "무주군 관광 누리집 / 한국관광공사 TourAPI / 국립공원공단(뉴스1 보도) / 비건뉴스",
+    desc: "전북 무주 적상산(1,034m)을 차로 오르는 15km 길과 적상전망대·적상산사고지·안국사·천일폭포의 개방 상태를 무주군·한국관광공사 자료로 확인했다. 적상산은 덕유산국립공원 구역이며, 사고지는 11월~3월 휴관, 천일폭포는 출입 제한이다. 확인하지 못한 항목도 밝혔다."
+  },
+  {
+    slug: "asan-oeam-folk-village-2026-guide",
+    title: "\"차는 마을 안으로 못 들어갑니다\"… 아산 외암민속마을, 돌담 5.3km를 입장료 2,000원에 걷는 법",
+    date: "2026-10-07",
+    image: "oeam26_wall_lane_thatch.webp",
+    categories: ["travel"],
+    tags: ["외암민속마을", "아산여행", "짚풀문화제", "국가민속문화유산", "충남여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "외암민속마을 공식 누리집 / 한국관광공사 TourAPI / 국가유산청 국가유산 정보",
+    desc: "충남 아산 외암민속마을(국가민속문화유산 제236호)의 입장료·운영 시간·주차·면제 대상, 돌담길과 참판댁·건재고택, 짚풀문화제와 체험·민박 정보를 공식 누리집·한국관광공사·국가유산청 자료로 정리했다. 2026년 짚풀문화제(10월 16~18일)와 월요일 일부 시설 휴관 등 자료마다 다른 항목은 그대로 밝혔다."
+  },
+  {
+    slug: "gapyeong-homyeongho-lake-bus-parking-autumn-2026",
+    title: "\"승용차는 정상까지 못 올라갑니다\"… 가평 호명호수, 9~10월 주말·공휴일 버스 하루 16회·무료 입장, 주차장에서 어떻게 올라갈까",
+    date: "2026-10-07",
+    image: "homyeongho26_lake_view.webp",
+    categories: ["travel"],
+    tags: ["호명호수", "가평여행", "호명산", "가평단풍", "상천역"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "가평군청(버스 안내·운행시간표) / 가평 문화관광 / 한국관광공사 TourAPI / 경기일보 / 아시아경제 / 에코저널 / 뉴스서울 / 기호일보 / 가평군 SNS 서포터즈 / SBS Biz(산림청 단풍 예측)",
+    desc: "가평 호명호수는 입장 무료지만 자가용은 입구 주차장까지만 갈 수 있고 위로는 노선버스(30-4번)나 도보로 올라간다. 가평군청 2026년 운행시간표와 TourAPI를 대조해 버스 횟수(성수기 주말·공휴일 16회), 평일 첫차·막차, 개방 기간, 단풍 시기, 확인하지 못한 항목을 정리했다."
+  },
+  {
+    slug: "seokpajeong-seoul-museum-buam-autumn-guide-2026",
+    title: "\"석파정만 따로 입장할 수 있을까?\" 서울미술관 통합 입장권 20,000원, 평일 2시간·주말 1시간 30분 무료주차 따져봤다",
+    date: "2026-10-07",
+    image: "seokpajeong26_maple_pavilion.webp",
+    categories: ["travel"],
+    tags: ["석파정", "서울미술관", "부암동", "서울가을여행", "흥선대원군별서"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "서울미술관 공식 누리집 / 국가유산포털 / 한국관광공사 TourAPI / 서울시 미디어허브 / SBS Biz(산림청 단풍 예측)",
+    desc: "서울 부암동 석파정은 서울미술관 통합 입장권(성인 20,000원)으로만 입장한다. 공식 누리집과 국가유산포털, 한국관광공사 TourAPI로 확인한 운영 시간·휴관·주차 조건(평일 2시간·주말 1시간 30분 무료), 지정 정보, 부암동 인근 코스를 확인된 것과 못 찾은 것으로 나눠 정리했다."
+  },
+  {
     slug: "sejong-chojeong-yaksu-festival-2026-20th-oct16-18-guide",
     title: "\"세종대왕은 초정에 며칠 머물렀을까?\" 10월 16~18일 제20회 초정약수축제, 체류 일수 60~123일 중 어느 쪽인가",
     date: "2026-10-07",
