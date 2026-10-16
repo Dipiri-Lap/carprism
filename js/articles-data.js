@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "kei-car-3way-casper-ray-morning-buyer-guide-2026",
+    title: "\"모닝보다 134만 원 더 내고 레이를 사도 될까?\" 오너 후기 7,059건과 공식 가격표로 가려 본 경차 3종, 캐스퍼·레이·모닝 이런 사람은 이 차",
+    date: "2026-10-16",
+    image: "keicar26_hero_trio.webp",
+    categories: ["domestic", "news"],
+    tags: ["경차비교", "캐스퍼", "기아레이", "기아모닝", "경차구매가이드"],
+    badge: "COMPARISON",
+    badgeClass: "cat-sales",
+    source: "기아·현대 공식 가격표·제원, 헤이딜러 오너 후기, 네이버 MY CAR",
+    desc: "캐스퍼·레이·모닝을 헤이딜러 오너 후기 7,059건과 기아·현대 공식 가격표(2026.10)로 비교했다. 시작가는 모닝 1,421만·캐스퍼 1,546만·레이 1,555만 원, 월 연료비와 자동차세는 16.7만~18.9만 원이다. 첫차·짐·전기·예산별 선택법과 계약 전 체크리스트를 정리했다."
+  },
+  {
     slug: "daegwallyeong-sheep-ranch-first-snow-guide-2026",
     title: "\"눈 오면 양들은 어디 있을까\"… 대관령양떼목장 입장료 9,000원, 11월 1일부터 매표 16시 마감",
     date: "2026-10-16",
