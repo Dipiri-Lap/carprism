@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-window-tinting-price-grade-legal-vlt-guide-2026",
+    title: "\"썬팅 얼마가 적당해요?\"… 루마 공식표 전체 시공 270만 원까지, 앞유리 70%·운전석 옆창 40% 미달은 과태료 2만 원",
+    date: "2026-10-16",
+    image: "window_tint_car_side.webp",
+    categories: ["life"],
+    tags: ["자동차썬팅", "틴팅가격", "가시광선투과율", "썬팅과태료", "루마썬팅"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 기획 기사",
+    desc: "자동차 틴팅(썬팅) 견적을 법과 함께 따졌다. 도로교통법 시행령 제28조의 앞유리 70%·운전석 옆창 40% 기준과 성능기준 규칙 70%, 과태료 2만 원, 루마 공식 표준가격표(전면 110만 원·측후면 160만 원·전체 270만 원), 2차 자료 등급대별 가격, 공개 후기, 견적 체크리스트를 정리했다."
+  },
+  {
     slug: "kei-car-3way-casper-ray-morning-buyer-guide-2026",
     title: "\"모닝보다 134만 원 더 내고 레이를 사도 될까?\" 오너 후기 7,059건과 공식 가격표로 가려 본 경차 3종, 캐스퍼·레이·모닝 이런 사람은 이 차",
     date: "2026-10-16",

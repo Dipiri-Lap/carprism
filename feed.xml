@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:04:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 11:47:49 GMT</lastBuildDate>
+    <item>
+      <title>&quot;썬팅 얼마가 적당해요?&quot;… 루마 공식표 전체 시공 270만 원까지, 앞유리 70%·운전석 옆창 40% 미달은 과태료 2만 원</title>
+      <link>https://carprism.tmhub.co.kr/articles/car-window-tinting-price-grade-legal-vlt-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/car-window-tinting-price-grade-legal-vlt-guide-2026.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>자동차 틴팅(썬팅) 견적을 법과 함께 따졌다. 도로교통법 시행령 제28조의 앞유리 70%·운전석 옆창 40% 기준과 성능기준 규칙 70%, 과태료 2만 원, 루마 공식 표준가격표(전면 110만 원·측후면 160만 원·전체 270만 원), 2차 자료 등급대별 가격, 공개 후기, 견적 체크리스트를 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/images/window_tint_car_side.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;모닝보다 134만 원 더 내고 레이를 사도 될까?&quot; 오너 후기 7,059건과 공식 가격표로 가려 본 경차 3종, 캐스퍼·레이·모닝 이런 사람은 이 차</title>
       <link>https://carprism.tmhub.co.kr/articles/kei-car-3way-casper-ray-morning-buyer-guide-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>도로교통법 제49조제1항제8호다목은 정당한 사유 없는 반복·연속 경적을 금지하고 승용차 범칙금은 4만 원이다. 현행 법에 울림 의무 조문이 보이지 않는 이유, 경적 90dB(C) 이상·110dB(C) 이하 기준, 추가 부착 과태료 60만 원, 전기차 저속 경고음, 일본 제54조와의 차이를 원문으로 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/images/horn26_no_horn_sign_street.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;5분만 서 있으면 정차 아닌가요?&quot;… 도로교통법 제2조가 가르는 정차·주차의 경계, 과태료는 4만 원부터 12만 원까지</title>
-      <link>https://carprism.tmhub.co.kr/articles/stopping-vs-parking-5-minute-rule-guide-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/stopping-vs-parking-5-minute-rule-guide-2026.html</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>도로교통법 제2조는 주차를 계속 정지 또는 운전자 이탈 상태로, 정차를 5분을 넘지 않는 주차 외 정지로 정의한다. 제32조 금지구역 8곳과 제33조 주차금지 장소의 차이, 승용차 과태료 4만·8만·12만 원, 비상등·운전자 탑승 오해, 지자체 단속 기준을 2026년 10월 15일 원문 기준으로 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/stopvspark26_sign_no_stopping.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
