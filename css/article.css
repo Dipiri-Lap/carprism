@@ -916,3 +916,7 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+/* 정정 안내 */
+.correction-note { margin: 16px 0; padding: 10px 14px; border-left: 3px solid #d97706; background: rgba(217, 119, 6, 0.08); border-radius: 4px; line-height: 1.6; }
+.correction-note small { font-size: 0.9em; }
