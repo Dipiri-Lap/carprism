@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-free-month-vs-owning-car-monthly-cost-compare-2026",
+    title: "\"차 없이 한 달 살면 더 싸지 않을까?\"… 월 500~600km가 분기점, 1,000km부터는 내 차가 7만~17만 원 싸다(할부·감가 제외, 가정 계산)",
+    date: "2026-10-18",
+    image: "carfree26_subway_platform.webp",
+    categories: ["life"],
+    tags: ["차없이살기", "자동차유지비", "카셰어링", "쏘카", "K-패스"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "서울시 교통 누리집·서울시 물가정보, K-패스·모두의카드 공식 누리집, 쏘카 요금·보험 안내, 경기버스정보, 부산광역시 요금 안내, 정책브리핑, 오피넷 인용, 카프리즘 가정 계산",
+    desc: "차 없이 대중교통·택시·카셰어링으로 한 달 사는 비용과 내 차 월 비용을 월 500·1,000·1,500km, 서울·수도권·지방으로 비교하고 손익분기점과 가정 전체를 공개했다. 2026년 10월 현행 교통비 지원제도 포함."
+  },
+  {
+    slug: "child-car-seat-age-weight-stage-law-fine-checklist-2026",
+    title: "\"카시트, 몇 살까지 어떤 걸로?\"… 13세 미만 6만 원은 운전자 몫, 택시·카풀·렌터카는 이렇게 다르다",
+    date: "2026-10-18",
+    image: "carseat26_booster_seats.webp",
+    categories: ["life"],
+    tags: ["카시트", "6세미만", "유아보호장구", "카시트과태료", "안전띠"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통법·시행령·시행규칙(국가법령정보센터 2026-10-18 조회), 한국소비자원 보도자료·안전실태조사 보고서, 경향신문, 제품안전정보센터",
+    desc: "6세 미만 영유아 보호장구 의무와 운전자 과태료 6만 원(13세 미만), 벌점·범칙금 차이, 택시·카풀·렌터카 책임, 체중 그룹별 전환 기준과 KC 안전인증 확인법, 귀성길 점검표를 법령과 소비자원 자료로 정리했다."
+  },
+  {
+    slug: "parking-door-ding-unknown-culprit-victim-guide-2026",
+    title: "\"문콕 당했는데 가해자를 못 찾았어요\"… 관리실 CCTV는 경찰 신고 없이도 열람 요구할 수 있고, 열흘 안에 열람이나 거절·연기 답을 받아야 한다(2026-10-18 기준)",
+    date: "2026-10-18",
+    image: "doording26_dashcams_windshield.webp",
+    categories: ["life"],
+    tags: ["문콕", "주차장사고", "가해자불명", "CCTV열람", "물피도주"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "개인정보보호위원회(정책브리핑·뉴시스 보도 인용), 개인정보 보호법·도로교통법·민법(국가법령정보센터), 자동차보험 표준약관(보험개발원), 대법원 전자민원센터, 카프리즘 가정 계산",
+    desc: "주차장 문콕 가해자를 모를 때 피해자가 할 일을 정리했다. 현장 사진, 블랙박스 주차 녹화 한계, 관리실 CCTV 열람 요구(개인정보 보호법 제35조, 열흘), 경찰 접수, 가해자 특정 후 처리, 못 찾았을 때 자차 특약과 자기부담금 판단까지 확인한 것과 못 한 것을 구분했다."
+  },
+  {
+    slug: "used-car-hidden-accident-history-compensation-refund-guide-2026",
+    title: "\"중고차 샀는데 사고차였다면?\"… 기록부와 다르면 인도 30일 안에 계약 해제, 침수는 90일(2026-10-18 기준)",
+    date: "2026-10-18",
+    image: "usedcomp26_repair_shop_night.webp",
+    categories: ["life"],
+    tags: ["중고차", "중고차환불", "사고차", "성능점검기록부", "중고차보상"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "자동차관리법·시행령·시행규칙·소비자기본법·민법(국가법령정보센터), 공정거래위원회 소비자분쟁해결기준, 한국소비자원 보도자료·피해예방주의보, 한국자동차진단보증협회, 컨슈머치·SBS Biz 보도 인용",
+    desc: "중고차 구매 후 사고·침수·주행거리가 성능·상태점검기록부와 다를 때 계약 해제 30일·90일, 점검자 보증·책임보험, 한국소비자원 분쟁조정과 소비자분쟁해결기준, 증거 목록과 신차 레몬법과의 차이를 현행 조문으로 정리했다."
+  },
+  {
+    slug: "used-car-odometer-tampering-check-official-history-guide-2026",
+    title: "\"계기판은 6만km인데 페달은 반질반질하다면?\"… 주행거리 변경은 3년 이하 징역, 계약 해제 기한은 30일(2026-10-18 기준)",
+    date: "2026-10-18",
+    image: "odotamper26_kona_cluster.webp",
+    categories: ["life"],
+    tags: ["중고차", "주행거리조작", "계기판", "자동차365", "성능점검기록부"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "자동차관리법·시행령·시행규칙(국가법령정보센터), 자동차365 통합이력조회 이용안내, 금융위원회 보도자료(2019.5.30), 카프리즘 정리",
+    desc: "중고차 계기판 주행거리가 의심스러울 때 어떻게 확인할까? 자동차관리법 제71조·제79조, 자동차365 통합이력, 성능점검기록부 작성요령, 검사 이력 비교, 마모 단서, 신고처를 정리했다."
+  },
+  {
+    slug: "car-accident-minor-injury-hospitalization-insurance-review-guide-2026",
+    title: "\"경상인데 입원해도 보험사가 인정할까?\"… 내 과실 30%면 치료비 200만 원 중 24만 원은 내 몫(치료비만 있다고 가정한 계산, 2026-10-18 기준)",
+    date: "2026-10-18",
+    image: "injhosp26_corridor_nal.webp",
+    categories: ["life"],
+    tags: ["교통사고", "경상환자", "입원", "자동차보험", "대인배상"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "자동차손해배상 보장법 시행령, 금융위·국토부 보도, 금융감독원 안내, 건강보험심사평가원 심사지침 보도, 국민건강보험법·민법, 업계 자료 보도 인용, 카프리즘 가정 계산",
+    desc: "가벼운 교통사고로 입원하면 보험사는 무엇을 볼까? 경상환자 입원료 인정기준, 대인Ⅰ·대인Ⅱ·자기신체사고 구분, 내 과실 30% 치료비 정산, 한방 진료 제도 환경, 금감원 분쟁조정까지 피해자·가해자 모두 알아둘 점을 정리했다."
+  },
+  {
+    slug: "annual-car-running-cost-year-end-self-audit-guide-2026",
+    title: "\"우리 집 차, 올해 얼마 썼나?\"… 12월에 8개 항목으로 직접 결산하는 법, 복사해 쓰는 결산 표까지(2026-10-18 기준)",
+    date: "2026-10-18",
+    image: "yearcost26_gas_station.webp",
+    categories: ["life"],
+    tags: ["자동차유지비", "연말결산", "자동차세", "자동차보험료", "주유비"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가데이터처 가계동향조사, 보험개발원 발표 보도, 지방세법(국가법령정보센터), 오피넷, 한국도로공사 하이패스, 위택스, 카프리즘 계산(예시)",
+    desc: "이미 차를 가진 사람이 연말에 1년 유지비를 직접 결산하는 방법. 자동차세·보험료·연료·정비·검사·주차·통행료·세차 8개 항목별 확인처, 공식 참고 통계, 복사용 결산 표, 연말정산 연결 항목, 다음 해 줄일 3가지를 정리했다."
+  },
+  {
     slug: "hamyang-hwarimdong-valley-pavilions-geoyeonjeong-nongwoljeong-guide-2026",
     title: "\"정자 길 6.2km, 걷는 데 2시간?\"… 함양 화림동 거연정~농월정, 상시 개방·거연정은 국가지정 명승(2026-10-18 기준)",
     date: "2026-10-18",
