@@ -2,6 +2,258 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hazard-lights-correct-use-situations-law-misconceptions-guide-2026",
+    title: "\"앞차가 비상등을 켰는데 무슨 뜻이죠?\"… 도로교통법 본문에는 '비상등'이란 단어가 없다, 법이 정한 건 정차 등화와 고장 표지(2026년 10월 기준)",
+    date: "2026-10-19",
+    image: "hazard26_seoul_traffic.webp",
+    categories: ["life"],
+    tags: ["비상등", "비상점멸등", "도로교통법", "정체", "고장"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(도로교통법·시행령·시행규칙, 자동차 및 자동차부품의 성능과 기준에 관한 규칙), 생활법령정보, 한국도로공사 캠페인 보도, 정책브리핑, 국토교통부 국민행동요령(검색 요약)",
+    desc: "앞차 비상등은 감사일까 경고일까? 도로교통법에는 비상등 사용 조문이 없고 자동차규칙이 설치·작동만 정한다. 정체 끝 비상등, 긴급제동신호 6.0m/s², 밤·터널 정차 등화, 고속도로 고장 표지, 흔한 오해 5가지를 법령으로 확인했다."
+  },
+  {
+    slug: "phone-while-driving-law-fine-points-hands-free-enforcement-guide-2026",
+    title: "\"신호 대기 중엔 폰 써도 되죠?\"… 운전 중 휴대전화 범칙금 6만 원·벌점 15점, 안 내면 9만 원까지 오른다(승용 기준, 2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "phonedrv26_airman_phone_wheel.webp",
+    categories: ["life"],
+    tags: ["운전 중 휴대전화", "범칙금", "도로교통법 제49조", "신호대기", "벌점 15점"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(도로교통법·시행령·시행규칙·교통사고처리특례법), 법제처 찾기쉬운 생활법령, 대구경찰청 민원 FAQ, 정책브리핑, 국민콜110",
+    desc: "신호 대기 중 휴대폰 사용이 되는지, 승용·승합 범칙금은 얼마인지, 안 내면 가산금이 얼마인지를 도로교통법 제49조·시행령 별표 8·시행규칙 별표 28 원문으로 확인하고 영상 입증 시 과태료 구조와 신고·사고 시 확인된 사실만 정리했다."
+  },
+  {
+    slug: "emergency-vehicle-yield-law-ambulance-fine-lane-guide-2026",
+    title: "\"구급차가 뒤에서 오는데 어디로 비켜야 하죠?\"… 교차로면 교차로를 피해 멈추고 그 밖엔 길 양보, 승용 범칙금 6만 원은 지금도·벌점 10점은 2027년 2월부터 (2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "emvyield26_ambulance_front.webp",
+    categories: ["life"],
+    tags: ["구급차양보", "긴급자동차", "소방차길터주기", "도로교통법제29조", "범칙금"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(도로교통법·시행령·시행규칙·소방기본법·형법), 소방청 정책브리핑 안내, 언론 보도 인용, 카프리즘 제작 도표",
+    desc: "긴급자동차가 뒤에서 접근하면 어디로 비켜야 할까? 도로교통법 제29조 제4·5항과 소방청 차로별 요령, 사이렌이 없을 때, 고속도로·정체, 승용 범칙금 6만 원과 벌점 10점 시행 예정, 양보하다 신호를 넘었을 때의 한계, 신고 방법을 법령 원문 기준으로 정리했다."
+  },
+  {
+    slug: "e-scooter-pm-license-helmet-drunk-riding-fines-law-guide-2026",
+    title: "\"전동킥보드 타다 걸리면 얼마 내나요?\"… 무면허·음주 10만 원, 2명 탑승 4만 원, 안전모 안 쓰면 2만 원(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "escoot26_bike_lane_edge.webp",
+    categories: ["life"],
+    tags: ["전동킥보드", "개인형이동장치", "PM", "범칙금", "안전모"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터 도로교통법·시행령 별표 6·8·10·시행규칙 제2조의3·제32조·제33조의3·별표 18·28(DRF 원문), 도로교통공단·국토교통부·공정위·한국소비자원 공식 자료, 정책브리핑",
+    desc: "전동킥보드(PM)는 법상 원동기장치자전거다. 면허·나이, 안전모와 2명 탑승, 음주·약물, 통행 장소, 주차·견인, 대여 보험까지 도로교통법·시행령 별표 원문으로 확인한 범칙금과 확인하지 못한 항목을 정리했다."
+  },
+  {
+    slug: "new-car-delivery-day-checklist-paint-gap-mileage-contract-guide-2026",
+    title: "\"인수증에 서명해도 될까?\"… 신차 인수 당일 12가지 점검, 소비자분쟁해결기준의 '하자'는 외관·내장 마감 같은 단순하자를 뺀다(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "newdeliv26_hyundai_showroom_jeonju.webp",
+    categories: ["life"],
+    tags: ["신차인수", "신차출고", "인수증", "PDI", "신차점검"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "자동차관리법·민법(국가법령정보센터), 소비자분쟁해결기준(공정거래위원회 고시), 생활법령정보, 한국소비자원 보도자료, Carwow(PDI 일반 설명), 카프리즘 정리",
+    desc: "신차 인수 당일 계약서·차대번호·번호판, 도장·단차·유리·타이어, 시동·경고등, 주행거리, 인수증 서명 전 기재까지 12가지를 정리했다. 자동차관리법 제47조의2와 소비자분쟁해결기준을 근거와 일반 점검표로 나눠 확인했다."
+  },
+  {
+    slug: "car-lease-maturity-buyout-vs-return-residual-value-cost-guide-2026",
+    title: "\"리스 만기, 인수할까 반납할까?\"… 인수가 1,997만 원 차는 중고 시세 2,137만 원부터 남고, 정산금 220만 원이면 1,917만 원부터다(가정 계산)",
+    date: "2026-10-19",
+    image: "leasemat26_sonata_dn8.webp",
+    categories: ["life"],
+    tags: ["리스만기", "리스인수", "리스반납", "잔존가치", "초과주행"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "자동차리스 표준약관(2022.4.1 시행본, 신한카드 게시), 지방세법, 공정거래위원회·금융감독원 보도 인용, 카프리즘 가정 계산",
+    desc: "리스 만기가 다가오면 인수할지 반납할지 어떻게 정할까? 표준약관의 만기 처리·감가·초과운행 정산, 인수 시 취득세 7%, 시세 기준선 가정 계산, 재리스와 장기렌트 차이, 약정서 확인 항목을 정리했다."
+  },
+  {
+    slug: "aggressive-driving-vs-road-rage-law-penalty-report-guide-2026",
+    title: "\"난폭운전과 보복운전, 어디서부터 처벌되나?\"… 난폭은 1년 이하 징역, 보복은 특수협박 7년 이하·면허 벌점 100점(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "rageDrv26_police_car_seoul.webp",
+    categories: ["life"],
+    tags: ["난폭운전", "보복운전", "특수협박", "운전면허벌점", "블랙박스"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터 도로교통법·형법·특정범죄 가중처벌 등에 관한 법률·도로교통법 시행규칙 현행 조문(DRF), 행정안전부·경찰청 정책브리핑, 뉴스홈 보도, 카프리즘 제작 도표",
+    desc: "난폭운전은 9개 행위 중 둘 이상을 연달아 하거나 반복하면 1년 이하 징역, 보복운전은 형법 특수협박 등으로 7년 이하까지. 구성요건·형량·면허 벌점과 취소, 112·안전신문고 신고와 블랙박스 증거 요령, 맞대응 금지까지 조문으로 확인했다."
+  },
+  {
+    slug: "uljin-jukbyeon-lighthouse-harbor-coast-drive-guide-2026",
+    title: "\"스카이레일 타러 갔다가 헛걸음?\"… 울진 죽변, 3월 28일 운행 중단 뒤 재개 확인 못 해 등대·하트해변 해안 코스부터 짠다(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "ujjukb26_house_cliff_deck.webp",
+    categories: ["travel"],
+    tags: ["울진", "죽변", "죽변등대", "하트해변", "죽변항"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "울진군 / 한국관광공사 TourAPI / 죽변해안스카이레일 운영업체",
+    desc: "울진 죽변해안스카이레일의 2026년 운행 중단 경과와 죽변등대·하트해변·죽변항·수산물시장의 운영 정보, 주차·교통, 대게 금어기, 겨울 해안 주의점을 공식 자료로 정리했다."
+  },
+  {
+    slug: "dangjin-sapgyoho-waemok-sunrise-sunset-winter-coast-guide-2026",
+    title: "\"서해에서 해가 뜬다고?\"… 당진 왜목마을 12월 일출 07시 47분 안팎, 삽교호 함상공원은 겨울 17시 마감(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "dangjwm26_waemok_wing_sculpture.webp",
+    categories: ["travel"],
+    tags: ["당진", "왜목마을", "삽교호", "삽교호함상공원", "석문방조제"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "당진시 문화관광 / 당진도시공사 / 한국관광공사 TourAPI / 해양경찰청 / NOAA 계산",
+    desc: "당진 왜목마을의 서해 일출·일몰 소개가 사실인 범위, 겨울 일출·일몰 계산 시각, 삽교호 함상공원 운영시간·요금, 주차, 석문방조제 연계와 겨울 바람·갯벌 안전을 공식 자료로 정리했다."
+  },
+  {
+    slug: "haeparang-trail-east-coast-winter-section-guide-2026",
+    title: "\"해파랑길 42코스, 겨울에 걷다 해 지면 어쩌지?\"… 죽도정~하조대 9.8km·약 4시간, 하조대 둘레길은 이미 10월부터 18시 마감(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "hparang26_coast_pine.webp",
+    categories: ["travel"],
+    tags: ["해파랑길", "해파랑길42코스", "양양", "하조대", "죽도정"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "두루누비 / 한국관광공사 TourAPI / 양양군",
+    desc: "해파랑길 42코스(양양 죽도정 입구~하조대해변)의 두루누비 공식 거리·시간, 하조대 둘레길 동절기 개방 시간, 무료 공영주차장, 12번 버스 복귀, 겨울 해안 안전 점검을 정리했다."
+  },
+  {
+    slug: "goryeong-daegaya-museum-jisandong-tombs-world-heritage-guide-2026",
+    title: "\"가야고분군 7곳 중 고령은 어디?\" 지산동 고분군은 상시 개방, 대가야박물관은 월요일 휴관·11월부터 17시 폐관(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "dgygr26_jisan_clouds.webp",
+    categories: ["travel"],
+    tags: ["고령", "대가야", "지산동고분군", "가야고분군", "세계유산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "고령군 대가야박물관 / 한국관광공사 TourAPI / UNESCO 세계유산센터",
+    desc: "고령 지산동 고분군(가야고분군 7곳 중 하나)과 대가야박물관·우륵박물관·대가야생활촌의 운영시간·휴관·요금·주차, 관람 순서, 겨울 실내외 구분을 공식 자료로 정리했다."
+  },
+  {
+    slug: "jindo-unlimsanbang-sebang-sunset-winter-drive-guide-2026",
+    title: "\"세방낙조는 지금 막혀 있다\"… 진도 겨울 일몰은 급치산으로, 운림산방은 16시 30분 입장 마감(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "jdsebang26_sebang_sunset.webp",
+    categories: ["travel"],
+    tags: ["진도", "운림산방", "세방낙조", "급치산전망대", "진도대교"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "진도군청 / 국가유산청 / 한국관광공사 TourAPI / NOAA",
+    desc: "세방낙조 전망공간 2028년 5월까지 이용 제한, 급치산 전망대 대체 안내, 운림산방 겨울 관람시간·요금, 12월 일몰 시각, 진도대교 연계와 겨울 운전 주의를 공식 자료로 정리했다."
+  },
+  {
+    slug: "buan-gomso-salt-farm-jeotgal-market-byeonsan-drive-guide-2026",
+    title: "\"겨울 곰소엔 소금이 안 나온다?\"… 염전 소금 생산은 3~10월 안팎, 줄포만 갯벌생태관은 동절기 09~17시(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "gomsobu26_saltfarm_aerial.webp",
+    categories: ["travel"],
+    tags: ["부안", "곰소염전", "곰소젓갈", "곰소항", "줄포만"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "부안군 / 한국관광공사 TourAPI·대한민국 구석구석 / 곰소젓갈축제 누리집",
+    desc: "부안 곰소염전의 소금 생산 시기와 체험 확인 현황, 곰소젓갈단지 구매 전 점검 항목, 줄포만 노을빛 정원 운영시간·요금, 겨울에 볼 수 있는 것과 없는 것을 공식 자료로 정리했다."
+  },
+  {
+    slug: "ulsan-daewangam-park-suspension-bridge-lighthouse-winter-walk-guide-2026",
+    title: "\"바람 불면 출렁다리 못 건넌다?\" 대왕암공원 303m 다리는 강풍주의보 14m/s에 통행금지·무료·09~18시(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "ulsdwg26_bridge_deck.webp",
+    categories: ["travel"],
+    tags: ["울산", "대왕암공원", "출렁다리", "울기등대", "슬도"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "대왕암공원 누리집 / 한국관광공사 TourAPI / 한국천문연구원",
+    desc: "울산 대왕암공원 출렁다리의 운영시간·강풍 통제 기준·무료 여부, 울기등대 도보 구간, 주차 요금, 슬도·일산해수욕장 연계, 울산 일출·일몰 시각과 겨울 바람 주의점을 공식 자료로 정리했다."
+  },
+  {
+    slug: "sunchang-chaegyesan-suspension-bridge-trail-guide-2026",
+    title: "\"11월부터는 17시에 닫는다\"… 순창 채계산 출렁다리 270m, 겨울엔 언제까지 건널 수 있나(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "chaegye26_bridge_red_valley.webp",
+    categories: ["travel"],
+    tags: ["순창", "채계산출렁다리", "순창가볼만한곳", "섬진강예향천리마실길", "향가유원지"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "순창군 문화관광 / 한국관광공사 TourAPI",
+    desc: "순창 채계산 출렁다리의 운영시간(3~10월 09~18시, 11~2월 09~17시), 무료 이용, 기상에 따른 운영 변경, 주차장, 섬진강 예향천리마실길·향가유원지 연계를 공식 자료로 정리했다."
+  },
+  {
+    slug: "audi-small-suv-lineup-2027-q3-q4-etron-korea-view-2026",
+    title: "\"아우디 입문 SUV, 한국에선 뭐가 남나?\"… Q3 출시가 6,080만 원부터·Q4 e-트론 6,630만 원부터, Q2는 생산 종료 보도, 2027년형 Q4 국내는 미확인 (2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "audismall27_q3_front.webp",
+    categories: ["import"],
+    tags: ["아우디Q3", "아우디Q4e-tron", "아우디Q2", "아우디소형SUV", "아우디코리아"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "Audi AG 보도자료(Q3 2025.8.25, Q4 e-tron 2026.4.27), 아우디코리아 카탈로그, 헤럴드경제, 아시아경제, 카버즈, 뉴모빌리티뉴스, TFLcar, 클럽알파",
+    desc: "아우디 Q2·Q3·Q4 e-tron 2027 라인업을 아우디 보도자료와 국내 출시 보도로 확인했다. 한국 Q3 6,080만~6,767만 원, Q4 e-트론 6,630만~7,530만 원, Q2 단종, 미국 2027년형 Q3 $44,400과 미확인 항목을 나눠 정리했다."
+  },
+  {
+    slug: "lincoln-suv-lineup-size-ranking-2027-corsair-nautilus-aviator-navigator-korea",
+    title: "\"링컨 SUV, 한국에선 어디까지 살 수 있나?\"… 크기 순 4종 중 노틸러스 하이브리드 9,500만 원부터 네비게이터 1억 6,150만 원, 코세어는 국내 판매 미확인 (2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "linsuv27_navigator_front.webp",
+    categories: ["import"],
+    tags: ["링컨SUV", "링컨네비게이터", "링컨에비에이터", "링컨노틸러스", "링컨코세어"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "Lincoln.com 미국 모델 페이지, Ford Media(fromtheroad.ford.com), 데일리카, 오토뷰, 파이낸셜뉴스, KBB, Wikipedia",
+    desc: "2027년형 링컨 SUV를 코세어·노틸러스·에비에이터·네비게이터 순으로 전장·휠베이스·좌석·파워트레인·미국 가격을 정리하고, 링컨코리아(에프엘오토코리아) 국내 출시가로 한국에서 살 수 있는 크기의 끝을 확인했다. 공식 확인과 미확인을 구분했다."
+  },
+  {
+    slug: "drug-driving-refusal-penalty-license-revocation-law-2026",
+    title: "\"약물 측정, 거부하면 어떻게 되나요?\"… 상당한 이유가 있는 측정을 거부해도 5년 이하 징역·2천만 원 이하 벌금, 면허는 필요적 취소, 이미 2026년 4월 2일 시행(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "drugdrv26_police_car_seoul.webp",
+    categories: ["life"],
+    tags: ["약물운전", "측정불응", "면허취소", "도로교통법", "수면제"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터 도로교통법·시행규칙 현행 및 연혁 조문(DRF), 경찰청 정책브리핑 설명, 데일리팜 보도, 카프리즘 제작 도표",
+    desc: "약물운전 처벌 5년 이하 징역·2천만 원 이하 벌금은 언제부터 시행됐을까? 법률 제20864호 공포·시행일, 개정 전후 조문, 측정 불응죄, 면허 필요적 취소와 결격기간, 수면제·감기약 복용자가 알아둘 점을 조문으로 확인했다."
+  },
+  {
+    slug: "genesis-2027-gv80-coupe-model-year-change-price-vs-hybrid-2026",
+    title: "\"하이브리드 695만 원 더 내면 본전은 언제?\"… 2027 GV80 6,985만 원 vs 하이브리드 7,680만 원, 연비·유가 가정 계산(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "gv8027_gv80_front_press.webp",
+    categories: ["domestic", "news"],
+    tags: ["제네시스GV80", "2027GV80", "GV80쿠페", "GV80하이브리드", "연식변경"],
+    badge: "NEW CAR",
+    badgeClass: "cat-genesis",
+    source: "현대자동차그룹 뉴스룸 보도자료(제네시스, GV80 하이브리드 출시, 2026.10.6), 뉴스와, 카프리즘 기존 기사",
+    desc: "제네시스가 2026년 10월 6일 낸 2027 GV80(6,985만 원)·GV80 쿠페(8,270만 원) 연식변경 내용과, GV80 하이브리드(7,680만 원)와의 695만 원 차이를 공인 연비 12km/ℓ·유가·주행거리 가정으로 계산했다. 모든 가정과 확인하지 못한 항목을 공개한다."
+  },
+  {
+    slug: "driver-insurance-lawyer-fee-limit-change-police-stage-2026",
+    title: "\"변호사비 5,000만 원이 500만 원으로?\"… 소문 중 보도로 확인된 건 '심급별 500만·자기부담 50%', 경찰 단계 500만은 근거 못 찾아(2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "lawyerfee26_ps.webp",
+    categories: ["life"],
+    tags: ["운전자보험", "변호사선임비용", "자기부담금", "심급별한도", "경찰조사"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "금융감독원 권고 관련 보도(뉴스1·한국보험신문·대한금융신문·헤럴드경제·보험저널), 삼성화재 다이렉트 안내, KB Think 해설, 카프리즘 정리",
+    desc: "운전자보험 변호사선임비용이 경찰 조사 단계 5,000만 원에서 500만 원으로 줄고 50% 자기부담이 생긴다는 블로그 주장을 보도와 삼성화재 안내로 대조했다. 확인된 것과 못한 것, 기존 가입자 처리, 가입 전 약관 체크리스트를 정리했다."
+  },
+  {
+    slug: "genesis-gv80-hybrid-launch-7680-price-trim-fuel-economy-2026",
+    title: "\"7,680만 원, 가솔린보다 695만 원 더 내면 얼마나 가나?\"… GV80 하이브리드 출시, 12.0km/ℓ·912km 공식 확인 (2026-10-19 기준)",
+    date: "2026-10-19",
+    image: "gv80h26_side_grass.webp",
+    categories: ["domestic", "news"],
+    tags: ["제네시스GV80하이브리드", "GV80하이브리드가격", "GV80하이브리드연비", "GV80하이브리드출시", "제네시스하이브리드"],
+    badge: "NEW CAR",
+    badgeClass: "cat-genesis",
+    source: "제네시스 뉴스룸 보도자료(2026.10.6), 겟차, 파이낸셜뉴스, SBS Biz",
+    desc: "제네시스 GV80 하이브리드가 10월 6일 7,680만 원(개별소비세 5% 기준)에 출시됐다. 뉴스룸 보도자료로 가격·연비 12.0km/ℓ·352PS·최대 912km를 확인하고, 확인 못 한 트림별 가격·세제혜택 후 가격은 구분했다."
+  },
+  {
     slug: "car-free-month-vs-owning-car-monthly-cost-compare-2026",
     title: "\"차 없이 한 달 살면 더 싸지 않을까?\"… 월 500~600km가 분기점, 1,000km부터는 내 차가 7만~17만 원 싸다(할부·감가 제외, 가정 계산)",
     date: "2026-10-18",
@@ -2319,7 +2571,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-sonata-2027-the-edge-black-nline-price",
-    title: "\"2,876만 원부터\"인데 오른 건 6만 원? 2027 쏘나타 디 엣지, 같은 세금 기준으로 비교했다(가솔린 2.0 프리미엄 기준)",
+    title: "\"2,876만 원부터\"인데 오른 건 10만 원? 2027 쏘나타 디 엣지, 2026년형 현행 공식가와 비교했다(가솔린 2.0 프리미엄 기준)",
     date: "2026-10-07",
     image: "sonata27_black_nline_front34.webp",
     categories: ["domestic", "news"],
@@ -2327,7 +2579,7 @@ window.ARTICLES_DATA = [
     badge: "국산차",
     badgeClass: "cat-hyundai",
     source: "현대자동차 보도자료(뉴스와이어 2026-10-07) / 오토트리뷴 / 현대자동차그룹 2026 쏘나타 디 엣지 출시 보도자료 / 정책브리핑 / 카눈(2026년형 5% 환산가)",
-    desc: "현대차가 10월 7일 2027 쏘나타 디 엣지를 출시했다. 블랙 N Line이 신설되고 가솔린 2.0 프리미엄이 2,876만 원부터다. 2026년형을 개소세 5%로 환산한 가격(카눈 계산값)과 비교한 트림별 변동, 사양 변경, 하이브리드·신규 트림의 비교 한계를 정리했다."
+    desc: "현대차가 10월 7일 2027 쏘나타 디 엣지를 출시했다. 블랙 N Line이 신설되고 가솔린 2.0 프리미엄이 2,876만 원부터다. 현대차 공식 가격표의 2026년형 현행가와 비교한 트림별 변동, 사양 변경, 하이브리드·신규 트림의 비교 한계를 정리했다."
   },
   {
     slug: "resident-priority-parking-sharing-guide-seocho-gangnam-suseong-2026",
@@ -3047,7 +3299,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "카프리즘 기획 기사",
-    desc: "한국에도 2019년부터 한국형 레몬법(자동차관리법 교환·환불 중재)이 시행 중이다. 인도 후 1년·2만km, 중대 하자 2회·일반 하자 3회 수리 후 재발 요건과 절차 순서표, 서류 체크리스트, 2019~2026.7 접수 4,132건 중 판정 87건이라는 현실을 정리했다."
+    desc: "한국에도 2019년부터 한국형 레몬법(자동차관리법 교환·환불 중재)이 시행 중이다. 인도 후 2년 이내 요구할 수 있고, 수리 횟수 요건은 1년·2만km 기준 중대 하자 2회·일반 하자 3회 재발이다. 절차 순서표, 서류 체크리스트, 2019~2026.7 접수 4,132건 중 판정 87건이라는 현실을 정리했다."
   },
   {
     slug: "palgongsan-autumn-foliage-festival-gatbawi-2026",
@@ -5387,7 +5639,7 @@ window.ARTICLES_DATA = [
     badge: "가격전략",
     badgeClass: "cat-genesis",
     source: "오토트리뷴",
-    desc: "제네시스 GV80 하이브리드의 시작가가 7,900만~8,000만 원 초반대로 예상된다. 가솔린 대비 인상 폭 약 1,000만 원, 경쟁 모델인 렉서스 RX 350h(8,790만 원)와의 가격차 등 업계 관측을 정리했다."
+    desc: "제네시스 GV80 하이브리드의 시작가는 출시 전 7,900만~8,000만 원 초반대로 예상됐으나 실제 출시가는 7,680만 원이었다. 가솔린 대비 인상 폭 약 1,000만 원이라는 출시 전 관측과 렉서스 RX 350h(8,790만 원)와의 가격차를 정리했다."
   },
   {
     slug: "volvo-ex90-twin-motor-review-2026",
@@ -5687,7 +5939,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "카프리즘 기획 기사",
-    desc: "고속도로에서 차가 서면 트렁크에서 무엇을 꺼내야 할까. 도로교통법이 정한 고장자동차 표지 비치 의무, 미비치·미사용 시 과태료, 예전엔 100~200m였던 설치 거리 기준이 왜 사실상 폐지됐는지, 삼각대와 불꽃신호기의 차이와 화재 위험까지 2026년 기준으로 정리했다."
+    desc: "고속도로에서 차가 서면 트렁크에서 무엇을 꺼내야 할까. 도로교통법이 정한 고장자동차 표지 비치 의무, 표지 미비치는 과태료 2만 원(승용), 고장 시 조치 불이행은 범칙금 4만 원(승용), 예전엔 100~200m였던 설치 거리 기준이 왜 사실상 폐지됐는지, 삼각대와 불꽃신호기의 차이와 화재 위험까지 2026년 기준으로 정리했다."
   },
   {
     slug: "windshield-fogging-defog-tips-2026",
@@ -11535,7 +11787,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-g80-hybrid-q4-2026-launch-preview",
-    title: "GV80보다 석 달 늦게 — G80 하이브리드가 12월을 택한 이유",
+    title: "GV80보다 두 달 늦게 — G80 하이브리드가 12월을 택한 이유",
     date: "2026-09-07",
     image: "genesis_g80_2026_front.webp",
     categories: ["domestic", "news"],
@@ -11543,7 +11795,7 @@ window.ARTICLES_DATA = [
     badge: "UPCOMING",
     badgeClass: "cat-genesis",
     source: "토픽트리 / 유카포스트 / 카프리즘 기획 기사",
-    desc: "제네시스 G80 하이브리드가 2026년 4분기, GV80 하이브리드(9월) 이후인 12월경 출시될 예정이다. GV80과 동일한 2.5 스마트스트림 터보+모터 P1+P2 방식으로 합산 352마력을 내며, 완전 주유 시 약 1,200km 주행거리를 목표로 한다. 제네시스는 이번에도 순수 전기차 대신 가솔린 기반 하이브리드를 세단 라인업의 다음 카드로 택했다."
+    desc: "제네시스 G80 하이브리드가 2026년 4분기, GV80 하이브리드(10월 6일 출시) 이후인 12월경 출시될 것으로 보도됐다(공식 일정 미확인). GV80과 동일한 2.5 스마트스트림 터보+모터 P1+P2 방식으로 합산 352마력을 내며, 완전 주유 시 약 1,200km 주행거리가 거론된다(공식 확인 불가, GV80 공식은 약 912km). 제네시스는 이번에도 순수 전기차 대신 가솔린 기반 하이브리드를 세단 라인업의 다음 카드로 택했다."
   },
   {
     slug: "used-car-market-q3-2026-polarization-trend",
@@ -11919,7 +12171,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-gv80-hybrid-preview-352ps-2026",
-    title: "출력 16%, 토크 26% 늘었는데 연비는 25% 좋아졌다… 제네시스 첫 하이브리드의 계산법",
+    title: "출력 16% 늘었는데 연비는 29% 좋아졌다… 제네시스 첫 하이브리드의 계산법",
     date: "2026-09-06",
     image: "genesis_gv80_hybrid_front.webp",
     categories: ["reviews", "domestic"],
@@ -11927,7 +12179,7 @@ window.ARTICLES_DATA = [
     badge: "PREVIEW",
     badgeClass: "cat-genesis",
     source: "제네시스 / 아주경제 / getcha / 카프리즘 기획 기사",
-    desc: "제네시스 첫 풀 하이브리드 모델인 GV80 하이브리드가 2026년 9월 출시된다. 2.5 터보 하이브리드 시스템은 합산 출력 352마력, 토크 54.0kgf·m로 기존 2.5 터보 대비 출력 16%, 토크 26% 늘었지만 복합연비는 오히려 25% 이상 개선됐다. 가격은 7,800만~1억 원대로 추정되며 공식 발표를 앞두고 있다."
+    desc: "제네시스 첫 풀 하이브리드 모델인 GV80 하이브리드가 2026년 10월 6일 출시됐다(출시 전에는 9월로 보도됐다). 2.5 터보 하이브리드 시스템은 시스템 출력 352PS로 기존 2.5 터보 대비 약 16% 늘었고, 공식 복합연비는 12.0km/ℓ로 약 29% 개선됐다. 가격은 출시 전 추정(7,800만~1억 원대)보다 낮은 7,680만 원이다."
   },
   {
     slug: "sorento-sportage-hybrid-my2026-price-changes",
@@ -13239,7 +13491,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-gv80-hybrid-launch-korea-2026",
-    title: "\"토크 54.0kgf·m, 정지→100km/h 7.1초\"… 제네시스 첫 하이브리드 SUV가 내는 숫자",
+    title: "\"출력 352PS, 정지→100km/h 7.1초\"… 제네시스 첫 하이브리드 SUV가 내는 숫자",
     date: "2026-09-02",
     image: "genesis_gv80_hybrid_front.webp",
     categories: ["domestic"],
@@ -13247,7 +13499,7 @@ window.ARTICLES_DATA = [
     badge: "HYBRID",
     badgeClass: "cat-genesis",
     source: "토픽트리",
-    desc: "제네시스가 브랜드 최초의 하이브리드 SUV 'GV80 하이브리드'를 2026년 9월 출시한다. 2.5 터보 기반 P1+P2 병렬형 하이브리드로 후륜을 굴리며, 합산 출력 352마력에 복합연비는 기존 대비 25% 이상 개선될 전망이다."
+    desc: "제네시스가 브랜드 최초의 하이브리드 SUV 'GV80 하이브리드'를 2026년 10월 6일 출시했다(출시 전에는 9월로 보도됐다). 2.5 터보 기반 P1+P2 병렬형 하이브리드로 후륜을 굴리며, 합산 출력 352마력에 공식 복합연비는 12.0km/ℓ로 기존 2.5 터보 대비 약 29% 개선됐다."
   },
   {
     slug: "kgm-new-torres-facelift-price-2026",
@@ -18711,7 +18963,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-25t-hybrid-powertrain-2026",
-    title: "\"352마력인데 연비는 25% 좋아졌다\"… 제네시스가 GV80에 넣은 하이브리드의 정체",
+    title: "\"352마력인데 연비는 29% 좋아졌다\"… 제네시스가 GV80에 넣은 하이브리드의 정체",
     date: "2026-08-13",
     image: "genesis_gv80_front.webp",
     categories: ["news", "domestic"],
@@ -18719,7 +18971,7 @@ window.ARTICLES_DATA = [
     badge: "HYBRID",
     badgeClass: "cat-genesis",
     source: "모터그래프",
-    desc: "제네시스가 차세대 2.5 터보 하이브리드 시스템을 공개했다. 합산 352마력·54.0kgf·m, 0-100km/h 7.1초, 복합연비 25% 개선. 현대차그룹 최초로 적용된 수냉식 하이브리드 배터리와 P1+P2 병렬 구조가 무엇을 바꾸는지 뜯어봤다."
+    desc: "제네시스가 차세대 2.5 터보 하이브리드 시스템을 공개했다. 합산 352마력, 0-100km/h 약 7.1초(사내 시험), 복합연비 약 29% 개선(12.0km/ℓ, 2026년 10월 6일 출시 공식 값). 현대차그룹 최초로 적용된 수냉식 하이브리드 배터리와 P1+P2 병렬 구조가 무엇을 바꾸는지 뜯어봤다."
   },
   {
     slug: "vw-id4-rename-idtiguan-2026",
@@ -21507,7 +21759,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-gv80-hybrid-2026",
-    title: "\"전기차만 만들겠다더니\"… 제네시스 GV80 하이브리드, 9월 출시로 선언 뒤집었다",
+    title: "\"전기차만 만들겠다더니\"… 제네시스 GV80 하이브리드, 선언 뒤집고 10월 6일 출시했다",
     date: "2026-07-29",
     image: "genesis_gv80_front.webp",
     categories: ["news", "domestic"],
@@ -21515,7 +21767,7 @@ window.ARTICLES_DATA = [
     badge: "STRATEGY SHIFT",
     badgeClass: "cat-genesis",
     source: "토픽트리 / 유카포스트 / 오토포커스",
-    desc: "제네시스가 2026년 9월 GV80 하이브리드를 출시한다. 2025년 선언한 전 차종 전기차 전환 계획을 뒤집은 배경과 2.5T 하이브리드 파워트레인, 향후 전동화 전략까지 정리했다."
+    desc: "제네시스가 2026년 10월 6일 GV80 하이브리드를 출시했다(출시 전에는 9월로 보도됐다). 2025년 선언한 전 차종 전기차 전환 계획을 뒤집은 배경과 2.5T 하이브리드 파워트레인, 향후 전동화 전략까지 정리했다."
   },
   {
     slug: "kia-ev5-review-2026",
