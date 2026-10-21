@@ -35,6 +35,30 @@ const AD_MULTIPLEX = `<ins class="adsbygoogle"
 
 const esc = (s) => String(s).replace(/&(?!(amp|lt|gt|quot|#\d+);)/g, '&amp;').replace(/"/g, '&quot;');
 
+/**
+ * 기사 끝 '다음에 볼 기사' CTA 박스 (선택 필드 spec.cta).
+ *   cta: { title, text, primary: {label, href}, secondary?: {label, href} }
+ * - primary 는 카프리즘 내부 기사(상대 경로 slug.html), secondary 는 공식 사이트 등 외부 링크.
+ * - 광고 클릭 유도·허위 긴급성 문구 금지. 결론은 본문에 이미 있어야 하고 CTA 는 이어 읽기만 담당한다.
+ */
+function ctaBlock(cta) {
+  if (!cta) return '';
+  const btn = (b, cls) => {
+    const ext = /^https?:/.test(b.href);
+    const attrs = ext ? ' target="_blank" rel="noopener"' : '';
+    return `<a class="cta-btn ${cls}" href="${esc(b.href)}"${attrs}>${esc(b.label)}</a>`;
+  };
+  return `        <aside class="cta-box" aria-label="다음에 볼 기사">
+          <p class="cta-title">${esc(cta.title || '다음에 볼 기사')}</p>
+          <p class="cta-text">${esc(cta.text)}</p>
+          <div class="cta-actions">
+            ${btn(cta.primary, 'cta-primary')}${cta.secondary ? `
+            ${btn(cta.secondary, 'cta-secondary')}` : ''}
+          </div>
+        </aside>
+`;
+}
+
 function koDate(d) {
   const [y, m, day] = d.split('-');
   return `${y}년 ${Number(m)}월 ${Number(day)}일`;
@@ -48,6 +72,16 @@ function readMinutes(body) {
 function build(spec) {
   for (const k of REQUIRED) {
     if (spec[k] === undefined) throw new Error(`[${spec.slug || '?'}] 필수 필드 누락: ${k}`);
+  }
+  if (spec.cta) {
+    if (!spec.cta.text || !spec.cta.primary || !spec.cta.primary.label || !spec.cta.primary.href) {
+      throw new Error(`[${spec.slug}] cta 는 text 와 primary{label,href} 가 필요하다`);
+    }
+    for (const b of [spec.cta.primary, spec.cta.secondary].filter(Boolean)) {
+      if (!/^https?:/.test(b.href) && !fs.existsSync(path.join(ROOT, 'articles', b.href))) {
+        throw new Error(`[${spec.slug}] cta 링크 대상이 없다: ${b.href}`);
+      }
+    }
   }
   const iso = `${spec.date}T${spec.time}+09:00`;
   const tags = spec.tags;
@@ -214,6 +248,7 @@ function build(spec) {
 
 ${spec.body.replace(/<!--AD-->/g, AD_DISPLAY)}
 
+${ctaBlock(spec.cta)}
 ${AD_MULTIPLEX}
 
         <div class="related-inline reveal" id="related-inline">
