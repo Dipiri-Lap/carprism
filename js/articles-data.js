@@ -3,7 +3,7 @@
 window.ARTICLES_DATA = [
   {
     slug: "driver-license-periodic-aptitude-test-renewal-period-missed-penalty-guide-2026",
-    title: "\"적성검사 기간 놓쳤는데 면허 취소되나요?\"… 과태료는 1종 3만 원·2종 2만 원, 취소는 적성검사 대상만 1년 뒤부터(2026-10-21 기준)",
+    title: "\"적성검사 기간 놓쳤는데 면허 취소되나요?\"… 과태료는 1종 3만 원·2종 2만 원, 취소는 적성검사 대상만 1년 뒤부터",
     date: "2026-10-21",
     image: "licrenew26_exam_office_chuncheon.webp",
     categories: ["life"],
@@ -15,7 +15,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "crosswalk-pedestrian-yield-law-2022-amendment-fine-points-right-turn-guide-2026",
-    title: "\"횡단보도에 사람이 없는데 왜 멈춰요?\"… 승용차 범칙금 6만 원·벌점 10점, 보호구역 보행자 방해는 8~20시 12만 원, 12대 중과실까지(2026-10-21 기준)",
+    title: "\"횡단보도에 사람이 없는데 왜 멈춰요?\"… 승용차 범칙금 6만 원·벌점 10점, 보호구역 보행자 방해는 8~20시 12만 원, 12대 중과실까지",
     date: "2026-10-21",
     image: "crosswalk26_sign_child.webp",
     categories: ["life"],
@@ -75,7 +75,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jeju-wimi-camellia-grove-camelliahill-winter-guide-2026",
-    title: "\"동백 보러 갔는데 입장료부터 내라고?\"… 위미 동백나무 군락은 상시 개방, 카멜리아힐은 500여 종 6000여 그루에 동절기 17시 입장 마감(2026-10-21 기준)",
+    title: "\"동백 보러 갔는데 입장료부터 내라고?\"… 위미 동백나무 군락은 상시 개방, 카멜리아힐은 500여 종 6000여 그루에 동절기 17시 입장 마감",
     date: "2026-10-21",
     image: "wimi26_camellia_bench.webp",
     categories: ["travel"],
@@ -87,7 +87,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "goseong-gyeongnam-danghangpo-sangjokam-dinosaur-yi-sun-sin-guide-2026",
-    title: "\"공룡공원인 줄 알았는데 이순신 승전지?\"… 경남 고성 당항포, 입장료 7,000원·12~2월 17시 폐장·월요일 휴무(2026-10-21 기준)",
+    title: "\"공룡공원인 줄 알았는데 이순신 승전지?\"… 경남 고성 당항포, 입장료 7,000원·12~2월 17시 폐장·월요일 휴무",
     date: "2026-10-21",
     image: "dhp26_hall.webp",
     categories: ["travel"],
@@ -99,7 +99,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "pohang-guryongpo-japanese-house-street-gwamegi-homigot-guide-2026",
-    title: "\"과메기는 11월부터 아닌가요?\"… 구룡포 일본인 가옥거리 47개 건물, 근대역사관은 2026년 11월까지 휴관(2026-10-21 기준)",
+    title: "\"과메기는 11월부터 아닌가요?\"… 구룡포 일본인 가옥거리 47개 건물, 근대역사관은 2026년 11월까지 휴관",
     date: "2026-10-21",
     image: "grp26_street_main.webp",
     categories: ["travel"],
@@ -111,7 +111,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "sinan-jeungdo-taepyeong-saltern-salt-museum-jjangttungeo-bridge-guide-2026",
-    title: "\"증도, 염전만 보면 되나?\"… 소금박물관 3,000원·09~18시, 짱뚱어다리는 상시 개방, 염전체험은 겨울 불가(2026-10-21 기준)",
+    title: "\"증도, 염전만 보면 되나?\"… 소금박물관 3,000원·09~18시, 짱뚱어다리는 상시 개방, 염전체험은 겨울 불가",
     date: "2026-10-21",
     image: "jdtp26_saltern_field.webp",
     categories: ["travel"],
@@ -123,7 +123,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "naju-geumseonggwan-moksanaea-youngsanpo-half-day-guide-2026",
-    title: "\"금성관 해체수리 중이라던데 가도 될까?\"… 나주읍성 반나절, 영산포 황포돛배는 성인 8,000원·월요일 휴무(2026-10-21 기준)",
+    title: "\"금성관 해체수리 중이라던데 가도 될까?\"… 나주읍성 반나절, 영산포 황포돛배는 성인 8,000원·월요일 휴무",
     date: "2026-10-21",
     image: "najmok26_jeongsuru.webp",
     categories: ["travel"],
@@ -135,7 +135,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "boryeong-wonsando-undersea-tunnel-drive-sunset-guide-2026",
-    title: "\"6.9km 해저터널, 통행료 내야 하나?\"… 보령 원산도 드라이브, 12월 일몰은 17시 20분 안팎이라 서둘러야(2026-10-21 기준)",
+    title: "\"6.9km 해저터널, 통행료 내야 하나?\"… 보령 원산도 드라이브, 12월 일몰은 17시 20분 안팎이라 서둘러야",
     date: "2026-10-21",
     image: "wonsan26_bridge_aerial.webp",
     categories: ["travel"],
@@ -147,7 +147,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hwacheon-peace-dam-paroho-security-tour-drive-guide-2026",
-    title: "\"평화의댐·파로호·꺼먹다리, 한 곳 아니었어?\"… 높이 125m 댐과 09~18시 안보전시관, 월요일은 닫는다(2026-10-21 기준)",
+    title: "\"평화의댐·파로호·꺼먹다리, 한 곳 아니었어?\"… 높이 125m 댐과 09~18시 안보전시관, 월요일은 닫는다",
     date: "2026-10-21",
     image: "hcpd26_lake_view.webp",
     categories: ["travel"],
@@ -159,7 +159,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yongin-hantaek-botanical-garden-winter-guide-2026",
-    title: "\"겨울엔 4,000원 더 싸다?\"… 용인 한택식물원, 동절기 성인 6,000원·식당은 휴업, 퇴촌이 아닌 백암면(2026-10-21 기준)",
+    title: "\"겨울엔 4,000원 더 싸다?\"… 용인 한택식물원, 동절기 성인 6,000원·식당은 휴업, 퇴촌이 아닌 백암면",
     date: "2026-10-21",
     image: "hantaek26_gate.webp",
     categories: ["travel"],
@@ -171,7 +171,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "incheon-gaehangjang-chinatown-half-day-walk-parking-guide-2026",
-    title: "\"차이나타운 가면 짜장면만 먹고 오나?\"… 개항장 박물관 5곳 통합권 3,400원, 월요일엔 박물관이 모두 문 닫는다(2026-10-21 기준)",
+    title: "\"차이나타운 가면 짜장면만 먹고 오나?\"… 개항장 박물관 5곳 통합권 3,400원, 월요일엔 박물관이 모두 문 닫는다",
     date: "2026-10-21",
     image: "icgh26_exterior_museum.webp",
     categories: ["travel"],
@@ -183,7 +183,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "namyangju-sujongsa-temple-bukhangang-view-tea-guide-2026",
-    title: "\"수종사, 차 타고 올라가면 되죠?\"… 평일엔 일반 차량 진입 제한, 주차장서 절까지 400m·도보 15분(2026-10-21 기준)",
+    title: "\"수종사, 차 타고 올라가면 되죠?\"… 평일엔 일반 차량 진입 제한, 주차장서 절까지 400m·도보 15분",
     date: "2026-10-21",
     image: "sjs26_view_dumulmeori.webp",
     categories: ["travel"],
@@ -195,7 +195,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "volkswagen-id-cross-germany-price-small-battery-27995-euro-2026",
-    title: "\"27,995유로 전기 SUV, 진짜 나왔나?\"… 폭스바겐 ID. Cross 37kWh 버전 독일 사전 판매, WLTP 최대 324km(2026-10-21 기준)",
+    title: "\"27,995유로 전기 SUV, 진짜 나왔나?\"… 폭스바겐 ID. Cross 37kWh 버전 독일 사전 판매, WLTP 최대 324km",
     date: "2026-10-21",
     image: "idcross26_vw_front.webp",
     categories: ["electric", "news"],
@@ -207,7 +207,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "toyota-rav4-4runner-five-year-depreciation-resale-value-carbuzz-korea-view-2026",
-    title: "\"5년 타도 75%가 남는다고?\" 미국에서 RAV4·4러너 감가율 25%대, SUV 평균은 44.9%… 한국 RAV4는 6세대 출시 4개월 (2026-10-21 기준)",
+    title: "\"5년 타도 75%가 남는다고?\" 미국에서 RAV4·4러너 감가율 25%대, SUV 평균은 44.9%… 한국 RAV4는 6세대 출시 4개월",
     date: "2026-10-21",
     image: "rav4dep26_rav4_wood3.webp",
     categories: ["import", "news"],
@@ -231,7 +231,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "last-american-coupes-buick-gnx-dodge-viper-ford-gt-prices-rising-carbuzz-2026",
-    title: "\"몇 년 전 23만 달러였던 바이퍼가 지금은?\"… 뷰익 GNX·바이퍼·포드 GT, 미국 마지막 쿠페 4종 시세 최대 91.6% 상승 보도(2026-10-21 기준)",
+    title: "\"몇 년 전 23만 달러였던 바이퍼가 지금은?\"… 뷰익 GNX·바이퍼·포드 GT, 미국 마지막 쿠페 4종 시세 최대 91.6% 상승 보도",
     date: "2026-10-21",
     image: "amcoupe26_viper_acr_black.webp",
     categories: ["import", "news"],
@@ -255,7 +255,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "geely-holding-group-2026-ytd-3-million-sales-record-zeekr-volvo-korea",
-    title: "\"9개월 만에 300만 대\"… 지커 2배, 지리는 3% 성장, 해외 +169%: 지리홀딩 역대 최고 실적의 속사정(2026-10-21 기준)",
+    title: "\"9개월 만에 300만 대\"… 지커 2배, 지리는 3% 성장, 해외 +169%: 지리홀딩 역대 최고 실적의 속사정",
     date: "2026-10-21",
     image: "geelyh26_zeekr7x_showroom.webp",
     categories: ["news"],
@@ -267,7 +267,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "autonomous-a2z-temporary-driving-permit-100-vehicles-milestone-2026",
-    title: "\"허가 100대면 무인차 100대가 달리나?\"… 에이투지 임시운행허가 누적 101대, ROii 14대·개조차량 87대 (2026-10-21 기준)",
+    title: "\"허가 100대면 무인차 100대가 달리나?\"… 에이투지 임시운행허가 누적 101대, ROii 14대·개조차량 87대",
     date: "2026-10-21",
     image: "a2z26_press_100.webp",
     categories: ["news"],
@@ -291,7 +291,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-all-new-tucson-5th-gen-korea-price-3140-hybrid-3615-preorder-2026",
-    title: "\"신형 투싼 296만 원 올랐다?\"… 가솔린 3,140만·하이브리드 3,615만 원 확정, 같은 H-Pick끼리 비교하면 (2026-10-21 기준)",
+    title: "\"신형 투싼 296만 원 올랐다?\"… 가솔린 3,140만·하이브리드 3,615만 원 확정, 같은 H-Pick끼리 비교하면",
     date: "2026-10-21",
     image: "tcs5p26_press_pair_road.webp",
     categories: ["domestic", "news"],
@@ -303,7 +303,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jeonju-hakindang-hanok-backstreet-walk-guide-2026",
-    title: "\"학인당, 그냥 들어가서 구경해도 될까?\"… 전주 교동 고택은 체크인 15시·체크아웃 11시 숙박 중심, 향교길 산책은 월요일 휴관(2026-10-20 기준)",
+    title: "\"학인당, 그냥 들어가서 구경해도 될까?\"… 전주 교동 고택은 체크인 15시·체크아웃 11시 숙박 중심, 향교길 산책은 월요일 휴관",
     date: "2026-10-20",
     image: "jjhi26_hanok_hall.webp",
     categories: ["travel"],
@@ -315,7 +315,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "daegu-modern-alley-gyesan-cathedral-cheongna-hill-half-day-guide-2026",
-    title: "\"청라언덕에서 90계단 내려가면 계산성당\"… 대구 근대골목 반나절, 동산의료선교박물관은 휴관 중·고택은 무료·주차는 따로 챙겨야(2026-10-20 기준)",
+    title: "\"청라언덕에서 90계단 내려가면 계산성당\"… 대구 근대골목 반나절, 동산의료선교박물관은 휴관 중·고택은 무료·주차는 따로 챙겨야",
     date: "2026-10-20",
     image: "dgmd26_cheongna_house.webp",
     categories: ["travel"],
@@ -327,7 +327,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "gimcheon-cheongamsa-sudosan-valley-quiet-temple-guide-2026",
-    title: "\"인현왕후가 3년 머물렀다는 절\"… 김천 청암사, 859년 창건·상시 개방, 수도계곡 늦가을 코스(2026-10-20 기준)",
+    title: "\"인현왕후가 3년 머물렀다는 절\"… 김천 청암사, 859년 창건·상시 개방, 수도계곡 늦가을 코스",
     date: "2026-10-20",
     image: "cgs26_hero.webp",
     categories: ["travel"],
@@ -339,7 +339,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yeongam-wangin-park-gichan-land-wolchulsan-nearby-guide-2026",
-    title: "\"기찬랜드, 겨울에도 물놀이 되나요?\"… 물놀이장은 여름 한시, 왕인박사유적지는 연중무휴·무료·전시관 09~18시(2026-10-20 기준)",
+    title: "\"기찬랜드, 겨울에도 물놀이 되나요?\"… 물놀이장은 여름 한시, 왕인박사유적지는 연중무휴·무료·전시관 09~18시",
     date: "2026-10-20",
     image: "wangin26_hall.webp",
     categories: ["travel"],
@@ -351,7 +351,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "boryeong-seongjusaji-temple-site-seongjusan-forest-late-autumn-guide-2026",
-    title: "\"절은 없는데 탑이 4기\"… 보령 성주사지 늦가을, 국보 1점·보물 4기에 휴양림 입장료는 1,500원(2026-10-20 기준)",
+    title: "\"절은 없는데 탑이 4기\"… 보령 성주사지 늦가을, 국보 1점·보물 4기에 휴양림 입장료는 1,500원",
     date: "2026-10-20",
     image: "sjsj26_overview.webp",
     categories: ["travel"],
@@ -363,7 +363,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yesan-chusa-gotaek-sudeoksa-temple-half-day-course-guide-2026",
-    title: "\"월요일에 가면 문 닫혀 있다?\"… 예산 추사고택 무료·월요일 휴관, 1308년 지은 국보 수덕사 대웅전과 반나절 코스(2026-10-20 기준)",
+    title: "\"월요일에 가면 문 닫혀 있다?\"… 예산 추사고택 무료·월요일 휴관, 1308년 지은 국보 수덕사 대웅전과 반나절 코스",
     date: "2026-10-20",
     image: "chusa26_sarangchae.webp",
     categories: ["travel"],
@@ -375,7 +375,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hoengseong-pungsuwon-church-historic-cathedral-seomgang-guide-2026",
-    title: "\"풍수원성당, 사적 아니었나?\" 1982년 도 유형문화유산 지정, 본당은 1905 착공·1907 준공(2026-10-20 기준)",
+    title: "\"풍수원성당, 사적 아니었나?\" 1982년 도 유형문화유산 지정, 본당은 1905 착공·1907 준공",
     date: "2026-10-20",
     image: "pswc26_hero_front.webp",
     categories: ["travel"],
@@ -387,7 +387,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "seoul-suseongdong-valley-inwangsan-hanyangdoseong-trail-guide-2026",
-    title: "\"인왕산 순성길, 4km면 금방?\"… 돈의문 터~창의문 약 2시간 30분·난이도 5점 만점에 5점, 수성동계곡은 코스 밖(2026-10-20 기준)",
+    title: "\"인왕산 순성길, 4km면 금방?\"… 돈의문 터~창의문 약 2시간 30분·난이도 5점 만점에 5점, 수성동계곡은 코스 밖",
     date: "2026-10-20",
     image: "suseong26_valley1.webp",
     categories: ["travel"],
@@ -399,7 +399,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "seoul-eungbongsan-hangang-jungnangcheon-sunset-night-view-guide-2026",
-    title: "\"서울 야경은 남산뿐?\"… 응봉산 팔각정, 24시간 무료·12월 일몰은 17시 14분 안팎(2026-10-20 기준)",
+    title: "\"서울 야경은 남산뿐?\"… 응봉산 팔각정, 24시간 무료·12월 일몰은 17시 14분 안팎",
     date: "2026-10-20",
     image: "eungbs26_night_river.webp",
     categories: ["travel"],
@@ -411,7 +411,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hadong-pyeongsari-akyang-field-choichampandaek-late-autumn-guide-2026",
-    title: "\"평사리 부부송, 어느 길로 가야 보이나?\"… 하동 늦가을 가이드, 83만여 평 악양들판·최참판댁 입장료 2,000원(2026-10-20 기준)",
+    title: "\"평사리 부부송, 어느 길로 가야 보이나?\"… 하동 늦가을 가이드, 83만여 평 악양들판·최참판댁 입장료 2,000원",
     date: "2026-10-20",
     image: "hdps26_field_overview.webp",
     categories: ["travel"],
@@ -423,7 +423,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ganghwa-seokmodo-mineral-spa-bomunsa-sunset-guide-2026",
-    title: "\"석모도 노천탕에서 지는 해, 몇 시까지 들어가야 볼까?\"… 온천 9,000원·화요일 휴관, 12월 일몰은 17시 15분 안팎(2026-10-20 기준)",
+    title: "\"석모도 노천탕에서 지는 해, 몇 시까지 들어가야 볼까?\"… 온천 9,000원·화요일 휴관, 12월 일몰은 17시 15분 안팎",
     date: "2026-10-20",
     image: "ghsm26_bridge_aerial.webp",
     categories: ["travel"],
@@ -435,7 +435,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hwasun-unjusa-cheonbul-cheontap-reclining-buddha-guide-2026",
-    title: "\"천불천탑이라더니 지금은 몇 기?\"… 운주사 석불·석탑 수는 자료마다 달라, 문화관은 11월부터 17시 마감(2026-10-20 기준)",
+    title: "\"천불천탑이라더니 지금은 몇 기?\"… 운주사 석불·석탑 수는 자료마다 달라, 문화관은 11월부터 17시 마감",
     date: "2026-10-20",
     image: "hsujs26_reclining_buddha.webp",
     categories: ["travel"],
@@ -447,7 +447,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yeoncheon-hantangang-jusangjeolli-trail-jeongok-eundaeri-guide-2026",
-    title: "\"연천에도 철원 같은 잔도·물윗길이 있나?\"… 한탄강 주상절리길은 27.9km 4구간, 전체 9~10시간(2026-10-20 기준)",
+    title: "\"연천에도 철원 같은 잔도·물윗길이 있나?\"… 한탄강 주상절리길은 27.9km 4구간, 전체 9~10시간",
     date: "2026-10-20",
     image: "ychtg26_bridge_aerial.webp",
     categories: ["travel"],
@@ -471,7 +471,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "audi-vs-bmw-vs-mercedes-real-difference-not-reliability-column-korea-view",
-    title: "\"독일 3사, 차이는 신뢰성이 아니다\"? 칼럼 주장 대 공식 수치: BMW 198·벤츠 235·아우디 244 PP100, 한국 1~9월은 BMW 5만 7,929대·벤츠 4만 3,249대·아우디 9,982대 (2026-10-20 기준)",
+    title: "\"독일 3사, 차이는 신뢰성이 아니다\"? 칼럼 주장 대 공식 수치: BMW 198·벤츠 235·아우디 244 PP100, 한국 1~9월은 BMW 5만 7,929대·벤츠 4만 3,249대·아우디 9,982대",
     date: "2026-10-20",
     image: "g3col26_hero_trio.webp",
     categories: ["news", "import"],
@@ -483,7 +483,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ford-ranger-2027-twin-turbo-v6-report-engine-lineup-us-korea",
-    title: "\"2027 레인저에 3.0 트윈터보 V6가 들어간다?\"… 오더 가이드 기반 보도, 출력·가격은 포드 공식 확인 없음 (2026-10-20 기준)",
+    title: "\"2027 레인저에 3.0 트윈터보 V6가 들어간다?\"… 오더 가이드 기반 보도, 출력·가격은 포드 공식 확인 없음",
     date: "2026-10-20",
     image: "ranger27_lariat_front.webp",
     categories: ["import", "news"],
@@ -495,7 +495,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "subaru-boxer-engine-europe-end-after-2027-emissions-korea-view",
-    title: "\"스바루 박서가 유럽에서 사라진다고?\"… 2027년 말 내연기관 판매 종료 보도, 한국은 2012년 이미 철수 (2026-10-20 기준)",
+    title: "\"스바루 박서가 유럽에서 사라진다고?\"… 2027년 말 내연기관 판매 종료 보도, 한국은 2012년 이미 철수",
     date: "2026-10-20",
     image: "subabx27_cutaway.webp",
     categories: ["import", "news"],
@@ -507,7 +507,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bmw-7series-v8-return-mercedes-s-class-rival-2026",
-    title: "\"7시리즈에 V8이 돌아왔다\"… BMW M760 xDrive, 570hp대(보도)로 벤츠 S 580(537PS)과 맞붙지만 토크·가격·한국 도입은 미확정(2026-10-20 기준)",
+    title: "\"7시리즈에 V8이 돌아왔다\"… BMW M760 xDrive, 570hp대(보도)로 벤츠 S 580(537PS)과 맞붙지만 토크·가격·한국 도입은 미확정",
     date: "2026-10-20",
     image: "bmw7v8_front2.webp",
     categories: ["import", "news"],
@@ -519,7 +519,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "chevrolet-colorado-off-road-package-vs-kia-tasman-korea-2026",
-    title: "\"타스만에도 이런 옵션 좀\"… 콜로라도 험로 패키지는 미국 얘기, 국내엔 타스만 X-Pro 5,255만 원이 있다 (2026-10-20 기준)",
+    title: "\"타스만에도 이런 옵션 좀\"… 콜로라도 험로 패키지는 미국 얘기, 국내엔 타스만 X-Pro 5,255만 원이 있다",
     date: "2026-10-20",
     image: "colorado26_zr2_blue_front.webp",
     categories: ["domestic", "news"],
@@ -531,7 +531,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-kia-level4-autonomous-truck-xcient-pilot-mou-2026",
-    title: "\"운전자 없이 달리는 대형트럭, 언제 나오나?\"… 현대차·기아, 엑시언트 2대로 2027년 말까지 100km·400km 레벨 4 실증 (2026-10-20 기준)",
+    title: "\"운전자 없이 달리는 대형트럭, 언제 나오나?\"… 현대차·기아, 엑시언트 2대로 2027년 말까지 100km·400km 레벨 4 실증",
     date: "2026-10-20",
     image: "l4truck26_mou_signing.webp",
     categories: ["news", "domestic"],
@@ -543,7 +543,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "tesla-q3-2026-486k-deliveries-4-5-billion-loss-report-ai-investment",
-    title: "\"48만 대 팔고도 45억 달러 적자?\"… 실제 실적이 아니라 3분기 현금흐름 전망치, 발표는 10월 21일(2026-10-20 기준)",
+    title: "\"48만 대 팔고도 45억 달러 적자?\"… 실제 실적이 아니라 3분기 현금흐름 전망치, 발표는 10월 21일",
     date: "2026-10-20",
     image: "tslloss26_modely_front.webp",
     categories: ["news"],
@@ -555,7 +555,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bmw-ix3-us-first-month-1101-units-beats-mercedes-audi",
-    title: "\"출시 한 달 만에 1,101대\"? BMW iX3 미국 판매는 3분기 합계, 벤츠·아우디 앞선 것도 콕스 추정치 기준(2026-10-20 기준)",
+    title: "\"출시 한 달 만에 1,101대\"? BMW iX3 미국 판매는 3분기 합계, 벤츠·아우디 앞선 것도 콕스 추정치 기준",
     date: "2026-10-20",
     image: "ix3us26_front_charger.webp",
     categories: ["import", "news"],
@@ -591,7 +591,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-avante-n-monochrome-edition-final-edition-price-2026",
-    title: "\"파이널 에디션?\" 아반떼 N 모노크롬, 출력 변화 언급 없이 10월 29일 출시…가격은 아직 비공개(2026-10-20 기준)",
+    title: "\"파이널 에디션?\" 아반떼 N 모노크롬, 출력 변화 언급 없이 10월 29일 출시…가격은 아직 비공개",
     date: "2026-10-20",
     image: "avnmono26_hero_duo.webp",
     categories: ["domestic", "news"],
@@ -603,7 +603,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-kia-idea-festival-2026-finalists-motion-sickness-trunk",
-    title: "\"멀미 줄이는 조명, 3단으로 접히는 트렁크 보드\"… 현대차·기아 직원 아이디어 6개, 실제 차에 달린 적은 있을까 (2026-10-20 기준)",
+    title: "\"멀미 줄이는 조명, 3단으로 접히는 트렁크 보드\"… 현대차·기아 직원 아이디어 6개, 실제 차에 달린 적은 있을까",
     date: "2026-10-20",
     image: "ideafest26_trunk_demo.webp",
     categories: ["news", "domestic"],
@@ -615,7 +615,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "kia-pv5-pangyo-remote-dispatch-pilot-unmanned-rental-2026",
-    title: "\"빌리러 갈 필요 없겠네\"… 기아 PV5, 판교서 차가 찾아온다지만 \"무인\"이 아니라 \"원격 운전\"이다, 입주기업 임직원 한정(2026-10-20 기준)",
+    title: "\"빌리러 갈 필요 없겠네\"… 기아 PV5, 판교서 차가 찾아온다지만 \"무인\"이 아니라 \"원격 운전\"이다, 입주기업 임직원 한정",
     date: "2026-10-20",
     image: "pv5disp26_jeju_demo_kia.webp",
     categories: ["electric", "news"],
@@ -627,7 +627,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "nissan-pathfinder-2027-40th-anniversary-edition-retro-trim-price-us",
-    title: "\"40주년 에디션이라더니 이름은 스페셜 에디션?\"… 2027 닛산 패스파인더 $47,390부터, 한국은 2020년 철수 (2026-10-20 기준)",
+    title: "\"40주년 에디션이라더니 이름은 스페셜 에디션?\"… 2027 닛산 패스파인더 $47,390부터, 한국은 2020년 철수",
     date: "2026-10-20",
     image: "pathf27_new_front34_left.webp",
     categories: ["import", "news"],
@@ -639,7 +639,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "kia-sportage-6th-gen-spotted-design-size-expectations-2026",
-    title: "\"6세대 스포티지, EV5 닮고 더 커진다고?\"… 시험차 포착 보도, 출시·크기·엔진은 모두 기아 공식 발표 없음(2026-10-20 기준)",
+    title: "\"6세대 스포티지, EV5 닮고 더 커진다고?\"… 시험차 포착 보도, 출시·크기·엔진은 모두 기아 공식 발표 없음",
     date: "2026-10-20",
     image: "spt6g26_nq5_facelift_front.webp",
     categories: ["domestic", "news"],
@@ -651,7 +651,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "byd-5-seat-electric-suv-690hp-dual-30-inch-screens-reveal",
-    title: "\"690마력에 화면 두 개\"… BYD 5인승 전기 SUV 3세대 탕, 515kW는 MIIT 신고 보도·가격과 한국 판매는 미확인 (2026-10-20 기준)",
+    title: "\"690마력에 화면 두 개\"… BYD 5인승 전기 SUV 3세대 탕, 515kW는 MIIT 신고 보도·가격과 한국 판매는 미확인",
     date: "2026-10-20",
     image: "byd690_front34_filing.webp",
     categories: ["electric", "news"],
@@ -675,7 +675,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "phone-while-driving-law-fine-points-hands-free-enforcement-guide-2026",
-    title: "\"신호 대기 중엔 폰 써도 되죠?\"… 운전 중 휴대전화 범칙금 6만 원·벌점 15점, 안 내면 9만 원까지 오른다(승용 기준, 2026-10-19 기준)",
+    title: "\"신호 대기 중엔 폰 써도 되죠?\"… 운전 중 휴대전화 범칙금 6만 원·벌점 15점, 안 내면 9만 원까지 오른다(승용 기준)",
     date: "2026-10-19",
     image: "phonedrv26_airman_phone_wheel.webp",
     categories: ["life"],
@@ -687,7 +687,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "emergency-vehicle-yield-law-ambulance-fine-lane-guide-2026",
-    title: "\"구급차가 뒤에서 오는데 어디로 비켜야 하죠?\"… 교차로면 교차로를 피해 멈추고 그 밖엔 길 양보, 승용 범칙금 6만 원은 지금도·벌점 10점은 2027년 2월부터 (2026-10-19 기준)",
+    title: "\"구급차가 뒤에서 오는데 어디로 비켜야 하죠?\"… 교차로면 교차로를 피해 멈추고 그 밖엔 길 양보, 승용 범칙금 6만 원은 지금도·벌점 10점은 2027년 2월부터",
     date: "2026-10-19",
     image: "emvyield26_ambulance_front.webp",
     categories: ["life"],
@@ -699,7 +699,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "e-scooter-pm-license-helmet-drunk-riding-fines-law-guide-2026",
-    title: "\"전동킥보드 타다 걸리면 얼마 내나요?\"… 무면허·음주 10만 원, 2명 탑승 4만 원, 안전모 안 쓰면 2만 원(2026-10-19 기준)",
+    title: "\"전동킥보드 타다 걸리면 얼마 내나요?\"… 무면허·음주 10만 원, 2명 탑승 4만 원, 안전모 안 쓰면 2만 원",
     date: "2026-10-19",
     image: "escoot26_bike_lane_edge.webp",
     categories: ["life"],
@@ -711,7 +711,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "new-car-delivery-day-checklist-paint-gap-mileage-contract-guide-2026",
-    title: "\"인수증에 서명해도 될까?\"… 신차 인수 당일 12가지 점검, 소비자분쟁해결기준의 '하자'는 외관·내장 마감 같은 단순하자를 뺀다(2026-10-19 기준)",
+    title: "\"인수증에 서명해도 될까?\"… 신차 인수 당일 12가지 점검, 소비자분쟁해결기준의 '하자'는 외관·내장 마감 같은 단순하자를 뺀다",
     date: "2026-10-19",
     image: "newdeliv26_hyundai_showroom_jeonju.webp",
     categories: ["life"],
@@ -735,7 +735,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "aggressive-driving-vs-road-rage-law-penalty-report-guide-2026",
-    title: "\"난폭운전과 보복운전, 어디서부터 처벌되나?\"… 난폭은 1년 이하 징역, 보복은 특수협박 7년 이하·면허 벌점 100점(2026-10-19 기준)",
+    title: "\"난폭운전과 보복운전, 어디서부터 처벌되나?\"… 난폭은 1년 이하 징역, 보복은 특수협박 7년 이하·면허 벌점 100점",
     date: "2026-10-19",
     image: "rageDrv26_police_car_seoul.webp",
     categories: ["life"],
@@ -747,7 +747,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "uljin-jukbyeon-lighthouse-harbor-coast-drive-guide-2026",
-    title: "\"스카이레일 타러 갔다가 헛걸음?\"… 울진 죽변, 3월 28일 운행 중단 뒤 재개 확인 못 해 등대·하트해변 해안 코스부터 짠다(2026-10-19 기준)",
+    title: "\"스카이레일 타러 갔다가 헛걸음?\"… 울진 죽변, 3월 28일 운행 중단 뒤 재개 확인 못 해 등대·하트해변 해안 코스부터 짠다",
     date: "2026-10-19",
     image: "ujjukb26_house_cliff_deck.webp",
     categories: ["travel"],
@@ -759,7 +759,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "dangjin-sapgyoho-waemok-sunrise-sunset-winter-coast-guide-2026",
-    title: "\"서해에서 해가 뜬다고?\"… 당진 왜목마을 12월 일출 07시 47분 안팎, 삽교호 함상공원은 겨울 17시 마감(2026-10-19 기준)",
+    title: "\"서해에서 해가 뜬다고?\"… 당진 왜목마을 12월 일출 07시 47분 안팎, 삽교호 함상공원은 겨울 17시 마감",
     date: "2026-10-19",
     image: "dangjwm26_waemok_wing_sculpture.webp",
     categories: ["travel"],
@@ -771,7 +771,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "haeparang-trail-east-coast-winter-section-guide-2026",
-    title: "\"해파랑길 42코스, 겨울에 걷다 해 지면 어쩌지?\"… 죽도정~하조대 9.8km·약 4시간, 하조대 둘레길은 이미 10월부터 18시 마감(2026-10-19 기준)",
+    title: "\"해파랑길 42코스, 겨울에 걷다 해 지면 어쩌지?\"… 죽도정~하조대 9.8km·약 4시간, 하조대 둘레길은 이미 10월부터 18시 마감",
     date: "2026-10-19",
     image: "hparang26_coast_pine.webp",
     categories: ["travel"],
@@ -783,7 +783,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "goryeong-daegaya-museum-jisandong-tombs-world-heritage-guide-2026",
-    title: "\"가야고분군 7곳 중 고령은 어디?\" 지산동 고분군은 상시 개방, 대가야박물관은 월요일 휴관·11월부터 17시 폐관(2026-10-19 기준)",
+    title: "\"가야고분군 7곳 중 고령은 어디?\" 지산동 고분군은 상시 개방, 대가야박물관은 월요일 휴관·11월부터 17시 폐관",
     date: "2026-10-19",
     image: "dgygr26_jisan_clouds.webp",
     categories: ["travel"],
@@ -795,7 +795,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jindo-unlimsanbang-sebang-sunset-winter-drive-guide-2026",
-    title: "\"세방낙조는 지금 막혀 있다\"… 진도 겨울 일몰은 급치산으로, 운림산방은 16시 30분 입장 마감(2026-10-19 기준)",
+    title: "\"세방낙조는 지금 막혀 있다\"… 진도 겨울 일몰은 급치산으로, 운림산방은 16시 30분 입장 마감",
     date: "2026-10-19",
     image: "jdsebang26_sebang_sunset.webp",
     categories: ["travel"],
@@ -807,7 +807,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "buan-gomso-salt-farm-jeotgal-market-byeonsan-drive-guide-2026",
-    title: "\"겨울 곰소엔 소금이 안 나온다?\"… 염전 소금 생산은 3~10월 안팎, 줄포만 갯벌생태관은 동절기 09~17시(2026-10-19 기준)",
+    title: "\"겨울 곰소엔 소금이 안 나온다?\"… 염전 소금 생산은 3~10월 안팎, 줄포만 갯벌생태관은 동절기 09~17시",
     date: "2026-10-19",
     image: "gomsobu26_saltfarm_aerial.webp",
     categories: ["travel"],
@@ -819,7 +819,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ulsan-daewangam-park-suspension-bridge-lighthouse-winter-walk-guide-2026",
-    title: "\"바람 불면 출렁다리 못 건넌다?\" 대왕암공원 303m 다리는 강풍주의보 14m/s에 통행금지·무료·09~18시(2026-10-19 기준)",
+    title: "\"바람 불면 출렁다리 못 건넌다?\" 대왕암공원 303m 다리는 강풍주의보 14m/s에 통행금지·무료·09~18시",
     date: "2026-10-19",
     image: "ulsdwg26_bridge_deck.webp",
     categories: ["travel"],
@@ -831,7 +831,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "sunchang-chaegyesan-suspension-bridge-trail-guide-2026",
-    title: "\"11월부터는 17시에 닫는다\"… 순창 채계산 출렁다리 270m, 겨울엔 언제까지 건널 수 있나(2026-10-19 기준)",
+    title: "\"11월부터는 17시에 닫는다\"… 순창 채계산 출렁다리 270m, 겨울엔 언제까지 건널 수 있나",
     date: "2026-10-19",
     image: "chaegye26_bridge_red_valley.webp",
     categories: ["travel"],
@@ -843,7 +843,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "audi-small-suv-lineup-2027-q3-q4-etron-korea-view-2026",
-    title: "\"아우디 입문 SUV, 한국에선 뭐가 남나?\"… Q3 출시가 6,080만 원부터·Q4 e-트론 6,630만 원부터, Q2는 생산 종료 보도, 2027년형 Q4 국내는 미확인 (2026-10-19 기준)",
+    title: "\"아우디 입문 SUV, 한국에선 뭐가 남나?\"… Q3 출시가 6,080만 원부터·Q4 e-트론 6,630만 원부터, Q2는 생산 종료 보도, 2027년형 Q4 국내는 미확인",
     date: "2026-10-19",
     image: "audismall27_q3_front.webp",
     categories: ["import"],
@@ -855,7 +855,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "lincoln-suv-lineup-size-ranking-2027-corsair-nautilus-aviator-navigator-korea",
-    title: "\"링컨 SUV, 한국에선 어디까지 살 수 있나?\"… 크기 순 4종 중 노틸러스 하이브리드 9,500만 원부터 네비게이터 1억 6,150만 원, 코세어는 국내 판매 미확인 (2026-10-19 기준)",
+    title: "\"링컨 SUV, 한국에선 어디까지 살 수 있나?\"… 크기 순 4종 중 노틸러스 하이브리드 9,500만 원부터 네비게이터 1억 6,150만 원, 코세어는 국내 판매 미확인",
     date: "2026-10-19",
     image: "linsuv27_navigator_front.webp",
     categories: ["import"],
@@ -867,7 +867,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "drug-driving-refusal-penalty-license-revocation-law-2026",
-    title: "\"약물 측정, 거부하면 어떻게 되나요?\"… 상당한 이유가 있는 측정을 거부해도 5년 이하 징역·2천만 원 이하 벌금, 면허는 필요적 취소, 이미 2026년 4월 2일 시행(2026-10-19 기준)",
+    title: "\"약물 측정, 거부하면 어떻게 되나요?\"… 상당한 이유가 있는 측정을 거부해도 5년 이하 징역·2천만 원 이하 벌금, 면허는 필요적 취소, 이미 2026년 4월 2일 시행",
     date: "2026-10-19",
     image: "drugdrv26_police_car_seoul.webp",
     categories: ["life"],
@@ -879,7 +879,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-2027-gv80-coupe-model-year-change-price-vs-hybrid-2026",
-    title: "\"하이브리드 695만 원 더 내면 본전은 언제?\"… 2027 GV80 6,985만 원 vs 하이브리드 7,680만 원, 연비·유가 가정 계산(2026-10-19 기준)",
+    title: "\"하이브리드 695만 원 더 내면 본전은 언제?\"… 2027 GV80 6,985만 원 vs 하이브리드 7,680만 원, 연비·유가 가정 계산",
     date: "2026-10-19",
     image: "gv8027_gv80_front_press.webp",
     categories: ["domestic", "news"],
@@ -891,7 +891,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "driver-insurance-lawyer-fee-limit-change-police-stage-2026",
-    title: "\"변호사비 5,000만 원이 500만 원으로?\"… 소문 중 보도로 확인된 건 '심급별 500만·자기부담 50%', 경찰 단계 500만은 근거 못 찾아(2026-10-19 기준)",
+    title: "\"변호사비 5,000만 원이 500만 원으로?\"… 소문 중 보도로 확인된 건 '심급별 500만·자기부담 50%', 경찰 단계 500만은 근거 못 찾아",
     date: "2026-10-19",
     image: "lawyerfee26_ps.webp",
     categories: ["life"],
@@ -903,7 +903,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "genesis-gv80-hybrid-launch-7680-price-trim-fuel-economy-2026",
-    title: "\"7,680만 원, 가솔린보다 695만 원 더 내면 얼마나 가나?\"… GV80 하이브리드 출시, 12.0km/ℓ·912km 공식 확인 (2026-10-19 기준)",
+    title: "\"7,680만 원, 가솔린보다 695만 원 더 내면 얼마나 가나?\"… GV80 하이브리드 출시, 12.0km/ℓ·912km 공식 확인",
     date: "2026-10-19",
     image: "gv80h26_side_grass.webp",
     categories: ["domestic", "news"],
@@ -939,7 +939,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "parking-door-ding-unknown-culprit-victim-guide-2026",
-    title: "\"문콕 당했는데 가해자를 못 찾았어요\"… 관리실 CCTV는 경찰 신고 없이도 열람 요구할 수 있고, 열흘 안에 열람이나 거절·연기 답을 받아야 한다(2026-10-18 기준)",
+    title: "\"문콕 당했는데 가해자를 못 찾았어요\"… 관리실 CCTV는 경찰 신고 없이도 열람 요구할 수 있고, 열흘 안에 열람이나 거절·연기 답을 받아야 한다",
     date: "2026-10-18",
     image: "doording26_dashcams_windshield.webp",
     categories: ["life"],
@@ -951,7 +951,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "used-car-hidden-accident-history-compensation-refund-guide-2026",
-    title: "\"중고차 샀는데 사고차였다면?\"… 기록부와 다르면 인도 30일 안에 계약 해제, 침수는 90일(2026-10-18 기준)",
+    title: "\"중고차 샀는데 사고차였다면?\"… 기록부와 다르면 인도 30일 안에 계약 해제, 침수는 90일",
     date: "2026-10-18",
     image: "usedcomp26_repair_shop_night.webp",
     categories: ["life"],
@@ -963,7 +963,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "used-car-odometer-tampering-check-official-history-guide-2026",
-    title: "\"계기판은 6만km인데 페달은 반질반질하다면?\"… 주행거리 변경은 3년 이하 징역, 계약 해제 기한은 30일(2026-10-18 기준)",
+    title: "\"계기판은 6만km인데 페달은 반질반질하다면?\"… 주행거리 변경은 3년 이하 징역, 계약 해제 기한은 30일",
     date: "2026-10-18",
     image: "odotamper26_kona_cluster.webp",
     categories: ["life"],
@@ -975,7 +975,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "car-accident-minor-injury-hospitalization-insurance-review-guide-2026",
-    title: "\"경상인데 입원해도 보험사가 인정할까?\"… 내 과실 30%면 치료비 200만 원 중 24만 원은 내 몫(치료비만 있다고 가정한 계산, 2026-10-18 기준)",
+    title: "\"경상인데 입원해도 보험사가 인정할까?\"… 내 과실 30%면 치료비 200만 원 중 24만 원은 내 몫(치료비만 있다고 가정한 계산)",
     date: "2026-10-18",
     image: "injhosp26_corridor_nal.webp",
     categories: ["life"],
@@ -987,7 +987,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "annual-car-running-cost-year-end-self-audit-guide-2026",
-    title: "\"우리 집 차, 올해 얼마 썼나?\"… 12월에 8개 항목으로 직접 결산하는 법, 복사해 쓰는 결산 표까지(2026-10-18 기준)",
+    title: "\"우리 집 차, 올해 얼마 썼나?\"… 12월에 8개 항목으로 직접 결산하는 법, 복사해 쓰는 결산 표까지",
     date: "2026-10-18",
     image: "yearcost26_gas_station.webp",
     categories: ["life"],
@@ -999,7 +999,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hamyang-hwarimdong-valley-pavilions-geoyeonjeong-nongwoljeong-guide-2026",
-    title: "\"정자 길 6.2km, 걷는 데 2시간?\"… 함양 화림동 거연정~농월정, 상시 개방·거연정은 국가지정 명승(2026-10-18 기준)",
+    title: "\"정자 길 6.2km, 걷는 데 2시간?\"… 함양 화림동 거연정~농월정, 상시 개방·거연정은 국가지정 명승",
     date: "2026-10-18",
     image: "hwarimb26_geoyeon_rock_bridge.webp",
     categories: ["travel"],
@@ -1011,7 +1011,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "seosan-gaesimsa-temple-autumn-quiet-guide-2026",
-    title: "\"청벚꽃 지난 개심사, 가을에 가도 될까?\"… 상시 개방·연중무휴, 보물 대웅전은 1484년 건물(2026-10-18 기준)",
+    title: "\"청벚꽃 지난 개심사, 가을에 가도 될까?\"… 상시 개방·연중무휴, 보물 대웅전은 1484년 건물",
     date: "2026-10-18",
     image: "gaesim26_pagoda_daeungbojeon.webp",
     categories: ["travel"],
@@ -1023,7 +1023,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "boeun-seonbyeongguk-house-hanok-heritage-guide-2026",
-    title: "\"속리산 가는 길에 99칸 고택이 있다고?\"… 보은 선병국 가옥(우당고택), 입장료·관람시간은 확인 필요(2026-10-18 기준)",
+    title: "\"속리산 가는 길에 99칸 고택이 있다고?\"… 보은 선병국 가옥(우당고택), 입장료·관람시간은 확인 필요",
     date: "2026-10-18",
     image: "seonbg26_sarangchae_front.webp",
     categories: ["travel"],
@@ -1035,7 +1035,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "inje-gombaeryeong-reservation-trail-guide-2026",
-    title: "\"곰배령은 월·화요일 못 간다고?\"… 수요일 오전 9시 인터넷 예약 450명·센터 주차 5,000원(2026-10-18 기준)",
+    title: "\"곰배령은 월·화요일 못 간다고?\"… 수요일 오전 9시 인터넷 예약 450명·센터 주차 5,000원",
     date: "2026-10-18",
     image: "gombae26_summit_meadow.webp",
     categories: ["travel"],
@@ -1047,7 +1047,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "samcheok-millennium-coastal-road-east-sea-drive-guide-2026",
-    title: "\"4.6km 달리다 바다 위를 걷는다\"… 삼척 새천년해안도로, 스카이워크는 09~18시·강풍엔 입장 불가(2026-10-18 기준)",
+    title: "\"4.6km 달리다 바다 위를 걷는다\"… 삼척 새천년해안도로, 스카이워크는 09~18시·강풍엔 입장 불가",
     date: "2026-10-18",
     image: "samcmil26_coast_rocks.webp",
     categories: ["travel"],
@@ -1059,7 +1059,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yeoju-pasaseong-fortress-namhangang-view-hiking-guide-2026",
-    title: "\"주차장에서 성곽까지 약 860m(관광공사 기준), 정상에선 이포보가 보인다?\"… 상시 개방 여주 파사성(사적 251호) 오르는 길·가을 겨울 주의점(2026-10-18 기준)",
+    title: "\"주차장에서 성곽까지 약 860m(관광공사 기준), 정상에선 이포보가 보인다?\"… 상시 개방 여주 파사성(사적 251호) 오르는 길·가을 겨울 주의점",
     date: "2026-10-18",
     image: "pasaseong26_hero_south_view.webp",
     categories: ["travel"],
@@ -1071,7 +1071,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bukseoul-dream-forest-seoul-viewpoint-night-view-guide-2026",
-    title: "\"전망대에서 야경 볼 수 있을까?\"… 북서울꿈의숲은 공원 24시간 개방, 전망대는 월요일 휴관·서울시 2023년 안내 10~17시라 일몰 전 도착이 답(2026-10-18 기준)",
+    title: "\"전망대에서 야경 볼 수 있을까?\"… 북서울꿈의숲은 공원 24시간 개방, 전망대는 월요일 휴관·서울시 2023년 안내 10~17시라 일몰 전 도착이 답",
     date: "2026-10-18",
     image: "bukseoul26_pond_tower.webp",
     categories: ["travel"],
@@ -1083,7 +1083,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "gildong-ecological-park-seoul-winter-birds-guide-2026",
-    title: "\"무료인데 예약이 필수?\"… 서울 길동생태공원 겨울 탐방, 월요일 휴원·16시 입장 마감·동절기 17시 폐장(2026-10-18 기준)",
+    title: "\"무료인데 예약이 필수?\"… 서울 길동생태공원 겨울 탐방, 월요일 휴원·16시 입장 마감·동절기 17시 폐장",
     date: "2026-10-18",
     image: "gildong26_kto_boardwalk.webp",
     categories: ["travel"],
@@ -1203,7 +1203,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jeju-bijarim-saryeoni-forest-trail-winter-guide-2026",
-    title: "\"비자림은 17시까지 입장, 사려니숲길은 겨울 낮 12시 이후 입산 통제\"… 제주 숲길 하루 코스, 일반 3,000원(2026-10-17 기준)",
+    title: "\"비자림은 17시까지 입장, 사려니숲길은 겨울 낮 12시 이후 입산 통제\"… 제주 숲길 하루 코스, 일반 3,000원",
     date: "2026-10-17",
     image: "bijari26_bijarim_gate_sign.webp",
     categories: ["travel"],
@@ -1263,7 +1263,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "eulsukdo-winter-migratory-birds-busan-guide-2026",
-    title: "\"에코센터 관람은 무료, 주차는 하루 2,400원?\"… 을숙도 겨울 철새 탐조, 월요일 휴관·쌍안경 2,000원부터(2026-10-17 기준)",
+    title: "\"에코센터 관람은 무료, 주차는 하루 2,400원?\"… 을숙도 겨울 철새 탐조, 월요일 휴관·쌍안경 2,000원부터",
     date: "2026-10-17",
     image: "eulsuk26_swans_pair.webp",
     categories: ["travel"],
@@ -1923,7 +1923,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "suncheonman-black-crane-migration-guide-2026",
-    title: "\"올해 순천만 흑두루미는 언제 올까?\"… 작년 첫 도래 10월 22일 73마리, 겨울 최대 8,600마리(2026-10-14 기준)",
+    title: "\"올해 순천만 흑두루미는 언제 올까?\"… 작년 첫 도래 10월 22일 73마리, 겨울 최대 8,600마리",
     date: "2026-10-14",
     image: "bcrane26v2_winter_sunset.webp",
     categories: ["travel"],
@@ -1935,7 +1935,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "seosan-cheonsuman-migratory-birds-autumn-guide-2026",
-    title: "\"천수만 철새, 올해는 언제부터?\"… 서산버드랜드 철새기행전 10월 24일 개막, 가창오리 군무는 일몰 전후(2026-10-14 기준)",
+    title: "\"천수만 철새, 올해는 언제부터?\"… 서산버드랜드 철새기행전 10월 24일 개막, 가창오리 군무는 일몰 전후",
     date: "2026-10-14",
     image: "cheonsu26_hooded_cranes_hero.webp",
     categories: ["travel"],
@@ -1947,7 +1947,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jeju-oreum-silvergrass-autumn-guide-2026",
-    title: "\"가려던 오름이 휴식년제면 어쩌죠?\"… 용눈이·다랑쉬·금오름 3곳, 2024년 12월 보도 휴식년제 4곳 목록엔 없고 입장료 0원(2026-10-14 기준)",
+    title: "\"가려던 오름이 휴식년제면 어쩌죠?\"… 용눈이·다랑쉬·금오름 3곳, 2024년 12월 보도 휴식년제 4곳 목록엔 없고 입장료 0원",
     date: "2026-10-14",
     image: "jjoreum26_ynn_aerial.webp",
     categories: ["travel"],
@@ -2163,7 +2163,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "yeongyang-birch-forest-autumn-guide-2026",
-    title: "\"월요일엔 숲도 전기차도 쉽니다\"… 영양 자작나무숲 가을 가이드, 전기차 평일 10회·주말 13회에 숲까지 걷는 길 1.6km(2026-10-13 기준)",
+    title: "\"월요일엔 숲도 전기차도 쉽니다\"… 영양 자작나무숲 가을 가이드, 전기차 평일 10회·주말 13회에 숲까지 걷는 길 1.6km",
     date: "2026-10-13",
     image: "yybirch26_bridge_trail.webp",
     categories: ["travel"],
@@ -2175,7 +2175,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "sangju-gyeongcheonseom-nakdong-autumn-guide-2026",
-    title: "\"낙동강 제1경, 가을엔 어디부터 볼까?\"… 경천대 연중무휴 상시 개방, 상주박물관 10월 20일 새 기획전, 경천대행 시내버스 하루 5회(2026-10-13 기준)",
+    title: "\"낙동강 제1경, 가을엔 어디부터 볼까?\"… 경천대 연중무휴 상시 개방, 상주박물관 10월 20일 새 기획전, 경천대행 시내버스 하루 5회",
     date: "2026-10-13",
     image: "sangju26_hero_view.webp",
     categories: ["travel"],
@@ -2187,7 +2187,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "gimhae-gaya-heritage-walk-autumn-guide-2026",
-    title: "\"가야 유적, 하루에 다 걸어서 돌 수 있을까?\"… 김해 가야사누리길 약 5km·2시간, 박물관 2곳 무료·월요일 휴관(2026-10-13 기준)",
+    title: "\"가야 유적, 하루에 다 걸어서 돌 수 있을까?\"… 김해 가야사누리길 약 5km·2시간, 박물관 2곳 무료·월요일 휴관",
     date: "2026-10-13",
     image: "gimhae26_hero_dsmuseum_lrt.webp",
     categories: ["travel"],
@@ -2343,7 +2343,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "changwon-junam-reservoir-migratory-birds-autumn-guide-2026",
-    title: "\"주남저수지 철새, 올해는 언제 올까?\"… 작년 재두루미 선발대 10월 25일·최대 2,300마리, 올가을 AI 통제 여부는 전화 확인(2026-10-12 기준)",
+    title: "\"주남저수지 철새, 올해는 언제 올까?\"… 작년 재두루미 선발대 10월 25일·최대 2,300마리, 올가을 AI 통제 여부는 전화 확인",
     date: "2026-10-12",
     image: "junam26_lotus_hero.webp",
     categories: ["travel"],
@@ -2367,7 +2367,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "gyeongsan-bangokji-autumn-guide-2026",
-    title: "\"반곡지 왕버들, 가을엔 언제 가야 하나?\"… 1903년 저수지·20여 그루·상시 개방, 단풍 날짜는 공식 자료에 없다(2026-10-12 기준)",
+    title: "\"반곡지 왕버들, 가을엔 언제 가야 하나?\"… 1903년 저수지·20여 그루·상시 개방, 단풍 날짜는 공식 자료에 없다",
     date: "2026-10-12",
     image: "bangokji26_wiki_willow_spring.webp",
     categories: ["travel"],
@@ -2511,7 +2511,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "bukhansan-foliage-peak-timing-guide-2026",
-    title: "\"북한산 단풍, 10월 27일에 가면 절정일까?\"… 10월 27일은 평년값일 뿐, 올해 관측은 아직 없어 계산하면 11월 7일까지(2026.10.11 기준)",
+    title: "\"북한산 단풍, 10월 27일에 가면 절정일까?\"… 10월 27일은 평년값일 뿐, 올해 관측은 아직 없어 계산하면 11월 7일까지",
     date: "2026-10-11",
     image: "bukhanfol26_hero_oct27.webp",
     categories: ["travel"],
