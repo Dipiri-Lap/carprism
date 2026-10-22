@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "car-theft-statistics-by-year-prevention-smart-key-guide-2026",
+    title: "\"도난 1위 차종이 뭐예요?\" 2021년 2,404건, 하루 6.6대꼴(카프리즘 계산)인데 차종 순위는 공개 자료에서 찾지 못했다",
+    date: "2026-10-22",
+    image: "theft26_stat_photo_night_parking.webp",
+    categories: ["life"],
+    tags: ["자동차도난", "차량도난통계", "도난방지", "스마트키", "릴레이어택"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "경찰청 제출 자료(정우택 의원실, 뉴스핌 보도), 국토교통부 제출 자료(이투데이 보도), 더드라이브, 노컷뉴스, 기아 온라인 사용설명서, 카프리즘 계산",
+    desc: "자동차 도난은 몇 건일까? 경찰청 제출 자료의 2017~2021년 건수(2021년 2,404건)와 시도별 분포를 인용하고, 차종별 순위를 찾지 못한 이유와 통계 한계, 스마트키 보관·핸들 잠금장치·블랙박스 등 예방 장치별 확인 범위를 정리했다."
+  },
+  {
+    slug: "korea-fastest-0-100-zero-hundred-top5-official-spec-price-per-second-2026",
+    title: "\"국산 제로백 1위는 3.2초\"… 5종 중 가장 비싼 차가 아니었다, 1초 줄이는 값은 66만~3,948만 원(출시가 기준 카프리즘 계산)",
+    date: "2026-10-22",
+    image: "hmgsolidstate_ioniq6n.webp",
+    categories: ["domestic", "news"],
+    tags: ["국산차제로백", "제로백순위", "아이오닉6N", "아이오닉5N", "GV60마그마"],
+    badge: "NEW CAR",
+    badgeClass: "cat-hyundai",
+    source: "현대자동차 카탈로그·가격표, 현대차그룹 보도자료, 기아 EV6 GT 카탈로그·가격표, 제네시스 뉴스룸·제원 페이지",
+    desc: "제조사 공식 자료로 0→100km/h가 확인된 국산 양산차 5종(아이오닉 6 N 3.2초, 아이오닉 5 N·GV60 마그마 3.4초, EV6 GT 3.5초, GV60 퍼포먼스 AWD 4.0초)을 시험 조건, kg당 출력, 가격, 1초 단축 추가금까지 직접 계산해 비교했다."
+  },
+  {
+    slug: "sorento-vs-santafe-vs-carnival-hybrid-same-5000-won-budget-compare-2026",
+    title: "\"5,000만 원이면 쏘렌토·싼타페는 최상위 트림, 카니발 7인승은 노블레스에서 멈춘다\"… 하이브리드 가격표 합계 4,864만·4,946만(세제혜택 후) vs 카니발 5,188만 원(카프리즘 계산)",
+    date: "2026-10-22",
+    image: "sameb26_hero_trio.webp",
+    categories: ["domestic", "news"],
+    tags: ["쏘렌토하이브리드", "싼타페하이브리드", "카니발하이브리드", "5000만원", "하이브리드가격"],
+    badge: "NEW CAR",
+    badgeClass: "cat-hyundai",
+    source: "기아 쏘렌토·카니발 가격·제원 페이지, 현대차 싼타페 하이브리드 가격표·카탈로그, 정책브리핑(기획재정부 자료), 카프리즘 계산",
+    desc: "같은 5,000만 원으로 쏘렌토·싼타페·카니발 하이브리드 7인승을 맞춰 보면? 현대차·기아 공식 가격표로 트림·옵션 합계 6가지 조합을 계산하고 전장·휠베이스·공차중량·공식 연비를 표로 비교했다. 쏘렌토·싼타페는 세제혜택 후 가격 기준이며, 카니발은 9인승 가격도 정리했다."
+  },
+  {
+    slug: "kona-vs-seltos-vs-trax-crossover-small-suv-same-budget-compare-2026",
+    title: "\"2,938만 원이 두 대다\"… 셀토스 가솔린과 코나 하이브리드가 같은 값인데, 같은 예산에서 이렇게 다르다",
+    date: "2026-10-22",
+    image: "smsuv26_kona_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["코나", "셀토스", "트랙스크로스오버", "소형SUV비교", "같은예산비교"],
+    badge: "NEW CAR",
+    badgeClass: "cat-hyundai",
+    source: "현대차 2027 코나 가격표·카탈로그, 기아 셀토스 가격표(PDF)·출시 보도자료, 쉐보레 트랙스 크로스오버 공식 페이지, 현대차그룹 뉴스룸",
+    desc: "코나·셀토스·트랙스 크로스오버를 2,500만·2,800만·3,000만 원 안팎 예산으로 맞춰, 현대차·기아·쉐보레 공식 가격표의 겹치는 트림과 기본 사양 차이, 공식 제원, 하이브리드 웃돈 회수 기간(카프리즘 계산)을 정리했다. 확인하지 못한 항목도 따로 밝혔다."
+  },
+  {
     slug: "uiryeong-half-day-course-sotbawi-late-autumn-winter-guide-2026",
     title: "\"의령 솥바위, 반나절이면 될까?\"… 충익사에서 솥바위까지 공식 코스 6.6km·15분, 의병박물관은 무료·월요일 휴관(카프리즘 합산)",
     date: "2026-10-22",
