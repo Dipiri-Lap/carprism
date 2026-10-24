@@ -131,7 +131,7 @@ function escapeAttr(str) {
   const tipsList = document.querySelector('#driving-tips .article-list');
   if (tipsList && tipsList.children.length === 0) {
     const TIPS_BADGES = ['DRIVING TIPS', 'POLICY UPDATE', 'EV POLICY'];
-    const tipsItems = sortedByDate.filter((item) => TIPS_BADGES.includes(item.badge));
+    const tipsItems = sortedByDate.filter((item) => TIPS_BADGES.includes(item.badge)).slice(0, 15);
 
     tipsList.innerHTML = tipsItems.map((item) => `
       <li>
@@ -381,16 +381,51 @@ if (mobileMenuBtn && mobileNav) {
   heroEl.addEventListener('mouseleave', startAuto);
 
   // 터치/드래그 스와이프
-  let startX = 0;
-  track.addEventListener('pointerdown', (e) => { startX = e.clientX; stopAuto(); });
+  let startX = 0, swiped = false;
+  track.addEventListener('dragstart', (e) => e.preventDefault());
+  track.addEventListener('pointerdown', (e) => { startX = e.clientX; swiped = false; stopAuto(); });
   track.addEventListener('pointerup',   (e) => {
     const diff = startX - e.clientX;
-    if (Math.abs(diff) > 50) goTo(diff > 0 ? current + 1 : current - 1);
+    if (Math.abs(diff) > 50) { swiped = true; goTo(diff > 0 ? current + 1 : current - 1); }
     startAuto();
   });
+  track.addEventListener('pointercancel', () => startAuto());
+  // 스와이프로 넘긴 직후에는 슬라이드 링크 클릭(기사 이동)을 막는다
+  track.addEventListener('click', (e) => { if (swiped) { e.preventDefault(); e.stopPropagation(); swiped = false; } }, true);
 
   // 초기화
   startAuto();
+})();
+
+// ─────────────────────────────────────────────
+//  기사 목차(H2 4개 이상) + 맨 위로 버튼
+// ─────────────────────────────────────────────
+(function() {
+  const body = document.querySelector('.article-body');
+  if (!body) return;
+  const heads = Array.from(body.querySelectorAll('h2')).filter((h) => h.textContent.trim() && !/^(함께 보면 좋은|관련 기사|인기 태그)/.test(h.textContent.trim()));
+  if (heads.length >= 4) {
+    const used = new Set(Array.from(document.querySelectorAll('[id]')).map((e) => e.id));
+    heads.forEach((h, i) => {
+      if (!h.id) { let id = 'sec-' + (i + 1); while (used.has(id)) id += '_'; h.id = id; used.add(id); }
+    });
+    const nav = document.createElement('nav');
+    nav.className = 'article-toc';
+    nav.setAttribute('aria-label', '기사 목차');
+    nav.innerHTML = '<details open><summary>목차 <span class="toc-count">' + heads.length + '개 섹션</span></summary><ol>' +
+      heads.map((h) => '<li><a href="#' + h.id + '">' + h.textContent.trim().replace(/^\d+\.\s*/, '').replace(/</g, '&lt;') + '</a></li>').join('') +
+      '</ol></details>';
+    heads[0].parentNode.insertBefore(nav, heads[0]);
+    if (window.matchMedia('(max-width: 720px)').matches) nav.querySelector('details').open = false;
+  }
+  const top = document.createElement('button');
+  top.type = 'button';
+  top.className = 'back-to-top';
+  top.setAttribute('aria-label', '맨 위로');
+  top.textContent = '↑';
+  top.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  document.body.appendChild(top);
+  window.addEventListener('scroll', () => top.classList.toggle('show', window.scrollY > 1500), { passive: true });
 })();
 
 // ─────────────────────────────────────────────

@@ -224,7 +224,10 @@ body {
   display: flex;
   transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
+  touch-action: pan-y;          /* 가로 제스처는 스와이프로 받고 세로 스크롤만 브라우저에 맡긴다 */
+  user-select: none;
 }
+.slider-track img, .slider-track a { -webkit-user-drag: none; }
 
 /* 개별 슬라이드: 좌 이미지 60% + 우 텍스트 40% */
 .slide {
@@ -867,6 +870,15 @@ body {
   .slide-content {
     padding: 24px 20px;
   }
+  /* 화살표는 사진 영역(220px) 중앙에 둔다 — 카드 중앙에 두면 제목을 가린다 */
+  .slider-arrow {
+    top: 110px;
+    width: 44px;
+    height: 44px;
+    background: rgba(0,0,0,0.35);
+  }
+  .slider-arrow--prev { left: 8px; }
+  .slider-arrow--next { right: 8px; }
   .featured-grid {
     grid-template-columns: 1fr;
   }
