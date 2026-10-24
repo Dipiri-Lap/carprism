@@ -11,6 +11,7 @@
 // scripts/validate-articles-data.js와 마찬가지로 수동 실행 스크립트다(빌드 훅 없음).
 // 새 기사를 articles-data.js에 추가한 뒤 반드시 `node scripts/prerender-lists.js`를 실행할 것.
 
+const IMG_BASE = require('./cdn.js').BASE;
 const fs = require('fs');
 const path = require('path');
 
@@ -36,7 +37,7 @@ function heroSlide(item, i) {
   return `
       <div class="slide" role="group" aria-label="슬라이드 ${i + 1}" data-href="articles/${item.slug}.html" tabindex="0">
         <div class="slide-image">
-          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+          <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>
         <div class="slide-content">
           <span class="slide-cat slide-cat--${catClass}">${item.badge}</span>
@@ -59,7 +60,7 @@ function articleRow(item, prefix = '') {
       <li>
         <a href="${prefix}articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="${prefix}images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -74,7 +75,7 @@ function featuredCard(item, prefix = '') {
   return `
     <a href="${prefix}articles/${item.slug}.html" class="featured-card reveal">
       <div class="card-thumb">
-        <img src="${prefix}images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+        <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         <span class="card-cat ${item.badgeClass}">${item.badge}</span>
       </div>
       <div class="card-info">
@@ -250,7 +251,7 @@ Object.entries(CATEGORY_FILES).forEach(([cat, filename]) => {
       <guid isPermaLink="true">${link}</guid>
       <pubDate>${pubDate}</pubDate>
       <description>${escapeXml(item.desc)}</description>
-      <enclosure url="https://carprism.tmhub.co.kr/images/${item.image}" type="image/webp"/>
+      <enclosure url="https://carprism.tmhub.co.kr/${IMG_BASE}${item.image}" type="image/webp"/>
     </item>`;
   }).join('');
 

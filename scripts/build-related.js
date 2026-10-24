@@ -209,7 +209,7 @@ function sidebarItem(it) {
       <li>
         <a href="${it.slug}.html" class="related-item">
           <div class="related-thumb">
-            <img src="../images/${it.image}" alt="${escAttr(it.title)}" loading="lazy">
+            <img src="https://img.tmhub.co.kr/carprism/${it.image}" alt="${escAttr(it.title)}" loading="lazy">
           </div>
           <div class="related-info">
             <span class="related-title">${escText(it.title)}</span>
@@ -222,7 +222,7 @@ function inlineCard(it) {
   return `
         <a href="${it.slug}.html" class="related-inline-card">
           <div class="related-inline-thumb">
-            <img src="../images/${it.image}" alt="${escAttr(it.title)}" loading="lazy">
+            <img src="https://img.tmhub.co.kr/carprism/${it.image}" alt="${escAttr(it.title)}" loading="lazy">
           </div>
           <span class="related-inline-card-title">${escText(it.title)}</span>
         </a>`;

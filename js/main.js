@@ -1,3 +1,5 @@
+// 기사 이미지는 Cloudflare R2(img.tmhub.co.kr/carprism/)에서 서빙한다
+const IMG_BASE = "https://img.tmhub.co.kr/carprism/";
 function escapeAttr(str) {
   return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
@@ -26,7 +28,7 @@ function escapeAttr(str) {
       track.innerHTML = heroItems.map((item, i) => `
       <div class="slide" role="group" aria-label="슬라이드 ${i + 1}" data-href="articles/${item.slug}.html" tabindex="0">
         <div class="slide-image">
-          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+          <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         </div>
         <div class="slide-content">
           <span class="slide-cat slide-cat--${item.badgeClass === 'cat-sales' ? 'gold' : 'blue'}">${item.badge}</span>
@@ -72,7 +74,7 @@ function escapeAttr(str) {
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -99,7 +101,7 @@ function escapeAttr(str) {
     cardsWrap.innerHTML = cardItems.map((item) => `
       <a href="articles/${item.slug}.html" class="featured-card reveal">
         <div class="card-thumb">
-          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+          <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           <span class="card-cat ${item.badgeClass}">${item.badge}</span>
         </div>
         <div class="card-info">
@@ -113,7 +115,7 @@ function escapeAttr(str) {
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -135,7 +137,7 @@ function escapeAttr(str) {
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -191,7 +193,7 @@ function escapeAttr(str) {
       <li>
         <a href="articles/${item.slug}.html" class="article-row reveal">
           <div class="row-thumb">
-            <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
           </div>
           <div class="row-info">
             <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -231,7 +233,7 @@ function escapeAttr(str) {
   cardsWrap.innerHTML = topItems.map((item) => `
     <a href="articles/${item.slug}.html" class="featured-card reveal">
       <div class="card-thumb">
-        <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+        <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         <span class="card-cat ${item.badgeClass}">${item.badge}</span>
       </div>
       <div class="card-info">
@@ -245,7 +247,7 @@ function escapeAttr(str) {
     <li>
       <a href="articles/${item.slug}.html" class="article-row reveal">
         <div class="row-thumb">
-          <img src="images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
+          <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" width="120" height="80">
         </div>
         <div class="row-info">
           <span class="cat-label ${item.badgeClass}">${item.badge}</span>
@@ -535,7 +537,7 @@ if (mobileMenuBtn && mobileNav) {
 
     results.innerHTML = matches.map((item) => `
       <a class="search-result-item" href="${prefix}articles/${item.slug}.html">
-        <img src="${prefix}images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+        <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
         <span>
           <span class="search-result-title">${item.title}</span>
           <span class="search-result-date">${item.date.replace(/-/g, '.')}</span>
@@ -605,7 +607,7 @@ if (mobileMenuBtn && mobileNav) {
       <li>
         <a href="${item.slug}.html" class="related-item">
           <div class="related-thumb">
-            <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           </div>
           <div class="related-info">
             <span class="related-title">${item.title}</span>
@@ -624,7 +626,7 @@ if (mobileMenuBtn && mobileNav) {
       inlineGrid.innerHTML = inlineRelated.map((item) => `
         <a href="${item.slug}.html" class="related-inline-card">
           <div class="related-inline-thumb">
-            <img src="../images/${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
+            <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           </div>
           <span class="related-inline-card-title">${item.title}</span>
         </a>

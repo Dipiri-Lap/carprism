@@ -21,7 +21,7 @@ const ROOT = path.join(__dirname, '..');
 const ART = path.join(ROOT, 'articles');
 const IMG = path.join(ROOT, 'images');
 
-const IMG_TAG = /<img src="\.\.\/images\/([^"]+)"([^>]*)>/g;
+const IMG_TAG = /<img src="(?:\.\.\/images\/|https:\/\/img\.tmhub\.co\.kr\/carprism\/)([^"]+)"([^>]*)>/g;
 
 const dimCache = new Map();
 

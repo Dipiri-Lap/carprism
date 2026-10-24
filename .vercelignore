@@ -11,3 +11,8 @@ a656051.txt
 2-3 제공문서.txt
 ref/
 docs/
+
+# 이미지는 Cloudflare R2(img.tmhub.co.kr/carprism/)에서 서빙한다 — 파비콘·로고만 배포에 포함
+images/*
+!images/favicon.png
+!images/logo.png
