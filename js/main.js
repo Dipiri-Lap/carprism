@@ -615,32 +615,51 @@ if (mobileMenuBtn && mobileNav) {
   const current = data.find((item) => item.slug === currentSlug);
   if (!current) return;
 
-  // 카테고리는 8개뿐인 넓은 버킷(domestic/import/electric/news/travel 등)이라
-  // 겹침만으로는 실제 주제 연관성을 구분하지 못한다. 태그(구체적 키워드)와
-  // 배지(소재 유형: RECALL/NEW MODEL 등) 일치에 훨씬 높은 가중치를 둬서
-  // "진짜 비슷한 기사"가 상단에 오도록 점수를 매긴다.
+  // 제목·slug에서 뽑은 키워드(지역명·차종·시설명)가 겹치는 기사를 높이 친다.
+  // 어디서나 흔한 단어는 IDF로 눌러서, 드문 키워드를 공유할수록 점수가 커진다.
+  const SLUG_STOP = new Set(['guide', 'winter', 'hours', 'ticket', 'with', 'from', 'korea', 'view', 'price', 'spec', 'compare', 'test', 'drive', 'tips', 'best', 'review']);
+  const JOSA = /(에서|으로|에는|에도|까지|부터|보다|이라|입니다|이다|의|은|는|이|가|을|를|에|와|과|도|로)$/;
+  function tokensOf(item) {
+    const out = new Set();
+    (item.title.match(/[가-힣]{2,}|[A-Za-z][A-Za-z0-9]{2,}/g) || []).forEach((w) => {
+      w = w.toLowerCase();
+      if (/[가-힣]/.test(w) && w.length >= 3) w = w.replace(JOSA, '');
+      if (w.length >= 2) out.add(w);
+    });
+    item.slug.split('-').forEach((w) => { if (w.length >= 4 && !/^\d+$/.test(w) && !SLUG_STOP.has(w)) out.add(w); });
+    (item.tags || []).forEach((t) => out.add(String(t).toLowerCase()));
+    return out;
+  }
+  const toks = new Map(data.map((item) => [item.slug, tokensOf(item)]));
+  const df = new Map();
+  toks.forEach((set) => set.forEach((w) => df.set(w, (df.get(w) || 0) + 1)));
+  const N = data.length;
+  const idf = (w) => { const d = df.get(w) || 0; return d < 2 || d > N * 0.06 ? 0 : Math.log(N / d); };
+  const curToks = toks.get(currentSlug);
+
   function relevanceScore(item) {
+    let kw = 0;
+    toks.get(item.slug).forEach((w) => { if (curToks.has(w)) kw += idf(w); });
     const sharedTags = (item.tags || []).filter((t) => (current.tags || []).includes(t)).length;
     const sharedCategories = item.categories.filter((cat) => current.categories.includes(cat)).length;
     const sameBadge = item.badge && current.badge && item.badge === current.badge ? 1 : 0;
-    return sharedTags * 5 + sameBadge * 2 + sharedCategories;
+    return Math.min(kw, 18) * 1.5 + sharedTags * 3 + sameBadge + sharedCategories * 2;
   }
 
   const ranked = data
     .filter((item) => item.slug !== currentSlug)
-    .sort((a, b) => {
-      const scoreDiff = relevanceScore(b) - relevanceScore(a);
-      if (scoreDiff !== 0) return scoreDiff;
-      return new Date(b.date) - new Date(a.date);
-    });
+    .map((item) => [item, relevanceScore(item)])
+    .sort((a, b) => (b[1] - a[1]) || (new Date(b[0].date) - new Date(a[0].date)))
+    .map((pair) => pair[0]);
 
+  const track = (kind, slug) => { if (typeof gtag === 'function') gtag('event', 'select_content', { content_type: kind, item_id: slug }); };
+
+  // 사이드바(모바일에서는 본문 아래): 상위 4개
   const relatedList = document.getElementById('related-list');
-  // scripts/build-related.js 가 정적 HTML로 미리 채워둔 경우(정상 배포 상태) JS 렌더링을 건너뛴다.
-  if (relatedList && relatedList.children.length === 0) {
-    const sidebarRelated = ranked.slice(0, 4);
-    relatedList.innerHTML = sidebarRelated.map((item) => `
+  if (relatedList) {
+    relatedList.innerHTML = ranked.slice(0, 4).map((item) => `
       <li>
-        <a href="${item.slug}.html" class="related-item">
+        <a href="${item.slug}.html" class="related-item" data-rel="sidebar">
           <div class="related-thumb">
             <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           </div>
@@ -653,13 +672,13 @@ if (mobileMenuBtn && mobileNav) {
     `).join('');
   }
 
+  // 본문 하단: 5~10위 6개
   const inlineGrid = document.getElementById('related-inline-grid');
-  if (inlineGrid && inlineGrid.children.length === 0) {
-    // 사이드바와 겹치지 않게 그 다음 순위 기사를 보여준다.
-    const inlineRelated = ranked.slice(4, 7).length ? ranked.slice(4, 7) : ranked.slice(0, 3);
+  if (inlineGrid) {
+    const inlineRelated = ranked.slice(4, 10);
     if (inlineRelated.length) {
       inlineGrid.innerHTML = inlineRelated.map((item) => `
-        <a href="${item.slug}.html" class="related-inline-card">
+        <a href="${item.slug}.html" class="related-inline-card" data-rel="end">
           <div class="related-inline-thumb">
             <img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy">
           </div>
@@ -671,6 +690,27 @@ if (mobileMenuBtn && mobileNav) {
       if (inlineBlock) inlineBlock.style.display = 'none';
     }
   }
+
+  // 본문 중간("이어 읽기"): 섹션이 5개 이상이면 중반 H2 앞에 1위 기사를 끼운다
+  const body = document.querySelector('.article-body');
+  const heads = body ? Array.from(body.querySelectorAll('h2')).filter((h) => !/^(함께 보면 좋은|관련 기사|인기 태그)/.test(h.textContent.trim())) : [];
+  if (heads.length >= 5 && ranked[0]) {
+    const target = heads[Math.floor(heads.length * 0.55)];
+    const item = ranked[0];
+    const mid = document.createElement('a');
+    mid.href = item.slug + '.html';
+    mid.className = 'related-mid';
+    mid.setAttribute('data-rel', 'mid');
+    mid.innerHTML = `
+      <span class="related-mid-thumb"><img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy"></span>
+      <span class="related-mid-text"><span class="related-mid-label">이어 읽기</span><span class="related-mid-title">${item.title}</span></span>`;
+    target.parentNode.insertBefore(mid, target);
+  }
+
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('[data-rel]');
+    if (a) track('related_' + a.getAttribute('data-rel'), a.getAttribute('href').replace(/\.html$/, ''));
+  });
 })();
 
 

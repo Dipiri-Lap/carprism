@@ -114,6 +114,7 @@ function build(spec) {
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://carprism.tmhub.co.kr/articles/${spec.slug}.html">
 <link rel="icon" type="image/png" href="../images/favicon.png">
+<link rel="alternate" type="application/rss+xml" title="CarPrism RSS" href="https://carprism.tmhub.co.kr/feed.xml">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7327562206502398"
      crossorigin="anonymous"></script>
 
@@ -320,7 +321,7 @@ ${tags.slice(0, 5).map(t => `          <a href="../tag.html?t=${encodeURICompone
         <span class="footer-logo-icon">C</span>
         <span class="footer-logo-text">CAR<em>PRISM</em></span>
       </a>
-      <p class="footer-desc">카프리즘은 국내외 주요 자동차 미디어의 최신 소식을 가장 빠르고 정확하게 전하는 자동차 전문 뉴스 사이트입니다.</p>
+      <p class="footer-desc">카프리즘은 국내외 자동차 소식과 가격·제원 비교, 드라이브·국내여행 코스, 운전 생활 정보를 공식 자료를 바탕으로 정리하는 자동차 라이프 사이트입니다.</p>
     </div>
     <div>
       <h3 class="footer-col-title">카테고리</h3>
