@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hybrid-battery-replacement-cost-warranty-years-km-hyundai-kia-toyota-lexus-2026",
+    title: "하이브리드 배터리 보증 10년 20만km… \"평생\"은 일부 구형만, 토요타는 연 1회 점검 조건",
+    date: "2026-10-25",
+    image: "hbat25_hyundai-santafe-hybrid.webp",
+    categories: ["life"],
+    tags: ["하이브리드배터리보증", "하이브리드배터리교체비", "고전압배터리보증", "토요타하이브리드보증", "현대하이브리드보증"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아·토요타코리아·렉서스코리아·제네시스 공식 보증 안내(Playwright 확인), 공정거래위원회 소비자분쟁해결기준(고시 제2025-14호), 자동차관리법(국가법령정보센터 API), 카프리즘 계산",
+    desc: "하이브리드 배터리 보증은 현대·기아·토요타·렉서스 모두 10년 20만km다. 한국 공식 페이지로 평생보증 대상, 정상 노화 제외, 연 1회 점검 조건, 승계 차이를 표로 비교하고 연 주행거리별 만료 시점을 계산했다."
+  },
+  {
+    slug: "ev-winter-heater-range-loss-heat-pump-seat-heater-comparison-2026",
+    title: "\"전기차 겨울 히터 켜면 주행거리 41% 뚝\"… 끄면 12%뿐이라는 AAA 시험, 열선·히트펌프로 얼마나 막을까",
+    date: "2026-10-25",
+    image: "evht25_ev6_cockpit.webp",
+    categories: ["life"],
+    tags: ["전기차겨울히터", "전기차주행거리", "히트펌프", "시트열선", "핸들열선"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "AAA 보도자료(2019), 미국 에너지부 fueleconomy.gov, 현대자동차그룹 저널, 환경부·국립환경과학원 저온 인증 보도, 한국소비자원 시험 보도, 카프리즘 가정 계산",
+    desc: "전기차 겨울 히터를 켜면 주행거리가 얼마나 줄까? AAA 2019 시험에서 공조를 끄면 12%, 켜면 41% 감소. 시트 열선·히트펌프·예열이 주는 영향을 공식 자료로 비교했다."
+  },
+  {
+    slug: "imported-car-warranty-period-extended-warranty-brand-compare-2026",
+    title: "수입차 보증기간 7개 브랜드 공식 비교, 5년 보증 볼보도 연 4만km면 30개월 만료, 연장보증 거리는 10만~30만km",
+    date: "2026-10-25",
+    image: "imwr25_benz_e_class.webp",
+    categories: ["life"],
+    tags: ["수입차보증기간", "연장보증", "신차보증", "고전압배터리보증", "소비자분쟁해결기준"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "BMW·벤츠·아우디·폭스바겐·볼보·토요타·렉서스 한국 공식 사이트 보증 안내, 국가법령정보센터(자동차관리법 제47조의2, 소비자분쟁해결기준), 헤럴드경제 보도 인용, 카프리즘 계산",
+    desc: "수입차 보증기간을 BMW·벤츠·아우디·폭스바겐·볼보·토요타·렉서스 한국 공식 사이트로 직접 확인했다. 일반 보증, 기산 시점, 고전압 배터리, 연장보증 가입 시한과 법정 품질보증기간을 표로 비교했다."
+  },
+  {
+    slug: "ev-blue-license-plate-rule-target-reissue-benefits-guide-2026",
+    title: "전기차 파란 번호판 교체는 선택, 8,000만 원 이상 법인 승용차는 연녹색… 주차 감면은 「표지」 기준(조례 3곳 확인)",
+    date: "2026-10-25",
+    image: "evpl25_niro_ev_blue_plate_street.webp",
+    categories: ["life"],
+    tags: ["전기차번호판", "파란번호판", "번호판교체", "전기차혜택", "환경친화적자동차표지"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(자동차 등록번호판 등의 기준에 관한 고시, 환경친화적자동차법·시행규칙, 자동차관리법·시행규칙, 지자체 조례), 파주시 안내, 카프리즘 조문 대조",
+    desc: "전기차 파란 번호판 대상은 전기·수소전기차이고 하이브리드·PHEV는 제외다. 기존 흰 번호판 교체는 선택, 8,000만 원 이상 법인 승용차는 연녹색, 주차 감면은 번호판이 아닌 표지 기준임을 법령과 확인한 조례 3곳으로 확인했다."
+  },
+  {
+    slug: "compact-car-eco-car-benefits-compare-tax-toll-parking-2026",
+    title: "경차·전기차·하이브리드 혜택 2026 한 표 비교… 통행료 50%·30%·0%, 남산터널은 하이브리드도 면제",
+    date: "2026-10-25",
+    image: "bnft25_ray_gas_street.webp",
+    categories: ["life"],
+    tags: ["경차혜택", "전기차혜택", "하이브리드혜택", "취득세감면", "개별소비세"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(지방세특례제한법·조세특례제한법·개별소비세법·지방세법·유료도로법 시행령·주차장법·대기환경보전법 시행령, 서울특별시 혼잡통행료 징수 조례), 서울시설공단, 카프리즘 가정 계산",
+    desc: "경차·전기차·수소차·하이브리드 혜택을 취득세·개소세·자동차세·통행료·주차·혼잡통행료까지 현행 법령으로 한 표에 비교하고, 연말 일몰 항목과 쓰는 방식별 유리한 차를 계산했다."
+  },
+  {
     slug: "yeonggwang-chilsan-bridge-baeksu-coast-road-winter-sunset-drive-guide-2026",
     title: "\"칠산대교에서 노을 볼까?\" 영광 겨울 해는 17시 21분에 진다, 백수해안도로까지 몇 시에 출발해야 할까",
     date: "2026-10-25",
@@ -18027,7 +18087,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hybrid-battery-warranty-replacement-cost",
-    title: "\"평생 보증이라더니 중고로 넘어가자 사라졌다\"… 하이브리드 배터리의 조건",
+    title: "\"평생 보증이라더니 중고로 넘어가자 사라졌다\"… 하이브리드 배터리, 일부 구형만 평생·토요타는 연 1회 점검",
     date: "2026-08-23",
     image: "hybrid_battery_packs.webp",
     categories: ["life", "news"],
@@ -18035,7 +18095,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-sales",
     source: "카프리즘",
-    desc: "하이브리드 배터리 교체 비용은 200만~450만 원 수준이다. 현대·기아의 평생 보증은 신차 최초 개인 고객에게만 적용되며 중고로 넘어가거나 법인 명의면 10년 20만km로 축소된다. 토요타·렉서스는 10년 20만km를 명시하되 소유주가 바뀌어도 승계된다. 중고 하이브리드 구매 시 확인할 항목을 정리했다."
+    desc: "현대·기아 하이브리드 배터리 평생 보증은 그랜저 IG·K7 등 일부 구형 모델의 최초 개인 고객에게만 적용되고, 중고 이전·법인 명의면 10년 20만km다. 토요타·렉서스는 10년 20만km에 연 1회 점검 조건이 붙는다. 교체비 200만~450만 원은 공식 가격이 아닌 시장 추정치다."
   },
   {
     slug: "premium-gasoline-octane-rating-guide",
