@@ -2,6 +2,54 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "traffic-accident-fatality-rate-by-road-type-highway-national-local-taas-2026",
+    title: "\"고속도로가 가장 위험하다?\" 도로 종류별 교통사고 치사율 3.68명, 그런데 사고는 2.6%·사망은 7.3%뿐",
+    date: "2026-10-28",
+    image: "rdt28_gyeongbu_expressway_traffic.webp",
+    categories: ["life"],
+    tags: ["도로종류별교통사고", "고속도로치사율", "교통사고통계", "TAAS", "도로교통공단"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 교통사고분석시스템(TAAS) 도로종류별·시간대별·주야별·사고유형별 교통사고(2025년·2024년, 경찰DB), 도로법(국가법령정보센터), 카프리즘 계산",
+    desc: "도로 종류별 교통사고 치사율을 도로교통공단 TAAS 2025년 통계로 비교했다. 고속도로 치사율은 3.68명으로 1위지만 사고 2.6%·사망 7.3%이고, 사망 1위는 시도·특별광역시도다."
+  },
+  {
+    slug: "korea-persons-per-vehicle-by-province-ranking-molit-statistics-2026",
+    title: "자동차 1대당 인구 시도별 순위, 제주 0.91명 vs 서울 2.95명…3.3배 차이 (카프리즘 계산)",
+    date: "2026-10-28",
+    image: "cpc28_chart_hero.webp",
+    categories: ["news"],
+    tags: ["자동차1대당인구", "자동차등록대수", "시도별자동차", "인구1천명당자동차", "제주자동차등록"],
+    badge: "DATA",
+    badgeClass: "cat-sales",
+    source: "참고: 국토교통부 통계누리 자동차 등록자료 통계(2025·2026년 9월 파일), 행정안전부 주민등록 인구통계, 제주투데이(2026.9.16)·제이누리(2025.7.31)·머니투데이(2026.2.3), 카프리즘 계산",
+    desc: "국토교통부 자동차 등록 2026년 9월 말과 주민등록 인구로 계산한 시도별 자동차 1대당 인구 순위. 제주 0.91명, 서울 2.95명, 전국 1.91명, 승용 기준과 1년 변화까지 정리했다."
+  },
+  {
+    slug: "korea-car-recall-vehicles-by-maker-2026-ranking-domestic-vs-import-car-go-kr-statistics",
+    title: "\"2026 제작사별 리콜 대수, 1위는?\"… 현대차 127만·기아 99만, 수입은 BMW 16만(10월 누계 318만 대)",
+    date: "2026-10-28",
+    image: "rcm28_chart_maker_top10.webp",
+    categories: ["news"],
+    tags: ["자동차리콜순위", "제작사별리콜대수", "2026리콜통계", "현대차리콜", "기아리콜"],
+    badge: "DATA",
+    badgeClass: "cat-sales",
+    source: "국토교통부 자동차리콜센터 리콜통계(2026년·기관 국토부, 2026-10-28 조회, 10월 집계중), 카프리즘 계산",
+    desc: "자동차리콜센터 2026년 1~10월 리콜 3,180,561대를 제작사·국산 수입·월별·장치별로 계산했다. 현대차 1,276,478대, 기아 992,354대, 수입 1위 BMW코리아 160,973대와 순위의 한계를 정리했다."
+  },
+  {
+    slug: "traffic-accident-deaths-by-province-per-capita-per-vehicle-ranking-taas-2026",
+    title: "시도별 교통사고 사망자 순위 2025, 경기 499명 1위가 인구 10만 명당 11위로, 전남은 5위에서 1위로",
+    date: "2026-10-28",
+    image: "pro28_chart_deaths_by_province_2025.webp",
+    categories: ["life"],
+    tags: ["시도별교통사고", "교통사고사망자", "TAAS", "도로교통공단", "인구10만명당"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 교통사고분석시스템(TAAS) 시도별 교통사고(2025년·2024년), 행정안전부 주민등록 인구통계(2025년 12월), 국토교통부 통계누리 자동차 등록자료(2025년 12월), 카프리즘 계산",
+    desc: "시도별 교통사고 사망자 순위 2025: 경기가 499명으로 1위지만 인구 10만 명당은 11위, 전남이 12.20명으로 1위다. TAAS·주민등록 인구·자동차 등록대수 세 기준 순위를 직접 계산했다."
+  },
+  {
     slug: "andong-old-market-jjimdak-alley-parking-fair-days-guide-2026",
     title: "\"찜닭골목 주차, 어디에 세우죠?\"… 안동 구시장 118면 주차장 30분 500원·장날 2·7일",
     date: "2026-10-28",
