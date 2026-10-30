@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jeju-gapado-ferry-timetable-fare-island-walk-winter-guide-2026",
+    title: "\"비 오면 가파도 배 안 뜰까?\" 결항 기준은 풍속·파고, 왕복 운임은 15,500원+α",
+    date: "2026-10-30",
+    image: "gpd30_ferry-aerial.webp",
+    categories: ["travel"],
+    tags: ["가파도", "가파도배편", "운진항", "가파도여객선", "가파도올레"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "가파도 정기여객선 운영사(아름다운섬나라) / 한국관광공사 TourAPI",
+    desc: "제주 가파도 운진항 출발 배편의 시간표·승선요금·유류할증료·결항 기준과 올레 10-1코스 5km 체류 시간을 운영사 공식 안내로 정리했다."
+  },
+  {
+    slug: "yeongdeok-jangsa-beach-landing-operation-memorial-winter-guide-2026",
+    title: "\"겨울엔 오후 4시면 입장 끝\"… 영덕 장사상륙작전 전승기념관, 772명 학도병과 성인 8,000원",
+    date: "2026-10-30",
+    image: "jsb30_munsan-ship-bow.webp",
+    categories: ["travel"],
+    tags: ["영덕", "장사상륙작전", "전승기념관", "장사해수욕장", "영덕블루로드"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "영덕군 장사상륙작전전승기념관 / 한국관광공사 TourAPI / 국방부 / 국가보훈부",
+    desc: "영덕 장사상륙작전 전승기념관의 동절기 입장 시간·요금·휴관일과 작전 개요(영덕군·국방부·국가보훈부), 장사해수욕장·전승기념공원 상시 개방 정보를 정리했다."
+  },
+  {
+    slug: "jangheung-borimsa-gajisan-iron-vairocana-winter-guide-2026",
+    title: "\"장흥 보림사, 한 절에 국보 2건·보물 5건?\"… 철불·쌍탑·승탑 보는 순서와 이용시간 06~18시",
+    date: "2026-10-30",
+    image: "brs30_pagodas-lantern-main-hall.webp",
+    categories: ["travel"],
+    tags: ["장흥", "보림사", "철조비로자나불좌상", "국보", "가지산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 국가유산 목록·상세 / 장흥군 문화관광 / 한국관광공사 TourAPI",
+    desc: "장흥 보림사의 국보 2건·보물 5건을 국가유산청 목록으로 정리하고, 철조비로자나불좌상의 858년 명문, 이용시간 06~18시, 주차, 확인하지 못한 입장료를 공식 자료 기준으로 짚었다."
+  },
+  {
+    slug: "toyota-next-gen-hybrid-system-15-percent-efficiency-1-5l-2026",
+    title: "토요타 신형 1.5L 하이브리드 \"연비 15% 이상\" 목표… 차종·출시 시기는 공식 발표에 없다",
+    date: "2026-10-30",
+    image: "thy30_engine_press.webp",
+    categories: ["import", "news"],
+    tags: ["토요타하이브리드", "토요타1.5L엔진", "차세대하이브리드", "토요타연비15%", "멀티패스웨이플랫폼"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "토요타 유럽 뉴스룸(2026-10-28), 토요타코리아 모델 페이지, Carscoops(2026-10-29), 오토트리뷴(2026-10-30), Car and Driver(2025-11-01)",
+    desc: "토요타 유럽법인이 2026년 10월 28일 발표한 차세대 1.5L 4기통 하이브리드 시스템을 공식 발표문 기준으로 정리했다. 연비 15% 이상 개선은 목표치이며, 비교 기준·출력·차종·출시 시기는 없다. 한국 판매 RAV4·캠리·크라운이 2.5L급이라는 점도 확인했다."
+  },
+  {
+    slug: "car-isg-auto-stop-start-a-button-how-it-works-turn-off-battery-wear-guide-2026",
+    title: "ISG 끄는 법, 시동 걸면 다시 켜진다? 계기판 'A 원' 버튼과 작동 조건 11가지, 배터리 영향까지",
+    date: "2026-10-30",
+    image: "isg30_sorento_mq4_driver_area.webp",
+    categories: ["life"],
+    tags: ["ISG", "자동시동정지", "공회전제한", "ISG끄는법", "스톱앤스타트"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대차·기아 오너스 매뉴얼, NHTSA 공개 현대차 TSB, 캐나다 천연자원부(NRCan), 카프리즘 계산",
+    desc: "계기판 A 원 모양 ISG(자동 시동 정지) 버튼, 끄는 법과 작동 조건을 현대차·기아 한국어 매뉴얼로 대조했다. 냉각수 온도, 배터리, 에어컨 조건과 시동마다 다시 켜지는지, 연비 효과는 어디까지 확인될까."
+  },
+  {
+    slug: "toyota-ev-sales-doubled-china-gas-car-sales-plunge-2026",
+    title: "\"전기차 127% 급증, 중국은 25만 대 빠졌다\"… 토요타 1~9월 실적의 두 얼굴",
+    date: "2026-10-30",
+    image: "toe30_dealer_beijing.webp",
+    categories: ["news"],
+    tags: ["토요타전기차판매", "토요타중국판매", "토요타2026실적", "bZ4X", "토요타BEV"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: Electrek(2026-10-29), 토요타 공식 월별 판매·생산 실적(2026년 9월분)",
+    desc: "토요타(렉서스 포함) 2026년 1~9월 전기차 판매는 309,766대로 127.4% 늘었지만 중국 판매는 1,055,544대로 18.9% 줄었다. 토요타 공식 9월 실적 파일을 직접 열어 월별 숫자와 전동차 비중을 확인했다."
+  },
+  {
+    slug: "rivian-q3-2026-earnings-r2-best-seller-delivery-guidance-raised-2026",
+    title: "리비안 3분기 실적, \"R2가 R1·배송밴 제쳤다\"… 매출 +38%에도 순손실 9.13억 달러, 인도 가이던스는 하단만 올랐다",
+    date: "2026-10-30",
+    image: "riv30_r2_front.webp",
+    categories: ["electric", "news"],
+    tags: ["리비안3분기실적", "리비안R2", "R2베스트셀러", "리비안가이던스", "리비안인도량"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "리비안 2026년 3분기 실적 보도자료(SEC 8-K, 2026.10.29), 리비안 3분기 생산·인도 보도자료(SEC 8-K, 2026.10.2), Electrek(2026.10.29), InsideEVs(2026.10.29), 카프리즘 계산",
+    desc: "리비안 2026년 3분기 실적을 SEC 보도자료로 확인했다. 매출 21억 5,500만 달러(+38%), 인도 1만 9,248대, R2가 R1·EDV 제치고 1위, 인도 가이던스 6만 7,000~7만 대로 상향, 순손실 9억 1,300만 달러."
+  },
+  {
+    slug: "aston-martin-valhalla-roofless-spider-1064hp-2026",
+    title: "\"지붕을 벗겼는데 최고속도는 그대로\"… 애스턴마틴 발할라 스파이더 1,079PS·350km/h 공식 발표, 가격은 미공개",
+    date: "2026-10-30",
+    image: "val30_spider_front_sun.webp",
+    categories: ["import", "news"],
+    tags: ["애스턴마틴", "발할라", "발할라스파이더", "오픈톱슈퍼카", "하이브리드슈퍼카"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "The Autopian(2026-10-28), 애스턴마틴 공식 보도자료·모델 페이지(2026-10-28)",
+    desc: "애스턴마틴이 2026년 10월 28일 발할라 스파이더를 공식 발표했다. 1,079PS(약 1,064hp), 지붕 유무와 무관한 350km/h, 천 지붕 200km/h 제한, 인도 2027년 3분기를 공식 자료로 확인하고 외신 보도와 대조했다."
+  },
+  {
     slug: "car-idling-crackdown-fine-grace-time-exceptions-winter-warmup-guide-2026",
     title: "공회전 단속 과태료 5만 원, 서울은 2분(5℃ 미만 5분)·0℃ 이하 제외… 겨울 예열은 몇 분까지 괜찮을까",
     date: "2026-10-29",
