@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "korea-traffic-accident-hotspot-top10-intersections-taas-guide-2026",
+    title: "전국 교통사고 다발지점 TOP10 2025, 성남 모란삼거리 86건 1위… 상위 10곳 사망 2명·중상 102명",
+    date: "2026-10-30",
+    image: "hsp30_chart_top10_cases_2025.webp",
+    categories: ["life"],
+    tags: ["교통사고다발지점", "사고다발지", "TAAS", "도로교통공단", "모란삼거리"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 교통사고분석시스템(TAAS) 사고다발지분석·지자체별 교통사고 다발지역(2023~2025년)과 TAAS 도로종류별 교통사고(2025년), 카프리즘 계산",
+    desc: "교통사고 다발지점 TOP10 2025: TAAS 지자체별 TOP3 다발지점 677곳을 정렬하면 성남 모란삼거리 86건이 1위, 상위 10곳은 모두 교차로이고 사망 2명이다. 시도별·3년 비교와 내 동네 찾는 법."
+  },
+  {
+    slug: "traffic-violation-enforcement-top-types-police-statistics-guide-2026",
+    title: "\"가장 많이 걸리는 위반은?\" 2023년 교통법규 위반 단속 2,314만 건 중 속도 77%, 신호위반 2019년보다 87.5%↑",
+    date: "2026-10-30",
+    image: "tvn30_chart_rank_2023.webp",
+    categories: ["life"],
+    tags: ["교통법규위반", "단속건수", "속도위반", "신호위반", "범칙금"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "경찰청 경찰통계자료(교통법규 위반처리 결과 현황·위반 유형별 단속 현황), 도로교통법 시행령 별표 6·8(국가법령정보센터), 카프리즘 계산",
+    desc: "교통법규 위반 단속 순위를 경찰청 통계표로 정리했다. 2023년 총 2,314만 건 중 속도위반 1,772만 건, 신호위반 382만 건, 5년 추이와 무인단속 92%, 범칙금·과태료 차이."
+  },
+  {
     slug: "jeju-gapado-ferry-timetable-fare-island-walk-winter-guide-2026",
     title: "\"비 오면 가파도 배 안 뜰까?\" 결항 기준은 풍속·파고, 왕복 운임은 15,500원+α",
     date: "2026-10-30",

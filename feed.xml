@@ -5,7 +5,23 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Oct 2026 07:36:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 15:22:26 GMT</lastBuildDate>
+    <item>
+      <title>전국 교통사고 다발지점 TOP10 2025, 성남 모란삼거리 86건 1위… 상위 10곳 사망 2명·중상 102명</title>
+      <link>https://carprism.tmhub.co.kr/articles/korea-traffic-accident-hotspot-top10-intersections-taas-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-traffic-accident-hotspot-top10-intersections-taas-guide-2026.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>교통사고 다발지점 TOP10 2025: TAAS 지자체별 TOP3 다발지점 677곳을 정렬하면 성남 모란삼거리 86건이 1위, 상위 10곳은 모두 교차로이고 사망 2명이다. 시도별·3년 비교와 내 동네 찾는 법.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/hsp30_chart_top10_cases_2025.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>&quot;가장 많이 걸리는 위반은?&quot; 2023년 교통법규 위반 단속 2,314만 건 중 속도 77%, 신호위반 2019년보다 87.5%↑</title>
+      <link>https://carprism.tmhub.co.kr/articles/traffic-violation-enforcement-top-types-police-statistics-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/traffic-violation-enforcement-top-types-police-statistics-guide-2026.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>교통법규 위반 단속 순위를 경찰청 통계표로 정리했다. 2023년 총 2,314만 건 중 속도위반 1,772만 건, 신호위반 382만 건, 5년 추이와 무인단속 92%, 범칙금·과태료 차이.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/tvn30_chart_rank_2023.webp" type="image/webp"/>
+    </item>
     <item>
       <title>&quot;비 오면 가파도 배 안 뜰까?&quot; 결항 기준은 풍속·파고, 왕복 운임은 15,500원+α</title>
       <link>https://carprism.tmhub.co.kr/articles/jeju-gapado-ferry-timetable-fare-island-walk-winter-guide-2026.html</link>
@@ -229,22 +245,6 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
       <description>도로 종류별 교통사고 치사율을 도로교통공단 TAAS 2025년 통계로 비교했다. 고속도로 치사율은 3.68명으로 1위지만 사고 2.6%·사망 7.3%이고, 사망 1위는 시도·특별광역시도다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/rdt28_gyeongbu_expressway_traffic.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>자동차 1대당 인구 시도별 순위, 제주 0.91명 vs 서울 2.95명…3.3배 차이 (카프리즘 계산)</title>
-      <link>https://carprism.tmhub.co.kr/articles/korea-persons-per-vehicle-by-province-ranking-molit-statistics-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-persons-per-vehicle-by-province-ranking-molit-statistics-2026.html</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <description>국토교통부 자동차 등록 2026년 9월 말과 주민등록 인구로 계산한 시도별 자동차 1대당 인구 순위. 제주 0.91명, 서울 2.95명, 전국 1.91명, 승용 기준과 1년 변화까지 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/cpc28_chart_hero.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>&quot;2026 제작사별 리콜 대수, 1위는?&quot;… 현대차 127만·기아 99만, 수입은 BMW 16만(10월 누계 318만 대)</title>
-      <link>https://carprism.tmhub.co.kr/articles/korea-car-recall-vehicles-by-maker-2026-ranking-domestic-vs-import-car-go-kr-statistics.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/korea-car-recall-vehicles-by-maker-2026-ranking-domestic-vs-import-car-go-kr-statistics.html</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <description>자동차리콜센터 2026년 1~10월 리콜 3,180,561대를 제작사·국산 수입·월별·장치별로 계산했다. 현대차 1,276,478대, 기아 992,354대, 수입 1위 BMW코리아 160,973대와 순위의 한계를 정리했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/rcm28_chart_maker_top10.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
