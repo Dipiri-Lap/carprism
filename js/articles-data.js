@@ -2,6 +2,138 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jeju-sanbangsan-yongmeori-coast-songaksan-west-drive-winter-guide-2026",
+    title: "\"용머리해안 허탕 칠까?\" 산방산·송악산 제주 서쪽 드라이브, 통합권 성인 2,500원",
+    date: "2026-10-31",
+    image: "syg31_sanbang-from-coast.webp",
+    categories: ["travel"],
+    tags: ["산방산", "용머리해안", "송악산", "제주서쪽드라이브", "산방굴사"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "서귀포시 E-Ticket / 비짓제주 / 한국관광공사 TourAPI",
+    desc: "산방산·용머리해안·송악산 직선거리(카프리즘 계산), 용머리해안 요금과 만조·기상 통제 안내, 산방굴사 산책로, 송악산둘레길과 정상부 자연휴식년제, 주차 정보를 공식 자료로 정리했다."
+  },
+  {
+    slug: "gangneung-heonhwaro-coastal-drive-jeongdongjin-simgokhang-geumjinhang-winter-guide-2026",
+    title: "\"강릉 헌화로 드라이브, 정동진~금진항 직선 4.6km면 끝?\" 바다부채길은 11월부터 16:30 마감",
+    date: "2026-10-31",
+    image: "hhr31_road_aerial_wide.webp",
+    categories: ["travel"],
+    tags: ["강릉", "헌화로", "정동진", "심곡항", "금진항"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "정동심곡 바다부채길 공식 누리집 / 한국관광공사 TourAPI",
+    desc: "강릉 헌화로 해안도로의 구간, 정동진역~심곡항~금진항 직선거리, 바다부채길 동절기 운영시간과 요금, 공식 주차장, 겨울 운전 시 확인하지 못한 항목까지 정리했다."
+  },
+  {
+    slug: "bmw-i3-neue-klasse-2027-first-drive-review-range-price-2026",
+    title: "BMW i3 노이어 클라쎄 시승, i4를 넘었다는데 스티어링은 아쉽다… 주행거리 450마일 추정·6만 1,500달러부터",
+    date: "2026-10-31",
+    image: "bmi31_blue_front_display.webp",
+    categories: ["electric", "import", "reviews"],
+    tags: ["BMW i3", "노이어클라쎄", "BMW i3 시승", "전기세단", "i3 주행거리"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "Car and Driver(2026-10-30), BMW 미국·영국 뉴스룸",
+    desc: "카앤드라이버의 2027 BMW i3 50 xDrive 시승 평가를 BMW 공식 발표와 대조했다. 463마력, 주행거리 446~468마일(추정), 400kW 충전, 미국 6만 1,500달러부터, 아쉬운 점과 국내 미확인 항목까지."
+  },
+  {
+    slug: "pony-ai-gleo-ai-first-ota-rear-seat-voice-command-limit-2026",
+    title: "포티투닷 글레오 AI 첫 OTA, 현대차 그랜저 뒷좌석 전화·문자 음성 명령 제한(보도 기준)… 공식 공지는 6개 항목",
+    date: "2026-10-31",
+    image: "glo31_gn7_front_gray.webp",
+    categories: ["news", "domestic"],
+    tags: ["글레오AI", "포티투닷", "플레오스커넥트", "그랜저OTA", "현대차OTA"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-hyundai",
+    source: "오토트리뷴(2026.10.31), 현대차 업데이트 사이트 공지(2026.10.29), 이투데이, ZDNet Korea",
+    desc: "포티투닷·현대차가 더 뉴 그랜저에 글레오 AI 첫 OTA를 순차 배포한다. 현대차 업데이트 공지(10월 29일)와 보도로 항목을 대조하고, 뒷좌석 전화·문자 음성 명령 제한과 설치 방법을 정리했다."
+  },
+  {
+    slug: "hyundai-ioniq-6-uk-launch-422-miles-vs-korea-spec-price-2026",
+    title: "아이오닉 6 영국 출시 \"422마일=679km\"… 한국 562km와 117km 차, 가격은 어떻게 다를까",
+    date: "2026-10-31",
+    image: "i6u31_front34_gray2.webp",
+    categories: ["electric", "news"],
+    tags: ["아이오닉6영국", "아이오닉6422마일", "아이오닉6가격", "아이오닉6주행거리", "아이오닉6한국비교"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "현대차 영국 보도자료(2026.10.29), 현대차 아이오닉 6 가격표, Electrek(2026.10.30), electrive(2026.10.29), Electric Drives",
+    desc: "신형 아이오닉 6 영국 출시를 현대차 영국 보도자료로 확인했다. 최대 422마일(679km)·£33,240(보조금 포함)부터 5개 트림을 한국 복합 562km·5,064만 원과 같은 단위로 비교하고 원화 환산(가정 환율)을 계산했다."
+  },
+  {
+    slug: "nissan-formula-e-gen4-816hp-all-wheel-drive-2026",
+    title: "닛산 포뮬러 E GEN4 816마력, 레이스 내내 나올까? 상시 사륜구동에 말로니 \"추월 더 어려울 수 있다\"",
+    date: "2026-10-31",
+    image: "nis31_gen4-era-gen3-front.webp",
+    categories: ["electric", "news"],
+    tags: ["닛산포뮬러E", "포뮬러EGEN4", "GEN4", "816마력", "상시사륜구동"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "참고: 오토트리뷴(2026.10.31), 닛산 뉴스룸(2026.8.26·10.23·10.29), 포뮬러 E 공식 FAQ, e-formula.news",
+    desc: "닛산 포뮬러 E GEN4의 816마력은 600kW의 환산값이며 어택 모드·예선 출력이다. 레이스 출력 450kW, 상시 사륜구동, 말로니 인터뷰, 버드·풀링 잔류를 공식 자료로 확인했다."
+  },
+  {
+    slug: "hyundai-group-apartment-parking-robot-pilot-3-minute-retrieval-2026",
+    title: "\"월패드 누르면 3분\"… 현대차그룹 공동주택 주차로봇 실증, 상용화 일정은 아직 비어 있다",
+    date: "2026-10-31",
+    image: "prk31_photo_double_parking_demo.webp",
+    categories: ["news", "domestic"],
+    tags: ["공동주택주차로봇", "현대차그룹주차로봇", "아파트주차로봇", "주차로봇실증", "스마트도시규제샌드박스"],
+    badge: "NEWS",
+    badgeClass: "cat-hyundai",
+    source: "현대차그룹 뉴스룸(2026.10.30, 2026.8.10), 오토트리뷴(2026.10.31)",
+    desc: "현대차그룹이 10월 29일 경기 시흥 힐스테이트 더웨이브시티에서 공동주택 주차로봇 시연회를 열었다. 월패드 출차 요청 후 차량을 출차구역으로 옮기는 데 약 3분, 관제 시스템은 최대 200대 제어. 공식 자료로 확인된 것과 아직 공개되지 않은 것을 나눠 정리했다."
+  },
+  {
+    slug: "car-trouble-symptom-finder-hub-start-warning-light-tire-battery-guide-2026",
+    title: "시동이 안 걸린다·경고등이 켜졌다… 증상별로 바로 찾는 자동차 고장 대처 가이드 34편 모음",
+    date: "2026-10-31",
+    image: "car_battery_jumper_cable_clips.webp",
+    categories: ["life"],
+    tags: ["자동차고장", "경고등", "시동불량", "배터리방전", "스마트키"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "카프리즘 고장·경고등·소모품 기사 34편 요약(각 기사에 출처와 기준일 표기)",
+    desc: "시동·스마트키·배터리, 경고등, 타이어·브레이크, 앞유리·와이퍼, 냉각수·냄새, 전기차·카플레이까지 증상 기준으로 카프리즘 고장 대처 기사 34편을 한 번에 찾는 모음이다."
+  },
+  {
+    slug: "diesel-car-winter-cold-start-problem-fuel-gelling-filter-glow-plug-guide-2026",
+    title: "「시동이 안 걸려요」 디젤차 겨울 시동 불량, 주유소 경유 기준은 11월 -18℃·12월 -23℃… 예열·필터 구분과 금지 5가지",
+    date: "2026-10-31",
+    image: "dsl31_frost-crystals.webp",
+    categories: ["life"],
+    tags: ["디젤차", "겨울시동불량", "경유유동점", "필터막힘점", "예열플러그"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "석유제품의 품질기준과 검사방법 및 검사수수료에 관한 고시 별표(법제처 게시본), 현대·기아 오너스 매뉴얼, 한국도로공사, 정책브리핑, 한국석유관리원 연구진 논문, 카프리즘 계산",
+    desc: "디젤차 겨울 시동 불량, 경유 기준은 언제부터 -23℃일까? 고시 별표로 확인한 날짜별 기준과 현대·기아 매뉴얼의 예열·연료필터 구분, 하지 말 것 5가지, 긴급출동 기준을 정리했다."
+  },
+  {
+    slug: "car-door-frozen-wont-open-winter-do-not-pull-guide-2026",
+    title: "차문 얼어서 안 열릴 때 억지로 당기면 핸들 파손 위험… 현대·기아 오너스 매뉴얼 해법 4가지와 금지 5가지",
+    date: "2026-10-31",
+    image: "dfz31_photo_frost_door.webp",
+    categories: ["life"],
+    tags: ["차문얼음", "도어동결", "겨울철차문", "도어핸들", "긴급출동"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 오너스 매뉴얼(GN7·NE1·CE1·NX4), 기아 오너스 매뉴얼(타스만 TK1·SV1), 삼성화재 애니카서비스 안내(2026-10-31 확인)",
+    desc: "차문이 얼어서 안 열릴 때 억지로 당기면 핸들 파손·도어 실링 손상 위험이 있다. 현대·기아 오너스 매뉴얼의 두드리기·키 홈 해빙 순서, 스마트키 반복 조작 주의, 보험 긴급출동 확인 사항까지 정리했다."
+  },
+  {
+    slug: "car-starts-click-sound-only-no-crank-battery-starter-diagnosis-guide-2026",
+    title: "시동 안 걸리고 '딸깍' 소리만 날 때, 소리 4가지로 가르는 점프 전 1분 확인 5가지와 서비스센터 부르는 기준",
+    date: "2026-10-31",
+    image: "clk31_car_battery.webp",
+    categories: ["life"],
+    tags: ["시동안걸림", "딸깍소리", "배터리방전", "점프스타트", "시동모터"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 오너스 매뉴얼(SX2 2025 한국어판), 기아 사용설명서(HM 2023 한국어판), 카프리즘 기존 기사 인용·정리",
+    desc: "시동 걸 때 딸깍 소리만 나고 안 걸리면? 현대·기아 취급설명서의 시동 불량 항목을 대조해 소리 4가지별 점검 순서, 점프 전 1분 확인 5가지, 센터·긴급출동 기준을 정리했다."
+  },
+  {
     slug: "korea-traffic-accident-hotspot-top10-intersections-taas-guide-2026",
     title: "전국 교통사고 다발지점 TOP10 2025, 성남 모란삼거리 86건 1위… 상위 10곳 사망 2명·중상 102명",
     date: "2026-10-30",
@@ -24035,7 +24167,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-sales",
     source: "파이낸셜뉴스 / 겟차",
-    desc: "긴급출동 서비스 호출의 41%가 배터리 방전일 만큼 흔한 고장이다. 점프 케이블 연결 순서와 극성을 반대로 연결했을 때의 위험, AGM·스탑앤고 배터리 주의사항까지 직접 점프 스타트하는 법을 정리했다."
+    desc: "배터리 방전은 보험사 긴급출동에서 큰 비중을 차지하는 흔한 고장이다. 점프 케이블 연결 순서와 극성을 반대로 연결했을 때의 위험, AGM·스탑앤고 배터리 주의사항까지 직접 점프 스타트하는 법을 정리했다."
   },
   {
     slug: "window-tint-regulation-guide-2026",

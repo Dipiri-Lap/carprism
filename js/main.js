@@ -691,20 +691,31 @@ if (mobileMenuBtn && mobileNav) {
     }
   }
 
-  // 본문 중간("이어 읽기"): 섹션이 5개 이상이면 중반 H2 앞에 1위 기사를 끼운다
+  // 본문 안 추천 카드: 모바일 방문자 다수가 본문 끝까지 내려오지 않으므로(90% 스크롤 도달 약 9%),
+  //  - early: 30초 요약 박스 바로 아래(첫 번째 본문 섹션 앞, 모바일 기준 약 2화면 지점)에 1위 기사를 노출한다.
+  //  - mid: 섹션이 5개 이상인 긴 기사에서만 중반에 2위 기사를 한 번 더 노출한다.
+  // 요약 박스(.kp-title)와 맨 끝 정리(.summary-box) 제목은 섹션으로 세지 않는다.
   const body = document.querySelector('.article-body');
-  const heads = body ? Array.from(body.querySelectorAll('h2')).filter((h) => !/^(함께 보면 좋은|관련 기사|인기 태그)/.test(h.textContent.trim())) : [];
-  if (heads.length >= 5 && ranked[0]) {
-    const target = heads[Math.floor(heads.length * 0.55)];
-    const item = ranked[0];
-    const mid = document.createElement('a');
-    mid.href = item.slug + '.html';
-    mid.className = 'related-mid';
-    mid.setAttribute('data-rel', 'mid');
-    mid.innerHTML = `
+  const sections = body ? Array.from(body.querySelectorAll('h2')).filter((h) => {
+    if (h.classList.contains('kp-title') || h.closest('.summary-box, .related-inline, .kp-box')) return false;
+    return !/^(함께 보면 좋은|관련 기사|인기 태그)/.test(h.textContent.trim());
+  }) : [];
+  function makeMid(item, rel, label) {
+    const a = document.createElement('a');
+    a.href = item.slug + '.html';
+    a.className = 'related-mid';
+    a.setAttribute('data-rel', rel);
+    a.innerHTML = `
       <span class="related-mid-thumb"><img src="${IMG_BASE}${item.image}" alt="${escapeAttr(item.title)}" loading="lazy"></span>
-      <span class="related-mid-text"><span class="related-mid-label">이어 읽기</span><span class="related-mid-title">${item.title}</span></span>`;
-    target.parentNode.insertBefore(mid, target);
+      <span class="related-mid-text"><span class="related-mid-label">${label}</span><span class="related-mid-title">${item.title}</span></span>`;
+    return a;
+  }
+  if (sections.length >= 1 && ranked[0]) {
+    sections[0].parentNode.insertBefore(makeMid(ranked[0], 'early', '이어 읽기'), sections[0]);
+  }
+  if (sections.length >= 5 && ranked[1]) {
+    const target = sections[Math.floor(sections.length * 0.55)];
+    target.parentNode.insertBefore(makeMid(ranked[1], 'mid', '함께 읽기'), target);
   }
 
   document.addEventListener('click', (e) => {
