@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "drunk-driving-accidents-by-hour-weekday-ranking-taas-statistics-2026",
+    title: "음주운전 사고 시간대·요일별 순위: 새벽 2~4시 교통사고 28.5%가 음주, 최다 칸은 금요일 22~24시",
+    date: "2026-11-01",
+    image: "dui01_apgujeong_night_road.webp",
+    categories: ["life"],
+    tags: ["음주운전", "음주운전사고", "시간대별사고", "요일별사고", "TAAS"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 교통사고분석시스템(TAAS) 경찰DB (음주운전) 요일별·시간대별·월별 교통사고(2023~2025년), 시간대별·요일별 전체 교통사고, 국가법령정보센터 도로교통법, 카프리즘 계산",
+    desc: "음주운전 사고 시간대별 순위는? 도로교통공단 TAAS 2023~2025년 통계로 시간대·요일·요일×시간대별 건수와 치사율, 새벽 2~4시 음주 비중 28.5%, 20~06시 사고 62.0% 집중을 직접 계산해 정리했다."
+  },
+  {
+    slug: "busan-museum-national-maritime-museum-winter-indoor-course-hours-fee-guide-2026",
+    title: "\"부산박물관·국립해양박물관, 겨울 실내 상설 무료 맞아?\"… 월요일 둘 다 휴관, 직선 5.8km(카프리즘 계산)",
+    date: "2026-11-01",
+    image: "bsm01_maritime_exterior.webp",
+    categories: ["travel"],
+    tags: ["부산박물관", "국립해양박물관", "부산실내여행", "부산겨울여행", "무료박물관"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "부산박물관 / 한국관광공사 TourAPI / 국립해양박물관 / 해양수산부",
+    desc: "부산박물관과 국립해양박물관의 관람시간·휴관일·무료 범위, 대중교통·주차, 두 곳 직선거리 5.8km(카프리즘 계산)와 확인하지 못한 항목을 공식 자료로 정리했다."
+  },
+  {
+    slug: "seoul-national-children-museum-folk-museum-gyeongbokgung-winter-reservation-guide-2026",
+    title: "\"경복궁 옆 무료 박물관, 예약 없이 되나요?\" 국립민속박물관 본관은 OK, 어린이박물관은 5회차 예약제",
+    date: "2026-11-01",
+    image: "cmu01_hero-ceramics-gallery.webp",
+    categories: ["travel"],
+    tags: ["국립민속박물관", "어린이박물관", "경복궁", "서울가족여행", "사전예약"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립민속박물관 누리집 / 국립민속박물관 어린이박물관 누리집 / 한국관광공사 TourAPI",
+    desc: "경복궁 옆 국립민속박물관 본관과 어린이박물관의 관람시간·무료 여부·휴관일, 어린이박물관 5회차 사전예약 방법과 현장 입장, 주차·교통을 누리집 기준으로 정리했다."
+  },
+  {
+    slug: "seoul-botanic-park-greenhouse-winter-hours-ticket-parking-guide-2026",
+    title: "서울식물원 온실 겨울 입장료 5,000원… '5시까지'만 믿으면 16시에 막힌다",
+    date: "2026-11-01",
+    image: "bot01_tropical-pond.webp",
+    categories: ["travel"],
+    tags: ["서울식물원", "서울식물원 온실", "서울식물원 입장료", "서울식물원 겨울", "마곡나루역"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "서울식물원 누리집 / 한국관광공사 TourAPI",
+    desc: "서울식물원 온실·주제정원 동절기(11~2월) 운영 시간과 16시 입장 마감, 월요일 휴관, 입장료와 무료 야외 정원, 주차 요금, 마곡나루역·양천향교역 이동법을 서울식물원 공지로 정리했다."
+  },
+  {
+    slug: "mini-cooper-oxford-edition-korea-44-2-million-won-30-units-2026",
+    title: "MINI 쿠퍼 옥스포드 에디션 출시, 4,420만 원에 30대 한정… 영국판(쿠퍼 S 201마력)과는 트림이 다르다",
+    date: "2026-11-01",
+    image: "mni01_busan_show_front.webp",
+    categories: ["import", "news"],
+    tags: ["MINI쿠퍼옥스포드에디션", "MINI한정판", "4420만원", "30대한정", "MINI코리아"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "오토트리뷴(2026.10.31), 카매거진, 모터그래프, 파이낸셜뉴스, 고카넷, M포스트, 오토익스프레스",
+    desc: "MINI 코리아가 10월 31일 쿠퍼 옥스포드 에디션을 4,420만 원, 국내 30대 한정으로 출시했다. 복수 매체 보도를 대조해 한국판 사양과 영국판과의 차이, '3천만 원대' 가격 혼선의 정체를 정리했다."
+  },
+  {
+    slug: "jeep-2027-compass-gladiator-adaptive-cruise-heated-seats-standard-2026",
+    title: "\"2027 지프 컴패스, 어댑티브 크루즈 전 트림 기본\"… 글래디에이터는 루비콘·모하비에 열선 기본, 미국 기준·한국은 미확인",
+    date: "2026-11-01",
+    image: "jpp01_gladiator_mojave_x_purple.webp",
+    categories: ["import", "news"],
+    tags: ["지프2027컴패스", "글래디에이터2027", "어댑티브크루즈기본", "열선시트", "글래디에이터루비콘"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "Stellantis North America 2027 컴패스·글래디에이터 발표문, 오토블로그, 오토트리뷴(2026-11-01)",
+    desc: "2027 지프 컴패스는 어댑티브 크루즈가 전 트림 기본이고 시작가는 운송료 포함 $31,985, 글래디에이터 루비콘·모하비는 열선 시트·핸들이 기본이다. 스텔란티스 발표문으로 확인한 미국 기준 변경점과 한국 사양 미확인 항목을 정리했다."
+  },
+  {
+    slug: "hyundai-motor-q3-2026-operating-profit-2-6772-billion-won-sales-decline",
+    title: "현대차 3분기 영업이익 2조 6,772억 원, \"판매는 11.3% 줄었는데 이익은 늘었다\"… 연간 목표는 낮췄다",
+    date: "2026-11-01",
+    image: "hyu01_santafe_hybrid_front_display.webp",
+    categories: ["news"],
+    tags: ["현대차3분기실적", "현대차영업이익", "현대차판매감소", "현대차관세", "현대차가이던스"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대자동차그룹 뉴스룸 3분기 경영실적 보도자료(2026.10.29), 오토트리뷴(2026.10.31)",
+    desc: "현대차가 2026년 3분기 매출 45조 1,102억 원(-3.4%), 영업이익 2조 6,772억 원(+5.5%), 영업이익률 5.9%를 발표했다. 판매는 92만 710대로 11.3% 줄었다. 환율·원가·HEV 믹스로 이익을 지켰지만 연간 판매 400만 대·영업이익률 5.5~6.5%로 목표를 낮췄다."
+  },
+  {
+    slug: "kia-q3-2026-revenue-31-trillion-electrified-vehicles-300k",
+    title: "기아 3분기 매출 31조 5,974억·영업이익 24.3%↑, 전동화차 30만 대 팔았는데 순이익은 9.6% 감소(보도 기준)",
+    date: "2026-11-01",
+    image: "kia01_ev3.webp",
+    categories: ["news"],
+    tags: ["기아3분기실적", "기아영업이익", "기아전동화차", "기아xEV", "기아하이브리드판매"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴(2026.11.01), 현대자동차그룹 뉴스룸 기아 2026년 3분기·2분기 경영실적, 아시아경제, 이티뉴스",
+    desc: "기아 2026년 3분기 매출 31조 5,974억 원, 영업이익 1조 8,183억 원(+24.3%), xEV 소매판매 약 30만 대(+47%)를 공식 실적 자료로 대조했다. 전동화차 30만 대의 구성, 영업이익 요인, 지역별 판매, 순이익 감소를 정리했다."
+  },
+  {
     slug: "jeju-sanbangsan-yongmeori-coast-songaksan-west-drive-winter-guide-2026",
     title: "\"용머리해안 허탕 칠까?\" 산방산·송악산 제주 서쪽 드라이브, 통합권 성인 2,500원",
     date: "2026-10-31",
