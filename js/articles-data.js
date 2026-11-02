@@ -7011,7 +7011,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "cheongnamdae-autumn-reservation-guide-2026",
-    title: "청남대 예약 필요 없다… 현장 매표 16:30 마감, 월요일 휴관, 입장료 6,000원·주차 무료",
+    title: "\"대통령 별장, 예약 없이 가도 될까?\"… 청남대 가을 방문 전 확인할 입장료·매표 마감·대통령길 코스",
     date: "2026-09-29",
     image: "cheongnamdae_autumn_road.webp",
     categories: ["travel"],
@@ -7019,7 +7019,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL TIPS",
     badgeClass: "cat-blue",
     source: "청남대 공식 홈페이지(충청북도) / 한국관광공사",
-    desc: "청남대는 사전 예약 없이 주차 후 현장에서 표를 산다. 공식 안내 기준 09:00~18:00 운영, 매표 마감 16:30, 월요일 휴관, 성인 6,000원·주차 무료다. 2026 가을축제(10월 31일~11월 8일), 모노레일 요금·시간표, 6개 산책로 구간별 거리까지 정리했다."
+    desc: "청남대 공식 안내 기준 사전 예약은 필요 없고(주차 후 현장 매표), 09:00~18:00 운영에 매표 마감 16:30, 월요일 휴관, 성인 6,000원·주차 무료다. 모노레일 요금·시간표, 6개 산책로 구간별 거리, 2026 가을축제(10월 31일~11월 8일)와 단풍 사진을 정리했다."
   },
   {
     slug: "pocheon-garden-festa-terra-fantasia-hangeulnal-2026",
@@ -7047,7 +7047,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "gochang-seonunsa-autumn-gochangeupseong-2026",
-    title: "선운사 단풍 시기, 11월 초·중순 추정… 입장료 무료, 도솔암까지 3.2km 단풍길과 고창읍성 코스",
+    title: "\"선운사 단풍, 도솔천에서 한 번 더 붉어진다\"… 고창 선운산 단풍길과 고창읍성 성곽 한 바퀴 하루 코스",
     date: "2026-09-29",
     image: "gochangautumn_dosolcheon_stream_sunburst.webp",
     categories: ["travel"],
@@ -7055,7 +7055,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL TIPS",
     badgeClass: "cat-blue",
     source: "고창군·산림청·한국관광공사 공식 자료 및 언론 보도 종합",
-    desc: "선운사 단풍 절정은 11월 초·중순으로 추정된다(산림청 내장산 11월 4일 예측 기준, 선운산은 예측표에 없음). 선운사·선운산도립공원 이용요금은 무료이고, 선운사에서 도솔암까지 3.2km 단풍 산책길과 고창읍성 운영시간·요금, 성곽 1,684m 한 바퀴 코스를 공식 자료 위주로 정리했다."
+    desc: "고창 선운사·선운산도립공원 이용요금과 운영시간, 선운사에서 도솔암까지 3.2km 단풍 산책길, 고창읍성 운영시간·요금과 성곽 1,684m 한 바퀴, 산림청 단풍 절정 예측(내장산 11월 4일)을 참고한 선운산 단풍 시기 추정과 10월 모양성제 혼잡까지 공식 자료 위주로 정리했다."
   },
   {
     slug: "daebudo-seonjaedo-yeongheungdo-sunset-drive-2026",
@@ -7539,7 +7539,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "side-mirror-heating-folding-guide-2026",
-    title: "사이드미러 열선 버튼이 없다면? 대부분 뒷유리 열선과 같이 켜진다… 자동 폴딩 쓰는 법",
+    title: "\"이 버튼, 저도 몰랐어요\"… 사이드미러에 숨어 있는 열선·폴딩 기능 제대로 쓰는 법",
     date: "2026-09-27",
     image: "sidemirror_frost_heating_winter.webp",
     categories: ["life"],
@@ -7547,7 +7547,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "카프리즘 기획 기사",
-    desc: "사이드미러 열선은 대부분 별도 버튼 없이 뒷유리 열선 버튼을 누르면 함께 켜진다. 자동 폴딩은 좁은 골목·자동세차·도어 파손 방지에 쓰인다. 작동 원리와 배터리 소모, 파손 시 수리비용, 요즘 신차의 디지털 사이드미러까지 정리했다."
+    desc: "비 오는 날 사이드미러에 물방울이 맺혀 시야가 흐려지는데, 정작 열선 버튼이 따로 없어 당황한 적 있을 것이다. 사이드미러 열선은 대부분 뒷유리 열선과 함께 작동하고, 자동 폴딩은 좁은 골목·자동세차·도어 파손 방지에 쓰인다. 작동 원리부터 배터리 소모, 파손 시 수리비용, 요즘 신차의 디지털 사이드미러까지 2026년 기준으로 정리했다."
   },
   {
     slug: "chuseok-post-holiday-vehicle-checklist-2026",
@@ -7899,7 +7899,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "engine-oil-pressure-warning-light-what-to-do",
-    title: "엔진오일 압력 경고등(빨간 주전자) 켜졌을 때, 바로 세우고 시동부터 끈다… 노란 경고와 구분법·견인 기준",
+    title: "\"빨간 주전자가 켜졌다\"… 주행 중 엔진오일 압력 경고등, 지금 바로 할 일",
     date: "2026-09-26",
     image: "oilwarning_cluster_red_icon.webp",
     categories: ["life"],
@@ -7923,7 +7923,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ev-not-charging-troubleshooting-guide",
-    title: "전기차 충전 안 될 때, 충전기 고장인지 차 문제인지 1분 만에 가리는 법… 커넥터 안 빠질 때 비상 해제",
+    title: "\"꽂았는데 충전이 안 돼요\"… 전기차 충전 안 될 때, 충전기 탓인지 차 탓인지 1분 만에 가리는 법",
     date: "2026-09-26",
     image: "evcharge_fix_driver_app_garage.webp",
     categories: ["life", "electric"],
@@ -8199,7 +8199,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "keys-locked-in-car-how-to-unlock-guide",
-    title: "차 안에 키 두고 문 잠겼을 때, 앱 원격 열기 → 보험 긴급출동(보통 연 6회 무료) 순서",
+    title: "\"키가 운전석 위에 보이는데\"… 차 안에 키 두고 문 잠겼을 때 가장 빨리 여는 순서",
     date: "2026-09-25",
     image: "lockedkeys_smartkey_on_seat.webp",
     categories: ["life"],
@@ -8207,7 +8207,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "국가법령정보센터 / 현대자동차·기아·제네시스 / 삼성화재·현대해상·KB손해보험",
-    desc: "차 안에 키를 두고 문이 잠겼다면 제조사 앱 원격 문 열기(블루링크·Kia Connect·MY GENESIS 등)가 가장 빠르고, 안 되면 자동차보험 긴급출동 잠금장치 해제(보통 연 6회 무료)를 부른다. 스마트키·외제차 제외 조건, 예비키·열쇠 업체, 119를 불러야 하는 상황까지 정리했다."
+    desc: "차 안에 스마트키를 두고 문이 잠겼을 때 가장 빠른 해결 순서를 정리했다. 제조사 앱 원격 문 열기(블루링크·Kia Connect·MY GENESIS 등) 조건, 보험 긴급출동 잠금장치 해제의 횟수와 스마트키·외제차 제외 조건, 예비키·열쇠 업체, 119를 불러야 하는 상황까지."
   },
   {
     slug: "fuel-warning-light-how-far-can-you-drive",
@@ -8223,7 +8223,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "misfueling-wrong-fuel-what-to-do-guide",
-    title: "혼유(휘발유차에 경유·경유차에 휘발유) 넣었을 때 시동 걸지 마세요… 수리비 수십만 원과 천만 원대를 가르는 건 시동",
+    title: "\"시동부터 걸지 마세요\"… 휘발유차에 경유, 경유차에 휘발유 넣었을 때 바로 할 일",
     date: "2026-09-25",
     image: "misfuel_nozzle_hesitation.webp",
     categories: ["life"],
@@ -8235,7 +8235,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "smart-key-not-detected-emergency-start-guide",
-    title: "스마트키 인식 안 될 때 비상 시동법, 키를 시동 버튼에 대고 누른다… 브랜드별 키 대는 위치",
+    title: "\"키가 감지되지 않습니다\"… 스마트키 인식 안 될 때, 1분 안에 시동 거는 법",
     date: "2026-09-25",
     image: "smartkey_press_start_button.webp",
     categories: ["life"],
@@ -8243,7 +8243,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "현대자동차·기아·제네시스 취급설명서 / 토요타·BMW·폭스바겐·쉐보레 오너스 매뉴얼 / 볼보·테슬라 고객지원",
-    desc: "계기판에 \"키가 감지되지 않습니다\"가 뜨면 먼저 스마트키를 시동 버튼에 직접 대고 눌러 본다. 현대·기아·제네시스, 토요타, BMW, 폭스바겐, 쉐보레, 볼보, 테슬라의 키 대는 위치와 기계식 비상 키로 문 여는 법, 원인 구분표, 키 배터리(CR2032·CR2450) 교체법까지 정리했다."
+    desc: "계기판에 \"키가 감지되지 않습니다\"가 뜨고 시동이 안 걸릴 때 바로 따라 할 비상 시동법을 정리했다. 현대·기아·제네시스, 토요타, BMW, 폭스바겐, 쉐보레, 볼보, 테슬라의 키 대는 위치와 기계식 비상 키로 문 여는 법, 원인 구분표, 키 배터리(CR2032·CR2450) 교체법까지."
   },
   {
     slug: "kim-bujang-drama-car-symbol-2026",
@@ -8559,7 +8559,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "sunchang-gangcheonsan-autumn-foliage-2026",
-    title: "강천산 단풍 시기, 예년 11월 10~15일 무렵… 입장료 5,000원 중 2,000원은 상품권으로 돌려받는다",
+    title: "\"전국 군립공원 1호가 왜 명당인지 알겠다\"… 순창 강천산, 구름다리에서 보는 단풍이 다릅니다",
     date: "2026-09-24",
     image: "gangcheonsan_autumn_foliage_reflection.webp",
     categories: ["travel"],
@@ -8567,7 +8567,7 @@ window.ARTICLES_DATA = [
     badge: "AUTUMN FOLIAGE",
     badgeClass: "cat-blue",
     source: "순창군청 / 한국관광공사 / 전북특별자치도",
-    desc: "순창 강천산 단풍은 보통 11월 초~중순, 예년 기준 11월 10~15일 무렵 절정이다(내장산보다 며칠 늦게 물듦). 입장료 성인 5,000원 중 2,000원은 순창사랑상품권으로 돌려받는다. 높이 50m 구름다리와 천년고찰 강천사, 병풍폭포 코스, 주차·접근로를 정리했다."
+    desc: "1981년 국내 최초로 지정된 군립공원, 전북 순창 강천산. 높이 50m·길이 78m 구름다리(현수교)와 887년 창건 천년고찰 강천사, 병풍폭포까지 이어지는 단풍 명소를 입장료·주차·접근로 정보와 함께 정리했다."
   },
   {
     slug: "jeju-ttarabi-oreum-silvergrass-2026",
@@ -8787,7 +8787,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "windshield-fogging-defog-tips-2026",
-    title: "앞유리 김서림 빨리 없애는 법, 히터 켜고 A/C 버튼까지… 뒷유리는 열선, 겨울 성에 제거와 하면 안 되는 행동",
+    title: "\"에어컨 트는데 왜 히터를 켜라는 거지?\"… 김서림 10초 만에 없애는 진짜 방법",
     date: "2026-09-23",
     image: "defogtips_ac_defrost_button_dashboard.webp",
     categories: ["life"],
@@ -8795,7 +8795,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-blue",
     source: "카프리즘 기획 기사",
-    desc: "앞유리 김서림을 가장 빨리 없애는 조합은 히터 + A/C(에어컨) + 외기 순환이다. A/C가 공기 속 수분을 빼 주기 때문이다. 뒷유리는 열선 버튼을 눌러야 하는 이유, 겨울철 성에 대처법과 하지 말아야 할 행동, 예방법까지 정리했다."
+    desc: "비 오는 날, 환절기 아침 앞유리에 뿌옇게 서리는 김서림은 왜 생길까. 에어컨과 히터 중 무엇이 더 빨리 없애는지, 앞유리·뒷유리 올바른 제거법, 겨울철 성에 대처법과 절대 하지 말아야 할 행동, 예방법까지 2026년 기준으로 정리했다."
   },
   {
     slug: "smart-report-illegal-parking-app-guide-2026",
@@ -10095,7 +10095,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hipass-obu-malfunction-guide-2026",
-    title: "하이패스 인식 안 될 때 그냥 지나가도 될까? 미납 통행료 처리와 단말기·카드 자가진단",
+    title: "\"카드를 확인해주세요\"… 하이패스 인식 안 될 때, 그냥 지나가도 될까",
     date: "2026-09-19",
     image: "hipass_obu_device.webp",
     categories: ["life"],
@@ -14451,7 +14451,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "coolant-color-meaning-replacement-cycle-guide",
-    title: "부동액(냉각수) 색깔 의미, 초록·파랑·분홍 섞으면 안 되는 이유와 교체 주기 2년·4만km",
+    title: "\"초록색 넣었는데 파란색이 남아있었다\"… 냉각수 색깔, 섞으면 안 되는 이유",
     date: "2026-09-08",
     image: "coolant_expansion_tank.webp",
     categories: ["life"],
@@ -14511,7 +14511,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "jeonju-hanok-village-free-parking-guide-2026",
-    title: "전주한옥마을 무료주차장 10곳, 대성공영 636면·국립무형유산원 305면이 가장 크다",
+    title: "전주한옥마을 무료주차장, 딱 10곳입니다 — 다 외울 필요는 없습니다",
     date: "2026-09-07",
     image: "vk_jeonju_hanok_aerial.webp",
     categories: ["travel"],
