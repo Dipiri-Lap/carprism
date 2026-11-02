@@ -2,6 +2,30 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "heavy-snow-car-damage-own-damage-insurance-exclusion-single-accident-rider-guide-2026",
+    title: "「폭설 차량 파손, 자차보험 되나요?」 4개사 약관 보니 면책엔 지진·분화뿐, 갈림길은 단독사고 특약",
+    date: "2026-11-02",
+    image: "snd01_snow_buried_suv.webp",
+    categories: ["life"],
+    tags: ["폭설", "자차보험", "자기차량손해", "단독사고특약", "천재지변"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "보험개발원 자동차보험 종합포털 표준약관(개정 2022.1.1)·설명서 표준안(2024.4), 삼성화재·롯데손해보험·DB손해보험 다이렉트·캐롯손해보험 개인용 자동차보험 약관, 기상청 보도자료(2024.1.4), 국가법령정보센터 민법, 행정안전부, YTN 보도, 카프리즘 계산",
+    desc: "폭설 차량 파손 자차보험은 될까? 표준약관 자기차량손해 면책은 \"지진, 분화 등\"이고 눈은 적혀 있지 않다. 삼성화재·롯데손보 등 4개 약관은 단독사고 특약이 있어야 낙하물을 보상한다."
+  },
+  {
+    slug: "snow-mode-esc-off-button-icy-road-start-wheelspin-hyundai-kia-manual-guide-2026",
+    title: "「눈길 헛바퀴, ESC부터 끄면 될까?」 스노 모드·ESC OFF 1단계는 짧게, 2단계는 3초 이상 누른다",
+    date: "2026-11-02",
+    image: "snm01_photo_car_off_road_snow.webp",
+    categories: ["life"],
+    tags: ["눈길운전", "스노모드", "ESC OFF", "헛바퀴", "빙판길"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대·기아 오너스 매뉴얼(ko_KR), 행정안전부(정책브리핑), 한국교통안전공단 실험 인용, 카프리즘 계산",
+    desc: "눈길 스노 모드와 ESC OFF 버튼은 언제 쓸까? 현대·기아 오너스 매뉴얼의 ESC OFF 1단계·2단계, 스노 모드 3가지 켜는 법과 헛바퀴 대처 순서, 속도별 빙판 제동거리 계산을 정리했다."
+  },
+  {
     slug: "yeongdong-wine-tunnel-ticket-hours-tasting-parking-guide-2026",
     title: "\"영동 와인터널 입장료 5,000원, 월요일엔 헛걸음?\"… 420m 터널, 매표는 17:30에 끝난다",
     date: "2026-11-02",
