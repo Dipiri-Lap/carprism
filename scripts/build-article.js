@@ -119,7 +119,7 @@ function build(spec) {
      crossorigin="anonymous"></script>
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="${esc(spec.headlineShort)}">
+<meta property="og:title" content="${esc(spec.headline)}">
 <meta property="og:description" content="${esc(spec.description)}">
 <meta property="og:image" content="https://carprism.tmhub.co.kr/images/${spec.heroImage}">
 <meta property="og:url" content="https://carprism.tmhub.co.kr/articles/${spec.slug}.html">
@@ -129,7 +129,7 @@ function build(spec) {
 <meta property="article:tag" content="${tags.join(',')}">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="${esc(spec.headlineShort)}">
+<meta name="twitter:title" content="${esc(spec.headline)}">
 <meta name="twitter:description" content="${esc(spec.description)}">
 <meta name="twitter:image" content="https://carprism.tmhub.co.kr/images/${spec.heroImage}">
 
