@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "danyang-gosu-cave-ondal-tourist-site-winter-hours-fee-guide-2026",
+    title: "\"고수동굴 보고 온달 가면 늦을까?\"… 12월부터 온달 매표 16시 마감, 입장료 11,000원+6,000원",
+    date: "2026-11-03",
+    image: "dan01_gosu-entrance.webp",
+    categories: ["travel"],
+    tags: ["단양", "고수동굴", "온달관광지", "온달동굴", "온달산성"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "고수동굴 공식 사이트 / 단양관광공사 / 한국관광공사 TourAPI",
+    desc: "단양 고수동굴과 온달관광지의 겨울 운영시간, 입장료, 주차, 동선을 공식 자료로 정리했다. 온달관광지는 12월 1일부터 매표 마감이 16시로 당겨진다."
+  },
+  {
+    slug: "geochang-changpowon-wetland-garden-late-autumn-winter-hours-fee-guide-2026",
+    title: "\"겨울엔 휑하다?\"… 거창창포원 열대식물원 190종 4,500본, 입장료 3,000원·수요일 휴원",
+    date: "2026-11-03",
+    image: "cpw01_greenhouse_exterior.webp",
+    categories: ["travel"],
+    tags: ["거창창포원", "거창", "창포원", "열대식물원", "수승대"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "거창군 거창창포원 / 한국관광공사 TourAPI",
+    desc: "거창창포원 입장료 개인 3,000원, 휴원일 수요일, 정원 09:00~20:00·열대식물원 18:00까지 운영시간과 주차요금, 겨울 볼거리, 인근 수승대 코스를 공식 자료로 정리했다."
+  },
+  {
+    slug: "ulsan-jangsaengpo-whale-culture-village-ecology-experience-hall-cruise-winter-guide-2026",
+    title: "\"겨울에 고래 배 탈 수 있나?\" 장생포 고래문화마을, 공식 운항표는 4~10월·월요일 휴무",
+    date: "2026-11-03",
+    image: "jsp01_museum_skeleton_hall.webp",
+    categories: ["travel"],
+    tags: ["울산", "장생포", "고래문화마을", "고래바다여행선", "고래생태체험관"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "장생포고래문화특구(울산남구도시관리공단) / 한국관광공사 TourAPI",
+    desc: "겨울에 고래바다여행선을 탈 수 있을까? 장생포 고래문화마을·박물관·생태체험관 운영시간과 요금, 여행선 운항표(4~10월), 주차·교통을 공식 자료로 정리했다."
+  },
+  {
+    slug: "korea-carmakers-october-2026-sales-kia-beats-hyundai-domestic",
+    title: "10월 완성차 판매, \"기아가 현대차를 제쳤다\" 내수 5만 1,007대 vs 4만 9,042대… 현대차는 9월과 같았다",
+    date: "2026-11-03",
+    image: "oct01_sportage_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["10월완성차판매", "기아내수1위", "현대차10월판매", "스포티지", "기아전기차"],
+    badge: "판매",
+    badgeClass: "cat-sales",
+    source: "현대차그룹 뉴스룸(현대차·기아 2026년 10월 판매 실적)·한국경제·오토헤럴드·쿠키뉴스·아주경제 등 보도 종합",
+    desc: "2026년 10월 기아 국내 판매는 5만 1,007대로 현대차(4만 9,042대)를 1,965대 앞섰다. 현대차는 9월과 20대 차이, 기아는 5,302대 늘었다. 스포티지 7,708대 1위, 5사 합계 68만 3,221대, 65.2%의 정확한 의미를 공식 수치로 정리했다."
+  },
+  {
+    slug: "hyundai-grand-bluehands-17-sites-30-by-2029-difference-region-2026",
+    title: "그랜드 블루핸즈 17곳→2029년 30곳, \"우리 동네에도 생기나?\" 일반 블루핸즈와 다른 점(보도 기준)",
+    date: "2026-11-03",
+    image: "gbh01_roadmap.webp",
+    categories: ["news"],
+    tags: ["그랜드블루핸즈", "블루핸즈", "현대차서비스센터", "현대차정비", "인덕원현대서비스"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "참고: 한국경제·뉴스핌·헤럴드경제(2026-11-03), 현대차그룹 스토리(2024-09-27), 현대차 블루핸즈 가맹 공모 페이지",
+    desc: "그랜드 블루핸즈가 17곳에서 2029년 30곳으로 늘어난다는 보도를 정리했다. 현대차 공식 자료의 정의, 연면적 3,300㎡ 권고 기준, EV·FCEV 작업장 요건, 2026년 공모 지역을 보도 수치와 나눠 확인했다."
+  },
+  {
+    slug: "kia-mk-holdings-pbv-japan-taxi-pv5-1000-units-2030",
+    title: "\"일본 택시에 PV5가?\" 기아·MK 홀딩스 2030년 1,000대 목표, 지금 달리는 건 4대(보도 기준)",
+    date: "2026-11-03",
+    image: "mkp01_pv5_cargo_jms.webp",
+    categories: ["news", "electric"],
+    tags: ["기아PBV", "PV5일본", "MK홀딩스", "일본택시", "기아PV5"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "파이낸셜뉴스, 핀포인트뉴스, 서울경제 영문판, 머니투데이 영문판, 기아 PV5 일본 출시 보도자료(교도 PR와이어)",
+    desc: "기아가 일본 MK 홀딩스와 PBV 협약을 맺었다는 2026-11-03 보도를 정리했다. 지금 교토에서 달리는 PV5는 4대, 연내 40대, 2030년 1,000대는 확정이 아닌 목표다. 역할 분담과 일본 사양, 필요한 연평균 대수(카프리즘 계산), 확인하지 못한 항목까지 나눠 본다."
+  },
+  {
+    slug: "hyundai-certified-used-manufacturer-data-driving-score-service-history-disclosure-2026",
+    title: "\"이전 차주 운전습관까지 본다\" 현대 인증중고차, 272개 진단·정비 이력 공개… 단 '동의한 차량만'",
+    date: "2026-11-03",
+    image: "hcu01_disclosure_map.webp",
+    categories: ["news", "domestic"],
+    tags: ["현대인증중고차", "인증중고차", "안전운전점수", "블루안심점검", "중고차정비이력"],
+    badge: "NEWS",
+    badgeClass: "cat-sales",
+    source: "현대자동차 보도자료(현대차그룹 뉴스룸, 2026-11-02), 한국금융신문(2026-11-02)",
+    desc: "현대 인증중고차는 이전 차주 안전운전점수와 정비 이력, 272개(제네시스 287개) 항목 진단 리포트를 공개한다. 2026년 11월 2일 현대차 보도자료 기준 공개 항목, 동의 조건, 구매 전 확인할 5가지를 정리했다."
+  },
+  {
     slug: "heavy-snow-car-damage-own-damage-insurance-exclusion-single-accident-rider-guide-2026",
     title: "「폭설 차량 파손, 자차보험 되나요?」 4개사 약관 보니 면책엔 지진·분화뿐, 갈림길은 단독사고 특약",
     date: "2026-11-02",
