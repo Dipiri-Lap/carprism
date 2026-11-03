@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "new-car-delivery-delay-contract-cancel-deposit-refund-consumer-dispute-standard-guide-2026",
+    title: "신차 출고 지연 계약 취소, 인도예정일 「1개월」 넘으면 계약금 환불? 소비자분쟁해결기준엔 없고 표준약관엔 있다",
+    date: "2026-11-03",
+    image: "ndl01_car_carrier.webp",
+    categories: ["life"],
+    tags: ["신차출고지연", "신차계약취소", "계약금환불", "자동차매매표준약관", "소비자분쟁해결기준"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "공정거래위원회 자동차(신차)매매 표준약관 제10051호, 소비자분쟁해결기준(공정위 고시 제2025-14호), 민법, 한국소비자원 피해구제 안내·분쟁조정결정사례, 소비자24 상담 사례, 카프리즘 계산",
+    desc: "신차 출고 지연으로 계약을 취소하면 계약금은 돌려받을까? 공정위 자동차(신차)매매 표준약관 제6조 기준 인도예정일 1개월·서면 최고 7일, 연 6% 이자 계산과 계약서 확인 조항을 정리했다."
+  },
+  {
+    slug: "insurance-fraud-accomplice-fake-passenger-inflated-claim-penalty-special-act-guide-2026",
+    title: "「남들도 다 한다는데」 보험사기 가담 처벌 2026, 허위 동승·사고 부풀리기도 최대 징역 10년·벌금 5천만 원",
+    date: "2026-11-03",
+    image: "ifr01_hero_penalty_ladder.webp",
+    categories: ["life"],
+    tags: ["보험사기", "보험사기가담처벌", "보험사기방지특별법", "허위동승", "운전자바꿔치기"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "보험사기방지 특별법·형법·민법·보험업법(국가법령정보센터), 금융감독원 보도자료(2025.11.20., 2026.3.31., 2026.4.20., 2026.9.28.), 카프리즘 계산",
+    desc: "보험사기 가담 처벌은 어디까지일까? 지인 사고 부풀리기·허위 동승·사고 알선의 법정형(최대 징역 10년·벌금 5천만 원), 보험금 환수, 금감원 2025년 적발 1조 1,571억 원·105,743명을 공식 자료로 확인했다."
+  },
+  {
+    slug: "charging-system-warning-light-battery-icon-alternator-belt-what-to-do-guide-2026",
+    title: "\"충전 경고등 켜진 채 계속 달려도 될까?\" 현대·기아 설명서 6종이 경고한 과열·방전, 원인 3가지와 대처법",
+    date: "2026-11-03",
+    image: "chg01_alternator_rear.webp",
+    categories: ["life"],
+    tags: ["충전경고등", "배터리경고등", "발전기", "구동벨트", "계기판경고등"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 온라인 사용설명서(DN8·NX4·MX5·GN7 2026, NE1·CE1 2025), 기아 온라인 사용설명서(MQ4 2024), 카프리즘 정리",
+    desc: "충전 경고등(배터리 모양)이 켜지면 배터리 문제일까 발전기·벨트 문제일까? 현대·기아 설명서 6종 문구를 직접 대조해 원인 3가지, 계속 주행 위험, 정차 판단 기준과 대처 5단계를 정리했다."
+  },
+  {
+    slug: "u-turn-allowed-sections-signs-center-line-illegal-fine-guide-2026",
+    title: "\"여기서 유턴 돼요?\" 불법유턴 범칙금 6만 원인데 벌점은 0점·15점·30점으로 갈린다, 유턴 가능 구간 구별법",
+    date: "2026-11-03",
+    image: "utn01_hero_u_turn_signs.webp",
+    categories: ["life"],
+    tags: ["유턴", "불법유턴", "유턴가능구간", "유턴표지", "중앙선"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터(도로교통법·시행령·시행규칙 별표 2·6·8·28, 교통사고처리 특례법, 대법원 판결), 생활법령정보, Wikimedia Commons, 카프리즘 계산·제작 도표",
+    desc: "유턴 가능 구간은 어떻게 구별할까? 도로교통법 제18조, 유턴 표지 216·311·309의2와 중앙선 종류, 불법유턴 범칙금 6만 원과 벌점 0점·15점·30점이 갈리는 이유를 법령 별표로 대조했다."
+  },
+  {
+    slug: "overtaking-prohibited-places-situations-fine-points-guide-2026",
+    title: "「터널 안에서 추월했을 뿐인데」 앞지르기 금지 장소 어기면 범칙금 6만 원·벌점 15점, 사고 땐 형사처벌 대상",
+    date: "2026-11-03",
+    image: "ovt01_gyeongbu_lanes.webp",
+    categories: ["life"],
+    tags: ["앞지르기", "앞지르기금지", "앞지르기금지장소", "범칙금", "벌점"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통법 제21조·제22조·제60조·제156조·제164조, 시행령 별표 8, 시행규칙 별표 6·9·28, 교통사고처리 특례법 제3조(국가법령정보센터), 카프리즘 계산",
+    desc: "앞지르기 금지 장소는 어디까지일까? 도로교통법 제22조 기준 터널·다리·교차로, 승용차 범칙금 6만 원·벌점 15점(방법 위반 10점), 고속도로 앞지르기 차로와 사고 시 형사처벌까지 원문으로 확인했다."
+  },
+  {
     slug: "danyang-gosu-cave-ondal-tourist-site-winter-hours-fee-guide-2026",
     title: "\"고수동굴 보고 온달 가면 늦을까?\"… 12월부터 온달 매표 16시 마감, 입장료 11,000원+6,000원",
     date: "2026-11-03",
