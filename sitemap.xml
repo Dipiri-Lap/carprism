@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -14688,6 +14688,54 @@
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/chilgok-gasan-fortress-gasan-mountain-village-course-drive-parking-guide-2026.html</loc>
     <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/tesla-cybertruck-production-wind-down-musk-cybercab-focus-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-yangwang-altior-ultra-luxury-electric-sedan-door-umbrella-debut-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/lg-electronics-vehicle-telematics-control-unit-top-safety-grade-certification-genesis-gv90-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/nissan-rogue-hybrid-all-new-vs-rav4-cx5-us-spec-korea-view-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-heaviest-lightest-domestic-new-cars-curb-weight-official-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-single-option-price-top10-most-expensive-selectable-items-official-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-price-per-horsepower-cheapest-domestic-new-cars-top10-official-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-longest-road-tunnels-top10-inje-yangyang-official-length-safety-2026.html</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

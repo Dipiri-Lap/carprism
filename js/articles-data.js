@@ -2,8 +2,104 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "korea-longest-road-tunnels-top10-inje-yangyang-official-length-safety-2026",
+    title: "국내 최장 도로 터널 TOP10 길이·통행료·화재 행동요령, 2·3위는 터널 본체가 아닌 총연장?",
+    date: "2026-11-08",
+    image: "tnl01_inje_yangyang_portal.webp",
+    categories: ["travel"],
+    tags: ["최장터널", "인제양양터널", "도로터널순위", "서부간선지하도로", "터널안전"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국토교통부 정책브리핑 / 서울시 / 부산시 / 보령시 / 세종시·파주시 국민행동요령 / 국가법령정보센터",
+    desc: "국내 최장 도로 터널 TOP10을 공식 자료로 정리했다. 1위 인제양양터널 10,965m, 서울 서부간선지하도로 10.33km, 개통 시점·통행료, 터널 안 주차·앞지르기 금지와 화재 행동요령까지 담았다."
+  },
+  {
+    slug: "korea-price-per-horsepower-cheapest-domestic-new-cars-top10-official-2026",
+    title: "마력당 가격 TOP10 현대·기아·제네시스, 1위 아반떼 N 11만 9,857원… 모닝은 44개 중 33위(카프리즘 계산)",
+    date: "2026-11-08",
+    image: "bnmp01_avante_n_rear.webp",
+    categories: ["domestic", "news"],
+    tags: ["마력당가격", "국산차마력당가격", "마력당가격순위", "아반떼N", "EV6GT"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대자동차 가격표·카탈로그 PDF, 기아 가격표 PDF·제원 페이지, 제네시스 다운로드센터 가격표",
+    desc: "현대차·기아·제네시스 공식 가격표와 제원에서 읽은 44개 구성의 마력당 가격을 계산했다. 1위 아반떼 N 119,857원/PS부터 10위 K8 3.5 134,767원까지와 계산 기준, 읽지 못한 모델을 정리했다."
+  },
+  {
+    slug: "korea-single-option-price-top10-most-expensive-selectable-items-official-2026",
+    title: "국산 신차 옵션 최고가 TOP10, G90 롱휠베이스 컴포트 500만 원… 현대·기아는 K9·팰리세이드뿐인 이유는?",
+    date: "2026-11-08",
+    image: "opt01_g90lwb_black_front.webp",
+    categories: ["news"],
+    tags: ["옵션최고가", "선택품목가격", "G90롱휠베이스", "뒷좌석컴포트패키지", "제네시스옵션"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "제네시스 가격표(download-center, 2026년 11월 1일 기준), 현대차 공식 가격표 PDF, 기아 공식 가격 페이지(2026년 11월 1일 기준), 2026-11-08 확인, 카프리즘 계산",
+    desc: "제네시스·현대·기아 공식 가격표(2026.11.1 전후 기준)에서 읽은 선택품목 단품·패키지 최고가 TOP10. 1위 G90 롱휠베이스 뒷좌석 컴포트 패키지 500만 원, 현대·기아는 K9·팰리세이드만 10위권이다."
+  },
+  {
+    slug: "korea-heaviest-lightest-domestic-new-cars-curb-weight-official-2026",
+    title: "가장 무거운·가벼운 국산 신차 TOP10, 아이오닉 9 2,680kg vs 모닝 975kg… 2.7배 차이 나는 이유는?",
+    date: "2026-11-08",
+    image: "awd01_ioniq9_front.webp",
+    categories: ["news"],
+    tags: ["공차중량", "차량무게", "국산차무게순위", "가장무거운국산차", "가장가벼운국산차"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아·제네시스 공식 가격표·정부 신고 연비표 공차중량, 캐스퍼 공식 제원 페이지(2026-11-08 확인), 카프리즘 계산",
+    desc: "현대차·기아·제네시스 공식 가격표 공차중량으로 가장 무거운 국산 신차 TOP10(아이오닉 9 2,680kg, EV9 2,625kg, GV80 2,385kg)과 가장 가벼운 TOP10(모닝 975kg, 레이 1,085kg, 베뉴 1,180kg)을 한 번에 비교했다."
+  },
+  {
+    slug: "nissan-rogue-hybrid-all-new-vs-rav4-cx5-us-spec-korea-view-2026",
+    title: "로그 하이브리드 225마력·38mpg, 출시 트림 $41,490… CarBuzz의 'RAV4·CX-5 위협' 숫자로 보면?",
+    date: "2026-11-08",
+    image: "rgh01_rogue_t33_platinum_front.webp",
+    categories: ["import", "news"],
+    tags: ["닛산로그", "로그하이브리드", "e-POWER", "RAV4하이브리드", "마쯔다CX-5"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "닛산 미국 뉴스룸(2026.10.30 판매 개시 보도자료·프레스킷), 토요타 USA 뉴스룸, 마쯔다 USA 뉴스룸(2026.1.13), 코리아타임스, 참고: CarBuzz(2026-11-07)",
+    desc: "닛산 미국 뉴스룸·프레스킷으로 2027 로그 하이브리드의 e-POWER 구조(225hp), 트림별 MSRP, 연비, 출시 시기를 확인하고 토요타 RAV4 하이브리드·마쯔다 CX-5 공식 수치와 대조했다. CarBuzz 평가와 확인하지 못한 항목을 구분했다."
+  },
+  {
+    slug: "lg-electronics-vehicle-telematics-control-unit-top-safety-grade-certification-genesis-gv90-2026",
+    title: "LG전자 통신제어 모듈 ASIL D 인증, 제네시스 GV90 탑재… '안전 최고등급'이 차 전체의 안전을 뜻할까?",
+    date: "2026-11-08",
+    image: "lgt01_gv90_green_front.webp",
+    categories: ["news"],
+    tags: ["LG전자", "통신제어모듈", "ASIL D", "ISO 26262", "TÜV라인란드"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "LG전자 글로벌 뉴스룸(2026.10.8), 지피코리아(2026.11.8), 이코노믹리뷰(2026.11.8), LG전자 뉴스룸(2022 과거 인증)",
+    desc: "LG전자가 TÜV 라인란드로부터 차량 통신제어 모듈의 ISO 26262 ASIL D 인증을 받았다고 밝힌 것으로 보도됐다. 인증 문구와 업계 최초 표현, 부품 인증의 의미를 확인된 것과 미확인으로 나눠 정리했다."
+  },
+  {
+    slug: "byd-yangwang-altior-ultra-luxury-electric-sedan-door-umbrella-debut-2026",
+    title: "양왕 알티올 공개, 5.6m에 CLTC 1,000km 이상… 문 안에 우산까지 넣었는데 가격은 왜 '예상가'일까?",
+    date: "2026-11-08",
+    image: "alt01_u7_silver_front.webp",
+    categories: ["electric", "news"],
+    tags: ["양왕알티올", "BYD양왕", "도어엄브렐라", "초호화전기세단", "롤스로이스고스트"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "CnEVPost, paultan.org, STARNEWS, TechNode, 오토헤럴드",
+    desc: "양왕 알티올이 2026년 11월 7일 아부다비에서 공개됐다. 전장 5,600mm, CLTC 1,000km 이상, 도어 우산 보관함, 한정판 399대 예약과 미공개 항목을 보도 기준으로 정리했다."
+  },
+  {
+    slug: "tesla-cybertruck-production-wind-down-musk-cybercab-focus-2026",
+    title: "사이버트럭 2027년 중반 생산 축소 예고, 같은 날 최대 10% 인상… 머스크 '사이버캡 자리' 설명, 숫자로 따져보니",
+    date: "2026-11-08",
+    image: "tesla_cybertruck_dusk.webp",
+    categories: ["electric", "news"],
+    tags: ["사이버트럭", "사이버트럭생산중단", "테슬라", "머스크", "사이버캡"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "참고: CNBC(2026-11-06), CBS News(2026-11-06), Teslarati(2026-11-06), Electrek(2026-11-06)",
+    desc: "머스크가 2026년 11월 6일 X에서 기가 텍사스 사이버트럭 생산을 2027년 중반쯤 줄이고 사이버캡 증산 공간을 만들겠다고 밝혔다. 같은 날 미국 가격은 최대 10% 올랐고 듀얼 모터 AWD 주문은 막혔다. 확정된 것과 매체 추정, 확인되지 않은 것을 나눠 정리했다."
+  },
+  {
     slug: "chilgok-gasan-fortress-gasan-mountain-village-course-drive-parking-guide-2026",
-    title: "칠곡 가산산성·가산산성마을 입장료·주차·운영시간, 무료에 연중무휴인데 입산은 15~16시까지?",
+    title: "칠곡 가산산성·가산산성마을 입장료·주차·운영시간, 무료 연중무휴인데 입산 15~16시, 11월부터 통제 구간도?",
     date: "2026-11-07",
     image: "gsn01_jinnammun_gate.webp",
     categories: ["travel"],
@@ -15,7 +111,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "korea-domestic-ev-price-ranking-before-after-subsidy-official-2026",
-    title: "국산 전기차 가격 순위 17종, 레이 EV 2,852만~마그마 9,788만… 세제혜택 후엔 1위가 캐스퍼로 바뀐 이유는?",
+    title: "국산 전기차 가격 순위 17종, 레이 EV 2,852만~마그마 9,788만… 세제혜택 후엔 캐스퍼가 5만 원 앞선다?",
     date: "2026-11-07",
     image: "awd01_ev3_front.webp",
     categories: ["electric", "domestic", "news"],
@@ -35,7 +131,7 @@ window.ARTICLES_DATA = [
     badge: "MARKET",
     badgeClass: "cat-sales",
     source: "현대차·기아·제네시스·르노코리아 공식 가격표·정부 신고 연비(2026-11-07 확인), 오피넷 지역별 평균가격(2026-11-06), 카프리즘 계산",
-    desc: "현대차·기아·제네시스 공식 가격표로 확인한 국산 내연기관 신차의 공인 복합연비 최저 순위 TOP10(스타리아 라운지 LPG 6.5, 그랜저 LPG 7.3, 타스만 7.4, GV80 7.7)과 연 1.5만km 연료 소비량을 정리했다."
+    desc: "현대차·기아·제네시스 공식 가격표로 확인한 국산 내연기관 신차의 공인 복합연비 최저 순위 TOP10(스타리아 라운지 LPG 6.5, 그랜저 LPG·타스만 7.4, GV80 7.7)과 연 1.5만km 연료 소비량을 정리했다."
   },
   {
     slug: "korea-7-to-9-seater-domestic-new-cars-price-ranking-official-2026",
@@ -219,7 +315,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "korea-new-car-under-30-million-won-list-official-price-2026",
-    title: "3천만 원 이하 신차 15종 가격순, 모닝 1,421만~캐스퍼 일렉트릭 2,995만… 하이브리드 3종이 빠진 이유는?",
+    title: "3천만 원 이하 신차 15종 가격순, 모닝 1,421만~캐스퍼 일렉트릭 2,995만… 하이브리드 4종이 빠진 이유는?",
     date: "2026-11-06",
     image: "fam12mb_casper-white-2026.webp",
     categories: ["domestic", "news"],
