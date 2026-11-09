@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "donghae-mukho-lighthouse-nongol-damgil-port-parking-winter-guide-2026",
+    title: "묵호등대·논골담길 주차·운영시간, 수변공원 주차빌딩 305면(보도 기준) 열렸는데 등대 시간은 두 가지?",
+    date: "2026-11-09",
+    image: "mkh01_lighthouse_plaza.webp",
+    categories: ["travel"],
+    tags: ["동해", "묵호등대", "논골담길", "묵호항", "묵호수변공원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI / 동해관광 / 대한민국 구석구석 / MTN",
+    desc: "동해 묵호등대·논골담길·묵호항 코스의 주차장 3곳과 수변공원 주차빌딩, 등대 운영시간 자료 불일치, 진입 도로 확인 범위, 시티투어와 걷는 동선을 공식 자료로 정리했다."
+  },
+  {
+    slug: "buan-chaeseokgang-gyeokpo-winter-sunset-tide-parking-guide-2026",
+    title: "부안 채석강 물때·주차·격포항 일몰 코스, 7천만 년 절벽은 '상시 개방'인데 물때는 왜 봐야 할까?",
+    date: "2026-11-09",
+    image: "cks01_03-strata-cliff-sea-caves-wide.webp",
+    categories: ["travel"],
+    tags: ["부안", "채석강", "격포항", "물때", "일몰"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI / 부안군 문화관광 / 국가유산포털 / 국립해양조사원",
+    desc: "부안 채석강의 격포리층 지질, 격포항 조석 예보지점으로 물때 확인하는 순서, 겨울 일몰 시각(카프리즘 계산), 주차·동선과 확인하지 못한 항목을 공식 자료로 정리했다."
+  },
+  {
+    slug: "korea-domestic-new-cars-power-torque-top10-official-spec-2026",
+    title: "국산 신차 최고출력·최대토크 TOP10, 609PS·740Nm 공동 1위 4종… 마력 높다고 정말 빠른 걸까?",
+    date: "2026-11-09",
+    image: "pwr01_ioniq5n_6n_pair.webp",
+    categories: ["news"],
+    tags: ["최고출력", "최대토크", "국산차출력순위", "국산차토크순위", "마력당무게"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아·제네시스 공식 가격표·카탈로그 최고출력·최대토크(2026-11-09 확인), 공차중량은 카프리즘 공차중량 기사 값, 환산·마력당 무게는 카프리즘 계산",
+    desc: "현대차·기아·제네시스 공식 가격표·카탈로그로 국산 신차 최고출력·최대토크 TOP10을 정리했다. 609PS(448kW)·740Nm 공동 1위 4종, 내연기관 최고 G90·GV80 쿠페 415PS, 출력÷공차중량 마력당 무게까지 비교했다."
+  },
+  {
+    slug: "korea-domestic-new-cars-size-ranking-length-width-wheelbase-official-2026",
+    title: "국산 신차 크기 순위 TOP10, G90 롱휠베이스 5,465mm vs 모닝·레이 3,595mm… 1.87m 차이의 정체는?",
+    date: "2026-11-09",
+    image: "cartax26_g90.webp",
+    categories: ["news"],
+    tags: ["국산차크기", "전장", "휠베이스", "차체크기", "국산차전장순위"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아 공식 카탈로그 PDF, 제네시스 가격표(202611), 캐스퍼 일렉트릭 공식 제원 페이지(2026-11-09 확인), 카프리즘 계산",
+    desc: "현대차·기아·제네시스 공식 제원표로 전장 가장 긴 TOP10(G90 롱휠베이스 5,465mm, 타스만 5,410mm)과 가장 짧은 TOP10(모닝·레이 3,595mm), 휠베이스 TOP10을 한 번에 비교했다."
+  },
+  {
+    slug: "honda-alpha-first-global-electric-suv-name-avancier-hybrid-teaser-2026",
+    title: "혼다 알파 12월 2일 인도 공개, 아반시어 하이브리드 티저까지… 이름과 날짜 말고 공개된 제원은 아직 없다",
+    date: "2026-11-09",
+    image: "hnd01_0alpha_concept_front.webp",
+    categories: ["electric", "news"],
+    tags: ["혼다알파", "HondaALPHA", "혼다전기SUV", "아반시어", "HondaHybrid"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "혼다 인도 법인 보도자료, 혼다 글로벌 뉴스룸, Motor1, CarExpert, Autocar Pro",
+    desc: "혼다 인도 법인이 첫 인도산 글로벌 전기 SUV 이름을 '알파'로 발표하고 12월 2일 세계 최초 공개를 예고했다. 아반시어 하이브리드 티저, Honda Hybrid 15개 모델 계획, 공식 확인된 것과 미공개 항목을 정리했다."
+  },
+  {
+    slug: "ford-affordable-midsize-pickup-2027-20-percent-lower-material-cost-than-ranger-2026",
+    title: "포드 해외용 저가 중형 픽업 2027년 출시 예고, \"레인저보다 20% 싸게\"는 판매가 아닌 소재 원가 얘기였다",
+    date: "2026-11-09",
+    image: "ranger27_siam2026.webp",
+    categories: ["news"],
+    tags: ["포드저가픽업", "포드레인저", "포드실적", "짐팔리", "저가픽업트럭"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "포드 2026년 3분기 실적 발표 콜 전사본(2026.10.28), 포드 미국 사이트 레인저 가격, paultan.org(2026.11.6)",
+    desc: "포드가 해외 시장용 저가 중형 픽업을 내년 출시한다고 밝혔다. 3분기 실적 콜 전사본 기준 레인저보다 20% 낮은 것은 소재 원가이고 판매가는 미공개다. 포드 발언과 매체 추정, 레인저 미국 시작가 계산을 구분했다."
+  },
+  {
+    slug: "bmw-neue-klasse-electric-touring-wagon-spied-2027-reveal-2026",
+    title: "BMW i3 투어링 전기 왜건 뉘르부르크링 포착, 2027년 공개설… BMW가 확인한 것과 보도뿐인 것은?",
+    date: "2026-11-09",
+    image: "bbwg01_chart_status.webp",
+    categories: ["electric", "import", "news"],
+    tags: ["BMW i3 투어링", "노이어클라쎄", "BMW전기왜건", "BMW스파이샷", "전기왜건비교"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "Motor1(2026-11-06), BMWBLOG(2026-04-02), CarExpert(2026-03-19), BMW 영국 뉴스룸, Mercedes-Benz Media, Audi 미디어센터",
+    desc: "모터원이 전한 BMW i3 투어링 시험차 포착 보도를 BMW 공식 자료와 구분했다. 세단 기준 WLTP 911km·108.7kWh·400kW와 CLA 슈팅 브레이크·A6 아반트 e-tron 트렁크 비교, 한국 출시 미확인까지."
+  },
+  {
     slug: "korea-longest-road-tunnels-top10-inje-yangyang-official-length-safety-2026",
     title: "국내 최장 도로 터널 TOP10 길이·통행료·화재 행동요령, 2·3위는 터널 본체가 아닌 총연장?",
     date: "2026-11-08",
