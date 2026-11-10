@@ -99,7 +99,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "xiaomi-su7-xtreme-nurburgring-record-attempt-camo-off-2026",
-    title: "샤오미 SU7 익스트림, 뉘르부르크링 위장 벗은 모습 보도… 포르쉐 6분 55초 벽 넘을까, 기록은 아직 미확정",
+    title: "샤오미 SU7 익스트림, 뉘르부르크링 위장 벗은 듯한 시험차 보도… 포르쉐 6분 55초 벽 넘을까, 기록은 아직 미확정",
     date: "2026-11-10",
     image: "su7x01_ultra_prototype_display.webp",
     categories: ["electric", "news"],
