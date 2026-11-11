@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -14850,6 +14850,78 @@
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/cheonan-independence-hall-of-korea-winter-hours-parking-maple-path-guide-2026.html</loc>
     <lastmod>2026-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/china-nev-october-2026-record-1-94-million-caam-byd-19-million-cumulative-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/volkswagen-ev-battery-fire-risk-charge-limit-recall-80000-units-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/golden-steering-wheel-2026-kia-first-non-european-triple-genesis-gv60-magma-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-domestic-new-cars-co2-emission-g-per-km-ranking-official-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-domestic-new-cars-wheel-size-fuel-economy-loss-top10-official-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-genesis-gasoline-vs-hybrid-price-gap-fuel-cost-payback-years-official-price-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hadong-samseonggung-cheonghakdong-fee-hours-parking-winter-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/sokcho-cheongchoho-lake-park-parking-winter-walk-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/taebaek-hwangji-pond-yongyeon-cave-winter-hours-fee-parking-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/autonomous-vehicle-law-accident-liability-punishment-level4-december-2026-guide.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ev-dc-fast-charging-80-percent-rule-charging-curve-time-cost-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/eco-car-subsidy-year-end-exhaustion-delivery-timing-remaining-options-guide-2026.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
