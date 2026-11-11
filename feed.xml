@@ -5,7 +5,15 @@
     <link>https://carprism.tmhub.co.kr/</link>
     <description>카프리즘의 최신 기사 30건을 최신순으로 제공하는 RSS 피드입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Nov 2026 10:22:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 13:13:40 GMT</lastBuildDate>
+    <item>
+      <title>부산 금정산성 겨울 운영시간·주차·가는 법, 연중무휴라는데 산성마을은 평지보다 2~3℃ 낮다?</title>
+      <link>https://carprism.tmhub.co.kr/articles/busan-geumjeong-sanseong-fortress-hours-parking-winter-visit-guide-2026.html</link>
+      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/busan-geumjeong-sanseong-fortress-hours-parking-winter-visit-guide-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <description>부산 금정산성의 상시 개방·연중무휴·주차 정보, 산성마을 2~3℃ 기온 차이, 203번 버스·마을버스 가는 법, 먹거리촌을 공식 자료로 정리했다.</description>
+      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/gjs11_gate_wall_steps.webp" type="image/webp"/>
+    </item>
     <item>
       <title>전기차 보조금 잔여 5,794대 중 95%는 접수 마감 지역, 2026 연말 출고 전 꼭 확인할 3가지(카프리즘 집계)</title>
       <link>https://carprism.tmhub.co.kr/articles/eco-car-subsidy-year-end-exhaustion-delivery-timing-remaining-options-guide-2026.html</link>
@@ -237,14 +245,6 @@
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
       <description>혼다 인도 법인이 첫 인도산 글로벌 전기 SUV 이름을 &apos;알파&apos;로 발표하고 12월 2일 세계 최초 공개를 예고했다. 아반시어 하이브리드 티저, Honda Hybrid 15개 모델 계획, 공식 확인된 것과 미공개 항목을 정리했다.</description>
       <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/hnd01_0alpha_concept_front.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>포드 해외용 저가 중형 픽업 2027년 출시 예고, &quot;레인저보다 20% 싸게&quot;는 판매가 아닌 소재 원가 얘기였다</title>
-      <link>https://carprism.tmhub.co.kr/articles/ford-affordable-midsize-pickup-2027-20-percent-lower-material-cost-than-ranger-2026.html</link>
-      <guid isPermaLink="true">https://carprism.tmhub.co.kr/articles/ford-affordable-midsize-pickup-2027-20-percent-lower-material-cost-than-ranger-2026.html</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <description>포드가 해외 시장용 저가 중형 픽업을 내년 출시한다고 밝혔다. 3분기 실적 콜 전사본 기준 레인저보다 20% 낮은 것은 소재 원가이고 판매가는 미공개다. 포드 발언과 매체 추정, 레인저 미국 시작가 계산을 구분했다.</description>
-      <enclosure url="https://carprism.tmhub.co.kr/https://img.tmhub.co.kr/carprism/ranger27_siam2026.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

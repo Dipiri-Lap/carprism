@@ -2,6 +2,18 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "busan-geumjeong-sanseong-fortress-hours-parking-winter-visit-guide-2026",
+    title: "부산 금정산성 겨울 운영시간·주차·가는 법, 연중무휴라는데 산성마을은 평지보다 2~3℃ 낮다?",
+    date: "2026-11-11",
+    image: "gjs11_gate_wall_steps.webp",
+    categories: ["travel"],
+    tags: ["금정산성", "부산여행", "부산 금정구", "산성마을", "금정산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI / 금정구청 문화관광",
+    desc: "부산 금정산성의 상시 개방·연중무휴·주차 정보, 산성마을 2~3℃ 기온 차이, 203번 버스·마을버스 가는 법, 먹거리촌을 공식 자료로 정리했다."
+  },
+  {
     slug: "eco-car-subsidy-year-end-exhaustion-delivery-timing-remaining-options-guide-2026",
     title: "전기차 보조금 잔여 5,794대 중 95%는 접수 마감 지역, 2026 연말 출고 전 꼭 확인할 3가지(카프리즘 집계)",
     date: "2026-11-11",
