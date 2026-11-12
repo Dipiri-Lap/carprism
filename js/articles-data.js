@@ -2,6 +2,198 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "electric-car-periodic-inspection-items-separated-motor-vehicle-management-act-rule-amendment-2026-guide",
+    title: "전기차 정기검사 달라지나? 검사항목 24개 vs 21개, 빠지는 3개와 고전원 12가지, 입법예고안 기준",
+    date: "2026-11-12",
+    image: "ins12_ev_battery_pack_leaf.webp",
+    categories: ["life"],
+    tags: ["전기차정기검사", "자동차관리법시행규칙", "검사항목분리", "친환경차검사", "고전원전기장치"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "국민참여입법센터(법제처) 국토교통부 공고 제2026-1062호 법령안·조문별 제개정 이유서, 국가법령정보센터 자동차관리법 시행규칙(시행 2026.10.2.), 카프리즘 대조·계산",
+    desc: "전기차 정기검사가 달라질까? 자동차관리법 시행규칙 개정안의 내연기관 24개·친환경차 21개 검사항목, 고전원 12가지, 하이브리드 적용, 시행 여부를 원문으로 대조했다."
+  },
+  {
+    slug: "driver-license-class2-to-class1-conversion-driving-experience-proof-documents-2026-guide",
+    title: "2종 보통 1종 전환, 7년 무사고만으론 부족하다… 인정되는 운전경력 입증 자료 8가지",
+    date: "2026-11-12",
+    image: "lic12_chungju_office.webp",
+    categories: ["life"],
+    tags: ["2종보통1종전환", "운전경력입증", "7년무사고", "자동차보험가입증명서", "운전면허시험면제"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통법 시행령 별표 3·부칙(국가법령정보센터), 한국도로교통공단 운전면허시험장 공지(2026-03-16), 안전운전 통합민원 운전경력 입증자료 기준·운전면허증 발급 가이드(2026-11-12 열람), 정책브리핑, 카프리즘 계산",
+    desc: "2종 보통 1종 전환 조건이 2026년 3월 19일부터 달라졌다. 7년 무사고에 자동차보험가입증명서 등 운전경험 입증이 더해진 기준, 인정 서류 8가지, 신청 절차와 수수료 17,000원(카프리즘 계산)을 공식 자료로 정리했다."
+  },
+  {
+    slug: "ev-hydrogen-highway-toll-discount-2027-extension-rate-cut-by-year-guide-2026",
+    title: "전기·수소차 고속도로 통행료 할인 2027년까지, 2026년 30%·2027년 20%… 월 10만 원이면 연 12만 원 차이",
+    date: "2026-11-12",
+    image: "tol12_seoul_tg_hipass_lane.webp",
+    categories: ["life"],
+    tags: ["전기차통행료할인", "수소차통행료", "고속도로통행료감면", "하이패스전기차", "유료도로법시행령"],
+    badge: "EV POLICY",
+    badgeClass: "cat-blue",
+    source: "유료도로법 시행령(국가법령정보센터), 한국도로공사 통행료 홈페이지, 국토교통부 정책브리핑, K-공감, 카프리즘 계산",
+    desc: "전기·수소차 고속도로 통행료 할인은 2027년 12월 31일까지, 감면율은 2026년 30%·2027년 20%다. 유료도로법 시행령 조문, 하이패스 등록 4단계, 월 통행료별 절감액을 정리했다."
+  },
+  {
+    slug: "driving-license-visiting-road-training-since-december-2025-how-to-use-police-agency-guide",
+    title: "운전면허 「집 앞 도로연수」 2025년 12월 시행, 신청 전 학원 확인 5가지와 분당 수강료 비교법",
+    date: "2026-11-12",
+    image: "dr12_nokcheon_venue_training_car.webp",
+    categories: ["life"],
+    tags: ["운전면허 도로연수", "집 앞 도로연수", "방문 연수", "운전학원", "도로교통법 시행규칙"],
+    badge: "POLICY UPDATE",
+    badgeClass: "cat-blue",
+    source: "국가법령정보센터 도로교통법·시행령·시행규칙, 정책브리핑 정책뉴스, 뉴데일리(경찰청 발표 보도), 카프리즘 계산",
+    desc: "운전면허 도로연수 집 앞 방문 연수는 2025년 12월 2일 시행령·시행규칙 개정으로 시행 중이다. 대상, 관할 요건, 신청 전 확인 5가지, 분당 수강료 비교법, 불법 연수 주의점을 법령 기준으로 정리했다."
+  },
+  {
+    slug: "korea-winter-snow-flower-spots-compare-official-hours-parking-trail-control-2026",
+    title: "겨울 눈꽃 명소 6곳 입산 마감·주차·통제 비교, 소백산 주요 탐방로는 13시인데 태백산 당골은 15시까지?",
+    date: "2026-11-12",
+    image: "snw12_seonjaryeong-ridge-aerial-snow.webp",
+    categories: ["travel"],
+    tags: ["겨울여행", "눈꽃", "소백산", "태백산", "덕유산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 입산시간지정제 / 무주덕유산리조트 / 한국관광공사 TourAPI / 설악산 케이블카 운영사",
+    desc: "소백산·태백산·덕유산·계방산·선자령·만항재의 겨울 입산 마감 시각, 통제, 주차, 접근 방식을 국립공원공단·무주덕유산리조트·한국관광공사 자료로 비교했다."
+  },
+  {
+    slug: "busan-haeundae-blueline-park-sky-capsule-beach-train-hours-fare-parking-winter-guide-2026",
+    title: "해운대 블루라인파크 겨울 운행시간·요금, 스카이캡슐 18시·해변열차 19시 표기…예약 30분 늦으면 환불도 안 된다?",
+    date: "2026-11-12",
+    image: "blp12_capsule_blue_rail.webp",
+    categories: ["travel"],
+    tags: ["해운대", "블루라인파크", "스카이캡슐", "해변열차", "청사포"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "해운대블루라인파크 공식 사이트 / 한국관광공사 TourAPI",
+    desc: "해운대 블루라인파크 동절기(11~2월) 스카이캡슐·해변열차 운행시간, 권종별 요금, 예약시간 30분 지연 시 탑승 제한·환불 규정, 정거장 7곳, 공식 주차 안내 이미지 기준 주차 요금을 공식 사이트 기준으로 정리했다(정비일은 확인하지 못함)."
+  },
+  {
+    slug: "korea-domestic-trims-over-100-million-won-count-hyundai-kia-genesis-official-price-2026",
+    title: "1억 넘는 국산 신차 트림 기본가 8개 전부 제네시스… 옵션 이론상 최대 15개, 넥쏘는 약 1,221만 원 못 미친 이유는?",
+    date: "2026-11-12",
+    image: "cartax26_g90.webp",
+    categories: ["news"],
+    tags: ["1억넘는국산차", "국산차트림수", "제네시스가격", "GV90가격", "G90가격"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "제네시스 공식 가격표(2026.11.1 기준, GV90 2026.11.10 기준), 현대차·기아 공식 가격표 PDF(2026-11-12 확인), 카프리즘 집계·계산",
+    desc: "현대·기아·제네시스 공식 가격표를 직접 열어 센 1억 원 초과 트림 수. 기본가 8개는 전부 제네시스이고 필수 선택 1가지를 더하면 11개, 공식 추천 조합까지 14개, 옵션 전부를 이론상 더하면 15개다. 현대·기아는 확인한 가격표 범위에서 0개이고, 가격표를 못 연 모델은 포함하지 못했다."
+  },
+  {
+    slug: "korea-ev-after-subsidy-price-vs-gasoline-hybrid-same-class-seoul-official-2026",
+    title: "서울 보조금 빼도 동급 하이브리드보다 비싼 전기차 7종, 최소 155만 원… 한 단계 위 차급과는 5쌍 역전되는 이유는?",
+    date: "2026-11-12",
+    image: "awd01_ev3_front.webp",
+    categories: ["news"],
+    tags: ["전기차실구매가", "서울전기차보조금", "전기차vs하이브리드", "전기차보조금후가격", "EV3"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아 가격표(2026-11-12 확인), 무공해차 통합누리집 서울 차종·모델 보조금(2026-11-12 조회), 지방세특례제한법 제66조, 카프리즘 계산",
+    desc: "현대·기아 공식 가격표와 무공해차 통합누리집 서울 보조금(국비+서울시, 2026-11-12 조회)으로 전기차 8종의 서울 실구매가를 계산해 같은 급 가솔린·하이브리드와 비교했다. 같은 급 16쌍은 전부 전기차가 비싸고, 한 단계 위 차급 하이브리드와는 6쌍 중 5쌍이 역전된다."
+  },
+  {
+    slug: "korea-new-car-price-in-years-of-income-popular-models-official-statistics-2026",
+    title: "신차 가격은 월급 몇 개월치? 아반떼는 중위 8.3개월·평균 6.4개월, 그랜저는 14.7개월·11.3개월인 이유는",
+    date: "2026-11-12",
+    image: "bcartax26_grandeur_gn7.webp",
+    categories: ["news"],
+    tags: ["신차가격", "연소득대비", "중위소득", "평균소득", "월급개월수"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "국가데이터처 2024년 임금근로일자리 소득(보수) 결과(2026-02-23), 고용노동부 고용노동통계 연간 월평균 임금총액(2025), 현대차·기아 공식 가격표 PDF(2026-11-12 확인), 카프리즘 계산",
+    desc: "국가데이터처 2024년 임금근로일자리 소득(월 세전 평균 375만 원·중위 288만 원)으로 현대차·기아 공식 가격표의 인기 신차 11종 시작가를 나눴다. 중위소득 기준 아반떼 8.3개월, 그랜저 14.7개월이며 평균·대기업 기준과의 차이를 정리했다."
+  },
+  {
+    slug: "korea-grandeur-top-trim-vs-genesis-g80-entry-price-gap-official-price-2026",
+    title: "그랜저 하이브리드 최상위 6,089만 원, G80 시작가보다 26만 원 비싸… 세제혜택 후엔 74만 원 싼 '역전'의 조건은?",
+    date: "2026-11-12",
+    image: "car50m26_grandeur_front.webp",
+    categories: ["news"],
+    tags: ["그랜저", "G80", "그랜저G80가격", "그랜저풀옵션", "G80시작가"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차 더 뉴 그랜저 가격표 PDF(현 모델 출시일 2026-05-14, 2026-11-12 확인), 제네시스 G80 가격표(2026.11.1~11.30, 개별소비세 5% 기준), 카프리즘 계산",
+    desc: "현대차 더 뉴 그랜저 가격표와 제네시스 G80 가격표를 직접 읽어 그랜저 파워트레인별 최상위 트림과 G80 기본 모델 시작가를 비교했다. 하이브리드 블랙 잉크 6,089만 원은 26만 원 높고 세제혜택 후엔 74만 원 낮으며, 옵션과 사양을 맞추면 결과가 바뀐다."
+  },
+  {
+    slug: "byd-great-tang-wheels-installed-backwards-free-replacement-apology-2026",
+    title: "BYD 그레이트 탕 앞뒤 휠 반대 출고 사과, 림 무상 교체·보증 11/11 재기산… 안전 문제 없다는데 대수는 왜 비공개?",
+    date: "2026-11-12",
+    image: "gtw12_01_showroom.webp",
+    categories: ["electric", "news"],
+    tags: ["BYD", "그레이트탕", "大唐", "BYD휠", "휠반대장착"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "CnEVPost(2026-11-11), Carscoops, Electrek(2026-11-11), CarNewsChina(2026-11-08·11-12), HDmotori(2026-11-09)",
+    desc: "BYD가 11월 11일 대형 전기 SUV 그레이트 탕 일부 차량의 앞뒤 휠 림이 반대로 장착돼 출고됐다고 사과했다. 무상 점검·림 교체와 보증 재기산, 안전 영향 없다는 입장, 비공개된 대상 대수를 외신 보도로 정리했다."
+  },
+  {
+    slug: "land-rover-defender-vs-byd-ti7-copy-allegation-dutch-bailiff-seizure-the-hague-court-2026",
+    title: "랜드로버 vs BYD Ti7 압수 사태, 헤이그 법원 압수 해제 보도… \"디펜더 베꼈다\" 의혹의 침해 판단은 아직?",
+    date: "2026-11-12",
+    image: "jlr12_ti7_front.webp",
+    categories: ["news"],
+    tags: ["랜드로버", "BYD", "BYDTi7", "팡청바오", "랜드로버디펜더"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "Auto Express(2026-11-09), Motor1(2026-11-09), InsideEVs(2026-11-09), CarExpert, 영국 타임스 보도 인용",
+    desc: "재규어 랜드로버가 BYD Ti7이 디펜더를 베꼈다고 주장하며 8월 네덜란드 BYD 사무실에서 집행관이 디지털 자료를 압수했다는 보도를 외신 4곳 기준으로 정리했다. 11월 11일 헤이그 법원이 압수 해제를 명했다는 보도(침해 여부 판단 아님, 한 곳 확인)와 양측 입장, 매체별 차이, Ti7 가격을 짚었다."
+  },
+  {
+    slug: "polestar-formula-2030-concept-reveal-next-polestar-2-polestar-7-design-preview-2026",
+    title: "폴스타 포뮬러 2030 공개, 4도어 1,350mm에 물리 조작 8개… 양산은 안 한다는데 2027 폴스타 2엔 뭐가 남나",
+    date: "2026-11-12",
+    image: "pol12_precept_side.webp",
+    categories: ["import", "electric", "news"],
+    tags: ["폴스타", "포뮬러2030", "폴스타콘셉트", "차세대폴스타2", "폴스타7"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "Electrek, InsideEVs, Motor1 (2026-11-10 보도)",
+    desc: "폴스타가 11월 10일 공개한 포뮬러 2030 콘셉트의 제원, 물리 조작 8개와 에어 볼스터 시트, 폴스타 2·7 디자인 반영 범위를 Electrek·InsideEVs·Motor1 보도로 대조했다."
+  },
+  {
+    slug: "volkswagen-anhui-id-unyx-no-new-models-2027-2028-reuters-sales-11360-units-2026",
+    title: "폭스바겐 안후이 2027·2028년 신차 없다(로이터 보도)… 1~9월 11,360대인데 2027년 목표 12만 8천 대?",
+    date: "2026-11-12",
+    image: "unx12_u08_dk1.webp",
+    categories: ["electric", "news"],
+    tags: ["폭스바겐안후이", "IDUNYX", "VWAnhui", "로이터단독", "샤오펑폭스바겐"],
+    badge: "CHINA EV",
+    badgeClass: "cat-blue",
+    source: "Reuters 인용 보도(CnEVPost 2026-11-12, Investing.com 2026-11-11), Electrive(2026-10-21)",
+    desc: "로이터 단독 보도(익명 취재원 2명)로 폭스바겐 안후이는 2027·2028년 신차 계획이 없다. UNYX 1~9월 판매 11,360대, 2027년 목표 12만 8,000대를 폭스바겐 공식 확인이 없는 보도 기준으로 정리했다."
+  },
+  {
+    slug: "nissan-h1-fy2026-results-operating-profit-80-billion-yen-china-built-exports-expansion-2026",
+    title: "닛산 상반기 영업이익 800억 엔 흑자 전환, 판매 전망은 297만~300만 대로 하향… 2분기 -96%는 무슨 뜻일까?",
+    date: "2026-11-12",
+    image: "nsn12_chart_h1_profit.webp",
+    categories: ["news"],
+    tags: ["닛산실적", "닛산상반기", "닛산영업이익", "닛산판매전망", "닛산중국"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "닛산 보도자료(2026.11.11, 2026 회계연도 상반기 실적), 참고: CNBC Africa(2026-11-11), 카프리즘 계산",
+    desc: "닛산 보도자료로 2026 회계연도 상반기 판매 141만 대, 영업이익 800억 엔, 2분기 21억 엔, 연간 2,000억 엔 가이던스 유지와 판매 전망 하향(315만→297만~300만 대)을 확인했다. 중국 대응과 외신에만 있는 수치를 구분했다."
+  },
+  {
+    slug: "korea-nov-2026-used-car-prices-heydealer-14-of-15-domestic-models-fall-tucson-down-5-6",
+    title: "헤이딜러 11월 중고차 시세 국산 15종 중 14종 하락, 올 뉴 투싼 -5.6%… 오른 건 그랜저 하이브리드 단 하나였다",
+    date: "2026-11-12",
+    image: "ucn12_tucson_tl.webp",
+    categories: ["domestic", "import", "news"],
+    tags: ["11월중고차시세", "헤이딜러", "올뉴투싼", "그랜저하이브리드", "BMW5시리즈"],
+    badge: "USED CAR",
+    badgeClass: "cat-sales",
+    source: "헤이딜러 11월 중고차 시세 발표(파이낸셜뉴스·헤럴드경제 11월 12일 보도 기준)",
+    desc: "헤이딜러가 11월 12일 발표한 11월 중고차 시세에서 국산차 15종 중 14종, 수입차 10종 중 8종이 전월 대비 내렸다. 올 뉴 투싼 1,170만 원(-5.6%), BMW 5시리즈 2,460만 원(-5.7%), 그랜저 하이브리드 4,100만 원(+1.2%)을 보도 기준으로 정리하고 금액 환산과 투싼 세대 정정을 덧붙였다."
+  },
+  {
     slug: "busan-geumjeong-sanseong-fortress-hours-parking-winter-visit-guide-2026",
     title: "부산 금정산성 겨울 운영시간·주차·가는 법, 연중무휴라는데 산성마을은 평지보다 2~3℃ 낮다?",
     date: "2026-11-11",
@@ -711,7 +903,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "korea-new-car-most-expensive-top10-domestic-official-price-2026",
-    title: "국산 신차 최고가 TOP10, 1위 G90 롱휠 블랙 1억 7,498만 원… 1억 넘는 차종은 3개뿐인 이유는?",
+    title: "국산 신차 최고가 TOP10, 1위 GV90 네오룬 2억 3,950만 원… 1억 넘는 차종은 4개, 트림은 8~11개?",
     date: "2026-11-06",
     image: "mex01_g90_lwb_black.webp",
     categories: ["news"],
@@ -719,7 +911,7 @@ window.ARTICLES_DATA = [
     badge: "MARKET",
     badgeClass: "cat-sales",
     source: "제네시스 가격표·카탈로그 센터(2026년 11월 1일 기준), 현대차 공식 가격표 PDF, 기아 공식 가격 페이지(2026년 11월 1일 기준), 2026.11.6 확인, 카프리즘 계산",
-    desc: "제네시스·현대 가격표 PDF와 기아 가격 페이지(2026.11.1 기준)에서 읽은 세제혜택 전 가격으로 매긴 국산 신차 최고가 TOP10. 1위 G90 롱휠베이스 블랙 1억 7,498만 원, 1억 넘는 차종은 3개, 7~10위는 372.5만 원 차이다."
+    desc: "제네시스·현대 가격표 PDF와 기아 가격 페이지(2026.11.1 기준, GV90은 11.10 가격표를 11.12 확인)에서 읽은 세제혜택 전 가격으로 매긴 국산 신차 최고가 TOP10. 1위 GV90 네오룬 이그제큐티브 스위트 2억 3,950만 원, 1억 넘는 차종은 4개, 8~10위는 75.5만 원 차이다."
   },
   {
     slug: "korea-full-option-price-increase-top10-base-vs-max-trim-official-price-2026",
@@ -731,7 +923,7 @@ window.ARTICLES_DATA = [
     badge: "MARKET",
     badgeClass: "cat-sales",
     source: "기아 공식 가격 페이지(kia.com/kr, 2026.11.1 기준·2026-11-06 확인), 현대차 공식 가격표 PDF(hyundai.com/contents/repn-car/catalog, 2026-11-06 확인), 카프리즘 계산",
-    desc: "기아 가격 페이지(2026.11.1 기준)와 현대차 가격표 PDF에서 읽은 23개 구성을 같은 규칙으로 계산했다. 가장 싼 트림에서 풀옵션까지 오르는 금액은 타스만 2,110만 원부터 스포티지 1,383만 원까지이고, 비율은 타스만 60.3%, 셀토스 56.0% 순이다."
+    desc: "기아 가격 페이지(2026.11.1 기준)와 현대차 가격표 PDF에서 읽은 23개 구성을 같은 규칙으로 계산했다. 가장 싼 트림에서 풀옵션까지 오르는 금액은 타스만 2,110만 원부터 셀토스 1,441만 원까지이고, 비율은 타스만 60.3%, 셀토스 56.0% 순이다."
   },
   {
     slug: "hyundai-n-moment-popup-store-seoul-daegu-2026",
@@ -10707,7 +10899,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-tucson-nx5-pricing-dilemma-elantra-cannibalization-2026",
-    title: "\"이 가격, 아반떼가 흔들린다\"… 신형 투싼 앞에서 멈춰선 현대차의 계산기",
+    title: "가격표만 안 나온다던 신형 투싼, 10월 21일 3,140만 원 확정… 전망과 실제 비교",
     date: "2026-09-22",
     image: "hyundai_tucson5_front.webp",
     categories: ["domestic"],
@@ -11309,7 +11501,7 @@ window.ARTICLES_DATA = [
     slug: "hyundai-avante-8th-gen-production-2026",
     title: "\"이게 준중형이라고?\"... 현대차 8세대 아반떼, 6년 만에 통째로 바뀌었다",
     date: "2026-09-20",
-    image: "hyundai_avante8_front.webp",
+    image: "bavante12_front.webp",
     categories: ["domestic", "news"],
     tags: ["아반떼", "디올뉴아반떼", "8세대아반떼", "CN8", "현대자동차"],
     badge: "NEW MODEL",
@@ -12471,7 +12663,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "taebaeksan-odaesan-rime-frost-2026",
-    title: "\"단풍은 끝났는데 왜 또 산에 가냐고?\"... 첫눈 뒤에 시작되는 상고대 시즌",
+    title: "단풍은 끝났는데 왜 또 산에 가냐고? 태백산·오대산 상고대 시즌, 입산 시각부터 확인하세요",
     date: "2026-09-16",
     image: "taebaeksan_rime_frost_branch.webp",
     categories: ["travel"],
@@ -12479,7 +12671,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL TIPS",
     badgeClass: "cat-blue",
     source: "국립공원공단 / 경향신문 / 카프리즘 기획 기사",
-    desc: "단풍철이 끝나는 11월 말, 태백산과 오대산은 상고대(서리꽃) 시즌을 준비한다. 상고대가 생기는 기상 조건, 관측 시기, 산불조심기간과 겹치는 부분, 아이젠 등 필요 장비까지 정리했다."
+    desc: "태백산·오대산 상고대는 기온과 안개가 맞아야 생긴다. 생기는 조건, 일반적인 시즌, 산불조심기간 통제, 국립공원공단 입산시간지정제(동절기 11~3월)와 필요 장비를 정리했다."
   },
   {
     slug: "car-wash-frequency-longevity-habit-2026",
@@ -21783,7 +21975,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ev-vehicle-inspection-separate-battery-soh-2026",
-    title: "\"휠 너트 하나 빠져 있으면 불합격\"… 전기차 검사가 따로 떨어져 나갑니다",
+    title: "휠 너트 이탈은 부적합… 전기차 검사표가 내연기관차와 따로 갈라집니다",
     date: "2026-08-19",
     image: "goyang_vehicle_inspection_station.webp",
     categories: ["electric", "news"],
@@ -21791,7 +21983,7 @@ window.ARTICLES_DATA = [
     badge: "EV POLICY",
     badgeClass: "cat-ev",
     source: "오토헤럴드",
-    desc: "국토교통부가 자동차관리법 시행규칙 개정안을 8월 20일부터 9월 30일까지 입법예고한다. 전기차·하이브리드는 21개 항목으로 별도 검사 체계가 만들어지고, 제작사의 배터리 진단정보 제출 시점이 판매 개시 10일 전까지로 앞당겨진다. 휠 너트나 볼트 이탈이 확인되면 부적합 판정이 내려진다."
+    desc: "국토교통부가 자동차관리법 시행규칙 개정안을 8월 20일부터 9월 30일까지 입법예고했다. 검사표는 내연기관차 24개와 환경친화적 자동차 21개로 나뉘고, 하이브리드는 내연기관 항목을 추가로 받는다. 제작사의 진단정보 제공 시기는 판매개시 10일 전까지로 앞당겨지고, 휠 너트·볼트 이탈은 부적합 사유가 된다(입법예고안 기준)."
   },
   {
     slug: "jeep-wrangler-goldilocks-edition-korea-30units",
@@ -25371,7 +25563,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "byd-ti7-uk-launch-2026",
-    title: "\"디펜더보다 1.6만 파운드 싸다\"… BYD Ti-7, 랜드로버 텃밭 영국 상륙",
+    title: "디펜더 110보다 1.6만~2만 파운드 싸다… BYD Ti-7, 랜드로버 텃밭 영국 상륙",
     date: "2026-08-01",
     image: "byd_ti7_fangchengbao_front.webp",
     categories: ["news", "import"],
@@ -25379,7 +25571,7 @@ window.ARTICLES_DATA = [
     badge: "OFF-ROAD SUV",
     badgeClass: "cat-sales",
     source: "Carscoops / Autocar UK / Auto Express",
-    desc: "BYD의 오프로드 SUV 'Ti-7'이 내년 1월 4만 7,995파운드부터 영국에 출시된다. 랜드로버 디펜더 110보다 1만 6,320파운드 저렴하면서 하이브리드 402마력으로 가속 성능도 앞선다. 국내 BYD 라인업과의 관계까지 정리했다."
+    desc: "BYD의 오프로드 SUV 'Ti-7'이 내년 1월 4만 7,995파운드부터 영국에 출시된다. 랜드로버 디펜더 110보다 보도 기준 약 1만 6,000~2만 파운드 저렴하면서 하이브리드 402마력으로 가속 성능도 앞선다. 국내 BYD 라인업과의 관계까지 정리했다."
   },
   {
     slug: "kia-k4-vs-corolla-us-2026",
