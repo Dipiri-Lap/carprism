@@ -2,6 +2,162 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "hongcheon-sutasa-gongjaksan-ecological-forest-oxygen-trail-winter-guide-2026",
+    title: "홍천 수타사·공작산생태숲 산소길 3.8km 겨울 입장료, 관광공사는 무료인데 왜 안내가 엇갈릴까? 보물 대적광전",
+    date: "2026-11-13",
+    image: "hcs13_sutasa_aerial_pond.webp",
+    categories: ["travel"],
+    tags: ["홍천", "수타사", "공작산생태숲", "산소길", "대적광전"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI·대한민국 구석구석 / 국가유산청·국가유산포털 / 홍천군 문화관광포털",
+    desc: "홍천 수타사와 공작산생태숲 산소길 3.8km의 입장료·운영시간·주차 안내를 한국관광공사와 국가유산청 자료로 대조하고, 보물 대적광전과 겨울 방문 확인 범위를 정리했다."
+  },
+  {
+    slug: "goheung-palyeongsan-sorokdo-winter-visit-guide-2026",
+    title: "고흥 팔영산·소록도 겨울 방문 가이드, 동절기 입산 15시 마감·소록도 17시 퇴도, 하루에 둘 다 가능할까?",
+    date: "2026-11-13",
+    image: "gha13_palyeong_camp_ridge.webp",
+    categories: ["travel"],
+    tags: ["고흥", "팔영산", "소록도", "한센병박물관", "다도해해상국립공원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립공원공단 / 국립소록도병원 / 고흥군 / 한국관광공사 TourAPI",
+    desc: "고흥 팔영산 동절기 입산시간·예약 안내와 소록도 방문 범위·박물관 시간, 확인하지 못한 항목까지 공식 안내로 정리했다."
+  },
+  {
+    slug: "seongju-seongbakssup-wangbeodeul-gayasan-wildflower-garden-winter-guide-2026",
+    title: "성주 성밖숲·가야산야생화식물원 겨울 운영시간·입장료·주차, 숲은 상시 개방인데 식물원은 월요일엔 문 닫는다?",
+    date: "2026-11-13",
+    image: "sjs13_forest_hero.webp",
+    categories: ["travel"],
+    tags: ["성주", "성밖숲", "왕버들", "가야산야생화식물원", "경북여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI / 성주군 / 국가유산청 국가유산포털 / 헤럴드경제 / 한국천문연구원",
+    desc: "성주 성밖숲과 가야산야생화식물원의 이용 시간·휴관일·입장료·주차, 천연기념물 제403호 왕버들 52그루(+후식 25그루), 나이트워킹 시즌 여부를 성주군·국가유산청·한국관광공사 정보 기준으로 정리했다."
+  },
+  {
+    slug: "korea-new-car-budget-champions-40m-50m-60m-biggest-strongest-most-efficient-official-2026",
+    title: "4천·5천·6천만 원 이하 현대·기아·제네시스 챔피언, 크기·연비 1위는 그대로인데 출력은 294→304→370PS… 예산 올리면 달라지는 건 무엇?",
+    date: "2026-11-13",
+    image: "bud13_chart_champions.webp",
+    categories: ["news"],
+    tags: ["예산별 챔피언", "4천만 원 이하 신차", "5천만 원 이하 신차", "6천만 원 이하 신차", "가장 큰 국산차"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아 가격표 PDF·카탈로그(2026-11-13 확인, 신형 아반떼·투싼·그랜저 현 모델 출시일 확인), 제네시스 G70(2026.11.11)·GV70·G80(2026.11.1) 가격표(개별소비세 5% 기준), 현대차그룹 뉴스룸(캐스퍼 일렉트릭 가격), 카프리즘 계산",
+    desc: "현대차·기아·제네시스 공식 가격표를 직접 읽어 4천·5천·6천만 원 이하 국산차의 가장 큰 차·가장 센 차·연비 1위를 가렸다. 타스만 5,410mm와 아반떼 하이브리드 21.2km/L는 세 예산이 같고, 출력은 카니발 294PS, G70 2.5T 304PS, G70 3.3T 370PS(5,045만 원)로 오른다. KGM은 확인하지 못했다."
+  },
+  {
+    slug: "korea-expressway-toll-most-expensive-routes-top10-ex-official-fare-table-2026",
+    title: "고속도로 통행료 비싼 구간 TOP10, 목포~속초 25,200원… 서울~부산은 거점 153쌍 중 공동 50위인 이유는?",
+    date: "2026-11-13",
+    image: "txp13_yeonseong_tollgate.webp",
+    categories: ["life"],
+    tags: ["고속도로통행료", "통행료순위", "한국도로공사", "승용1종", "통행료조회"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "한국도로공사 홈페이지 평일 요금표(2026.4.30 기준) / 고속도로 통행료 홈페이지 요금 조회 / 뉴시스 / 파이낸셜뉴스",
+    desc: "한국도로공사 평일 요금표(2026.4.30 기준) 거점 영업소 18곳 153쌍으로 승용 1종 통행료 비싼 구간 TOP10을 정리했다. 1위 목포~속초 25,200원, 서울~부산 18,600원은 공동 50위. 거리 자료는 없어 싣지 않았다."
+  },
+  {
+    slug: "korea-ev-chargers-per-vehicle-by-sido-ranking-official-statistics-2026",
+    title: "시도별 충전기 1기당 전기차 수, 세종 1.52대 vs 제주 6.27대… 전기차 3위 인천은 충전기 비율 15위, 급속은 16위",
+    date: "2026-11-13",
+    image: "evc13_seogwipo_jeju_charging.webp",
+    categories: ["electric", "news"],
+    tags: ["충전기1기당전기차", "시도별충전기", "전기차충전인프라", "급속충전기", "전기차등록대수"],
+    badge: "DATA",
+    badgeClass: "cat-ev",
+    source: "참고: 한국환경공단 무공해차 통합누리집 통계 대시보드(충전 인프라 현황·우리 지역 급속 충전 여건, 2026.10.31 표기), 국토교통부 통계누리 2026년 9월 자동차 등록자료 통계, 카프리즘 계산",
+    desc: "한국환경공단 충전기 543,037기(2026.10.31)와 국토교통부 전기차 1,191,873대(2026년 9월 말)로 시도별 충전기 1기당 전기차 수를 계산했다. 전체 기준 세종 1.52대·제주 6.27대, 급속 기준 강원 11.0대·인천 36.6대."
+  },
+  {
+    slug: "korea-recall-nov-2026-avante-venue-wheel-nut-255-strut-knuckle-4-audi-q3-steering-gear-bolt-494-guide",
+    title: "11월 리콜, 아반떼 휠 너트 255대·스트럿 4대·아우디 Q3 494대… 휠 이탈은 어느 건이고 내 차도 해당될까?",
+    date: "2026-11-13",
+    image: "rcl13_avante_cn7_front.webp",
+    categories: ["domestic", "import", "news"],
+    tags: ["자동차리콜", "아반떼리콜", "휠너트리콜", "아우디Q3리콜", "조향기어볼트"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "참고: 국토교통부 자동차리콜센터 리콜현황(작성일 2026-11-05), 카프리즘 계산",
+    desc: "국토교통부 자동차리콜센터에 올라온 11월 리콜 3건을 정리했다. 아반떼·베뉴 휠 너트 255대, 아반떼(CN7) 스트럿-너클 4대, 아우디 Q3 조향기어 볼트 494대의 생산일, 결함내용, 시정방법, 내 차 확인 순서를 공식 상세 화면 기준으로 담았다."
+  },
+  {
+    slug: "audi-a8-discontinued-official-confirmation-us-market-last-run-2026",
+    title: "아우디 A8 단종 확인, 미국 재고 576대·운송 중 223대(보도 기준)… 신규 주문은 끝났는데 한국은?",
+    date: "2026-11-13",
+    image: "a8d13_d5_front.webp",
+    categories: ["import", "news"],
+    tags: ["아우디A8", "A8단종", "아우디", "플래그십세단", "S8"],
+    badge: "MARKET",
+    badgeClass: "cat-gold",
+    source: "참고: CarBuzz(2026-11-12), Kelley Blue Book(2026-11-12), Motor1(11월 9일자), The Drive(2026-03-06), 오토뷰(2026-03-10), Carscoops(2026-07), CarExpert(2026-03-24)",
+    desc: "아우디 A8 생산이 2026년 10월 끝났다는 보도를 아우디 측이 확인했다. 미국 2027년형 판매, 재고 576대·운송 223대(CarBuzz), 후속 계획, 2025년 국내 판매 70대, 확인하지 못한 항목을 보도 기준으로 정리했다."
+  },
+  {
+    slug: "bmw-gen6-battery-cells-samsung-sdi-lg-energy-solution-cylindrical-46mm-supply-2026",
+    title: "BMW 6세대 배터리 셀 공급사에 삼성SDI·LG엔솔 추가… 유럽 3사·미국 1사, 확정된 것과 아직 모르는 것은?",
+    date: "2026-11-13",
+    image: "bmw13_ix3_front_blue.webp",
+    categories: ["electric", "news"],
+    tags: ["BMW", "BMW배터리", "삼성SDI", "LG에너지솔루션", "원통형배터리"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "BMW 그룹 뉴스룸(2026.11.9), electrive(2026.11.9), BMWBlog(2026.11.9), The Elec(2026.11.10), ZDNet코리아(2026.11.10), 헤럴드경제(2026.4.29)",
+    desc: "BMW 그룹이 2026년 11월 9일 6세대 배터리 셀 공급사로 삼성SDI(유럽)·LG에너지솔루션(미국)을 추가했다. BMW 발표문과 electrive·BMWBlog·The Elec 보도를 대조해 확정 사항과 매체 보도, 확인하지 못한 항목을 정리했다."
+  },
+  {
+    slug: "honda-toyota-h1-fy2026-results-ev-loss-484-8-billion-yen-tariff-hit-1-1-trillion-yen-comparison-2026",
+    title: "혼다 상반기 영업이익 6,487억 엔, EV 비용 4,849억 엔 반영하고도 전망 상향… 도요타·닛산과 뭐가 다를까?",
+    date: "2026-11-13",
+    image: "jpn13_chart_h1_op_compare.webp",
+    categories: ["news"],
+    tags: ["도요타실적", "혼다실적", "상반기실적", "혼다EV손실", "도요타관세"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "도요타 IR 결산단신·프레젠테이션·Q&A(2026.11.5), 혼다 결산단신(2026.11.10, TDnet 공시본), 참고: Just Auto(2026-08), 카프리즘 계산",
+    desc: "도요타 IR과 혼다 결산단신으로 2026 회계연도 상반기를 대조했다. 혼다 6,487억 엔·EV 관련 약 4,849억 엔, 도요타 2조 1,911억 엔·관세 약 1.1조 엔을 확인하고 상반기와 2분기 기준 차이를 표로 가렸다."
+  },
+  {
+    slug: "german-army-bases-restrict-chinese-cars-byd-nio-geely-defense-ministry-no-general-ban-2026",
+    title: "독일군 일부 시설 BYD·니오·지리 차량 출입 제한 보도… 국방부는 일괄 금지를 부인, 어디까지가 사실일까?",
+    date: "2026-11-13",
+    image: "gdm13_byd_atto3_evo.webp",
+    categories: ["news"],
+    tags: ["독일군", "중국차", "BYD", "니오", "지리"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "Der Spiegel 인용 보도(ORF·t-online·UNITED24·로이터 전재 Daily Maverick, 2026-11-10~11), Car News China(2026-11-12), Kantan News(2026-11-13), Silicon UK(2026-11-05), firmenauto(2026-10-09)",
+    desc: "슈피겔 보도를 인용한 매체들은 독일군 일부 보안구역에서 BYD·지리·니오 일부 모델 출입이 제한된다고 전했고, 국방부는 전면 금지가 아니라고 설명했다. 매체별 표현 차이와 확인되지 않은 부분을 정리했다."
+  },
+  {
+    slug: "honda-cr-v-2028-model-year-hybrid-only-new-platform-ohio-capacity-250-percent-2026",
+    title: "혼다 CR-V 2028년형부터 100% 하이브리드, 연비 10% 개선 목표·생산능력 250%↑… 휘발유 CR-V는?",
+    date: "2026-11-13",
+    image: "crv13_6th_hybrid_front_navy.webp",
+    categories: ["import", "news"],
+    tags: ["혼다CR-V", "CR-V하이브리드", "2028CR-V", "하이브리드전용", "혼다하이브리드"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "혼다 뉴스룸 보도자료(2026.11.12), Motor1(2026.11.12)",
+    desc: "혼다가 7세대 CR-V를 2028년형부터 새 플랫폼의 2모터 하이브리드 전용으로 내년 공개한다고 발표했다. 연비 10% 이상 개선 목표, CR-V 판매 50% 이상이 하이브리드, 오하이오 생산능력 250% 확대와 미공개 항목을 보도자료로 정리했다."
+  },
+  {
+    slug: "korea-october-2026-domestic-hybrid-sales-ranking-sorento-5961-grandeur-down-23-percent",
+    title: "10월 국산 하이브리드 쏘렌토 5,961대 1위·그랜저 -23.4%… 비중 32.7%는 왜 32.0%로 계산될까?",
+    date: "2026-11-13",
+    image: "hyb01_sorento_hev.webp",
+    categories: ["news"],
+    tags: ["하이브리드판매순위", "10월국산하이브리드", "쏘렌토하이브리드", "카니발하이브리드", "그랜저하이브리드"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "뉴스와(2026-11-13, 2026-11-03), 오토스파이넷, 현대차그룹 뉴스룸 현대차·기아 2026년 10월 판매 실적(전체 대수), 카프리즘 계산",
+    desc: "10월 국산 하이브리드 판매 TOP 5(쏘렌토 5,961대, 카니발 5,069대, 그랜저 4,996대, 스포티지 3,070대, 팰리세이드 2,638대)를 뉴스와 보도와 현대차·기아 뉴스룸으로 대조하고, 비중 32.7%의 분모를 다시 계산했다."
+  },
+  {
     slug: "electric-car-periodic-inspection-items-separated-motor-vehicle-management-act-rule-amendment-2026-guide",
     title: "전기차 정기검사 달라지나? 검사항목 24개 vs 21개, 빠지는 3개와 고전원 12가지, 입법예고안 기준",
     date: "2026-11-12",
@@ -135,7 +291,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "land-rover-defender-vs-byd-ti7-copy-allegation-dutch-bailiff-seizure-the-hague-court-2026",
-    title: "랜드로버 vs BYD Ti7 압수 사태, 헤이그 법원 압수 해제 보도… \"디펜더 베꼈다\" 의혹의 침해 판단은 아직?",
+    title: "랜드로버 vs BYD Ti7 압수 사태, 헤이그 법원 JLR 압수 자료 파기 명령… \"디펜더 베꼈다\" 침해 판단은 아직?",
     date: "2026-11-12",
     image: "jlr12_ti7_front.webp",
     categories: ["news"],
@@ -143,7 +299,7 @@ window.ARTICLES_DATA = [
     badge: "NEWS",
     badgeClass: "cat-blue",
     source: "Auto Express(2026-11-09), Motor1(2026-11-09), InsideEVs(2026-11-09), CarExpert, 영국 타임스 보도 인용",
-    desc: "재규어 랜드로버가 BYD Ti7이 디펜더를 베꼈다고 주장하며 8월 네덜란드 BYD 사무실에서 집행관이 디지털 자료를 압수했다는 보도를 외신 4곳 기준으로 정리했다. 11월 11일 헤이그 법원이 압수 해제를 명했다는 보도(침해 여부 판단 아님, 한 곳 확인)와 양측 입장, 매체별 차이, Ti7 가격을 짚었다."
+    desc: "재규어 랜드로버가 BYD Ti7이 디펜더를 베꼈다고 주장하며 8월 네덜란드 BYD 사무실에서 집행관이 디지털 자료를 압수했다는 보도를 외신 4곳 기준으로 정리했다. 11월 11일 헤이그 법원이 압수 해제와 JLR의 자료 파기를 명했다는 여러 매체 보도(침해 여부 판단 아님, 벌금·비용 수치는 매체별 상이)와 양측 입장, Ti7 가격을 짚었다."
   },
   {
     slug: "polestar-formula-2030-concept-reveal-next-polestar-2-polestar-7-design-preview-2026",
@@ -12665,7 +12821,7 @@ window.ARTICLES_DATA = [
     slug: "taebaeksan-odaesan-rime-frost-2026",
     title: "단풍은 끝났는데 왜 또 산에 가냐고? 태백산·오대산 상고대 시즌, 입산 시각부터 확인하세요",
     date: "2026-09-16",
-    image: "taebaeksan_rime_frost_branch.webp",
+    image: "odaesan_birobong_rime_trail.webp",
     categories: ["travel"],
     tags: ["상고대", "태백산", "오대산", "겨울산행", "눈꽃여행"],
     badge: "TRAVEL TIPS",
@@ -14139,15 +14295,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "audi-a8-w12-final-cheaper-than-accord",
-    title: "\"어코드보다 싸다\"…아우디 마지막 W12 플래그십의 몰락",
+    title: "신차 어코드와 맞먹는 값… 아우디 W12 A8, 중고가 3,900만원 안팎으로",
     date: "2026-09-12",
-    image: "audi-a8-w12-final_front34.webp",
+    image: "ba8w13b_front34.webp",
     categories: ["import"],
     tags: ["아우디A8", "W12엔진", "혼다어코드", "중고차감가", "플래그십세단"],
     badge: "LUXURY IMPORT",
     badgeClass: "cat-gold",
     source: "CarBuzz",
-    desc: "12기통 W12 엔진을 얹은 아우디의 마지막 플래그십 세단 '아우디 A8 L W12'가 중고 시장에서 혼다 어코드 기본 트림보다 약 1,000달러 싼 가격에 거래되고 있다. 한때 1억 8천만원을 넘던 럭셔리 세단이 왜 이렇게까지 추락했는지, W12 엔진의 역사와 함께 짚어본다."
+    desc: "카버즈에 따르면 2016년식 아우디 A8 L W12의 KBB 중고 시세는 약 28,500달러로, 2026년형 혼다 어코드 LX 시작가(28,395달러)와 비슷하고 세금·수수료를 더한 실구매가보다는 낮다. 12기통 W12 엔진의 역사와 단종 배경, 유지비 부담, A8 전체 단종 소식까지 짚어본다."
   },
   {
     slug: "bmw-x5-neue-klasse-debut-2026",
@@ -17177,7 +17333,7 @@ window.ARTICLES_DATA = [
     slug: "kia-sportage-nq6-spy-shot-telluride",
     title: "\"텔루라이드를 닮았다\"… 2028년형 기아 스포티지, 위장막 벗은 스파이샷 포착",
     date: "2026-09-04",
-    image: "sportage_nq5_front.webp",
+    image: "btuc13b_sportage_nq5_front.webp",
     categories: ["news"],
     tags: ["스포티지NQ6", "스포티지풀체인지", "2028스포티지", "기아텔루라이드", "스포티지스파이샷"],
     badge: "RUMOR",
@@ -19553,7 +19709,7 @@ window.ARTICLES_DATA = [
     slug: "kia-sportage-2027-navigation-standard",
     title: "\"제일 싼 트림에도 12.3인치가 들어갑니다\"… 2027 스포티지가 손댄 건 가격이 아니었습니다",
     date: "2026-08-27",
-    image: "sportage_nq5_front.webp",
+    image: "btuc13b_sportage_nq5_front.webp",
     categories: ["domestic", "news"],
     tags: ["스포티지", "기아", "2027년형", "신차가격", "옵션"],
     badge: "KIA",
@@ -23031,7 +23187,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "honda-ev-cancellation-first-loss-2026",
-    title: "\"다 만들어놓고 버렸다\"… 혼다, 출시 직전 전기차 3종 폐기하고 69년 만에 첫 적자",
+    title: "출시 직전에 접었다… 혼다, 전기차 3종 취소하고 69년 만에 첫 연간 적자",
     date: "2026-08-15",
     image: "honda_crv_hybrid_front.webp",
     categories: ["news", "import"],
@@ -23039,7 +23195,7 @@ window.ARTICLES_DATA = [
     badge: "GLOBAL",
     badgeClass: "cat-red",
     source: "CarBuzz",
-    desc: "혼다가 출시를 앞둔 전기차 3종을 통째로 폐기했다. 손실은 157억 달러, 1957년 상장 이후 첫 순손실이다. 배터리가 이미 구식이 됐다는 게 이유다. 한국 철수 결정과 같은 뿌리에서 나온 이 결단의 전말을 정리했다."
+    desc: "혼다가 북미 출시를 앞둔 전기차 3종을 취소했다. 손실 추정은 최대 2조5,000억 엔(약 157억 달러)이고, 2026회계연도에는 1957년 상장 이후 첫 연간 순손실 4,239억 엔을 냈다. 수요 급감과 중국 경쟁이 이유다."
   },
   {
     slug: "waymo-zeekr-tariff-robotaxi-2026",
@@ -25985,7 +26141,7 @@ window.ARTICLES_DATA = [
     slug: "kia-sportage-6th-gen-rumor-2027",
     title: "\"가솔린 완전히 버린다\"… 기아 스포티지 6세대, 2027년 하이브리드 올인",
     date: "2026-07-30",
-    image: "sportage_nq5_front.webp",
+    image: "btuc13b_sportage_nq5_front.webp",
     categories: ["news", "domestic"],
     tags: ["스포티지풀체인지", "스포티지6세대", "스포티지NQ6", "스포티지하이브리드", "스포티지출시일"],
     badge: "RUMOR",
