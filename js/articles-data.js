@@ -2,6 +2,78 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "marado-ferry-winter-visit-guide-2026",
+    title: "운진항 마라도 배 시간표·요금, 성인 왕복 21,000원에 유류할증 3,600원 더하면 24,600원… 막배 15:50 기준 섬 체류는 계산상 10분~5시간 40분?",
+    date: "2026-11-15",
+    image: "isl14_unjin_bluelay.webp",
+    categories: ["travel"],
+    tags: ["마라도", "운진항", "마라도배시간표", "제주섬여행", "제주여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "마라도·가파도 정기여객선(아름다운섬나라) / 마라도 가는 여객선 / 한국관광공사 TourAPI",
+    desc: "운진항 마라도 정기여객선 시간표·요금·유류할증료, 차량 선적 불가·리튬배터리 반입, 기상 결항 안내와 송악산항 시간표를 2026년 11월 15일 공식 자료로 정리했다."
+  },
+  {
+    slug: "wanju-daea-arboretum-winter-free-hours-guide-2026",
+    title: "완주 대아수목원 겨울 운영시간·입장료·주차, 입장은 16시에 끝나고 숲해설은 12월부터 멈추는데 입장료는 무료?",
+    date: "2026-11-15",
+    image: "dar14_dalea-sign.webp",
+    categories: ["travel"],
+    tags: ["완주", "대아수목원", "수목원", "전북여행", "겨울여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "전북특별자치도 대아수목원 누리집 / 한국관광공사 TourAPI",
+    desc: "전북특별자치도 완주 대아수목원의 11월~2월 운영시간·휴원일·입장료·주차 145대, 겨울에 볼 수 있는 실내 시설과 숲해설 중단 시기를 공식 누리집과 TourAPI 기준으로 정리했다."
+  },
+  {
+    slug: "subaru-forester-vs-honda-cr-v-us-sales-gap-official-figures-2026",
+    title: "포레스터 vs CR-V 미국 판매, CR-V 하이브리드만 1만 8,534대… 포레스터 전체 1만 6,094대보다 많은 이유는?",
+    date: "2026-11-14",
+    image: "fcr14_forester_hybrid_touring.webp",
+    categories: ["import"],
+    tags: ["포레스터", "CR-V", "스바루판매", "혼다판매", "미국SUV판매"],
+    badge: "SALES",
+    badgeClass: "cat-sales",
+    source: "Subaru of America 2026년 10월 판매 보도자료(2026.11.3), American Honda 2026년 10월 판매 보도자료(2026.11.3), 참고: CarBuzz(2026.11.14), GoodCarBadCar",
+    desc: "스바루·혼다 10월 공식 보도자료로 포레스터 16,094대와 CR-V 34,815대를 비교하고, 누계 격차 약 2.15배, CR-V 하이브리드 53% 믹스, 하이브리드 입문 가격을 정리했다. 포레스터 하이브리드 판매와 한국 판매는 확인하지 못했다."
+  },
+  {
+    slug: "la-auto-show-2026-november-20-29-automobility-la-preview-confirmed-reveals-hyundai-genesis-view",
+    title: "LA 오토쇼 11월 20일 개막, 현대·제네시스·기아 참가 확정… 19일 현대 컨퍼런스 공개 모델은 아직 비공개",
+    date: "2026-11-14",
+    image: "laas14_convention_center.webp",
+    categories: ["news", "domestic", "import"],
+    tags: ["LA오토쇼", "AutoMobility LA", "제네시스GV90", "현대투싼", "텔루라이드하이브리드"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-blue",
+    source: "LA 오토쇼 공식 보도자료(2026.10.15)·AutoMobility LA 일정 보도자료(2026.11.10)·LA 오토쇼 공식 홈페이지·기아 미국법인 보도자료(2026.2.26)",
+    desc: "2026 LA 오토쇼는 11월 20~29일, 미디어·업계일 AutoMobility LA는 11월 19일이다. 공식 보도자료와 일정표로 확인된 일정·입장권·시승 프로그램, 현대·제네시스·기아 참가 현황을 확인된 것과 아직 모르는 것으로 나눠 정리했다."
+  },
+  {
+    slug: "tesla-cybercab-orders-open-29990-plus-299-monthly-robotaxi-zone-only-2026",
+    title: "테슬라 사이버캡 선택 고객 $29,990 주문 개시, 월 $299 구독 없인 못 달린다… 5년 합산하면 4만 7천 달러대",
+    date: "2026-11-14",
+    image: "cyb14_stockholm_front.webp",
+    categories: ["electric", "news"],
+    tags: ["테슬라", "사이버캡", "Cybercab", "로보택시", "자율주행구독"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "Electrek(2026-11-13, 11-14)·InsideEVs(2026-11-13) 보도 기반, 카프리즘 계산",
+    desc: "테슬라가 선택된 고객에게 사이버캡 개인용 주문을 열었다는 Electrek·InsideEVs 보도를 근거로 $29,990 차값, 월 $299 필수 구독, 보증금, 로보택시 구역 한정, NHTSA 상황과 5년 합산 비용을 정리했다."
+  },
+  {
+    slug: "byd-1000kw-robotic-charging-arm-uae-demo-automatic-parking-charging-no-pricing-2026",
+    title: "BYD 로봇팔 충전기 UAE 시연, 주차만 하면 알아서 꽂는다… 1,000kW는 BYD 발표가 아닌 보도 수치",
+    date: "2026-11-14",
+    image: "byd14_robot_charging_flow_chart.webp",
+    categories: ["electric", "news"],
+    tags: ["BYD로봇팔충전", "1000kW충전", "플래시충전", "자동주차충전", "UAE"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "CarNewsChina·electrive·EV Infrastructure News·EVwire·Electrek 보도 참고",
+    desc: "BYD가 11월 초 UAE 아부다비 사막 시설에서 포트 인식·덮개 개방·커넥터 삽입·분리를 자동으로 하는 로봇팔 충전을 시연했다고 보도됐다. 1,000kW는 보도 수치이며 상용화 시점과 가격은 공개되지 않았다. 화웨이 2025년 시연과 비교하고 국내 급속충전 현황과 이어서 정리했다."
+  },
+  {
     slug: "hongcheon-sutasa-gongjaksan-ecological-forest-oxygen-trail-winter-guide-2026",
     title: "홍천 수타사·공작산생태숲 산소길 3.8km 겨울 입장료, 관광공사는 무료인데 왜 안내가 엇갈릴까? 보물 대적광전",
     date: "2026-11-13",
@@ -11187,7 +11259,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "ev-charging-infrastructure-density-gap-2026",
-    title: "\"충전기는 늘었다는데 우리 동네엔 왜 없을까\"… 전국 급속충전기 밀도, 수도권과 3배 넘게 벌어졌다",
+    title: "\"충전기는 늘었다는데 우리 동네엔 왜 없을까\"… 충전기 1기당 전기차, 수도권 1.9대 vs 제주 6.27대로 3배 넘게 벌어졌다",
     date: "2026-09-21",
     image: "kr_ev_charging_gonggeun.webp",
     categories: ["electric"],
@@ -11195,7 +11267,7 @@ window.ARTICLES_DATA = [
     badge: "INFRASTRUCTURE",
     badgeClass: "cat-ev",
     source: "카프리즘 기획 기사",
-    desc: "환경부·한국전력·한국자동차충전협회 통계로 본 전국 급속충전기 밀도 격차. 수도권은 충전기 1기당 전기차 1.9대인 반면 제주는 8.1대, 급속충전기 기준으로는 부산·인천이 울산·경북보다 3배 넘게 부족하다. 고속도로 휴게소 충전 대란의 구조적 원인과 2026~2030년 정부 확충 계획까지 정리했다."
+    desc: "전국 충전기 밀도 격차를 공식 통계로 정리했다. 충전기 1기당 전기차는 수도권 1.90대, 제주 6.27대(충전기 2026.10.31, 전기차 2026년 9월 말 기준)이고, 급속(50kW 이상) 기준으로는 강원 11.0대와 인천 36.6대가 3배 넘게 벌어진다. 고속도로 휴게소 충전 대란의 구조적 원인과 2026~2030년 정부 확충 계획도 함께 다룬다."
   },
   {
     slug: "vehicle-scrap-age-domestic-vs-import-2026",
