@@ -2,6 +2,162 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "samcheok-hwanseongul-winter-hours-monorail-guide-2026",
+    title: "삼척 환선굴 겨울 운영시간 17시까지·매표 16시 마감, 모노레일은 멈췄다는데 입구까지 걸어서 30분 걸릴까?",
+    date: "2026-11-16",
+    image: "hs16_big_hall.webp",
+    categories: ["travel"],
+    tags: ["삼척", "환선굴", "대금굴", "환선굴모노레일", "동굴여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "삼척시 문화관광 / 대금굴 누리집 / 한국관광공사 TourAPI / MBC 강원영동 / G1방송",
+    desc: "삼척 환선굴 동절기(11~2월) 09:00~17:00·매표 마감 16:00, 입장료 4,500원, 2025년 12월부터 멈췄다는 모노레일 보도 경과와 도보 30분 계산, 대금굴 대안을 공식 안내와 보도로 정리했다."
+  },
+  {
+    slug: "taebaek-coal-museum-winter-hours-fee-elevator-guide-2026",
+    title: "태백석탄박물관 입장료 2,000원·월요일 휴관·17시 입장 마감, 승강기 11월 말까지 멈춘다는데 가도 될까?",
+    date: "2026-11-16",
+    image: "tb16_gate.webp",
+    categories: ["travel"],
+    tags: ["태백", "태백석탄박물관", "석탄박물관", "체험갱도", "연탄만들기"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "태백시 석탄박물관 / 한국관광공사 TourAPI",
+    desc: "태백석탄박물관의 관람시간·월요일 휴관·입장료·무료 대상, 승강기 중단(2026-10-13~11월 말), 관람 100~130분 동선, 전시실, 미니 연탄만들기 체험을 공식 누리집 기준으로 정리했다."
+  },
+  {
+    slug: "suncheonman-national-garden-winter-hours-fee-parking-guide-2026",
+    title: "순천만국가정원 겨울 운영시간·입장료·주차, 정원은 19시까지 들어가는데 습지는 17시에 매표 끝, 스카이큐브 막차도 17시?",
+    date: "2026-11-16",
+    image: "sc16_aerial.webp",
+    categories: ["travel"],
+    tags: ["순천만국가정원", "순천여행", "겨울여행", "순천만습지", "스카이큐브"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "순천시 순천만국가정원 누리집 / 한국관광공사 TourAPI / Wikimedia Commons",
+    desc: "순천만국가정원의 겨울 이용시간(정원 입장 19시, 습지 매표 17시), 입장료·야간권, 주차, 홍학 야외 방사 중단, 휴무일을 순천시 공식 안내로 정리하고 확인하지 못한 항목을 밝혔다."
+  },
+  {
+    slug: "pyeongchang-balwangsan-cable-car-millennium-yew-trail-winter-guide-2026",
+    title: "발왕산 케이블카·천년주목숲길 겨울 운영시간·요금, 09~17시 왕복 27,000원에 강풍 오면 긴급 휴장한다?",
+    date: "2026-11-16",
+    image: "bw16_summit_snow.webp",
+    categories: ["travel"],
+    tags: ["발왕산", "발왕산케이블카", "천년주목숲길", "평창", "용평리조트"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "용평리조트(모나용평) / 한국관광공사 TourAPI / K-TRIP TIPS / 세계일보",
+    desc: "평창 발왕산 관광케이블카의 운영시간·요금·휴장 조건, 편도 3.7km·약 18분 노선, 정상 천년주목숲길 정보를 용평리조트 공식 안내와 한국관광공사 자료로 정리하고 확인하지 못한 항목을 구분했다."
+  },
+  {
+    slug: "korea-domestic-suv-cheapest-ladder-casper-1546-kona-beats-avante-sedan-suv-price-gap-official-price-2026",
+    title: "국산 SUV 최저가 캐스퍼 1,546만 원… 코나가 아반떼보다 5만 원 싼 역전, 세단 값을 뒤집는 SUV는 몇 종?",
+    date: "2026-11-16",
+    image: "sv16_casper_ax1_rear.webp",
+    categories: ["domestic", "news"],
+    tags: ["국산SUV최저가", "SUV가격순위", "코나가격", "캐스퍼가격", "세단SUV가격역전"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대차·기아·제네시스·쉐보레·르노코리아 공식 가격표 PDF, 캐스퍼 온라인 가격표",
+    desc: "2026년 11월 16일 공식 가격표 기준 국산 가솔린 SUV 15종의 최저 트림을 줄 세웠다. 캐스퍼 1,546만 원부터 GV80 쿠페 8,270만 원까지, 아반떼보다 싼 SUV 4종과 쏘렌토·K8 가격 역전을 세단 기사와 맞춰 정리했다."
+  },
+  {
+    slug: "hyundai-lowest-trim-price-increase-top10-grandeur-hybrid-410-avante-387-official-price-2026",
+    title: "현대차 최저 트림 인상 TOP10, 그랜저 하이브리드 +410만·아반떼 +387만 원… 7위부터는 100만 원도 안 올랐다",
+    date: "2026-11-16",
+    image: "pi16_grandeur_calligraphy_gn7pe_front.webp",
+    categories: ["news"],
+    tags: ["현대차가격인상", "최저트림인상", "그랜저가격", "아반떼가격", "투싼가격"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차 공식 가격표 PDF(hyundai.com/contents/repn-car/catalog, 2026-11-16 내려받음), 카프리즘 계산",
+    desc: "현대차 공식 가격표 PDF의 직전 연식·세대와 현행을 직접 대조했다. 최저 트림 인상은 그랜저 하이브리드 +410만 원, 그랜저 2.5 +388만 원, 아반떼 하이브리드 +387만 원 순이고 7위부터는 +95만 원 이하이며, 같은 이름 트림끼리는 그랜저 하이브리드 캘리그래피 +550만 원이 최대다."
+  },
+  {
+    slug: "korea-hyundai-vs-kia-same-class-pairs-price-gap-ranking-grandeur-k8-514-official-2026",
+    title: "현대·기아 동급 5쌍 가격차 순위 1위 그랜저·K8 514만 원, 꼴찌 싼타페·쏘렌토 16만 원… 왜 이렇게 갈릴까?",
+    date: "2026-11-16",
+    image: "br16_k8_gl3_pe_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["현대기아가격비교", "그랜저K8가격차", "동급차량비교", "쏘나타K5", "투싼스포티지"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대차·기아 공식 가격표 PDF, 현대차 카탈로그 PDF, 기아 공식 제원 페이지",
+    desc: "2026년 11월 16일 공식 가격표 기준으로 현대·기아 동급 5쌍(그랜저·K8, 투싼·스포티지, 쏘나타·K5, 코나·셀토스, 싼타페·쏘렌토)의 같은 파워트레인 최저 트림 가격차와 전장·축거 차이를 한 표로 줄 세웠다."
+  },
+  {
+    slug: "korea-domestic-sedan-cheapest-avante-2398-accent-pride-aveo-discontinued-small-sedan-gap-official-price-2026",
+    title: "국산 세단 최저가 아반떼 2,398만 원·2위 K5 2,763만 원… 엑센트·프라이드·아베오가 떠난 뒤 싼 세단은 어디로?",
+    date: "2026-11-16",
+    image: "sd16_avante_cn8_exhibit_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["국산세단최저가", "아반떼가격", "엑센트단종", "소형세단", "K3단종"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대차·기아 공식 가격표 PDF, 오토헤럴드 김흥식 칼럼(2026-11-16), 연합뉴스, 부산일보, 강원일보, 전자신문, 뉴스1, 위드뉴스, 디지털데일리",
+    desc: "2026년 11월 16일 공식 가격표 기준 현행 국산 세단 최저 트림을 줄 세웠다. 아반떼 2,398만 원, K5 2,763만 원, 쏘나타 2,876만 원 순이며, 엑센트·프라이드·아베오·K3·말리부·SM6가 빠진 시점과 아반떼 336만 원 인상의 정체를 정리했다."
+  },
+  {
+    slug: "mercedes-eqe-eqs-farasis-battery-group-mediation-400man-won-142-2026",
+    title: "벤츠 EQE·EQS 차주 142명 각 400만 원 배상 결정… 과징금 112억과는 별개, 벤츠는 받아들일까?",
+    date: "2026-11-16",
+    image: "bz16_eqe350_front_white.webp",
+    categories: ["news", "import"],
+    tags: ["벤츠", "EQE", "EQS", "파라시스", "CATL"],
+    badge: "NEWS",
+    badgeClass: "cat-blue",
+    source: "공정위 보도자료(2026.3.10), 한국소비자원 온라인분쟁조정 사이트, SBS Biz·위키트리·코리아데일리·비즈워치·위드뉴스·YTN·뉴스 TF·한국경제 보도 종합",
+    desc: "한국소비자원 소비자분쟁조정위원회가 벤츠코리아에 EQE·EQS 차주 142명에게 1인당 400만 원, 총 5억 6,800만 원 배상을 결정했다. 공정위 보도자료와 8개 매체 보도를 대조해 결정 내용, 15일 수락 기한, 과징금 112억 3,900만 원과의 차이, 확인하지 못한 항목을 정리했다."
+  },
+  {
+    slug: "tesla-fsd-korea-subscription-150000-won-vs-9043000-lump-sum-breakeven-61-months-2026",
+    title: "테슬라 FSD 월 15만 원 구독, 61개월째 일시불 904만 원 추월… 중국산 모델 3·Y는 왜 빠졌을까?",
+    date: "2026-11-16",
+    image: "fs16_model-y-juniper-front34.webp",
+    categories: ["electric", "news"],
+    tags: ["테슬라FSD", "FSD구독", "테슬라코리아", "EAP", "중국산모델Y"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "MTN(2026-07-17)·헤럴드경제(2026-07-11)·오토트리뷴(2026-07-13)·디지털투데이(2026-07-11)·ZDNet코리아(2026-07-16)·딜사이트(2026-08-07)·디지털데일리(2026-10-28) 보도 기반, 카프리즘 계산",
+    desc: "테슬라코리아가 FSD를 일시불 904만 3,000원에서 월 15만 원 구독으로 바꿨다는 MTN 등 보도를 근거로 구독 누적 금액을 일시불과 비교하고, EAP 보유자 월 7만 5,000원 손익분기, 중국산 모델 3·Y 제외, 11월 현재 상황을 정리했다."
+  },
+  {
+    slug: "tesla-cybercab-terms-dispute-subscription-resale-50000-owner-2026",
+    title: "사이버캡 약관 논란, 월 $299 구독 끊으면 정지·무허가 재판매 위약금 $50,000↑(보도)… 사놓고도 내 차일까?",
+    date: "2026-11-16",
+    image: "cyb14_zurich_front.webp",
+    categories: ["electric", "news"],
+    tags: ["테슬라", "사이버캡", "Cybercab", "자율주행구독", "약관"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드(2026-11-16)·Electrek(2026-11-14)·Teslarati(2026-11-13~15)·Drive Tesla Canada(2026-11-13) 보도 기반, 카프리즘 계산",
+    desc: "오토헤럴드(11/16)가 전한 테슬라 사이버캡 자율주행 구독 약관 논란을 Electrek·Teslarati·Drive Tesla Canada 보도와 맞춰, 구독 정지·재판매 위약금·개조 제한·구독 포함 범위를 약관 원문 미확인 한계와 함께 정리했다."
+  },
+  {
+    slug: "mercedes-benz-korea-gle-gle-coupe-gls-facelift-superscreen-launch-price-from-136-7-million-2026",
+    title: "벤츠 GLE·GLE 쿠페·GLS 부분변경 국내 출시, 슈퍼스크린 얹고 6개 트림 모두 직6 가솔린, 1억 3,670만 원부터 (보도 기준)",
+    date: "2026-11-16",
+    image: "gle16_gle_front.webp",
+    categories: ["import", "news"],
+    tags: ["벤츠GLE", "벤츠GLS", "GLE쿠페", "MBUX슈퍼스크린", "벤츠부분변경"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "김한용의모카(2026.11.16), M포스트(2026.11.16), 중앙이코노미뉴스(2026.11.16), 지피코리아(2026.11.16), 오토스파이넷(2026.11.16), 헤럴드경제(2026.11.16), 파이낸셜뉴스(2026.11.16), 위키트리(2026.11.16), 이코노믹리뷰(2026.11.16)",
+    desc: "벤츠코리아 더 뉴 GLE·GLE 쿠페·GLS 국내 출시를 5개 매체 원문으로 교차 확인해 트림 6종 가격(1억 3,670만~1억 6,120만 원), 슈퍼스크린, 3.0L 직6 사양, 트림 간 가격 격차를 정리하고 공식 확인 못 한 항목을 밝혔다."
+  },
+  {
+    slug: "bmw-new-x5-korea-preorder-six-trims-reported-price-2026",
+    title: "BMW 신형 X5 국내 사전예약 시작, 6개 트림인데 트림별 가격은 왜 안 보일까… 보도로 확인한 것과 못 한 것",
+    date: "2026-11-16",
+    image: "bmwh26_press_x5_front.webp",
+    categories: ["import", "news"],
+    tags: ["BMWX5", "신형X5", "더뉴X5", "BMW코리아", "X5사전예약"],
+    badge: "NEW CAR",
+    badgeClass: "cat-gold",
+    source: "참고: 이투데이(문현호 기자, 2026-11-16), 중앙이코노미뉴스(윤남웅 기자, 2026-11-16), M포스트(구기성 기자, 2026-11-16), 모터피디(2026-11-16)",
+    desc: "BMW 코리아가 11월 16일 5세대 신형 X5 사전예약을 시작했다. 국내 매체 4곳 원문을 교차 확인해 기간·트림 구성·전체 가격 범위를 정리하고, 확인하지 못한 항목을 밝혔다."
+  },
+  {
     slug: "goyang-haengjusanseong-fortress-han-river-winter-hours-parking-guide-2026",
     title: "고양 행주산성 동절기 운영시간·입장료·주차, 입장은 무료인데 주차는 유료, 야간개장은 겨울에 아예 쉰다?",
     date: "2026-11-15",
@@ -8975,7 +9131,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL",
     badgeClass: "cat-blue",
     source: "삼척시 문화관광 / 대금굴 공식 사이트 / 정책브리핑 / 한국관광공사 종합",
-    desc: "삼척 환선굴(입장료 4,500원·모노레일 왕복 7,000원, 내부 10~15℃)과 예약제 대금굴, 장호항 투명카누·삼척해상케이블카의 운영시간·요금·주차 정보를 삼척시 공식 안내 기준으로 정리한 가을 하루 코스."
+    desc: "삼척 환선굴(입장료 4,500원, 모노레일은 보도상 운행 중단, 내부 10~15℃)과 예약제 대금굴, 장호항 투명카누·삼척해상케이블카의 운영시간·요금·주차 정보를 삼척시 공식 안내 기준으로 정리한 가을 하루 코스."
   },
   {
     slug: "busan-international-film-festival-2026-parking-guide",
@@ -18059,7 +18215,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL PLAN",
     badgeClass: "cat-blue",
     source: "순천시 순천만국가정원·습지 / 카프리즘 기획 기사",
-    desc: "순천만국가정원과 순천만습지는 서로 연계돼 있어, 둘 중 한 곳에서 입장권을 사면 같은 날 다른 한 곳도 무료로 들어갈 수 있다. 국가정원 개인 주간 요금은 성인 1만 원, 청소년 7,000원, 어린이 5,000원이고 6세 이하와 65세 이상은 무료다. 습지와 정원을 오가는 무인 궤도차 스카이큐브는 왕복 8,000원, 편도 6,000원이며 매주 월요일 쉰다. S자형 수로와 칠면초 붉은 갯벌을 한눈에 담을 수 있는 용산전망대는 습지 입구에서 도보로 약 30분 걸린다. 습지 개장 시간은 오전 8시부터 일몰까지인데, 마지막 입장 시각이 1월엔 오후 5시, 5~8월엔 오후 7시로 계절마다 다르다."
+    desc: "순천만국가정원과 순천만습지는 서로 연계돼 있어, 둘 중 한 곳에서 입장권을 사면 같은 날 다른 한 곳도 무료로 들어갈 수 있다. 국가정원 개인 주간 요금은 성인 1만 원, 청소년 7,000원, 어린이 5,000원이고 6세 이하와 65세 이상은 무료다. 습지와 정원을 오가는 무인 궤도차 스카이큐브는 왕복 8,000원, 편도 6,000원이며 매주 월요일 쉰다. S자형 수로와 칠면초 붉은 갯벌을 한눈에 담을 수 있는 용산전망대는 습지 입구에서 도보로 약 30분 걸린다. 습지는 오전 8시에 열고 매표 마감이 11~2월엔 오후 5시, 5~8월엔 오후 7시로 계절마다 다르다."
   },
   {
     slug: "mungyeong-saejae-parking-shuttle-fee-guide",
