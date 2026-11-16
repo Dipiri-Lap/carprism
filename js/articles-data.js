@@ -2,6 +2,42 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "winter-12v-battery-dead-jump-start-hybrid-ev-reset-button-owners-manual-guide-2026",
+    title: "겨울 배터리 방전 점프스타트, 현대 하이브리드는 케이블보다 '리셋 버튼'부터… 30초 안에 시동 걸고 30분 켜 둬야",
+    date: "2026-11-16",
+    image: "bt16_jump_clamps_battery.webp",
+    categories: ["life"],
+    tags: ["배터리방전", "점프스타트", "하이브리드12V배터리", "12VBATTRESET", "전기차12V"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 온라인 사용설명서(DN8·NX4·NX4 HEV·GN7 HEV 2026, NE1·CE1 2025), 제네시스 RG3(2026), 기아 SP3(2026), 경향신문·뉴시스·매일신문 보도, 카프리즘 정리",
+    desc: "겨울 배터리 방전 점프스타트, 내연기관·하이브리드·전기차는 첫 행동이 다르다. 현대·제네시스·기아 설명서로 연결 순서, 현대 12V BATT RESET 30초·30분(기아 SP3는 15초), 금기와 긴급출동 요령을 정리했다."
+  },
+  {
+    slug: "car-lease-long-term-rent-return-repair-cost-dispute-wear-and-tear-guide-2026",
+    title: "리스·장기렌트 반납 수리비 청구서, \"통상 마모\"는 뺀다는데… 이의 제기 순서와 렌터카 반납 피해 3년 194건",
+    date: "2026-11-16",
+    image: "rt16_damaged_bumper_paint.webp",
+    categories: ["life"],
+    tags: ["리스반납", "장기렌트반납", "원상복구", "반납수리비", "자동차리스표준약관"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "공정거래위원회 자동차대여 표준약관(제10064호, 2021.10.29 개정), 리스 표준약관(신한카드 게시본, 2022.4.1 시행), 한국소비자원 피해예방주의보 보도(2026.7.23), 소비자기본법, 정책브리핑, 카프리즘 가정 계산",
+    desc: "리스·장기렌트 반납 수리비 청구서를 받으면? 리스 표준약관 제26조의 별도 평가기관 이의, 렌터카 표준약관의 통상 마모 제외·견적서 요청, 소비자원 반납 관련 피해 194건과 분쟁조정 30일 절차를 정리했다."
+  },
+  {
+    slug: "snowy-day-traffic-accident-statistics-speed-reduction-rule-snow-removal-plan-2026",
+    title: "눈 오는 날 교통사고 통계 2026: 같은 11월 416건 vs 1건, 눈 20mm 쌓이면 최고속도 50% 감속해야",
+    date: "2026-11-16",
+    image: "sn16_snowplow_salt_road_oregon.webp",
+    categories: ["life"],
+    tags: ["눈오는날교통사고", "눈길교통사고통계", "제설대책", "눈길감속", "도로교통법시행규칙"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "도로교통공단 교통사고분석시스템(TAAS) 기상상태별·노면상태별 월별 교통사고(2025년·2024년), 도로교통법 시행규칙 제19조(국가법령정보센터), 국토교통부 제설대책 보도자료(정책브리핑 2026. 11. 10.), 행정안전부 겨울철 자연재난 종합대책 보도(2026. 11. 11.), 카프리즘 계산",
+    desc: "눈 오는 날 교통사고 통계를 TAAS 2024·2025년 기상상태별·노면별 자료로 정리하고, 눈 20mm 이상 50% 감속 기준과 국토부 2026~2027 제설대책(제설제 66만 톤)을 함께 확인했다."
+  },
+  {
     slug: "samcheok-hwanseongul-winter-hours-monorail-guide-2026",
     title: "삼척 환선굴 겨울 운영시간 17시까지·매표 16시 마감, 모노레일은 멈췄다는데 입구까지 걸어서 30분 걸릴까?",
     date: "2026-11-16",
