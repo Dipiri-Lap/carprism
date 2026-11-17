@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "namwon-silsangsa-national-treasure-jangseung-templestay-guide-2026",
+    title: "남원 실상사 국보 1건·보물 12건·석장승 3기 한 번에 보는 법, 입장료·참배 시간은 어디서 확인할까?",
+    date: "2026-11-17",
+    image: "ss16_grounds_mountain_view.webp",
+    categories: ["travel"],
+    tags: ["남원", "실상사", "지리산", "석장승", "백장암"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 국가유산 검색 Open API / 지리산 실상사 누리집 / 지리산둘레길 누리집 / 한국관광공사 TourAPI",
+    desc: "남원 실상사의 국보·보물 지정 현황과 지정일, 석장승 3기, 백장암 위치, 가는 법과 템플스테이, 지리산둘레길 인월-금계 구간과의 관계를 국가유산청·실상사 공식 자료로 정리했다."
+  },
+  {
+    slug: "jecheon-baeron-holy-ground-hours-mass-parking-first-seminary-guide-2026",
+    title: "제천 배론성지 개방시간·미사·주차, 1855년 한국 첫 신학교가 '배 밑바닥' 골짜기에 선 까닭은?",
+    date: "2026-11-17",
+    image: "bl16_pond_bridge.webp",
+    categories: ["travel"],
+    tags: ["제천", "배론성지", "황사영 백서", "성요셉 신학당", "최양업"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "배론성지 공식 사이트 / 제천시 문화관광 / 국가유산포털 / 한국관광공사 TourAPI",
+    desc: "제천 배론성지의 출입시간·미사·주차, 황사영 토굴과 성요셉 신학당, 최양업 신부 묘소, 방문 예절을 공식 자료로 정리하고 확인하지 못한 항목을 구분했다."
+  },
+  {
+    slug: "korea-kei-car-registrations-share-by-sido-casper-effect-molit-statistics-2026",
+    title: "경차 등록 204만 대, 2024년 말 정점보다 6만 대 적다… 점유율 10년 새 10.4%→9.2%, 캐스퍼 효과는 끝났나?",
+    date: "2026-11-17",
+    image: "keicar26_hero_trio.webp",
+    categories: ["news"],
+    tags: ["경차등록대수", "경차점유율", "시도별경차", "캐스퍼", "레이"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: 국토교통부 국토교통 통계누리 자동차 등록자료 통계(2016~2025년 12월·2026년 9월 파일), 세계일보(2026.5.26)·코리아타임스(2026.2.17)·더팩트(2025.11.20) 인용 KAMA·카이즈유 자료, 현대차·기아 판매 발표, 카프리즘 계산",
+    desc: "국토교통부 통계누리 월별 등록자료를 2016~2026년 9월까지 직접 계산했다. 1,000cc 미만 승용은 2,041,087대로 점유율 9.17%, 시도별 순위와 모닝·레이·캐스퍼 판매 추이, 경차 혜택 현행 기준을 정리했다."
+  },
+  {
+    slug: "new-driver-license-issued-by-year-class1-class2-20s-holders-share-police-statistics-2026",
+    title: "신규 운전면허 2023년 88만 명 최저에서 100만 명 반등, 1종 보통 여성 2.8배… 20대 면허는 줄었나",
+    date: "2026-11-17",
+    image: "dl16_chart_license_issued_class1_class2_2017_2024.webp",
+    categories: ["life"],
+    tags: ["신규운전면허", "운전면허취득", "운전면허통계", "1종보통", "2종보통"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "경찰청 교통통계(경찰통계자료) 연도별 운전면허 배출현황·운전면허 소지자 현황(2017~2024년), 쿠키뉴스·세계일보 보도(경찰청 인용), 카프리즘 계산",
+    desc: "신규 운전면허 취득 2023년 885,171명에서 2024년 1,003,857명 반등. 경찰청 통계로 1종 보통·2종 보통, 여성 비중, 20대·60세 이상 면허 소지자 비중을 직접 계산해 정리했다."
+  },
+  {
+    slug: "hyundai-porter-vs-kia-bongo-1-ton-truck-official-price-lpg-ev-fuel-cost-compare-2026",
+    title: "포터 vs 봉고 가격표 맞비교, 같은 캡 봉고가 60~110만 원 싸다… 전기 트럭은 5만 원 차, 본전 뽑으려면 몇 년?",
+    date: "2026-11-17",
+    image: "tk16_porter2_double_cab_side.webp",
+    categories: ["domestic", "news"],
+    tags: ["포터봉고비교", "포터vs봉고", "1톤트럭", "포터일렉트릭", "봉고3EV"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대자동차 포터 II 가격표 PDF·카탈로그 PDF, 기아 봉고 III 가격표 PDF(LPG·EV), 한국환경공단 2026년 전기자동차 보급사업 지침·모집공고",
+    desc: "현대 포터 II·기아 봉고 III 공식 가격표 PDF로 같은 캡끼리 트림 가격을 맞비교했다. 2WD 초장축은 봉고가 최저 96~110만, 최고 60~63만 원 싸고, 전기는 4,350만 대 4,345만 원이다. 연료비 가정과 보조금 상한으로 본전 햇수도 계산했다."
+  },
+  {
+    slug: "korea-auto-export-october-2026-record-chuseok-shift-eco-friendly",
+    title: "10월 자동차 수출 65.5억 달러(+18.1%) 역대 10월 최대… 9월과 합치면 증가율이 5.5%로 줄어드는 이유는?",
+    date: "2026-11-17",
+    image: "ex16_glovis_sunrise_car_carrier.webp",
+    categories: ["news", "domestic"],
+    tags: ["자동차수출", "10월자동차수출", "추석기저효과", "친환경차수출", "하이브리드수출"],
+    badge: "INDUSTRY",
+    badgeClass: "cat-blue",
+    source: "산업통상부(2026년 10월 자동차산업 동향·수출입 동향)·아주경제·뉴스웨이·스트레이트뉴스·이포커스 보도 종합",
+    desc: "2026년 10월 자동차 수출은 65.5억 달러로 18.1% 늘어 역대 10월 최대다. 추석이 9월로 옮겨 조업일수가 4일 늘었고, 9월과 합치면 증가율은 5.5%다. 지역별·친환경차·단가를 산업부 발표와 직접 계산으로 정리했다."
+  },
+  {
+    slug: "bmw-us-720000-recall-water-pump-connector-park-outside-fire-risk-2026",
+    title: "BMW 미국 72만 대 재리콜, 수리한 워터펌프 커넥터가 또… \"주차 중에도 화재\" 실외 주차 권고, 한국은?",
+    date: "2026-11-17",
+    image: "rc16_f30.webp",
+    categories: ["import", "news"],
+    tags: ["BMW리콜", "워터펌프커넥터", "실외주차", "NHTSA", "화재위험"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "Reuters(Claims Journal) / FOX Local(KTVU) / BMWBlog / Carscoops / 오토헤럴드 / CBS / TFLcar",
+    desc: "NHTSA가 BMW 72만 796대에 주차 중에도 화재 위험이 있다며 실외 주차를 권고했다. 2024년 리콜(24V-608)을 받은 같은 워터펌프 커넥터가 문제다. 대상 모델·연식, 1차·2차 리콜 차이, 보도별 엇갈림, 한국 영향 확인 범위와 내 차 조회 방법을 정리했다."
+  },
+  {
     slug: "winter-12v-battery-dead-jump-start-hybrid-ev-reset-button-owners-manual-guide-2026",
     title: "겨울 배터리 방전 점프스타트, 현대 하이브리드는 케이블보다 '리셋 버튼'부터… 30초 안에 시동 걸고 30분 켜 둬야",
     date: "2026-11-16",
