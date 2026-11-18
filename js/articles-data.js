@@ -2,6 +2,174 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "jangneung-yeongwol-danjong-tomb-guide-2026",
+    title: "청령포만 보고 오면 반쪽일까? 영월 장릉 사적 제196호, 대인 2,000원·월요일 휴관·위패 268위 장판옥",
+    date: "2026-11-18",
+    image: "jl18_tomb_mound_stones_b.webp",
+    categories: ["travel"],
+    tags: ["영월", "장릉", "단종", "청령포", "조선왕릉"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 OpenAPI / 한국관광공사 TourAPI / 영월군 문화관광",
+    desc: "영월 장릉의 사적 제196호 지정 현황, 능역 시설(낙촌비각·정려각·장판옥), 관람시간·입장료·휴관일, 단종문화제, 청령포와 묶는 동선을 공식 자료 기준으로 정리했다."
+  },
+  {
+    slug: "gunwi-ingaksa-samgukyusa-site-winter-guide-2026",
+    title: "삼국유사는 어디서 쓰였을까? 군위 인각사 사적 제374호·보물 제428호, 상시 개방 겨울 방문 가이드",
+    date: "2026-11-18",
+    image: "ig18_gunwi_ingaksa_hall_courtyard.webp",
+    categories: ["travel"],
+    tags: ["군위", "인각사", "삼국유사", "일연", "보각국사탑"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 OpenAPI / 한국관광공사 TourAPI",
+    desc: "일연이 삼국유사를 지은 곳으로 알려진 대구 군위군 인각사의 사적·보물 지정 현황, 상시 개방 정보, 확인하지 못한 입장료, 삼국유사 테마파크 연계와 겨울 방문 팁을 정리했다."
+  },
+  {
+    slug: "boeun-maltijae-observatory-12-curves-winter-guide-2026",
+    title: "무료인데 정원 70명? 보은 말티재 전망대 12굽이, 운영시간·입장 규칙·겨울 눈길 주의, 속리산 연계 동선까지",
+    date: "2026-11-18",
+    image: "mt18_aerial-curves-1.webp",
+    categories: ["travel"],
+    tags: ["보은", "말티재", "말티재전망대", "속리산", "충북여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "한국관광공사 TourAPI / 보도 / 현장 안내문 사진",
+    desc: "보은 말티재 전망대의 무료 이용, 정원 70명, 운영시간 자료 비교, 현장 안내문 유의사항과 겨울 눈길 주의점, 속리산 연계 동선을 확인된 범위로 정리했다."
+  },
+  {
+    slug: "korea-pickup-price-bed-towing-comparison-tasman-musso-musso-ev-2026",
+    title: "싼 픽업이 짐도 적게 싣나? 국산 더블캡 픽업 2,990만~5,255만 원 맞비교, 적재 400~700kg·견인 1.8~3.5t",
+    date: "2026-11-18",
+    image: "delwaite_kia_tasman_front.webp",
+    categories: ["news"],
+    tags: ["국산픽업", "타스만가격", "무쏘가격", "무쏘EV", "픽업적재함"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "기아 공식 가격표 PDF(kia.com price_tasman.pdf, 2026.11판), KGM 공식 무쏘 가격표·카탈로그 PDF(2026.1.8판), 무쏘 EV 가격표 PDF(2025.2)·브로슈어 PDF(2025.12), 기아 출시 보도자료(2025.2.12), KGM 출시 보도자료(2026.1.5), 2026.11.18 조회, 카프리즘 계산",
+    desc: "기아 타스만 공식 가격표(2026.11판)와 KGM 무쏘·무쏘 EV 공식 가격표·카탈로그 PDF를 직접 읽어 국산 픽업 3종의 트림별 가격, 4WD·롱 데크 추가금, 적재함 크기·적재량, 견인력, 파워트레인을 한 표로 비교했다. 렉스턴 스포츠·칸은 무쏘로 이어졌다."
+  },
+  {
+    slug: "kia-niro-vs-kona-vs-seltos-hybrid-trim-price-options-fuel-cost-compare-2026",
+    title: "11만 원 싼 니로는 코나보다 에어백이 4개 더 많다… 니로 3,027만·코나 3,038만·셀토스 3,073만 하이브리드 맞비교",
+    date: "2026-11-18",
+    image: "nr18_niro_trendy_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["니로하이브리드", "코나하이브리드", "셀토스하이브리드", "하이브리드소형SUV", "트림별가격"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "기아 니로·셀토스 가격표 PDF, 현대 2027 코나 하이브리드 가격표 PDF·카탈로그, 기아 니로 제원 페이지(2026-11-18 확인)",
+    desc: "기아 니로, 현대 코나, 기아 셀토스 하이브리드의 공식 가격표 PDF를 직접 대조해 트림별 가격, 에어백·주행 보조 기본 품목, 옵션을 맞춘 합계, 연비·제원, 5년 연료비를 정리했다."
+  },
+  {
+    slug: "korea-kona-gasoline-vs-hybrid-vs-electric-5year-total-cost-seoul-subsidy-official-2026",
+    title: "연료비 39%뿐인 전기차가 가장 비싸다? 코나 3종 5년 총비용 3,814만~4,175만 원(서울 보조금, 카프리즘 계산)",
+    date: "2026-11-18",
+    image: "mc18_kona_hybrid_front.webp",
+    categories: ["news"],
+    tags: ["코나5년총비용", "코나하이브리드", "코나일렉트릭", "전기차vs하이브리드", "서울전기차보조금"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대 코나 가격표 3종(2026-11-18 확인), 오피넷, 무공해차 통합누리집·정책브리핑 충전요금, 지방세법·지방세특례제한법, 카프리즘 계산",
+    desc: "현대 코나 가솔린 2.0·하이브리드·일렉트릭 최저 트림의 공식 가격표, 서울 보조금, 취득세·자동차세, 연료·충전비로 5년 누적 총비용을 직접 계산하고 보조금·주행거리·충전 단가·잔존가치 가정이 결과를 바꾸는 폭을 정리했다."
+  },
+  {
+    slug: "korea-minivan-van-7-to-11-seater-price-ladder-carnival-staria-trim-hybrid-official-price-2026",
+    title: "하이루프는 3개 트림 모두 똑같이 1,140만 원? 국산 7~11인승 가격 사다리 3,502만~6,441만(카프리즘 계산)",
+    date: "2026-11-18",
+    image: "mv18_carnival_black_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["미니밴가격", "카니발가격", "스타리아가격", "11인승", "9인승가격"],
+    badge: "NEW CAR",
+    badgeClass: "cat-hyundai",
+    source: "현대차 공식 가격표 PDF(hyundai.com/contents/repn-car/catalog), 기아 카니발 공식 가격표 PDF(kia.com, 카니발_202611), 모두 2026-11-18 확인, 카프리즘 계산",
+    desc: "현대차 스타리아 가격표 PDF와 기아 카니발 가격표 PDF(2026.11)를 구성별로 풀어 7~11인승 국산 미니밴·승합의 최저~최고 가격을 17칸 사다리로 정리했다. 카니발 하이루프는 가격표에 실린 3개 트림(노블레스·시그니처·블랙 에디션) 모두 +1,140만 원이다."
+  },
+  {
+    slug: "renault-korea-arkana-grand-koleos-filante-price-trim-size-fuel-compare-official-2026",
+    title: "필랑트가 그랑 콜레오스보다 489만 원 비싼 이유는? 르노코리아 3종 가격표 맞비교, 14개 트림 2,677만~5,294만 원",
+    date: "2026-11-18",
+    image: "fix26_renault_grandkoleos_busan_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["르노코리아가격표", "그랑콜레오스가격", "필랑트가격", "아르카나가격", "르노코리아비교"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "르노코리아 공식 가격표 PDF(아르카나 27MY, 그랑 콜레오스 27MY, 필랑트)",
+    desc: "2026년 11월 공식 가격표 3장으로 아르카나·그랑 콜레오스·필랑트 14개 트림의 판매가, 파워트레인, 크기, 공인 연비를 한 표로 맞비교했다. 필랑트 테크노는 그랑 콜레오스 테크노보다 489만 원 비싸고, 에스프리 알핀보다는 110만 원 싸다."
+  },
+  {
+    slug: "genesis-g80-hybrid-certified-curb-weight-260kg-fuel-economy-unconfirmed-2026",
+    title: "G80 하이브리드 인증 보도 2,090kg, 가솔린 대비 260kg↑… 연비 13km/ℓ대는 아직 \"전망\"인 이유는?",
+    date: "2026-11-18",
+    image: "feo01_g80_front34.webp",
+    categories: ["domestic", "news"],
+    tags: ["G80하이브리드", "G80하이브리드연비", "G80하이브리드공차중량", "제네시스G80", "제네시스하이브리드"],
+    badge: "NEW CAR",
+    badgeClass: "cat-genesis",
+    source: "오토트리뷴(2026.11.17·18), 뉴스와(2026.11.17), 제네시스 G80·GV80 가격표(2026.11.1~11.30), 카프리즘 계산",
+    desc: "제네시스 G80 하이브리드가 국내 인증을 마쳤다는 보도에서 확인되는 공차중량은 2WD 2,090kg·AWD 2,155kg(보도 기준)이다. 공식 가격표의 가솔린 G80과 맞춰 보면 차이는 155~260kg이고, 복합연비·CO₂·배터리 용량은 공식 확인이 없다. GV80 하이브리드 개선율로 계산한 연비 범위도 정리했다."
+  },
+  {
+    slug: "china-passenger-car-retail-october-2026-down-27-percent-exports-68-percent-cpca",
+    title: "중국 승용차 10월 소매 164만 대로 -27.1%, 수출 92.8만 대 +68.5%… 두 숫자는 서로 연결될까?",
+    date: "2026-11-18",
+    image: "cn18_explorer_no1_ship_side.webp",
+    categories: ["news"],
+    tags: ["중국자동차", "중국내수", "중국자동차수출", "CPCA", "중국승용차소매"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "카가이(2026-11-18), ChinaEVHome(2026-11-09), Just Auto(2026-11-10), CnEVPost(2026-11-09)",
+    desc: "카가이가 전한 중국 내수 -27%·수출 +69%는 CPCA 10월 승용차 집계다. 소매 164.3만 대(-27.1%), CKD 포함 수출 92.8만 대(+68.5%)의 정의와 도매·재고, 원인 설명, 확인하지 못한 목적지를 보도 기준으로 정리했다."
+  },
+  {
+    slug: "nauca-october-2026-new-car-quote-requests-sorento-11-percent-vs-sales-rank-gap",
+    title: "나우카 10월 신차 견적 요청 쏘렌토 11.0%로 1위… 국산차 판매 1위 스포티지는 6위, 관심과 판매는 왜 엇갈릴까",
+    date: "2026-11-18",
+    image: "nk18_sorento_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["나우카", "신차견적요청", "10월신차견적", "쏘렌토", "그랜저"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: 나우카 월간 리포트 2026년 10월호(2026-11-17), 뉴스와이어(2026-11-18), 스페셜타임스(2026-11-18), 스타트업레시피(2026-11-18), 현대차그룹 뉴스룸",
+    desc: "나우카 2026년 10월 신차 견적 요청 집계에서 쏘렌토가 11.0%로 1위, 그랜저 9.7%가 2위였다. 표본·방법과 한계를 확인하고, 10월 실제 판매 순위와 견적 요청 비중의 괴리를 표로 비교했다."
+  },
+  {
+    slug: "tesla-cybercab-home-charging-not-possible-dc-only-not-terms-2026",
+    title: "사이버캡 집에서 충전 불가는 약관이 아닌 차량 설계 문제(보도)… 9월부터 나온 얘기가 11월에 다시 논란이 된 이유는?",
+    date: "2026-11-18",
+    image: "cyb14_zurich_front.webp",
+    categories: ["electric", "news"],
+    tags: ["테슬라", "사이버캡", "Cybercab", "충전", "가정 충전"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "오토헤럴드(2026-11-18)·Not a Tesla App(2026-09-05, 11-14)·Drive Tesla Canada(2026-09-07, 11-13)·InsideEVs(2026-09-11)·Electrek(2026-11-14)·Teslarati(2026-08-18) 보도 기반, 카프리즘 계산",
+    desc: "오토헤럴드(11/18)가 전한 사이버캡 \"집에서는 충전 불가능\" 논란을 Not a Tesla App·Drive Tesla Canada·InsideEVs·Electrek 보도와 맞춰, 온보드 충전기 부재·DC 급속 충전·무선 충전 계획·약관 속 충전 비용 문구를 약관 원문 미확인 한계와 함께 정리했다."
+  },
+  {
+    slug: "bmw-i3-m60-simulated-shifting-stages-hyundai-n-e-shift-2026",
+    title: "BMW i3 M60 가상 변속 '스테이지' 탑재 보도, 'funny gimmick'이라던 BMW는 왜 마음을 바꿨나",
+    date: "2026-11-18",
+    image: "bmw13_ix3_front_blue.webp",
+    categories: ["electric", "news"],
+    tags: ["BMW", "BMWi3M60", "가상변속", "스테이지", "N이쉬프트"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "BMW 미국 뉴스룸, 현대 유럽 뉴스룸, 오토헤럴드, 카스쿱스, 카버즈, 모터1, BMWBlog, 카스가이드",
+    desc: "BMW가 2027년 공개 예정인 i3 M60 xDrive에 패들로 조작하는 가상 변속 '스테이지'를 넣는다는 보도를 BMW 보도자료와 인터뷰 인용으로 나눠 확인하고, 현대 N e-Shift와 비교했다."
+  },
+  {
+    slug: "imported-ev-brand-awareness-vs-purchase-intent-tesla-99-52-china-brands-consumer-insight-2026",
+    title: "수입 전기차 인지율 99%·구입의향 52% 테슬라, 샤오미는 78%→5%… 알지만 사지 않는 브랜드는 어디일까?",
+    date: "2026-11-18",
+    image: "ij18_tesla_model_y_front.webp",
+    categories: ["electric", "news"],
+    tags: ["컨슈머인사이트", "수입전기차", "테슬라", "BYD", "샤오미"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "컨슈머인사이트 보도자료(2026-11-17), ZDNet Korea(2026-11-17), 글로벌경제신문(2026-11-17), 오토트리뷴(2026-11-18), 오토헤럴드(2026-11-18)",
+    desc: "컨슈머인사이트 제26차 연례 자동차기획조사(보유자 8,951명, 2026-11-17 발표)에서 테슬라 인지율 99%·구입의향 52%, 샤오미 78%·5%였다. 6개 브랜드의 인지율 대비 구입의향 전환 비교표와 조사 한계를 정리했다."
+  },
+  {
     slug: "namwon-silsangsa-national-treasure-jangseung-templestay-guide-2026",
     title: "남원 실상사 국보 1건·보물 12건·석장승 3기 한 번에 보는 법, 입장료·참배 시간은 어디서 확인할까?",
     date: "2026-11-17",
@@ -179,7 +347,7 @@ window.ARTICLES_DATA = [
     badge: "BUYING GUIDE",
     badgeClass: "cat-sales",
     source: "현대차·기아·제네시스·쉐보레·르노코리아 공식 가격표 PDF, 캐스퍼 온라인 가격표",
-    desc: "2026년 11월 16일 공식 가격표 기준 국산 가솔린 SUV 15종의 최저 트림을 줄 세웠다. 캐스퍼 1,546만 원부터 GV80 쿠페 8,270만 원까지, 아반떼보다 싼 SUV 4종과 쏘렌토·K8 가격 역전을 세단 기사와 맞춰 정리했다."
+    desc: "2026년 11월 16일 공식 가격표 기준 국산 가솔린 SUV 16종의 최저 트림을 줄 세웠다. 캐스퍼 1,546만 원부터 GV80 쿠페 8,270만 원까지, 아반떼보다 싼 SUV 4종과 쏘렌토·K8 가격 역전을 세단 기사와 맞춰 정리했다."
   },
   {
     slug: "hyundai-lowest-trim-price-increase-top10-grandeur-hybrid-410-avante-387-official-price-2026",
