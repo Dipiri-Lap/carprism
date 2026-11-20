@@ -2285,7 +2285,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/ev_charging_station_jeju.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-05T14:00:00+09:00</lastmod>
+    <lastmod>2026-11-20T12:50:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3500,7 +3500,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/rexton_current_uk.jpg</image:loc>
     </image:image>
-    <lastmod>2026-07-21T09:00:00+09:00</lastmod>
+    <lastmod>2026-11-20T11:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6761,7 +6761,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/sorento-sportage-hybrid-my2026-price-changes.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14567,7 +14567,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/korea-full-option-price-increase-top10-base-vs-max-trim-official-price-2026.html</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14723,7 +14723,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/korea-single-option-price-top10-most-expensive-selectable-items-official-2026.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15419,7 +15419,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/kia-niro-vs-kona-vs-seltos-hybrid-trim-price-options-fuel-cost-compare-2026.html</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15527,6 +15527,90 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/car-insurance-mileage-rider-prepaid-vs-refund-tier-compare-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/tesla-fsd-korea-special-exemption-application-documents-insufficient-molit-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/byd-korea-unverified-app-factory-reset-notice-warranty-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/kgm-new-rexton-se10-phev-certification-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/euro-ncap-kia-seltos-5-star-nissan-leaf-4-star-score-gap-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-grandeur-4-engines-gasoline-lpg-hybrid-annual-fuel-cost-tax-payback-official-price-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-gasoline-vs-hybrid-city-highway-fuel-economy-gap-payback-years-recalc-official-price-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-ev-payback-years-seoul-subsidy-vs-gasoline-hybrid-fuel-cost-official-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-one-class-down-full-option-vs-one-class-up-base-price-inversion-8-pairs-official-price-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/ev-wheel-size-certified-range-loss-ioniq-kia-ev-option-price-per-km-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-8-models-entry-trim-adas-standard-option-price-gap-official-price-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-same-option-different-price-sunroof-hud-built-in-cam-surround-view-hyundai-kia-official-price-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hamyang-namgye-seowon-unesco-visit-guide-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/jangseong-pilamseowon-unesco-seowon-visit-guide-2026.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/jeongeup-museong-seowon-unesco-visit-guide-2026.html</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
