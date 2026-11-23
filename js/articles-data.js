@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "haman-malisan-tumuli-ara-gaya-world-heritage-guide-2026",
+    title: "전시관은 상시 개방인데 박물관은 월요일 휴관? 함안 말이산 고분군 관람 정보, 대형 고분 37기·79.7만㎡",
+    date: "2026-11-23",
+    image: "mi23_boardwalk_mound.webp",
+    categories: ["travel"],
+    tags: ["함안", "말이산고분군", "아라가야", "가야고분군", "세계유산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 공개 API / 한국관광공사 TourAPI / K-TRIP TIPS",
+    desc: "함안 말이산 고분군의 사적 지정 번호·면적, 아라가야 대형 고분 37기, 보물 유물, 전시관·함안박물관 이용 정보와 엇갈리는 안내를 공식 자료로 정리했다."
+  },
+  {
+    slug: "seoul-seonjeongneung-royal-tombs-unesco-hours-fee-parking-guide-2026",
+    title: "선정릉 겨울에도 밤 9시까지 연다? 11~1월은 17시 30분 마감, 입장료 1,000원·주차 요금 2026",
+    date: "2026-11-23",
+    image: "sj23_aerial_jeongjagak.webp",
+    categories: ["travel"],
+    tags: ["선정릉", "선릉", "정릉", "조선왕릉", "유네스코세계유산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 오픈 API / 한국관광공사 / 서울시 / 세계일보 / 문화재청 보도자료",
+    desc: "서울 선릉과 정릉(선정릉, 사적 제199호)의 11~1월 17:30 마감 등 계절별 관람시간, 입장료 1,000원, 주차 요금, 월요일 휴관을 궁능유적본부 안내 기준으로 정리하고 성종·중종 능 구성도 짚었다."
+  },
+  {
+    slug: "yeoncheon-jeongok-prehistory-museum-jeongok-ri-site-guide-2026",
+    title: "면적이 왜 두 개? 연천 전곡선사박물관·전곡리 유적 무료·17:30 마감, 사적 268호 799,022㎡·778,296㎡",
+    date: "2026-11-23",
+    image: "jg23_evolution-models-mammoth.webp",
+    categories: ["travel"],
+    tags: ["연천", "전곡선사박물관", "전곡리유적", "주먹도끼", "구석기"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "경기문화재단 전곡선사박물관 / 국가유산청 / 경기일보 / 한국관광공사 TourAPI",
+    desc: "연천 전곡선사박물관의 운영시간·휴관·무료 요금·주차와 상설전시 9개 코너, 사적 전곡리 유적의 지정 정보를 공식 자료로 정리했다."
+  },
+  {
+    slug: "goseong-songhak-dong-tumuli-sogaya-goseong-museum-guide-2026",
+    title: "고성 송학동 1호분, 전형적 일본 전방후원분 아닌 봉분 3기? 고분군 67,325㎡·고성박물관 무료·월요일 휴관",
+    date: "2026-11-23",
+    image: "sh23_mounds-ridge.webp",
+    categories: ["travel"],
+    tags: ["고성", "송학동고분군", "고성박물관", "소가야", "가야고분군"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 / 고성군 문화관광 / 한국민족문화대백과사전 / 한국관광공사 TourAPI",
+    desc: "가야고분군 7곳 중 고성 송학동 고분군(사적 제119호)의 지정 정보와 1호분 구조, 14호분 발굴, 고성박물관 무료·월요일 휴관·11~2월 17시 운영을 공식 자료로 정리했다."
+  },
+  {
+    slug: "november-2026-delivery-wait-hyundai-kia-genesis-lineup-oct-compare",
+    title: "그랜저는 즉시, EV5는 8개월… 11월 현대·기아·제네시스 출고 대기, 10월보다 달라진 차종 (보도 기준)",
+    date: "2026-11-23",
+    image: "dw23_genesis_gv70_showroom.webp",
+    categories: ["domestic", "news"],
+    tags: ["출고대기", "11월출고", "출고기간", "신차납기", "제네시스출고대기"],
+    badge: "BUYER'S GUIDE",
+    badgeClass: "cat-sales",
+    source: "오토트리뷴 참고(카프리즘 계산·정리)",
+    desc: "오토트리뷴 11월 2~7일 보도 5건으로 현대차·기아·제네시스 차종별 출고 대기를 10월 2일 보도와 비교하고, 11월 23일 계약 시 예상 인도일과 연내 인도 가능 차종을 계산했다. 재고 대수·옵션 가산·공식 확인 한계도 정리했다."
+  },
+  {
     slug: "korea-gas-station-cheapest-weekday-opinet-daily-price-12-weeks-45-weeks-2026",
     title: "주유 싼 요일은 따로 있나? 오피넷 전국 평균 12주 요일 차이 0.74원, 45주로 보면 순위가 완전히 뒤집힌다",
     date: "2026-11-22",
