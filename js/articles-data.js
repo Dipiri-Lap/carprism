@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "namwon-yugok-durak-tumuli-gaya-world-heritage-unbong-guide-2026",
+    title: "남원 유곡리·두락리 고분군 관람 정보, 40기 무덤에서 백제 거울이 나온 까닭은?",
+    date: "2026-11-24",
+    image: "nw24_yugok_durak_excavation_aerial.webp",
+    categories: ["travel"],
+    tags: ["남원", "유곡리두락리고분군", "가야고분군", "세계유산", "운봉고원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 공개 API / 국가유산 방문 캠페인 / 한국관광공사 TourAPI",
+    desc: "남원 유곡리·두락리 고분군의 사적 지정 정보, 32호분 청동거울, 홍보관과 24시간 관람 안내, 확인하지 못한 항목을 국가유산청 자료로 정리했다."
+  },
+  {
+    slug: "guri-donggureung-royal-tombs-unesco-winter-hours-fee-guide-2026",
+    title: "동구릉 겨울 관람시간·입장료, 11~1월 입장 마감 16시 30분에 능 9곳 17기를 다 돌 수 있을까",
+    date: "2026-11-24",
+    image: "dg24_hongsalmun_chamdo.webp",
+    categories: ["travel"],
+    tags: ["동구릉", "구리 동구릉", "조선왕릉", "유네스코세계유산", "구리여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 오픈 API / 한국관광공사 / 세계일보",
+    desc: "구리 동구릉(사적 제193호, 조선왕릉 유네스코 세계유산)의 11~1월 06:30~17:30·입장 마감 16:30, 입장료 1,000원, 월요일 휴관, 9개 능 17기와 보물 정자각 3동, 정기해설을 공식 자료 기준으로 정리했다."
+  },
+  {
+    slug: "changnyeong-gyodong-songhyeon-dong-tumuli-bihwa-gaya-changnyeong-museum-guide-2026",
+    title: "창녕 교동·송현동 고분군·창녕박물관 무료 관람, 가야 고분에서 신라풍 금동관이 나온 이유는?",
+    date: "2026-11-24",
+    image: "chn24_gyodong-fence-mounds.webp",
+    categories: ["travel"],
+    tags: ["창녕", "교동송현동고분군", "창녕박물관", "비화가야", "가야고분군"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산포털 / 한국민족문화대백과사전 / 문화재청 / 창녕군 / 한국관광공사 TourAPI",
+    desc: "창녕 교동과 송현동 고분군의 지정 면적(531,442.8㎡)과 고분 수 자료 차이, 63호분 금동관, 창녕박물관 무료·월요일 휴관·17시 입장 마감을 공식 자료 기준으로 정리했다."
+  },
+  {
+    slug: "wonju-beopcheonsaji-geodonsaji-ruined-temple-sites-winter-guide-2026",
+    title: "원주 법천사지·거돈사지 겨울 답사 시간·요금, 지광국사탑은 탑비 옆이 아닌 전시관 안에 있다?",
+    date: "2026-11-24",
+    image: "bc24_beopcheon_stele_side.webp",
+    categories: ["travel"],
+    tags: ["원주", "법천사지", "거돈사지", "지광국사탑비", "폐사지"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국가유산청 OpenAPI / 원주시 관광 / 원주시역사박물관 / 한국관광공사 TourAPI",
+    desc: "원주 법천사지(사적·국보 지광국사탑비)와 거돈사지(사적·보물 삼층석탑)의 겨울 운영 시간, 휴관일, 지광국사탑 위치를 공식 자료로 정리했다."
+  },
+  {
+    slug: "korea-car-color-white-gray-black-76-percent-chromatic-24-axalta-option-cost-2026",
+    title: "한국 도로는 왜 흰색 천국일까, 유채색은 되레 늘었다… 흰색 33%·무채색 76%, 흰색 추가금 10만 원(보도 기준)",
+    date: "2026-11-24",
+    image: "cl24_avante_cn7_white.webp",
+    categories: ["news"],
+    tags: ["차량색상", "흰색차", "무채색", "유채색", "액솔타"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: 연합뉴스 김보경 기자(2025.6.23, 보배드림 전재), 코리아중앙데일리 Sarah Chea 기자(2025.11.8), KB Think(KB차차차 중고차 판매량), 아시아경제 최대율 기자(2023.12.9), 현대·기아 공식 가격표 PDF(2026.11.24 열람), 액솔타 보고서 인용, 카프리즘 계산",
+    desc: "액솔타 보고서를 인용한 연합뉴스·중앙데일리 보도로 2024년 한국 외장색 비중과 유채색 20%→24% 변화, KB차차차 중고차 색상 순위, 현대·기아 공식 가격표 색상 비용을 원문으로 대조해 정리했다."
+  },
+  {
+    slug: "hyundai-tucson-hybrid-test-drive-real-fuel-economy-18-1-vs-official-15-5-wheel-size-2026",
+    title: "20인치인데 실연비 18.1km/L? 투싼 하이브리드 시승기 두 건, 공인 15.5와 14.1로 갈린 이유(보도 기준)",
+    date: "2026-11-24",
+    image: "tcon26_press_front_studio.webp",
+    categories: ["domestic", "news"],
+    tags: ["투싼하이브리드", "투싼시승기", "투싼실연비", "투싼공인연비", "디올뉴투싼"],
+    badge: "NEW CAR",
+    badgeClass: "cat-hyundai",
+    source: "쿠키뉴스 김수지 기자 시승기(네이트 2026.11.20), 조선비즈 김지환 기자 시승기(네이트 2026.11.21), 현대차 디 올 뉴 투싼 하이브리드 가격표·카탈로그 PDF(2026.11.24 확인)",
+    desc: "투싼 하이브리드 시승기 두 건의 실연비 18.1km/L(약 410km)와 14.1km/L(약 60km)를 현대차 가격표의 휠·구동별 공인 복합연비 14.3~17.4km/L, 시승차 4,755만 원 구성, 245마력 제원과 대조하고 확인하지 못한 항목을 정리했다."
+  },
+  {
+    slug: "korea-ev-share-domestic-48-7-china-43-5-jan-sep-2026-passenger-registrations-basis-check",
+    title: "국산 전기차 점유율 과반이 깨졌다? 승용 48.7% 대 중국산 43.5%, 기존 35.3%와 다른 이유(보도 기준)",
+    date: "2026-11-24",
+    image: "brandscore26_tesla_model_y_front.webp",
+    categories: ["electric", "news"],
+    tags: ["국산전기차점유율", "중국산전기차", "승용전기차신규등록", "국내생산세액공제", "KAMA"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "참고: ZDNet 코리아 김재성 기자(2026.11.3·11.17), 이코노믹리뷰 최진홍 기자(2026.11.17), SBS Biz 지웅배 기자(2026.11.2), 아시아경제 지혜진 기자(2026.11.24), 이비엔 김유영 기자(2026.10.26)",
+    desc: "ZDNet 코리아 등이 보도한 2026년 1~9월 승용 전기차 신규 등록 중국산 43.5%·국산 48.7%의 집계 주체와 기준, 카프리즘 기존 35.0%·35.3%와의 기간·분모 차이, 국내생산세액공제 논의 현황을 정리했다."
+  },
+  {
     slug: "haman-malisan-tumuli-ara-gaya-world-heritage-guide-2026",
     title: "전시관은 상시 개방인데 박물관은 월요일 휴관? 함안 말이산 고분군 관람 정보, 대형 고분 37기·79.7만㎡",
     date: "2026-11-23",
