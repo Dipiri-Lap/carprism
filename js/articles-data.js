@@ -2,6 +2,66 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "namyangju-hongyureung-royal-tombs-emperor-tombs-winter-hours-fee-guide-2026",
+    title: "남양주 홍유릉 겨울 관람시간·입장료 1,000원, 입장 마감 16시 30분에 황제릉 두 곳을 다 볼 수 있을까",
+    date: "2026-11-25",
+    image: "hy25_snow_approach.webp",
+    categories: ["travel"],
+    tags: ["홍유릉", "남양주 홍릉과 유릉", "고종", "순종", "황제릉"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 오픈 API / 세계일보",
+    desc: "남양주 홍릉과 유릉(사적, 고종·명성황후 홍릉과 순종·순명효황후·순정효황후 유릉)의 11~1월 09:00~17:30·입장 마감 16:30, 입장료 1,000원, 월요일 휴관, 황제릉 침전·석물 특징, 정기해설을 공식 자료 기준으로 정리했다."
+  },
+  {
+    slug: "seoul-jongmyo-unesco-winter-hours-fee-guided-tour-guide-2026",
+    title: "종묘 겨울 관람시간·입장료 1,000원·해설 예약, 월·목·금은 해설 동반 시간제? 수요일은 안내가 엇갈린다",
+    date: "2026-11-25",
+    image: "jm25_jeongjeon_snow_2008.webp",
+    categories: ["travel"],
+    tags: ["종묘", "종묘정전", "영녕전", "종묘제례", "유네스코세계유산"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 오픈 API / 한국관광공사 / Wikimedia Commons",
+    desc: "서울 종묘(사적 제125호)의 겨울 관람시간과 입장료 1,000원, 월·목·금 해설 동반 시간제와 토·일 자유관람, 수요일 안내가 엇갈린 부분, 정전 19칸·영녕전을 공식 안내 기준으로 정리했다."
+  },
+  {
+    slug: "gochang-goindol-museum-winter-hours-fee-course-guide-2026",
+    title: "고창 고인돌박물관 겨울 운영 17시·입장료 3,000원, 1.8km 탐방로에 440여 기 다 볼까?",
+    date: "2026-11-25",
+    image: "gc25_pine_dolmen_field.webp",
+    categories: ["travel"],
+    tags: ["고창고인돌", "고인돌박물관", "죽림리고인돌", "세계유산", "고창여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "고창군 고창 세계유산 고인돌 박물관 / 국가유산청 open API / 한국관광공사 TourAPI",
+    desc: "고창 세계유산 고인돌 박물관 동절기 09~17시·월요일 휴관·입장료 3,000원, 탐방열차 17시 이후 미운행과 3D영상 동절기 미상영 표기, 사적 제391호 죽림리·상갑리 1.8km 탐방코스와 440여 기·447기·1,748기 수치 차이를 공식 자료로 정리했다."
+  },
+  {
+    slug: "korea-new-car-speaker-count-ranking-bang-olufsen-bose-harman-kardon-option-price-official-2026",
+    title: "스피커 6개와 25개, 값 차이는 얼마? 신차 34종 오디오 순위, 추가금 59만~490만 원(카프리즘 계산)",
+    date: "2026-11-25",
+    image: "sp25_gv80_interior.webp",
+    categories: ["news"],
+    tags: ["스피커개수", "뱅앤올룹슨", "보스오디오", "하만카돈", "프리미엄사운드옵션"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "현대차·기아·제네시스 공식 가격표 PDF(2026-11-25 확인), 카프리즘 집계·계산",
+    desc: "2026년 11월 25일 현대차·기아·제네시스 공식 가격표 기준 스피커 개수가 확인된 34개 모델의 프리미엄 오디오 순위와 브랜드, 기본 대비 추가금, 선택 가능 트림을 정리했다(카프리즘 계산)."
+  },
+  {
+    slug: "buick-electra-e7-korea-trim-price-contract-2026",
+    title: "\"5,400만 원대 아니었다\"… 뷰익 엘렉트라 E7 확정가 4,360~5,299만 원, 트림 차 939만 원(보도 기준)",
+    date: "2026-11-25",
+    image: "bk25_e7_blue_front34.webp",
+    categories: ["import", "news"],
+    tags: ["뷰익엘렉트라E7", "엘렉트라E7가격", "뷰익트림가격", "PHEV중형SUV", "GM한국사업장"],
+    badge: "NEW MODEL",
+    badgeClass: "cat-gold",
+    source: "아시아경제·한국경제·모터트렌드·뉴스와·시사위크·한국아이닷컴 보도 종합",
+    desc: "뷰익 엘렉트라 E7 트림별 가격이 보도로 나왔다. 어반 4,360만·모던 4,710만·리저브 4,960만·프리미어 5,299만 원, 9월 예고가와 비교, 배터리 19.7·31.7kWh와 전기 80·126km, 11월 23·25일 계약, 12월 31일 소모품 패키지를 보도 기준으로 정리했다."
+  },
+  {
     slug: "namwon-yugok-durak-tumuli-gaya-world-heritage-unbong-guide-2026",
     title: "남원 유곡리·두락리 고분군 관람 정보, 40기 무덤에서 백제 거울이 나온 까닭은?",
     date: "2026-11-24",
