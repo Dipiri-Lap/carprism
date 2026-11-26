@@ -2,6 +2,90 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeoju-yeongneung-sejong-hyojong-royal-tombs-winter-hours-fee-guide-2026",
+    title: "여주 영녕릉 겨울 관람시간 17:30·입장료 500원, 세종과 효종의 두 '영릉'은 봉분 수부터 다르다",
+    date: "2026-11-26",
+    image: "se26_sj_snow.webp",
+    categories: ["travel"],
+    tags: ["영녕릉", "여주 세종대왕릉", "효종대왕릉", "조선왕릉", "왕의숲길"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 / 한국관광공사 / 경인일보·아시아경제 보도",
+    desc: "여주 세종대왕릉(英陵)과 효종릉(寧陵)의 차이, 11~1월 09:00~17:30·입장 마감 16:30, 관람료 500원, 수요일 무료, 왕의 숲길 폐쇄 사례, 역사문화관·해설·후문을 2026년 11월 26일 확인 자료로 정리했다."
+  },
+  {
+    slug: "hwaseong-yunggeolleung-yongjusa-winter-royal-tomb-temple-guide-2026",
+    title: "화성 융건릉·용주사 겨울 관람시간·입장료·해설, 16시 30분 마감 전 겹치는 14시 해설은 어디부터?",
+    date: "2026-11-26",
+    image: "yr26_hongsalmun_jeongjagak.webp",
+    categories: ["travel"],
+    tags: ["융건릉", "화성 융릉", "건릉", "용주사", "조선왕릉"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "궁능유적본부 / 국가유산청 오픈 API / 용주사 / 화성특례시 / 한국관광공사 / 이데일리·스타뉴스·더페어",
+    desc: "사도세자의 융릉·정조의 건릉(11~1월 09:00~17:30, 입장 마감 16:30, 1,000원)과 원찰 용주사(관람료·주차 무료)를 하루에 보는 순서, 겹치는 14시 해설, 관람료 인상 현황을 정리했다."
+  },
+  {
+    slug: "suwon-national-agricultural-museum-winter-indoor-hours-parking-guide-2026",
+    title: "수원 국립농업박물관 겨울 관람시간·휴관일·주차·예약, 9시 아닌 10시 개관에 2027년 2월 10일 수요일도 쉰다",
+    date: "2026-11-26",
+    image: "na26_greenhouse_arch.webp",
+    categories: ["travel"],
+    tags: ["수원", "국립농업박물관", "겨울실내나들이", "어린이박물관예약", "수원식물원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립농업박물관 누리집 / 수원특례시 / 한국관광공사 TourAPI",
+    desc: "수원 국립농업박물관의 관람시간(10~18시, 입장 마감 17시), 12~2월 휴관일, 무료 관람·주차, 어린이박물관 예약 개시일, 식물원·곤충관과 겨울 전시를 박물관 누리집 기준으로 정리했다."
+  },
+  {
+    slug: "check-engine-light-on-or-blinking-should-i-stop-manual-guide-2026",
+    title: "엔진 경고등, 지금 세워야 할까? 계속 켜짐·깜빡임 대처가 다르다… 휘발유차 촉매·ECU 보증은 7년·12만km",
+    date: "2026-11-26",
+    image: "ce26_hero_steady_vs_blink.webp",
+    categories: ["life"],
+    tags: ["엔진경고등", "체크엔진", "경고등점멸", "배출가스보증", "OBD진단기"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대·기아·제네시스·쉐보레·르노 설명서, 대기환경보전법 시행규칙, 카프리즘 계산",
+    desc: "엔진 경고등이 켜지면 지금 세워야 할까? 점등·점멸 대처, 견인 상황, 주유캡 등 원인, OBD 진단기, 2016년 이후 휘발유차 촉매·ECU 보증 7년·12만km(그 밖 5년·8만km)를 설명서와 법령으로 확인했다."
+  },
+  {
+    slug: "muffler-water-white-smoke-winter-normal-vs-coolant-leak-check-guide-2026",
+    title: "겨울 머플러 물·흰 연기, 고장일까? 휘발유 1L 태우면 물도 약 1L(계산)… 냉각수가 줄면 얘기가 다르다",
+    date: "2026-11-26",
+    image: "ex26_winter_traffic_vapor.webp",
+    categories: ["life"],
+    tags: ["머플러물", "흰연기", "배기구물", "냉각수감소", "겨울철차량관리"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 취급설명서, 포드·GM 정비통지(NHTSA 게시), 미국 fueleconomy.gov·EPA, PubChem, 카프리즘 계산",
+    desc: "겨울 머플러 물과 흰 연기는 연소로 생긴 수증기가 식은 것일 수 있다. 냉각수 감소·냄새·오래가는 진한 연기가 있으면 점검 대상이다. 휘발유 1L당 물 약 1L 계산과 냉각수 확인 4단계를 정리했다."
+  },
+  {
+    slug: "brake-abs-airbag-warning-light-keep-driving-stop-criteria-hyundai-kia-manual-guide-2026",
+    title: "브레이크 경고등 빨간불, 계속 타도 될까? ABS 경고등·에어백 경고등은 「지금 세우는 기준」이 서로 다르다",
+    date: "2026-11-26",
+    image: "bw26_05_cluster_anti_lock_lamp.webp",
+    categories: ["life"],
+    tags: ["브레이크경고등", "ABS경고등", "에어백경고등", "SRS", "브레이크액"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대·제네시스·기아 취급설명서(ko_KR), 자동차관리법 시행규칙 별표 15",
+    desc: "주행 중 브레이크 경고등은 안전한 곳에 정지가 먼저다. ABS 경고등 재시동 확인, 에어백 경고등(SRS) 점검, 브레이크 액 확인 순서를 현대·기아 설명서로 대조하고, 견인 판단(카프리즘 해석)과 자동차 검사기준도 정리했다."
+  },
+  {
+    slug: "hmg-global-slow-ev-charger-plug-and-charge-2027-korea",
+    title: "\"꽂으면 결제까지\" 공공 완속에도 PnC… 현대차그룹 통합 완속충전기 7·11kW, 2027년 국내 출시 예정",
+    date: "2026-11-26",
+    image: "wc26_four_brand_lineup.webp",
+    categories: ["electric", "domestic", "news"],
+    tags: ["HMG글로벌완속충전기", "현대차완속충전기", "플러그앤차지", "PnC", "현대케피코"],
+    badge: "EV NEWS",
+    badgeClass: "cat-ev",
+    source: "현대차그룹 보도자료(2025.12.18, 2026.7.7, 10.1, 11.25), 무공해차 통합누리집",
+    desc: "현대차그룹이 공개한 HMG 글로벌 완속충전기를 공식 보도자료로 정리했다. 7kW·11kW, 타입1, 설치 약 10분, 공공 완속 PnC, 2027년 국내 출시. 충전 시간 계산과 PnC 일정, 가격 등 미확인 항목까지 나눠 짚는다."
+  },
+  {
     slug: "namyangju-hongyureung-royal-tombs-emperor-tombs-winter-hours-fee-guide-2026",
     title: "남양주 홍유릉 겨울 관람시간·입장료 1,000원, 입장 마감 16시 30분에 황제릉 두 곳을 다 볼 수 있을까",
     date: "2026-11-25",
@@ -9867,7 +9951,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "joseon-royal-tombs-forest-trails-open-2026",
-    title: "\"의릉부터 여주 영릉까지 두 달 열린다\" — 조선왕릉 숲길 9곳 19.04km, 월요일 휴관·11월 16시 30분 폐장 확인하고 가야 할까",
+    title: "\"의릉부터 여주 영릉까지\" 조선왕릉 숲길 9곳 19.04km, 2026 가을 개방은 11월 29일까지·구간별 거리는?",
     date: "2026-09-30",
     image: "royaltombtrail_yungneung_pine_path.webp",
     categories: ["travel"],
@@ -9875,7 +9959,7 @@ window.ARTICLES_DATA = [
     badge: "TRAVEL TIPS",
     badgeClass: "cat-blue",
     source: "국가유산청 궁능유적본부·조선왕릉 공식 누리집 / 아시아경제·뉴스1·헤럴드경제 보도 종합",
-    desc: "국가유산청 궁능유적본부가 10월 1일~11월 29일 조선왕릉 숲길 9곳(19.04km)을 개방한다. 의릉 천장산 숲길을 포함한 9개 구간과 10월 9~17시·11월 9~16시 30분, 월요일 휴관, 관람료, 자동차 코스를 정리했다. 구간별 거리와 주차 정보는 확인하지 못했다."
+    desc: "2026년 가을 조선왕릉 숲길 9곳(19.04km) 개방은 10월 1일~11월 29일이다. 구간별 거리 775m~3,693m와 10월 9~17시·11월 9~16시 30분, 월요일 휴관, 관람료, 자동차 코스를 정리했다. 주차 정보는 확인하지 못했다."
   },
   {
     slug: "volvo-fh-electric-700km-long-haul-electric-truck-2026",
