@@ -2,6 +2,126 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "busan-gwangbokro-winter-light-tree-festival-2026-2027-dates-parking-transit-guide",
+    title: "부산 광복로 겨울빛 트리축제 2026~2027 일정·점등시간·주차, 작년보다 21일 짧은데 매일 30분 더 켠다",
+    date: "2026-11-27",
+    image: "gbt27_main_tree_night.webp",
+    categories: ["travel"],
+    tags: ["부산", "광복로", "겨울빛트리축제", "남포동", "용두산공원"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "광복로 겨울빛 트리축제 공식 안내 / 부산 중구 / 부산시설공단 / 비짓부산 / 한국관광공사",
+    desc: "2026 광복로 겨울빛 트리축제는 12월 4일~2027년 1월 31일 매일 17:30~22:30. 직전 두 시즌 비교, 남포역 동선, 공영주차장 요금과 용두산공원 연계를 정리했다."
+  },
+  {
+    slug: "uljin-national-marine-science-museum-underwater-observatory-winter-hours-fee-guide-2026",
+    title: "국립울진해양과학관 겨울 운영시간·휴관일·관람료, 17시 30분 폐관인데 바닷속전망대 입장은 16시 30분 마감?",
+    date: "2026-11-27",
+    image: "kos27_walkway_aerial.webp",
+    categories: ["travel"],
+    tags: ["국립울진해양과학관", "울진바닷속전망대", "바다마중길393", "울진가볼만한곳", "겨울실내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립울진해양과학관 누리집, 한국관광공사 TourAPI",
+    desc: "국립울진해양과학관 바닷속전망대의 겨울(11~2월) 운영시간은 09:30~17:00, 입장 마감 16:30이다. 휴관일, 무료 관람, 해설·교육 예약, 기상 임시휴관, 주차 161면과 버스 시간을 정리했다."
+  },
+  {
+    slug: "national-museum-of-world-writing-songdo-hunmaengjeongeum-100th-exhibition-hours-parking-guide-2026",
+    title: "국립세계문자박물관 훈맹정음 100주년 특별전·관람시간·휴관일·주차요금, 18시 폐관인데 17:30 입차 마감?",
+    date: "2026-11-27",
+    image: "wsm27_exterior_sign.webp",
+    categories: ["travel"],
+    tags: ["국립세계문자박물관", "훈맹정음", "송도", "인천여행", "실내여행"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립세계문자박물관 / 우주항공청 / 서울신문·경기일보 / 한국관광공사 TourAPI",
+    desc: "인천 송도 국립세계문자박물관의 훈맹정음 100주년 특별전(2027년 2월 14일까지), 관람시간·휴관일·무료 관람·예약, 전시해설 시간표, 주차요금과 감면, 센트럴파크역 가는 길을 공식 안내로 정리했다."
+  },
+  {
+    slug: "national-aviation-museum-gimpo-airport-hours-free-admission-experience-reservation-parking-winter-guide-2026",
+    title: "국립항공박물관 겨울 관람시간·체험 예약·주차요금, 전시는 무료·체험 온라인 예약은 격주 금요일 9시",
+    date: "2026-11-27",
+    image: "avm27_exterior_night.webp",
+    categories: ["travel"],
+    tags: ["국립항공박물관", "김포공항", "서울 실내 여행", "아이와 가볼 만한 곳", "체험 예약"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국립항공박물관 공식 누리집·항공도서관 누리집(2026-11-27 확인), 한국관광공사 TourAPI 사진",
+    desc: "김포공항 옆 국립항공박물관의 관람시간 10~18시, 휴관일, 무료 전시, 유료 체험 5종 요금과 격주 금요일 예약, 주차요금, 대중교통을 공식 안내로 확인했다."
+  },
+  {
+    slug: "headlight-taillight-moisture-condensation-vs-leak-owner-manual-warranty-inspection-guide-2026",
+    title: "전조등 습기, 세차 후 김서림이면 괜찮을까? 현대·기아 설명서 5종의 점검·문의 시점과 보증",
+    date: "2026-11-27",
+    image: "hl27_headlight_condensation_black_car.webp",
+    categories: ["life"],
+    tags: ["전조등습기", "후미등습기", "헤드램프김서림", "램프누수", "보증수리"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대·기아 웹 취급설명서, 현대 보증 제외 항목 안내, 자동차관리법 시행규칙",
+    desc: "전조등 습기는 세차·비 뒤라면 설명서상 자연현상이지만 계속 남으면 점검·문의 대상이다. 현대·기아 설명서 5종(상용차 1종 포함) 문구, 상태별 판단표, 보증기간·제외 항목, 자동차검사 등화장치 기준을 정리했다."
+  },
+  {
+    slug: "fuel-filler-door-ev-charging-door-wont-open-lock-lever-ice-manual-guide-2026",
+    title: "주유구·충전구 안 열릴 때 먼저 볼 3가지, 아반떼는 레버·투싼은 누름식…설명서의 「비상 케이블」은 어디용?",
+    date: "2026-11-27",
+    image: "fd27_photo_fuel_filler_open.webp",
+    categories: ["life"],
+    tags: ["주유구안열림", "충전구안열림", "연료주입구", "전기차충전구", "주유구레버"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아·제네시스 온라인 취급설명서(2026-11-27 확인), 현대 팰리세이드 LX2 미국 영문 설명서",
+    desc: "주유구 안 열림·전기차 충전구가 안 열릴 때 도어 잠금, 레버·누름식, 겨울 결빙부터 확인한다. 현대·기아·제네시스 취급설명서로 차종별 차이, 하지 말 것, 비상 해제 케이블의 용도, 정비 판단 기준을 대조했다."
+  },
+  {
+    slug: "gear-shift-stuck-in-park-p-shift-lock-release-neutral-guide-2026",
+    title: "기어 P에서 안 빠질 때, 부츠 벗기기 전에 볼 것은?… 시프트록 확인 5단계, 중립 전환 제한 3분 vs 20초",
+    date: "2026-11-27",
+    image: "sl27_ioniq5_cockpit.webp",
+    categories: ["life"],
+    tags: ["기어P에서안빠질때", "시프트록해제", "변속레버고착", "전자식변속다이얼", "배터리방전"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차·기아·제네시스 온라인 취급설명서(2024~2026년형, 2026.11.27 확인), 카프리즘 정리",
+    desc: "기어가 P에서 안 빠질 때 브레이크 페달·시동 상태·12V 배터리 확인 순서와 시프트록 해제 방법, 중립 전환 제한시간 3분·20초 차이, 상차 견인 조건을 현대·기아·제네시스 취급설명서로 차종별 정리했다."
+  },
+  {
+    slug: "car-heater-blowing-cold-air-coolant-temp-gauge-settings-check-order-guide-2026",
+    title: "자동차 히터 찬바람, \"더 틀면 되겠지\" 전에 수온계부터… AUTO 22℃·냉각수 MIN~MAX 6단계 점검",
+    date: "2026-11-27",
+    image: "ht27_hero_sonata_dn8_dashboard.webp",
+    categories: ["life"],
+    tags: ["히터찬바람", "자동차히터", "히터고장", "냉각수부족", "수온계"],
+    badge: "DRIVING TIPS",
+    badgeClass: "cat-blue",
+    source: "현대자동차 DN8 2026·NX4 HEV 2026, 기아 MQ4 2024 한국어 취급설명서(2026.11.27 확인), 카프리즘 해석",
+    desc: "자동차 히터에서 찬바람만 나올 때 수온계, AUTO·22℃ 설정, 예열, 냉각수 MIN~MAX를 현대차·기아 설명서로 확인한다. 서모스탯 의심 신호, 냄새·김서림 동반 때 대처와 정비 판단 6단계 순서까지 정리했다."
+  },
+  {
+    slug: "mercedes-benz-korea-recall-nov-2026-rear-fog-lamp-symbol-751-drive-shaft-7-a220-s450",
+    title: "벤츠 리콜 758대, 안개등 표시 751대·드라이브 샤프트 7대… GLE만인 줄 알았는데 A 220도 대상?",
+    date: "2026-11-27",
+    image: "mr27_gle_v167_side.webp",
+    categories: ["import", "news"],
+    tags: ["벤츠리콜", "GLE리콜", "A220리콜", "S450리콜", "후방안개등"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "참고: 국토교통부 자동차리콜센터 리콜현황(벤츠 2건, 작성일 2026-11-20)·고객통지문, 자동차관리법 시행규칙, 카프리즘 계산",
+    desc: "2026년 11월 25일 시작된 벤츠코리아 리콜 2건을 자동차리콜센터 상세 화면과 고객통지문으로 정리했다. 후방 안개등 표시기호 751대, 드라이브 샤프트 7대의 대상 차명·생산일, 시정방법, 자비수리 보상 기준일, 조회 순서를 담았다."
+  },
+  {
+    slug: "korea-october-2026-new-car-market-excluding-ev-down-5-percent-chuseok-sales-vs-registrations",
+    title: "10월 신차 내수 판매, 전기차 빼면 5.2% 감소… 추석 낀 9월과 합치면 -13.1%, +7.9%의 속사정은?",
+    date: "2026-11-27",
+    image: "ev27_ev_taxi_charging.webp",
+    categories: ["news", "domestic"],
+    tags: ["10월신차판매", "전기차제외", "자동차내수", "신규등록", "추석기저효과"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "산업통상부 자동차산업 동향(2025년 10월·2026년 9월·10월)·KAIDA, 교통뉴스(카차트·카이즈유)·모카·더파워·뉴스와·겟뉴스 보도",
+    desc: "2026년 10월 내수 판매는 13만 7,166대로 7.9% 늘었지만 전기차를 빼면 5.2% 줄었다. 판매·등록 기준 차이, 9·10월 합산 -13.1%, 1~10월 누적 -13.8%를 산업부 원문과 직접 계산으로 정리했다."
+  },
+  {
     slug: "yeoju-yeongneung-sejong-hyojong-royal-tombs-winter-hours-fee-guide-2026",
     title: "여주 영녕릉 겨울 관람시간 17:30·입장료 500원, 세종과 효종의 두 '영릉'은 봉분 수부터 다르다",
     date: "2026-11-26",
@@ -23607,15 +23727,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "korea-new-cars-2027-calendar",
-    title: "\"올해 살까, 한 해 더 기다릴까\"… 2027년으로 넘어가는 신차들",
+    title: "2027년 현대·기아·제네시스 신차 일정, 쏘렌토 완전변경은 \"2028년\" 보도… 제조사가 직접 밝힌 건 어디까지?",
     date: "2026-08-19",
     image: "genesis_gv90_neolun_front.webp",
     categories: ["domestic", "news"],
     tags: ["2027신차", "제네시스GV90", "쏘렌토풀체인지", "신차출시일정", "국산차신차"],
     badge: "UPCOMING",
     badgeClass: "cat-sales",
-    source: "글로벌오토뉴스",
-    desc: "2026년 하반기부터 2027년까지 이어지는 국산 신차 일정을 정리했다. 제네시스 GV90은 9월 9일 글로벌 공개가 예정돼 있고 예상 시작가는 1억 원대다. 기아 쏘렌토는 2027년 5세대 완전변경을 앞두고 있으며, 제네시스는 2026~2027년 2년간 8종의 신차를 예고했다. 확정된 정보와 전망을 구분해 정리했다."
+    source: "머니투데이·제조사 발표",
+    desc: "2027년 현대·기아·제네시스 신차 일정을 제조사 발표(PV7 하반기·EREV 상반기)와 매체 보도(코나·스포티지 등)로 나눴다. 쏘렌토 완전변경 2028년 보도, GV90·GV80 하이브리드 출시 가격, 친환경차 세금 감면의 현행 기한(2026년 12월 31일)을 11월 27일 확인 기준으로 정리했다."
   },
   {
     slug: "chaevi-highway-rest-area-chargers-131-2026",
@@ -26307,15 +26427,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "avante-grandeur-hybrid-recall-august-2026",
-    title: "\"출시 첫 주부터 리콜 명단에\"… 8세대 아반떼 하이브리드, 축포 터지자마자 악재",
+    title: "아반떼·그랜저 하이브리드 리콜 16만8,181대… 아반떼는 8세대 신형이 아니었다, 내 차 제작일은 대상 기간일까?",
     date: "2026-08-07",
-    image: "avante_cn8_front_reveal.webp",
+    image: "hpb01_avante_hev.webp",
     categories: ["domestic"],
-    tags: ["아반떼하이브리드리콜", "그랜저하이브리드리콜", "하이브리드통합제어기결함", "8월자동차리콜", "아반떼CN8리콜"],
+    tags: ["아반떼하이브리드리콜", "그랜저하이브리드리콜", "하이브리드통합제어기결함", "8월자동차리콜", "아반떼CN7리콜"],
     badge: "RECALL",
     badgeClass: "cat-red",
     source: "오토트리뷴",
-    desc: "계약 첫날 1만1,094대 신기록을 세운 지 며칠 만에, 아반떼 하이브리드가 2만6,356대 리콜 대상에 올랐다. 그랜저 하이브리드 14만1,825대와 같은 결함으로, 8월 13일부터 시정조치가 시작된다."
+    desc: "국토부 발표를 바탕으로, 아반떼 하이브리드(7세대) 2만6,356대와 그랜저 하이브리드 14만1,825대가 통합 제어기 소프트웨어 문제로 리콜된다. 제작 기간은 차종마다 다르며 8월 13일부터 시정조치가 시작됐다."
   },
   {
     slug: "trailblazer-vs-seltos-vs-kona-2026",
