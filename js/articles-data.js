@@ -13227,7 +13227,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "goheung-naro-space-center-2026",
-    title: "\"발사 순간, 바다 건너 15km에서도 보인다\"… 전국 유일 우주발사기지 고흥 나로우주센터 가는 법",
+    title: "\"발사 순간, 바다 건너 17km에서도 보인다\"… 전국 유일 우주발사기지 고흥 나로우주센터·전망대 가는 법",
     date: "2026-09-20",
     image: "goheung_naro_nuri_launchpad_transport.webp",
     categories: ["travel"],
@@ -13799,7 +13799,7 @@ window.ARTICLES_DATA = [
     badge: "신차공개",
     badgeClass: "cat-gen",
     source: "제네시스 뉴스룸",
-    desc: "제네시스가 8월 19일(현지시간) 미국 샌프란시스코에서 브랜드 최초의 풀사이즈 플래그십 전기 SUV 'GV90'을 세계 최초 공개했다. 123.5kWh 배터리와 657마력 듀얼모터, 코치도어를 적용한 '네오룬' 트림까지 지금까지 확인된 제원과 9월 국내 전시 일정, 예상 가격을 정리했다."
+    desc: "제네시스가 8월 19일(현지시간) 미국 샌프란시스코에서 브랜드 최초의 풀사이즈 플래그십 전기 SUV 'GV90'을 세계 최초 공개했다. 123.5kWh 배터리와 666마력(PS) 듀얼모터, 코치도어를 적용한 '네오룬' 트림까지 지금까지 확인된 제원과 9월 국내 전시 일정, 예상 가격을 정리했다."
   },
   {
     slug: "nissan-skyline-r36-reveal-2026",
@@ -22419,7 +22419,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "kia-sorento-mq5-full-change-delayed-2027",
-    title: "\"안 팔려서가 아니라 잘 팔려서 미뤘다\"… 쏘렌토 풀체인지의 사정",
+    title: "쏘렌토 풀체인지 MQ5, 2027년 연기설에서 2028년 보도까지… 기아 공식 출시일은 확인 안 됐다",
     date: "2026-08-23",
     image: "kr_sorento_mq4_hybrid.webp",
     categories: ["domestic"],
@@ -22427,7 +22427,7 @@ window.ARTICLES_DATA = [
     badge: "UPCOMING",
     badgeClass: "cat-blue",
     source: "엠투데이",
-    desc: "기아가 차세대 쏘렌토 MQ5의 국내 출시를 2026년에서 2027년으로 미뤘다. 북미와 유럽은 2028년 초로 전망된다. 완성도 확보가 명분이지만, 2020년 나온 현행 MQ4가 여전히 판매 상위권을 지키고 있다는 점이 배경으로 꼽힌다. 예상 제원은 전장 4,850mm에 휠베이스 2,820mm이며 파워트레인은 하이브리드 중심이다."
+    desc: "차세대 쏘렌토 MQ5는 8월 2027년 연기설에 이어 10~11월 2028년 생산·출시 보도가 나왔다. 기아 공식 출시일은 확인되지 않았다. 거론된 연기 배경과 예상 제원을 정리했다."
   },
   {
     slug: "hyundai-tucson-5th-gen-overseas-reaction",
@@ -22827,7 +22827,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "kia-k9-discontinued-2026-flagship-sedan",
-    title: "\"6,585대에서 734대로\"… K9이 14년 만에 접히는 이유",
+    title: "\"6,585대에서 734대로\"… 기아 K9 2026년 말 단종 보도, 기아는 \"결정된 바 없다\"",
     date: "2026-08-22",
     image: "kia_k9_rj_fl_a.webp",
     categories: ["domestic", "news"],
@@ -22835,7 +22835,7 @@ window.ARTICLES_DATA = [
     badge: "DISCONTINUED",
     badgeClass: "cat-red",
     source: "한국경제",
-    desc: "기아 K9의 국내 판매가 2022년 6,585대에서 2025년 1,581대, 2026년 상반기 734대로 급감했다. 2026년 말 오토랜드 광명에서 생산을 중단해 2세대를 끝으로 14년 만에 단종될 전망이다. 가격은 3.8 가솔린 6,800만 원대부터 5.0 V8 9,000만 원대까지다."
+    desc: "기아 K9 국내 판매는 2022년 6,585대, 2025년 1,581대, 2026년 상반기 734대로 줄었다. 2026년 말 생산 중단 방침이 7월에 보도됐으나 기아는 결정된 바 없다고 부인했다. 판매 추이와 파워트레인, 구매 전 확인할 점을 정리했다."
   },
   {
     slug: "kgm-actyon-hybrid-single-trim-2026",
@@ -26019,7 +26019,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "car-market-corporate-senior-buyers-2026",
-    title: "\"20대는 안 사고 70대는 산다\"… 2026년 상반기 승용차 시장의 이상한 역전",
+    title: "\"20대는 줄고 70대는 늘었다\"… 2026년 상반기 개인 승용차 연령별 구매, 1~8월 집계는 반대였다",
     date: "2026-08-10",
     image: "usedcar_price_dealership_lot.webp",
     categories: ["news"],
@@ -26027,7 +26027,7 @@ window.ARTICLES_DATA = [
     badge: "MARKET",
     badgeClass: "cat-sales",
     source: "오토트리뷴",
-    desc: "2026년 상반기 국내 승용차 구매에서 20대 이하는 15.7% 급감한 반면 70대 이상은 유일하게 6.7% 증가했다. 법인차 비중은 34.9%까지 늘고 전기차 렌트는 108.9% 폭증했다. 세대별 소비 패턴이 뒤바뀐 이유를 정리했다."
+    desc: "2026년 상반기 개인 승용차 신차 구매(KAMA 분석 보도)에서 20대 이하는 15.7% 줄고 70대 이상은 6.7% 늘었다. 법인 비중 34.9%, 전기차 렌트·리스 108.9% 증가와 1~8월 다른 집계의 반대 흐름을 정리했다."
   },
   {
     slug: "lamborghini-revuelto-miura-60-edition-2026",
@@ -27683,7 +27683,7 @@ window.ARTICLES_DATA = [
     badge: "RECALL",
     badgeClass: "cat-sales",
     source: "MBC뉴스 / 토픽트리",
-    desc: "국토교통부가 4월 22일 발표한 현대·기아·KGM·한국토요타 17개 차종 53만 2,144대 리콜, 넉 달이 지난 지금도 시정을 받지 않은 차량이 적지 않다는 점을 정리했다."
+    desc: "국토교통부가 4월 발표한 현대·기아·KGM·토요타 17개 차종 53만 2,144대 리콜. 레이 시동꺼짐, 싼타페 안전띠, 토레스 계기판, 프리우스 뒷문 핸들 결함과 시정조치 확인 방법을 정리했다."
   },
   {
     slug: "hyundai-kia-hybrid-sales-ira-tariff-2026",
@@ -27891,7 +27891,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "kia-sportage-6th-gen-rumor-2027",
-    title: "\"가솔린 완전히 버린다\"… 기아 스포티지 6세대, 2027년 하이브리드 올인",
+    title: "스포티지 6세대, 가솔린 폐지설과 유지설이 엇갈린다… 2027년 완전변경 보도 속 기아 공식 발표는 아직",
     date: "2026-07-30",
     image: "btuc13b_sportage_nq5_front.webp",
     categories: ["news", "domestic"],
@@ -27899,7 +27899,7 @@ window.ARTICLES_DATA = [
     badge: "RUMOR",
     badgeClass: "cat-hyundai",
     source: "뉴스와 / 클리앙",
-    desc: "기아 스포티지 완전변경(NQ6)이 2027년 3분기 출시를 목표로 개발 중이다. 가솔린·디젤·LPG를 없애고 HEV·PHEV로 단순화하는 파워트레인 전략과 예상 정보를 정리했다."
+    desc: "기아 스포티지 6세대(NQ6)의 2027년 완전변경 보도를 정리했다. 가솔린·디젤·LPG 폐지설과 가솔린 유지설이 엇갈리며 기아 공식 발표는 확인되지 않았다."
   },
   {
     slug: "santa-fe-facelift-2026",
@@ -27927,7 +27927,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "hyundai-casper-2026my-price-2026",
-    title: "\"옵션 값 안 내도 다 있다\"… 2026년형 캐스퍼, 최대 91만원 올랐지만 그럴 만한 이유",
+    title: "현대 캐스퍼 2027년형 가격 1,546만 원부터… \"1,493만 원은 이전 연식\", 일렉트릭까지 트림별 비교",
     date: "2026-07-30",
     image: "hyundai_casper_2026.webp",
     categories: ["domestic"],
@@ -27935,7 +27935,7 @@ window.ARTICLES_DATA = [
     badge: "PRICE UPDATE",
     badgeClass: "cat-hyundai",
     source: "다나와 자동차 / 현대자동차그룹",
-    desc: "현대차가 2026년형 캐스퍼·캐스퍼 일렉트릭을 출시했다. 최대 91만원 오른 가격과 트림별 기본 사양 강화 내용, 풀옵션 가격까지 정리했다."
+    desc: "캐스퍼·캐스퍼 일렉트릭의 현행 2027년형 가격(1,546만 원부터)과 2025년 7월 발표된 2026년형 가격을 트림별로 비교했다."
   },
   {
     slug: "tesla-fsd-korea-launch-safety-2026",
@@ -28335,7 +28335,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "first-car-recommendation-top5-2026",
-    title: "첫차 추천 TOP 5 — 1,395만원 모닝부터 니로 하이브리드까지 예산별 총정리",
+    title: "첫차 추천 TOP 5, 모닝 1,421만원부터 니로 하이브리드 2,927만원까지 현행 시작가·복합연비 비교",
     date: "2026-07-24",
     image: "kia_morning.webp",
     categories: ["news", "domestic"],
@@ -28343,7 +28343,7 @@ window.ARTICLES_DATA = [
     badge: "BUYING GUIDE",
     badgeClass: "cat-sales",
     source: "CAR INFO",
-    desc: "사회초년생·초보운전자를 위한 첫차 추천 TOP 5를 예산순으로 정리했다. 기아 모닝, 현대 캐스퍼, 기아 레이, 현대 아반떼, 기아 니로 하이브리드까지 가격·연비·유지비를 비교했다."
+    desc: "모닝·캐스퍼·레이·아반떼·니로 하이브리드를 현행 시작가가 낮은 순서로 정리했다. 공식 가격표 기준 가격과 복합연비를 작성 당시 값과 함께 비교했다."
   },
   {
     slug: "kia-k8-2027-review",
