@@ -2,6 +2,102 @@
 // 새 기사를 발행할 때마다 이 배열에 항목 하나를 추가할 것.
 window.ARTICLES_DATA = [
   {
+    slug: "yeosu-goheung-baengni-island-road-sea-bridges-drive-course-guide-2026",
+    title: "여수~고흥 백리섬섬길 드라이브 코스·개통 구간·전망대 주차, 다리 11개 중 7개 열려도 한 번에 못 잇는 이유",
+    date: "2026-11-28",
+    image: "bnr28_jobaldo_aerial_hero.webp",
+    categories: ["travel"],
+    tags: ["백리섬섬길", "여수", "고흥", "해상교량", "드라이브코스"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "국토교통부 / 여수시 / 고흥군 / 한국관광공사 / 지역 언론 보도",
+    desc: "여수 백야도에서 고흥까지 이어 달리는 백리섬섬길의 개통 구간, 내비 목적지, 다리별 연장, 전망 지점 주차와 겨울 강풍 통제 확인법을 정리했다."
+  },
+  {
+    slug: "goheung-geogeumdo-coastal-road-geogeum-bridge-nokdong-drive-course-guide-2026",
+    title: "고흥 거금도 드라이브·거금대교 2층 차도·휴게소 주차, 34km 자전거 일주와 46.2km 둘레길은 어떻게 다를까?",
+    date: "2026-11-28",
+    image: "ggd28_bridge_aerial_deck.webp",
+    categories: ["travel"],
+    tags: ["고흥", "거금도", "거금대교", "녹동항", "거금휴게소"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "고흥군 관광 / 자전거행복나눔 / 한국관광공사 / 한국민족문화대백과사전",
+    desc: "녹동항에서 소록대교·거금대교를 건너 거금도를 도는 드라이브 코스. 자전거길 안내값 약 8km·34km, 거금대교 2층 차도, 휴게소 주차, 야간조명, 강풍 통제를 정리했다."
+  },
+  {
+    slug: "namhae-mulmi-coastal-road-mulgeon-windbreak-forest-mijo-port-drive-course-guide-2026",
+    title: "남해 물미해안도로 드라이브 코스·전망대 요금·주차, 물건리~미조항 15km, 화요일에 가면 전망대 문이 닫혀 있다?",
+    date: "2026-11-28",
+    image: "mlm28_observatory_parking.webp",
+    categories: ["travel"],
+    tags: ["남해", "물미해안도로", "물건리방조어부림", "물미해안전망대", "보물섬전망대"],
+    badge: "TRAVEL TIPS",
+    badgeClass: "cat-blue",
+    source: "남해군 관광 누리집 / 국가유산청 / 한국관광공사",
+    desc: "남해 물미해안도로(삼동면 물건리~미조항, 약 15km)의 내비 목적지와 정차 지점, 물건리 방조어부림, 물미해안전망대 무료·클리프워크 요금과 화요일 휴무, 주차, 겨울 일몰 시각을 공식 자료로 정리했다."
+  },
+  {
+    slug: "korea-most-recalled-cars-2025-model-ranking-units-and-count-kotsa-open-data",
+    title: "2025년 리콜 많은 차 순위, 12월 22일까지 대수 1위 포터 35만9천 대·횟수 1위 BMW 5시리즈 (카프리즘 집계)",
+    date: "2026-11-28",
+    image: "rcr28_chart_units_top10.webp",
+    categories: ["news"],
+    tags: ["2025리콜순위", "리콜많은차", "포터리콜", "봉고리콜", "BMW5시리즈리콜"],
+    badge: "DATA",
+    badgeClass: "cat-sales",
+    source: "한국교통안전공단 차종별 리콜대수(20251222, 공공데이터포털, 2026-11-28 내려받음), 자동차리콜센터 리콜현황 대조, 카프리즘 집계",
+    desc: "한국교통안전공단 차종별 리콜대수를 카프리즘이 직접 집계했다. 2025년 1월~12월 22일 대수 1위 현대 포터Ⅱ 359,105대, 횟수 1위 BMW 5시리즈 11건. 품질 순위가 아닌 이유와 차명 묶음 기준을 함께 정리했다."
+  },
+  {
+    slug: "korea-new-car-registrations-by-age-group-20s-decline-60s-rise-ten-year-change-official",
+    title: "연령별 신차 등록 10년 변화, 60대 비중 9.6%→18.5%로 뛸 때 20대는 얼마나 밀려났나(보도 기준)",
+    date: "2026-11-28",
+    image: "age28_avante_showroom.webp",
+    categories: ["news"],
+    tags: ["연령별신차등록", "20대신차", "60대신차", "신차등록통계", "카이즈유데이터연구소"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: 아시아경제·천지일보·이코노미스트(2026.2), 더파워(2026.1.6)의 카이즈유데이터연구소 집계 보도, SBS Biz·파이낸셜뉴스·디지털타임스·오토트리뷴의 KAMA 집계 보도, 행정안전부 주민등록 인구통계, 카프리즘 계산",
+    desc: "개인 승용 신차 등록 비중은 2016년과 2025년 사이 20대 8.8%→5.6%, 60대 9.6%→18.5%로 바뀌었다. 분모 110만 대의 의미, 2025년 대수, 행정안전부 인구 변화, 1,000명당 등록, KAMA 수치와의 차이를 정리했다. 2026년 1~8월에는 20대가 늘고 60대가 줄어든 집계도 함께 정리했다."
+  },
+  {
+    slug: "korea-october-2026-least-sold-domestic-car-models-bottom-ranking-maker-sales-release",
+    title: "10월 국산 승용차 판매 하위 10, K9 70대·렉스턴 75대(발표 보도 기준)… 0대 코란도는 왜 빠졌나",
+    date: "2026-11-28",
+    image: "opt01_k9_front.webp",
+    categories: ["domestic"],
+    tags: ["10월국산차판매", "판매하위모델", "K9", "렉스턴", "G70"],
+    badge: "MARKET",
+    badgeClass: "cat-sales",
+    source: "참고: 현대차그룹 뉴스룸, KG모빌리티 보도자료, 카매거진·라이센스뉴스·비즈니스포스트·중앙이코노미뉴스(제조사 월간 판매 발표 보도), 카프리즘 계산",
+    desc: "2026년 10월 국산 승용 모델 국내 판매 하위 10개를 발표 보도 기준으로 9월과 비교하고, 확인되는 6개는 전년 10월과도 비교했다. K9 70대, 렉스턴 75대, G70 98대이며 0대·픽업·상용은 따로 표시했다."
+  },
+  {
+    slug: "hyundai-kia-winter-options-heated-seat-steering-remote-start-heat-pump-trim-price-comparison-2026",
+    title: "현대·기아 열선시트·열선핸들 옵션 가격 비교, 입문 트림 10종 중 열선 3가지 모두 기본은 그랜저·싼타페·쏘렌토",
+    date: "2026-11-28",
+    image: "ev3review_snow_front.webp",
+    categories: ["domestic", "news"],
+    tags: ["열선시트옵션", "열선핸들", "2열열선시트", "원격시동", "히트펌프"],
+    badge: "BUYING GUIDE",
+    badgeClass: "cat-sales",
+    source: "현대자동차·기아 공식 가격표 PDF, 기아 공식 가격 페이지",
+    desc: "현대·기아 공식 가격표로 10개 차종의 1열·2열 열선시트, 열선 핸들, 원격 시동이 어느 트림부터 기본인지와 패키지 추가금, 아이오닉 5·EV3 히트펌프 적용을 비교했다."
+  },
+  {
+    slug: "cadillac-lyriq-vistiq-korea-brake-software-recall-337-units-november-2026",
+    title: "캐딜락 리릭·비스틱 리콜 337대, 저속 회전 중 요철 지나 브레이크 다시 밟으면 제동력이 떨어질 수 있다? 대상 생산일은",
+    date: "2026-11-28",
+    image: "cdr28_lyriq_front_street.webp",
+    categories: ["import", "news"],
+    tags: ["캐딜락리콜", "리릭리콜", "비스틱리콜", "브레이크리콜", "전자식브레이크"],
+    badge: "RECALL",
+    badgeClass: "cat-red",
+    source: "참고: 국토교통부 자동차리콜센터 리콜현황(지엠아시아 리릭·비스틱)·고객통지문, NHTSA 26V717 Part 573 보고서, ZDNet 코리아(비스틱 출시), 카프리즘 계산",
+    desc: "캐딜락 리릭·비스틱 337대 국내 리콜을 자동차리콜센터 상세 화면과 고객통지문으로 정리했다. 대상 생산일, 제동력 저하 발생 조건, 최대 1시간 무상 업데이트, 조회 방법, 보상 기준일, 미국 리콜과의 차이를 담았다."
+  },
+  {
     slug: "busan-gwangbokro-winter-light-tree-festival-2026-2027-dates-parking-transit-guide",
     title: "부산 광복로 겨울빛 트리축제 2026~2027 일정·점등시간·주차, 작년보다 21일 짧은데 매일 30분 더 켠다",
     date: "2026-11-27",
@@ -16359,15 +16455,15 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "new-license-plate-regulation-2026",
-    title: "\"야간에 잘 안 보인다더니\"… 2026년 11월, 번호판이 6배 밝아집니다",
+    title: "필름식 번호판 새 기준 11월 28일 시행, 반사성능 \"최대 6배\"… 새 번호판 바로 받을 수 있을까, 전기차는?",
     date: "2026-09-11",
-    image: "license-plate-2026_1.webp",
+    image: "license-plate-2026_3.webp",
     categories: ["life"],
     tags: ["개선형번호판", "자동차번호판교체", "번호판반사성능", "국토교통부번호판고시", "번호판보증기간"],
     badge: "POLICY UPDATE",
     badgeClass: "cat-blue",
     source: "엠투데이 / 대한민국 정책브리핑",
-    desc: "2026년 11월 28일부터 반사성능이 최대 6배 강화된 개선형 자동차 번호판이 시행된다. 5년 보증기간 명문화, 생산정보 표시 의무화 등 달라지는 점과 기존 차량 교체 의무 여부를 정리했다."
+    desc: "2026년 11월 28일부터 필름식 번호판 새 품질 기준이 시행됐다. 고시 원문으로 확인한 반사성능 표, 강화된 시험, 5년 보증, 생산정보 표시와 발급 전 확인할 것을 정리했다."
   },
   {
     slug: "school-zone-regulation-2026",
@@ -23879,7 +23975,7 @@ window.ARTICLES_DATA = [
     badge: "DRIVING TIPS",
     badgeClass: "cat-sales",
     source: "카프리즘",
-    desc: "냉각수(부동액)는 엔진 과열과 동결을 동시에 막는 액체다. 일반 부동액은 약 2년 또는 4~6만km마다, 현대차 장수명 냉각수는 최초 10년 또는 20만km에 교환하고 이후에는 2년 또는 4만km마다 교환한다. 희석 비율은 물과 50대 50이 기준이며, 수돗물 대신 증류수를 써야 부식을 막을 수 있다."
+    desc: "냉각수(부동액)는 엔진 과열과 동결을 동시에 막는 액체다. 일반 부동액은 약 2년 또는 4~6만km마다, 현대차 장수명 냉각수는 최초 10년 또는 20만km에 교환하고 이후에는 2년 또는 4만km마다 교환한다. 혼합 비율은 차종별 설명서를 따르고, 짠물·지하수 같은 경수는 쓰지 않는다."
   },
   {
     slug: "car-recall-lookup-guide",
@@ -25539,7 +25635,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "cadillac-vistiq-korea-cert-2026",
-    title: "\"1회 충전 438km\"… 캐딜락 비스틱, 환경부 인증 통과로 국내 출시 임박",
+    title: "캐딜락 비스틱 국내 출시 1억 8,170만 원(보도 기준)… 3열 6인승 전기 SUV, 주행거리는 430km·438km 두 값",
     date: "2026-08-11",
     image: "cadillac_vistiq_front_official.webp",
     categories: ["import", "electric"],
@@ -25547,7 +25643,7 @@ window.ARTICLES_DATA = [
     badge: "GLOBAL EV",
     badgeClass: "cat-ev",
     source: "오토트리뷴",
-    desc: "캐딜락 대형 전기 SUV 비스틱이 국내 환경부 인증을 통과했다. 102kWh 배터리, 615마력 듀얼모터, 3열 7인승 구성으로 리릭과 에스컬레이드 IQ 사이를 채울 이 차의 스펙과 출시 전망을 정리했다."
+    desc: "캐딜락 비스틱이 11월 27일 플래티넘 단일 트림 1억 8,170만 원에 국내 출시됐다(보도 기준). 3열 6인승, 102kWh, 615마력, 주행거리 430km와 8월 인증 보도 438km, 브레이크 리콜 확인 사항을 정리했다."
   },
   {
     slug: "lexus-es-2027-price-under-50000",
@@ -26103,7 +26199,7 @@ window.ARTICLES_DATA = [
   },
   {
     slug: "recall-scale-ranking-2026",
-    title: "넉 달 새 다섯 번... 2026년 최다 리콜 규모로 줄 세워봤다",
+    title: "2026년 4~8월 자동차 리콜 4건 규모순(국내 3·미국 1)… 53만2,144대부터 8만6,543대까지, 내 차는?",
     date: "2026-08-08",
     image: "hyundai_grandeur_gn7_pe_front.webp",
     categories: ["news"],
@@ -26111,7 +26207,7 @@ window.ARTICLES_DATA = [
     badge: "RANKING",
     badgeClass: "cat-red",
     source: "카프리즘 자체 집계",
-    desc: "카프리즘이 다룬 2026년 리콜 소식만 모아도 다섯 건이다. 최대 53만2,144대부터 최소 8만6,543대까지, 규모순으로 재구성했다."
+    desc: "카프리즘이 다룬 2026년 4~8월 리콜 중 네 건(국토부 발표 3건·미국 리콜 1건)을 규모순으로 정리했다. 53만2,144대부터 포드 마하-E 8만6,543대까지, 결함 유형과 내 차 확인법을 담았다."
   },
   {
     slug: "delivery-wait-time-ranking-2026",
@@ -26567,7 +26663,7 @@ window.ARTICLES_DATA = [
     badge: "RECALL",
     badgeClass: "cat-red",
     source: "지피코리아",
-    desc: "그랜저 하이브리드 14만대는 과열로 인한 화재 우려, 투싼은 전방충돌방지 오작동, 카니발 9만9,889대까지 — 현대차·기아·제네시스 13개 차종 51만2,393대 리콜 사유와 신청 방법을 정리했다."
+    desc: "그랜저·아반떼 하이브리드는 과열 화재 우려, 투싼은 전방충돌방지 오작동, 카니발 9만9,889대는 연료 누유 우려. 현대차·기아·스텔란티스·혼다 13개 차종 51만2,393대 리콜 사유와 확인 방법을 정리했다."
   },
   {
     slug: "hyundai-avante-cn8-first-day-contract-record-2026",

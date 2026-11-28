@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carprism.tmhub.co.kr/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/electric.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/news.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/reviews.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/domestic.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/import.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/archive.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -89,7 +89,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/engine_bay_coolant_view.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-18T09:30:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1340,7 +1340,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/cadillac_vistiq_front_official.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-11T09:45:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1934,7 +1934,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/hyundai_grandeur_gn7_pe_front.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-08T21:00:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2132,7 +2132,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/hyundai_grandeur_gn7_pe_front.webp</image:loc>
     </image:image>
-    <lastmod>2026-08-07T10:00:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3329,7 +3329,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/hyundai_casper_2026.webp</image:loc>
     </image:image>
-    <lastmod>2026-07-25T15:00:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3365,7 +3365,7 @@
     <image:image>
       <image:loc>https://img.tmhub.co.kr/carprism/kia_morning.webp</image:loc>
     </image:image>
-    <lastmod>2026-07-24T22:00:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -7763,7 +7763,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/new-license-plate-regulation-2026.html</loc>
-    <lastmod>2026-09-11T23:00:00+09:00</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -10331,7 +10331,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/ev-not-charging-troubleshooting-guide.html</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -10577,7 +10577,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/popular-used-cars-top10-2026.html</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -11999,7 +11999,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/hyundai-grandeur-hybrid-2027-owner-rating-price-trims-2026.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -12827,7 +12827,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/uljin-jukbyeon-lighthouse-harbor-coast-drive-guide-2026.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -13709,7 +13709,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/headlight-yellowing-restoration-vs-replacement-cost-inspection-standard-guide-2026.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14117,7 +14117,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/car-door-frozen-wont-open-winter-do-not-pull-guide-2026.html</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14609,7 +14609,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/chevrolet-cadillac-brake-recall-67000-vehicles-nhtsa-korea-check-2026.html</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15845,7 +15845,7 @@
   </url>
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/muffler-water-white-smoke-winter-normal-vs-coolant-leak-check-guide-2026.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15930,6 +15930,54 @@
   <url>
     <loc>https://carprism.tmhub.co.kr/articles/busan-gwangbokro-winter-light-tree-festival-2026-2027-dates-parking-transit-guide.html</loc>
     <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/cadillac-lyriq-vistiq-korea-brake-software-recall-337-units-november-2026.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/hyundai-kia-winter-options-heated-seat-steering-remote-start-heat-pump-trim-price-comparison-2026.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-october-2026-least-sold-domestic-car-models-bottom-ranking-maker-sales-release.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-new-car-registrations-by-age-group-20s-decline-60s-rise-ten-year-change-official.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/korea-most-recalled-cars-2025-model-ranking-units-and-count-kotsa-open-data.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/namhae-mulmi-coastal-road-mulgeon-windbreak-forest-mijo-port-drive-course-guide-2026.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/goheung-geogeumdo-coastal-road-geogeum-bridge-nokdong-drive-course-guide-2026.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carprism.tmhub.co.kr/articles/yeosu-goheung-baengni-island-road-sea-bridges-drive-course-guide-2026.html</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
